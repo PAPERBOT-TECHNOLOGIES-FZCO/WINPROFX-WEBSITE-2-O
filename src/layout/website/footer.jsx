@@ -1,0 +1,237 @@
+import React from 'react'
+import Logo from '@/components/logo';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom'
+import Social from '@/components/social'
+import { Container } from '@/components/grid'
+import { duration, once, y } from '@/utilities/animation'
+
+import bg from '@/assets/img/footer-bg.png'
+import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png'
+
+export default function Footer() {
+  const footer_items = [
+    {
+      title: 'Explore',
+      links: [
+        {
+          name: 'Home',
+          path: '/'
+        },
+        {
+          name: 'Platform',
+          path: '/platform'
+        },
+        {
+          name: 'About Us',
+          path: '/about-us'
+        },
+        {
+          name: 'Our IB',
+          path: '/'
+        },
+        {
+          name: 'Holiday Schedule ',
+          path: '/'
+        },
+        {
+          name: 'Education',
+          path: '/'
+        },
+        {
+          name: 'News & Insights',
+          path: '/'
+        },
+        {
+          name: 'Join Our Team',
+          path: '/'
+        },
+        {
+          name: 'Contact Us',
+          path: '/'
+        },
+        {
+          name: 'Sitemap',
+          path: '/'
+        },
+        {
+          name: 'Trading View',
+          path: '/'
+        },
+      ]
+    },
+    {
+      title: 'Markets',
+      links: [
+        {
+          name: 'Forex',
+          path: '/forex'
+        },
+        {
+          name: 'Indices',
+          path: '/indices'
+        },
+        {
+          name: 'Crypto',
+          path: '/crypto'
+        },
+        {
+          name: 'Metals',
+          path: '/trading/metals'
+        },
+        {
+          name: 'Commodities',
+          path: '/trading/commodities'
+        },
+        {
+          name: 'Oil',
+          path: '/trading/oil'
+        },
+      ]
+    },
+  ]
+
+  const copyright_links = [
+    {
+      name: 'Privacy Policy',
+      path: '/policy'
+    },
+    {
+      name: 'Terms & Conditions',
+      path: '/terms'
+    },
+    {
+      name: 'AML Policy',
+      path: '/aml-policy'
+    },
+    {
+      name: 'Deposit & withdrawal Policy',
+      path: '/deposit-withdraw'
+    },
+    {
+      name: 'Restricted Countries',
+      path: '/restricted-countries'
+    },
+    {
+      name: 'Risk Disclosure',
+      path: '/risk-disclosure'
+    },
+    {
+      name: 'Client Services Agreement',
+      path: '/'
+    },
+  ]
+
+  return (
+    <div className='footer relative z-1 overflow-hidden xl:px-9 pt-6 md:pt-0'>
+      <img src={bg} className='hidden md:block absolute top-0 left-0 size-full object-cover pointer-events-none -z-10' alt="" />
+      <img src={footer_bg_mobile} className='md:hidden absolute top-0 left-0 size-full object-cover pointer-events-none -z-10' alt="" />
+      <div className='block w-full h-68 rounded-full bg-primary -z-10 absolute bottom-0 left-0 blur-[400px]' />
+      <motion.h4
+        initial={{ opacity: 0, scale: 2 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: duration, delay: 0.2 }}
+        viewport={{ once: once, amount: 0.2 }}
+        className='text-center select-none text-[18.5vw] leading-none bg-[linear-gradient(90deg,rgba(2,4,8,1)_0%,rgba(255,255,255,1)_50%,rgba(2,4,8,1)_100%)]'>WINPROFX</motion.h4>
+      <Container>
+        <motion.div
+          initial={{ opacity: 0, y: y }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: duration, delay: 0.4 }}
+          viewport={{ once: once, amount: 0.2 }}
+          className="grid grid-cols-2 md:flex flex-wrap justify-between gap-x-6 lg:gap-x-8 xl:gap-x-0 2xl:gap-x-10 gap-y-6 mt-6 md:mt-9 lg:mt-12">
+          <div className="flex flex-col gap-y-4 text-center xl:text-start xl:max-w-60 w-full mb-2 md:mb-8 xl:mb-0 col-span-2">
+            <Logo className='h-14 mx-auto xl:mx-0' />
+            <p>One platform. Multiple markets. Endless trading opportunities with WinproFX.</p>
+          </div>
+
+          {footer_items.map((item, idx) => (
+            <div className="flex flex-col gap-y-4" key={idx}>
+              <strong className='block text-base text-white'>{item.title}</strong>
+              <div className="flex flex-col gap-y-4">
+                {item.links.map((link, lidx) => (
+                  <Link to={link.path} className='block text-para text-sm md:text-base leading-tight hover:text-white hover:translate-x-1' key={lidx}>{link.name}</Link>
+                ))}
+              </div>
+            </div>
+          ))}
+
+          <div className="flex flex-col gap-y-4 col-span-2">
+            <strong className='block text-base text-white'>Contact Info</strong>
+            <div className="flex flex-col gap-y-4">
+              <a target='_blank' href="https://www.wa.me/" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_1_75463)">
+                    <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#E3E4E9" />
+                    <path d="M17.2909 6.70865C16.0424 5.4477 14.3844 4.67439 12.616 4.52823C10.8475 4.38206 9.08506 4.87266 7.64647 5.91153C6.20789 6.95039 5.1879 8.46914 4.77048 10.1938C4.35305 11.9185 4.56568 13.7356 5.37001 15.3173L4.58046 19.1505C4.57227 19.1886 4.57204 19.2281 4.57978 19.2663C4.58752 19.3045 4.60307 19.3408 4.62546 19.3727C4.65826 19.4212 4.70507 19.4586 4.75965 19.4798C4.81423 19.501 4.87398 19.505 4.93091 19.4914L8.68773 18.6009C10.265 19.3849 12.0692 19.5838 13.7794 19.1624C15.4896 18.7409 16.9948 17.7264 18.0272 16.2993C19.0596 14.8723 19.5522 13.1252 19.4174 11.369C19.2826 9.61281 18.529 7.96142 17.2909 6.70865ZM16.1195 16.0577C15.2557 16.9191 14.1434 17.4878 12.9392 17.6835C11.7351 17.8792 10.4999 17.6921 9.40773 17.1487L8.8841 16.8896L6.58091 17.435L6.58773 17.4064L7.06501 15.0882L6.80864 14.5823C6.25059 13.4863 6.05373 12.2418 6.24626 11.0271C6.43879 9.81235 7.01084 8.68972 7.88046 7.82002C8.97315 6.72767 10.4549 6.11402 12 6.11402C13.5451 6.11402 15.0269 6.72767 16.1195 7.82002C16.1289 7.83069 16.1389 7.84071 16.1496 7.85002C17.2287 8.94518 17.8311 10.4226 17.8255 11.9601C17.8199 13.4976 17.2067 14.9705 16.1195 16.0577Z" fill="#020408" />
+                    <path d="M15.9153 14.3567C15.633 14.8013 15.1871 15.3454 14.6266 15.4804C13.6448 15.7176 12.138 15.4885 10.263 13.7404L10.2398 13.7199C8.59118 12.1913 8.163 10.919 8.26664 9.90991C8.32391 9.33718 8.80118 8.819 9.20346 8.48082C9.26706 8.42654 9.34247 8.38789 9.42368 8.36797C9.50488 8.34805 9.58962 8.34741 9.67112 8.36609C9.75262 8.38478 9.82861 8.42227 9.89303 8.47558C9.95744 8.52889 10.0085 8.59653 10.0421 8.67309L10.6489 10.0367C10.6883 10.1251 10.703 10.2226 10.6912 10.3187C10.6794 10.4148 10.6417 10.5059 10.5821 10.5822L10.2753 10.9804C10.2094 11.0626 10.1697 11.1626 10.1612 11.2676C10.1527 11.3726 10.1758 11.4777 10.2275 11.5695C10.3994 11.8708 10.8112 12.314 11.268 12.7245C11.7807 13.1881 12.3494 13.6122 12.7094 13.7567C12.8057 13.7961 12.9116 13.8057 13.0134 13.7843C13.1153 13.7629 13.2084 13.7115 13.2807 13.6367L13.6366 13.2781C13.7053 13.2104 13.7907 13.1621 13.8841 13.1381C13.9776 13.1142 14.0757 13.1154 14.1685 13.1417L15.6098 13.5508C15.6893 13.5752 15.7622 13.6175 15.8229 13.6743C15.8836 13.7312 15.9304 13.8012 15.9599 13.879C15.9894 13.9567 16.0007 14.0402 15.9929 14.123C15.9852 14.2058 15.9586 14.2858 15.9153 14.3567Z" fill="#020408" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_75463">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg> Whatsapp
+              </a>
+              <a target='_blank' href="mailto:support@winprofx.com" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.6715 14.6642C13.1739 15.0023 12.5959 15.181 12 15.181C11.4042 15.181 10.8262 15.0023 10.3286 14.6642L2.13316 9.09625C2.0877 9.06536 2.0434 9.03316 2 9.00004V18.1238C2 19.1698 2.83301 20 3.84114 20H20.1589C21.1854 20 22 19.1511 22 18.1238V9C21.9565 9.0332 21.9121 9.06548 21.8666 9.09641L13.6715 14.6642Z" fill="#E3E4E9" />
+                  <path d="M2.7832 8.27583L10.9786 13.6924C11.2889 13.8975 11.6444 14 12 14C12.3555 14 12.7111 13.8975 13.0214 13.6924L21.2168 8.27583C21.7072 7.95189 22 7.40974 22 6.82461C22 5.81849 21.1743 5 20.1595 5H3.84051C2.82566 5.00004 2 5.81853 2 6.82557C2 7.40974 2.29281 7.95189 2.7832 8.27583Z" fill="#E3E4E9" />
+                </svg> support@winprofx.com
+              </a>
+              <a target='_blank' href="tel:+971 4 447 1894" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.528 16.2102L18.0108 13.6982C17.1117 12.8011 15.5834 13.16 15.2238 14.3262C14.9541 15.1337 14.0551 15.5822 13.246 15.4028C11.4479 14.9542 9.02061 12.6217 8.57111 10.7377C8.3014 9.93026 8.84081 9.03313 9.64992 8.76403C10.8186 8.40518 11.1782 6.88007 10.2792 5.98294L7.76199 3.47099C7.04278 2.843 5.96397 2.843 5.33466 3.47099L3.62653 5.17553C1.9184 6.96978 3.80633 11.7245 8.0317 15.941C12.2571 20.1575 17.0218 22.1312 18.8199 20.3369L20.528 18.6324C21.1573 17.9147 21.1573 16.8382 20.528 16.2102Z" fill="#E3E4E9" />
+                </svg> +971 4 447 1894
+              </a>
+              <Social />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-y-0 col-span-2 md:max-w-56 lg:max-w-75 2xl:max-w-100">
+            <strong className='block text-base text-white mb-3.5'>Address</strong>
+            <div className="mb-4 md:mb-6 lg:mb-8">
+              <p className='text-sm md:text-base leading-normal text-para mb-4'>Registered Address: Office No.14, Sea Grape Avenue, Rodney Bay,Gros-islet,Saint Lucia.</p>
+              <p className='text-sm md:text-base leading-normal text-para'>Registration Number: 2023-00197</p>
+            </div>
+            <div className="">
+              <strong className='block text-base text-white mb-3.5'>Physical Rep. Office</strong>
+              <p className='text-sm md:text-base leading-normal text-para'>Office No. 1003 , Nassima Tower, Trade Center 1, Sheikh Zayed Road - Dubai</p>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: y }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: duration, delay: 0.2 }}
+          viewport={{ once: once, amount: 0.2 }}
+          className="rounded-2xl md:rounded-3xl lg:rounded-[30px] border border-solid border-white/12 bg-white/6 backdrop-blur-lg p-4 md:p-6 lg:p-8 mt-8 lg:mt-10 flex flex-col gap-y-6 md:gap-y-8">
+          <div className="flex flex-col gap-y-3">
+            <strong className='text-xl font-semibold leading-tight text-white'>Risk Warning</strong>
+            <p className='text-sm md:text-base leading-normal text-para'>Please note that forex trading and trading in other leveraged products involves a significant level of risk and is not suitable for all investors. Trading in financial instruments may result in losses as well as profits and your losses can be greater than your initial invested capital. Before undertaking any such transactions, you should ensure that you fully understand the risks involved and seek independent advice if necessary.</p>
+          </div>
+          <div className="flex flex-col gap-y-3">
+            <strong className='text-xl font-semibold leading-tight text-white'>Restricted Regions</strong>
+            <p className='text-sm md:text-base leading-normal text-para'>WinproFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar,India, North Korea, Sudan. The services of WinproFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: y }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: duration, delay: 0.2 }}
+          viewport={{ once: once, amount: 0.2 }}
+          className="mt-6 md:mt-8 lg:mt-10 flex flex-col md:flex-row flex-wrap items-center justify-center lg:justify-between gap-x-4 lg:gap-x-0 xl:gap-x-6 2xl:gap-x-8 gap-y-1 md:gap-y-2">
+          {copyright_links.map((item, idx) => (
+            <Link to={item.path} className='bg-white/1 backdrop-blur-[100px] border border-white/12 border-solid md:bg-transparent md:border-transparent w-full md:w-max text-center rounded-full min-h-13 md:min-h-auto flex items-center justify-center text-base lg:text-xs xl:text-base leading-tight text-white hover:text-primary hover:-translate-y-0.5' key={idx}>{item.name}</Link>
+          ))}
+        </motion.div>
+
+        <div className="py-4 md:py-6 flex items-center justify-center text-center border-t border-solid border-white/10 mt-4 md:mt-6">
+          <p>© {new Date().getFullYear()} All Rights Reserved By WinproFx</p>
+        </div>
+      </Container>
+    </div>
+  )
+}

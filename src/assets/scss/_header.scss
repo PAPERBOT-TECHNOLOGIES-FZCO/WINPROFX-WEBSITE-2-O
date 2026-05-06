@@ -1,0 +1,94 @@
+@keyframes headerAnimation {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.heading {
+    --navbar-padding-y: 24px;
+    --navbar-padding-x: 24px;
+    padding: var(--navbar-padding-y) var(--navbar-padding-x);
+
+    @include xl {
+        --navbar-padding-y: 16px;
+        --navbar-padding-x: 16px;
+    }
+
+    @include md {
+        --navbar-padding-y: 8px;
+        --navbar-padding-x: 8px;
+    }
+
+    @include sm {
+        --navbar-padding-y: 8px;
+        --navbar-padding-x: 8px;
+    }
+
+    &.fixed {
+        position: fixed;
+        animation: headerAnimation .5s linear;
+        // background-color: rgba($color: $bg, $alpha: .70);
+        // backdrop-filter: blur(10px);
+        --navbar-padding-y: 16px;
+
+        @include md {
+            --navbar-padding-y: 8px;
+        }
+
+        @include sm {
+            --navbar-padding-y: 8px;
+        }
+    }
+
+    &-menu {
+        @include mmd {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba($color: $black, $alpha: .98);
+            backdrop-filter: blur(30px);
+            padding: 24px;
+            z-index: 9;
+            transform: translateX(-150%);
+            @include transition;
+
+            &.show-menu {
+                transform: translate(0, 0);
+            }
+        }
+
+        @include sm {
+            padding: 16px;
+        }
+    }
+
+    &-toggler {
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-btn {
+
+        &.active,
+        &:hover {
+            border-radius: 8px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%), linear-gradient(0deg, rgba(203, 203, 225, 0.00) 0%, rgba(203, 203, 225, 0.00) 100%), rgba(203, 203, 225, 0.04);
+            box-shadow: 0 -4px 12px -4px rgba(255, 255, 255, 0.08) inset, 0 1px 3px 0 rgba(255, 255, 255, 0.06) inset, 0 0.5px 0.5px 0 rgba(255, 255, 255, 0.12) inset, 0 8px 8px -3px rgba(9, 1, 20, 0.06), 0 3px 3px -1.5px rgba(8, 1, 20, 0.06), 0 2px 2px -1px rgba(8, 1, 20, 0.04), 0 1px 1px -0.5px rgba(8, 1, 20, 0.03), 0 0.5px 0.5px 0 rgba(8, 1, 20, 0.03);
+        }
+
+        &.active {
+            &:hover {
+                background-color: $primary;
+                color: $black;
+            }
+        }
+    }
+}

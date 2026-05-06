@@ -1,0 +1,5 @@
+export const buy_now ='/'
+export const twitter ='/'
+export const telegram ='/'
+export const dexscreener ='/'
+export const discord ='/'

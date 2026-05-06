@@ -1,0 +1,105 @@
+@import "tailwindcss";
+@custom-variant hover (&:hover);
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-primary: #00D9FF;
+    --color-secondary: #00C8EB;
+    --color-para: #B7BCC1;
+    --color-para2: #CFE6F2;
+    --color-main-bg:#020408;
+    --color-white-color:#EDEDED;
+    --breakpoint-xs: 390px;
+    --breakpoint-sm: 414px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1240px;
+    --breakpoint-2xl: 1312px;
+    --breakpoint-3xl: 2500px;
+    --breakpoint-4xl: 2900px;
+    --font-inter: "Inter", sans-serif;
+    --font-satoshi: 'Satoshi', sans-serif;
+}
+
+@layer base {
+    body {
+        @apply font-inter text-para text-sm md:text-base font-normal leading-normal bg-main-bg;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-family: var(--font-satoshi);
+        font-weight: 400;
+}  
+    h1{
+        background: var(--Text, linear-gradient(180deg, #FFF 0%, #595D66 134.69%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } 
+
+    h2,
+    h3,
+    h4 {
+        background: var(--Headline-color, linear-gradient(90deg, #595D66 -35.05%, #FFF 31.82%, #595D66 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .h1{
+        @apply text-2xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium;
+    }
+    .h2{
+        @apply text-2xl md:text-4xl lg:text-5xl leading-tight font-normal;
+    }
+
+    button {
+        cursor: pointer;
+    }
+    img{
+        @apply max-w-full select-none outline-0
+    }
+    a{
+        @apply no-underline transition-all duration-300;
+    }
+    input,
+    textarea,
+    button {
+        @apply outline-0 transition-all duration-300
+    }
+}
+
+@layer components{
+    .main-shadow{
+        @apply hover:shadow-[0_212px_59px_0_rgba(0,213,255,0.00),0_136px_54px_0_rgba(0,213,255,0.02),0_76px_46px_0_rgba(0,213,255,0.08),0_34px_34px_0_rgba(0,213,255,0.14),0_8px_19px_rgba(0,213,255,0.16)]!;
+    }
+    .accordion-body ul{
+        @apply flex flex-col gap-y-2 my-2;
+    }
+    .accordion-body ul li{
+        @apply flex items-center gap-2.5 text-sm md:text-base text-white;
+    } 
+    .padding-top-245{
+        @apply pt-28 lg:pt-40 xl:pt-50 2xl:pt-62;
+    }
+    .heading-gradient-2{
+        background: var(--Text, linear-gradient(180deg, #FFF 0%, #595D66 134.69%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .icon-shadow{
+        box-shadow: 0 4px 4px 0 rgba(0, 217, 255, 0.25) inset, -42px 103px 31px 0 rgba(0, 217, 255, 0.00), -27px 66px 29px 0 rgba(0, 217, 255, 0.01), -15px 37px 24px 0 rgba(0, 217, 255, 0.03), -7px 17px 18px 0 rgba(0, 217, 255, 0.04), -2px 4px 10px 0 rgba(0, 217, 255, 0.05);
+    }
+    .table{
+        @apply border-spacing-y-2 border-separate -mt-2;
+    }
+    .table thead th{
+        @apply text-sm font-inter text-white font-normal py-2.5 px-6 text-start capitalize;
+    }
+    .table tbody tr{
+        @apply border border-solid border-white/10;
+    }
+    .table tbody tr td{
+        @apply text-sm  md:text-base leading-normal font-inter text-white font-medium py-4 px-6 border-y border-solid border-white/10 text-start capitalize first:border-l last:border-r bg-main-bg/10 backdrop-blur-lg first:rounded-tl-full first:rounded-bl-full last:rounded-tr-full last:rounded-br-full;
+    }
+}

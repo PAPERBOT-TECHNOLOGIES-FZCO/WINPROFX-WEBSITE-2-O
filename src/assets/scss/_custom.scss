@@ -1,0 +1,63 @@
+.policy-card {
+    & h4 {
+        font-size: 24px;
+    }
+}
+
+.card-bg-gradient {
+    background: linear-gradient(112deg, rgba(0, 217, 255, 0.10) 0%, rgba(0, 217, 255, 0.00) 35.49%), rgba(255, 255, 255, 0.03);
+}
+
+.payoutform {
+    .custom-checkbox {
+        .select-none {
+            @media only screen and (max-width: 767px) {
+                max-width: 300px;
+            }
+        }
+    }
+}
+
+
+@keyframes border-spin {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.card-glow {
+    --angle: 0deg;
+    animation: border-spin 4s linear infinite;
+    background: conic-gradient(from var(--angle),
+            transparent 70%,
+            rgba($color: $primary, $alpha: .30) 85%,
+            rgba(255, 255, 255, 0.3) 90%,
+            rgba($color: $primary, $alpha: .30) 95%,
+            transparent 100%);
+}
+
+.what-mobile{
+    .swiper{
+        &-pagination{
+            bottom: 0 !important;
+            margin-bottom: -30px;
+        }
+        &-pagination-bullet{
+            --swiper-pagination-bullet-inactive-color:#fff;
+            --swiper-pagination-bullet-size:10px;
+            &-active{
+               background-color: $primary;
+            }
+        }
+    }
+}

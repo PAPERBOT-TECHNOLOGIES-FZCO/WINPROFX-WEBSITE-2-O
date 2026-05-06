@@ -1,0 +1,86 @@
+@layer base {
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration {
+        display: none;
+    }
+}
+
+@layer components {
+    .common {
+        &-padding {
+            --padding-y: 120px;
+            --padding-x: 0;
+            padding: var(--padding-y) var(--padding-x);
+
+            @include xl {
+                --padding-y: 100px;
+            }
+
+            @include lg {
+                --padding-y: 80px;
+            }
+
+            @include md {
+                --padding-y: 50px;
+            }
+
+            @include sm {
+                --padding-y: 32px;
+            }
+        }
+    }
+
+    [class*="overflow-"],
+    [class*="overflow-"] {
+        @include custom-scroll(var(--scroll, 6px));
+    }
+
+    #root {
+        overflow: hidden;
+    }
+
+    .gradient {
+        &-text-primary {
+            --rotate: 90deg;
+            background: linear-gradient(var(--rotate, 90deg), var(--color-primary) 0%, #007DFF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            @include transition;
+
+            &:hover {
+                --rotate: 180deg;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1920px) {
+        .banner-h-screen {
+            min-height: 100vh;
+        }
+    }
+}
+
+.become-area {
+    p {
+        span {
+            font-weight: 700;
+            color: #fff;
+            display: block;
+        }
+    }
+}
