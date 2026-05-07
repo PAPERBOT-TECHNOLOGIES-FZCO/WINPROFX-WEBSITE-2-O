@@ -50,7 +50,7 @@ export default function Card({ meta = "", title = '', des = '', img }) {
                 <div className="flex flex-col gap-y-5 mb-6 md:mb-8">
                     {des}
                 </div>
-                <Button animation={false} to="/register" />
+                <Button animation={false} to="https://my.winprofx.org/register" />
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, x: y }}

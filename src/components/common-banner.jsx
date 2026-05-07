@@ -20,7 +20,7 @@ export default function CommonBanner({
   des = "",
   desClass = "max-w-150 mx-auto lg:max-w-200",
   buttonText = "Open Account",
-  buttonLink = "/register",
+  buttonLink = "https://my.winprofx.org/register",
   secondButtonText = "",
   secondButtonLink = "" }) {
   return (

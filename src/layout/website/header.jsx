@@ -210,8 +210,8 @@ export default function Header() {
                 <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6'>Introducing Broker</Link>
               </li>
               <li className="flex lg:hidden items-center gap-4 mt-4 border-t border-solid border-white/10 pt-4">
-                <Link className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' to='/login'>Login</Link>
-                <Link className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' to='/register'>Register</Link>
+                <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
+                <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
               </li>
             </ul>
           </nav>
@@ -219,8 +219,8 @@ export default function Header() {
           <div className="heading-actions flex items-center flex-wrap gap-2">
             <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6 hidden md:block lg:hidden xl:inline-block'>Introducing Broker</Link>
             <LangulageSelect className='flex lg:hidden xl:flex' />
-            <Link className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' to='/login'>Login</Link>
-            <Link className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' to='/register'>Register</Link>
+            <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
+            <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
 
             {/* Mobile menu button */}
             <button className="heading-toggler lg:hidden!" onClick={() => setIsMenu(!isMenu)}>

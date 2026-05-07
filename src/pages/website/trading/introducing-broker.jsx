@@ -30,7 +30,7 @@ export default function WinPromotion2() {
                 }
                 desClass="max-w-135 mx-auto"
                 buttonText="Become a Partner"
-                buttonLink="/register"
+                buttonLink="https://my.winprofx.org/register"
             />
             <Advantages />
             <Benefits />

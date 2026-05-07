@@ -64,8 +64,8 @@ export default function StartTrading() {
         </div>
         <div className="text-center">
             <div className="mb-4 lg:mb-6 mt-4 lg:mt-8 flex items-center justify-center gap-4">
-              <Button delay='0.5' />             
-              <ButtonTwo text="Login" to="/login" />
+              <Button delay='0.5' to='https://my.winprofx.org/register' />             
+              <ButtonTwo text="Login" to="https://my.winprofx.org/login" />
             </div>
             <p>Questions? Call us at <Link href="tel:+97144471894">+971 4 447 1894</Link> or visit <Link href="https://winprofx.org">winprofx.org</Link></p>
         </div>
