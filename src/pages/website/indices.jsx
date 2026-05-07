@@ -7,6 +7,7 @@ import Cta from '@/components/trade/cta';
 import banner_bg from '@/assets/img/trade/indices-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/indices.png'
+import SeoHead from '@/components/seo-head'
 
 
 export default function Indices() {
@@ -36,6 +37,12 @@ export default function Indices() {
     ]
     return (
         <>
+            <SeoHead
+                title="Best Indices Trading Platform in India | WinproFX"
+                description="Explore the best indices trading app and platform in India with WinproFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your trading experience."
+                keywords="Best Indices Trading App in India, WinProFX Indices Trading Platform, Free Funded Accounts, Indices Brokers in India, Indices Trading India, Low Spreads Indices Trading, User-Friendly Indices Trading App"
+                canonicalPath="/indices"
+            />
             <CommonBanner
                 containerClass="text-center lg:text-start max-w-180 lg:max-w-210"
                 bg={banner_bg}

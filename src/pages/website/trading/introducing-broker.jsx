@@ -6,9 +6,16 @@ import Advantages from '@/components/introducing-broker/Advantages';
 import Benefits from '@/components/introducing-broker/Benefits';
 import Calculate from '@/components/introducing-broker/Calculate';
 import PayoutForm from '@/components/introducing-broker/PayoutForm';
+import SeoHead from '@/components/seo-head'
 export default function WinPromotion2() {
     return (
         <div>
+            <SeoHead
+                title="Introducing Broker Program | WinproFX"
+                description="Join WinproFX's Introducing Broker program. Earn competitive commissions by referring clients to the world's leading forex broker. Apply today!"
+                keywords="Introducing Broker, IB Program, Forex IB, WinproFX IB, Broker Referral Program, Forex Commission, IB Partnership"
+                canonicalPath="/introducing-broker"
+            />
             <TopShape />
             <CommonBanner
                 className="3xl:min-h-300!"

@@ -6,6 +6,7 @@ import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import Accordion from "@/components/accordion";
 import CommonTitle from "@/components/common-title";
+import SeoHead from '@/components/seo-head'
 
 
 import banner_bg from '@/assets/img/economic-calender/bg.png';
@@ -144,6 +145,12 @@ export default function EconomicCalendar() {
 
     return (
         <>
+            <SeoHead
+                title="Economic Calendar | WinproFX"
+                description="Stay updated with WinproFX's Economic Calendar. Track major market events like GDP announcements & interest rate changes to enhance your trading strategy."
+                keywords="Economic Calendar, Forex Events, Market Events, Interest Rate Decisions, GDP Announcements, Trading Calendar, WinproFX Calendar"
+                canonicalPath="/economic-calendar"
+            />
             <div className="padding-top-245 overflow-hidden min-h-140 md:min-h-180 lg:min-h-190 xl:min-h-230 2xl:min-h-283 3xl:min-h-screen bg-black relative z-1">
                 <TopShape />
                 <img className="absolute bottom-0 left-0 w-full h-auto object-cover -z-10 pointer-events-none" src={banner_bg} alt="Banner Background" />

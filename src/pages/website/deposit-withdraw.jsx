@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 export default function DepositWithdraw() {
     const info = [
@@ -177,6 +178,11 @@ export default function DepositWithdraw() {
     ]
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="Deposit & Withdrawal Policy | WinproFX"
+                description="Understand WinproFX's Deposit & Withdrawal Policy for secure transactions. Learn our procedures and terms for managing your funds efficiently. Click to view details!"
+                canonicalPath="/deposit-withdraw"
+            />
             <TopShape />
             <PolicyTitle
                 title="Deposit & Withdrawal Policy"

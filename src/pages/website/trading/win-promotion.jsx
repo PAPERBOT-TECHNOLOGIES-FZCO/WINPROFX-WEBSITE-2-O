@@ -10,10 +10,17 @@ import Eligibility from '@/components/promotion/Eligibility'
 import TopShape from '@/components/top-shape';
 import PtConditions from '@/components/promotion/PtConditions';
 import StartTrading from '@/components/promotion/StartTrading';
+import SeoHead from '@/components/seo-head'
 
 export default function WinPromotion() {
     return (
         <>
+            <SeoHead
+                title="Win Promotion | Trade to Win | WinproFX"
+                description="Join WinproFX's exclusive Win Promotion. Trade more, earn more rewards with our tiered reward program designed for active traders."
+                keywords="WinproFX Promotion, Trade to Win, Forex Trading Rewards, Trading Bonuses, WinproFX Incentives"
+                canonicalPath="/trading/win-promotion"
+            />
             <TopShape />
             <CommonBanner
                 className="3xl:min-h-300!"

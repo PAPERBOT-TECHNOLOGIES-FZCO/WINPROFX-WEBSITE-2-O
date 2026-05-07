@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 export default function RestrictedCountries() {
     const info = [
@@ -64,6 +65,11 @@ export default function RestrictedCountries() {
 
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="Restricted Countries | WinproFX"
+                description="View the list of countries restricted from trading on WinproFX due to regulatory and legal constraints. Click for full details!"
+                canonicalPath="/restricted-countries"
+            />
             <TopShape />
             <PolicyTitle
                 meta="Last Updated: Jun 7, 2024"

@@ -7,6 +7,7 @@ import Cta from '@/components/trade/cta';
 import banner_bg from '@/assets/img/trade/forex-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/forex.png'
+import SeoHead from '@/components/seo-head'
 
 export default function Forex() {
     const item = [
@@ -36,10 +37,13 @@ export default function Forex() {
 
     return (
         <>
+            <SeoHead
+                title="Best Forex Trading Platform for Beginners & Experts | WinproFX"
+                description="Explore the dynamic world of Forex trading with WinproFX. Trade 24/5 in the world's largest financial market. Start your forex journey today."
+                keywords="Forex Trading Platform, Best Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WinProFX Forex Services"
+                canonicalPath="/forex"
+            />
             <CommonBanner
-                bg={banner_bg}
-                bgClass="bottom-0 md:left-1/2 md:-translate-x-1/2 object-contain w-auto h-auto"
-                meta="Forex trading"
                 title="Move your money with global currency markets"
                 des="Trade 24/5 on assets in the foreign exchange market. We offer over 50 major, minor, and exotic currency pairs, with competitive spreads, sharp prices, fast execution, and 0% commission."
             />

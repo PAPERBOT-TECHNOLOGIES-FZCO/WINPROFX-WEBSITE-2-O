@@ -8,6 +8,7 @@ import MetaText from '@/components/meta-text';
 import Button from '@/components/button';
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
+import SeoHead from '@/components/seo-head'
 
 import banner_bg from '@/assets/img/trade/oil-bg.png'
 import banner_img from '@/assets/img/trade/oil-banner.png'
@@ -39,6 +40,12 @@ export default function Oil() {
 
     return (
         <>
+            <SeoHead
+                title="Best Oil Trading Platform in India | WinproFX"
+                description="Discover the best oil trading app and platform in India with WinproFX. Trade crude oil with free funded accounts, low spreads, and advanced tools to enhance your trading success."
+                keywords="Best Oil Trading App in India, WinProFX Oil Trading Platform, Free Funded Accounts, Oil Brokers in India, Oil Trading India, Low Spreads Oil Trading, Crude Oil Trading India, User-Friendly Oil Trading App"
+                canonicalPath="/trading/oil"
+            />
             <div className="relative z-1 min-h-screen overflow-hidden flex items-center pt-0 md:pt-40 lg:pt-40 xl:pt-50">
                 <img src={banner_bg} className={`absolute top-0 left-0 w-full h-full object-cover -z-10 pointer-events-none`} alt="" />
                 <Container className="max-w-375!">

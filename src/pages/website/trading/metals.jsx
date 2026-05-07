@@ -7,6 +7,7 @@ import Cta from '@/components/trade/cta';
 import banner_bg from '@/assets/img/trade/metals-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/metals.png'
+import SeoHead from '@/components/seo-head'
 
 export default function Metals() {
     const item = [
@@ -38,6 +39,12 @@ export default function Metals() {
 
     return (
         <>
+            <SeoHead
+                title="Best Metals Trading Platform in India | WinproFX"
+                description="Explore the best metals trading app and platform in India with WinproFX. Trade gold, silver, and more with free funded accounts, low spreads, and advanced tools."
+                keywords="Best Metals Trading App in India, WinProFX Metals Trading Platform, Free Funded Accounts, Metals Brokers in India, Metals Trading India, Low Spreads Metals Trading, Gold and Silver Trading India, User-Friendly Metals Trading App"
+                canonicalPath="/trading/metals"
+            />
             <CommonBanner
                 bg={banner_bg}
                 bgClass="bottom-0 md:left-1/2 md:-translate-x-1/2 w-full object-contain w-auto h-auto"

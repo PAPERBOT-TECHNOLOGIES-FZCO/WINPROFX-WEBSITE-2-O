@@ -8,10 +8,17 @@ import ChooseAccount from "@/components/accounts/choose-account";
 import FeatureComparison from "@/components/accounts/feature-comparison";
 import video from "@/assets/img/accounts/accounts.webm";
 import CtaTwo from "../../components/cta-two";
+import SeoHead from "@/components/seo-head";
 
 export default function Accounts() {
   return (
     <>
+      <SeoHead
+        title="Best Online Forex Trading Account Types | WinproFX"
+        description="Discover tailored trading accounts at WinproFX to suit your needs. Choose from Standard, Pro, or ECN accounts. Explore Now!"
+        keywords="Forex Trading Accounts, Standard Account, Pro Account, ECN Account, WinproFX Account Types, Best Forex Account, Online Trading Account"
+        canonicalPath="/accounts"
+      />
       <TopShape />
       <CommonBanner
         className="3xl:min-h-275! bg-[#010101]!"

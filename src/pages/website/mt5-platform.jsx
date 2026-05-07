@@ -12,6 +12,7 @@ import TopShape from '../../components/top-shape';
 import PlatformCard from '../../components/mt5/platform-card';
 import PaymentFlow from '../../components/payment-flow';
 import DemoCta from '../../components/demo-cta';
+import SeoHead from '@/components/seo-head'
 
 // Demo data for platform cards
 const platformCardsData = [
@@ -35,6 +36,12 @@ export default function Mt5Platform() {
 
   return (
     <>
+      <SeoHead
+        title="Best Forex Trading Platform | MT5 | Top Forex Brokers | WinproFX"
+        description="Experience advanced trading with WinproFX's MT5 platform, available on both mobile and web. Click to explore more!"
+        keywords="Forex Trading Platform, WinProFX Trading Platform, Best Forex Platform, MT5 Trading Platform, Forex Trading Tools, CFD Trading Platform, Commodities Trading Platform, Online Trading Solutions, Advanced Trading Platform, Forex Market Tools"
+        canonicalPath="/platform"
+      />
       <TopShape />
       <CommonBanner
         className="3xl:min-h-350!"

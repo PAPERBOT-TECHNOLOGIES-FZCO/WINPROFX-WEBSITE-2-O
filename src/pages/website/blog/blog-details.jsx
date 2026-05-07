@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container } from '@/components/grid'
 import PolicyTitle from '@/components/policy/policy-title'
+import SeoHead from '@/components/seo-head'
 
 import img_1 from '@/assets/img/blog/1.png'
 import shape from '@/assets/img/blog/shape.png'
@@ -32,6 +33,11 @@ export default function BlogDetails() {
     }
     return (
         <div className='padding-top-245 -mt-4 md:mt-0 common-padding'>
+            <SeoHead
+                title={single_blog.title + ' | WinproFX'}
+                description={single_blog.des}
+                canonicalPath={`/blog/${single_blog.id || ''}`}
+            />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
                 <PolicyTitle

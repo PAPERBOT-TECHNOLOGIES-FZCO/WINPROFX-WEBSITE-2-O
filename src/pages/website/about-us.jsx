@@ -11,6 +11,7 @@ import PaymentFlow from '../../components/payment-flow';
 import DemoCta from '@/components/demo-cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion'
+import SeoHead from '@/components/seo-head'
 
 
 import img_1 from '@/assets/img/home/news/2.png'
@@ -233,6 +234,12 @@ export default function AboutUs() {
 
     return (
         <>
+            <SeoHead
+                title="About Us | WinproFX"
+                description="Learn about WinproFX, a leader in forex trading, offering advanced platforms and comprehensive support to empower traders globally. Click to know more!"
+                keywords="Forex Trading Experts, Forex Trading Team, Forex Platform, Forex Trading Company, WinproFX Services Overview, Best Forex Trading Broker Platform, Best Forex Market Trading Platform"
+                canonicalPath="/about-us"
+            />
             <TopShape />
             <CommonBanner
                 videoBg={video}

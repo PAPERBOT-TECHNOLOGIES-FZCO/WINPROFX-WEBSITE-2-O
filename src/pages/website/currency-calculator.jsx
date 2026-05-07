@@ -13,6 +13,7 @@ import OrderCalculator from "@/components/currency/order-calculator";
 import video from "@/assets/img/currency-calculator/currency-calculator-video.webm";
 import CalculatorDisclaimer from "@/components/currency/calculator-disclaimer";
 import TradingStarts from "./home/trading-starts";
+import SeoHead from "@/components/seo-head";
 
 export default function CurrencyCalculator() {
   // faq item
@@ -81,6 +82,12 @@ export default function CurrencyCalculator() {
 
   return (
     <>
+      <SeoHead
+        title="Currency Calculator | WinproFX"
+        description="Streamline your trading calculations with WinproFX's currency calculator. Efficiently manage trades and understand costs like margin and pip values. Calculate now!"
+        keywords="Currency Calculator, Forex Calculator, Pip Calculator, Margin Calculator, Trading Calculator, WinproFX Tools"
+        canonicalPath="/currency-calculator"
+      />
       <style jsx global>{`
         p + div{
         display:none !important;

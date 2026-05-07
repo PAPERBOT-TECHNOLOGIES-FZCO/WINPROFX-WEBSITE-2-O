@@ -4,6 +4,7 @@ import { Container } from '@/components/grid'
 import PolicyTitle from '@/components/policy/policy-title'
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
+import SeoHead from '@/components/seo-head'
 
 import img_1 from '@/assets/img/blog/1.png'
 import img_2 from '@/assets/img/blog/2.png'
@@ -112,6 +113,12 @@ export default function Blog() {
 
     return (
         <div className='padding-top-245 -mt-4 md:mt-0 common-padding'>
+            <SeoHead
+                title="Blog | News & Insights | WinproFX"
+                description="Stay informed with the latest financial news on WinproFX. Our blog offers timely updates and expert analysis on forex, crypto, metals, and more."
+                keywords="Forex Blog, Trading News, Market Insights, WinproFX Blog, Forex Analysis, Crypto News, Trading Tips"
+                canonicalPath="/blog"
+            />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
                 <PolicyTitle

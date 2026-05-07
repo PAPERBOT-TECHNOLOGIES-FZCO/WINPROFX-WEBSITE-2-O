@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 export default function Policy() {
     const info = [
@@ -359,6 +360,11 @@ export default function Policy() {
 
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="Privacy Policy | WinproFX"
+                description="Learn about WinproFX's commitment to protecting your personal information. Click for details on how we safeguard your privacy!"
+                canonicalPath="/policy"
+            />
             <TopShape />
             <PolicyTitle
                 meta="Last Updated: Jun 7, 2024"

@@ -8,6 +8,7 @@ import Card from '@/components/trade/card';
 import Cta from '@/components/trade/cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 import img from '@/assets/img/trade/crypto.png'
 import bg from '@/assets/img/trade/commodities-banner-bg.png'
@@ -40,6 +41,12 @@ export default function Commodities() {
 
     return (
         <>
+            <SeoHead
+                title="Best Commodities Trading Platform in India | WinproFX"
+                description="Explore the best commodities trading app and platform in India with WinproFX. Get free funded accounts, low spreads, and advanced tools for successful commodities trading."
+                keywords="Best Commodities Trading App in India, WinProFX Commodities Trading Platform, Free Funded Accounts, Commodities Brokers in India, Commodities Trading India, Low Spreads Commodities Trading, User-Friendly Commodities Trading App"
+                canonicalPath="/trading/commodities"
+            />
             <div className="h-screen pt-30 md:pt-0 xl:h-235 2xl:h-280 3xl:h-300 4xl:min-h-screen pb-13 md:pb-12 xl:pb-25 flex flex-col w-full relative">
                 <svg className='absolute top-0 right-0 -z-10 pointer-events-none' width="1920" height="971" viewBox="0 0 1920 971" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.6" filter="url(#filter0_f_1_9152)">

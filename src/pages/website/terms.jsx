@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { motion } from 'framer-motion'
 import { y, duration, once } from '@/utilities/animation'
+import SeoHead from '@/components/seo-head'
 
 export default function Terms() {
     const info = [
@@ -74,6 +75,11 @@ export default function Terms() {
     ]
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="Terms & Conditions | WinproFX"
+                description="Familiarize yourself with WinproFX's Terms and Conditions to ensure a clear understanding of the guidelines governing your trading activities. Click to read more!"
+                canonicalPath="/terms"
+            />
             <TopShape />
             <PolicyTitle
                 title="Terms & Conditions"

@@ -11,6 +11,7 @@ import TopShape from '../../components/top-shape';
 import PlatformCard from '../../components/mt5/platform-card';
 import PaymentFlow from '../../components/payment-flow';
 import DemoCta from '../../components/demo-cta';
+import SeoHead from '@/components/seo-head'
 
 import banner_bg from '@/assets/img/analytics/banner-bg.png'
 import b_img_1 from '@/assets/img/home/news/b-4.png'
@@ -58,6 +59,12 @@ export default function Analytics() {
     ]
     return (
         <>
+            <SeoHead
+                title="Analytical Tools | WinproFX"
+                description="Optimize your trading with WinproFX's analytical tools. Use real-time news, economic calendars, & essential signals from Trading Central. Enhance your strategy now!"
+                keywords="Analytical Tools, Trading Tools, Forex Analysis, Economic Calendar, Trading Signals, WinproFX Tools, Market Analysis"
+                canonicalPath="/analytics"
+            />
             <TopShape />
             <CommonBanner
                 center={false}

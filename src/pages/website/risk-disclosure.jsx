@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 export default function RiskDisclosure() {
     const info = [
@@ -232,6 +233,11 @@ export default function RiskDisclosure() {
     ]
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="Risk Disclosure | WinproFX"
+                description="Explore the risks of Forex trading with WinproFX's detailed risk disclosure. Understand market volatility and learn key safety measures. Click to read more!"
+                canonicalPath="/risk-disclosure"
+            />
             <TopShape />
             <PolicyTitle
                 title="Risk Disclosure"

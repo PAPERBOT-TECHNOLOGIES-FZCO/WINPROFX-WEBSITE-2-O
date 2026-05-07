@@ -8,6 +8,7 @@ import Card from '@/components/trade/card';
 import Cta from '@/components/trade/cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 import img from '@/assets/img/trade/crypto.png'
 import bg from '@/assets/img/trade/crypto-bg.png'
@@ -40,6 +41,12 @@ export default function Crypto() {
 
     return (
         <>
+            <SeoHead
+                title="Best Crypto Trading Platform in India | WinproFX"
+                description="Explore the best crypto trading app and platform in India with WinproFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your cryptocurrency trading experience."
+                keywords="Best Crypto Trading App in India, WinProFX Crypto Trading Platform, Free Funded Accounts, Crypto Brokers in India, Cryptocurrency Trading India, Low Spreads Crypto Trading, User-Friendly Crypto Trading App"
+                canonicalPath="/crypto"
+            />
             <div className="h-screen xl:h-235 2xl:h-300 pt-25 md:pt-0 4xl:min-h-screen pb-13 md:pb-12 xl:pb-25 flex flex-col w-full relative">
                 <svg className='absolute top-0 right-0 -z-10 pointer-events-none' width="1920" height="971" viewBox="0 0 1920 971" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.6" filter="url(#filter0_f_1_9152)">

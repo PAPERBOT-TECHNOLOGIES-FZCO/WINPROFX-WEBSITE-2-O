@@ -5,6 +5,7 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 export default function AmlPolicy() {
     const info = [
@@ -105,6 +106,11 @@ export default function AmlPolicy() {
     ]
     return (
         <div className='padding-top-245'>
+            <SeoHead
+                title="AML Policy | WinproFX"
+                description="Understand WinPro FX's Anti-Money Laundering (AML) Policy to ensure compliance with financial regulations. Learn about our robust procedures. Click for details!"
+                canonicalPath="/aml-policy"
+            />
             <TopShape />
             <PolicyTitle
                 title="KYC / AML Policy"

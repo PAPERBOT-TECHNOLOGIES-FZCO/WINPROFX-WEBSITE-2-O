@@ -13,6 +13,7 @@ import Converter from '@/components/currency/converter';
 import WhyFx from '../../components/currency/why-fx';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import SeoHead from '@/components/seo-head'
 
 import video from "@/assets/img/currency-converter/currency-converter-video.webm";
 import about_video from '@/assets/img/currency-converter/video.webm'
@@ -74,6 +75,12 @@ export default function CurrencyConverter() {
 
     return (
         <>
+            <SeoHead
+                title="Currency Converter | WinproFX"
+                description="Convert currencies quickly with WinproFX's accurate, real-time currency converter. Effortlessly calculate exchange rates for all currencies. Click to use now!"
+                keywords="Currency Converter, Forex Converter, Exchange Rate Calculator, Real-time Currency, WinproFX Converter"
+                canonicalPath="/currency-converter"
+            />
             <style jsx global>
                 {`
                   .banner  p + div{
