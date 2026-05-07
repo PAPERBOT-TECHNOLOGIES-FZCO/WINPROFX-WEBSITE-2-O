@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 
 const BASE_URL = 'https://winprofx.com'
-const OG_IMAGE = 'https://imagedelivery.net/bvUtc88WWoZg5mZsB7f2Zw/ca416a70-cd5c-480b-15d4-12e609d22300/public'
+const OG_IMAGE = 'https://imagedelivery.net/bvUtc88WWoZg5mZsB7f2Zw/da80fbb4-439b-42f9-f7fa-31931de6e500/public'
 const GA_ID = 'G-NL5S7T60GX'
 
 const financialServiceSchema = {
