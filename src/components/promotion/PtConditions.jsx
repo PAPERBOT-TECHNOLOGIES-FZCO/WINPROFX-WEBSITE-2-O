@@ -259,19 +259,19 @@ export default function PtConditions() {
         </div>
 
         <div className="flex items-start gap-4 p-4 lg:p-6 border-l-6 border-[#EA4745] mt-10 bg-[rgba(234,71,69,0.08)] rounded-lg ">
-            <div className="mt-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-  <path d="M8.95742 2.0416C9.54075 1.54993 10.4824 1.54993 11.0491 2.0416L12.3658 3.1666C12.6158 3.37493 13.0908 3.54993 13.4241 3.54993H14.8408C15.7241 3.54993 16.4491 4.27493 16.4491 5.15827V6.57493C16.4491 6.90827 16.6241 7.37493 16.8324 7.62493L17.9574 8.9416C18.4491 9.52493 18.4491 10.4666 17.9574 11.0333L16.8324 12.3499C16.6241 12.5999 16.4491 13.0666 16.4491 13.3999V14.8166C16.4491 15.6999 15.7241 16.4249 14.8408 16.4249H13.4241C13.0908 16.4249 12.6241 16.5999 12.3741 16.8083L11.0574 17.9333C10.4741 18.4249 9.53242 18.4249 8.96575 17.9333L7.64909 16.8083C7.39909 16.5999 6.92409 16.4249 6.59909 16.4249H5.14075C4.25742 16.4249 3.53242 15.6999 3.53242 14.8166V13.3916C3.53242 13.0666 3.36575 12.5916 3.15742 12.3499L2.03242 11.0249C1.54909 10.4499 1.54909 9.5166 2.03242 8.9416L3.15742 7.6166C3.36575 7.3666 3.53242 6.89993 3.53242 6.57493V5.1666C3.53242 4.28327 4.25742 3.55827 5.14075 3.55827H6.58242C6.91575 3.55827 7.38242 3.38327 7.63242 3.17493L8.95742 2.0416Z" stroke="#EA4745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M10 6.7749V10.7999" stroke="#EA4745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M9.99609 13.3335H10.0036" stroke="#EA4745" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-            </div>
-            <div className="max-w-220">
-                <p className="text-para text-sm lg:text-base leading-normal mb-4">Trading forex and leveraged products involves significant risk and is not suitable for all investors. Trading may result in losses exceeding your initial investment. Ensure you fully understand the risks involved.</p>
-                <a href="#" className="text-[#EA4745] text-sm lg:text-base leading-normal">
-                  Read Full Risk Disclosure →
-                </a>
-            </div>
+          <div className="mt-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M8.95742 2.0416C9.54075 1.54993 10.4824 1.54993 11.0491 2.0416L12.3658 3.1666C12.6158 3.37493 13.0908 3.54993 13.4241 3.54993H14.8408C15.7241 3.54993 16.4491 4.27493 16.4491 5.15827V6.57493C16.4491 6.90827 16.6241 7.37493 16.8324 7.62493L17.9574 8.9416C18.4491 9.52493 18.4491 10.4666 17.9574 11.0333L16.8324 12.3499C16.6241 12.5999 16.4491 13.0666 16.4491 13.3999V14.8166C16.4491 15.6999 15.7241 16.4249 14.8408 16.4249H13.4241C13.0908 16.4249 12.6241 16.5999 12.3741 16.8083L11.0574 17.9333C10.4741 18.4249 9.53242 18.4249 8.96575 17.9333L7.64909 16.8083C7.39909 16.5999 6.92409 16.4249 6.59909 16.4249H5.14075C4.25742 16.4249 3.53242 15.6999 3.53242 14.8166V13.3916C3.53242 13.0666 3.36575 12.5916 3.15742 12.3499L2.03242 11.0249C1.54909 10.4499 1.54909 9.5166 2.03242 8.9416L3.15742 7.6166C3.36575 7.3666 3.53242 6.89993 3.53242 6.57493V5.1666C3.53242 4.28327 4.25742 3.55827 5.14075 3.55827H6.58242C6.91575 3.55827 7.38242 3.38327 7.63242 3.17493L8.95742 2.0416Z" stroke="#EA4745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10 6.7749V10.7999" stroke="#EA4745" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.99609 13.3335H10.0036" stroke="#EA4745" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div className="max-w-220">
+            <p className="text-para text-sm lg:text-base leading-normal mb-4">Trading forex and leveraged products involves significant risk and is not suitable for all investors. Trading may result in losses exceeding your initial investment. Ensure you fully understand the risks involved.</p>
+            <a href="/risk-disclosure" className="text-[#EA4745] text-sm lg:text-base leading-normal">
+              Read Full Risk Disclosure →
+            </a>
+          </div>
         </div>
       </Container>
     </div>

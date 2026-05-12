@@ -21,6 +21,7 @@ import Metals from './pages/website/trading/metals'
 import Commodities from './pages/website/trading/commodities'
 import Oil from './pages/website/trading/oil'
 import WinPromotion from './pages/website/trading/win-promotion'
+import TradeToWin from './pages/website/trading/trade-to-win'
 import IntroducingBroker from './pages/website/trading/introducing-broker'
 import Mt5Platform from './pages/website/mt5-platform'
 import Accounts from './pages/website/accounts'
@@ -78,6 +79,10 @@ export default function App() {
         {
           path: '/trading/win-promotion',
           element: <WinPromotion />
+        },
+        {
+          path: '/trading/trade-to-win',
+          element: <TradeToWin />
         },
         {
           path: '/introducing-broker',
