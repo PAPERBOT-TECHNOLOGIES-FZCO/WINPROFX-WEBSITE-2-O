@@ -16,7 +16,7 @@ const accountsData = [
     spread: "From 0.2 pips",
     commission: "No Commission",
     leverage: "1:500",
-    instruments: ["Forex", "Metal", "Crypto", "Energies", "Stocks", "Indices"],
+    instruments: ["Forex", "Metal", "Crypto", "Energies", "Indices"],
     featured: true,
   },
   {
@@ -28,7 +28,7 @@ const accountsData = [
     spread: "From 0.1 pips",
     commission: "No Commission",
     leverage: "1:500",
-    instruments: ["Forex", "Metal", "Crypto", "Energies", "Stocks", "Indices"],
+    instruments: ["Forex", "Metal", "Crypto", "Energies", "Indices"],
     featured: false,
   },
   {
@@ -40,7 +40,7 @@ const accountsData = [
     spread: "From 0.0 pips",
     commission: "Up to $3.50 each side per lot",
     leverage: "1:500",
-    instruments: ["Forex", "Metal", "Crypto", "Energies", "Stocks", "Indices"],
+    instruments: ["Forex", "Metal", "Crypto", "Energies", "Indices"],
     featured: false,
   },
 ];

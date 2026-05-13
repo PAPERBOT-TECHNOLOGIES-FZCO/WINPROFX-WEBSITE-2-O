@@ -127,7 +127,7 @@ export default function FeatureComparison() {
     {
       name: "Order execution",
       standard: "Market",
-      pro: "Instant (Forex, metals, energies, stocks, indices), market (crypto)",
+      pro: "Instant (Forex, metals, energies, indices), market (crypto)",
       ecn: "Market",
     },
     {
