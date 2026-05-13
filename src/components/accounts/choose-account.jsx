@@ -24,7 +24,7 @@ const accountsData = [
     badge: null,
     description:
       "Our instant execution account, with zero commission & low spread.",
-    minimumDeposit: "$2500",
+    minimumDeposit: "$3000",
     spread: "From 0.1 pips",
     commission: "No Commission",
     leverage: "1:500",
