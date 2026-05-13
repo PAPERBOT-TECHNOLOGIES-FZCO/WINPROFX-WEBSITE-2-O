@@ -34,7 +34,7 @@ export default function WinPromotion() {
                 }
                 desClass="max-w-135 mx-auto"
                 secondButtonText="View T&C"
-                secondButtonLink="/viewtc"
+                secondButtonLink="/trading/trade-to-win"
 
             />
 

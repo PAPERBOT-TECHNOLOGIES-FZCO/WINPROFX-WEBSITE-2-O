@@ -11,31 +11,13 @@ import rewardImg1 from '@/assets/img/trade/reward-img1.png'
 import rewardImg2 from '@/assets/img/trade/reward-img2.png'
 import rewardImg3 from '@/assets/img/trade/reward-img3.png'
 import rewardImg4 from '@/assets/img/trade/reward-img4.png'
+import appleAirpods from '@/assets/img/trade/apple_airpods.jpg'
+import appleWatch from '@/assets/img/trade/apple_watch.jpg'
+import ipad from '@/assets/img/trade/ipad.png'
 import { AnimatePresence, motion } from "framer-motion";
 
 const rewardTiers = [
   {
-    volume: "1,000",
-    prize: "MacBook",
-    desc: "Trade smarter on a bigger screen",
-    image: rewardImg1,
-    featured: true,
-  },
-  {
-    volume: "500",
-    prize: "Latest iPhone",
-    desc: "The ultimate prize for top traders",
-    image: rewardImg2,
-    featured: false,
-  },
-  {
-    volume: "300",
-    prize: "iPad Pro",
-    desc: "Pro-level performance in your hands",
-    image: rewardImg3,
-    featured: false,
-  },
-  {
     volume: "50",
     prize: "Power Bank",
     desc: "Stay powered wherever you trade",
@@ -43,33 +25,54 @@ const rewardTiers = [
     featured: false,
   },
   {
-    volume: "1,000",
-    prize: "MacBook",
-    desc: "Trade smarter on a bigger screen",
-    image: rewardImg1,
-    featured: true,
+    volume: "300",
+    prize: "Apple Airpods",
+    desc: "Pro-level performance in your hands",
+    image: appleAirpods,
+    featured: false,
   },
   {
     volume: "500",
-    prize: "Latest iPhone",
+    prize: "Apple Watch",
     desc: "The ultimate prize for top traders",
-    image: rewardImg2,
+    image: appleWatch,
     featured: false,
   },
   {
-    volume: "300",
-    prize: "iPad Pro",
-    desc: "Pro-level performance in your hands",
+    volume: "1,000",
+    prize: "iPAD",
+    desc: "Trade smarter on a bigger screen",
+    image: ipad,
+    featured: true,
+  },
+  {
+    volume: "1500",
+    prize: "iPAD Pro",
+    desc: "Trade smarter on a pro-level bigger screen",
     image: rewardImg3,
-    featured: false,
+    featured: true,
   },
   {
-    volume: "50",
-    prize: "Power Bank",
-    desc: "Stay powered wherever you trade",
-    image: rewardImg4,
-    featured: false,
+    volume: "2000",
+    prize: "LATEST IPHONE",
+    desc: "The ultimate device for elite traders",
+    image: rewardImg2,
+    featured: true,
   },
+  // {
+  //   volume: "500",
+  //   prize: "Apple Watch",
+  //   desc: "The ultimate prize for top traders",
+  //   image: rewardImg2,
+  //   featured: false,
+  // },
+  // {
+  //   volume: "1,000",
+  //   prize: "ipad",
+  //   desc: "Trade smarter on a bigger screen",
+  //   image: rewardImg1,
+  //   featured: true,
+  // },
 ];
 
 export default function RewardTiersSlider() {

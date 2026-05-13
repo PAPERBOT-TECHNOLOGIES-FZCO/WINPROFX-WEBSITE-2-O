@@ -40,7 +40,7 @@ export default function News() {
             des: 'Trade more and win GUARANTED prizes. The more you trade, the better the prize.',
             img: b_img_1,
             info: {
-                name: 'Promotion Dates: 1st January 2026 to 31st March 2026',
+                name: 'Promotion Dates: 1st January 2026 to 31st May 2026',
                 img: null,
             }
         },

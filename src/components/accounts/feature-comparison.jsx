@@ -45,9 +45,6 @@ export default function FeatureComparison() {
             Energies
           </span>
           <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
-            Stocks
-          </span>
-          <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
             Indices
           </span>
         </div>
@@ -65,9 +62,6 @@ export default function FeatureComparison() {
           </span>
           <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
             Energies
-          </span>
-          <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
-            Stocks
           </span>
           <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
             Indices
@@ -89,9 +83,6 @@ export default function FeatureComparison() {
             Energies
           </span>
           <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
-            Stocks
-          </span>
-          <span className="flex items-center justify-center text-xs leading-none rounded-full px-3 py-1 bg-[#FFFFFF03] border border-[#FFFFFF1A] backdrop-blur-3xl text-white">
             Indices
           </span>
         </div>
@@ -99,44 +90,44 @@ export default function FeatureComparison() {
     },
     {
       name: "Minimum lot size",
-      standard: "0.01 pips",
-      pro: "Font-medium 0.01 pips",
-      ecn: "Font-medium 0.01 pips",
+      standard: "0.01",
+      pro: "0.01",
+      ecn: "0.01",
     },
     {
       name: "Maximum lot size",
-      standard: "200 (7:00 - 20:59 GMT +0), 60 (21:00 - 6:59 GMT +0)",
-      pro: "200 (7:00 - 20:59 GMT +0), 60 (21:00 - 6:59 GMT +0)",
-      ecn: "200 (7:00 - 20:59 GMT +0), 60 (21:00 - 6:59 GMT +0)",
+      standard: "200",
+      pro: "200",
+      ecn: "200",
     },
-    {
-      name: "Maximum Number of positions",
-      standard: "Unlimited",
-      pro: "Unlimited",
-      ecn: "Unlimited",
-    },
-    {
-      name: "Hedged Margin",
-      standard: "0%",
-      pro: "0%",
-      ecn: "0%",
-    },
+    // {
+    //   name: "Maximum Number of positions",
+    //   standard: "Unlimited",
+    //   pro: "Unlimited",
+    //   ecn: "Unlimited",
+    // },
+    // {
+    //   name: "Hedged Margin",
+    //   standard: "0%",
+    //   pro: "0%",
+    //   ecn: "0%",
+    // },
     {
       name: "Margin call",
+      standard: "50%",
+      pro: "50%",
+      ecn: "50%",
+    },
+    {
+      name: "Stop out",
       standard: "30%",
       pro: "30%",
       ecn: "30%",
     },
     {
-      name: "Stop out",
-      standard: "0% (See details about stocks)",
-      pro: "0% (See details about stocks)",
-      ecn: "0% (See details about stocks)",
-    },
-    {
       name: "Order execution",
       standard: "Market",
-      pro: "Instant (Forex, metals, energies, stocks, indices), market (crypto)",
+      pro: "Market",
       ecn: "Market",
     },
     {
