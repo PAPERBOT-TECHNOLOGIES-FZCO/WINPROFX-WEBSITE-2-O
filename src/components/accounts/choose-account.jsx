@@ -17,7 +17,7 @@ const accountsData = [
     commission: "No Commission",
     leverage: "1:500",
     instruments: ["Forex", "Metal", "Crypto", "Energies", "Stocks", "Indices"],
-    featured: false,
+    featured: true,
   },
   {
     title: "Pro",
@@ -29,7 +29,7 @@ const accountsData = [
     commission: "No Commission",
     leverage: "1:500",
     instruments: ["Forex", "Metal", "Crypto", "Energies", "Stocks", "Indices"],
-    featured: true,
+    featured: false,
   },
   {
     title: "ECN",
