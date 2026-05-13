@@ -123,15 +123,15 @@ export default function FeatureComparison() {
     },
     {
       name: "Margin call",
-      standard: "30%",
-      pro: "30%",
-      ecn: "30%",
+      standard: "50%",
+      pro: "50%",
+      ecn: "50%",
     },
     {
       name: "Stop out",
-      standard: "0% (See details about stocks)",
-      pro: "0% (See details about stocks)",
-      ecn: "0% (See details about stocks)",
+      standard: "30% (See details about stocks)",
+      pro: "30% (See details about stocks)",
+      ecn: "30% (See details about stocks)",
     },
     {
       name: "Order execution",

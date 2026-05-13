@@ -10,7 +10,7 @@ import vectorShape from "@/assets/img/accounts/vector-shape.svg";
 const accountsData = [
   {
     title: "Standard",
-    badge: null,
+    badge: "RECOMMENDED",
     description: "Our most popular account. Great for all types of traders.",
     minimumDeposit: "$50",
     spread: "From 0.2 pips",
@@ -21,7 +21,7 @@ const accountsData = [
   },
   {
     title: "Pro",
-    badge: "RECOMMENDED",
+    badge: null,
     description:
       "Our instant execution account, with zero commission & low spread.",
     minimumDeposit: "$2500",
@@ -35,7 +35,7 @@ const accountsData = [
     title: "ECN",
     badge: null,
     description:
-      "Our instant execution account, with zero commission & low sprea",
+      "Our instant execution account, with zero commission & low spread",
     minimumDeposit: "$5000",
     spread: "From 0.0 pips",
     commission: "Up to $3.50 each side per lot",
