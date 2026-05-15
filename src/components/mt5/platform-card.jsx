@@ -5,8 +5,9 @@ import { y, duration, once } from "@/utilities/animation";
 
 import MetaText from "../meta-text";
 import AppStoreBtn from "../app-store-btn";
+import WindowsBtn from "../windows-btn";
 
-export default function PlatformCard({ meta = "", title = "", des = "", img }) {
+export default function PlatformCard({ id, meta = "", title = "", des = "", img }) {
   return (
     <div
       className="relative z-1 flex flex-wrap flex-col-reverse lg:flex-row even:lg:flex-row-reverse lg:items-center justify-between gap-y-6 xl:gap-x-0 rounded-2xl overflow-hidden border border-solid border-white/8 p-4 backdrop-blur-2xl"
@@ -126,8 +127,30 @@ export default function PlatformCard({ meta = "", title = "", des = "", img }) {
         <h3 className="h2 mb-3 md:mb-4 lg:max-w-84">{title}</h3>
         <div className="flex flex-col gap-y-5 mb-4 md:mb-6">{des}</div>
         <div className="flex items-center gap-2">
-          <PlayStoreBtn animation={false} to="https://download.terminal.free/cdn/web/metaquotes.software.corp/mt5/metatrader5.apk?utm_source=www.metatrader5.com&utm_campaign=install.metaquotes" />
-          <AppStoreBtn animation={false} to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live" />
+          {/* <PlayStoreBtn animation={false} to="https://download.terminal.free/cdn/web/metaquotes.software.corp/mt5/metatrader5.apk?utm_source=www.metatrader5.com&utm_campaign=install.metaquotes" />
+          <AppStoreBtn animation={false} to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live" /> */}
+          {id === 1  ? (
+            <>
+              <PlayStoreBtn
+                animation={false}
+                to="https://download.terminal.free/cdn/web/metaquotes.software.corp/mt5/metatrader5.apk?utm_source=www.metatrader5.com&utm_campaign=install.metaquotes"
+              />
+
+              <AppStoreBtn
+                animation={false}
+                to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live"
+              />
+            </>
+          ) : (
+            <>
+              <WindowsBtn to="https://download.terminal.free/cdn/web/winprofx.limited/mt5/winprofx5setup.exe" />
+
+              <AppStoreBtn
+                animation={false}
+                to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live"
+              />
+            </>
+          )}
         </div>
       </motion.div>
       <motion.div

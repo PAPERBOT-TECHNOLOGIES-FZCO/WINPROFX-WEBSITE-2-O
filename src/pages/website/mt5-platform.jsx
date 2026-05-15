@@ -65,6 +65,7 @@ export default function Mt5Platform() {
             {platformCardsData.map((card) => (
               <PlatformCard
                 key={card.id}
+                id={card.id}
                 meta={card.meta}
                 title={card.title}
                 des={
