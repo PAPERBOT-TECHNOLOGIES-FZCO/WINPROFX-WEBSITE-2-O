@@ -6,6 +6,7 @@ import { y, duration, once } from "@/utilities/animation";
 import MetaText from "../meta-text";
 import AppStoreBtn from "../app-store-btn";
 import WindowsBtn from "../windows-btn";
+import WebTradingBtn from "../webtrading-btn";
 
 export default function PlatformCard({ id, meta = "", title = "", des = "", img }) {
   return (
@@ -144,11 +145,11 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
           ) : (
             <>
               <WindowsBtn to="https://download.terminal.free/cdn/web/winprofx.limited/mt5/winprofx5setup.exe" />
-
               <AppStoreBtn
                 animation={false}
                 to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live"
               />
+              <WebTradingBtn to="https://trade.winprofx.org/terminal" />
             </>
           )}
         </div>

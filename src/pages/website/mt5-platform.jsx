@@ -26,7 +26,7 @@ const platformCardsData = [
   {
     id: 2,
     meta: "TRADING PLATFORM",
-    title: "Download MT 5 For Web",
+    title: "DOWNLOAD MT5 FOR DESKTOP",
     description: "Experience the power of MT5 on your desktop. Access advanced charting tools, automated trading capabilities, and real-time market data. WinproFX provides a seamless web-based trading platform for professional traders looking for advanced features and flexibility.",
     img: imgWeb,
   },

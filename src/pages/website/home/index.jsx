@@ -6,6 +6,9 @@ import News from "./news";
 import TradingStarts from "./trading-starts";
 import WhatTrade from "./what-trade";
 import SeoHead from '@/components/seo-head';
+import PlatformCard from '@/components/mt5/platform-card';
+import imgApp from '@/assets/img/mt5/mt5-app.png'
+import { Container } from '@/components/grid'
 export default function Home() {
   return (
     <>
@@ -18,6 +21,25 @@ export default function Home() {
       <Banner />
       <TradingStarts />
       <BenefitsTrading />
+        <Container>
+          <PlatformCard
+            id={1}
+            meta="TRADING PLATFORM"
+            title="Download MT 5 For Mobile"
+            des={
+              <>
+                <p>
+                  WinproFX has remained highly successful to expand their business
+                  all over the world, and now we are MT 5 is now available on
+                  Android and iPhone, and you are one step closer to success.
+                  Download MT 5 now and dive into the world of limitless trading
+                  opportunities.
+                </p>
+              </>
+            }
+            img={imgApp}
+          />
+        </Container>
       <WhatTrade />
       <About />
       <Award />
