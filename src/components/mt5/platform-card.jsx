@@ -126,8 +126,8 @@ export default function PlatformCard({ meta = "", title = "", des = "", img }) {
         <h3 className="h2 mb-3 md:mb-4 lg:max-w-84">{title}</h3>
         <div className="flex flex-col gap-y-5 mb-4 md:mb-6">{des}</div>
         <div className="flex items-center gap-2">
-          <PlayStoreBtn animation={false} to="/" />
-          <AppStoreBtn animation={false} to="/" />
+          <PlayStoreBtn animation={false} to="https://download.terminal.free/cdn/web/metaquotes.software.corp/mt5/metatrader5.apk?utm_source=www.metatrader5.com&utm_campaign=install.metaquotes" />
+          <AppStoreBtn animation={false} to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live" />
         </div>
       </motion.div>
       <motion.div
