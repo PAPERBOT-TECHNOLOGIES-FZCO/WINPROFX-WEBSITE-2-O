@@ -97,10 +97,6 @@ export default function Header() {
       btn_title: 'About Us',
       to: '/about-us',
     },
-    {
-      btn_title: 'Education',
-      to: '/education',
-    },
   ];
   const [active_child, set_active_child] = useState(null);
   const header_ref = useRef()

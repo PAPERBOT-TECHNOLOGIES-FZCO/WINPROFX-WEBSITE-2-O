@@ -26,38 +26,6 @@ export default function Footer() {
           name: 'About Us',
           path: '/about-us'
         },
-        {
-          name: 'Our IB',
-          path: '/'
-        },
-        {
-          name: 'Holiday Schedule ',
-          path: '/'
-        },
-        {
-          name: 'Education',
-          path: '/'
-        },
-        {
-          name: 'News & Insights',
-          path: '/'
-        },
-        {
-          name: 'Join Our Team',
-          path: '/'
-        },
-        {
-          name: 'Contact Us',
-          path: '/'
-        },
-        {
-          name: 'Sitemap',
-          path: '/'
-        },
-        {
-          name: 'Trading View',
-          path: '/'
-        },
       ]
     },
     {
@@ -115,10 +83,6 @@ export default function Footer() {
     {
       name: 'Risk Disclosure',
       path: '/risk-disclosure'
-    },
-    {
-      name: 'Client Services Agreement',
-      path: '/'
     },
   ]
 
