@@ -19,7 +19,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: '/'
+      url: 'https://www.youtube.com/@winprofx'
     },
     {
       name: 'linkedin',
@@ -34,7 +34,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: '/'
+      url: 'https://www.linkedin.com/company/winprofx'
     },
     {
       name: 'instagram',
@@ -51,7 +51,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: '/'
+      url: 'https://www.instagram.com/winprofx/'
     },
     {
       name: 'facebook',
@@ -66,7 +66,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: '/'
+      url: 'https://www.facebook.com/profile.php?id=61551525764394'
     },
   ];
 
