@@ -1,3 +1,6 @@
+@use 'variables' as *;
+@use 'media_quers' as *;
+
 @mixin transition {
     transition: all .3s ease-in-out;
 }

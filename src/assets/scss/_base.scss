@@ -1,3 +1,7 @@
+@use 'variables' as *;
+@use 'media_quers' as *;
+@use 'mixins' as *;
+
 @layer base {
 
     input::-webkit-outer-spin-button,
