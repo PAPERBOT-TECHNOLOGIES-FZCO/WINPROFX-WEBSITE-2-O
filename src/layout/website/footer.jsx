@@ -152,17 +152,6 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-y-0 col-span-2 md:max-w-56 lg:max-w-75 2xl:max-w-100">
-            <strong className='block text-base text-white mb-3.5'>Address</strong>
-            <div className="mb-4 md:mb-6 lg:mb-8">
-              <p className='text-sm md:text-base leading-normal text-para mb-4'>Registered Address: Office No.14, Sea Grape Avenue, Rodney Bay,Gros-islet,Saint Lucia.</p>
-              <p className='text-sm md:text-base leading-normal text-para'>Registration Number: 2023-00197</p>
-            </div>
-            <div className="">
-              <strong className='block text-base text-white mb-3.5'>Physical Rep. Office</strong>
-              <p className='text-sm md:text-base leading-normal text-para'>Office No. 1003 , Nassima Tower, Trade Center 1, Sheikh Zayed Road - Dubai</p>
-            </div>
-          </div>
         </motion.div>
 
         <motion.div

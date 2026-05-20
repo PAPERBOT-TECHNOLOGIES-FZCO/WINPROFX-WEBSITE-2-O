@@ -13,7 +13,7 @@ export default function RiskDisclosure() {
             title: null,
             des: [
                 {
-                    name: `WinproFX (a trading name of Winpro), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license 2023-00197, having its registered office at 1st Floor, The Sotheby Building,Rodney Bay, Gros-Islet,SAINT Lucia P.O Box 838,Castries, Saint Lucia.`
+                    name: `WinproFX (a trading name of Winpro), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license, and is regulated to provide financial services.`
                 }
             ],
         },
