@@ -122,14 +122,14 @@ export default function RewardTiersSlider() {
                                 <path d="M104.599 35.6161C148.145 -55.6689 255.343 -95.375 344.03 -53.0679C432.717 -10.7608 469.311 97.5371 425.764 188.823C382.217 280.109 337.47 180.28 248.783 137.974C160.096 95.6676 61.0526 126.902 104.599 35.6161Z" fill="url(#paint0_radial_1_47898)" />
                               </g>
                               <defs>
-                                <filter id="filter0_f_1_47898" x="0" y="-164" width="538.117" height="484.099" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <filter id="filter0_f_1_47898" x="0" y="-164" width="538.117" height="484.099" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                                   <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                                   <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_1_47898" />
                                 </filter>
                                 <radialGradient id="paint0_radial_1_47898" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(292.891 54.1352) rotate(121.07) scale(194.943 292.012)">
-                                  <stop stop-color="#00D9FF" />
-                                  <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                                  <stop stopColor="#00D9FF" />
+                                  <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
                                 </radialGradient>
                               </defs>
                             </svg>

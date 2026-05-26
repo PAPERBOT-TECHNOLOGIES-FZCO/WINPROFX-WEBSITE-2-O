@@ -20,19 +20,19 @@ export default function WhyFx() {
                         </g>
                     </g>
                     <defs>
-                        <filter id="filter0_f_6137_91770" x="-452.61" y="-153.61" width="836.24" height="749.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter0_f_6137_91770" x="-452.61" y="-153.61" width="836.24" height="749.728" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="111.805" result="effect1_foregroundBlur_6137_91770" />
                         </filter>
-                        <filter id="filter1_f_6137_91770" x="-323" y="-24" width="577.02" height="490.508" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter1_f_6137_91770" x="-323" y="-24" width="577.02" height="490.508" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_6137_91770" />
                         </filter>
                         <radialGradient id="paint0_radial_6137_91770" cx="0" cy="0" r="1" gradientTransform="matrix(-111.786 170.59 -277.91 -153.965 -8.00966 196.822)" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00D9FF" />
-                            <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                            <stop stopColor="#00D9FF" />
+                            <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
                         </radialGradient>
                     </defs>
                 </svg>
@@ -44,19 +44,19 @@ export default function WhyFx() {
                         </g>
                     </g>
                     <defs>
-                        <filter id="filter0_f_6137_91768" x="-0.00062561" y="-325.558" width="836.24" height="749.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter0_f_6137_91768" x="-0.00062561" y="-325.558" width="836.24" height="749.728" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="111.805" result="effect1_foregroundBlur_6137_91768" />
                         </filter>
-                        <filter id="filter1_f_6137_91768" x="129.609" y="-195.948" width="577.02" height="490.508" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter1_f_6137_91768" x="129.609" y="-195.948" width="577.02" height="490.508" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_6137_91768" />
                         </filter>
                         <radialGradient id="paint0_radial_6137_91768" cx="0" cy="0" r="1" gradientTransform="matrix(-111.786 170.59 -277.91 -153.965 444.6 24.8742)" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#00D9FF" />
-                            <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                            <stop stopColor="#00D9FF" />
+                            <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
                         </radialGradient>
                     </defs>
                 </svg>

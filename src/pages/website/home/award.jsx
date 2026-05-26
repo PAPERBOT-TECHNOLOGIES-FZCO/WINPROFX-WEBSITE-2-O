@@ -54,8 +54,8 @@ export default function Award() {
                                     <path d="M0 0H198L168 177H30L0 0Z" fill="url(#paint0_linear_6137_102882)" />
                                     <defs>
                                         <linearGradient id="paint0_linear_6137_102882" x1="99" y1="0" x2="99" y2="177" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="white" stop-opacity="0.08" />
-                                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                                            <stop stopColor="white" stopOpacity="0.08" />
+                                            <stop offset="1" stopColor="white" stopOpacity="0" />
                                         </linearGradient>
                                     </defs>
                                 </svg>

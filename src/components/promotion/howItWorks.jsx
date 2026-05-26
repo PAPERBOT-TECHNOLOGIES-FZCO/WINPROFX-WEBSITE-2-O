@@ -36,8 +36,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -47,8 +47,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -79,8 +79,8 @@ export default function HowItWorks() {
               y2="47.5"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" stop-opacity="0.16" />
-              <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+              <stop stopColor="#00D9FF" stopOpacity="0.16" />
+              <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -114,8 +114,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -125,8 +125,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -157,8 +157,8 @@ export default function HowItWorks() {
               y2="47.5"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" stop-opacity="0.16" />
-              <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+              <stop stopColor="#00D9FF" stopOpacity="0.16" />
+              <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -192,8 +192,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -203,8 +203,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -235,8 +235,8 @@ export default function HowItWorks() {
               y2="47.5"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" stop-opacity="0.16" />
-              <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+              <stop stopColor="#00D9FF" stopOpacity="0.16" />
+              <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -270,8 +270,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -281,8 +281,8 @@ export default function HowItWorks() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -313,8 +313,8 @@ export default function HowItWorks() {
               y2="41.7669"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" stop-opacity="0.16" />
-              <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+              <stop stopColor="#00D9FF" stopOpacity="0.16" />
+              <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -390,11 +390,11 @@ export default function HowItWorks() {
                           y2="0"
                           gradientUnits="userSpaceOnUse"
                         >
-                          <stop stop-color="white" />
+                          <stop stopColor="white" />
                           <stop
                             offset="1"
-                            stop-color="white"
-                            stop-opacity="0"
+                            stopColor="white"
+                            stopOpacity="0"
                           />
                         </linearGradient>
                       </defs>

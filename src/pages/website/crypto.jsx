@@ -55,19 +55,19 @@ export default function Crypto() {
                         </g>
                     </g>
                     <defs>
-                        <filter id="filter0_f_1_9152" x="-356" y="-1323" width="2530" height="2293.94" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter0_f_1_9152" x="-356" y="-1323" width="2530" height="2293.94" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_1_9152" />
                         </filter>
-                        <filter id="filter1_f_1_9152" x="50" y="-917" width="1718" height="1481.94" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <filter id="filter1_f_1_9152" x="50" y="-917" width="1718" height="1481.94" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <feFlood floodOpacity="0" result="BackgroundImageFix" />
                             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                             <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_1_9152" />
                         </filter>
                         <radialGradient id="paint0_radial_1_9152" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1013.15 -280.535) rotate(121.07) scale(851.893 1276.08)">
-                            <stop stop-color="#00D9FF" />
-                            <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                            <stop stopColor="#00D9FF" />
+                            <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
                         </radialGradient>
                     </defs>
                 </svg>

@@ -48,9 +48,9 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
             width="797.338"
             height="743.319"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -69,9 +69,9 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
             width="538.118"
             height="484.099"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -90,9 +90,9 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
             width="384.611"
             height="291.801"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -112,8 +112,8 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(422.502 34.1352) rotate(121.07) scale(194.943 292.012)"
           >
-            <stop stop-color="#00D9FF" />
-            <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+            <stop stopColor="#00D9FF" />
+            <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
           </radialGradient>
         </defs>
       </svg>

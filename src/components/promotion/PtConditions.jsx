@@ -34,8 +34,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -45,8 +45,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -85,8 +85,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -96,8 +96,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -136,8 +136,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -147,8 +147,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />
@@ -187,8 +187,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1_47962"
@@ -198,8 +198,8 @@ export default function PtConditions() {
               y2="26.0001"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#00D9FF" />
-              <stop offset="1" stop-color="#007DFF" />
+              <stop stopColor="#00D9FF" />
+              <stop offset="1" stopColor="#007DFF" />
             </linearGradient>
             <clipPath id="clip0_1_47962">
               <rect width="26" height="26" fill="white" />

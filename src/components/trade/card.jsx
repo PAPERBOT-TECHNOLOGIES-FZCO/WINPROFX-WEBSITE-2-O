@@ -18,24 +18,24 @@ export default function Card({ meta = "", title = '', des = '', img }) {
                     <path d="M619.148 -26.6688C669.889 -7.70831 707.07 21.3023 702.193 38.1282C697.316 54.9541 652.228 53.2236 601.486 34.2631C550.745 15.3026 513.564 -13.7081 518.441 -30.534C523.318 -47.3599 568.406 -45.6294 619.148 -26.6688Z" fill="#00D9FF" />
                 </g>
                 <defs>
-                    <filter id="filter0_f_6100_280" x="0.000350952" y="-313.61" width="797.338" height="743.319" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <filter id="filter0_f_6100_280" x="0.000350952" y="-313.61" width="797.338" height="743.319" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                         <feGaussianBlur stdDeviation="111.805" result="effect1_foregroundBlur_6100_280" />
                     </filter>
-                    <filter id="filter1_f_6100_280" x="129.61" y="-184" width="538.118" height="484.099" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <filter id="filter1_f_6100_280" x="129.61" y="-184" width="538.118" height="484.099" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                         <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_6100_280" />
                     </filter>
-                    <filter id="filter2_f_6100_280" x="418.012" y="-142.103" width="384.611" height="291.801" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <filter id="filter2_f_6100_280" x="418.012" y="-142.103" width="384.611" height="291.801" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                         <feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_6100_280" />
                     </filter>
                     <radialGradient id="paint0_radial_6100_280" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(422.502 34.1352) rotate(121.07) scale(194.943 292.012)">
-                        <stop stop-color="#00D9FF" />
-                        <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                        <stop stopColor="#00D9FF" />
+                        <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
                     </radialGradient>
                 </defs>
             </svg>

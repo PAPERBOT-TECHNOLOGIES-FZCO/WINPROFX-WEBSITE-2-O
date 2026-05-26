@@ -27,19 +27,19 @@ export default function Accordion({ items, activeItem = null, desClass = "", }) 
               </g>
             </g>
             <defs>
-              <filter id="filter0_f_1_4649" x="-1.52588e-05" y="0.000106812" width="797.338" height="743.319" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <filter id="filter0_f_1_4649" x="-1.52588e-05" y="0.000106812" width="797.338" height="743.319" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                 <feGaussianBlur stdDeviation="111.805" result="effect1_foregroundBlur_1_4649" />
               </filter>
-              <filter id="filter1_f_1_4649" x="129.61" y="129.61" width="538.118" height="484.099" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <filter id="filter1_f_1_4649" x="129.61" y="129.61" width="538.118" height="484.099" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
                 <feGaussianBlur stdDeviation="47" result="effect1_foregroundBlur_1_4649" />
               </filter>
               <radialGradient id="paint0_radial_1_4649" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(422.501 347.745) rotate(121.07) scale(194.943 292.012)">
-                <stop stop-color="#00D9FF" />
-                <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+                <stop stopColor="#00D9FF" />
+                <stop offset="1" stopColor="#00D9FF" stopOpacity="0" />
               </radialGradient>
             </defs>
           </svg>
