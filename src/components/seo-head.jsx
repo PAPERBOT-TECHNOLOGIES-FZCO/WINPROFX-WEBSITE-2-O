@@ -78,7 +78,6 @@ export default function SeoHead({
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
       <meta name="theme-color" content="#000000" />
       <title>{title}</title>
-      <meta name="title" content={title} />
       {description && <meta name="description" content={description} />}
       {keywords && <meta name="keywords" content={keywords} />}
 

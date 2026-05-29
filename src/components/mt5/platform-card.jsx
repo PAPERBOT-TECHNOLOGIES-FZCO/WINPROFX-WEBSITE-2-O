@@ -8,7 +8,7 @@ import AppStoreBtn from "../app-store-btn";
 import WindowsBtn from "../windows-btn";
 import WebTradingBtn from "../webtrading-btn";
 
-export default function PlatformCard({ id, meta = "", title = "", des = "", img }) {
+export default function PlatformCard({ id, meta = "", title = "", des = "", img, imgAlt = "WINPROFX trading platform access" }) {
   return (
     <div
       className="relative z-1 flex flex-wrap flex-col-reverse lg:flex-row even:lg:flex-row-reverse lg:items-center justify-between gap-y-6 xl:gap-x-0 rounded-2xl overflow-hidden border border-solid border-white/8 p-4 backdrop-blur-2xl"
@@ -161,7 +161,7 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img 
         viewport={{ once: once, amount: 0.2 }}
         className="max-w-full lg:max-w-85 xl:max-w-127 h-60 md:h-75 lg:h-86 xl:h-112 w-full rounded-2xl overflow-hidden bg-white/6 flex"
       >
-        <img src={img} alt="" />
+        <img src={img} alt={imgAlt} />
       </motion.div>
     </div>
   );

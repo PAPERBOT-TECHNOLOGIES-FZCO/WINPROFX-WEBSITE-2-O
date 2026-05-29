@@ -135,7 +135,7 @@ export default function News() {
                                 <p className={`text-para leading-relaxed mb-4 md:mb-5 lg:mb-6 max-w-125 line-clamp-2`}>{item.des}</p>
                                 <Button text="Learn More" href="/" className="mb-6 md:mb-8 lg:mb-10" animation={false} />
                                 <div className="max-h-100 overflow-hidden">
-                                    <img src={item.img} className='max-h-full' alt="" />
+                                    <img src={item.img} className='max-h-full' alt={item.title} />
                                 </div>
                                 <div
                                     style={{ mask: 'linear-gradient(#02020200, #020202, #020202)' }}

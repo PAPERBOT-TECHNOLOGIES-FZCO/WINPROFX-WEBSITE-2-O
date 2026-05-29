@@ -60,7 +60,7 @@ export default function WhyFx() {
                         </radialGradient>
                     </defs>
                 </svg>
-                <img src={why_bg} className="absolute bottom-0 left-0 -z-20 w-full h-auto" />
+                <img src={why_bg} className="absolute bottom-0 left-0 -z-20 w-full h-auto" alt="" />
                 <div className="mx-auto max-w-130 text-center">
                     <h3 className="h2 mb-3">Why WinproFX?</h3>
                     <p className="text-para2 text-xs md:text-sm lg:text-base">WinproFX offers advanced trading tools, real-time market updates, and a user-friendly platform to help traders make informed decisions and optimize their trading strategies.</p>

@@ -60,7 +60,7 @@ export default function Award() {
                                     </defs>
                                 </svg>
                                 <div className="max-w-37 mx-auto flex items-center justify-center mb-2">
-                                    <img src={item.img} className='max-w-full' alt="" />
+                                    <img src={item.img} className='max-w-full' alt={item.title} />
                                 </div>
                                 <h6 className='font-medium text-white text-base text-center mt-auto'>{item.title}</h6>
                             </div>

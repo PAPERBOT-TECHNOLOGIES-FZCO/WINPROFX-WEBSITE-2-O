@@ -60,7 +60,7 @@ export default function BenefitsTrading() {
                             <div className="rounded-2xl h-full p-4 md:p-5 lg:p-6 border border-solid border-white/12 bg-[#0A0D10] transition-all duration-300 shadow-0 hover:shadow-2xl shadow-primary/20 cursor-pointer hover:-translate-y-1">
                                 <MetaText title={item.meta} className="rounded-md!" />
                                 <div className="my-5">
-                                    <img src={item.img} className='max-w-58 mx-auto' alt="" />
+                                    <img src={item.img} className='max-w-58 mx-auto' alt={`WINPROFX ${item.title}`} />
                                 </div>
                                 <h5 className='text-2xl leading-tight font-bold text-white mb-2'>{item.title}</h5>
                                 <p className='text-base leading-normal text-para'>{item.des}</p>

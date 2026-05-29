@@ -83,7 +83,7 @@ export default function WhatTrade() {
                             <Link to={item.path} className="block rounded-2xl h-full p-6 border border-solid border-white/12 bg-[#18171F] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 shadow-0 hover:shadow-2xl shadow-primary/20">
                                 <h5 className='text-xl md:text-2xl leading-tight font-bold text-white mb-2'>{item.title}</h5>
                                 <p className='text-xs md:text-sm leading-normal text-para'>{item.des}</p>
-                                <div className="w-full aspect-[1/.7] relative overflow-hidden rounded-xl mt-5"><img src={item.img} className='absolute top-0 left-0 w-full h-full object-cover mx-auto' alt="" /></div>
+                                <div className="w-full aspect-[1/.7] relative overflow-hidden rounded-xl mt-5"><img src={item.img} className='absolute top-0 left-0 w-full h-full object-cover mx-auto' alt={`WINPROFX ${item.title} trading`} /></div>
                             </Link>
                         </motion.div>
                     ))}
@@ -112,7 +112,7 @@ export default function WhatTrade() {
                                     <Link to={item.path} className="block rounded-2xl h-full p-6 border border-solid border-white/12 bg-[#18171F] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 shadow-0 hover:shadow-2xl shadow-primary/20">
                                         <h5 className='text-xl md:text-2xl leading-tight font-bold text-white mb-2'>{item.title}</h5>
                                         <p className='text-xs md:text-sm leading-normal text-para'>{item.des}</p>
-                                        <div className="w-full aspect-[1/.7] relative overflow-hidden rounded-xl mt-5"><img src={item.img} className='absolute top-0 left-0 w-full h-full object-cover mx-auto' alt="" /></div>
+                                        <div className="w-full aspect-[1/.7] relative overflow-hidden rounded-xl mt-5"><img src={item.img} className='absolute top-0 left-0 w-full h-full object-cover mx-auto' alt={`WINPROFX ${item.title} trading`} /></div>
                                     </Link>
                                 </div>
                             </SwiperSlide>
