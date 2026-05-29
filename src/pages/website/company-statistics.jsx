@@ -18,7 +18,7 @@ export default function CompanyStatistics() {
     <div className="padding-top-245">
       <SeoHead
         title="Company Statistics | WINPROFX"
-        description="WINPROFX company statistics and operational metrics. Figures will be updated after operations verification."
+        description="View WINPROFX operational statistics, platform information, support metrics, and transparency updates."
         canonicalPath="/company-statistics"
       />
       <TopShape />
@@ -27,9 +27,13 @@ export default function CompanyStatistics() {
         <Card>
           <IdentitySection>
             <p>
-              This page provides a structured overview of company statistics and operational metrics
-              for WINPROFX. Published figures will be updated after internal operations verification
-              and compliance review.
+              This page provides a structured overview of WINPROFX operational statistics and transparency
+              metrics. It exists so clients, partners, and the public can access verified company data in
+              one place as it becomes available after internal operations and compliance review.
+            </p>
+            <p className="mt-4">
+              WINPROFX does not publish unverified figures, awards, ratings, or performance claims. All
+              values below are placeholders until operations verification is complete.
             </p>
             <p className="mt-4 italic text-para">{STATS_PLACEHOLDER}</p>
           </IdentitySection>
@@ -38,18 +42,18 @@ export default function CompanyStatistics() {
             <StatsPlaceholderGrid items={companyStatisticsItems} />
           </IdentitySection>
 
-          <IdentitySection title="Last Updated">
+          <IdentitySection title="How Statistics Are Updated">
             <p className="text-para">
-              Statistics on this page have not yet been published. Check back for verified operational
-              data after the next update cycle.
+              Metrics on this page are reviewed internally before publication. When verified data is
+              approved, this page will be updated with a current last-updated date. Check back after the
+              next transparency update cycle.
             </p>
           </IdentitySection>
 
           <IdentitySection title="Important Note">
             <p className="italic text-para">
-              WINPROFX does not publish unverified statistics, awards, ratings, or performance claims
-              on this page. Any future published metrics will be based on verified internal records
-              only.
+              Statistics are provided for transparency purposes only. They do not guarantee future
+              performance, service levels, or processing times for individual accounts.
             </p>
           </IdentitySection>
 

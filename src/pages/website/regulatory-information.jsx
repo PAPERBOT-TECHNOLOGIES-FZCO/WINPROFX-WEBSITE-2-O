@@ -21,6 +21,7 @@ import {
   INCORPORATION_PDF_TITLE,
   JURISDICTION,
   LEGAL_ENTITY_NAME,
+  financialLicensePlaceholderRows,
   LICENSE_SCOPE_CLARIFICATION,
   RISK_WARNING_SHORT,
 } from '@/lib/company-registration'
@@ -81,6 +82,15 @@ export default function RegulatoryInformation() {
           <IdentitySection title="Financial Services License Clarification">
             <p>{FINANCIAL_LICENSE_CLARIFICATION}</p>
             <p className="mt-4 text-para italic">{FINANCIAL_LICENSE_PENDING}</p>
+          </IdentitySection>
+
+          <IdentitySection title="Financial Regulatory License Details (When Verified)">
+            <p className="mb-4">
+              When verified financial regulatory license information becomes available, it will be
+              published in the table below with links to official regulator records. Until then, all
+              fields remain placeholders.
+            </p>
+            <RegistrationTable rows={financialLicensePlaceholderRows} />
           </IdentitySection>
 
           <IdentitySection title="Document Availability">

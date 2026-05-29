@@ -9,7 +9,11 @@ import IdentityNav from '@/components/company-identity/identity-nav'
 import TrustProcessTable from '@/components/company-identity/trust-process-table'
 import SeoHead from '@/components/seo-head'
 import {
-  complaintsProcessRows,
+  ACCOUNT_SPECIFIC_PRIVACY_NOTE,
+  complaintsRequiredInfo,
+  complaintsReviewSteps,
+  complaintsTimelineRows,
+  PUBLIC_REVIEW_RESPONSE_POLICY,
   RISK_WARNING_SHORT,
   SUPPORT_EMAIL,
 } from '@/lib/company-registration'
@@ -19,7 +23,7 @@ export default function ComplaintsAndDisputeResolution() {
     <div className="padding-top-245">
       <SeoHead
         title="Complaints and Dispute Resolution | WINPROFX"
-        description="Learn how to submit complaints to WINPROFX, what information is required, how complaints are reviewed, and the escalation and response process."
+        description="Learn how WINPROFX handles client complaints, support escalations, dispute reviews, and account-related concerns."
         canonicalPath="/complaints-and-dispute-resolution"
       />
       <TopShape />
@@ -30,17 +34,16 @@ export default function ComplaintsAndDisputeResolution() {
             <p>
               WINPROFX provides a structured complaints process so clients and partners can raise
               concerns about account services, support interactions, withdrawals, verification, or
-              other trading-related matters through official channels.
+              other trading-related matters through official channels only.
             </p>
             <p className="mt-4">
-              Clients should only submit complaints through official WINPROFX support channels. Do not
-              share account passwords, payment card details, or identity documents through unofficial
-              websites, social media messages, or third-party contacts claiming to represent WINPROFX.
+              Do not share account passwords, payment card details, or identity documents through
+              unofficial websites, social media messages, or third parties claiming to represent WINPROFX.
             </p>
           </IdentitySection>
 
           <IdentitySection title="How to Submit a Complaint">
-            <p>
+            <p className="mb-4">
               Complaints may be submitted by email to{' '}
               <a href={`mailto:${SUPPORT_EMAIL}`} className="text-white underline hover:text-primary">
                 {SUPPORT_EMAIL}
@@ -49,33 +52,37 @@ export default function ComplaintsAndDisputeResolution() {
               <Link to="/contact" className="text-white underline hover:text-primary">
                 Contact
               </Link>{' '}
-              page. Include as much detail as possible to help the support and compliance teams
-              investigate the issue efficiently.
+              page. Please include:
             </p>
-          </IdentitySection>
-
-          <IdentitySection title="Complaints Process">
-            <TrustProcessTable rows={complaintsProcessRows} caption="Complaints handling process" />
-          </IdentitySection>
-
-          <IdentitySection title="Information Required">
             <ul className="list-disc pl-5 flex flex-col gap-2 text-para">
-              <li>Full registered name and email address</li>
-              <li>Account reference or client ID (if applicable)</li>
-              <li>Date and time of the issue</li>
-              <li>Detailed description of the complaint</li>
-              <li>Supporting documents or screenshots (if available)</li>
-              <li>Preferred contact method for follow-up</li>
+              {complaintsRequiredInfo.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Privacy Note for Public Reviews">
-            <p>
-              Clients who post public reviews or comments on third-party websites should avoid sharing
-              sensitive account information, personal identity documents, or payment details. WINPROFX
-              official support will never request passwords or full payment card numbers by email or
-              unofficial channels.
+          <IdentitySection title="Complaint Review Process">
+            <ol className="list-decimal pl-5 flex flex-col gap-3 text-para">
+              {complaintsReviewSteps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </IdentitySection>
+
+          <IdentitySection title="Response Timelines">
+            <p className="mb-4">
+              Target response times are set by internal operations and compliance procedures. Approved
+              SLAs will be published when verified.
             </p>
+            <TrustProcessTable rows={complaintsTimelineRows} caption="Complaints response timelines" />
+          </IdentitySection>
+
+          <IdentitySection title="Account-Specific Privacy">
+            <p>{ACCOUNT_SPECIFIC_PRIVACY_NOTE}</p>
+          </IdentitySection>
+
+          <IdentitySection title="Public Review Response Policy">
+            <p>{PUBLIC_REVIEW_RESPONSE_POLICY}</p>
           </IdentitySection>
 
           <IdentitySection title="Escalation">

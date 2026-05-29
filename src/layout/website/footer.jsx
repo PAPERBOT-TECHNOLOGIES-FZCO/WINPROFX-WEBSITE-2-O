@@ -6,6 +6,7 @@ import Social from '@/components/social'
 import { Container } from '@/components/grid'
 import { duration, once, y } from '@/utilities/animation'
 
+import { footerTrustLegalLinks } from '@/lib/company-registration'
 import bg from '@/assets/img/footer-bg.png'
 import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png'
 
@@ -34,30 +35,16 @@ export default function Footer() {
     },
   ]
 
-  const trust_transparency_links = [
-    { name: 'Dubai Professional License', path: '/dubai-professional-license' },
-    { name: 'UAE Representative Office', path: '/uae-representative-office' },
-    { name: 'Withdrawal Transparency', path: '/withdrawal-transparency' },
-    { name: 'Complaints and Dispute Resolution', path: '/complaints-and-dispute-resolution' },
-    { name: 'Client Fund Security', path: '/client-fund-security' },
-    { name: 'Support and Escalation', path: '/support-and-escalation' },
-    { name: 'Company Statistics', path: '/company-statistics' },
-  ]
-
   const important_links = [
     { name: 'Company Profile', path: '/company-profile' },
-    { name: 'Company Registration', path: '/company-registration' },
-    { name: 'Legal Entity Information', path: '/legal-entity-information' },
-    { name: 'Regulatory Information', path: '/regulatory-information' },
-    { name: 'Official Domains', path: '/official-domains' },
-    { name: 'Verify WINPROFX', path: '/verify-winprofx' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
-    { name: 'Risk Warning', path: '/risk-warning' },
-    { name: 'Legal Documents', path: '/legal-documents' },
-    { name: 'Privacy Policy', path: '/policy' },
-    { name: 'Terms and Conditions', path: '/terms' },
   ]
+
+  const trust_legal_links = footerTrustLegalLinks.map((link) => ({
+    name: link.label,
+    path: link.path,
+  }))
 
   const footer_items = [
     {
@@ -272,10 +259,10 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="flex flex-col gap-y-3">
-              <strong className="text-xl font-semibold leading-tight text-white">Trust &amp; Transparency</strong>
-              <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
-                {trust_transparency_links.map((link) => (
+            <div className="flex flex-col gap-y-3 md:col-span-2 lg:col-span-1">
+              <strong className="text-xl font-semibold leading-tight text-white">Trust &amp; Legal</strong>
+              <ul className="text-sm md:text-base leading-normal text-para grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
+                {trust_legal_links.map((link) => (
                   <li key={link.path}>
                     <Link to={link.path} className="text-white underline hover:text-primary">
                       {link.name}

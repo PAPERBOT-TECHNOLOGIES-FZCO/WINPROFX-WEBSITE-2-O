@@ -66,7 +66,9 @@ export const FINANCIAL_LICENSE_CLARIFICATION =
   'The incorporation of Winprofx Ltd. confirms the legal formation of the company. It does not by itself constitute a financial services license, forex broker license, CFD broker license, or regulatory authorization. If financial regulatory license information is applicable, it must be verified through official regulator records and will be published on this page with regulator name, license number, license type, jurisdiction, permitted activities, and verification link.'
 
 export const FINANCIAL_LICENSE_PENDING =
-  'Financial services license details: Pending compliance verification / To be updated only with verified regulator-issued license information.'
+  'Financial regulatory license details are pending compliance verification and will be updated only after verification through official regulator records.'
+
+export const OPS_PLACEHOLDER = 'To be updated by operations/compliance team.'
 
 export const STATS_PLACEHOLDER = 'To be updated after operations verification.'
 
@@ -290,28 +292,142 @@ export const withdrawalProcessRows = [
 ]
 
 export const withdrawalMethodRows = [
-  { label: 'Bank transfer', value: 'To be updated by operations/compliance team' },
-  { label: 'Card refund (where applicable)', value: 'To be updated by operations/compliance team' },
-  { label: 'Crypto / digital asset (where applicable)', value: 'To be updated by operations/compliance team' },
-  { label: 'Other approved methods', value: 'To be updated by operations/compliance team' },
+  { label: 'Bank transfer', value: OPS_PLACEHOLDER },
+  { label: 'Card refund (where applicable)', value: OPS_PLACEHOLDER },
+  { label: 'Crypto / digital asset (where applicable)', value: OPS_PLACEHOLDER },
+  { label: 'Other approved methods', value: OPS_PLACEHOLDER },
+]
+
+/** Per-method processing timeline (withdrawal-transparency page) */
+export const withdrawalTimelineRows = [
+  {
+    label: 'Bank transfer',
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, payment method verification, PSP/bank processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+  },
+  {
+    label: 'Card refund (where applicable)',
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, card verification, issuer processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+  },
+  {
+    label: 'Crypto / digital asset (where applicable)',
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, wallet verification, blockchain confirmation. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+  },
+  {
+    label: 'Other approved methods',
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: As per method and compliance review. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+  },
+]
+
+export const withdrawalDelayReasons = [
+  'Incomplete KYC or outdated identity documents',
+  'Mismatch between deposit and withdrawal payment method',
+  'Pending AML or compliance review',
+  'Incorrect wallet, bank, or payment details',
+  'Payment service provider, bank, or blockchain processing delay',
+  'Bonus, promotion, or trading terms review where applicable',
+  'Account security verification or suspicious activity review',
+]
+
+export const withdrawalTransparencyStats = [
+  { label: 'Monthly withdrawal requests processed', value: STATS_PLACEHOLDER },
+  { label: 'Average withdrawal review time', value: STATS_PLACEHOLDER },
+  { label: 'Median withdrawal review time', value: STATS_PLACEHOLDER },
+  { label: 'Percentage completed within standard timeline', value: STATS_PLACEHOLDER },
+  { label: 'Last updated', value: STATS_PLACEHOLDER },
 ]
 
 export const complaintsProcessRows = [
-  { label: 'Submit complaint', value: 'Email support@winprofx.com with subject line "Complaint" or use the official Contact page.' },
-  { label: 'Information required', value: 'Full name, registered email, account reference (if applicable), date of issue, detailed description, supporting documents.' },
-  { label: 'Acknowledgement', value: 'To be updated by operations/compliance team' },
+  { label: 'Submit complaint', value: `Email ${SUPPORT_EMAIL} with subject line "Complaint" or use the official Contact page.` },
+  { label: 'Information required', value: 'Full name, registered email, account/MT5 ID, ticket ID if available, date/time of issue, detailed description, supporting documents.' },
+  { label: 'Acknowledgement', value: OPS_PLACEHOLDER },
   { label: 'Internal review', value: 'Support and compliance teams review the complaint and relevant account records.' },
   { label: 'Escalation', value: 'Unresolved complaints may be escalated to compliance/operations management.' },
-  { label: 'Final response', value: 'To be updated by operations/compliance team' },
+  { label: 'Final response', value: OPS_PLACEHOLDER },
+]
+
+export const complaintsReviewSteps = [
+  'Complaint received through official support channels',
+  'Support acknowledgement and reference assignment where applicable',
+  'Internal review by support and relevant account teams',
+  'Compliance or operations review if required',
+  'Response or resolution communicated to the client',
+  'Escalation to management if the issue remains unresolved',
+]
+
+export const complaintsTimelineRows = [
+  { label: 'Acknowledgement time', value: OPS_PLACEHOLDER },
+  { label: 'Initial review time', value: OPS_PLACEHOLDER },
+  { label: 'Escalation review time', value: OPS_PLACEHOLDER },
+  { label: 'Final response target', value: OPS_PLACEHOLDER },
+]
+
+export const complaintsRequiredInfo = [
+  'Full registered name',
+  'Registered email address',
+  'Account or MT5 ID',
+  'Support ticket ID (if available)',
+  'Detailed description of the issue',
+  'Supporting screenshots or documents',
+  'Date and time of the transaction or event',
+]
+
+export const ACCOUNT_SPECIFIC_PRIVACY_NOTE =
+  'For security and privacy reasons, WINPROFX cannot discuss account-specific details publicly on review platforms or social media.'
+
+export const PUBLIC_REVIEW_RESPONSE_POLICY =
+  'When a complaint is posted publicly, WINPROFX may request ticket details or the registered email address through official support channels so the case can be reviewed securely.'
+
+export const financialLicensePlaceholderRows = [
+  { label: 'Regulator name', value: STATS_PLACEHOLDER },
+  { label: 'License number', value: STATS_PLACEHOLDER },
+  { label: 'License type', value: STATS_PLACEHOLDER },
+  { label: 'Licensed entity', value: STATS_PLACEHOLDER },
+  { label: 'Jurisdiction', value: STATS_PLACEHOLDER },
+  { label: 'Permitted activities', value: STATS_PLACEHOLDER },
+  { label: 'Status', value: STATS_PLACEHOLDER },
+  { label: 'Official verification URL', value: STATS_PLACEHOLDER },
+]
+
+export const verifyTrustPageLinks = [
+  { path: '/company-registration', label: 'Company Registration' },
+  { path: '/legal-entity-information', label: 'Legal Entity Information' },
+  { path: '/dubai-professional-license', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office', label: 'UAE Representative Office' },
+  { path: '/regulatory-information', label: 'Regulatory Information' },
+  { path: '/withdrawal-transparency', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution', label: 'Complaints and Dispute Resolution' },
+  { path: '/support-and-escalation', label: 'Support and Escalation' },
+  { path: '/client-fund-security', label: 'Client Fund Security' },
+  { path: '/risk-warning', label: 'Risk Warning' },
+  { path: '/official-domains', label: 'Official Domains' },
 ]
 
 export const companyStatisticsItems = [
   { label: 'Active clients', value: STATS_PLACEHOLDER },
   { label: 'Countries served', value: STATS_PLACEHOLDER },
-  { label: 'Supported instruments', value: STATS_PLACEHOLDER },
+  { label: 'Trading instruments', value: STATS_PLACEHOLDER },
   { label: 'Withdrawal requests processed', value: STATS_PLACEHOLDER },
   { label: 'Average withdrawal review time', value: STATS_PLACEHOLDER },
+  { label: 'Median withdrawal review time', value: STATS_PLACEHOLDER },
+  { label: 'Percentage completed within standard timeline', value: STATS_PLACEHOLDER },
   { label: 'Support tickets handled', value: STATS_PLACEHOLDER },
   { label: 'Platform uptime', value: STATS_PLACEHOLDER },
   { label: 'Last updated', value: STATS_PLACEHOLDER },
+]
+
+export const footerTrustLegalLinks = [
+  { path: '/withdrawal-transparency', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution', label: 'Complaints and Dispute Resolution' },
+  { path: '/client-fund-security', label: 'Client Fund Security' },
+  { path: '/support-and-escalation', label: 'Support and Escalation' },
+  { path: '/company-statistics', label: 'Company Statistics' },
+  { path: '/regulatory-information', label: 'Regulatory Information' },
+  { path: '/company-registration', label: 'Company Registration' },
+  { path: '/legal-entity-information', label: 'Legal Entity Information' },
+  { path: '/dubai-professional-license', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office', label: 'UAE Representative Office' },
+  { path: '/official-domains', label: 'Official Domains' },
+  { path: '/verify-winprofx', label: 'Verify WINPROFX' },
+  { path: '/risk-warning', label: 'Risk Warning' },
+  { path: '/legal-documents', label: 'Legal Documents' },
 ]

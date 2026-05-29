@@ -7,12 +7,14 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import TrustProcessTable from '@/components/company-identity/trust-process-table'
+import StatsPlaceholderGrid from '@/components/company-identity/stats-placeholder-grid'
 import SeoHead from '@/components/seo-head'
 import {
   RISK_WARNING_SHORT,
   SUPPORT_EMAIL,
-  withdrawalMethodRows,
-  withdrawalProcessRows,
+  withdrawalDelayReasons,
+  withdrawalTimelineRows,
+  withdrawalTransparencyStats,
 } from '@/lib/company-registration'
 
 export default function WithdrawalTransparency() {
@@ -20,7 +22,7 @@ export default function WithdrawalTransparency() {
     <div className="padding-top-245">
       <SeoHead
         title="Withdrawal Transparency | WINPROFX"
-        description="Learn about WINPROFX withdrawal processes, review steps, KYC and AML checks, possible delays, escalation routes, and required information for withdrawal requests."
+        description="Learn about WINPROFX withdrawal processing, review requirements, expected timelines, escalation process, and important account verification information."
         canonicalPath="/withdrawal-transparency"
       />
       <TopShape />
@@ -34,43 +36,87 @@ export default function WithdrawalTransparency() {
               verification requirements, and escalation options available to clients.
             </p>
             <p className="mt-4">
-              Withdrawal processing times may vary depending on the payment method, account
-              verification status, compliance review requirements, and third-party payment service
-              provider or banking processing times. Specific operational timelines are maintained by
-              the operations and compliance teams.
+              Withdrawal requests may require account verification, payment method verification,
+              AML and KYC checks, and review of trading or account activity where required by internal
+              compliance procedures. Processing times may also depend on third-party payment service
+              providers, banks, or blockchain networks.
             </p>
           </IdentitySection>
 
           <IdentitySection title="Withdrawal Process Overview">
             <p>
-              When a client submits a withdrawal request, the request typically passes through account
-              verification, compliance review, and payment processing stages before funds are released
-              to the approved destination.
+              When a client submits a withdrawal request, the request typically passes through the
+              following stages before funds are released to the approved destination:
             </p>
             <ol className="list-decimal pl-5 mt-4 flex flex-col gap-2 text-para">
-              <li>Client submits withdrawal request through the official client portal or approved channel</li>
+              <li>Client submits a withdrawal request through the official client portal or approved channel</li>
               <li>Account identity and KYC status are verified</li>
-              <li>AML and payment method verification checks are performed where applicable</li>
-              <li>Account security review is conducted if required</li>
+              <li>Payment method verification and AML checks are performed where applicable</li>
+              <li>Trading or account activity may be reviewed where required by compliance</li>
+              <li>Account security review is conducted if triggered</li>
               <li>Approved withdrawal is sent to the payment service provider, bank, or blockchain network</li>
               <li>Client receives confirmation once processing is complete</li>
             </ol>
           </IdentitySection>
 
-          <IdentitySection title="Withdrawal Methods">
-            <TrustProcessTable rows={withdrawalMethodRows} caption="Withdrawal methods" />
+          <IdentitySection title="Processing Timeline">
+            <p className="mb-4">
+              The table below outlines standard review and processing expectations by withdrawal method.
+              Exact timelines are maintained by the operations and compliance teams.
+            </p>
+            <TrustProcessTable rows={withdrawalTimelineRows} caption="Withdrawal processing timeline by method" />
           </IdentitySection>
 
-          <IdentitySection title="Review and Processing Times">
-            <TrustProcessTable rows={withdrawalProcessRows} caption="Withdrawal process steps" />
+          <IdentitySection title="Common Reasons for Delay">
+            <p className="mb-4">
+              Withdrawals may take longer than expected for reasons including, but not limited to:
+            </p>
+            <ul className="list-disc pl-5 flex flex-col gap-2 text-para">
+              {withdrawalDelayReasons.map((reason) => (
+                <li key={reason}>{reason}</li>
+              ))}
+            </ul>
           </IdentitySection>
 
-          <IdentitySection title="KYC, AML, and Security Checks">
+          <IdentitySection title="Escalation Process">
             <p>
-              Withdrawals may be delayed if account verification is incomplete, if additional
-              documentation is required, or if an AML or security review is triggered. Clients should
-              ensure their account profile, payment methods, and identity documents are up to date
-              before submitting withdrawal requests.
+              If a withdrawal is delayed beyond the standard timeline, contact WINPROFX support with the
+              following information:
+            </p>
+            <ul className="list-disc pl-5 mt-4 flex flex-col gap-2 text-para">
+              <li>Registered email address</li>
+              <li>MT5 or account ID</li>
+              <li>Withdrawal request ID or reference (if available)</li>
+              <li>Date and amount of the withdrawal request</li>
+              <li>Payment method used for the withdrawal</li>
+            </ul>
+            <p className="mt-4">
+              Email{' '}
+              <a href={`mailto:${SUPPORT_EMAIL}`} className="text-white underline hover:text-primary">
+                {SUPPORT_EMAIL}
+              </a>{' '}
+              or visit{' '}
+              <Link to="/support-and-escalation" className="text-white underline hover:text-primary">
+                Support and Escalation
+              </Link>
+              .
+            </p>
+          </IdentitySection>
+
+          <IdentitySection title="Transparency Statistics">
+            <p className="mb-4">
+              Operational withdrawal metrics will be published here after internal verification. Figures
+              below are placeholders until approved data is available.
+            </p>
+            <StatsPlaceholderGrid items={withdrawalTransparencyStats} />
+          </IdentitySection>
+
+          <IdentitySection title="Risk and Compliance Note">
+            <p>
+              Withdrawals may be reviewed for KYC completeness, AML compliance, account security,
+              payment method verification, and adherence to applicable terms and promotions. Clients
+              should ensure account profiles and payment methods are up to date before submitting
+              requests.
             </p>
             <p className="mt-4">
               For full deposit and withdrawal policy terms, see the{' '}
@@ -78,22 +124,6 @@ export default function WithdrawalTransparency() {
                 Deposit &amp; Withdrawal Policy
               </Link>
               .
-            </p>
-          </IdentitySection>
-
-          <IdentitySection title="Escalation">
-            <p>
-              If a withdrawal request is delayed beyond the expected timeframe, clients may escalate
-              through official support channels at{' '}
-              <a href={`mailto:${SUPPORT_EMAIL}`} className="text-white underline hover:text-primary">
-                {SUPPORT_EMAIL}
-              </a>{' '}
-              or via the{' '}
-              <Link to="/support-and-escalation" className="text-white underline hover:text-primary">
-                Support and Escalation
-              </Link>{' '}
-              page. Include account reference, withdrawal date, amount, and payment method in the
-              escalation request.
             </p>
           </IdentitySection>
 
