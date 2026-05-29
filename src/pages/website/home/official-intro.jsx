@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Container } from '@/components/grid'
 
@@ -10,22 +10,58 @@ const quickLinks = [
 ]
 
 export default function OfficialIntro() {
+  const cardRef = useRef(null)
+  const [usesStaticHeading, setUsesStaticHeading] = useState(false)
+
+  useEffect(() => {
+    const staticSeo = document.getElementById('static-home-seo')
+    if (!staticSeo || !cardRef.current) return
+
+    staticSeo.style.maxWidth = ''
+    staticSeo.style.margin = ''
+    staticSeo.style.padding = ''
+    staticSeo.style.color = ''
+    staticSeo.style.fontFamily = ''
+
+    const heading = staticSeo.querySelector('h1')
+    if (heading) {
+      heading.className = 'text-xl md:text-2xl font-semibold text-white mb-3 md:mb-4'
+      heading.id = 'official-intro-heading'
+    }
+
+    const intro = staticSeo.querySelector('p')
+    if (intro) {
+      intro.className = 'text-sm md:text-base leading-relaxed text-para mb-3 md:mb-4'
+    }
+
+    staticSeo.removeAttribute('style')
+    cardRef.current.prepend(staticSeo)
+    setUsesStaticHeading(true)
+  }, [])
+
   return (
     <section aria-labelledby="official-intro-heading" className="relative z-1 -mt-6 md:-mt-10 pb-4 md:pb-6">
       <Container>
-        <div className="bg-white/2 border border-solid border-white/8 backdrop-blur-sm rounded-2xl lg:rounded-[20px] p-4 md:p-6 lg:p-8 max-w-4xl">
-          <h1
-            id="official-intro-heading"
-            className="text-xl md:text-2xl font-semibold text-white mb-3 md:mb-4"
-          >
-            WINPROFX Official Website
-          </h1>
+        <div
+          ref={cardRef}
+          className="bg-white/2 border border-solid border-white/8 backdrop-blur-sm rounded-2xl lg:rounded-[20px] p-4 md:p-6 lg:p-8 max-w-4xl"
+        >
+          {!usesStaticHeading && (
+            <>
+              <h1
+                id="official-intro-heading"
+                className="text-xl md:text-2xl font-semibold text-white mb-3 md:mb-4"
+              >
+                WINPROFX Official Website
+              </h1>
 
-          <p className="text-sm md:text-base leading-relaxed text-para mb-3 md:mb-4">
-            WINPROFX is a forex and CFD trading brand offering trading platform access, client
-            account services, partner program tools, and trading-related support services through its
-            official websites and portals.
-          </p>
+              <p className="text-sm md:text-base leading-relaxed text-para mb-3 md:mb-4">
+                WINPROFX is a forex and CFD trading brand offering trading platform access, client
+                account services, partner program tools, and trading-related support services through its
+                official websites and portals.
+              </p>
+            </>
+          )}
 
           <p className="text-sm md:text-base leading-relaxed text-para mb-3 md:mb-4">
             The main official WINPROFX website is{' '}
