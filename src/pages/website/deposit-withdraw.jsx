@@ -185,6 +185,7 @@ export default function DepositWithdraw() {
             />
             <TopShape />
             <PolicyTitle
+                as="h1"
                 title="Deposit & Withdrawal Policy"
             />
             <Container>

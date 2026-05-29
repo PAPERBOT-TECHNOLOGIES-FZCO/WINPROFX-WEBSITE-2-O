@@ -240,6 +240,7 @@ export default function RiskDisclosure() {
             />
             <TopShape />
             <PolicyTitle
+                as="h1"
                 title="Risk Disclosure"
             />
             <Container>

@@ -22,7 +22,7 @@ export default function OfficialIntro() {
           </h1>
 
           <p className="text-sm md:text-base leading-relaxed text-para mb-3 md:mb-4">
-            WINPROFX is a forex and CFD trading brand offering access to trading platforms, client
+            WINPROFX is a forex and CFD trading brand offering trading platform access, client
             account services, partner program tools, and trading-related support services through its
             official websites and portals.
           </p>

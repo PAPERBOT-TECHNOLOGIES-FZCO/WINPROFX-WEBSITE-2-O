@@ -82,6 +82,7 @@ export default function Terms() {
             />
             <TopShape />
             <PolicyTitle
+                as="h1"
                 title="Terms & Conditions"
             />
             <Container>

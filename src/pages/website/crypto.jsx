@@ -74,13 +74,13 @@ export default function Crypto() {
                 <div className="hidden md:block md:absolute top-0 left-0 size-full bg-linear-180 to-black from-black/0 -z-9 lg:hidden"></div>
                 <div className="max-w-437 w-full mx-auto px-4 md:px-6 mt-auto flex items-start flex-wrap justify-center md:justify-between gap-y-4 text-center md:text-start">
                     <motion.div
-                        initial={{ opacity: 0, x: -y }}
+                        initial={{ opacity: 1, x: 0 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col items-start justify-start max-w-150 lg:max-w-110 xl:max-w-160">
                         <MetaText title="Crypto trading" className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" />
-                        <h1 className='h1 max-w-75 mx-auto md:max-w-full'>Capture opportunities in crypto markets</h1>
+                        <h1 className='h1 max-w-75 mx-auto md:max-w-full'>Crypto Trading</h1>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: y }}

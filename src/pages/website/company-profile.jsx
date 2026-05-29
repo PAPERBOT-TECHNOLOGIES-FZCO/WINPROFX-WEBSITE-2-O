@@ -197,7 +197,7 @@ export default function CompanyProfile() {
         faqItems={companyProfileFaqs}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="" title="WINPROFX Company Profile" animation={false} />
+      <PolicyTitle as="h1" meta="" title="Company Profile" animation={false} />
       <Container>
         <div className="max-w-280 mx-auto text-center mb-6 md:mb-8 -mt-4 md:-mt-6 px-2">
           <p className="text-sm text-para2 mb-2">Last updated: {LAST_UPDATED}</p>

@@ -49,7 +49,7 @@ export default function Metals() {
                 bg={banner_bg}
                 bgClass="bottom-0 md:left-1/2 md:-translate-x-1/2 w-full object-contain w-auto h-auto"
                 meta="Metals trading"
-                title="Trade global metals markets"
+                title="Metals Trading"
                 des={
                     <>
                         Spot Metal Trading holds a special place in the heart of every trader. Metals have attracted traders all over the world since ancient times and continue to do so today.

@@ -22,7 +22,7 @@ export default function WinPromotion2() {
                 bg={banner_bg}
                 bgClass="bottom-0 left-0 w-full h-auto object-cover"
                 meta="WinproFX Exclusive · March - May 2026"
-                title="Team Up With WinproFX As A Partner (IB)"
+                title="Introducing Broker Program"
                 des={
                     <>
                         Join an industry-leading Introducing Broker (IB) program engineered for maximum yield, absolute transparency, and daily automated payouts.

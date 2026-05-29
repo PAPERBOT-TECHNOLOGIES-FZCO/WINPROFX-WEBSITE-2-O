@@ -7,8 +7,8 @@ export default function PolicyTitle({ className="", title = "", meta = "Last Upd
     const HeadingTag = as
     return (
         <motion.div
-            initial={animation ? { opacity: 0, y: y } : ''}
-            whileInView={animation ? { opacity: 1, y: 0 } : ''}
+            initial={animation ? { opacity: 1, y: 0 } : undefined}
+            whileInView={animation ? { opacity: 1, y: 0 } : undefined}
             transition={{ duration: duration, delay: `0.2` }}
             viewport={{ once: once, amount: 0.2 }}
             className={`${className} policy-card text-center mb-8 md:mb-12 lg:mb-17 xl:mb-22`}>

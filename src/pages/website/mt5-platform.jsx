@@ -48,7 +48,7 @@ export default function Mt5Platform() {
         bg={banner_bg}
         bgClass="bottom-0 w-full"
         meta="Platform"
-        title="MT5 Unleashed: Dive into Limitless Trading Success with WinproFX"
+        title="Trading Platform"
         des={
           <>
             WinproFX has achieved significant success in global business

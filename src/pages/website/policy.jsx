@@ -367,8 +367,9 @@ export default function Policy() {
             />
             <TopShape />
             <PolicyTitle
+                as="h1"
                 meta="Last Updated: Jun 7, 2024"
-                title="Restricted Countries"
+                title="Privacy Policy"
             />
             <Container>
                 <Card>

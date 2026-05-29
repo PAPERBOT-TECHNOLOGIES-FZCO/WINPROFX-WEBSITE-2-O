@@ -49,6 +49,7 @@ export default function BlogDetails() {
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
                 <PolicyTitle
+                    as="h1"
                     animation={false}
                     className="max-w-260 mx-auto mb-8! md:mb-12! lg:mb-16!"
                     meta="Overview"

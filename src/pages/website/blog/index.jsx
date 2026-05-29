@@ -122,8 +122,9 @@ export default function Blog() {
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
                 <PolicyTitle
+                    as="h1"
                     meta="Blog"
-                    title="Insights & Strategies for Smarter Trading"
+                    title="WINPROFX Blog"
                     className={"md:text-start! max-w-175"}
                 />
                 <div className="flex flex-wrap gap-y-2 gap-x-2 mb-4 md:mb-5 lg:mb-6">

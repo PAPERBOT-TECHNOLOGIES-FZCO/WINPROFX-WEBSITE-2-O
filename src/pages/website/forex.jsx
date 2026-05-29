@@ -44,7 +44,7 @@ export default function Forex() {
                 canonicalPath="/forex"
             />
             <CommonBanner
-                title="Move your money with global currency markets"
+                title="Forex Trading"
                 des="Trade 24/5 on assets in the foreign exchange market. We offer over 50 major, minor, and exotic currency pairs, with competitive spreads, sharp prices, fast execution, and 0% commission."
             />
             <div className="common-padding">

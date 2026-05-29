@@ -47,7 +47,7 @@ export default function Indices() {
                 containerClass="text-center lg:text-start max-w-180 lg:max-w-210"
                 bg={banner_bg}
                 meta="Indices trading"
-                title="Trade Global Market Indices with Confidence"
+                title="Indices Trading"
                 des="Indices track the performance of a group of top-performing companies, giving you exposure to entire economies through a single trade."
                 desClass="max-w-140 lg:max-w-156 mx-auto lg:mx-0"
             />

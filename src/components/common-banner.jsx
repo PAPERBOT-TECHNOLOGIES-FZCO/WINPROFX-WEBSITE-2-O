@@ -38,7 +38,7 @@ export default function CommonBanner({
           title={meta}
         />
         <motion.h1
-          initial={{ opacity: 0, scale: 2 }}
+          initial={{ opacity: 1, scale: 1 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: duration, delay: `0.2` }}
           viewport={{ once: once, amount: 0.4 }}

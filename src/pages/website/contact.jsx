@@ -57,7 +57,7 @@ export default function Contact() {
         pageName="Contact WINPROFX"
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Customer Support" title="Contact WinProFX" />
+      <PolicyTitle as="h1" meta="Customer Support" title="Contact WINPROFX" />
       <Container>
         <Card>
           <IdentitySection title="Get in Touch">

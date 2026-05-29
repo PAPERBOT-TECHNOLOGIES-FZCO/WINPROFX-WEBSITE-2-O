@@ -113,6 +113,7 @@ export default function AmlPolicy() {
             />
             <TopShape />
             <PolicyTitle
+                as="h1"
                 title="KYC / AML Policy"
             />
             <Container>

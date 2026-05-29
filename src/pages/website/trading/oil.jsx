@@ -51,13 +51,13 @@ export default function Oil() {
                 <Container className="max-w-375!">
                     <div className="flex items-center flex-wrap justify-between text-center md:text-start">
                         <motion.div
-                            initial={{ opacity: 0, x: -y }}
-                            whileInView={{ opacity: 1, x: 1 }}
+                            initial={{ opacity: 1, x: 0 }}
+                            whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: duration, delay: `0.2` }}
                             viewport={{ once: once, amount: 0.4 }}
                             className="max-w-154 w-full">
                             <MetaText className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" title="Oil trading" />
-                            <h1 className='max-w-65 mx-auto md:max-w-full text-2xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium capitalize mb-4 md:mb-5 lg:mb-7'>Trade Energy Futures with Precision</h1>
+                            <h1 className='max-w-65 mx-auto md:max-w-full text-2xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium capitalize mb-4 md:mb-5 lg:mb-7'>Oil Trading</h1>
                             <p className='text-para2 max-w-150 lg:max-w-xl mb-4 md:mb-6 lg:mb-8'>Hedge against price volatility and capitalize on global market trends. Access real-time data, advanced charting, and deep liquidity on our premier trading platform to navigate the energy sector with confidence.</p>
                             <Button animation={false} />
                         </motion.div>

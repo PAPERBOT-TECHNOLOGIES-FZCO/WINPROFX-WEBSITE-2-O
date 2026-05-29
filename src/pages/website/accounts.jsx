@@ -26,7 +26,7 @@ export default function Accounts() {
         videoBg={video}
         bgClass="mt-25 md:mt-0 md:top-1/2 h-auto 3xl:h-full! w-full bottom-0 left-0 scale-180 md:scale-100"
         meta="ACCOUNTS"
-        title="Professional Accounts. Zero Commission."
+        title="Trading Accounts"
         des={
           <>
             Unlock feature-packed, commission-free trading accounts designed for
