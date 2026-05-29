@@ -1,6 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "npx playwright install chromium && npm run build"
   publish = "dist"
+
+[build.environment]
+  PLAYWRIGHT_BROWSERS_PATH = "0"
 
 # Domain alias redirects: winprofx.com / winprofx.ae → winprofx.org (primary).
 # Uses full-URL patterns (Netlify domain-level redirect syntax).
