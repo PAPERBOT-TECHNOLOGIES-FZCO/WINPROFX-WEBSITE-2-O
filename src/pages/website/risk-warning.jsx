@@ -77,6 +77,36 @@ export default function RiskWarning() {
               .
             </p>
             <p className="mt-4">
+              For regulatory and license information, see{' '}
+              <Link to="/regulatory-information" className="text-white underline hover:text-primary">
+                Regulatory Information
+              </Link>
+              ,{' '}
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                Dubai Professional License
+              </Link>
+              , and{' '}
+              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+                Verify WINPROFX
+              </Link>
+              .
+            </p>
+            <p className="mt-4">
+              For trust and support information, see{' '}
+              <Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">
+                Withdrawal Transparency
+              </Link>
+              ,{' '}
+              <Link to="/complaints-and-dispute-resolution" className="text-white underline hover:text-primary">
+                Complaints and Dispute Resolution
+              </Link>
+              , and{' '}
+              <Link to="/client-fund-security" className="text-white underline hover:text-primary">
+                Client Fund Security
+              </Link>
+              .
+            </p>
+            <p className="mt-4">
               If you have questions, contact{' '}
               <a href="mailto:support@winprofx.com" className="text-white underline hover:text-primary">
                 support@winprofx.com

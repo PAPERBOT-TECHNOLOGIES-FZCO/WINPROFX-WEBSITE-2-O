@@ -1,0 +1,28 @@
+/** Routes to prerender after Vite build for crawler-visible SEO metadata. */
+export const PRERENDER_ROUTES = [
+  // Prerender "/" last so earlier routes still receive the clean Vite SPA shell.
+  { path: '/company-profile', expectedTitle: 'Company Profile', expectedH1: 'Company Profile' },
+  { path: '/company-registration', expectedTitle: 'Company Registration', expectedH1: 'Company Registration' },
+  { path: '/legal-entity-information', expectedTitle: 'Legal Entity Information', expectedH1: 'Legal Entity Information' },
+  { path: '/regulatory-information', expectedTitle: 'Regulatory Information', expectedH1: 'Regulatory Information' },
+  { path: '/dubai-professional-license', expectedTitle: 'Dubai Professional License', expectedH1: 'Dubai Professional License' },
+  { path: '/uae-representative-office', expectedTitle: 'UAE Representative Office', expectedH1: 'UAE Representative Office' },
+  { path: '/official-domains', expectedTitle: 'Official WINPROFX Domains', expectedH1: 'Official WINPROFX Domains' },
+  { path: '/verify-winprofx', expectedTitle: 'Verify WINPROFX', expectedH1: 'Verify WINPROFX' },
+  { path: '/legal-documents', expectedTitle: 'Legal Documents', expectedH1: 'Legal Documents' },
+  { path: '/risk-warning', expectedTitle: 'Risk Warning', expectedH1: 'Risk Warning' },
+  { path: '/withdrawal-transparency', expectedTitle: 'Withdrawal Transparency', expectedH1: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution', expectedTitle: 'Complaints and Dispute Resolution', expectedH1: 'Complaints and Dispute Resolution' },
+  { path: '/client-fund-security', expectedTitle: 'Client Fund Security', expectedH1: 'Client Fund Security' },
+  { path: '/support-and-escalation', expectedTitle: 'Support and Escalation', expectedH1: 'Support and Escalation' },
+  { path: '/company-statistics', expectedTitle: 'Company Statistics', expectedH1: 'Company Statistics' },
+  { path: '/deposit-withdraw', expectedTitle: 'Deposit', expectedH1: null },
+  { path: '/restricted-countries', expectedTitle: 'Restricted Countries', expectedH1: null },
+  { path: '/risk-disclosure', expectedTitle: 'Risk Disclosure', expectedH1: null },
+  { path: '/policy', expectedTitle: 'Privacy Policy', expectedH1: null },
+  { path: '/terms', expectedTitle: 'Terms', expectedH1: null },
+  { path: '/aml-policy', expectedTitle: 'AML Policy', expectedH1: null },
+  { path: '/contact', expectedTitle: 'Contact', expectedH1: null },
+  { path: '/about', expectedTitle: 'About', expectedH1: null },
+  { path: '/', expectedTitle: 'WINPROFX Official Website', expectedH1: 'WINPROFX Official Website' },
+]

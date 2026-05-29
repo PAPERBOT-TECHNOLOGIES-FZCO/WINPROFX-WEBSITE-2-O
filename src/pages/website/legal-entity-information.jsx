@@ -7,9 +7,12 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
+import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
 import {
   BRAND_NAME,
+  DUBAI_VERIFICATION_NOTE,
+  entityStructureRows,
   INCORPORATION_CLARIFICATION,
   INCORPORATION_PDF_PATH,
   INCORPORATION_PDF_TITLE,
@@ -19,6 +22,7 @@ import {
   REGISTERED_AGENT,
   REGISTERED_OFFICE,
   RISK_WARNING_SHORT,
+  dubaiOfficeRows,
 } from '@/lib/company-registration'
 
 export default function LegalEntityInformation() {
@@ -56,6 +60,37 @@ export default function LegalEntityInformation() {
 
           <IdentitySection title="Registered Office">
             <p>{REGISTERED_OFFICE}</p>
+          </IdentitySection>
+
+          <IdentitySection title="Entity Structure">
+            <p>
+              {LEGAL_ENTITY_NAME} is the parent legal entity incorporated in Saint Lucia. The Dubai
+              branch operates as a representative office under a Dubai Professional License. The
+              structure is summarized below.
+            </p>
+            <div className="mt-4">
+              <RegistrationTable rows={entityStructureRows} />
+            </div>
+          </IdentitySection>
+
+          <IdentitySection title="Dubai Branch and Office">
+            <RegistrationTable rows={dubaiOfficeRows} />
+            <p className="mt-4">
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                View full Dubai Professional License details
+              </Link>
+            </p>
+          </IdentitySection>
+
+          <IdentitySection title="Document Verification">
+            <p>{DUBAI_VERIFICATION_NOTE}</p>
+            <p className="mt-4">
+              Users should verify WINPROFX identity using the{' '}
+              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+                Verify WINPROFX
+              </Link>{' '}
+              checklist before registering, logging in, or sharing personal information.
+            </p>
           </IdentitySection>
 
           <IdentitySection title="Official Domains and Portals">
@@ -97,6 +132,9 @@ export default function LegalEntityInformation() {
 
           <IdentitySection title="Compliance Clarification">
             <p>{INCORPORATION_CLARIFICATION}</p>
+            <div className="mt-4">
+              <LicenseClarification />
+            </div>
             <p className="mt-4">
               For regulatory and license-related information, visit the{' '}
               <Link to="/regulatory-information" className="text-white underline hover:text-primary">

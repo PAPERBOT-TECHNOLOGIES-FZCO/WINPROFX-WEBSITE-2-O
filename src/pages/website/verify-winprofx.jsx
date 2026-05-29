@@ -8,14 +8,18 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import SeoHead from '@/components/seo-head'
-import { officialDomainsWithLabels, verifyLegalEntityRows } from '@/lib/company-registration'
+import { officialDomainsWithLabels, verifySummaryRows } from '@/lib/company-registration'
 
-const relatedLinks = [
-  { path: '/company-profile', label: 'Company Profile' },
-  { path: '/company-registration', label: 'Company Registration' },
-  { path: '/official-domains', label: 'Official Domains' },
-  { path: '/contact', label: 'Contact' },
-  { path: '/risk-warning', label: 'Risk Warning' },
+const verifyChecklistSteps = [
+  'Confirm the website URL matches an official WINPROFX domain (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, or partner.winprofx.org).',
+  'Verify the brand name displayed is WINPROFX.',
+  'Confirm the legal entity is Winprofx Ltd. (Saint Lucia incorporation).',
+  'Check Saint Lucia incorporation number 2023-00197 on the Company Registration page.',
+  'Verify Dubai Professional License No. 1423678 and business name WINPROFX LTD - DUBAI BRANCH - REP. OFFICE.',
+  'Confirm Dubai license activity is Representative Office and status is Active.',
+  'Use official support email support@winprofx.com or the Contact page for verification questions.',
+  'Do not share passwords, OTPs, or payment card details with unofficial contacts.',
+  'If in doubt, contact support before registering, logging in, or depositing funds.',
 ]
 
 export default function VerifyWINPROFX() {
@@ -32,13 +36,22 @@ export default function VerifyWINPROFX() {
         <Card>
           <IdentitySection>
             <p>
-              This page lists the official websites and portals operated by WINPROFX. Users should verify
-              domain names before logging in, registering, depositing funds, or sharing personal information.
+              This page lists the official websites and portals operated by WINPROFX and provides a
+              step-by-step verification checklist. Users should verify domain names and company identity
+              before logging in, registering, depositing funds, or sharing personal information.
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Verify Legal Entity">
-            <RegistrationTable rows={verifyLegalEntityRows} />
+          <IdentitySection title="9-Step Verification Checklist">
+            <ol className="list-decimal pl-5 flex flex-col gap-3 text-para">
+              {verifyChecklistSteps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </IdentitySection>
+
+          <IdentitySection title="Verification Summary">
+            <RegistrationTable rows={verifySummaryRows} />
           </IdentitySection>
 
           <IdentitySection title="Verify Official Domains">
@@ -97,13 +110,13 @@ export default function VerifyWINPROFX() {
 
           <IdentitySection title="Related Information">
             <ul className="flex flex-col gap-2">
-              {relatedLinks.map((link) => (
-                <li key={link.path}>
-                  <Link to={link.path} className="text-white underline hover:text-primary">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              <li><Link to="/company-profile" className="text-white underline hover:text-primary">Company Profile</Link></li>
+              <li><Link to="/company-registration" className="text-white underline hover:text-primary">Company Registration</Link></li>
+              <li><Link to="/dubai-professional-license" className="text-white underline hover:text-primary">Dubai Professional License</Link></li>
+              <li><Link to="/official-domains" className="text-white underline hover:text-primary">Official Domains</Link></li>
+              <li><Link to="/regulatory-information" className="text-white underline hover:text-primary">Regulatory Information</Link></li>
+              <li><Link to="/contact" className="text-white underline hover:text-primary">Contact</Link></li>
+              <li><Link to="/risk-warning" className="text-white underline hover:text-primary">Risk Warning</Link></li>
             </ul>
           </IdentitySection>
 

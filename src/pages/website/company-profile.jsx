@@ -8,9 +8,13 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import Accordion from '@/components/accordion'
 import RegistrationTable from '@/components/company-identity/registration-table'
+import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
 import {
   DOCUMENT_TYPES,
+  DUBAI_BUSINESS_NAME,
+  DUBAI_LICENSE_ACTIVITY,
+  DUBAI_LICENSE_NUMBER,
   INCORPORATION_CLARIFICATION,
   legalEntitySummaryRows,
   LEGAL_ENTITY_NAME,
@@ -261,6 +265,41 @@ export default function CompanyProfile() {
               </Link>{' '}
               page.
             </p>
+          </IdentitySection>
+
+          <IdentitySection title="UAE Representative Office">
+            <p>
+              WINPROFX operates a UAE representative office under the business name{' '}
+              {DUBAI_BUSINESS_NAME}, registered under Dubai Professional License No.{' '}
+              {DUBAI_LICENSE_NUMBER} with license activity listed as {DUBAI_LICENSE_ACTIVITY}.
+            </p>
+            <p className="mt-4">
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                Dubai Professional License
+              </Link>
+              {' · '}
+              <Link to="/uae-representative-office" className="text-white underline hover:text-primary">
+                UAE Representative Office
+              </Link>
+            </p>
+            <div className="mt-4">
+              <LicenseClarification />
+            </div>
+          </IdentitySection>
+
+          <IdentitySection title="Trust and Transparency">
+            <p>
+              WINPROFX publishes trust and transparency information to help clients verify official
+              domains, understand withdrawal processes, submit complaints, and access support
+              escalation routes.
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4">
+              <li><Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">Withdrawal Transparency</Link></li>
+              <li><Link to="/complaints-and-dispute-resolution" className="text-white underline hover:text-primary">Complaints and Dispute Resolution</Link></li>
+              <li><Link to="/client-fund-security" className="text-white underline hover:text-primary">Client Fund Security</Link></li>
+              <li><Link to="/support-and-escalation" className="text-white underline hover:text-primary">Support and Escalation</Link></li>
+              <li><Link to="/company-statistics" className="text-white underline hover:text-primary">Company Statistics</Link></li>
+            </ul>
           </IdentitySection>
 
           <IdentitySection title="Official Brand Information">

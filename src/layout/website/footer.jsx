@@ -34,6 +34,16 @@ export default function Footer() {
     },
   ]
 
+  const trust_transparency_links = [
+    { name: 'Dubai Professional License', path: '/dubai-professional-license' },
+    { name: 'UAE Representative Office', path: '/uae-representative-office' },
+    { name: 'Withdrawal Transparency', path: '/withdrawal-transparency' },
+    { name: 'Complaints and Dispute Resolution', path: '/complaints-and-dispute-resolution' },
+    { name: 'Client Fund Security', path: '/client-fund-security' },
+    { name: 'Support and Escalation', path: '/support-and-escalation' },
+    { name: 'Company Statistics', path: '/company-statistics' },
+  ]
+
   const important_links = [
     { name: 'Company Profile', path: '/company-profile' },
     { name: 'Company Registration', path: '/company-registration' },
@@ -223,7 +233,7 @@ export default function Footer() {
           transition={{ duration: duration, delay: 0.2 }}
           viewport={{ once: once, amount: 0.2 }}
           className="rounded-2xl md:rounded-3xl lg:rounded-[30px] border border-solid border-white/12 bg-white/6 backdrop-blur-lg p-4 md:p-6 lg:p-8 mt-8 lg:mt-10 flex flex-col gap-y-6 md:gap-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div className="flex flex-col gap-y-3">
               <strong className="text-xl font-semibold leading-tight text-white">WINPROFX</strong>
               <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
@@ -253,6 +263,19 @@ export default function Footer() {
               <strong className="text-xl font-semibold leading-tight text-white">Important Links</strong>
               <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
                 {important_links.map((link) => (
+                  <li key={link.path}>
+                    <Link to={link.path} className="text-white underline hover:text-primary">
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-y-3">
+              <strong className="text-xl font-semibold leading-tight text-white">Trust &amp; Transparency</strong>
+              <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
+                {trust_transparency_links.map((link) => (
                   <li key={link.path}>
                     <Link to={link.path} className="text-white underline hover:text-primary">
                       {link.name}

@@ -54,7 +54,6 @@ Disallow: /deposit/
 Disallow: /withdraw/
 Disallow: /kyc
 Disallow: /kyc/
-Disallow: /documents/
 Disallow: /download-statement
 Disallow: /download-statement/
 Disallow: /*?ref=

@@ -8,11 +8,13 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import SeoHead from '@/components/seo-head'
+import LicenseClarification from '@/components/company-identity/license-clarification'
 import {
   DOCUMENT_TYPES,
   INCORPORATION_CLARIFICATION,
   INCORPORATION_PDF_PATH,
   INCORPORATION_PDF_TITLE,
+  INCORPORATION_SUBSCRIBER,
   LEGAL_ENTITY_NAME,
   relatedPageLinks,
   registrationDetailsRows,
@@ -46,10 +48,46 @@ export default function CompanyRegistration() {
 
           <IdentitySection title="Share and Capital Information">
             <RegistrationTable rows={shareCapitalRows} />
+            <p className="mt-4">
+              The company&apos;s share capital structure is defined in the Memorandum of Association
+              and Articles of Association. {LEGAL_ENTITY_NAME} has authorized shares denominated in USD
+              with ordinary shares carrying one vote per share. Shares issued by the company are not
+              redeemable on demand.
+            </p>
+          </IdentitySection>
+
+          <IdentitySection title="Memorandum and Articles of Association">
+            <p>
+              The certified incorporation document set includes the Certificate of Incorporation,
+              Memorandum of Association, and Articles of Association for {LEGAL_ENTITY_NAME}. The
+              Memorandum of Association defines the company&apos;s constitution, share structure, and
+              objects. The Articles of Association govern internal management and shareholder rights.
+            </p>
+            <p className="mt-4">
+              The subscriber for incorporation was {INCORPORATION_SUBSCRIBER}.
+            </p>
+          </IdentitySection>
+
+          <IdentitySection title="Dubai Branch Registration">
+            <p>
+              {LEGAL_ENTITY_NAME} also holds a Dubai Professional License for its UAE representative
+              office. See{' '}
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                Dubai Professional License
+              </Link>{' '}
+              and{' '}
+              <Link to="/uae-representative-office" className="text-white underline hover:text-primary">
+                UAE Representative Office
+              </Link>{' '}
+              for details.
+            </p>
           </IdentitySection>
 
           <IdentitySection title="Important Clarification">
             <p>{INCORPORATION_CLARIFICATION}</p>
+            <div className="mt-4">
+              <LicenseClarification />
+            </div>
           </IdentitySection>
 
           <IdentitySection title="Certified Incorporation Documents">

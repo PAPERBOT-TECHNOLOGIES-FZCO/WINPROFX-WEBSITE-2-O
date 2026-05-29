@@ -52,6 +52,16 @@ export const IDENTITY_PAGE_SCHEMA = {
   '/company-registration': { pageName: 'Company Registration', breadcrumb: 'Company Registration' },
   '/legal-entity-information': { pageName: 'Legal Entity Information', breadcrumb: 'Legal Entity Information' },
   '/regulatory-information': { pageName: 'Regulatory Information', breadcrumb: 'Regulatory Information' },
+  '/dubai-professional-license': { pageName: 'Dubai Professional License', breadcrumb: 'Dubai Professional License' },
+  '/uae-representative-office': { pageName: 'UAE Representative Office', breadcrumb: 'UAE Representative Office' },
+  '/withdrawal-transparency': { pageName: 'Withdrawal Transparency', breadcrumb: 'Withdrawal Transparency' },
+  '/complaints-and-dispute-resolution': { pageName: 'Complaints and Dispute Resolution', breadcrumb: 'Complaints and Dispute Resolution' },
+  '/client-fund-security': { pageName: 'Client Fund Security', breadcrumb: 'Client Fund Security' },
+  '/support-and-escalation': { pageName: 'Support and Escalation', breadcrumb: 'Support and Escalation' },
+  '/company-statistics': { pageName: 'Company Statistics', breadcrumb: 'Company Statistics' },
+  '/deposit-withdraw': { pageName: 'Deposit and Withdrawal Policy', breadcrumb: 'Deposit and Withdrawal Policy' },
+  '/restricted-countries': { pageName: 'Restricted Countries', breadcrumb: 'Restricted Countries' },
+  '/risk-disclosure': { pageName: 'Risk Disclosure', breadcrumb: 'Risk Disclosure' },
 }
 
 /** Page-specific schema extensions keyed by canonicalPath */

@@ -48,6 +48,13 @@ import VerifyWINPROFX from './pages/website/verify-winprofx'
 import CompanyRegistration from './pages/website/company-registration'
 import LegalEntityInformation from './pages/website/legal-entity-information'
 import RegulatoryInformation from './pages/website/regulatory-information'
+import DubaiProfessionalLicense from './pages/website/dubai-professional-license'
+import UaeRepresentativeOffice from './pages/website/uae-representative-office'
+import WithdrawalTransparency from './pages/website/withdrawal-transparency'
+import ComplaintsAndDisputeResolution from './pages/website/complaints-and-dispute-resolution'
+import ClientFundSecurity from './pages/website/client-fund-security'
+import SupportAndEscalation from './pages/website/support-and-escalation'
+import CompanyStatistics from './pages/website/company-statistics'
 
 
 export default function App() {
@@ -185,6 +192,34 @@ export default function App() {
         {
           path: '/regulatory-information',
           element: <RegulatoryInformation />
+        },
+        {
+          path: '/dubai-professional-license',
+          element: <DubaiProfessionalLicense />
+        },
+        {
+          path: '/uae-representative-office',
+          element: <UaeRepresentativeOffice />
+        },
+        {
+          path: '/withdrawal-transparency',
+          element: <WithdrawalTransparency />
+        },
+        {
+          path: '/complaints-and-dispute-resolution',
+          element: <ComplaintsAndDisputeResolution />
+        },
+        {
+          path: '/client-fund-security',
+          element: <ClientFundSecurity />
+        },
+        {
+          path: '/support-and-escalation',
+          element: <SupportAndEscalation />
+        },
+        {
+          path: '/company-statistics',
+          element: <CompanyStatistics />
         },
         {
           path: '/official-domains',

@@ -8,6 +8,8 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
 import {
+  DUBAI_BUSINESS_NAME,
+  DUBAI_LICENSE_NUMBER,
   INCORPORATION_PDF_PATH,
   INCORPORATION_PDF_TITLE,
 } from '@/lib/company-registration'
@@ -20,6 +22,12 @@ const legalDocuments = [
     pdf: true,
   },
   {
+    name: 'Dubai Professional License',
+    path: '/dubai-professional-license',
+    description: `On-page license information for ${DUBAI_BUSINESS_NAME} (License No. ${DUBAI_LICENSE_NUMBER}). Representative Office activity — not a financial services broker license.`,
+    htmlOnly: true,
+  },
+  {
     name: 'Company Registration Information',
     path: '/company-registration',
     description: 'Full company registration details for Winprofx Ltd.',
@@ -27,12 +35,32 @@ const legalDocuments = [
   {
     name: 'Legal Entity Information',
     path: '/legal-entity-information',
-    description: 'Legal entity, registered agent, registered office, and official domains.',
+    description: 'Legal entity, registered agent, registered office, Dubai branch, and official domains.',
   },
   {
     name: 'Regulatory Information',
     path: '/regulatory-information',
-    description: 'Company incorporation and financial services license clarification.',
+    description: 'Company incorporation, Dubai license, and financial services license clarification.',
+  },
+  {
+    name: 'UAE Representative Office',
+    path: '/uae-representative-office',
+    description: 'UAE representative office role, license summary, and verification guidance.',
+  },
+  {
+    name: 'Withdrawal Transparency',
+    path: '/withdrawal-transparency',
+    description: 'Withdrawal process overview, methods, and escalation routes.',
+  },
+  {
+    name: 'Complaints and Dispute Resolution',
+    path: '/complaints-and-dispute-resolution',
+    description: 'How to submit complaints and the review process.',
+  },
+  {
+    name: 'Client Fund Security',
+    path: '/client-fund-security',
+    description: 'Account security, KYC/AML, and portal safety practices.',
   },
   {
     name: 'Risk Warning',
@@ -66,7 +94,7 @@ export default function LegalDocuments() {
     <div className="padding-top-245">
       <SeoHead
         title="Legal Documents | WINPROFX"
-        description="Access WINPROFX legal documents, including company incorporation information, risk warning, terms, privacy policy, and other important documents."
+        description="Access WINPROFX legal documents, including company incorporation information, Dubai Professional License details, risk warning, terms, privacy policy, and trust pages."
         canonicalPath="/legal-documents"
       />
       <TopShape />
@@ -75,8 +103,8 @@ export default function LegalDocuments() {
         <Card>
           <IdentitySection>
             <p>
-              The following legal and policy documents apply to WINPROFX services. Please read them
-              carefully before opening an account or using our platforms.
+              The following legal, policy, and trust documents apply to WINPROFX services. Please read
+              them carefully before opening an account or using our platforms.
             </p>
           </IdentitySection>
 
@@ -108,6 +136,9 @@ export default function LegalDocuments() {
                         {doc.name}
                       </Link>
                       <p className="mt-1">{doc.description}</p>
+                      {doc.htmlOnly && (
+                        <p className="mt-1 text-sm text-para italic">On-page reference only — no PDF download.</p>
+                      )}
                     </>
                   )}
                 </li>

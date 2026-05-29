@@ -7,6 +7,8 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
+import DubaiLicenseTable from '@/components/company-identity/dubai-license-table'
+import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
 import {
   COMPANY_TYPE,
@@ -19,6 +21,7 @@ import {
   INCORPORATION_PDF_TITLE,
   JURISDICTION,
   LEGAL_ENTITY_NAME,
+  LICENSE_SCOPE_CLARIFICATION,
   RISK_WARNING_SHORT,
 } from '@/lib/company-registration'
 
@@ -35,7 +38,7 @@ export default function RegulatoryInformation() {
     <div className="padding-top-245">
       <SeoHead
         title="Regulatory Information | WINPROFX"
-        description="View WINPROFX regulatory and legal information, including company incorporation details, important license clarification, official domains, and risk warning."
+        description="View WINPROFX regulatory and legal information, including Saint Lucia incorporation, Dubai Professional License, license scope clarification, and risk warning."
         canonicalPath="/regulatory-information"
       />
       <TopShape />
@@ -55,6 +58,26 @@ export default function RegulatoryInformation() {
             </p>
           </IdentitySection>
 
+          <IdentitySection title="Dubai Professional License">
+            <p className="mb-4">
+              {LEGAL_ENTITY_NAME} holds a Dubai Professional License for its UAE representative
+              office. The license activity is listed as Representative Office.
+            </p>
+            <DubaiLicenseTable />
+            <p className="mt-4">
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                View full Dubai Professional License page
+              </Link>
+            </p>
+          </IdentitySection>
+
+          <IdentitySection title="License Scope Clarification">
+            <p>{LICENSE_SCOPE_CLARIFICATION}</p>
+            <div className="mt-4">
+              <LicenseClarification showDubaiScope={false} />
+            </div>
+          </IdentitySection>
+
           <IdentitySection title="Financial Services License Clarification">
             <p>{FINANCIAL_LICENSE_CLARIFICATION}</p>
             <p className="mt-4 text-para italic">{FINANCIAL_LICENSE_PENDING}</p>
@@ -70,7 +93,11 @@ export default function RegulatoryInformation() {
               <Link to="/company-registration" className="text-white underline hover:text-primary">
                 Company Registration
               </Link>{' '}
-              page, subject to legal and compliance approval for public display.
+              page. Dubai license details are published on-page at{' '}
+              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+                Dubai Professional License
+              </Link>
+              .
             </p>
             <p className="mt-4">
               <a
