@@ -103,13 +103,10 @@ export default function AboutUs() {
                     </li>                    
                     <li>
                         <span>
-                            <span>Tightest Spreads:</span>WinproFX offers tight spreads, minimizing the difference between buying and selling prices, which can enhance profitability for traders.
+                            <span>Tightest Spreads:</span> WinproFX offers tight spreads, minimizing the difference between buying and selling prices, which can enhance profitability for traders.
                         </span>
-                   
-                    
-
+                    </li>
                 </ul>
-               </p>
             `,
         },
         {
@@ -117,7 +114,7 @@ export default function AboutUs() {
             body: `
                 <div class="flex flex-col mb-4">
                     <strong class="text-white font-semibold mb-2 text-lg">Create an Account:</strong>
-                    <p>Visit the official WinproFX website.<a class="text-white underline">Register Link</a></p>
+                    <p>Visit the official WinproFX website at <a href="https://winprofx.org" class="text-white underline" target="_blank" rel="noopener noreferrer">winprofx.org</a> or <a href="https://my.winprofx.org/register" class="text-white underline" target="_blank" rel="noopener noreferrer">register here</a>.</p>
                     <p>Look for a "Register" or "Open an Account" option.</p>
                     <p>Provide the required information, including personal details and contact information.</p>
                     <p>Agree to the terms and conditions.</p>
@@ -194,40 +191,41 @@ export default function AboutUs() {
         {
             title: 'What trading platforms does WinproFX support?',
             body: `
-                <p>WinproFX, provides educational materials to help traders (Beginners. intermediate or expert) improve their skills and knowledge in the forex market. Typically, the forex educational resources may include:</p>
+                <p>WinproFX supports the following trading platforms:</p>
                 <ul>
                     <li>
                         <span>
-                         <span>Training Videos: </span>
-                        Video tutorials covering various aspects of forex trading, from basics to advanced strategies.
-                        </span>                        
+                         <span>MetaTrader 5 (MT5):</span>
+                        The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.
+                        </span>
                     </li>
                     <li>
                         <span>
-                         <span>Educational Articles and Guides: </span>
-                        Written content explaining key concepts, trading strategies, risk management, and market analysis.
-                        </span>                        
+                         <span>Web Trading:</span>
+                        Browser-based trading available at trade.winprofx.org for quick access without installation.
+                        </span>
                     </li>
                     <li>
                         <span>
                          <span>Demo Accounts:</span>
-                        Virtual trading accounts that allow users to practice trading in a risk-free environment.
-                        </span>                        
-                    </li>
-                    <li>
-                        <span>
-                         <span>Market Analysis: </span>
-                        Regular market analysis reports to help traders understand market trends.
-                        </span>                        
+                        Practice trading in a risk-free environment before going live.
+                        </span>
                     </li>
                 </ul>
-                <p>You can also click on the education section and additionally, you can contact our customer support for more detailed information. <a href="/education" class="text-white underline">(Education link).</a>.</p>
+                <p>Learn more on our <a href="/platform" class="text-white underline">Platform page</a> or <a href="/contact" class="text-white underline">contact support</a> for assistance.</p>
             `,
         },
         {
             title: 'How can I contact WinproFX customer support?',
             body: `
-                <p>WhatsApp / Email / live chat link.</p>
+                <p>WinproFX customer support is available 24/7 through the following channels:</p>
+                <ul>
+                    <li><span><span>Phone:</span> <a href="tel:+97144471894" class="text-white underline">+971 4 447 1894</a></span></li>
+                    <li><span><span>Email:</span> <a href="mailto:support@winprofx.com" class="text-white underline">support@winprofx.com</a></span></li>
+                    <li><span><span>WhatsApp:</span> <a href="https://wa.me/97144471894" class="text-white underline" target="_blank" rel="noopener noreferrer">+971 4 447 1894</a></span></li>
+                    <li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li>
+                </ul>
+                <p>Visit our <a href="/contact" class="text-white underline">Contact page</a> for full details. Official website: <a href="https://winprofx.org" class="text-white underline" target="_blank" rel="noopener noreferrer">winprofx.org</a>.</p>
             `,
         },
     ]
@@ -248,12 +246,35 @@ export default function AboutUs() {
                 title="Pioneering Excellence: Redefining Trading Standards at WinproFX"
                 des={
                     <>
-                        Welcome to WinproFX, the world's leading Best Popular Platform
-                        Forex Trading designed for traders of all levels...
+                        Welcome to WinProFX — an award-winning forex and CFD broker offering advanced
+                        trading technology, competitive spreads, and 24/7 support for traders of all levels.
+                        Our primary official website is winprofx.org.
                     </>
                 }
                 desClass="max-w-135 mx-auto"
             />
+
+            {/* Company entity info */}
+            <div className="common-padding pb-0">
+                <Container>
+                    <div className="max-w-285 mx-auto bg-white/2 border border-solid border-white/8 rounded-2xl lg:rounded-[20px] p-4 md:p-6 lg:p-8">
+                        <h4 className="text-xl md:text-2xl font-semibold text-white mb-4">Company Information</h4>
+                        <ul className="flex flex-col gap-y-2 text-para text-sm md:text-base">
+                            <li><strong className="text-white">Legal Name:</strong> WinproFX Limited</li>
+                            <li><strong className="text-white">Trading Name:</strong> WinProFX</li>
+                            <li><strong className="text-white">Primary Website:</strong>{' '}
+                                <a href="https://winprofx.org" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">winprofx.org</a>
+                            </li>
+                            <li><strong className="text-white">Regulation:</strong> Financial Services Commission of the Republic of Mauritius (Investment Dealer license)</li>
+                            <li><strong className="text-white">Support:</strong>{' '}
+                                <a href="mailto:support@winprofx.com" className="text-white underline hover:text-primary">support@winprofx.com</a>
+                                {' '}|{' '}
+                                <a href="tel:+97144471894" className="text-white underline hover:text-primary">+971 4 447 1894</a>
+                            </li>
+                        </ul>
+                    </div>
+                </Container>
+            </div>
 
             {/* info area */}
             <div className="common-padding">

@@ -1,35 +1,92 @@
 import { Helmet } from 'react-helmet-async'
 
-const BASE_URL = 'https://winprofx.com'
+const BASE_URL = 'https://winprofx.org'
 const OG_IMAGE = 'https://imagedelivery.net/bvUtc88WWoZg5mZsB7f2Zw/da80fbb4-439b-42f9-f7fa-31931de6e500/public'
 const GA_ID = 'G-NL5S7T60GX'
+const LOGO_URL = `${BASE_URL}/favicon.svg`
+
+const SOCIAL_PROFILES = [
+  'https://www.facebook.com/profile.php?id=61551525764394',
+  'https://www.linkedin.com/in/winpro-fx-8b5148294/',
+  'https://www.instagram.com/winprofx/',
+  'https://www.youtube.com/@winprofx',
+]
+
+const OFFICIAL_DOMAINS = [
+  'https://winprofx.org',
+  'https://winprofx.com',
+  'https://winprofx.ae',
+]
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${BASE_URL}/#organization`,
+  name: 'WinProFX',
+  legalName: 'WinproFX Limited',
+  alternateName: ['WinproFX', 'WinPro FX'],
+  url: `${BASE_URL}/`,
+  logo: LOGO_URL,
+  image: OG_IMAGE,
+  email: 'support@winprofx.com',
+  telephone: '+971-4-447-1894',
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'AE',
+    addressLocality: 'Dubai',
+  },
+  sameAs: [...SOCIAL_PROFILES, ...OFFICIAL_DOMAINS],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: '+971-4-447-1894',
+    email: 'support@winprofx.com',
+    contactType: 'customer service',
+    availableLanguage: ['English'],
+    areaServed: ['AE', 'IN', 'GCC'],
+  },
+}
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${BASE_URL}/#website`,
+  url: `${BASE_URL}/`,
+  name: 'WinProFX',
+  description:
+    'WinProFX is an award-winning forex and CFD broker. Trade Forex, Indices, Crypto, Metals, Commodities and Oil on advanced platforms with 24/7 support.',
+  publisher: { '@id': `${BASE_URL}/#organization` },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${BASE_URL}/blog?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+}
 
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'WinPro FX',
+  '@id': `${BASE_URL}/#financialservice`,
+  name: 'WinProFX',
   description:
-    'Trade with the Global Leader in Precision & Speed. WinPro FX offers advanced forex trading solutions with award-winning 24/7 customer support.',
+    'Trade with the Global Leader in Precision & Speed. WinProFX offers advanced forex trading solutions with award-winning 24/7 customer support.',
   url: `${BASE_URL}/`,
-  logo: `${BASE_URL}/_next/static/media/logo.30704b62.svg`,
-  image: `${BASE_URL}/_next/static/media/logo.30704b62.svg`,
-  telephone: '+971 4447 71894',
-  email: 'marketing@winprofx.com',
+  logo: LOGO_URL,
+  image: OG_IMAGE,
+  telephone: '+971-4-447-1894',
+  email: 'support@winprofx.com',
   openingHours: 'Mo-Fr 09:00-18:00',
   areaServed: ['Dubai', 'India', 'GCC countries'],
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+971 4447 71894',
-    email: 'marketing@winprofx.com',
+    telephone: '+971-4-447-1894',
+    email: 'support@winprofx.com',
     contactType: 'customer service',
     availableLanguage: ['English'],
   },
-  sameAs: [
-    'https://www.facebook.com/profile.php?id=61551525764394',
-    'https://www.linkedin.com/in/winpro-fx-8b5148294/',
-    'https://www.instagram.com/winprofx/',
-    'https://www.youtube.com/@winprofx',
-  ],
+  sameAs: [...SOCIAL_PROFILES, ...OFFICIAL_DOMAINS],
   geo: {
     '@type': 'GeoCoordinates',
     latitude: '25.276987',
@@ -51,14 +108,17 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 8, name: 'Platform', item: `${BASE_URL}/platform` },
     { '@type': 'ListItem', position: 9, name: 'Accounts', item: `${BASE_URL}/accounts` },
     { '@type': 'ListItem', position: 10, name: 'About Us', item: `${BASE_URL}/about-us` },
-    { '@type': 'ListItem', position: 11, name: 'Blog', item: `${BASE_URL}/blog` },
-    { '@type': 'ListItem', position: 12, name: 'Introducing Broker', item: `${BASE_URL}/introducing-broker` },
-    { '@type': 'ListItem', position: 13, name: 'Privacy Policy', item: `${BASE_URL}/policy` },
-    { '@type': 'ListItem', position: 14, name: 'Terms & Conditions', item: `${BASE_URL}/terms` },
-    { '@type': 'ListItem', position: 15, name: 'AML Policy', item: `${BASE_URL}/aml-policy` },
-    { '@type': 'ListItem', position: 16, name: 'Deposit & Withdrawal Policy', item: `${BASE_URL}/deposit-withdraw` },
-    { '@type': 'ListItem', position: 17, name: 'Restricted Countries', item: `${BASE_URL}/restricted-countries` },
-    { '@type': 'ListItem', position: 18, name: 'Risk Disclosure', item: `${BASE_URL}/risk-disclosure` },
+    { '@type': 'ListItem', position: 11, name: 'Contact', item: `${BASE_URL}/contact` },
+    { '@type': 'ListItem', position: 12, name: 'Company Profile', item: `${BASE_URL}/company-profile` },
+    { '@type': 'ListItem', position: 13, name: 'Official Domains', item: `${BASE_URL}/official-domains` },
+    { '@type': 'ListItem', position: 14, name: 'Blog', item: `${BASE_URL}/blog` },
+    { '@type': 'ListItem', position: 15, name: 'Introducing Broker', item: `${BASE_URL}/introducing-broker` },
+    { '@type': 'ListItem', position: 16, name: 'Privacy Policy', item: `${BASE_URL}/policy` },
+    { '@type': 'ListItem', position: 17, name: 'Terms & Conditions', item: `${BASE_URL}/terms` },
+    { '@type': 'ListItem', position: 18, name: 'AML Policy', item: `${BASE_URL}/aml-policy` },
+    { '@type': 'ListItem', position: 19, name: 'Deposit & Withdrawal Policy', item: `${BASE_URL}/deposit-withdraw` },
+    { '@type': 'ListItem', position: 20, name: 'Restricted Countries', item: `${BASE_URL}/restricted-countries` },
+    { '@type': 'ListItem', position: 21, name: 'Risk Disclosure', item: `${BASE_URL}/risk-disclosure` },
   ],
 }
 
@@ -95,7 +155,7 @@ export default function SeoHead({ title, description, keywords, canonicalPath = 
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="WinproFX" />
+      <meta property="og:site_name" content="WinProFX" />
       <meta property="og:title" content={title} />
       <meta property="og:url" content={canonical} />
       <meta property="og:image" content={ogImage} />
@@ -112,6 +172,12 @@ export default function SeoHead({ title, description, keywords, canonicalPath = 
       <meta name="robots" content="index, follow" />
 
       {/* Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify(organizationSchema)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(websiteSchema)}
+      </script>
       <script type="application/ld+json">
         {JSON.stringify(financialServiceSchema)}
       </script>

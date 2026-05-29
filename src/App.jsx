@@ -38,6 +38,9 @@ import AmlPolicy from './pages/website/aml-policy'
 import DepositWithdraw from './pages/website/deposit-withdraw'
 import RestrictedCountries from './pages/website/restricted-countries'
 import RiskDisclosure from './pages/website/risk-disclosure'
+import Contact from './pages/website/contact'
+import CompanyProfile from './pages/website/company-profile'
+import OfficialDomains from './pages/website/official-domains'
 
 
 export default function App() {
@@ -147,6 +150,18 @@ export default function App() {
         {
           path: '/risk-disclosure',
           element: <RiskDisclosure />
+        },
+        {
+          path: '/contact',
+          element: <Contact />
+        },
+        {
+          path: '/company-profile',
+          element: <CompanyProfile />
+        },
+        {
+          path: '/official-domains',
+          element: <OfficialDomains />
         },
       ]
     },

@@ -26,6 +26,14 @@ export default function Footer() {
           name: 'About Us',
           path: '/about-us'
         },
+        {
+          name: 'Contact',
+          path: '/contact'
+        },
+        {
+          name: 'Official Domains',
+          path: '/official-domains'
+        },
       ]
     },
     {
@@ -123,7 +131,7 @@ export default function Footer() {
           <div className="flex flex-col gap-y-4 col-span-2">
             <strong className='block text-base text-white'>Contact Info</strong>
             <div className="flex flex-col gap-y-4">
-              <a target='_blank' href="https://www.wa.me/" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
+              <a target='_blank' rel='noopener noreferrer' href="https://wa.me/97144471894" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_1_75463)">
                     <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#E3E4E9" />
@@ -161,6 +169,17 @@ export default function Footer() {
           viewport={{ once: once, amount: 0.2 }}
           className="rounded-2xl md:rounded-3xl lg:rounded-[30px] border border-solid border-white/12 bg-white/6 backdrop-blur-lg p-4 md:p-6 lg:p-8 mt-8 lg:mt-10 flex flex-col gap-y-6 md:gap-y-8">
           <div className="flex flex-col gap-y-3">
+            <strong className='text-xl font-semibold leading-tight text-white'>Official Domains</strong>
+            <ul className='text-sm md:text-base leading-normal text-para flex flex-col gap-y-2'>
+              <li><strong className='text-white'>winprofx.org</strong> — Main Official Website</li>
+              <li><strong className='text-white'>winprofx.com</strong> — Official Alternate / Marketing Domain</li>
+              <li><strong className='text-white'>winprofx.ae</strong> — Official UAE / Regional Domain</li>
+              <li><strong className='text-white'>my.winprofx.org</strong> — Client Portal</li>
+              <li><strong className='text-white'>partner.winprofx.org</strong> — Partner Portal</li>
+            </ul>
+            <Link to="/official-domains" className='text-sm text-white underline hover:text-primary w-max'>View all official domains →</Link>
+          </div>
+          <div className="flex flex-col gap-y-3">
             <strong className='text-xl font-semibold leading-tight text-white'>Risk Warning</strong>
             <p className='text-sm md:text-base leading-normal text-para'>Please note that forex trading and trading in other leveraged products involves a significant level of risk and is not suitable for all investors. Trading in financial instruments may result in losses as well as profits and your losses can be greater than your initial invested capital. Before undertaking any such transactions, you should ensure that you fully understand the risks involved and seek independent advice if necessary.</p>
           </div>
@@ -182,7 +201,7 @@ export default function Footer() {
         </motion.div>
 
         <div className="py-4 md:py-6 flex items-center justify-center text-center border-t border-solid border-white/10 mt-4 md:mt-6">
-          <p>© {new Date().getFullYear()} All Rights Reserved By WinproFx</p>
+          <p>© {new Date().getFullYear()} All Rights Reserved By WinProFX</p>
         </div>
       </Container>
     </div>

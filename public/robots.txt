@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+Disallow: /login
+Disallow: /register
+Disallow: /forget
+Disallow: /verify
+Disallow: /reset-password
+
+Sitemap: https://winprofx.org/sitemap.xml

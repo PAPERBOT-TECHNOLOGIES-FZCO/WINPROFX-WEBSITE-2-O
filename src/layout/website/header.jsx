@@ -205,6 +205,16 @@ export default function Header() {
               <li className='md:hidden mt-4'>
                 <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6'>Introducing Broker</Link>
               </li>
+              <li className='md:hidden'>
+                <a
+                  href='https://partner.winprofx.org'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='gradient-text-primary text-base font-medium'
+                >
+                  Partner Portal
+                </a>
+              </li>
               <li className="flex lg:hidden items-center gap-4 mt-4 border-t border-solid border-white/10 pt-4">
                 <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
                 <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
@@ -214,6 +224,14 @@ export default function Header() {
 
           <div className="heading-actions flex items-center flex-wrap gap-2">
             <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6 hidden md:block lg:hidden xl:inline-block'>Introducing Broker</Link>
+            <a
+              href='https://partner.winprofx.org'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='gradient-text-primary text-base font-medium mr-4 hidden lg:inline-block'
+            >
+              Partner Portal
+            </a>
             <LangulageSelect className='flex lg:hidden xl:flex' />
             <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
             <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
