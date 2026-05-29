@@ -3,21 +3,57 @@
   publish = "dist"
 
 # Domain alias redirects: winprofx.com / winprofx.ae → winprofx.org (primary).
+# Uses full-URL patterns (Netlify domain-level redirect syntax).
 # Does not affect my.winprofx.org or partner.winprofx.org (separate sites).
+# Also mirrored in public/_redirects (processed first by Netlify).
 
 [[redirects]]
-  from = "/*"
+  from = "https://winprofx.com/*"
   to = "https://winprofx.org/:splat"
   status = 301
   force = true
-  conditions = { Host = ["winprofx.com", "www.winprofx.com"] }
 
 [[redirects]]
-  from = "/*"
+  from = "https://www.winprofx.com/*"
   to = "https://winprofx.org/:splat"
   status = 301
   force = true
-  conditions = { Host = ["winprofx.ae", "www.winprofx.ae"] }
+
+[[redirects]]
+  from = "http://winprofx.com/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.winprofx.com/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://winprofx.ae/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.winprofx.ae/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://winprofx.ae/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.winprofx.ae/*"
+  to = "https://winprofx.org/:splat"
+  status = 301
+  force = true
 
 # Slug aliases for common URL patterns
 [[redirects]]

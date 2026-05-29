@@ -1,0 +1,12 @@
+# Domain alias 301 redirects (keep in sync with netlify.toml).
+# Netlify processes this file before netlify.toml redirects.
+
+https://winprofx.com/* https://winprofx.org/:splat 301!
+https://www.winprofx.com/* https://winprofx.org/:splat 301!
+http://winprofx.com/* https://winprofx.org/:splat 301!
+http://www.winprofx.com/* https://winprofx.org/:splat 301!
+
+https://winprofx.ae/* https://winprofx.org/:splat 301!
+https://www.winprofx.ae/* https://winprofx.org/:splat 301!
+http://winprofx.ae/* https://winprofx.org/:splat 301!
+http://www.winprofx.ae/* https://winprofx.org/:splat 301!
