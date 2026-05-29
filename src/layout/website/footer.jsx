@@ -10,6 +10,41 @@ import bg from '@/assets/img/footer-bg.png'
 import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png'
 
 export default function Footer() {
+  const official_domains = [
+    {
+      label: 'Official Website',
+      url: 'https://winprofx.org/',
+      internal: true,
+    },
+    {
+      label: 'Official Alternate Domain',
+      url: 'https://winprofx.com/',
+    },
+    {
+      label: 'Official UAE/Regional Domain',
+      url: 'https://winprofx.ae/',
+    },
+    {
+      label: 'Client Portal',
+      url: 'https://my.winprofx.org/',
+    },
+    {
+      label: 'Partner Portal',
+      url: 'https://partner.winprofx.org/',
+    },
+  ]
+
+  const important_links = [
+    { name: 'Company Profile', path: '/company-profile' },
+    { name: 'Official Domains', path: '/official-domains' },
+    { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/contact' },
+    { name: 'Risk Warning', path: '/risk-warning' },
+    { name: 'Legal Documents', path: '/legal-documents' },
+    { name: 'Privacy Policy', path: '/policy' },
+    { name: 'Terms and Conditions', path: '/terms' },
+  ]
+
   const footer_items = [
     {
       title: 'Explore',
@@ -25,6 +60,14 @@ export default function Footer() {
         {
           name: 'About Us',
           path: '/about-us'
+        },
+        {
+          name: 'About',
+          path: '/about'
+        },
+        {
+          name: 'Company Profile',
+          path: '/company-profile'
         },
         {
           name: 'Contact',
@@ -87,6 +130,14 @@ export default function Footer() {
     {
       name: 'Restricted Countries',
       path: '/restricted-countries'
+    },
+    {
+      name: 'Risk Warning',
+      path: '/risk-warning'
+    },
+    {
+      name: 'Legal Documents',
+      path: '/legal-documents'
     },
     {
       name: 'Risk Disclosure',
@@ -168,22 +219,55 @@ export default function Footer() {
           transition={{ duration: duration, delay: 0.2 }}
           viewport={{ once: once, amount: 0.2 }}
           className="rounded-2xl md:rounded-3xl lg:rounded-[30px] border border-solid border-white/12 bg-white/6 backdrop-blur-lg p-4 md:p-6 lg:p-8 mt-8 lg:mt-10 flex flex-col gap-y-6 md:gap-y-8">
-          <div className="flex flex-col gap-y-3">
-            <strong className='text-xl font-semibold leading-tight text-white'>Official Domains</strong>
-            <ul className='text-sm md:text-base leading-normal text-para flex flex-col gap-y-2'>
-              <li><strong className='text-white'>winprofx.org</strong> — Main Official Website</li>
-              <li><strong className='text-white'>winprofx.com</strong> — Official Alternate / Marketing Domain</li>
-              <li><strong className='text-white'>winprofx.ae</strong> — Official UAE / Regional Domain</li>
-              <li><strong className='text-white'>my.winprofx.org</strong> — Client Portal</li>
-              <li><strong className='text-white'>partner.winprofx.org</strong> — Partner Portal</li>
-            </ul>
-            <Link to="/official-domains" className='text-sm text-white underline hover:text-primary w-max'>View all official domains →</Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="flex flex-col gap-y-3">
+              <strong className="text-xl font-semibold leading-tight text-white">WINPROFX</strong>
+              <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
+                {official_domains.map((item) => (
+                  <li key={item.url}>
+                    <span className="text-white">{item.label}: </span>
+                    {item.internal ? (
+                      <a href={item.url} className="text-white underline hover:text-primary break-all">
+                        {item.url}
+                      </a>
+                    ) : (
+                      <a
+                        href={item.url}
+                        className="text-white underline hover:text-primary break-all"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {item.url}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="flex flex-col gap-y-3">
+              <strong className="text-xl font-semibold leading-tight text-white">Important Links</strong>
+              <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
+                {important_links.map((link) => (
+                  <li key={link.path}>
+                    <Link to={link.path} className="text-white underline hover:text-primary">
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="flex flex-col gap-y-3">
-            <strong className='text-xl font-semibold leading-tight text-white'>Risk Warning</strong>
-            <p className='text-sm md:text-base leading-normal text-para'>Please note that forex trading and trading in other leveraged products involves a significant level of risk and is not suitable for all investors. Trading in financial instruments may result in losses as well as profits and your losses can be greater than your initial invested capital. Before undertaking any such transactions, you should ensure that you fully understand the risks involved and seek independent advice if necessary.</p>
+
+          <div className="flex flex-col gap-y-2 border-t border-white/10 pt-6">
+            <strong className="text-base md:text-lg font-semibold leading-tight text-white">Risk Warning</strong>
+            <p className="text-sm md:text-base leading-normal text-para">
+              Trading forex and CFDs involves significant risk and may not be suitable for all investors.
+              Clients should understand the risks before trading.
+            </p>
           </div>
-          <div className="flex flex-col gap-y-3">
+
+          <div className="flex flex-col gap-y-3 border-t border-white/10 pt-6">
             <strong className='text-xl font-semibold leading-tight text-white'>Restricted Regions</strong>
             <p className='text-sm md:text-base leading-normal text-para'>WinproFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar,India, North Korea, Sudan. The services of WinproFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
           </div>

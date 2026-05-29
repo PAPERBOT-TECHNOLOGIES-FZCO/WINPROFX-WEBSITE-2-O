@@ -1,6 +1,7 @@
 import About from "./about";
 import Award from "./award";
 import Banner from "./banner";
+import OfficialIntro from "./official-intro";
 import BenefitsTrading from "./benefits-trading";
 import News from "./news";
 import TradingStarts from "./trading-starts";
@@ -13,12 +14,14 @@ export default function Home() {
   return (
     <>
       <SeoHead
-        title="Trade Forex & CFDs Online | Award Winning Forex Broker | WinproFX"
-        description="Explore WinproFX for advanced online Forex trading. Our platform offers extensive tools, resources, and support to enhance your trading success. Click to learn more!"
+        title="WINPROFX Official Website | Forex & CFD Trading Services"
+        description="WINPROFX is a forex and CFD trading brand offering access to trading platforms, client account services, partner program tools, and trading-related support services through its official websites and portals."
         keywords="Best Forex Trading Platform in India, Best Indices Trading Platform in India, Best Crypto Trading Platform in India, Best Metals Trading Platform in India, Best Commodities Trading Platform in India, Best Oil Trading Platform in India, Best Forex and Crypto Trading Platform in India, Best Trading Platform for Commodities in India, Best Platform for Trading Indices in India, Best Trading Platform for Metals and Oil in India, Best Online Trading Platform in India, Best Forex and Commodities Trading Platform in India, Best Crypto and Forex Trading Platform in India, Best Trading Platform with Tight Spreads in India, Best Trading Platform for Beginners in India"
         canonicalPath="/"
+        pageName="WINPROFX Official Website"
       />
       <Banner />
+      <OfficialIntro />
       <TradingStarts />
       <BenefitsTrading />
         <Container>

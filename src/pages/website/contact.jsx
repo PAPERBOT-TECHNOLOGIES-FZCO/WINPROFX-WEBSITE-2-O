@@ -4,21 +4,21 @@ import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
-import { y, duration, once } from '@/utilities/animation'
-import { motion } from 'framer-motion'
+import IdentitySection from '@/components/company-identity/identity-section'
+import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
 
 const contactMethods = [
   {
-    label: 'Phone',
-    value: '+971 4 447 1894',
-    href: 'tel:+97144471894',
+    label: 'Support Email',
+    value: 'support@winprofx.com',
+    href: 'mailto:support@winprofx.com',
     external: true,
   },
   {
-    label: 'Email',
-    value: 'support@winprofx.com',
-    href: 'mailto:support@winprofx.com',
+    label: 'Phone',
+    value: '+971 4 447 1894',
+    href: 'tel:+97144471894',
     external: true,
   },
   {
@@ -30,19 +30,19 @@ const contactMethods = [
   {
     label: 'Official Website',
     value: 'winprofx.org',
-    href: 'https://winprofx.org',
+    href: 'https://winprofx.org/',
     external: true,
   },
   {
     label: 'Client Portal',
     value: 'my.winprofx.org',
-    href: 'https://my.winprofx.org',
+    href: 'https://my.winprofx.org/',
     external: true,
   },
   {
     label: 'Partner Portal',
     value: 'partner.winprofx.org',
-    href: 'https://partner.winprofx.org',
+    href: 'https://partner.winprofx.org/',
     external: true,
   },
 ]
@@ -51,63 +51,43 @@ export default function Contact() {
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Contact Us | WinProFX"
-        description="Contact WinProFX customer support by phone, email, WhatsApp, or live chat. Official support channels for forex and CFD trading inquiries."
+        title="Contact WINPROFX | Official Support and Portal Links"
+        description="Contact WINPROFX through official support channels and verify the official website, client portal, and partner portal links."
         canonicalPath="/contact"
+        pageName="Contact WINPROFX"
       />
       <TopShape />
-      <PolicyTitle meta="Customer Support" title="Contact WinProFX" />
+      <PolicyTitle as="h1" meta="Customer Support" title="Contact WinProFX" />
       <Container>
         <Card>
-          <motion.div
-            initial={{ opacity: 0, y: y + 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: duration, delay: 0.1 }}
-            viewport={{ once: once, amount: 0.2 }}
-            className="flex flex-col mb-8 md:mb-10"
-          >
-            <h4 className="text-2xl mb-4 font-medium text-white">Get in Touch</h4>
-            <div className="bg-white/2 border border-solid border-white/8 p-4 md:p-6 rounded-2xl lg:rounded-[20px]">
-              <p className="text-para mb-4">
-                WinProFX provides 24/7 customer support for account inquiries, trading platform assistance,
-                deposits, withdrawals, and general questions. Our official website is{' '}
-                <a
-                  href="https://winprofx.org"
-                  className="text-white underline hover:text-primary"
-                  rel="noopener noreferrer"
-                >
-                  winprofx.org
-                </a>
-                .
-              </p>
-              <p className="text-para">
-                For account login and trading, visit the{' '}
-                <a
-                  href="https://my.winprofx.org"
-                  className="text-white underline hover:text-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  client portal at my.winprofx.org
-                </a>
-                .
-              </p>
-            </div>
-          </motion.div>
+          <IdentitySection title="Get in Touch">
+            <p className="mb-4">
+              WINPROFX provides customer support for account inquiries, trading platform assistance,
+              deposits, withdrawals, and general questions. Our main official website is{' '}
+              <a href="https://winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
+                https://winprofx.org/
+              </a>
+              .
+            </p>
+            <p>
+              For account login and trading, use the{' '}
+              <a href="https://my.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+                client portal at my.winprofx.org
+              </a>
+              . Partners should use{' '}
+              <a href="https://partner.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+                partner.winprofx.org
+              </a>
+              .
+            </p>
+          </IdentitySection>
 
-          <motion.div
-            initial={{ opacity: 0, y: y + 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: duration, delay: 0.15 }}
-            viewport={{ once: once, amount: 0.2 }}
-            className="flex flex-col mb-8 md:mb-10"
-          >
-            <h4 className="text-2xl mb-4 font-medium text-white">Contact Channels</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <IdentitySection title="Contact Channels">
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {contactMethods.map((item) => (
-                <div
+                <li
                   key={item.label}
-                  className="bg-white/2 border border-solid border-white/8 p-4 md:p-6 rounded-2xl lg:rounded-[20px]"
+                  className="bg-white/2 border border-solid border-white/8 p-4 md:p-5 rounded-xl"
                 >
                   <p className="text-primary font-semibold mb-2">{item.label}</p>
                   <a
@@ -117,60 +97,42 @@ export default function Contact() {
                   >
                     {item.value}
                   </a>
-                </div>
+                </li>
               ))}
-            </div>
-          </motion.div>
+            </ul>
+          </IdentitySection>
 
-          <motion.div
-            initial={{ opacity: 0, y: y + 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: duration, delay: 0.2 }}
-            viewport={{ once: once, amount: 0.2 }}
-            className="flex flex-col mb-8 md:mb-10"
-          >
-            <h4 className="text-2xl mb-4 font-medium text-white">Business Hours</h4>
-            <div className="bg-white/2 border border-solid border-white/8 p-4 md:p-6 rounded-2xl lg:rounded-[20px]">
-              <p className="text-para mb-2">
-                <strong className="text-white">Customer Support:</strong> Available 24 hours a day, 7 days a week
-              </p>
-              <p className="text-para">
-                <strong className="text-white">Office Hours (UAE):</strong> Monday – Friday, 09:00 – 18:00 (GST)
-              </p>
-            </div>
-          </motion.div>
+          <IdentitySection title="Business Hours">
+            <p>
+              <strong className="text-white">Customer Support:</strong> Available 24 hours a day, 7 days a week
+            </p>
+            <p className="mt-2">
+              <strong className="text-white">Office Hours (UAE):</strong> Monday – Friday, 09:00 – 18:00 (GST)
+            </p>
+          </IdentitySection>
 
-          <motion.div
-            initial={{ opacity: 0, y: y + 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: duration, delay: 0.25 }}
-            viewport={{ once: once, amount: 0.2 }}
-            className="flex flex-col"
-          >
-            <h4 className="text-2xl mb-4 font-medium text-white">Related Pages</h4>
-            <div className="bg-white/2 border border-solid border-white/8 p-4 md:p-6 rounded-2xl lg:rounded-[20px]">
-              <ul className="flex flex-col gap-2 text-para">
-                <li>
-                  <Link to="/company-profile" className="text-white underline hover:text-primary">
-                    Company Profile
-                  </Link>{' '}
-                  — Legal entity and regulatory information
-                </li>
-                <li>
-                  <Link to="/official-domains" className="text-white underline hover:text-primary">
-                    Official Domains
-                  </Link>{' '}
-                  — Verified WinProFX domains and portals
-                </li>
-                <li>
-                  <Link to="/risk-disclosure" className="text-white underline hover:text-primary">
-                    Risk Disclosure
-                  </Link>{' '}
-                  — Trading risks and disclaimers
-                </li>
-              </ul>
-            </div>
-          </motion.div>
+          <IdentitySection title="Contact, Risk & Legal Note">
+            <p>
+              Before trading, please read our{' '}
+              <Link to="/risk-warning" className="text-white underline hover:text-primary">
+                Risk Warning
+              </Link>{' '}
+              and review our{' '}
+              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+                Legal Documents
+              </Link>
+              . Trading forex and CFDs involves significant risk and may not be suitable for all investors.
+            </p>
+            <p className="mt-4">
+              Verify official domains on our{' '}
+              <Link to="/official-domains" className="text-white underline hover:text-primary">
+                Official Domains
+              </Link>{' '}
+              page before logging in or sharing personal information.
+            </p>
+          </IdentitySection>
+
+          <IdentityNav />
         </Card>
       </Container>
     </div>

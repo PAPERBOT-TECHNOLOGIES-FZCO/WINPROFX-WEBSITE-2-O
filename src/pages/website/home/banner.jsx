@@ -103,7 +103,7 @@ export default function Banner() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col items-start justify-start max-w-183">
-                        <h1 className='text-[32px] leading-tight md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] md:leading-[110%] font-black h1graident'>Your Path to Profitable Trading Start Here</h1>
+                        <h2 className='text-[32px] leading-tight md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] md:leading-[110%] font-black h1graident'>Your Path to Profitable Trading Start Here</h2>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: y }}

@@ -2,7 +2,9 @@
   command = "npm run build"
   publish = "dist"
 
-# Canonical domain: redirect alias domains to winprofx.org
+# Domain alias redirects: winprofx.com / winprofx.ae → winprofx.org (primary).
+# Does not affect my.winprofx.org or partner.winprofx.org (separate sites).
+
 [[redirects]]
   from = "/*"
   to = "https://winprofx.org/:splat"
@@ -19,11 +21,6 @@
 
 # Slug aliases for common URL patterns
 [[redirects]]
-  from = "/about"
-  to = "/about-us"
-  status = 301
-
-[[redirects]]
   from = "/privacy-policy"
   to = "/policy"
   status = 301
@@ -31,11 +28,6 @@
 [[redirects]]
   from = "/terms-and-conditions"
   to = "/terms"
-  status = 301
-
-[[redirects]]
-  from = "/risk-warning"
-  to = "/risk-disclosure"
   status = 301
 
 # SPA catch-all (must be last)

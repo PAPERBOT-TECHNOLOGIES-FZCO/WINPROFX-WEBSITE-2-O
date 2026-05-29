@@ -1,0 +1,13 @@
+# INACTIVE — do not rename to _redirects unless explicitly approved.
+# Copy these lines into public/_redirects (merged with any existing rules)
+# OR use netlify.toml Option A in optional-domain-redirects.md (recommended).
+#
+# Place BEFORE any SPA catch-all rules. These rules only apply to the hosts
+# listed below on THIS Netlify site. They do NOT affect my.winprofx.org or
+# partner.winprofx.org (separate sites/DNS).
+
+https://winprofx.com/* https://winprofx.org/:splat 301!
+https://www.winprofx.com/* https://winprofx.org/:splat 301!
+
+https://winprofx.ae/* https://winprofx.org/:splat 301!
+https://www.winprofx.ae/* https://winprofx.org/:splat 301!

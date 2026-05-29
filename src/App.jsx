@@ -41,6 +41,10 @@ import RiskDisclosure from './pages/website/risk-disclosure'
 import Contact from './pages/website/contact'
 import CompanyProfile from './pages/website/company-profile'
 import OfficialDomains from './pages/website/official-domains'
+import About from './pages/website/about'
+import RiskWarning from './pages/website/risk-warning'
+import LegalDocuments from './pages/website/legal-documents'
+import VerifyWinprofx from './pages/website/verify-winprofx'
 
 
 export default function App() {
@@ -104,6 +108,10 @@ export default function App() {
           element: <AboutUs />
         },
         {
+          path: '/about',
+          element: <About />
+        },
+        {
           path: '/blog',
           element: <Blog />
         },
@@ -152,6 +160,10 @@ export default function App() {
           element: <RiskDisclosure />
         },
         {
+          path: '/risk-warning',
+          element: <RiskWarning />
+        },
+        {
           path: '/contact',
           element: <Contact />
         },
@@ -162,6 +174,14 @@ export default function App() {
         {
           path: '/official-domains',
           element: <OfficialDomains />
+        },
+        {
+          path: '/legal-documents',
+          element: <LegalDocuments />
+        },
+        {
+          path: '/verify-winprofx',
+          element: <VerifyWinprofx />
         },
       ]
     },

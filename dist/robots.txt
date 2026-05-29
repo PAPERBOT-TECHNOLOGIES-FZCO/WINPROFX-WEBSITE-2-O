@@ -1,12 +1,3 @@
-User-agent: *
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -16,10 +7,13 @@ Allow: /
 User-agent: GPTBot
 Allow: /
 
-Disallow: /login
-Disallow: /register
-Disallow: /forget
-Disallow: /verify
-Disallow: /reset-password
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
 
 Sitemap: https://winprofx.org/sitemap.xml
