@@ -36,9 +36,9 @@ export default function Footer() {
   ]
 
   const important_links = [
-    { name: 'Company Profile', path: '/company-profile' },
-    { name: 'About', path: '/about' },
-    { name: 'Contact', path: '/contact' },
+    { name: 'Company Profile', path: '/company-profile/' },
+    { name: 'About', path: '/about/' },
+    { name: 'Contact', path: '/contact/' },
   ]
 
   const trust_legal_links = footerTrustLegalLinks.map((link) => ({
@@ -56,27 +56,27 @@ export default function Footer() {
         },
         {
           name: 'Platform',
-          path: '/platform'
+          path: '/platform/'
         },
         {
           name: 'About Us',
-          path: '/about-us'
+          path: '/about-us/'
         },
         {
           name: 'About',
-          path: '/about'
+          path: '/about/'
         },
         {
           name: 'Company Profile',
-          path: '/company-profile'
+          path: '/company-profile/'
         },
         {
           name: 'Contact',
-          path: '/contact'
+          path: '/contact/'
         },
         {
           name: 'Official Domains',
-          path: '/official-domains'
+          path: '/official-domains/'
         },
       ]
     },
@@ -85,27 +85,27 @@ export default function Footer() {
       links: [
         {
           name: 'Forex',
-          path: '/forex'
+          path: '/forex/'
         },
         {
           name: 'Indices',
-          path: '/indices'
+          path: '/indices/'
         },
         {
           name: 'Crypto',
-          path: '/crypto'
+          path: '/crypto/'
         },
         {
           name: 'Metals',
-          path: '/trading/metals'
+          path: '/trading/metals/'
         },
         {
           name: 'Commodities',
-          path: '/trading/commodities'
+          path: '/trading/commodities/'
         },
         {
           name: 'Oil',
-          path: '/trading/oil'
+          path: '/trading/oil/'
         },
       ]
     },
@@ -114,35 +114,35 @@ export default function Footer() {
   const copyright_links = [
     {
       name: 'Privacy Policy',
-      path: '/policy'
+      path: '/policy/'
     },
     {
       name: 'Terms & Conditions',
-      path: '/terms'
+      path: '/terms/'
     },
     {
       name: 'AML Policy',
-      path: '/aml-policy'
+      path: '/aml-policy/'
     },
     {
       name: 'Deposit & withdrawal Policy',
-      path: '/deposit-withdraw'
+      path: '/deposit-withdraw/'
     },
     {
       name: 'Restricted Countries',
-      path: '/restricted-countries'
+      path: '/restricted-countries/'
     },
     {
       name: 'Risk Warning',
-      path: '/risk-warning'
+      path: '/risk-warning/'
     },
     {
       name: 'Legal Documents',
-      path: '/legal-documents'
+      path: '/legal-documents/'
     },
     {
       name: 'Risk Disclosure',
-      path: '/risk-disclosure'
+      path: '/risk-disclosure/'
     },
   ]
 

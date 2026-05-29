@@ -1,14 +1,15 @@
 import { Helmet } from 'react-helmet-async'
 import {
-  BASE_URL,
   buildBlogPostingSchema,
   buildBreadcrumbSchema,
+  buildCanonicalUrl,
   buildFaqPageSchema,
   buildOrganizationSchema,
   buildWebPageSchema,
   buildWebsiteSchema,
   getPageSchemaConfig,
   getPageSchemaExtensions,
+  normalizeRoutePath,
 } from '@/lib/schema-org'
 
 const OG_IMAGE = 'https://imagedelivery.net/bvUtc88WWoZg5mZsB7f2Zw/da80fbb4-439b-42f9-f7fa-31931de6e500/public'
@@ -38,9 +39,10 @@ export default function SeoHead({
   faqItems,
   blogPosting,
 }) {
-  const canonical = `${BASE_URL}${canonicalPath}`
-  const pageConfig = getPageSchemaConfig(canonicalPath)
-  const pageExtensions = getPageSchemaExtensions(canonicalPath)
+  const canonical = buildCanonicalUrl(canonicalPath)
+  const schemaPath = normalizeRoutePath(canonicalPath)
+  const pageConfig = getPageSchemaConfig(schemaPath)
+  const pageExtensions = getPageSchemaExtensions(schemaPath)
 
   const organizationSchema = buildOrganizationSchema()
   const websiteSchema = buildWebsiteSchema()
@@ -56,7 +58,7 @@ export default function SeoHead({
 
   const breadcrumbSchema =
     pageConfig?.breadcrumb != null
-      ? buildBreadcrumbSchema(pageConfig.breadcrumb, canonicalPath)
+      ? buildBreadcrumbSchema(pageConfig.breadcrumb, schemaPath)
       : null
 
   const blogPostingSchema = blogPosting

@@ -81,7 +81,7 @@ export default function UaeRepresentativeOffice() {
           <IdentitySection title="Dubai License Summary">
             <RegistrationTable rows={uaeLicenseSummaryRows} />
             <p className="mt-4">
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 View full Dubai Professional License details
               </Link>
             </p>
@@ -102,7 +102,7 @@ export default function UaeRepresentativeOffice() {
               <li>Partner portal URL: https://partner.winprofx.org/</li>
             </ul>
             <p className="mt-4">
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Use the full WINPROFX verification checklist
               </Link>
             </p>

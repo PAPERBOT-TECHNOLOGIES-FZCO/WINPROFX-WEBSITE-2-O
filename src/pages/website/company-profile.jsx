@@ -211,13 +211,13 @@ export default function CompanyProfile() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link
-              to="/verify-winprofx"
+              to="/verify-winprofx/"
               className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-primary text-black border border-primary hover:opacity-90 transition-opacity"
             >
               Verify Official Domains
             </Link>
             <Link
-              to="/contact"
+              to="/contact/"
               className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-white/2 border border-solid border-white/12 text-white hover:border-white/30 hover:text-primary transition-colors"
             >
               Contact Support
@@ -253,14 +253,14 @@ export default function CompanyProfile() {
               <RegistrationTable rows={legalEntitySummaryRows} />
             </div>
             <p className="mt-4">
-              <Link to="/company-registration" className="text-white underline hover:text-primary">
+              <Link to="/company-registration/" className="text-white underline hover:text-primary">
                 View full company registration details
               </Link>
             </p>
             <p className="mt-4">{INCORPORATION_CLARIFICATION}</p>
             <p className="mt-4">
               For regulatory and license-related information, visit the{' '}
-              <Link to="/regulatory-information" className="text-white underline hover:text-primary">
+              <Link to="/regulatory-information/" className="text-white underline hover:text-primary">
                 Regulatory Information
               </Link>{' '}
               page.
@@ -274,11 +274,11 @@ export default function CompanyProfile() {
               {DUBAI_LICENSE_NUMBER} with license activity listed as {DUBAI_LICENSE_ACTIVITY}.
             </p>
             <p className="mt-4">
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 Dubai Professional License
               </Link>
               {' · '}
-              <Link to="/uae-representative-office" className="text-white underline hover:text-primary">
+              <Link to="/uae-representative-office/" className="text-white underline hover:text-primary">
                 UAE Representative Office
               </Link>
             </p>
@@ -294,11 +294,11 @@ export default function CompanyProfile() {
               escalation routes.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-4">
-              <li><Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">Withdrawal Transparency</Link></li>
-              <li><Link to="/complaints-and-dispute-resolution" className="text-white underline hover:text-primary">Complaints and Dispute Resolution</Link></li>
-              <li><Link to="/client-fund-security" className="text-white underline hover:text-primary">Client Fund Security</Link></li>
-              <li><Link to="/support-and-escalation" className="text-white underline hover:text-primary">Support and Escalation</Link></li>
-              <li><Link to="/company-statistics" className="text-white underline hover:text-primary">Company Statistics</Link></li>
+              <li><Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">Withdrawal Transparency</Link></li>
+              <li><Link to="/complaints-and-dispute-resolution/" className="text-white underline hover:text-primary">Complaints and Dispute Resolution</Link></li>
+              <li><Link to="/client-fund-security/" className="text-white underline hover:text-primary">Client Fund Security</Link></li>
+              <li><Link to="/support-and-escalation/" className="text-white underline hover:text-primary">Support and Escalation</Link></li>
+              <li><Link to="/company-statistics/" className="text-white underline hover:text-primary">Company Statistics</Link></li>
             </ul>
           </IdentitySection>
 
@@ -362,7 +362,7 @@ export default function CompanyProfile() {
             <p className="mt-4 p-4 rounded-xl border border-white/10 bg-white/2 text-sm md:text-base">
               If a website, social media page, mobile app, email, or representative claims to represent
               WINPROFX but is not listed on the{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>{' '}
               page, users should verify it before proceeding.
@@ -402,15 +402,15 @@ export default function CompanyProfile() {
             </ul>
             <p className="mt-4">
               Learn more on the{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>
               ,{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>
               , and{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact
               </Link>{' '}
               pages.
@@ -433,15 +433,15 @@ export default function CompanyProfile() {
             </p>
             <p className="mt-4">
               Read the full{' '}
-              <Link to="/risk-warning" className="text-white underline hover:text-primary">
+              <Link to="/risk-warning/" className="text-white underline hover:text-primary">
                 Risk Warning
               </Link>
               ,{' '}
-              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                 Legal Documents
               </Link>
               , and{' '}
-              <Link to="/terms" className="text-white underline hover:text-primary">
+              <Link to="/terms/" className="text-white underline hover:text-primary">
                 Terms and Conditions
               </Link>{' '}
               before using any service.
@@ -456,7 +456,7 @@ export default function CompanyProfile() {
             </p>
             <p className="mt-4">
               <Link
-                to="/restricted-countries"
+                to="/restricted-countries/"
                 className="text-white underline hover:text-primary font-medium"
               >
                 View Restricted Countries
@@ -496,7 +496,7 @@ export default function CompanyProfile() {
             </p>
             <p className="mt-4">
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-white/2 border border-solid border-white/12 text-white hover:border-white/30 hover:text-primary transition-colors"
               >
                 Contact Support

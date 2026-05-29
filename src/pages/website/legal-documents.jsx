@@ -23,68 +23,68 @@ const legalDocuments = [
   },
   {
     name: 'Dubai Professional License',
-    path: '/dubai-professional-license',
+    path: '/dubai-professional-license/',
     description: `On-page license information for ${DUBAI_BUSINESS_NAME} (License No. ${DUBAI_LICENSE_NUMBER}). Representative Office activity — not a financial services broker license.`,
     htmlOnly: true,
   },
   {
     name: 'Company Registration Information',
-    path: '/company-registration',
+    path: '/company-registration/',
     description: 'Full company registration details for Winprofx Ltd.',
   },
   {
     name: 'Legal Entity Information',
-    path: '/legal-entity-information',
+    path: '/legal-entity-information/',
     description: 'Legal entity, registered agent, registered office, Dubai branch, and official domains.',
   },
   {
     name: 'Regulatory Information',
-    path: '/regulatory-information',
+    path: '/regulatory-information/',
     description: 'Company incorporation, Dubai license, and financial services license clarification.',
   },
   {
     name: 'UAE Representative Office',
-    path: '/uae-representative-office',
+    path: '/uae-representative-office/',
     description: 'UAE representative office role, license summary, and verification guidance.',
   },
   {
     name: 'Withdrawal Transparency',
-    path: '/withdrawal-transparency',
+    path: '/withdrawal-transparency/',
     description: 'Withdrawal process overview, methods, and escalation routes.',
   },
   {
     name: 'Complaints and Dispute Resolution',
-    path: '/complaints-and-dispute-resolution',
+    path: '/complaints-and-dispute-resolution/',
     description: 'How to submit complaints and the review process.',
   },
   {
     name: 'Client Fund Security',
-    path: '/client-fund-security',
+    path: '/client-fund-security/',
     description: 'Account security, KYC/AML, and portal safety practices.',
   },
   {
     name: 'Risk Warning',
-    path: '/risk-warning',
+    path: '/risk-warning/',
     description: 'Summary of key trading risks for forex and CFD products.',
   },
   {
     name: 'Terms and Conditions',
-    path: '/terms',
+    path: '/terms/',
     description: 'Terms governing use of WINPROFX services and platforms.',
   },
   {
     name: 'Privacy Policy',
-    path: '/policy',
+    path: '/policy/',
     description: 'How WINPROFX collects and uses personal data.',
   },
   {
     name: 'AML Policy',
-    path: '/aml-policy',
+    path: '/aml-policy/',
     description: 'Anti-money laundering and compliance policies.',
   },
   {
     name: 'Deposit and Withdrawal Policy',
-    path: '/deposit-withdraw',
+    path: '/deposit-withdraw/',
     description: 'Policies for funding and withdrawing from accounts.',
   },
 ]
@@ -153,7 +153,7 @@ export default function LegalDocuments() {
                 support@winprofx.com
               </a>{' '}
               or visit our{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
               </Link>
               .

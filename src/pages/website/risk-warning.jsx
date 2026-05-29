@@ -67,41 +67,41 @@ export default function RiskWarning() {
           <IdentitySection title="Further Information">
             <p>
               For the full risk disclosure statement, please read our{' '}
-              <Link to="/risk-disclosure" className="text-white underline hover:text-primary">
+              <Link to="/risk-disclosure/" className="text-white underline hover:text-primary">
                 Risk Disclosure
               </Link>{' '}
               page. For legal policies, visit{' '}
-              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                 Legal Documents
               </Link>
               .
             </p>
             <p className="mt-4">
               For regulatory and license information, see{' '}
-              <Link to="/regulatory-information" className="text-white underline hover:text-primary">
+              <Link to="/regulatory-information/" className="text-white underline hover:text-primary">
                 Regulatory Information
               </Link>
               ,{' '}
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 Dubai Professional License
               </Link>
               , and{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>
               .
             </p>
             <p className="mt-4">
               For trust and support information, see{' '}
-              <Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">
+              <Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
                 Withdrawal Transparency
               </Link>
               ,{' '}
-              <Link to="/complaints-and-dispute-resolution" className="text-white underline hover:text-primary">
+              <Link to="/complaints-and-dispute-resolution/" className="text-white underline hover:text-primary">
                 Complaints and Dispute Resolution
               </Link>
               , and{' '}
-              <Link to="/client-fund-security" className="text-white underline hover:text-primary">
+              <Link to="/client-fund-security/" className="text-white underline hover:text-primary">
                 Client Fund Security
               </Link>
               .
@@ -112,7 +112,7 @@ export default function RiskWarning() {
                 support@winprofx.com
               </a>{' '}
               or visit our{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
               </Link>
               .

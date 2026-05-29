@@ -104,7 +104,7 @@ export default function VerifyWINPROFX() {
                 </li>
               ))}
               <li>
-                <Link to="/legal-documents" className="text-white underline hover:text-primary">
+                <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                   Legal Documents
                 </Link>
               </li>
@@ -115,7 +115,7 @@ export default function VerifyWINPROFX() {
             <p>
               If a website claims to represent WINPROFX but is not listed here, contact WINPROFX support
               before using it. Visit our{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
               </Link>{' '}
               or email{' '}

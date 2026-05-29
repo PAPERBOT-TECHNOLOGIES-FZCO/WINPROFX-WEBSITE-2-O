@@ -3,6 +3,26 @@ export const LOGO_URL = `${BASE_URL}/logo.png`
 export const ORG_ID = `${BASE_URL}/#organization`
 export const WEBSITE_ID = `${BASE_URL}/#website`
 
+/** Strip trailing slashes; homepage stays "/". */
+export function normalizeRoutePath(path) {
+  if (!path || path === '/') return '/'
+  return path.replace(/\/+$/, '') || '/'
+}
+
+/** Internal router/link path with trailing slash (homepage "/"). */
+export function publicPath(path) {
+  const normalized = normalizeRoutePath(path)
+  if (normalized === '/') return '/'
+  return `${normalized}/`
+}
+
+/** Absolute canonical URL on winprofx.org with trailing slash for inner pages. */
+export function buildCanonicalUrl(canonicalPath) {
+  const normalized = normalizeRoutePath(canonicalPath)
+  if (normalized === '/') return `${BASE_URL}/`
+  return `${BASE_URL}${normalized}/`
+}
+
 export const BRAND_DESCRIPTION =
   'WINPROFX is a forex and CFD trading brand associated with Winprofx Ltd., an International Business Company incorporated in Saint Lucia.'
 
@@ -98,7 +118,7 @@ export function buildOrganizationSchema() {
       {
         '@type': 'ContactPoint',
         contactType: 'customer support',
-        url: `${BASE_URL}/contact`,
+        url: `${BASE_URL}/contact/`,
         email: 'support@winprofx.com',
         availableLanguage: ['English'],
       },
@@ -171,10 +191,12 @@ export function buildFaqPageSchema(faqs) {
 }
 
 export function buildBreadcrumbSchema(breadcrumbLabel, canonicalPath) {
+  const pageUrl = buildCanonicalUrl(canonicalPath)
+  const normalized = normalizeRoutePath(canonicalPath)
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': `${BASE_URL}${canonicalPath}#breadcrumb`,
+    '@id': `${pageUrl}#breadcrumb`,
     itemListElement: [
       {
         '@type': 'ListItem',
@@ -186,7 +208,7 @@ export function buildBreadcrumbSchema(breadcrumbLabel, canonicalPath) {
         '@type': 'ListItem',
         position: 2,
         name: breadcrumbLabel,
-        item: `${BASE_URL}${canonicalPath}`,
+        item: pageUrl,
       },
     ],
   }
@@ -222,11 +244,11 @@ export function buildBlogPostingSchema({ headline, description, url, datePublish
 }
 
 export function getPageSchemaConfig(canonicalPath) {
-  return IDENTITY_PAGE_SCHEMA[canonicalPath] ?? null
+  return IDENTITY_PAGE_SCHEMA[normalizeRoutePath(canonicalPath)] ?? null
 }
 
 export function getPageSchemaExtensions(canonicalPath) {
-  const extensions = PAGE_SCHEMA_EXTENSIONS[canonicalPath]
+  const extensions = PAGE_SCHEMA_EXTENSIONS[normalizeRoutePath(canonicalPath)]
   if (!extensions) {
     return null
   }

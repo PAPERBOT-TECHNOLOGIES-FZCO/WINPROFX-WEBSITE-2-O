@@ -72,11 +72,11 @@ export default function CompanyRegistration() {
             <p>
               {LEGAL_ENTITY_NAME} also holds a Dubai Professional License for its UAE representative
               office. See{' '}
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 Dubai Professional License
               </Link>{' '}
               and{' '}
-              <Link to="/uae-representative-office" className="text-white underline hover:text-primary">
+              <Link to="/uae-representative-office/" className="text-white underline hover:text-primary">
                 UAE Representative Office
               </Link>{' '}
               for details.

@@ -47,7 +47,7 @@ export default function SupportAndEscalation() {
                 </a>
               </li>
               <li>
-                <Link to="/contact" className="text-white underline hover:text-primary">
+                <Link to="/contact/" className="text-white underline hover:text-primary">
                   Contact page
                 </Link>{' '}
                 on winprofx.org
@@ -85,7 +85,7 @@ export default function SupportAndEscalation() {
               WINPROFX will not request passwords, full payment card numbers, or sensitive credentials
               through unofficial email, social media, messaging apps, or websites. Do not follow payment
               instructions from unknown representatives. Always verify domains on the{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>{' '}
               page before logging in, depositing, or sharing personal information.
@@ -96,7 +96,7 @@ export default function SupportAndEscalation() {
             <h3 className="text-base font-semibold text-white mb-2">Withdrawal Delays</h3>
             <p className="mb-4">
               Include withdrawal date, amount, payment method, MT5/account ID, and request reference. See{' '}
-              <Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">
+              <Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
                 Withdrawal Transparency
               </Link>
               .
@@ -112,7 +112,7 @@ export default function SupportAndEscalation() {
             <p className="mb-4">
               For deposit confirmation delays or payment disputes, contact support with transaction date,
               amount, payment method, and any reference from your bank or payment provider. See the{' '}
-              <Link to="/deposit-withdraw" className="text-white underline hover:text-primary">
+              <Link to="/deposit-withdraw/" className="text-white underline hover:text-primary">
                 Deposit &amp; Withdrawal Policy
               </Link>
               .
@@ -136,7 +136,7 @@ export default function SupportAndEscalation() {
                 {SUPPORT_EMAIL}
               </a>
               . Read{' '}
-              <Link to="/client-fund-security" className="text-white underline hover:text-primary">
+              <Link to="/client-fund-security/" className="text-white underline hover:text-primary">
                 Client Fund Security
               </Link>{' '}
               for additional guidance.
@@ -146,7 +146,7 @@ export default function SupportAndEscalation() {
           <IdentitySection title="Complaints">
             <p>
               For formal complaints, see{' '}
-              <Link to="/complaints-and-dispute-resolution" className="text-white underline hover:text-primary">
+              <Link to="/complaints-and-dispute-resolution/" className="text-white underline hover:text-primary">
                 Complaints and Dispute Resolution
               </Link>
               .

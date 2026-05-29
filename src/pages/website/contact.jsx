@@ -114,18 +114,18 @@ export default function Contact() {
           <IdentitySection title="Contact, Risk & Legal Note">
             <p>
               Before trading, please read our{' '}
-              <Link to="/risk-warning" className="text-white underline hover:text-primary">
+              <Link to="/risk-warning/" className="text-white underline hover:text-primary">
                 Risk Warning
               </Link>{' '}
               and review our{' '}
-              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                 Legal Documents
               </Link>
               . Trading forex and CFDs involves significant risk and may not be suitable for all investors.
             </p>
             <p className="mt-4">
               Verify official domains on our{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>{' '}
               page before logging in or sharing personal information.

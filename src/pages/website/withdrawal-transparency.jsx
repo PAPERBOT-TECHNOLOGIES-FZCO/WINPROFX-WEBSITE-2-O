@@ -96,7 +96,7 @@ export default function WithdrawalTransparency() {
                 {SUPPORT_EMAIL}
               </a>{' '}
               or visit{' '}
-              <Link to="/support-and-escalation" className="text-white underline hover:text-primary">
+              <Link to="/support-and-escalation/" className="text-white underline hover:text-primary">
                 Support and Escalation
               </Link>
               .
@@ -120,7 +120,7 @@ export default function WithdrawalTransparency() {
             </p>
             <p className="mt-4">
               For full deposit and withdrawal policy terms, see the{' '}
-              <Link to="/deposit-withdraw" className="text-white underline hover:text-primary">
+              <Link to="/deposit-withdraw/" className="text-white underline hover:text-primary">
                 Deposit &amp; Withdrawal Policy
               </Link>
               .

@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { companyLicenseLinks, trustSupportLinks } from '@/lib/company-registration'
+import { normalizeRoutePath } from '@/lib/schema-org'
+
+function pathsMatch(pathname, linkPath) {
+  return normalizeRoutePath(pathname) === normalizeRoutePath(linkPath)
+}
 
 function NavGroup({ title, links, pathname }) {
   return (
@@ -12,11 +17,11 @@ function NavGroup({ title, links, pathname }) {
             <Link
               to={link.path}
               className={`inline-block px-4 py-2 rounded-full text-sm border border-solid transition-colors ${
-                pathname === link.path
+                pathsMatch(pathname, link.path)
                   ? 'bg-primary/20 border-primary text-white'
                   : 'bg-white/2 border-white/12 text-para hover:text-white hover:border-white/30'
               }`}
-              aria-current={pathname === link.path ? 'page' : undefined}
+              aria-current={pathsMatch(pathname, link.path) ? 'page' : undefined}
             >
               {link.label}
             </Link>

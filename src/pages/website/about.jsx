@@ -78,7 +78,7 @@ export default function About() {
             </ul>
             <p className="mt-4">
               View the complete verified list on our{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>{' '}
               page.
@@ -102,7 +102,7 @@ export default function About() {
             </ul>
             <p className="mt-4">
               Always verify the URL before entering your credentials. Only use domains listed on the{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>{' '}
               page.
@@ -116,7 +116,7 @@ export default function About() {
             </p>
             <p className="mt-4">
               Read our{' '}
-              <Link to="/risk-warning" className="text-white underline hover:text-primary">
+              <Link to="/risk-warning/" className="text-white underline hover:text-primary">
                 Risk Warning
               </Link>{' '}
               for more information.
@@ -126,7 +126,7 @@ export default function About() {
           <IdentitySection title="Contact">
             <p>
               For support, visit our{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
               </Link>{' '}
               or email{' '}

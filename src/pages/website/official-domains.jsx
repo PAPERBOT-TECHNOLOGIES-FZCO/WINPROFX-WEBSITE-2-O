@@ -84,7 +84,7 @@ export default function OfficialDomains() {
             </p>
             <p className="mt-4">
               Use the{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>{' '}
               checklist for step-by-step verification guidance.
@@ -102,7 +102,7 @@ export default function OfficialDomains() {
                 support@winprofx.com
               </a>{' '}
               or visit our{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
               </Link>{' '}
               if you are unsure about a domain.
@@ -112,15 +112,15 @@ export default function OfficialDomains() {
           <IdentitySection title="Company Information">
             <p>
               For brand and company details, see the{' '}
-              <Link to="/company-profile" className="text-white underline hover:text-primary">
+              <Link to="/company-profile/" className="text-white underline hover:text-primary">
                 Company Profile
               </Link>
               ,{' '}
-              <Link to="/company-registration" className="text-white underline hover:text-primary">
+              <Link to="/company-registration/" className="text-white underline hover:text-primary">
                 Company Registration
               </Link>
               , and{' '}
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 Dubai Professional License
               </Link>{' '}
               pages.

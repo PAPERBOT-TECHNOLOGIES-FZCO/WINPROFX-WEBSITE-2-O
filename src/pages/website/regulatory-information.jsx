@@ -53,7 +53,7 @@ export default function RegulatoryInformation() {
             </p>
             <RegistrationTable rows={incorporationSummaryRows} />
             <p className="mt-4">
-              <Link to="/company-registration" className="text-white underline hover:text-primary">
+              <Link to="/company-registration/" className="text-white underline hover:text-primary">
                 View full company registration details
               </Link>
             </p>
@@ -66,7 +66,7 @@ export default function RegulatoryInformation() {
             </p>
             <DubaiLicenseTable />
             <p className="mt-4">
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 View full Dubai Professional License page
               </Link>
             </p>
@@ -96,15 +96,15 @@ export default function RegulatoryInformation() {
           <IdentitySection title="Document Availability">
             <p>
               Certified incorporation documents are available under the{' '}
-              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                 Legal Documents
               </Link>{' '}
               section and on the{' '}
-              <Link to="/company-registration" className="text-white underline hover:text-primary">
+              <Link to="/company-registration/" className="text-white underline hover:text-primary">
                 Company Registration
               </Link>{' '}
               page. Dubai license details are published on-page at{' '}
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 Dubai Professional License
               </Link>
               .

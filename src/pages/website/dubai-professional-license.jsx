@@ -70,12 +70,12 @@ export default function DubaiProfessionalLicense() {
 
           <IdentitySection title="Related Information">
             <ul className="flex flex-col gap-2">
-              <li><Link to="/uae-representative-office" className="text-white underline hover:text-primary">UAE Representative Office</Link></li>
-              <li><Link to="/legal-entity-information" className="text-white underline hover:text-primary">Legal Entity Information</Link></li>
-              <li><Link to="/regulatory-information" className="text-white underline hover:text-primary">Regulatory Information</Link></li>
-              <li><Link to="/official-domains" className="text-white underline hover:text-primary">Official Domains</Link></li>
-              <li><Link to="/verify-winprofx" className="text-white underline hover:text-primary">Verify WINPROFX</Link></li>
-              <li><Link to="/risk-warning" className="text-white underline hover:text-primary">Risk Warning</Link></li>
+              <li><Link to="/uae-representative-office/" className="text-white underline hover:text-primary">UAE Representative Office</Link></li>
+              <li><Link to="/legal-entity-information/" className="text-white underline hover:text-primary">Legal Entity Information</Link></li>
+              <li><Link to="/regulatory-information/" className="text-white underline hover:text-primary">Regulatory Information</Link></li>
+              <li><Link to="/official-domains/" className="text-white underline hover:text-primary">Official Domains</Link></li>
+              <li><Link to="/verify-winprofx/" className="text-white underline hover:text-primary">Verify WINPROFX</Link></li>
+              <li><Link to="/risk-warning/" className="text-white underline hover:text-primary">Risk Warning</Link></li>
             </ul>
           </IdentitySection>
 

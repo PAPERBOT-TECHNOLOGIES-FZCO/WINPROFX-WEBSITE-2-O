@@ -242,30 +242,30 @@ export const verifyLegalEntityRows = [
 ]
 
 export const companyLicenseLinks = [
-  { path: '/company-profile', label: 'Company Profile' },
-  { path: '/company-registration', label: 'Company Registration' },
-  { path: '/legal-entity-information', label: 'Legal Entity Information' },
-  { path: '/dubai-professional-license', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office', label: 'UAE Representative Office' },
-  { path: '/regulatory-information', label: 'Regulatory Information' },
-  { path: '/official-domains', label: 'Official Domains' },
-  { path: '/verify-winprofx', label: 'Verify WINPROFX' },
-  { path: '/legal-documents', label: 'Legal Documents' },
+  { path: '/company-profile/', label: 'Company Profile' },
+  { path: '/company-registration/', label: 'Company Registration' },
+  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
+  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/official-domains/', label: 'Official Domains' },
+  { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
+  { path: '/legal-documents/', label: 'Legal Documents' },
 ]
 
 export const trustSupportLinks = [
-  { path: '/withdrawal-transparency', label: 'Withdrawal Transparency' },
-  { path: '/complaints-and-dispute-resolution', label: 'Complaints and Dispute Resolution' },
-  { path: '/client-fund-security', label: 'Client Fund Security' },
-  { path: '/support-and-escalation', label: 'Support and Escalation' },
-  { path: '/company-statistics', label: 'Company Statistics' },
-  { path: '/risk-warning', label: 'Risk Warning' },
-  { path: '/contact', label: 'Contact' },
+  { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
+  { path: '/client-fund-security/', label: 'Client Fund Security' },
+  { path: '/support-and-escalation/', label: 'Support and Escalation' },
+  { path: '/company-statistics/', label: 'Company Statistics' },
+  { path: '/risk-warning/', label: 'Risk Warning' },
+  { path: '/contact/', label: 'Contact' },
 ]
 
 export const relatedPageLinks = [
-  ...companyLicenseLinks.filter((l) => l.path !== '/company-profile'),
-  ...trustSupportLinks.filter((l) => !['/contact', '/risk-warning'].includes(l.path)),
+  ...companyLicenseLinks.filter((l) => l.path !== '/company-profile/'),
+  ...trustSupportLinks.filter((l) => !['/contact/', '/risk-warning/'].includes(l.path)),
 ]
 
 export const withdrawalProcessRows = [
@@ -287,7 +287,7 @@ export const withdrawalProcessRows = [
   },
   {
     label: 'Escalation route',
-    value: 'Contact support@winprofx.com or visit /support-and-escalation',
+    value: 'Contact support@winprofx.com or visit /support-and-escalation/',
   },
 ]
 
@@ -302,19 +302,19 @@ export const withdrawalMethodRows = [
 export const withdrawalTimelineRows = [
   {
     label: 'Bank transfer',
-    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, payment method verification, PSP/bank processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, payment method verification, PSP/bank processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation/`,
   },
   {
     label: 'Card refund (where applicable)',
-    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, card verification, issuer processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, card verification, issuer processing. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation/`,
   },
   {
     label: 'Crypto / digital asset (where applicable)',
-    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, wallet verification, blockchain confirmation. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: KYC/AML, wallet verification, blockchain confirmation. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation/`,
   },
   {
     label: 'Other approved methods',
-    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: As per method and compliance review. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation`,
+    value: `Standard review: ${OPS_PLACEHOLDER} Processing after approval: ${OPS_PLACEHOLDER} Delays: As per method and compliance review. Escalation: ${SUPPORT_EMAIL} or /support-and-escalation/`,
   },
 ]
 
@@ -389,17 +389,17 @@ export const financialLicensePlaceholderRows = [
 ]
 
 export const verifyTrustPageLinks = [
-  { path: '/company-registration', label: 'Company Registration' },
-  { path: '/legal-entity-information', label: 'Legal Entity Information' },
-  { path: '/dubai-professional-license', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office', label: 'UAE Representative Office' },
-  { path: '/regulatory-information', label: 'Regulatory Information' },
-  { path: '/withdrawal-transparency', label: 'Withdrawal Transparency' },
-  { path: '/complaints-and-dispute-resolution', label: 'Complaints and Dispute Resolution' },
-  { path: '/support-and-escalation', label: 'Support and Escalation' },
-  { path: '/client-fund-security', label: 'Client Fund Security' },
-  { path: '/risk-warning', label: 'Risk Warning' },
-  { path: '/official-domains', label: 'Official Domains' },
+  { path: '/company-registration/', label: 'Company Registration' },
+  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
+  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
+  { path: '/support-and-escalation/', label: 'Support and Escalation' },
+  { path: '/client-fund-security/', label: 'Client Fund Security' },
+  { path: '/risk-warning/', label: 'Risk Warning' },
+  { path: '/official-domains/', label: 'Official Domains' },
 ]
 
 export const companyStatisticsItems = [
@@ -416,18 +416,18 @@ export const companyStatisticsItems = [
 ]
 
 export const footerTrustLegalLinks = [
-  { path: '/withdrawal-transparency', label: 'Withdrawal Transparency' },
-  { path: '/complaints-and-dispute-resolution', label: 'Complaints and Dispute Resolution' },
-  { path: '/client-fund-security', label: 'Client Fund Security' },
-  { path: '/support-and-escalation', label: 'Support and Escalation' },
-  { path: '/company-statistics', label: 'Company Statistics' },
-  { path: '/regulatory-information', label: 'Regulatory Information' },
-  { path: '/company-registration', label: 'Company Registration' },
-  { path: '/legal-entity-information', label: 'Legal Entity Information' },
-  { path: '/dubai-professional-license', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office', label: 'UAE Representative Office' },
-  { path: '/official-domains', label: 'Official Domains' },
-  { path: '/verify-winprofx', label: 'Verify WINPROFX' },
-  { path: '/risk-warning', label: 'Risk Warning' },
-  { path: '/legal-documents', label: 'Legal Documents' },
+  { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
+  { path: '/client-fund-security/', label: 'Client Fund Security' },
+  { path: '/support-and-escalation/', label: 'Support and Escalation' },
+  { path: '/company-statistics/', label: 'Company Statistics' },
+  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/company-registration/', label: 'Company Registration' },
+  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
+  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  { path: '/official-domains/', label: 'Official Domains' },
+  { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
+  { path: '/risk-warning/', label: 'Risk Warning' },
+  { path: '/legal-documents/', label: 'Legal Documents' },
 ]

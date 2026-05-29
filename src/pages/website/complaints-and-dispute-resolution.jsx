@@ -49,7 +49,7 @@ export default function ComplaintsAndDisputeResolution() {
                 {SUPPORT_EMAIL}
               </a>{' '}
               with the subject line &quot;Complaint&quot; or through the official{' '}
-              <Link to="/contact" className="text-white underline hover:text-primary">
+              <Link to="/contact/" className="text-white underline hover:text-primary">
                 Contact
               </Link>{' '}
               page. Please include:
@@ -89,7 +89,7 @@ export default function ComplaintsAndDisputeResolution() {
             <p>
               If a complaint is not resolved satisfactorily through initial support review, it may be
               escalated to compliance or operations management. See{' '}
-              <Link to="/support-and-escalation" className="text-white underline hover:text-primary">
+              <Link to="/support-and-escalation/" className="text-white underline hover:text-primary">
                 Support and Escalation
               </Link>{' '}
               for escalation routes.

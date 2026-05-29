@@ -48,7 +48,7 @@ export default function LegalEntityInformation() {
           <IdentitySection title="Incorporation Jurisdiction">
             <RegistrationTable rows={legalEntitySummaryRows} />
             <p className="mt-4">
-              <Link to="/company-registration" className="text-white underline hover:text-primary">
+              <Link to="/company-registration/" className="text-white underline hover:text-primary">
                 View full company registration details
               </Link>
             </p>
@@ -76,7 +76,7 @@ export default function LegalEntityInformation() {
           <IdentitySection title="Dubai Branch and Office">
             <RegistrationTable rows={dubaiOfficeRows} />
             <p className="mt-4">
-              <Link to="/dubai-professional-license" className="text-white underline hover:text-primary">
+              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
                 View full Dubai Professional License details
               </Link>
             </p>
@@ -86,7 +86,7 @@ export default function LegalEntityInformation() {
             <p>{DUBAI_VERIFICATION_NOTE}</p>
             <p className="mt-4">
               Users should verify WINPROFX identity using the{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>{' '}
               checklist before registering, logging in, or sharing personal information.
@@ -115,7 +115,7 @@ export default function LegalEntityInformation() {
           <IdentitySection title="Legal Documents">
             <p className="mb-4">
               Certified incorporation documents and other legal documents are available through the{' '}
-              <Link to="/legal-documents" className="text-white underline hover:text-primary">
+              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
                 Legal Documents
               </Link>{' '}
               section.
@@ -137,7 +137,7 @@ export default function LegalEntityInformation() {
             </div>
             <p className="mt-4">
               For regulatory and license-related information, visit the{' '}
-              <Link to="/regulatory-information" className="text-white underline hover:text-primary">
+              <Link to="/regulatory-information/" className="text-white underline hover:text-primary">
                 Regulatory Information
               </Link>{' '}
               page.

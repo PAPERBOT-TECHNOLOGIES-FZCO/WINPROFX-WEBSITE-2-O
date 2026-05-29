@@ -73,7 +73,7 @@ export default function ClientFundSecurity() {
             <p>
               Withdrawals may require confirmation of account identity, payment method ownership, and
               compliance status before processing. See{' '}
-              <Link to="/withdrawal-transparency" className="text-white underline hover:text-primary">
+              <Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
                 Withdrawal Transparency
               </Link>{' '}
               for the withdrawal review process and escalation options.
@@ -88,11 +88,11 @@ export default function ClientFundSecurity() {
             </ul>
             <p className="mt-4">
               Use the{' '}
-              <Link to="/verify-winprofx" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 Verify WINPROFX
               </Link>{' '}
               checklist and{' '}
-              <Link to="/official-domains" className="text-white underline hover:text-primary">
+              <Link to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
               </Link>{' '}
               page before registering or depositing.
@@ -124,7 +124,7 @@ export default function ClientFundSecurity() {
                 {SUPPORT_EMAIL}
               </a>{' '}
               or via{' '}
-              <Link to="/support-and-escalation" className="text-white underline hover:text-primary">
+              <Link to="/support-and-escalation/" className="text-white underline hover:text-primary">
                 Support and Escalation
               </Link>
               .
