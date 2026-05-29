@@ -77,13 +77,13 @@ export default function AboutUs() {
     // faq item
     const item = [
         {
-            title: 'What is WinproFX?',
+            title: 'What is WINPROFX?',
             body: `
-                <p>WinproFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WinproFX stands out for several reasons:</p>
+                <p>WINPROFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WINPROFX stands out for several reasons:</p>
                <ul>
                     <li>
                         <span>
-                            <span>Global Regulation: </span> WinproFX is reputed globally, ensuring compliance with industry standards and providing a secure trading environment.
+                            <span>Global Regulation: </span> WINPROFX is reputed globally, ensuring compliance with industry standards and providing a secure trading environment.
                         </span>
                     </li>
                     <li>
@@ -93,28 +93,28 @@ export default function AboutUs() {
                     </li>                    
                     <li>
                         <span>
-                            <span>Lightning-Fast Withdrawals:</span>WinproFX offers swift withdrawal processes, ensuring that you have timely access to your funds when needed.
+                            <span>Lightning-Fast Withdrawals:</span>WINPROFX offers swift withdrawal processes, ensuring that you have timely access to your funds when needed.
                         </span>
                     </li>                    
                     <li>
                         <span>
-                            <span>Wide Range of Tradable Instruments: </span> With over 300 tradable instruments, WinproFX provides a diverse portfolio, allowing traders to explore various markets and investment opportunities.
+                            <span>Wide Range of Tradable Instruments: </span> With over 300 tradable instruments, WINPROFX provides a diverse portfolio, allowing traders to explore various markets and investment opportunities.
                         </span>
                     </li>                    
                     <li>
                         <span>
-                            <span>Tightest Spreads:</span> WinproFX offers tight spreads, minimizing the difference between buying and selling prices, which can enhance profitability for traders.
+                            <span>Tightest Spreads:</span> WINPROFX offers tight spreads, minimizing the difference between buying and selling prices, which can enhance profitability for traders.
                         </span>
                     </li>
                 </ul>
             `,
         },
         {
-            title: 'How do I start trading with WinproFX?',
+            title: 'How do I start trading with WINPROFX?',
             body: `
                 <div class="flex flex-col mb-4">
                     <strong class="text-white font-semibold mb-2 text-lg">Create an Account:</strong>
-                    <p>Visit the official WinproFX website at <a href="https://winprofx.org" class="text-white underline" target="_blank" rel="noopener noreferrer">winprofx.org</a> or <a href="https://my.winprofx.org/register" class="text-white underline" target="_blank" rel="noopener noreferrer">register here</a>.</p>
+                    <p>Visit the official WINPROFX website at <a href="https://winprofx.org" class="text-white underline" target="_blank" rel="noopener noreferrer">winprofx.org</a> or <a href="https://my.winprofx.org/register" class="text-white underline" target="_blank" rel="noopener noreferrer">register here</a>.</p>
                     <p>Look for a "Register" or "Open an Account" option.</p>
                     <p>Provide the required information, including personal details and contact information.</p>
                     <p>Agree to the terms and conditions.</p>
@@ -138,14 +138,14 @@ export default function AboutUs() {
                     <strong class="text-white font-semibold mb-2 text-lg">Login to the Trading Platform:</strong>
                     <p>Open the trading platform.</p>
                     <p>Enter your account credentials to log in.</p>
-                    <p>If you encounter any difficulties, WinproFX's customer support should be able to assist you. <a href="/contact" class="text-white underline">Contact us</a></p>
+                    <p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href="/contact" class="text-white underline">Contact us</a></p>
                 </div>
             `,
         },
         {
-            title: 'Which Financial instruments can I trade with WinproFX?',
+            title: 'Which Financial instruments can I trade with WINPROFX?',
             body: `
-                <p>Common categories of financial instruments that traders can potentially access on WinproFX: </p>
+                <p>Common categories of financial instruments that traders can potentially access on WINPROFX: </p>
                 <ul>
                     <li>
                         <span>
@@ -183,15 +183,15 @@ export default function AboutUs() {
             `,
         },
         {
-            title: 'How can I deposit and withdraw funds on WinproFX?',
+            title: 'How can I deposit and withdraw funds on WINPROFX?',
             body: `
-                <p>For clients convenience WinproFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>
+                <p>For clients convenience WINPROFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>
             `,
         },
         {
-            title: 'What trading platforms does WinproFX support?',
+            title: 'What trading platforms does WINPROFX support?',
             body: `
-                <p>WinproFX supports the following trading platforms:</p>
+                <p>WINPROFX supports the following trading platforms:</p>
                 <ul>
                     <li>
                         <span>
@@ -216,9 +216,9 @@ export default function AboutUs() {
             `,
         },
         {
-            title: 'How can I contact WinproFX customer support?',
+            title: 'How can I contact WINPROFX customer support?',
             body: `
-                <p>WinproFX customer support is available 24/7 through the following channels:</p>
+                <p>WINPROFX customer support is available 24/7 through the following channels:</p>
                 <ul>
                     <li><span><span>Phone:</span> <a href="tel:+97144471894" class="text-white underline">+971 4 447 1894</a></span></li>
                     <li><span><span>Email:</span> <a href="mailto:support@winprofx.com" class="text-white underline">support@winprofx.com</a></span></li>
@@ -233,9 +233,9 @@ export default function AboutUs() {
     return (
         <>
             <SeoHead
-                title="About Us | WinproFX"
-                description="Learn about WinproFX, a leader in forex trading, offering advanced platforms and comprehensive support to empower traders globally. Click to know more!"
-                keywords="Forex Trading Experts, Forex Trading Team, Forex Platform, Forex Trading Company, WinproFX Services Overview, Best Forex Trading Broker Platform, Best Forex Market Trading Platform"
+                title="About Us | WINPROFX"
+                description="Learn about WINPROFX, a leader in forex trading, offering advanced platforms and comprehensive support to empower traders globally. Click to know more!"
+                keywords="Forex Trading Experts, Forex Trading Team, Forex Platform, Forex Trading Company, WINPROFX Services Overview, Best Forex Trading Broker Platform, Best Forex Market Trading Platform"
                 canonicalPath="/about-us"
             />
             <TopShape />
@@ -243,10 +243,10 @@ export default function AboutUs() {
                 videoBg={video}
                 bgClass="top-auto lg:top-1/4 3xl:-mt-25 h-auto w-full bottom-0 left-0"
                 meta="ABOUT US"
-                title="Pioneering Excellence: Redefining Trading Standards at WinproFX"
+                title="Pioneering Excellence: Redefining Trading Standards at WINPROFX"
                 des={
                     <>
-                        Welcome to WinProFX — an award-winning forex and CFD broker offering advanced
+                        Welcome to WINPROFX — an award-winning forex and CFD broker offering advanced
                         trading technology, competitive spreads, and 24/7 support for traders of all levels.
                         Our primary official website is winprofx.org.
                     </>
@@ -260,8 +260,8 @@ export default function AboutUs() {
                     <div className="max-w-285 mx-auto bg-white/2 border border-solid border-white/8 rounded-2xl lg:rounded-[20px] p-4 md:p-6 lg:p-8">
                         <h4 className="text-xl md:text-2xl font-semibold text-white mb-4">Company Information</h4>
                         <ul className="flex flex-col gap-y-2 text-para text-sm md:text-base">
-                            <li><strong className="text-white">Legal Name:</strong> WinproFX Limited</li>
-                            <li><strong className="text-white">Trading Name:</strong> WinProFX</li>
+                            <li><strong className="text-white">Legal Name:</strong> WINPROFX Limited</li>
+                            <li><strong className="text-white">Trading Name:</strong> WINPROFX</li>
                             <li><strong className="text-white">Primary Website:</strong>{' '}
                                 <a href="https://winprofx.org" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">winprofx.org</a>
                             </li>
@@ -282,7 +282,7 @@ export default function AboutUs() {
                     <div className="max-w-285 mx-auto flex flex-wrap justify-between">
                         <CommonTitle
                             className="max-w-full xl:max-w-135 mx-auto xl:mx-0 text-center xl:text-start"
-                            title="The WinproFX Standard"
+                            title="The WINPROFX Standard"
                             des="A foundation built on transparency, innovation, and uncompromising execution."
                             desClass="max-w-100"
                         />
@@ -356,7 +356,7 @@ export default function AboutUs() {
                     <CommonTitle
                         className="text-center"
                         title="Your Guide to Seamless Trading"
-                        des="Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WinproFX is smooth and successful."
+                        des="Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WINPROFX is smooth and successful."
                         desClass="max-w-154 mx-auto"
                     />
                     <Accordion

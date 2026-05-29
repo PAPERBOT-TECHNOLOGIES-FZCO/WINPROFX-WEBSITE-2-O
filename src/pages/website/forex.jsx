@@ -14,7 +14,7 @@ export default function Forex() {
         {
             title: 'DISCOVER HOW TO TRADE',
             body: `
-                <p>Download our Education app to learn how to trade on WinproFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
+                <p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
                 <p>A Brief Summary of Recent News and Opinions</p>
                 <p>Volatility Forecast Based on Technical Analysis</p>
                 <p>Brief overview of major currency pairs based on the provided fundamental</p>
@@ -30,7 +30,7 @@ export default function Forex() {
         {
             title: 'HOW TO TRADE FOREX?',
             body: `
-                <p>First, find a reputed Forex broker, such as WinproFX, open an account, deposit funds, analyse the market trend, choose your preferred trading instrument, and finally take your position to earn a profit.</p>
+                <p>First, find a reputed Forex broker, such as WINPROFX, open an account, deposit funds, analyse the market trend, choose your preferred trading instrument, and finally take your position to earn a profit.</p>
             `,
         },
     ]

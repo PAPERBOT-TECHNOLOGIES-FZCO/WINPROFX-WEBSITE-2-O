@@ -18,7 +18,7 @@ export default function Crypto() {
         {
             title: 'DISCOVER HOW TO TRADE',
             body: `
-                <p>Download our Education app to learn how to trade on WinproFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
+                <p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
                 <p>A Brief Summary of Recent News and Opinions</p>
                 <p>Volatility Forecast Based on Technical Analysis</p>
                 <p>Brief overview of major currency pairs based on the provided fundamental</p>
@@ -42,9 +42,9 @@ export default function Crypto() {
     return (
         <>
             <SeoHead
-                title="Best Crypto Trading Platform in India | WinproFX"
-                description="Explore the best crypto trading app and platform in India with WinproFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your cryptocurrency trading experience."
-                keywords="Best Crypto Trading App in India, WinProFX Crypto Trading Platform, Free Funded Accounts, Crypto Brokers in India, Cryptocurrency Trading India, Low Spreads Crypto Trading, User-Friendly Crypto Trading App"
+                title="Best Crypto Trading Platform in India | WINPROFX"
+                description="Explore the best crypto trading app and platform in India with WINPROFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your cryptocurrency trading experience."
+                keywords="Best Crypto Trading App in India, WINPROFX Crypto Trading Platform, Free Funded Accounts, Crypto Brokers in India, Cryptocurrency Trading India, Low Spreads Crypto Trading, User-Friendly Crypto Trading App"
                 canonicalPath="/crypto"
             />
             <div className="h-screen xl:h-235 2xl:h-300 pt-25 md:pt-0 4xl:min-h-screen pb-13 md:pb-12 xl:pb-25 flex flex-col w-full relative">

@@ -20,7 +20,7 @@ import about_video from '@/assets/img/currency-converter/video.webm'
 
 export default function CurrencyConverter() {
     const card_info = {
-        title: 'Using the WinproFX Currency Converter',
+        title: 'Using the WINPROFX Currency Converter',
         des: 'Our currency converter assists you in swiftly and accurately converting one currency to another with real-time rates. This tool is essential when making deposits and withdrawals on your trading account.',
         list: [
             {
@@ -56,13 +56,13 @@ export default function CurrencyConverter() {
         {
             title: 'Are the exchange rates updated in real-time?',
             body: `
-                <p>Yes, the exchange rates used by the WinProFX Currency Converter are updated in real-time to ensure accuracy.</p>
+                <p>Yes, the exchange rates used by the WINPROFX Currency Converter are updated in real-time to ensure accuracy.</p>
             `,
         },
         {
-            title: 'Can I use the currency converter without a WinProFX account?',
+            title: 'Can I use the currency converter without a WINPROFX account?',
             body: `
-                <p>No, you need to have a registered WinProFX account to access and use the currency converter tool.</p>
+                <p>No, you need to have a registered WINPROFX account to access and use the currency converter tool.</p>
             `,
         },
         {
@@ -76,9 +76,9 @@ export default function CurrencyConverter() {
     return (
         <>
             <SeoHead
-                title="Currency Converter | WinproFX"
-                description="Convert currencies quickly with WinproFX's accurate, real-time currency converter. Effortlessly calculate exchange rates for all currencies. Click to use now!"
-                keywords="Currency Converter, Forex Converter, Exchange Rate Calculator, Real-time Currency, WinproFX Converter"
+                title="Currency Converter | WINPROFX"
+                description="Convert currencies quickly with WINPROFX's accurate, real-time currency converter. Effortlessly calculate exchange rates for all currencies. Click to use now!"
+                keywords="Currency Converter, Forex Converter, Exchange Rate Calculator, Real-time Currency, WINPROFX Converter"
                 canonicalPath="/currency-converter"
             />
             <style jsx global>

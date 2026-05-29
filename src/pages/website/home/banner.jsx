@@ -111,7 +111,7 @@ export default function Banner() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col gap-y-3 lg:max-w-120 w-full">
-                        <p className='text-para2'>WinproFX is a globally reputed broker offering tightest spreads, lightning fast withdrawals, 300+ tradable instruments with nanosecond execution on your finger tips.</p>
+                        <p className='text-para2'>WINPROFX is a globally reputed broker offering tightest spreads, lightning fast withdrawals, 300+ tradable instruments with nanosecond execution on your finger tips.</p>
                         <Button animation={false} className="mt-3 lg:mt-5" />
                     </motion.div>
                 </div>

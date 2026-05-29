@@ -73,7 +73,6 @@ export function buildOrganizationSchema() {
     '@id': ORG_ID,
     name: 'WINPROFX',
     legalName: 'Winprofx Ltd.',
-    alternateName: ['WinproFX', 'WinProFX'],
     url: `${BASE_URL}/`,
     logo: LOGO_URL,
     description: BRAND_DESCRIPTION,
@@ -104,7 +103,6 @@ export function buildWebsiteSchema() {
     '@id': WEBSITE_ID,
     url: `${BASE_URL}/`,
     name: 'WINPROFX',
-    alternateName: ['WinproFX', 'WinProFX'],
     publisher: { '@id': ORG_ID },
     inLanguage: 'en',
   }

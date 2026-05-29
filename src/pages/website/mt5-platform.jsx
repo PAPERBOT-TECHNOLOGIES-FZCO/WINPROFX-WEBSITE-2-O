@@ -20,14 +20,14 @@ const platformCardsData = [
     id: 1,
     meta: "TRADING PLATFORM",
     title: "Download MT 5 For Mobile",
-    description: "WinproFX has remained highly successful to expand their business all over the world, and now we are MT 5 is now available on Android and iPhone, and you are one step closer to success. Download MT 5 now and dive into the world of limitless trading opportunities.",
+    description: "WINPROFX has remained highly successful to expand their business all over the world, and now we are MT 5 is now available on Android and iPhone, and you are one step closer to success. Download MT 5 now and dive into the world of limitless trading opportunities.",
     img: imgApp,
   },
   {
     id: 2,
     meta: "TRADING PLATFORM",
     title: "DOWNLOAD MT5 FOR DESKTOP",
-    description: "Experience the power of MT5 on your desktop. Access advanced charting tools, automated trading capabilities, and real-time market data. WinproFX provides a seamless web-based trading platform for professional traders looking for advanced features and flexibility.",
+    description: "Experience the power of MT5 on your desktop. Access advanced charting tools, automated trading capabilities, and real-time market data. WINPROFX provides a seamless web-based trading platform for professional traders looking for advanced features and flexibility.",
     img: imgWeb,
   },
 ];
@@ -51,7 +51,7 @@ export default function Mt5Platform() {
         title="Trading Platform"
         des={
           <>
-            WinproFX has achieved significant success in global business
+            WINPROFX has achieved significant success in global business
             expansion. We offer the Best Forex Trading Platform on MT5,
             accessible on both Android and iPhone, bringing you one step
             closer to success. Take the plunge into a realm of endless trading

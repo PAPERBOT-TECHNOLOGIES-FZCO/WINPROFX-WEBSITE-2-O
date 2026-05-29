@@ -39,9 +39,9 @@ export default function Benefits() {
         <section className='common-padding'>
             <Container>
                 <div className='grid grid-cols-1 lg:grid-cols-2 text-center lg:text-start gap-1 md:gap-0 lg:gap-30 mb-8 lg:mb-16'>
-                    <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-155 mx-auto lg:mx-0 mb-4 lg:mb-6 leading-tight'>Benefits Of Becoming Introducing Broker With WinproFX:</h2>
+                    <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-155 mx-auto lg:mx-0 mb-4 lg:mb-6 leading-tight'>Benefits Of Becoming Introducing Broker With WINPROFX:</h2>
                     <div className='text-sm lg:text-base text-para2 space-y-3 font-inter leading-normal'>
-                        <p>Unlock a world of advantages by becoming an Introducing Broker with WinproFX. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards.</p>
+                        <p>Unlock a world of advantages by becoming an Introducing Broker with WINPROFX. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards.</p>
                         <p>Join us in reshaping the future of trading partnerships with the Best Broker Trading Platform.</p>
                     </div>
                 </div>

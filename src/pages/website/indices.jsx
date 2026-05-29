@@ -15,7 +15,7 @@ export default function Indices() {
         {
             title: 'DISCOVER HOW TO TRADE',
             body: `
-                <p>Download our Education app to learn how to trade on WinproFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
+                <p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
                 <p>A Brief Summary of Recent News and Opinions</p>
                 <p>Volatility Forecast Based on Technical Analysis</p>
                 <p>Brief overview of major currency pairs based on the provided fundamental</p>
@@ -38,9 +38,9 @@ export default function Indices() {
     return (
         <>
             <SeoHead
-                title="Best Indices Trading Platform in India | WinproFX"
-                description="Explore the best indices trading app and platform in India with WinproFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your trading experience."
-                keywords="Best Indices Trading App in India, WinProFX Indices Trading Platform, Free Funded Accounts, Indices Brokers in India, Indices Trading India, Low Spreads Indices Trading, User-Friendly Indices Trading App"
+                title="Best Indices Trading Platform in India | WINPROFX"
+                description="Explore the best indices trading app and platform in India with WINPROFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your trading experience."
+                keywords="Best Indices Trading App in India, WINPROFX Indices Trading Platform, Free Funded Accounts, Indices Brokers in India, Indices Trading India, Low Spreads Indices Trading, User-Friendly Indices Trading App"
                 canonicalPath="/indices"
             />
             <CommonBanner

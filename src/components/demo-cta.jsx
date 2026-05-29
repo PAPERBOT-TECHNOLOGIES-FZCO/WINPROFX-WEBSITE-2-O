@@ -20,7 +20,7 @@ export default function DemoCta() {
         alt=""
       />
       <div className="max-w-167 flex flex-col">
-        <h3 className="text-xl lg:text-2xl xl:text-[38px] mb-2.5 md:mb-3">Embark on Mastery: Unleash Your Skills with the WinproFX Demo Experience!</h3>
+        <h3 className="text-xl lg:text-2xl xl:text-[38px] mb-2.5 md:mb-3">Embark on Mastery: Unleash Your Skills with the WINPROFX Demo Experience!</h3>
         <p className="mb-4 md:mb-6">Embark on your trading journey with a complimentary 21-day MT5 demo account. Unveil the power of our award-winning Best Forex Trading Strategies Platform risk-free – register now and explore the art of precision trading.</p>
         <Button text="Try MT5 Platform Demo" />
       </div>

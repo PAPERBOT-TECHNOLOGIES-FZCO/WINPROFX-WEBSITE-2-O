@@ -13,7 +13,7 @@ export default function RiskDisclosure() {
             title: null,
             des: [
                 {
-                    name: `WinproFX (a trading name of Winpro), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license, and is regulated to provide financial services.`
+                    name: `WINPROFX is associated with Winprofx Ltd. Clients should review the Regulatory Information page for current company and compliance details.`,
                 }
             ],
         },
@@ -53,7 +53,7 @@ export default function RiskDisclosure() {
                     title: 'CFD Trading May Not be Appropriate for You',
                     des: [
                         {
-                            name: `Before you are able to open an account to trade a CFD or spread bet product, WinproFX will evaluate whether the product(s) and/ or services you have chosen are appropriate for you, and to warn you if, on the basis of the information you provide to us, any product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or services.`
+                            name: `Before you are able to open an account to trade a CFD or spread bet product, WINPROFX will evaluate whether the product(s) and/ or services you have chosen are appropriate for you, and to warn you if, on the basis of the information you provide to us, any product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or services.`
                         },
                         {
                             name: `During our application process, our assessment process may include a questionnaire that focuses on previous experience and knowledge around the product and the risks involved in trading complex instruments. It is up to you to assess whether your financial resources are adequate for your financial activity with us and your risk appetite in the products and services you use.`
@@ -199,7 +199,7 @@ export default function RiskDisclosure() {
                     title: 'Tax Risk',
                     des: [
                         {
-                            name: `You take the risk that your trades and any related profits may be or become subject to tax. We do not represent or warrant that no tax or stamp duty (other than trading duty) will be payable. You will be responsible for all taxes and stamp duty in respect of your trades. WinproFX does not provide any tax advice to clients, and you are responsible for your own tax affairs.`,
+                            name: `You take the risk that your trades and any related profits may be or become subject to tax. We do not represent or warrant that no tax or stamp duty (other than trading duty) will be payable. You will be responsible for all taxes and stamp duty in respect of your trades. WINPROFX does not provide any tax advice to clients, and you are responsible for your own tax affairs.`,
                         },
                     ]
                 },
@@ -215,13 +215,13 @@ export default function RiskDisclosure() {
                     title: 'System Failure',
                     des: [
                         {
-                            name: `Operational risks with WinproFX on your device are inherent in every CFD transaction. Disruptions in WinproFX’s operational processes such as phone systems, IT systems, networks or external events may lead to delays in the execution and settlement of a transaction.`,
+                            name: `Operational risks with WINPROFX on your device are inherent in every CFD transaction. Disruptions in WINPROFX’s operational processes such as phone systems, IT systems, networks or external events may lead to delays in the execution and settlement of a transaction.`,
                         },
                         {
                             name: `The functions that enable you to access our Platform via mobile applications are not identical to the functions available to you when accessing our Platform via a desktop computer. This may limit the information that you are able to see at any time and adversely affect your ability to take quick and reliable actions on our Platform and to limit the related risks.`,
                         },
                         {
-                            name: `WinproFX accepts or bears any liability whatsoever in relation to the operational processes of WinproFX, except to the extent that it is caused by the fraud or dishonesty by WinproFX.`,
+                            name: `WINPROFX accepts or bears any liability whatsoever in relation to the operational processes of WINPROFX, except to the extent that it is caused by the fraud or dishonesty by WINPROFX.`,
                         },
                         {
                             name: `For more information you can contact us at support <strong>support@winprofx.com</strong>`,
@@ -234,8 +234,8 @@ export default function RiskDisclosure() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Risk Disclosure | WinproFX"
-                description="Explore the risks of Forex trading with WinproFX's detailed risk disclosure. Understand market volatility and learn key safety measures. Click to read more!"
+                title="Risk Disclosure | WINPROFX"
+                description="Explore the risks of Forex trading with WINPROFX's detailed risk disclosure. Understand market volatility and learn key safety measures. Click to read more!"
                 canonicalPath="/risk-disclosure"
             />
             <TopShape />

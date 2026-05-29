@@ -125,10 +125,10 @@ export default function Calculate() {
                     <div className='mb-5 lg:mb-10'>
                         <div className='flex flex-wrap lg:flex-nowrap gap-3 lg:gap-8 '>
                             <h2 className='grow text-xl md:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
-                                Become a WinproFX Partner & Start Earning Today
+                                Become a WINPROFX Partner & Start Earning Today
                             </h2>
                             <p className='grow w-full max-w-106 text-para2 leading-normal text-sm! md:text-base'>
-                                Embark on a lucrative journey by becoming a WinproFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.
+                                Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.
                             </p>
                         </div>
                     </div>

@@ -169,7 +169,7 @@ export default function Footer() {
           className="grid grid-cols-2 md:flex flex-wrap justify-between gap-x-6 lg:gap-x-8 xl:gap-x-0 2xl:gap-x-10 gap-y-6 mt-6 md:mt-9 lg:mt-12">
           <div className="flex flex-col gap-y-4 text-center xl:text-start xl:max-w-60 w-full mb-2 md:mb-8 xl:mb-0 col-span-2">
             <Logo className='h-14 mx-auto xl:mx-0' />
-            <p>One platform. Multiple markets. Endless trading opportunities with WinproFX.</p>
+            <p>One platform. Multiple markets. Endless trading opportunities with WINPROFX.</p>
           </div>
 
           {footer_items.map((item, idx) => (
@@ -273,7 +273,7 @@ export default function Footer() {
 
           <div className="flex flex-col gap-y-3 border-t border-white/10 pt-6">
             <strong className='text-xl font-semibold leading-tight text-white'>Restricted Regions</strong>
-            <p className='text-sm md:text-base leading-normal text-para'>WinproFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar,India, North Korea, Sudan. The services of WinproFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+            <p className='text-sm md:text-base leading-normal text-para'>WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar,India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
           </div>
         </motion.div>
 
@@ -289,7 +289,7 @@ export default function Footer() {
         </motion.div>
 
         <div className="py-4 md:py-6 flex items-center justify-center text-center border-t border-solid border-white/10 mt-4 md:mt-6">
-          <p>© {new Date().getFullYear()} All Rights Reserved By WinProFX</p>
+          <p>© {new Date().getFullYear()} All Rights Reserved By WINPROFX</p>
         </div>
       </Container>
     </div>

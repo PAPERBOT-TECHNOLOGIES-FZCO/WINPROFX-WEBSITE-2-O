@@ -14,7 +14,7 @@ export default function Metals() {
         {
             title: 'WHY TRADE METAL WITH WINPROFX',
             body: `
-                <p>WinproFX a rich track record spanning more than 16 years. We have delivered our traders great opportunities and unparalleled trading experience. This positions us as one of the leading brokers when it comes to metals trading. So, if you’re looking to trade in Gold, there are many reasons to choose WinproFX: Thousands of happy and satisfied traders</p>                
+                <p>WINPROFX a rich track record spanning more than 16 years. We have delivered our traders great opportunities and unparalleled trading experience. This positions us as one of the leading brokers when it comes to metals trading. So, if you’re looking to trade in Gold, there are many reasons to choose WINPROFX: Thousands of happy and satisfied traders</p>                
                 <p>Round-the-clock support available
                    Super-fast withdrawal and executionl
                 Rich analytics to make informed decisions</p>
@@ -24,7 +24,7 @@ export default function Metals() {
         {
             title: 'STEP UP YOUR COMMODITIES TRADING GAME',
             body: `
-                <p>Gold is the most actively traded metal. Based on the law of supply and demand, its price is determined by the 24/7 market. Other factors like the value of the US dollar, industrial demand, as well as inflation also influence its price. If you’re looking to trade metals, get started on the right track with WinproFX and stride confidently to become a seasoned trader. </p>
+                <p>Gold is the most actively traded metal. Based on the law of supply and demand, its price is determined by the 24/7 market. Other factors like the value of the US dollar, industrial demand, as well as inflation also influence its price. If you’re looking to trade metals, get started on the right track with WINPROFX and stride confidently to become a seasoned trader. </p>
                 
             `,
         },
@@ -40,9 +40,9 @@ export default function Metals() {
     return (
         <>
             <SeoHead
-                title="Best Metals Trading Platform in India | WinproFX"
-                description="Explore the best metals trading app and platform in India with WinproFX. Trade gold, silver, and more with free funded accounts, low spreads, and advanced tools."
-                keywords="Best Metals Trading App in India, WinProFX Metals Trading Platform, Free Funded Accounts, Metals Brokers in India, Metals Trading India, Low Spreads Metals Trading, Gold and Silver Trading India, User-Friendly Metals Trading App"
+                title="Best Metals Trading Platform in India | WINPROFX"
+                description="Explore the best metals trading app and platform in India with WINPROFX. Trade gold, silver, and more with free funded accounts, low spreads, and advanced tools."
+                keywords="Best Metals Trading App in India, WINPROFX Metals Trading Platform, Free Funded Accounts, Metals Brokers in India, Metals Trading India, Low Spreads Metals Trading, Gold and Silver Trading India, User-Friendly Metals Trading App"
                 canonicalPath="/trading/metals"
             />
             <CommonBanner
@@ -53,7 +53,7 @@ export default function Metals() {
                 des={
                     <>
                         Spot Metal Trading holds a special place in the heart of every trader. Metals have attracted traders all over the world since ancient times and continue to do so today.
-                        <span className='block mt-3'>WinproFX Trader offers the lowest ever spreads in various metals based on your core interest and preference. Explore our Best Precious Metals Trading Platform for optimal trading experiences.</span>
+                        <span className='block mt-3'>WINPROFX Trader offers the lowest ever spreads in various metals based on your core interest and preference. Explore our Best Precious Metals Trading Platform for optimal trading experiences.</span>
                     </>
                 }
             />

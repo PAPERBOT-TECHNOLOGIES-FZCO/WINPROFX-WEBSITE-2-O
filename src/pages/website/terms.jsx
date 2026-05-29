@@ -13,10 +13,10 @@ export default function Terms() {
             title: 'Acceptance of Terms',
             des: [
                 {
-                    name: 'By accessing or using any services or products offered by WinproFX.com (hereinafter referred to as "WinproFX"), you agree to be bound by the terms and conditions outlined in this Trading Platform Agreement. If you do not agree with any part of these terms, please refrain from accessing or using WinproFX services and products.',
+                    name: 'By accessing or using any services or products offered by WINPROFX.com (hereinafter referred to as "WINPROFX"), you agree to be bound by the terms and conditions outlined in this Trading Platform Agreement. If you do not agree with any part of these terms, please refrain from accessing or using WINPROFX services and products.',
                 },
                 {
-                    name: 'This Trading Platform Agreement applies to all users and customers of WinproFX, including both guests and registered users. By accessing or using our platform, you signify your acceptance of this agreement.',
+                    name: 'This Trading Platform Agreement applies to all users and customers of WINPROFX, including both guests and registered users. By accessing or using our platform, you signify your acceptance of this agreement.',
                 },
             ],
         },
@@ -24,10 +24,10 @@ export default function Terms() {
             title: 'Binding Agreement',
             des: [
                 {
-                    name: 'By agreeing to this Trading Platform Agreement, you are entering into a legally binding contract with WinproFX.',
+                    name: 'By agreeing to this Trading Platform Agreement, you are entering into a legally binding contract with WINPROFX.',
                 },
                 {
-                    name: 'You acknowledge and agree that your use of WinproFX services and products constitutes acceptance of this Trading Platform Agreement and any other applicable WinproFX contractual documentation, including but not limited to the General Terms and Conditions.',
+                    name: 'You acknowledge and agree that your use of WINPROFX services and products constitutes acceptance of this Trading Platform Agreement and any other applicable WINPROFX contractual documentation, including but not limited to the General Terms and Conditions.',
                 },
             ],
         },
@@ -35,10 +35,10 @@ export default function Terms() {
             title: 'Age Requirement',
             des: [
                 {
-                    name: 'You must be at least eighteen (18) years old or the legal age for entering into legally binding contracts under applicable laws to use WinproFX services and products. By continuing to access or use our platform, you affirm that you meet this age requirement.',
+                    name: 'You must be at least eighteen (18) years old or the legal age for entering into legally binding contracts under applicable laws to use WINPROFX services and products. By continuing to access or use our platform, you affirm that you meet this age requirement.',
                 },
                 {
-                    name: 'Misrepresentation of your age to gain access to WinproFX services and products is strictly prohibited and constitutes a breach of this Trading Platform Agreement.',
+                    name: 'Misrepresentation of your age to gain access to WINPROFX services and products is strictly prohibited and constitutes a breach of this Trading Platform Agreement.',
                 },
             ],
         },
@@ -46,10 +46,10 @@ export default function Terms() {
             title: 'Termination of Agreement',
             des: [
                 {
-                    name: 'WinproFX reserves the right to terminate this Trading Platform Agreement and deny access to its services and products to any user who violates the terms outlined herein.',
+                    name: 'WINPROFX reserves the right to terminate this Trading Platform Agreement and deny access to its services and products to any user who violates the terms outlined herein.',
                 },
                 {
-                    name: 'In the event of termination, you must cease all use of WinproFX services and products immediately.',
+                    name: 'In the event of termination, you must cease all use of WINPROFX services and products immediately.',
                 },
             ],
         },
@@ -57,10 +57,10 @@ export default function Terms() {
             title: 'Modifications to Agreement',
             des: [
                 {
-                    name: 'WinproFX reserves the right to modify or update this Trading Platform Agreement at any time without prior notice. It is your responsibility to review this agreement periodically for changes.',
+                    name: 'WINPROFX reserves the right to modify or update this Trading Platform Agreement at any time without prior notice. It is your responsibility to review this agreement periodically for changes.',
                 },
                 {
-                    name: 'Your continued use of WinproFX services and products after any modifications to this Agreement constitutes acceptance of those changes.',
+                    name: 'Your continued use of WINPROFX services and products after any modifications to this Agreement constitutes acceptance of those changes.',
                 },
             ],
         },
@@ -68,7 +68,7 @@ export default function Terms() {
             title: 'Contact Information',
             des: [
                 {
-                    name: 'If you have any questions or concerns about this Trading Platform Agreement or WinproFX services and products, please contact <br> us at:  <strong>support@winprofx.com</strong>',
+                    name: 'If you have any questions or concerns about this Trading Platform Agreement or WINPROFX services and products, please contact <br> us at:  <strong>support@winprofx.com</strong>',
                 },
             ],
         },

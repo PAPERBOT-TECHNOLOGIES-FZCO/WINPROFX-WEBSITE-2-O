@@ -41,9 +41,9 @@ export default function Oil() {
     return (
         <>
             <SeoHead
-                title="Best Oil Trading Platform in India | WinproFX"
-                description="Discover the best oil trading app and platform in India with WinproFX. Trade crude oil with free funded accounts, low spreads, and advanced tools to enhance your trading success."
-                keywords="Best Oil Trading App in India, WinProFX Oil Trading Platform, Free Funded Accounts, Oil Brokers in India, Oil Trading India, Low Spreads Oil Trading, Crude Oil Trading India, User-Friendly Oil Trading App"
+                title="Best Oil Trading Platform in India | WINPROFX"
+                description="Discover the best oil trading app and platform in India with WINPROFX. Trade crude oil with free funded accounts, low spreads, and advanced tools to enhance your trading success."
+                keywords="Best Oil Trading App in India, WINPROFX Oil Trading Platform, Free Funded Accounts, Oil Brokers in India, Oil Trading India, Low Spreads Oil Trading, Crude Oil Trading India, User-Friendly Oil Trading App"
                 canonicalPath="/trading/oil"
             />
             <div className="relative z-1 min-h-screen overflow-hidden flex items-center pt-0 md:pt-40 lg:pt-40 xl:pt-50">

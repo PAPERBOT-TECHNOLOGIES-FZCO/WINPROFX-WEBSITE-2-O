@@ -57,7 +57,7 @@ export default function HowItWorks() {
         </svg>
       ),
       title: "Register",
-      desc: "Open a live account with WinproFX. New clients can opt in from their very first deposit.",
+      desc: "Open a live account with WINPROFX. New clients can opt in from their very first deposit.",
       number: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

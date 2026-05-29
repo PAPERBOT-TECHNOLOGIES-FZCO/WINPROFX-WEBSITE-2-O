@@ -118,9 +118,9 @@ export default function EconomicCalendar() {
             `,
         },
         {
-            title: "Where can I find the Forex Economic Calendar on the WinProFX platform?",
+            title: "Where can I find the Forex Economic Calendar on the WINPROFX platform?",
             body: `
-                <p>The Economic Calendar is accessible in your Personal Area on the WinProFX website or through the WinProFX Trade app.</p>
+                <p>The Economic Calendar is accessible in your Personal Area on the WINPROFX website or through the WINPROFX Trade app.</p>
             `,
         },
         {
@@ -146,9 +146,9 @@ export default function EconomicCalendar() {
     return (
         <>
             <SeoHead
-                title="Economic Calendar | WinproFX"
-                description="Stay updated with WinproFX's Economic Calendar. Track major market events like GDP announcements & interest rate changes to enhance your trading strategy."
-                keywords="Economic Calendar, Forex Events, Market Events, Interest Rate Decisions, GDP Announcements, Trading Calendar, WinproFX Calendar"
+                title="Economic Calendar | WINPROFX"
+                description="Stay updated with WINPROFX's Economic Calendar. Track major market events like GDP announcements & interest rate changes to enhance your trading strategy."
+                keywords="Economic Calendar, Forex Events, Market Events, Interest Rate Decisions, GDP Announcements, Trading Calendar, WINPROFX Calendar"
                 canonicalPath="/economic-calendar"
             />
             <div className="padding-top-245 overflow-hidden min-h-140 md:min-h-180 lg:min-h-190 xl:min-h-230 2xl:min-h-283 3xl:min-h-screen bg-black relative z-1">

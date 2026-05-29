@@ -71,7 +71,7 @@ export default function About() {
                         <div className="mb-auto">
                             <MetaText title="ABOUT WINPROFX" className="mb-4 md:mb-5 lg:mb-6" />
                             <h5 className='text-xl md:text-2xl lg:text-[28px] leading-tight font-normal text-para/60'>
-                                <strong className='font-normal text-white'>At WinproFX, we offer a secure </strong> online trading platform, fostering sustainability through expertise, market knowledge, and trusted partnerships.
+                                <strong className='font-normal text-white'>At WINPROFX, we offer a secure </strong> online trading platform, fostering sustainability through expertise, market knowledge, and trusted partnerships.
                             </h5>
                         </div>
                         <div className="flex flex-col gap-y-5 lg:gap-y-6 mt-6">

@@ -39,7 +39,7 @@ export default function CurrencyCalculator() {
     {
       title: "Is a Forex Currency Calculator free to use?",
       body: `
-                <p>Yes, a Forex Currency Calculator on WinProFX is free for all users.</p>
+                <p>Yes, a Forex Currency Calculator on WINPROFX is free for all users.</p>
             `,
     },
     {
@@ -67,9 +67,9 @@ export default function CurrencyCalculator() {
             `,
     },
     {
-      title: "Where can I find the Forex Currency Calculator on WinProFX?",
+      title: "Where can I find the Forex Currency Calculator on WINPROFX?",
       body: `
-                <p>You can access the Forex Currency Calculator in the tools section of your Personal Area on the WinProFX website.</p>
+                <p>You can access the Forex Currency Calculator in the tools section of your Personal Area on the WINPROFX website.</p>
             `,
     },
     {
@@ -83,9 +83,9 @@ export default function CurrencyCalculator() {
   return (
     <>
       <SeoHead
-        title="Currency Calculator | WinproFX"
-        description="Streamline your trading calculations with WinproFX's currency calculator. Efficiently manage trades and understand costs like margin and pip values. Calculate now!"
-        keywords="Currency Calculator, Forex Calculator, Pip Calculator, Margin Calculator, Trading Calculator, WinproFX Tools"
+        title="Currency Calculator | WINPROFX"
+        description="Streamline your trading calculations with WINPROFX's currency calculator. Efficiently manage trades and understand costs like margin and pip values. Calculate now!"
+        keywords="Currency Calculator, Forex Calculator, Pip Calculator, Margin Calculator, Trading Calculator, WINPROFX Tools"
         canonicalPath="/currency-calculator"
       />
       <style jsx global>{`

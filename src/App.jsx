@@ -44,7 +44,7 @@ import OfficialDomains from './pages/website/official-domains'
 import About from './pages/website/about'
 import RiskWarning from './pages/website/risk-warning'
 import LegalDocuments from './pages/website/legal-documents'
-import VerifyWinprofx from './pages/website/verify-winprofx'
+import VerifyWINPROFX from './pages/website/verify-winprofx'
 import CompanyRegistration from './pages/website/company-registration'
 import LegalEntityInformation from './pages/website/legal-entity-information'
 import RegulatoryInformation from './pages/website/regulatory-information'
@@ -196,7 +196,7 @@ export default function App() {
         },
         {
           path: '/verify-winprofx',
-          element: <VerifyWinprofx />
+          element: <VerifyWINPROFX />
         },
       ]
     },

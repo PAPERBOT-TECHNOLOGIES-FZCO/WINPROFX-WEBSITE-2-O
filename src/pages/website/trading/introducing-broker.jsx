@@ -21,7 +21,7 @@ export default function WinPromotion2() {
                 className="3xl:min-h-300!"
                 bg={banner_bg}
                 bgClass="bottom-0 left-0 w-full h-auto object-cover"
-                meta="WinproFX Exclusive · March - May 2026"
+                meta="WINPROFX Exclusive · March - May 2026"
                 title="Introducing Broker Program"
                 des={
                     <>

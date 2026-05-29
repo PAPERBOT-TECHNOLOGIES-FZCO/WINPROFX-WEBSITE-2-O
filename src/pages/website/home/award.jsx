@@ -36,8 +36,8 @@ export default function Award() {
             <Container>
                 <CommonTitle
                     className="max-w-150 lg:max-w-165 text-center mx-auto"
-                    title="WinproFX Broker with Award-Winning Excellence"
-                    des="The global forex industry has acknowledged WinproFX's achievements, honoring us with top accolades for our exceptional products and services."
+                    title="WINPROFX Broker with Award-Winning Excellence"
+                    des="The global forex industry has acknowledged WINPROFX's achievements, honoring us with top accolades for our exceptional products and services."
                 />
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     {items.map((item, idx) => (

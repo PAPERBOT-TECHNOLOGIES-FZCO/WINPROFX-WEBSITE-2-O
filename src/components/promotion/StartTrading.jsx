@@ -42,7 +42,7 @@ export default function StartTrading() {
           className="max-w-160 mb-12 text-center mx-auto"
           subTitle="Get Started"
           subTitleClass="rounded-full border border-white/20 bg-white/5 px-4 py-1 mb-4 inline-block uppercase text-xs"
-          title="Start Trading with WinproFX!"
+          title="Start Trading with WINPROFX!"
           des="Every lot you trade brings you closer to an exclusive prize. Open your live account today and opt in to the Trade to Win program."
           desClass="max-w-150"
         />

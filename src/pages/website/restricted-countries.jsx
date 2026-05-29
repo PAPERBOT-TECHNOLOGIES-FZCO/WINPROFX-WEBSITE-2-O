@@ -10,7 +10,7 @@ import SeoHead from '@/components/seo-head'
 export default function RestrictedCountries() {
     const info = [
         {
-            title: 'WinproFX Limited does not provide any services to the following Country :',
+            title: 'WINPROFX Limited does not provide any services to the following Country :',
             des: [
                 {
                     name: 'EU Member countries',
@@ -66,8 +66,8 @@ export default function RestrictedCountries() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Restricted Countries | WinproFX"
-                description="View the list of countries restricted from trading on WinproFX due to regulatory and legal constraints. Click for full details!"
+                title="Restricted Countries | WINPROFX"
+                description="View the list of countries restricted from trading on WINPROFX due to regulatory and legal constraints. Click for full details!"
                 canonicalPath="/restricted-countries"
             />
             <TopShape />

@@ -32,7 +32,7 @@ export default function Home() {
             des={
               <>
                 <p>
-                  WinproFX has remained highly successful to expand their business
+                  WINPROFX has remained highly successful to expand their business
                   all over the world, and now we are MT 5 is now available on
                   Android and iPhone, and you are one step closer to success.
                   Download MT 5 now and dive into the world of limitless trading

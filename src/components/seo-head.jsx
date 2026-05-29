@@ -101,7 +101,7 @@ export default function SeoHead({
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@WinproFX" />
+      <meta name="twitter:site" content="@WINPROFX" />
       <meta name="twitter:title" content={title} />
       {description && <meta name="twitter:description" content={description} />}
       <meta name="twitter:image" content={ogImage} />

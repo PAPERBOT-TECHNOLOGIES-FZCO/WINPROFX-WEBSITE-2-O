@@ -52,14 +52,14 @@ export default function Blog() {
         {
             img: img_2,
             date: '06 - 21 - 2026',
-            title: 'Best Indices Trading App, Platform in India: WinProFX',
+            title: 'Best Indices Trading App, Platform in India: WINPROFX',
             des: 'When it comes to trading indices in India, having the right platform can significantly impact your success.',
             category: ['indices', '', '']
         },
         {
             img: img_3,
             date: '06 - 21 - 2026',
-            title: 'Best Forex Trading App, Platform in India: WinProFX',
+            title: 'Best Forex Trading App, Platform in India: WINPROFX',
             des: 'In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success.',
             category: ['forex', '', '']
         },
@@ -67,7 +67,7 @@ export default function Blog() {
         {
             img: img_4,
             date: '06 - 21 - 2026',
-            title: 'Best Crypto Trading App, Platform in India: WinProFX',
+            title: 'Best Crypto Trading App, Platform in India: WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
@@ -81,14 +81,14 @@ export default function Blog() {
         {
             img: img_6,
             date: '06 - 21 - 2026',
-            title: 'Best Metals Trading App, Platform in India: WinProFX',
+            title: 'Best Metals Trading App, Platform in India: WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
         {
             img: img_4,
             date: '06 - 21 - 2026',
-            title: 'Best Crypto Trading App, Platform in India: WinProFX',
+            title: 'Best Crypto Trading App, Platform in India: WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
@@ -102,7 +102,7 @@ export default function Blog() {
         {
             img: img_6,
             date: '06 - 21 - 2026',
-            title: 'Best Metals Trading App, Platform in India: WinProFX',
+            title: 'Best Metals Trading App, Platform in India: WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
@@ -114,9 +114,9 @@ export default function Blog() {
     return (
         <div className='padding-top-245 -mt-4 md:mt-0 common-padding'>
             <SeoHead
-                title="Blog | News & Insights | WinproFX"
-                description="Stay informed with the latest financial news on WinproFX. Our blog offers timely updates and expert analysis on forex, crypto, metals, and more."
-                keywords="Forex Blog, Trading News, Market Insights, WinproFX Blog, Forex Analysis, Crypto News, Trading Tips"
+                title="Blog | News & Insights | WINPROFX"
+                description="Stay informed with the latest financial news on WINPROFX. Our blog offers timely updates and expert analysis on forex, crypto, metals, and more."
+                keywords="Forex Blog, Trading News, Market Insights, WINPROFX Blog, Forex Analysis, Crypto News, Trading Tips"
                 canonicalPath="/blog"
             />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />

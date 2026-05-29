@@ -28,7 +28,7 @@ const rewards = [
 ]
 
 const howItWorks = [
-  { step: '01', title: 'Register & Opt In', body: 'Sign up with WinproFX and opt into the Trade to Win program from your first deposit.', icon: '✍️' },
+  { step: '01', title: 'Register & Opt In', body: 'Sign up with WINPROFX and opt into the Trade to Win program from your first deposit.', icon: '✍️' },
   { step: '02', title: 'Choose Your Tier', body: "Select the reward tier you're aiming for — from a Power Bank all the way to the latest iPhone.", icon: '🎯' },
   { step: '03', title: 'Trade Within 30 Days', body: 'Hit your target trading volume within 30 days. Eligible trades must be held for at least 3 minutes.', icon: '📊' },
   { step: '04', title: 'Claim Your Prize', body: 'Once you reach your volume goal, your reward is confirmed and dispatched to you.', icon: '🏆' },
@@ -46,7 +46,7 @@ const programDetails = [
 const terms = [
   { title: 'Fair Play', body: 'Any signs of market abuse — including latency arbitrage or manipulative techniques — will result in immediate disqualification.' },
   { title: 'Eligibility Limitations', body: 'Only self-directed individual accounts can participate. Managed accounts or IB-referred accounts are not eligible.' },
-  { title: 'Liability Disclaimer', body: "WinproFX is not responsible for any trading losses. This program does not alter participants' risk profiles or investment strategies." },
+  { title: 'Liability Disclaimer', body: "WINPROFX is not responsible for any trading losses. This program does not alter participants' risk profiles or investment strategies." },
   { title: 'Dispute Resolution', body: 'Any issues not directly addressed in these terms will be resolved by management in a fair and binding manner.' },
 ]
 
@@ -303,7 +303,7 @@ function CtaSection() {
             Every trade brings you closer to <span className="text-primary">exclusive prizes</span>
           </h2>
           <p className="text-para text-sm lg:text-base leading-normal mb-8 max-w-md mx-auto">
-            Claim your rewards by trading with WinproFX.
+            Claim your rewards by trading with WINPROFX.
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Button delay="0.3" to="https://my.winprofx.org/register" text="Start Trading Now" />
@@ -320,16 +320,16 @@ export default function TradeToWin() {
   return (
     <>
       <SeoHead
-        title="Trade to Win | Exclusive Apple Rewards | WinproFX"
+        title="Trade to Win | Exclusive Apple Rewards | WINPROFX"
         description="Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. Power Bank, AirPods, Apple Watch, iPad, and iPhone up for grabs."
-        keywords="Trade to Win, WinproFX Rewards, Apple Prizes, Forex Trading Rewards, Trading Promotion"
+        keywords="Trade to Win, WINPROFX Rewards, Apple Prizes, Forex Trading Rewards, Trading Promotion"
         canonicalPath="/trading/trade-to-win"
       />
       <TopShape />
       <CommonBanner
         className="3xl:min-h-300!"
         bg={banner_bg}
-        meta="WinproFX Exclusive · March – May 2026"
+        meta="WINPROFX Exclusive · March – May 2026"
         title="Trade to Win Program"
         des="Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. The more you trade, the greater the prize."
         desClass="max-w-135 mx-auto"

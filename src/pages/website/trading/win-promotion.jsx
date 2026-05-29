@@ -16,16 +16,16 @@ export default function WinPromotion() {
     return (
         <>
             <SeoHead
-                title="Win Promotion | Trade to Win | WinproFX"
-                description="Join WinproFX's exclusive Win Promotion. Trade more, earn more rewards with our tiered reward program designed for active traders."
-                keywords="WinproFX Promotion, Trade to Win, Forex Trading Rewards, Trading Bonuses, WinproFX Incentives"
+                title="Win Promotion | Trade to Win | WINPROFX"
+                description="Join WINPROFX's exclusive Win Promotion. Trade more, earn more rewards with our tiered reward program designed for active traders."
+                keywords="WINPROFX Promotion, Trade to Win, Forex Trading Rewards, Trading Bonuses, WINPROFX Incentives"
                 canonicalPath="/trading/win-promotion"
             />
             <TopShape />
             <CommonBanner
                 className="3xl:min-h-300!"
                 bg={banner_bg}
-                meta="WinproFX Exclusive · March - May 2026"
+                meta="WINPROFX Exclusive · March - May 2026"
                 title="Trade to Win Program"
                 des={
                     <>

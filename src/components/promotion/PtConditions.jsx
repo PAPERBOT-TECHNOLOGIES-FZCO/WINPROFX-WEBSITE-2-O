@@ -157,7 +157,7 @@ export default function PtConditions() {
         </svg>
       ),
       title: "Liability Disclaimer",
-      desc: "WinproFX will not be held responsible for any trading losses incurred. This program does not alter participants' risk profiles or investment strategies.",
+      desc: "WINPROFX will not be held responsible for any trading losses incurred. This program does not alter participants' risk profiles or investment strategies.",
     },
     {
       id: (
@@ -208,7 +208,7 @@ export default function PtConditions() {
         </svg>
       ),
       title: "General Terms",
-      desc: "WinproFX reserves the right to amend or terminate this program at any time. All existing terms and conditions of WinproFX apply in addition to these program-specific conditions.",
+      desc: "WINPROFX reserves the right to amend or terminate this program at any time. All existing terms and conditions of WINPROFX apply in addition to these program-specific conditions.",
     },
   ];
   return (

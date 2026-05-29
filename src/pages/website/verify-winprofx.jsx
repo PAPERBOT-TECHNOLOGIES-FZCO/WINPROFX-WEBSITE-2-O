@@ -18,7 +18,7 @@ const relatedLinks = [
   { path: '/risk-warning', label: 'Risk Warning' },
 ]
 
-export default function VerifyWinprofx() {
+export default function VerifyWINPROFX() {
   return (
     <div className="padding-top-245">
       <SeoHead

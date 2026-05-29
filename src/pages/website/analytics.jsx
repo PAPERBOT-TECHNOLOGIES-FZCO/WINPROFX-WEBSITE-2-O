@@ -25,13 +25,13 @@ export default function Analytics() {
         {
             meta: 'Event Tracker',
             title: 'Track Key Economic Events with Economic Calendar',
-            des: 'Stay updated on crucial economic events and data releases to enhance your trading strategy on WinProFX.',
+            des: 'Stay updated on crucial economic events and data releases to enhance your trading strategy on WINPROFX.',
             img: b_img_1,
         },
         {
             meta: 'Market News',
-            title: 'Real-Time Market News from WinproFX',
-            des: 'Stay up to date with market news and the most recent updates from the FXStreet News team in real time. Use the WinProFX Trade app or your WinProFX Personal Area to gain access to this useful data.',
+            title: 'Real-Time Market News from WINPROFX',
+            des: 'Stay up to date with market news and the most recent updates from the FXStreet News team in real time. Use the WINPROFX Trade app or your WINPROFX Personal Area to gain access to this useful data.',
             img: b_img_2,
         },
     ]
@@ -47,22 +47,22 @@ export default function Analytics() {
         {
             title: 'What tools on our website are best for analyzing trading patterns?',
             body: `
-                <p>WinProFX provides a combination of fundamental and technical analysis tools to help you predict price movements and analyze trading patterns. Tools are free to use and easily accessible, allowing you to plan your trades confidently and effectively.</p>
+                <p>WINPROFX provides a combination of fundamental and technical analysis tools to help you predict price movements and analyze trading patterns. Tools are free to use and easily accessible, allowing you to plan your trades confidently and effectively.</p>
             `,
         },
         {
-            title: 'Where can I access free trading signals on the WinproFX website?',
+            title: 'Where can I access free trading signals on the WINPROFX website?',
             body: `
-                <p>You can access free trading signals from Trading Central in your Personal Area and the WinProFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades.</p>
+                <p>You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades.</p>
             `,
         },
     ]
     return (
         <>
             <SeoHead
-                title="Analytical Tools | WinproFX"
-                description="Optimize your trading with WinproFX's analytical tools. Use real-time news, economic calendars, & essential signals from Trading Central. Enhance your strategy now!"
-                keywords="Analytical Tools, Trading Tools, Forex Analysis, Economic Calendar, Trading Signals, WinproFX Tools, Market Analysis"
+                title="Analytical Tools | WINPROFX"
+                description="Optimize your trading with WINPROFX's analytical tools. Use real-time news, economic calendars, & essential signals from Trading Central. Enhance your strategy now!"
+                keywords="Analytical Tools, Trading Tools, Forex Analysis, Economic Calendar, Trading Signals, WINPROFX Tools, Market Analysis"
                 canonicalPath="/analytics"
             />
             <TopShape />
@@ -121,7 +121,7 @@ export default function Analytics() {
                             <div className="xl:max-w-145 w-full">
                                 <MetaText title="Smart Signals" className="mb-2.5 md:mb-4 lg:mb-5 hidden! md:inline-block!" />
                                 <h4 className='xl:max-w-80 text-3xl md:text-4xl lg:text-5xl leading-tight mb-3 line-clamp-2'>Strategic Trading Signals</h4>
-                                <p className={`text-para leading-normal`}>Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WinproFX Trade app or your WinproFX Personal Area.</p>
+                                <p className={`text-para leading-normal`}>Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.</p>
                             </div>
                         </motion.div>
                     </div>

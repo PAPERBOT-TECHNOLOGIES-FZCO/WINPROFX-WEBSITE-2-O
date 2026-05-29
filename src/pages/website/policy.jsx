@@ -10,13 +10,13 @@ import SeoHead from '@/components/seo-head'
 export default function Policy() {
     const info = [
         {
-            title: 'Privacy Policy Of WinproFX',
+            title: 'Privacy Policy Of WINPROFX',
             des: [
                 {
-                    name: `It is the stated policy of WinproFX Limited (hereafter referred to as “WinproFX”, “Winpro”, ‘us’, ‘we’ and ‘our’) that Winpro will act in accordance with current best practice with regard to the processing of personal data.`,
+                    name: `It is the stated policy of WINPROFX (hereafter referred to as “WINPROFX”, ‘us’, ‘we’ and ‘our’) that WINPROFX will act in accordance with current best practice with regard to the processing of personal data.`,
                 },
                 {
-                    name: `Your privacy is very important to us and we make it our priority to safeguard and secure any and all confidential information relating to individuals. Winpro understands the importance of maintaining the privacy of your personal information. Winpro as a company would like to assure you of our commitment to keeping it private`
+                    name: `Your privacy is very important to us and we make it our priority to safeguard and secure any and all confidential information relating to individuals. WINPROFX understands the importance of maintaining the privacy of your personal information. WINPROFX as a company would like to assure you of our commitment to keeping it private`
                 }
             ],
         },
@@ -24,7 +24,7 @@ export default function Policy() {
             title: 'Privacy Protection',
             des: [
                 {
-                    name: `WinproFX has appointed a Data Protection Officer to ensure that our Company manages/processes your personal information in compliance with the applicable data protection laws and regulations and in accordance with this Privacy Policy.`,
+                    name: `WINPROFX has appointed a Data Protection Officer to ensure that our Company manages/processes your personal information in compliance with the applicable data protection laws and regulations and in accordance with this Privacy Policy.`,
 
                 },
                 {
@@ -41,7 +41,7 @@ export default function Policy() {
             title: 'Personal Information We Collect',
             des: [
                 {
-                    name: `If you decide to apply to open an account with WinproFX Limited, there is certain information that we will require from you in order to do so. Winpro obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing customer service. Winpro may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.`,
+                    name: `If you decide to apply to open an account with WINPROFX Limited, there is certain information that we will require from you in order to do so. WINPROFX obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing customer service. WINPROFX may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.`,
 
                 },
             ],
@@ -84,7 +84,7 @@ export default function Policy() {
                                 `Risk management`,
                                 `Measures to manage business and for further developing and services`,
                                 `Measures to ensure IT and system security, preventing potential crime, asset security, admittance controls and anti-trespassing measures`,
-                                `Sharing your personal data within WINPRO for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework.`,
+                                `Sharing your personal data within WINPROFX for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework.`,
                             ]
                         },
                     ],
@@ -181,7 +181,7 @@ export default function Policy() {
                 {
                     name: `As part of using your personal data for the purposes set out above, the Company may disclose your personal information to the following:`,
                     ul: [
-                        `Any companies under WINPRO, meaning any of our ultimate holding companies and their respective subsidiaries may receive such information;`,
+                        `Any companies under WINPROFX, meaning any of our ultimate holding companies and their respective subsidiaries may receive such information;`,
                         `Our associates and service providers, for business purposes, including third parties such as business service providers and specialist advisers who have been contracted to provide us with administrative, financial, legal, tax, compliance, insurance, research or other services;`,
                         `Business introducers with whom we have a mutual business relationship;`,
                         `Business parties, credit providers, courts, tribunals and regulatory authorities as agreed or authorized by law;`,
@@ -197,10 +197,10 @@ export default function Policy() {
             title: 'Transfers Outside of the European Economic Area',
             des: [
                 {
-                    name: `We may transfer your personal information outside the European Economic Area (EEA) to other WINPRO companies as well as service providers (i.e. processors) who are engaged on our behalf. To the extent we transfer your information outside the EEA, we will ensure that the transfer is lawful and that processors in third countries are obliged to comply with the European data protection laws or other countries’ laws which are comparable and to provide appropriate safeguards in relation to the transfer of your data in accordance with GDPR Article 46.`,
+                    name: `We may transfer your personal information outside the European Economic Area (EEA) to other WINPROFX companies as well as service providers (i.e. processors) who are engaged on our behalf. To the extent we transfer your information outside the EEA, we will ensure that the transfer is lawful and that processors in third countries are obliged to comply with the European data protection laws or other countries’ laws which are comparable and to provide appropriate safeguards in relation to the transfer of your data in accordance with GDPR Article 46.`,
                 },
                 {
-                    name: `By submitting your personal data, you consent to your personal information being processed by staff of WINPRO operating outside the EEA who work for us. Such staff may be, among others, engaged in the fulfilment of your requests, the processing of your payment details and the provision of support services. The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy`
+                    name: `By submitting your personal data, you consent to your personal information being processed by staff of WINPROFX operating outside the EEA who work for us. Such staff may be, among others, engaged in the fulfilment of your requests, the processing of your payment details and the provision of support services. The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy`
                 },
             ],
         },
@@ -341,7 +341,7 @@ export default function Policy() {
             ],
         },
         {
-            title: 'WINPRO Card Acceptance',
+            title: 'WINPROFX Card Acceptance',
             des: [
                 {
                     name: `All credit/debit cards details and personally identifiable information will NOT be stored sold, shared, rented or leased to any third parties`
