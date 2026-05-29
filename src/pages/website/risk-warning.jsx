@@ -7,20 +7,24 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
+import { RISK_WARNING_FULL } from '@/lib/company-registration'
 
 export default function RiskWarning() {
   return (
     <div className="padding-top-245">
       <SeoHead
         title="Risk Warning | WINPROFX"
-        description="Important risk warning for users trading forex, CFDs, and related financial products through WINPROFX."
+        description="Important risk warning for users trading forex, CFDs, and related financial products through WINPROFX websites and portals."
         canonicalPath="/risk-warning"
-        pageName="Risk Warning"
       />
       <TopShape />
       <PolicyTitle as="h1" meta="Important Notice" title="Risk Warning" />
       <Container>
         <Card>
+          <IdentitySection>
+            <p>{RISK_WARNING_FULL}</p>
+          </IdentitySection>
+
           <IdentitySection title="General Risk">
             <p>
               Trading forex and CFDs involves significant risk and may not be suitable for all investors.

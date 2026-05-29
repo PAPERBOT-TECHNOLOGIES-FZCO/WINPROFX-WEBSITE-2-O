@@ -6,38 +6,13 @@ import PolicyTitle from '@/components/policy/policy-title'
 import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
+import RegistrationTable from '@/components/company-identity/registration-table'
 import SeoHead from '@/components/seo-head'
-
-const officialDomains = [
-  {
-    url: 'https://winprofx.org/',
-    purpose: 'Main official WINPROFX website',
-    external: false,
-  },
-  {
-    url: 'https://winprofx.com/',
-    purpose: 'Official alternate / marketing domain',
-    external: true,
-  },
-  {
-    url: 'https://winprofx.ae/',
-    purpose: 'Official UAE/regional domain',
-    external: true,
-  },
-  {
-    url: 'https://my.winprofx.org/',
-    purpose: 'Official client portal',
-    external: true,
-  },
-  {
-    url: 'https://partner.winprofx.org/',
-    purpose: 'Official partner / IB portal',
-    external: true,
-  },
-]
+import { officialDomainsWithLabels, verifyLegalEntityRows } from '@/lib/company-registration'
 
 const relatedLinks = [
   { path: '/company-profile', label: 'Company Profile' },
+  { path: '/company-registration', label: 'Company Registration' },
   { path: '/official-domains', label: 'Official Domains' },
   { path: '/contact', label: 'Contact' },
   { path: '/risk-warning', label: 'Risk Warning' },
@@ -47,10 +22,9 @@ export default function VerifyWinprofx() {
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Verify WINPROFX Official Websites and Portals"
-        description="Verify official WINPROFX domains, including winprofx.org, winprofx.com, winprofx.ae, client portal, and partner portal."
+        title="Verify WINPROFX | Official Websites and Portals"
+        description="Verify official WINPROFX websites and portals before logging in, registering, depositing funds, or sharing personal information."
         canonicalPath="/verify-winprofx"
-        pageName="Verify WINPROFX Official Websites and Portals"
       />
       <TopShape />
       <PolicyTitle as="h1" meta="Official Verification" title="Verify WINPROFX" />
@@ -63,7 +37,11 @@ export default function VerifyWinprofx() {
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Official Domains">
+          <IdentitySection title="Verify Legal Entity">
+            <RegistrationTable rows={verifyLegalEntityRows} />
+          </IdentitySection>
+
+          <IdentitySection title="Verify Official Domains">
             <div className="overflow-x-auto -mx-1 px-1">
               <table className="w-full min-w-[520px] text-sm md:text-base border-collapse">
                 <thead>
@@ -77,7 +55,7 @@ export default function VerifyWinprofx() {
                   </tr>
                 </thead>
                 <tbody>
-                  {officialDomains.map((row) => (
+                  {officialDomainsWithLabels.map((row) => (
                     <tr key={row.url} className="border-b border-white/8 last:border-0">
                       <td className="py-3 pr-4 align-top">
                         <a
@@ -90,12 +68,16 @@ export default function VerifyWinprofx() {
                           {row.url}
                         </a>
                       </td>
-                      <td className="py-3 align-top text-para">{row.purpose}</td>
+                      <td className="py-3 align-top text-para">{row.label}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
+            <p className="mt-4">
+              Always confirm that the browser address exactly matches one of the official domains listed
+              above.
+            </p>
           </IdentitySection>
 
           <IdentitySection title="Safety Note">

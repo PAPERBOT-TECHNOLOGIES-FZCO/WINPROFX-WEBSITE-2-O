@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import { Container } from '@/components/grid'
 import PolicyTitle from '@/components/policy/policy-title'
 import SeoHead from '@/components/seo-head'
+import { parseBlogDateToIso } from '@/lib/schema-org'
 
 import img_1 from '@/assets/img/blog/1.png'
 import shape from '@/assets/img/blog/shape.png'
 
 export default function BlogDetails() {
     const single_blog = {
+        id: '1',
+        date: '06 - 21 - 2026',
         title: 'Best Forex, Indices, Crypto, Metals, commodities & Oil Trading Platform in India : WinproFX',
         img: img_1,
         des: 'Forex trading can be a highly rewarding venture, but it often requires a significant amount of capital to get started. However, with WinproFX, you can begin trading with a free funded Forex account without deposit, giving you the chance to trade in real markets without risking your own money. This opportunity allows traders to build confidence, develop strategies, and test their skills in a live trading environment.',
@@ -36,7 +39,12 @@ export default function BlogDetails() {
             <SeoHead
                 title={single_blog.title + ' | WinproFX'}
                 description={single_blog.des}
-                canonicalPath={`/blog/${single_blog.id || ''}`}
+                canonicalPath={`/blog/${single_blog.id}`}
+                blogPosting={{
+                    headline: single_blog.title,
+                    description: single_blog.des,
+                    datePublished: parseBlogDateToIso(single_blog.date),
+                }}
             />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>

@@ -21,7 +21,7 @@ export default function About() {
     <div className="padding-top-245">
       <SeoHead
         title="About WINPROFX | Official Company Information"
-        description="Learn about WINPROFX, its trading-related services, official websites, client portal, partner portal, and risk warning."
+        description="Learn about WINPROFX, its forex and CFD trading-related services, official websites, client portal, partner portal, and risk warning."
         canonicalPath="/about"
         pageName="About WINPROFX"
       />

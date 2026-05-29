@@ -107,8 +107,8 @@ export default function AmlPolicy() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="AML Policy | WinproFX"
-                description="Understand WinPro FX's Anti-Money Laundering (AML) Policy to ensure compliance with financial regulations. Learn about our robust procedures. Click for details!"
+                title="AML Policy | WINPROFX"
+                description="Read the WINPROFX AML Policy covering anti-money laundering, verification, compliance, and related policy information."
                 canonicalPath="/aml-policy"
             />
             <TopShape />

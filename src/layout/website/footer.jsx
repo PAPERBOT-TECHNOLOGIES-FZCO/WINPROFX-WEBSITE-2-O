@@ -36,7 +36,11 @@ export default function Footer() {
 
   const important_links = [
     { name: 'Company Profile', path: '/company-profile' },
+    { name: 'Company Registration', path: '/company-registration' },
+    { name: 'Legal Entity Information', path: '/legal-entity-information' },
+    { name: 'Regulatory Information', path: '/regulatory-information' },
     { name: 'Official Domains', path: '/official-domains' },
+    { name: 'Verify WINPROFX', path: '/verify-winprofx' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
     { name: 'Risk Warning', path: '/risk-warning' },

@@ -45,6 +45,9 @@ import About from './pages/website/about'
 import RiskWarning from './pages/website/risk-warning'
 import LegalDocuments from './pages/website/legal-documents'
 import VerifyWinprofx from './pages/website/verify-winprofx'
+import CompanyRegistration from './pages/website/company-registration'
+import LegalEntityInformation from './pages/website/legal-entity-information'
+import RegulatoryInformation from './pages/website/regulatory-information'
 
 
 export default function App() {
@@ -170,6 +173,18 @@ export default function App() {
         {
           path: '/company-profile',
           element: <CompanyProfile />
+        },
+        {
+          path: '/company-registration',
+          element: <CompanyRegistration />
+        },
+        {
+          path: '/legal-entity-information',
+          element: <LegalEntityInformation />
+        },
+        {
+          path: '/regulatory-information',
+          element: <RegulatoryInformation />
         },
         {
           path: '/official-domains',

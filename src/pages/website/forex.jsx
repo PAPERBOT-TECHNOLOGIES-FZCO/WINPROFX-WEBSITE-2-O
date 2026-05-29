@@ -38,9 +38,9 @@ export default function Forex() {
     return (
         <>
             <SeoHead
-                title="Best Forex Trading Platform for Beginners & Experts | WinproFX"
-                description="Explore the dynamic world of Forex trading with WinproFX. Trade 24/5 in the world's largest financial market. Start your forex journey today."
-                keywords="Forex Trading Platform, Best Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WinProFX Forex Services"
+                title="Forex Trading | WINPROFX"
+                description="Explore forex market information and trading-related services at WINPROFX, including platform access, account options, and important risk details."
+                keywords="Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WINPROFX Forex Services"
                 canonicalPath="/forex"
             />
             <CommonBanner

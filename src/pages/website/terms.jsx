@@ -76,8 +76,8 @@ export default function Terms() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Terms & Conditions | WinproFX"
-                description="Familiarize yourself with WinproFX's Terms and Conditions to ensure a clear understanding of the guidelines governing your trading activities. Click to read more!"
+                title="Terms and Conditions | WINPROFX"
+                description="Read the WINPROFX Terms and Conditions for information about website usage, client responsibilities, trading-related services, and important legal terms."
                 canonicalPath="/terms"
             />
             <TopShape />

@@ -11,9 +11,9 @@ export default function WinPromotion2() {
     return (
         <div>
             <SeoHead
-                title="Introducing Broker Program | WinproFX"
-                description="Join WinproFX's Introducing Broker program. Earn competitive commissions by referring clients to the world's leading forex broker. Apply today!"
-                keywords="Introducing Broker, IB Program, Forex IB, WinproFX IB, Broker Referral Program, Forex Commission, IB Partnership"
+                title="Partner Program | WINPROFX"
+                description="Learn about the WINPROFX partner program, introducing broker tools, partner portal access, and related support services."
+                keywords="Introducing Broker, IB Program, Forex IB, WINPROFX IB, Broker Referral Program, Forex Commission, IB Partnership"
                 canonicalPath="/introducing-broker"
             />
             <TopShape />

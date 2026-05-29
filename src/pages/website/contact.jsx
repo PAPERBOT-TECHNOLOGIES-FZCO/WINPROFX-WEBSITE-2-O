@@ -52,7 +52,7 @@ export default function Contact() {
     <div className="padding-top-245">
       <SeoHead
         title="Contact WINPROFX | Official Support and Portal Links"
-        description="Contact WINPROFX through official support channels and verify the official website, client portal, and partner portal links."
+        description="Contact WINPROFX through official support channels and verify the official website, client portal, partner portal, and regional domains."
         canonicalPath="/contact"
         pageName="Contact WINPROFX"
       />

@@ -1,11 +1,14 @@
 import { Helmet } from 'react-helmet-async'
 import {
   BASE_URL,
+  buildBlogPostingSchema,
   buildBreadcrumbSchema,
+  buildFaqPageSchema,
   buildOrganizationSchema,
   buildWebPageSchema,
   buildWebsiteSchema,
   getPageSchemaConfig,
+  getPageSchemaExtensions,
 } from '@/lib/schema-org'
 
 const OG_IMAGE = 'https://imagedelivery.net/bvUtc88WWoZg5mZsB7f2Zw/da80fbb4-439b-42f9-f7fa-31931de6e500/public'
@@ -20,32 +23,52 @@ const GA_ID = 'G-NL5S7T60GX'
  * @param {string} [props.pageName] - Short name for WebPage schema (defaults to title)
  * @param {string} [props.ogImage] - Override OG image URL
  * @param {string} [props.robots] - Robots meta override (default: "index, follow")
+ * @param {string} [props.dateModified] - ISO date for WebPage schema dateModified
+ * @param {{ question: string, answer: string }[]} [props.faqItems] - FAQ items for FAQPage schema
+ * @param {{ headline: string, description?: string, datePublished?: string, dateModified?: string, image?: string }} [props.blogPosting] - BlogPosting schema data
  */
 export default function SeoHead({
   title,
   description,
   keywords,
   canonicalPath = '',
-  pageName,
   ogImage = OG_IMAGE,
   robots = 'index, follow',
+  dateModified,
+  faqItems,
+  blogPosting,
 }) {
   const canonical = `${BASE_URL}${canonicalPath}`
-  const webPageName = pageName ?? title
   const pageConfig = getPageSchemaConfig(canonicalPath)
+  const pageExtensions = getPageSchemaExtensions(canonicalPath)
 
   const organizationSchema = buildOrganizationSchema()
   const websiteSchema = buildWebsiteSchema()
   const webPageSchema = buildWebPageSchema({
     canonical,
-    name: webPageName,
+    name: title,
     description,
+    dateModified,
+    mainEntity: pageExtensions?.mainEntity,
   })
+
+  const faqPageSchema = faqItems?.length ? buildFaqPageSchema(faqItems) : null
 
   const breadcrumbSchema =
     pageConfig?.breadcrumb != null
       ? buildBreadcrumbSchema(pageConfig.breadcrumb, canonicalPath)
       : null
+
+  const blogPostingSchema = blogPosting
+    ? buildBlogPostingSchema({
+        headline: blogPosting.headline,
+        description: blogPosting.description ?? description,
+        url: canonical,
+        datePublished: blogPosting.datePublished,
+        dateModified: blogPosting.dateModified,
+        image: blogPosting.image ?? ogImage,
+      })
+    : null
 
   return (
     <Helmet>
@@ -93,6 +116,12 @@ export default function SeoHead({
       <script type="application/ld+json">{JSON.stringify(webPageSchema)}</script>
       {breadcrumbSchema && (
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      )}
+      {faqPageSchema && (
+        <script type="application/ld+json">{JSON.stringify(faqPageSchema)}</script>
+      )}
+      {blogPostingSchema && (
+        <script type="application/ld+json">{JSON.stringify(blogPostingSchema)}</script>
       )}
 
       {/* Google Analytics */}

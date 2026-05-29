@@ -37,9 +37,9 @@ export default function Mt5Platform() {
   return (
     <>
       <SeoHead
-        title="Best Forex Trading Platform | MT5 | Top Forex Brokers | WinproFX"
-        description="Experience advanced trading with WinproFX's MT5 platform, available on both mobile and web. Click to explore more!"
-        keywords="Forex Trading Platform, WinProFX Trading Platform, Best Forex Platform, MT5 Trading Platform, Forex Trading Tools, CFD Trading Platform, Commodities Trading Platform, Online Trading Solutions, Advanced Trading Platform, Forex Market Tools"
+        title="Trading Platform | WINPROFX"
+        description="Learn about WINPROFX trading platform access, client tools, account services, and trading-related support features."
+        keywords="Forex Trading Platform, WINPROFX Trading Platform, MT5 Trading Platform, Forex Trading Tools, CFD Trading Platform, Commodities Trading Platform, Online Trading Solutions, Advanced Trading Platform, Forex Market Tools"
         canonicalPath="/platform"
       />
       <TopShape />

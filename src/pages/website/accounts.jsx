@@ -14,9 +14,9 @@ export default function Accounts() {
   return (
     <>
       <SeoHead
-        title="Best Online Forex Trading Account Types | WinproFX"
-        description="Discover tailored trading accounts at WinproFX to suit your needs. Choose from Standard, Pro, or ECN accounts. Explore Now!"
-        keywords="Forex Trading Accounts, Standard Account, Pro Account, ECN Account, WinproFX Account Types, Best Forex Account, Online Trading Account"
+        title="Trading Accounts | WINPROFX"
+        description="Explore WINPROFX trading account information, account access options, platform-related services, and important risk details."
+        keywords="Forex Trading Accounts, Standard Account, Pro Account, ECN Account, WINPROFX Account Types, Online Trading Account"
         canonicalPath="/accounts"
       />
       <TopShape />

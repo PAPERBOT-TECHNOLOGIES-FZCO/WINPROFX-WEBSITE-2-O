@@ -3,12 +3,19 @@ import { Link, useLocation } from 'react-router-dom'
 
 const identityLinks = [
   { path: '/company-profile', label: 'Company Profile' },
+  { path: '/company-registration', label: 'Company Registration' },
+  { path: '/legal-entity-information', label: 'Legal Entity Information' },
+  { path: '/regulatory-information', label: 'Regulatory Information' },
   { path: '/official-domains', label: 'Official Domains' },
   { path: '/verify-winprofx', label: 'Verify WINPROFX' },
   { path: '/about', label: 'About' },
   { path: '/contact', label: 'Contact' },
   { path: '/risk-warning', label: 'Risk Warning' },
   { path: '/legal-documents', label: 'Legal Documents' },
+  { path: '/terms', label: 'Terms and Conditions' },
+  { path: '/policy', label: 'Privacy Policy' },
+  { path: '/aml-policy', label: 'AML Policy' },
+  { path: '/restricted-countries', label: 'Restricted Countries' },
 ]
 
 export default function IdentityNav() {

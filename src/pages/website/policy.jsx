@@ -361,8 +361,8 @@ export default function Policy() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Privacy Policy | WinproFX"
-                description="Learn about WinproFX's commitment to protecting your personal information. Click for details on how we safeguard your privacy!"
+                title="Privacy Policy | WINPROFX"
+                description="Read the WINPROFX Privacy Policy to understand how information is collected, used, protected, and managed across WINPROFX websites and portals."
                 canonicalPath="/policy"
             />
             <TopShape />

@@ -7,40 +7,15 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
-
-const officialEntries = [
-  {
-    url: 'https://winprofx.org/',
-    label: 'Main official WINPROFX website',
-  },
-  {
-    url: 'https://winprofx.com/',
-    label: 'Official alternate / marketing domain',
-  },
-  {
-    url: 'https://winprofx.ae/',
-    label: 'Official UAE/regional domain',
-  },
-  {
-    url: 'https://my.winprofx.org/',
-    label: 'Official client portal',
-    external: true,
-  },
-  {
-    url: 'https://partner.winprofx.org/',
-    label: 'Official partner / IB portal',
-    external: true,
-  },
-]
+import { officialDomainsWithLabels } from '@/lib/company-registration'
 
 export default function OfficialDomains() {
   return (
     <div className="padding-top-245">
       <SeoHead
         title="Official WINPROFX Domains | Verify WINPROFX Websites"
-        description="Verify the official WINPROFX domains, including winprofx.org, winprofx.com, winprofx.ae, client portal, and partner portal links."
+        description="Verify official WINPROFX domains, including winprofx.org, winprofx.com, winprofx.ae, the client portal, and the partner portal."
         canonicalPath="/official-domains"
-        pageName="Official WINPROFX Domains"
       />
       <TopShape />
       <PolicyTitle as="h1" meta="Official Information" title="Official WINPROFX Domains" />
@@ -61,12 +36,12 @@ export default function OfficialDomains() {
             </p>
           </IdentitySection>
 
-          <IdentitySection>
+          <IdentitySection title="Official Domains">
             <p className="mb-4">
-              The following domains and subdomains are officially operated by WINPROFX:
+              The following official domains are operated in connection with WINPROFX / Winprofx Ltd.:
             </p>
             <ul className="flex flex-col gap-4">
-              {officialEntries.map((entry) => (
+              {officialDomainsWithLabels.map((entry) => (
                 <li key={entry.url}>
                   <a
                     href={entry.url}
@@ -81,10 +56,10 @@ export default function OfficialDomains() {
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Security Warning">
+          <IdentitySection title="Verification Warning">
             <p>
-              If a website claims to represent WINPROFX but is not listed here, please verify it with
-              WINPROFX support before logging in, depositing funds, or sharing personal information.
+              If a website claims to represent WINPROFX but is not listed here, verify it with WINPROFX
+              support before logging in, depositing funds, or sharing personal information.
             </p>
             <p className="mt-4">
               Contact{' '}
@@ -105,7 +80,11 @@ export default function OfficialDomains() {
               <Link to="/company-profile" className="text-white underline hover:text-primary">
                 Company Profile
               </Link>{' '}
-              page.
+              and{' '}
+              <Link to="/company-registration" className="text-white underline hover:text-primary">
+                Company Registration
+              </Link>{' '}
+              pages.
             </p>
           </IdentitySection>
 
