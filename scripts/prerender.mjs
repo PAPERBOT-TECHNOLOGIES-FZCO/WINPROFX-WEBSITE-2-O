@@ -13,6 +13,8 @@ const PREVIEW_HOST = '127.0.0.1'
 const PREVIEW_PORT = 4173
 const PREVIEW_URL = `http://${PREVIEW_HOST}:${PREVIEW_PORT}`
 
+const VITE_BIN = path.join(ROOT, 'node_modules', 'vite', 'bin', 'vite.js')
+
 function httpGet(url) {
   return new Promise((resolve, reject) => {
     const req = http.get(url, (res) => {
@@ -30,14 +32,14 @@ function httpGet(url) {
   })
 }
 
-async function waitForServer(url, timeoutMs = 90000) {
+async function waitForServer(url, timeoutMs = 120000) {
   const start = Date.now()
   while (Date.now() - start < timeoutMs) {
     try {
       await httpGet(url)
       return
     } catch {
-      await new Promise((r) => setTimeout(r, 400))
+      await new Promise((r) => setTimeout(r, 250))
     }
   }
   throw new Error(`Preview server did not respond at ${url} within ${timeoutMs}ms`)
@@ -45,23 +47,19 @@ async function waitForServer(url, timeoutMs = 90000) {
 
 function startPreview() {
   return new Promise((resolve, reject) => {
-    const child = spawn(
-      process.platform === 'win32' ? 'npx.cmd' : 'npx',
-      [
-        'vite',
-        'preview',
-        '--port',
-        String(PREVIEW_PORT),
-        '--strictPort',
-        '--host',
-        PREVIEW_HOST,
-      ],
-      {
-        cwd: ROOT,
-        stdio: ['ignore', 'pipe', 'pipe'],
-        env: process.env,
-      },
-    )
+    const child = spawn(process.execPath, [
+      VITE_BIN,
+      'preview',
+      '--port',
+      String(PREVIEW_PORT),
+      '--strictPort',
+      '--host',
+      PREVIEW_HOST,
+    ], {
+      cwd: ROOT,
+      stdio: ['ignore', 'pipe', 'pipe'],
+      env: { ...process.env, FORCE_COLOR: '0' },
+    })
 
     let settled = false
     const finish = (err, proc) => {
@@ -73,14 +71,19 @@ function startPreview() {
     }
 
     const startupTimer = setTimeout(() => {
-      finish(new Error('Preview process did not log ready within 90s'))
-    }, 90000)
+      finish(new Error(`Preview server did not respond at ${PREVIEW_URL} within 120s`))
+    }, 120000)
 
+    let outputBuffer = ''
     const onOutput = (chunk) => {
       const text = chunk.toString()
       process.stdout.write(text)
-      if (/Local:\s+http/i.test(text) || new RegExp(`${PREVIEW_HOST}:${PREVIEW_PORT}`).test(text)) {
-        finish(null, child)
+      outputBuffer += text
+      if (
+        outputBuffer.includes(`${PREVIEW_HOST}:${PREVIEW_PORT}`) ||
+        /Local:\s+http/i.test(outputBuffer)
+      ) {
+        // Log line seen; HTTP poll below confirms the server is accepting connections.
       }
     }
 
@@ -96,6 +99,10 @@ function startPreview() {
         finish(new Error(`Preview process exited with code ${code}`))
       }
     })
+
+    waitForServer(`${PREVIEW_URL}/`, 120000)
+      .then(() => finish(null, child))
+      .catch((err) => finish(err))
   })
 }
 
@@ -136,7 +143,6 @@ async function waitForRoute(page, route) {
     { timeout: 15000 },
   )
 
-  // Allow react-helmet-async to flush head tags.
   await new Promise((r) => setTimeout(r, 300))
 }
 
@@ -150,7 +156,6 @@ async function main() {
   const preview = await startPreview()
 
   try {
-    await waitForServer(`${PREVIEW_URL}/`)
     const browser = await chromium.launch({ headless: true })
 
     for (const route of PRERENDER_ROUTES) {
