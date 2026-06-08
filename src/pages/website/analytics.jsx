@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import Accordion from '@/components/accordion'
 import CommonTitle from '@/components/common-title';
@@ -12,6 +13,7 @@ import PlatformCard from '../../components/mt5/platform-card';
 import PaymentFlow from '../../components/payment-flow';
 import DemoCta from '../../components/demo-cta';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 import banner_bg from '@/assets/img/analytics/banner-bg.png'
 import b_img_1 from '@/assets/img/home/news/b-4.png'
@@ -21,7 +23,8 @@ import MetaText from '../../components/meta-text';
 
 export default function Analytics() {
 
-    const news_blog = [
+    const seo = useSeo('analytics')
+  const news_blog = [
         {
             meta: 'Event Tracker',
             title: 'Track Key Economic Events with Economic Calendar',
@@ -60,11 +63,9 @@ export default function Analytics() {
     return (
         <>
             <SeoHead
-                title="Analytical Tools | WINPROFX"
-                description="Optimize your trading with WINPROFX's analytical tools. Use real-time news, economic calendars, & essential signals from Trading Central. Enhance your strategy now!"
-                keywords="Analytical Tools, Trading Tools, Forex Analysis, Economic Calendar, Trading Signals, WINPROFX Tools, Market Analysis"
-                canonicalPath="/analytics"
-            />
+        {...seo}
+        canonicalPath="/analytics"
+      />
             <TopShape />
             <CommonBanner
                 center={false}

@@ -1,0 +1,191 @@
+{
+  "shared": {
+    "cta": {
+      "meta": "critical insights",
+      "title": "Unveiling the Pinnacle Learnings for Strategic Success.",
+      "description": "Practice, knowledge, and risk management are important for all traders. Review WINPROFX risk warnings and Trust Center information before trading."
+    },
+    "trustLinks": {
+      "title": "Trading Information and Risk",
+      "accountTypes": "Account Types",
+      "mt5Platform": "MT5 Trading Platform",
+      "trustCenter": "WINPROFX Trust Center",
+      "riskWarning": "Risk Warning",
+      "clientFundSecurity": "Client Fund Security",
+      "learningCenter": "WINPROFX Learning Center"
+    },
+    "faq": {
+      "discoverHowToTrade": {
+        "title": "DISCOVER HOW TO TRADE",
+        "body": "<p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p><p>A Brief Summary of Recent News and Opinions</p><p>Volatility Forecast Based on Technical Analysis</p><p>Brief overview of major currency pairs based on the provided fundamental</p><p>For example, if you choose to trade GBP/USD (British pound/US dollar) and you think the value of the GBP will rise against USD, you go long (buy). If you think GBP will fall against USD, you go short (sell). If your prediction is correct, you make a profit. If your prediction is incorrect, you would make a loss. Remember, losses can exceed deposits..</p>"
+      }
+    }
+  },
+  "forex": {
+    "banner": {
+      "title": "Forex Trading",
+      "description": "Trade 24/5 on assets in the foreign exchange market. We offer over 50 major, minor, and exotic currency pairs, with competitive spreads, sharp prices, fast execution, and 0% commission."
+    },
+    "card": {
+      "meta": "Forex trading",
+      "title": "Popular Forex Markets",
+      "description1": "Forex or the Foreign Exchange is a global market where currencies trade. It vastly overshadows the stock market, with forex trading reaching up to 5 trillion USD a day.",
+      "description2": "Since the forex market is not centralized it is open 24 hours a day, from Sunday night to Friday night. Always review risk disclosures and official verification information before trading."
+    },
+    "learn": {
+      "title": "Learn About Forex Trading"
+    },
+    "faq": {
+      "whatIsForex": {
+        "title": "WHAT IS FOREX?",
+        "body": "<p>Forex stands for FOREIGN EXCHANGE. In simple terms, by sitting in one place in the world, one can trade in any Country's Currency, Metals, World Indices and Crypto by studying world economy and technical charts.</p>"
+      },
+      "howToTradeForex": {
+        "title": "HOW TO TRADE FOREX?",
+        "body": "<p>First, find a reputed Forex broker, such as WINPROFX, open an account, deposit funds, analyse the market trend, choose your preferred trading instrument, and finally take your position to earn a profit.</p>"
+      }
+    }
+  },
+  "indices": {
+    "banner": {
+      "meta": "Indices trading",
+      "title": "Indices Trading",
+      "description": "Indices track the performance of a group of top-performing companies, giving you exposure to entire economies through a single trade."
+    },
+    "card": {
+      "meta": "Indices trading",
+      "title": "Popular Indices Markets",
+      "description1": "Stock market indices measure the performance of a basket of shares from a particular exchange or sector.",
+      "description2": "Trading index CFDs lets you gain broad market exposure through a single position. Always review risk disclosures and official verification information before trading."
+    },
+    "learn": {
+      "title": "Learn About Indices Trading"
+    },
+    "faq": {
+      "howCalculated": {
+        "title": "HOW ARE STOCK MARKET INDICES CALCULATED?",
+        "body": "<p>Most stock market indices are calculated according to the market capitalisation of their component companies. This method gives greater weighting to larger cap companies, which means their performance will affect an index's value more than lower cap companies.</p>"
+      },
+      "tradeWithLeverage": {
+        "title": "TRADE WITH LEVERAGE",
+        "body": "<p>When trading with leverage, you should remember that your profit or loss is calculated using the entire position size, not just the initial margin used to open it. This means that while leverage can magnify profits, it can also amplify losses.</p>"
+      }
+    }
+  },
+  "crypto": {
+    "banner": {
+      "meta": "Crypto trading",
+      "title": "Crypto Trading",
+      "description1": "Cryptocurrencies are digital assets built on blockchain technology, offering decentralized and transparent financial transactions. Over the past decade, crypto markets have evolved into one of the fastest-growing trading opportunities globally.",
+      "description2": "With our platform, you can trade popular cryptocurrencies like Bitcoin, Ethereum, and more through CFDs—allowing you to speculate on price movements without owning the underlying asset.",
+      "description3": "Benefit from high liquidity, 24/7 market access, and advanced trading tools designed for both beginners and experienced traders."
+    },
+    "card": {
+      "meta": "Crypto trading",
+      "title": "Trade Popular Cryptocurrency Pairs",
+      "description": "Track real-time price movements and explore opportunities across leading crypto assets."
+    },
+    "learn": {
+      "title": "Learn About Cryptocurrency Trading"
+    },
+    "faq": {
+      "whatIsCrypto": {
+        "title": "WHAT IS CRYPTOCURRENCY?",
+        "body": "<p>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It's a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.</p>"
+      },
+      "howDoesCryptoWork": {
+        "title": "HOW DOES CRYPTOCURRENCY WORK?",
+        "body": "<p>Cryptocurrencies run on a distributed public ledger called blockchain, a record of all transactions updated and held by currency holders. Units of cryptocurrency are created through a process called mining, which involves using computer power to solve complicated mathematical problems that generate coins. Users can also buy the currencies from brokers, then store and spend them using cryptographic wallets.</p>"
+      }
+    }
+  },
+  "metals": {
+    "banner": {
+      "meta": "Metals trading",
+      "title": "Metals Trading",
+      "description1": "Spot Metal Trading holds a special place in the heart of every trader. Metals have attracted traders all over the world since ancient times and continue to do so today.",
+      "description2": "WINPROFX Trader offers the lowest ever spreads in various metals based on your core interest and preference. Review account types and risk warnings before trading metals CFDs."
+    },
+    "card": {
+      "meta": "Metals trading",
+      "title": "Popular Metals Markets",
+      "description": "Track real-time performance of key metals and identify trading opportunities across global commodity markets."
+    },
+    "learn": {
+      "title": "Learn About Metals Trading"
+    },
+    "faq": {
+      "whyTradeMetals": {
+        "title": "WHY TRADE METAL WITH WINPROFX",
+        "body": "<p>WINPROFX a rich track record spanning more than 16 years. We have delivered our traders great opportunities and unparalleled trading experience. This positions us as one of the leading brokers when it comes to metals trading. So, if you're looking to trade in Gold, there are many reasons to choose WINPROFX: Thousands of happy and satisfied traders</p><p>Round-the-clock support available Super-fast withdrawal and executionl Rich analytics to make informed decisions</p><p>For example, if you choose to trade GBP/USD (British pound/US dollar) and you think the value of the GBP will rise against USD, you go long (buy). If you think GBP will fall against USD, you go short (sell). If your prediction is correct, you make a profit. If your prediction is incorrect, you would make a loss. Remember, losses can exceed deposits..</p>"
+      },
+      "stepUpTrading": {
+        "title": "STEP UP YOUR COMMODITIES TRADING GAME",
+        "body": "<p>Gold is the most actively traded metal. Based on the law of supply and demand, its price is determined by the 24/7 market. Other factors like the value of the US dollar, industrial demand, as well as inflation also influence its price. If you're looking to trade metals, get started on the right track with WINPROFX and stride confidently to become a seasoned trader.</p>"
+      },
+      "howMetalTradingWorks": {
+        "title": "HOW DOES METAL TRADING WORK?",
+        "body": "<p>In order to optimize returns, the traders must have a clear understanding of all the factors that affect the price of gold and other metals. Interestingly, the price drivers of precious metals are quite different in comparison to other instruments.</p>"
+      }
+    }
+  },
+  "commodities": {
+    "banner": {
+      "meta": "Commodities trading",
+      "title": "Commodities Trading",
+      "description1": "Take advantage of market volatility and choose from CFDs on spot commodities and futures. At WINPROFX, we offer some of the most popular instruments in the commodity market including gold, oil, and coffee, for speculation and hedging.",
+      "description2": "Trade per whole tick movement with zero commissions and no hidden fees. Review account types and risk warnings before trading commodities CFDs."
+    },
+    "card": {
+      "meta": "Commodities trading",
+      "title": "Live Commodity Markets",
+      "description": "Monitor real-time price action and track daily volatility across top-tier metals, energy, and agricultural assets."
+    },
+    "learn": {
+      "title": "Learn About Commodities Trading"
+    },
+    "faq": {
+      "whatAreCommodities": {
+        "title": "What are commodities?",
+        "body": "<p>Commodities are raw materials or primary agricultural products that can be bought and sold in the financial markets. They are typically used in the production of other goods and services and are traded on commodity exchanges around the world. Some examples include metals (gold, silver, and platinum), energy sources (coal, crude oil, and natural gas), agricultural products (soybeans, corn, and wheat), and livestock and animal products (cattle, eggs, and milk).</p>"
+      },
+      "howCommodityTradingWorks": {
+        "title": "How does commodity trading work?",
+        "body": "<p>Commodity trading lets you speculate on price movements of raw materials through CFDs without owning the physical asset. Traders analyze supply and demand, weather patterns, geopolitical events, and economic data to open long or short positions on instruments such as gold, oil, and agricultural products.</p>"
+      },
+      "howMuchToStart": {
+        "title": "How much money do I need to start commodity trading?",
+        "body": "<p>The amount needed depends on your account type, leverage, and the instruments you trade. WINPROFX offers multiple account options with different minimum deposit requirements. Start with an amount you can afford to lose and review our account types and risk warnings before trading.</p>"
+      }
+    }
+  },
+  "oil": {
+    "banner": {
+      "meta": "Oil trading",
+      "title": "Oil Trading",
+      "description": "Hedge against price volatility and capitalize on global market trends. Access real-time data, advanced charting, and deep liquidity on our premier trading platform to navigate the energy sector with confidence."
+    },
+    "card": {
+      "meta": "Oil trading",
+      "title": "Trade Live Market Data",
+      "description": "Track real-time price movements, daily fluctuations, and technical trends across premium energy assets."
+    },
+    "learn": {
+      "title": "Learn About Oil Trading"
+    },
+    "faq": {
+      "howToStart": {
+        "title": "How to start oil trading?",
+        "body": "<p>Before you start trading oil, it is essential to do your research and understand the market. You need to know what factors affect oil prices and how those factors may change in the future. Also, understand the different types of oil you can trade on the market and the products that use each.</p>"
+      },
+      "bestStrategy": {
+        "title": "What is the best strategy for crude oil trading?",
+        "body": "<p>Effective crude oil strategies often combine technical analysis with awareness of supply, demand, and geopolitical news. Many traders use trend-following, breakout, or range-trading approaches during higher-volume sessions. No strategy guarantees profits—always use risk management and review WINPROFX risk disclosures.</p>"
+      },
+      "bestIndicator": {
+        "title": "What is the best indicator for crude oil?",
+        "body": "<p>Popular tools for crude oil include moving averages, RSI, MACD, and volume-based indicators, often alongside watchlists for inventory reports and OPEC headlines. The best indicator depends on your timeframe and strategy—practice on demo and review educational resources before live trading.</p>"
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -7,60 +8,56 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import StatsPlaceholderGrid from '@/components/company-identity/stats-placeholder-grid'
 import SeoHead from '@/components/seo-head'
-import {
-  companyStatisticsItems,
-  RISK_WARNING_SHORT,
-  STATS_PLACEHOLDER,
-} from '@/lib/company-registration'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import { BRAND_NAME, companyStatisticsItems } from '@/lib/company-registration'
+
+const PAGE_KEY = 'companyStatistics'
 
 export default function CompanyStatistics() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('companyStatistics')
+
+  const i18nVars = { brandName: BRAND_NAME }
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Company Statistics | WINPROFX"
-        description="View WINPROFX operational statistics, platform information, support metrics, and transparency updates."
+        {...seo}
         canonicalPath="/company-statistics"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Trust & Transparency" title="Company Statistics" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
           <IdentitySection>
-            <p>
-              This page provides a structured overview of WINPROFX operational statistics and transparency
-              metrics. It exists so clients, partners, and the public can access verified company data in
-              one place as it becomes available after internal operations and compliance review.
-            </p>
-            <p className="mt-4">
-              WINPROFX does not publish unverified figures, awards, ratings, or performance claims. All
-              values below are placeholders until operations verification is complete.
-            </p>
-            <p className="mt-4 italic text-para">{STATS_PLACEHOLDER}</p>
+            <p>{t(`pages.${PAGE_KEY}.content.intro1`)}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.intro2`, i18nVars)}</p>
+            <p className="mt-4 italic text-para">{tCompany('statsPlaceholder')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Operational Metrics">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.operationalMetrics`)}>
             <StatsPlaceholderGrid items={companyStatisticsItems} />
           </IdentitySection>
 
-          <IdentitySection title="How Statistics Are Updated">
-            <p className="text-para">
-              Metrics on this page are reviewed internally before publication. When verified data is
-              approved, this page will be updated with a current last-updated date. Check back after the
-              next transparency update cycle.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.howStatisticsAreUpdated`)}>
+            <p className="text-para">{t(`pages.${PAGE_KEY}.content.statsUpdate`)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Important Note">
-            <p className="italic text-para">
-              Statistics are provided for transparency purposes only. They do not guarantee future
-              performance, service levels, or processing times for individual accounts.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.importantNote`)}>
+            <p className="italic text-para">{t(`pages.${PAGE_KEY}.content.importantNote`)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
+          <TrustPageFooter canonicalPath="/company-statistics" />
           <IdentityNav />
         </Card>
       </Container>

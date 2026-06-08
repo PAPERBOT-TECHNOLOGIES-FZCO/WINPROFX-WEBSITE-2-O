@@ -3,6 +3,7 @@ import CommonTitle from "@/components/common-title";
 import { Container } from "@/components/grid";
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next'
 import img1 from "@/assets/img/trade/eligibility1.png";
 import img2 from "@/assets/img/trade/eligibility2.png";
 import img3 from "@/assets/img/trade/eligibility3.png";
@@ -10,49 +11,28 @@ import img4 from "@/assets/img/trade/eligibility4.png";
 import img5 from "@/assets/img/trade/eligibility5.png";
 import img6 from "@/assets/img/trade/eligibility6.png";
 import eligibilitybgshape from "@/assets/img/trade/eligibility-bg-shap.png";
-import { div } from "framer-motion/client";
 
 
 export default function Eligibility() {
-    const eligibilityItems = [
-  {
-    title: "Who Can Join",
-    desc: "Exclusively for retail clients. Introducing Brokers (IBs) are excluded and cannot participate in this campaign.",
-    img: img1,
-  },
-  {
-    title: "Single Entry",
-    desc: "Each participant can only join one program activity at a time. Choose your tier wisely before opting in.",
-    img: img2,
-  },
-  {
-    title: "Withdrawals Allowed",
-    desc: "Withdrawals are permitted throughout the campaign and will not disqualify you from the program.",
-    img: img3,
-  },
-  {
-    title: "Trade Duration",
-    desc: "Eligible trades must be held open for at least 3min to count as a qualifying lot toward your target.",
-    img: img4,
-  },
-  {
-    title: "Excluded Instruments",
-    desc: "Stocks and cryptocurrency pairs are not eligible for this promotion. All other supported instruments qualify.",
-    img: img5,
-  },
-  {
-    title: "Account Type",
-    desc: "Only self-directed individual accounts can participate. Managed accounts or accounts referred by IBs are not eligible.",
-    img: img6,
-  },
-];
+  const { t } = useTranslation('trading')
+  const pu = (key) => t(`promotionUi.eligibility.${key}`)
+
+  const itemKeys = ['whoCanJoin', 'singleEntry', 'withdrawals', 'tradeDuration', 'excludedInstruments', 'accountType']
+  const images = [img1, img2, img3, img4, img5, img6]
+
+  const eligibilityItems = itemKeys.map((key, index) => ({
+    title: pu(`items.${key}.title`),
+    desc: pu(`items.${key}.desc`),
+    img: images[index],
+  }));
+
   const widths = [
-    "w-full md:w-[318px]", // 1
-    "w-full md:w-[404px]", // 2
-    "w-full md:w-[318px]", // 3
-    "w-full md:w-[404px]", // 4
-    "w-full md:w-[322px]", // 5
-    "w-full md:w-[318px]", // 6
+    "w-full md:w-[318px]",
+    "w-full md:w-[404px]",
+    "w-full md:w-[318px]",
+    "w-full md:w-[404px]",
+    "w-full md:w-[322px]",
+    "w-full md:w-[318px]",
   ];
   return (
     <div className="common-padding">
@@ -61,43 +41,28 @@ export default function Eligibility() {
             <img src={eligibilitybgshape} className="absolute top-0 left-0 w-full h-auto -z-1 pointer-events-none" alt="" />
           <CommonTitle
             className="max-w-120 text-center mx-auto mb-12"
-            subTitle="Eligibility"
+            subTitle={pu('subTitle')}
             subTitleClass="rounded-full border border-white/20 bg-white/5 px-4 py-1 mb-4 inline-block uppercase text-xs"
-            title="Who Can Participate?"
-            des="Getting started is simple. Complete these steps and you're on your way to winning exclusive Apple rewards."
+            title={pu('title')}
+            des={pu('des')}
           />
 
           {/* Cards */}
-          <div className="flex flex-wrap justify-center gap-6 w-full max-w-6xl mx-auto relative z-1">
+          <div className="flex flex-wrap gap-4 justify-center">
             {eligibilityItems.map((item, index) => (
               <motion.div
+                key={item.title}
                 initial={{ opacity: 0, y: y }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: duration, delay: index * 0.2 }}
+                transition={{ duration: duration, delay: `0.${index}` }}
                 viewport={{ once: once, amount: 0.2 }}
-                key={index}
+                className={`${widths[index]} rounded-2xl p-px bg-linear-0 to-white/20 from-white/0 overflow-hidden`}
               >
-              <div className={`w-79.5 bg-white/4 border border-white/10 rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:border-white/20 hover:shadow-[0_0_30px_rgba(255,255,255,0.05)] ${widths[index]} p-4 pb-6`}
-              >
-                {/* img */}
-                <div className={`${index === 1 || index === 3 ? "h-60" : "h-55"} rounded-2xl flex items-center justify-center bg-[#1A1C20] border-b border-white/10 overflow-hidden`}>
-                  <img
-                    src={item.img}
-                    className={`w-full h-full ${index === 4 || index === 5 ? "object-cover" : "object-contain"}`}
-                    alt=""
-                  />
+                <div className="rounded-2xl p-4 md:p-5 lg:p-6 bg-linear-0 to-[#121418] from-[#030509] h-full">
+                  <img src={item.img} alt="" className="w-16 h-16 mb-4 object-contain" />
+                  <h5 className="text-xl leading-tight font-bold text-white mb-2 md:mb-3">{item.title}</h5>
+                  <p className="text-sm md:text-base leading-normal text-para">{item.desc}</p>
                 </div>
-
-                {/* Content */}
-                <div className="md:p-4 pt-6 pb-0 flex flex-col gap-2 grow space-y-1">
-                  <p className="text-white font-bold leading-tight text-lg">
-                    {item.title}
-                  </p>
-                  <p className="text-para text-sm leading-normal">
-                    {item.desc}
-                  </p>
-                </div>
-              </div>
               </motion.div>
             ))}
           </div>

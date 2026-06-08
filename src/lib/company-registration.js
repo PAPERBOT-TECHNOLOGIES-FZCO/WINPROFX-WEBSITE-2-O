@@ -416,18 +416,31 @@ export const companyStatisticsItems = [
 ]
 
 export const footerTrustLegalLinks = [
-  { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
-  { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
-  { path: '/client-fund-security/', label: 'Client Fund Security' },
-  { path: '/support-and-escalation/', label: 'Support and Escalation' },
-  { path: '/company-statistics/', label: 'Company Statistics' },
-  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/trust-center/', label: 'Trust Center' },
+  { path: '/company-profile/', label: 'Company Profile' },
   { path: '/company-registration/', label: 'Company Registration' },
   { path: '/legal-entity-information/', label: 'Legal Entity Information' },
-  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  { path: '/regulatory-information/', label: 'Regulatory Information' },
   { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/risk-warning/', label: 'Risk Warning' },
+  { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
+  { path: '/complaints-and-dispute-resolution/', label: 'Complaints' },
+  { path: '/client-fund-security/', label: 'Client Fund Security' },
+  { path: '/support-and-escalation/', label: 'Support and Escalation' },
+  { path: '/company-statistics/', label: 'Company Statistics' },
+  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
   { path: '/legal-documents/', label: 'Legal Documents' },
+]
+
+export const brandIntentPageLinks = [
+  { path: '/is-winprofx-legit/', label: 'Is WINPROFX Legit?' },
+  { path: '/winprofx-review/', label: 'WINPROFX Review' },
+  { path: '/winprofx-withdrawal-process/', label: 'Withdrawal Process' },
+  { path: '/winprofx-license-verification/', label: 'License Verification' },
+  { path: '/winprofx-complaints/', label: 'Complaints' },
+  { path: '/winprofx-fake-website-warning/', label: 'Fake Website Warning' },
+  { path: '/winprofx-official-login/', label: 'Official Login' },
+  { path: '/winprofx-deposit-and-withdrawal-methods/', label: 'Deposit & Withdrawal Methods' },
 ]

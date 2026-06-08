@@ -58,6 +58,52 @@
   status = 301
   force = true
 
+# SEO-friendly market slug aliases (301 to canonical pages)
+[[redirects]]
+  from = "/forex-trading"
+  to = "/forex"
+  status = 301
+
+[[redirects]]
+  from = "/forex-trading/*"
+  to = "/forex/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/gold-trading"
+  to = "/trading/metals"
+  status = 301
+
+[[redirects]]
+  from = "/oil-trading"
+  to = "/trading/oil"
+  status = 301
+
+[[redirects]]
+  from = "/indices-trading"
+  to = "/indices"
+  status = 301
+
+[[redirects]]
+  from = "/crypto-cfd-trading"
+  to = "/crypto"
+  status = 301
+
+[[redirects]]
+  from = "/commodities-trading"
+  to = "/trading/commodities"
+  status = 301
+
+[[redirects]]
+  from = "/mt5-trading-platform"
+  to = "/platform"
+  status = 301
+
+[[redirects]]
+  from = "/account-types"
+  to = "/accounts"
+  status = 301
+
 # Slug aliases for common URL patterns
 [[redirects]]
   from = "/privacy-policy"
@@ -67,6 +113,17 @@
 [[redirects]]
   from = "/terms-and-conditions"
   to = "/terms"
+  status = 301
+
+# Redirect /en/* to unprefixed English URLs (avoid duplicate English content)
+[[redirects]]
+  from = "/en"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat"
   status = 301
 
 # SPA catch-all (must be last)

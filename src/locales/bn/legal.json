@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "ব্যক্তিগত গোপনীয়তার নীতি",
+    "meta": "আইনগত নীতিমালা",
+    "sections": {
+      "privacyPolicyOfWinprofx": "WINPROFX এর গোপনীয়তা নীতি",
+      "privacyProtection": "গোপনীয়তা সুরক্ষা",
+      "personalInformationWeCollect": "আমরা যে ব্যক্তিগত তথ্য সংগ্রহ করি",
+      "processingOfYourPersonalInformation": "আপনার ব্যক্তিগত তথ্য প্রক্রিয়াকরণ করা হচ্ছে",
+      "performanceOfContract": "পারম্যান্স অফ কন্ট্রাক্ট",
+      "complianceWithLegalObligation": "একটি আইনি বাধ্যবাধকতা মেনে চলা",
+      "safeguardingLegitimateInterests": "বৈধ স্বার্থ রক্ষার উদ্দেশ্যে",
+      "consentProvided": "আপনি আপনার সম্মতি প্রদান করেছেন",
+      "productsAndServices": "আপনাকে পণ্য এবং পরিষেবা, তথ্য সরবরাহ করতে",
+      "investigateEnquiries": "তদন্ত বা অনুসন্ধান বা বিরোধ নিষ্পত্তি করতে",
+      "complyWithLaws": "প্রযোজ্য আইন, আদালতের আদেশ, অন্যান্য বিচারিক প্রক্রিয়া, বা কোনও প্রযোজ্য নিয়ন্ত্রক কর্তৃপক্ষের প্রয়োজনীয়তা মেনে চলার জন্য",
+      "dataAnalysis": "ডেটা বিশ্লেষণ",
+      "marketingPurposes": "বিপণনের উদ্দেশ্য",
+      "internalBusinessPurposes": "অভ্যন্তরীণ ব্যবসায়িক উদ্দেশ্য এবং রেকর্ড রাখা",
+      "legalNotifications": "আইনি বিজ্ঞপ্তি",
+      "physicalSecurity": "শারীরিক নিরাপত্তা",
+      "disclosureOfPersonalInformation": "আপনার ব্যক্তিগত তথ্য প্রকাশ",
+      "transfersOutsideEea": "ইউরোপীয় অর্থনৈতিক অঞ্চলের বাইরে স্থানান্তর",
+      "yourCollectedInformation": "আপনার সংগৃহীত তথ্য",
+      "deviceInformation": "ডিভাইস তথ্য",
+      "logInformation": "লগ তথ্য",
+      "locationInformation": "অবস্থানের তথ্য",
+      "howWeObtainConsent": "আমরা কীভাবে আপনার সম্মতি পাই",
+      "storageAndRetention": "আপনার ব্যক্তিগত তথ্য সংগ্রহ এবং ধরে রাখার সময়কাল",
+      "yourRights": "আপনার ব্যক্তিগত তথ্য এবং অ্যাক্সেস সম্পর্কে আপনার অধিকার",
+      "rectification": "সংশোধন",
+      "erasure": "মুছে ফেলা",
+      "processingRestrictions": "প্রক্রিয়াকরণ বিধিনিষেধ",
+      "dataPortability": "ডেটা পোর্টেবিলিটি",
+      "objection": "আপত্তি 2",
+      "optOut": "আপনার ব্যক্তিগত তথ্য জমা দেওয়ার বিকল্প-আউট",
+      "legalDisclaimer": "আইনি অস্বীকৃতি",
+      "cardAcceptance": "WINPROFX কার্ড গ্রহণ",
+      "howToContactUs": "যেভাবে আমাদের সাথে যোগাযোগ করতে হয়"
+    }
+  },
+  "terms": {
+    "h1": "নিয়ম ও শর্তাবলী",
+    "meta": "আইনগত নীতিমালা",
+    "sections": {
+      "acceptanceOfTerms": "শর্তাবলীর গ্রহণযোগ্যতা",
+      "bindingAgreement": "বাঁধাই চুক্তি",
+      "ageRequirement": "বয়সের আবশ্যকতা",
+      "terminationOfAgreement": "চুক্তির সমাপ্তি",
+      "modificationsToAgreement": "চুক্তিতে পরিবর্তন",
+      "contactInformation": "যোগাযোগের তথ্য"
+    }
+  },
+  "amlPolicy": {
+    "h1": "KYC / AML নীতি",
+    "meta": "আইনগত নীতিমালা",
+    "sections": {
+      "moneyLaundering": "মানি লন্ডারিং:",
+      "placement": "প্লেসমেন্ট **",
+      "layers": "স্তর",
+      "integration": "মিশ্রণ",
+      "amlPolicyMet": "এএমএল নীতিটি নিম্নলিখিত উপায়ে WINPROFX এর FX এর মধ্যে পূরণ করা হচ্ছে",
+      "documentsRequired": "ব্যক্তিগত তথ্য যাচাই করার জন্য নিম্নলিখিত ডকুমেন্টগুলি আবশ্যক"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "ডিপোজিট এবং উত্তোলন নীতি",
+    "meta": "আইনগত নীতিমালা",
+    "sections": {
+      "processingOfPersonalInformation": "আপনার ব্যক্তিগত তথ্য প্রক্রিয়াকরণ করা হচ্ছে",
+      "deposit": "ডেপোজিট",
+      "withdrawals": "তুলে নেওয়া",
+      "creditDebitCards": "ক্রেডিট এবং ডেবিট কার্ড",
+      "electronicPaymentMethods": "ইলেকট্রনিক পেমেন্ট পদ্ধতি",
+      "generalConditions": "সাধারণ শর্তাবলী",
+      "noThirdPartyPayments": "কোনও পরিস্থিতিতে তৃতীয় পক্ষের পেমেন্ট অনুমোদিত নয় ।",
+      "refundConditions": "রিফান্ডের শর্তাদি:",
+      "dispute": "বিরোধ"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "সীমাবদ্ধ দেশসমূহ",
+    "meta": "আইনগত নীতিমালা",
+    "sections": {
+      "restrictedList": "WINPROFX Limited নিম্নলিখিত দেশে কোনও পরিষেবা প্রদান করে না:",
+      "creditDebitCards": "ক্রেডিট এবং ডেবিট কার্ড"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "ঝুঁকির প্রকাশ",
+    "meta": "গুরুত্বপূর্ণ বিজ্ঞপ্তি",
+    "sections": {
+      "noInvestmentAdvice": "আমরা বিনিয়োগের পরামর্শ প্রদান করি না ।",
+      "speculateWithAffordableMoney": "আপনি হারাতে পারেন এমন অর্থ দিয়ে কেবল অনুমান করুন ।",
+      "whenDecidingToTrade": "এই জাতীয় উপকরণগুলিতে ট্রেড করবেন কিনা তা সিদ্ধান্ত নেওয়ার সময় আপনার নিম্নলিখিতগুলি সম্পর্কে সচেতন হওয়া উচিত:",
+      "cfdTradingMayNotBeAppropriate": "CFD ট্রেডিং আপনার জন্য উপযুক্ত নাও হতে পারে",
+      "weDoNotProvideAdvice": "আমরা পরামর্শ প্রদান করি না",
+      "tradingOffExchange": "ট্রেডিং অফ-এক্সচেঞ্জ",
+      "margin": "মার্জিন:",
+      "lossLimitsNotGuaranteed": "ক্ষতির সীমা নিশ্চিত করা হয় না",
+      "pastPerformance": "অতীতের পারফরম্যান্স",
+      "currency": "মুদ্রা",
+      "volatility": "অস্থিরতা",
+      "outOfHoursMarkets": "আউট-অফ- আওয়ার মার্কেট",
+      "leverageOfGearing": "__Keep_0__ of Gearing",
+      "contingentLiabilityTransaction": "শর্তসাপেক্ষ দায় লেনদেন",
+      "spreadsCommissionsCosts": "স্প্রেড, কমিশন এবং খরচ",
+      "insolvency": "দেউলিয়া হয়ে যাওয়া: ",
+      "regulatoryAndLegalRisk": "নিয়ন্ত্রক এবং আইনি ঝুঁকি",
+      "taxRisk": "করের ঝুঁকি",
+      "yourMoney": "আপনার টাকা",
+      "systemFailure": "সিস্টেম ব্যর্থতা"
+    }
+  },
+  "riskWarning": {
+    "h1": "ঝুঁকি সতর্কতা",
+    "meta": "গুরুত্বপূর্ণ বিজ্ঞপ্তি",
+    "sections": {
+      "generalRisk": "সাধারণ ঝুঁকি",
+      "leverageRisk": "লিভারেজ ঝুঁকি",
+      "marketVolatility": "বাজার অস্থিতিশীলতা",
+      "suitability": "প্রশস্ততা",
+      "noProfitGuarantees": "কোনও লাভের গ্যারান্টি নেই",
+      "furtherInformation": "আরও তথ্য"
+    },
+    "generalRiskBody": "ট্রেডিং ফরেক্স এবং CFDs উল্লেখযোগ্য ঝুঁকি জড়িত এবং সব বিনিয়োগকারীদের জন্য উপযুক্ত নাও হতে পারে । ট্রেড করার আগে ক্লায়েন্টদের ঝুঁকিগুলি বুঝতে হবে । আপনি আপনার বিনিয়োগকৃত কিছু বা সমস্ত মূলধন হারাতে পারেন । আপনি হারাতে পারবেন না এমন অর্থের সাথে আপনার ট্রেড করা উচিত নয় ।",
+    "leverageRiskBody": "Forex এবং CFD পণ্যগুলি সাধারণত লিভারেজ ব্যবহার করে মার্জিনে ট্রেড করা হয় । Leverage লাভ এবং ক্ষতি উভয়কেই বাড়িয়ে তুলতে পারে । একটি ছোট মার্কেট মুভমেন্টের ফলে আপনার ডিপোজিট করা ফান্ডের তুলনায় আনুপাতিকভাবে বড় ক্ষতি হতে পারে ।",
+    "marketVolatilityBody": "আর্থিক বাজার অস্থির হতে পারে । অর্থনৈতিক ঘটনা, সংবাদ, তারল্য পরিস্থিতি বা অন্যান্য কারণের কারণে দামগুলি দ্রুত এবং অনির্দেশ্যভাবে চলতে পারে । অস্থির অবস্থার সময়, প্রত্যাশিত মূল্যে ব্যবসা চালানো বা পছন্দসই স্তরে অবস্থানগুলি বন্ধ করা কঠিন হতে পারে ।",
+    "suitabilityBody": "ট্রেড করার আগে, আপনার আর্থিক পরিস্থিতি, অভিজ্ঞতা এবং উদ্দেশ্যগুলি সাবধানতার সাথে বিবেচনা করা উচিত । আপনি যদি নিশ্চিত না হন যে ফরেক্স বা CFD ট্রেডিং আপনার জন্য উপযুক্ত কিনা, তাহলে একজন যোগ্য পেশাদারের কাছ থেকে স্বাধীন আর্থিক পরামর্শ নিন ।",
+    "noProfitGuaranteesBody": "অতীতের পারফরম্যান্স ভবিষ্যতের ফলাফলের ইঙ্গিত দেয় না । WINPROFX লাভ বা ক্ষতির বিরুদ্ধে সুরক্ষার নিশ্চয়তা দেয় না । সমস্ত ট্রেডিং সিদ্ধান্ত আপনার নিজের ঝুঁকিতে নেওয়া হয় ।"
+  }
+}

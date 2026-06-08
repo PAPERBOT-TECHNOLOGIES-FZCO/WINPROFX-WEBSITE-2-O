@@ -1,0 +1,37 @@
+{
+  "buttons": {
+    "getStarted": "Mulai",
+    "learnMore": "Pelajari Lebih Lanjut",
+    "openAccount": "Buka Akun",
+    "startTrading": "Mulai Trading",
+    "downloadNow": "Unduh Sekarang",
+    "viewPage": "Lihat halaman →",
+    "viewAllArticles": "Lihat semua artikel →",
+    "readFullRiskWarning": "Baca peringatan risiko lengkap"
+  },
+  "labels": {
+    "home": "Beranda",
+    "trustCenter": "Pusat Kepercayaan",
+    "lastReviewed": "Terakhir ditinjau:",
+    "reviewedBy": "Ditinjau oleh:",
+    "riskWarning": "Peringatan risiko:",
+    "lastUpdated": "Terakhir diperbarui: {{date}}",
+    "authorReviewedBy": "Penulis: {{author}} · Ditinjau oleh: {{reviewer}}",
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "relatedTrustPages": "Halaman verifikasi WINPROFX terkait",
+    "relatedPages": "Halaman WINPROFX Terkait",
+    "moreArticles": "Artikel Lainnya",
+    "whatsapp": "Whatsapp"
+  },
+  "disclaimer": {
+    "learnEducational": "Artikel ini hanya untuk tujuan edukasi dan bukan merupakan saran investasi, saran keuangan, atau rekomendasi untuk trading."
+  },
+  "risk": {
+    "short": "Trading Forex dan CFD melibatkan risiko signifikan dan mungkin tidak cocok untuk semua investor. Klien harus memahami risiko sebelum trading.",
+    "full": "Trading Forex, CFD, dan produk keuangan terkait melibatkan risiko signifikan dan mungkin tidak cocok untuk semua investor. Anda dapat kehilangan sebagian atau seluruh modal yang diinvestasikan. Kinerja masa lalu bukan indikasi hasil di masa depan. Klien harus memahami risiko sebelum trading dan mencari saran independen jika diperlukan."
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  }
+}

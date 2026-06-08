@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Trans, useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -7,134 +8,120 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
-import { RISK_WARNING_SHORT, SUPPORT_EMAIL } from '@/lib/company-registration'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import { BRAND_NAME, SUPPORT_EMAIL } from '@/lib/company-registration'
 
-const preDepositChecklist = [
-  'Confirm the website URL matches an official WINPROFX domain listed on Official Domains',
-  'Verify the legal entity and license information on Company Registration and Regulatory Information pages',
-  'Read the Risk Warning and applicable legal documents before opening an account',
-  'Use only the official client portal at https://my.winprofx.org/ for account access',
-  'Never send funds to unverified addresses or third-party accounts',
-  'Contact support@winprofx.com if you are unsure about any payment instruction',
-]
+const PAGE_KEY = 'clientFundSecurity'
 
 export default function ClientFundSecurity() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('clientFundSecurity')
+
+  const i18nVars = { brandName: BRAND_NAME, supportEmail: SUPPORT_EMAIL }
+  const accountSecurity = Object.values(t(`pages.${PAGE_KEY}.content.accountSecurity`, { returnObjects: true }))
+  const preDepositChecklist = Object.values(t(`pages.${PAGE_KEY}.content.preDepositChecklist`, { returnObjects: true }))
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Client Fund Security | WINPROFX"
-        description="Learn about WINPROFX client fund handling, payment verification, account security, and risk-related information."
+        {...seo}
         canonicalPath="/client-fund-security"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Trust & Transparency" title="Client Fund Security" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
           <IdentitySection>
-            <p>
-              WINPROFX takes client account and payment security seriously. This page outlines practices
-              that help protect client accounts, personal information, and payment transactions. It does
-              not describe segregated client funds or deposit insurance unless separately disclosed in
-              verified regulatory documentation.
-            </p>
+            <p>{t(`pages.${PAGE_KEY}.content.intro`, i18nVars)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Account Access Security">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.accountAccessSecurity`)}>
             <ul className="list-disc pl-5 flex flex-col gap-2 text-para">
-              <li>Use strong, unique passwords for client and partner portal accounts</li>
-              <li>Enable two-factor authentication where available</li>
-              <li>Never share login credentials, OTPs, or passwords with third parties</li>
-              <li>Log out from shared or public devices after each session</li>
-              <li>Report suspicious login activity to support immediately</li>
+              {accountSecurity.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="KYC and AML Checks">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.kycAndAmlChecks`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.kycBody1`, i18nVars)}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.kycBody2`)}</p>
+          </IdentitySection>
+
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.paymentMethodVerification`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.paymentVerification`)}</p>
+          </IdentitySection>
+
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.withdrawalVerification`)}>
             <p>
-              WINPROFX requires identity verification (KYC) and may conduct anti-money laundering (AML)
-              checks during onboarding and ongoing compliance review. Clients may be asked to provide
-              government-issued identification, proof of address, and payment method verification.
-            </p>
-            <p className="mt-4">
-              Incomplete or outdated verification may delay deposits, withdrawals, or account access until
-              required documents are submitted and approved.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.withdrawalVerification`}
+                ns="trust"
+                components={{
+                  withdrawalLink: (
+                    <LocalizedLink to="/withdrawal-transparency/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Payment Method Verification">
-            <p>
-              Payment methods used for deposits and withdrawals should belong to the registered account
-              holder. Third-party payments may be rejected. Clients should verify payment instructions
-              only through official portal channels and avoid sending funds to unverified addresses.
-            </p>
-          </IdentitySection>
-
-          <IdentitySection title="Withdrawal Verification">
-            <p>
-              Withdrawals may require confirmation of account identity, payment method ownership, and
-              compliance status before processing. See{' '}
-              <Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
-                Withdrawal Transparency
-              </Link>{' '}
-              for the withdrawal review process and escalation options.
-            </p>
-          </IdentitySection>
-
-          <IdentitySection title="What Clients Should Verify Before Depositing">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.verifyBeforeDepositing`)}>
             <ul className="list-disc pl-5 flex flex-col gap-2 text-para">
               {preDepositChecklist.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
             <p className="mt-4">
-              Use the{' '}
-              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
-                Verify WINPROFX
-              </Link>{' '}
-              checklist and{' '}
-              <Link to="/official-domains/" className="text-white underline hover:text-primary">
-                Official Domains
-              </Link>{' '}
-              page before registering or depositing.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.preDepositLinks`}
+                ns="trust"
+                components={{
+                  verifyLink: (
+                    <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
+                  ),
+                  officialDomainsLink: (
+                    <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Portal and Website Safety">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.portalAndWebsiteSafety`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.portalSafety`)}</p>
+          </IdentitySection>
+
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.importantNote`)}>
+            <p className="italic text-para">{t(`pages.${PAGE_KEY}.content.importantNote`)}</p>
+          </IdentitySection>
+
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.reportSecurityConcerns`)}>
             <p>
-              Phishing websites may imitate legitimate brands. Before entering credentials or making
-              payments, confirm the URL matches an official WINPROFX domain. Official client portal:{' '}
-              <a href="https://my.winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer" target="_blank">
-                https://my.winprofx.org/
-              </a>
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.reportConcerns`}
+                ns="trust"
+                values={i18nVars}
+                components={{
+                  supportLink: (
+                    <LocalizedLink to="/support-and-escalation/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Important Note">
-            <p className="italic text-para">
-              This page describes security and verification practices only. It does not constitute a
-              claim of segregated client funds, deposit insurance, or regulatory capital protection unless
-              separately disclosed in verified regulatory documentation.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Report Security Concerns">
-            <p>
-              Report suspected fraud, phishing, or unauthorized access to{' '}
-              <a href={`mailto:${SUPPORT_EMAIL}`} className="text-white underline hover:text-primary">
-                {SUPPORT_EMAIL}
-              </a>{' '}
-              or via{' '}
-              <Link to="/support-and-escalation/" className="text-white underline hover:text-primary">
-                Support and Escalation
-              </Link>
-              .
-            </p>
-          </IdentitySection>
-
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
-          </IdentitySection>
-
+          <TrustPageFooter canonicalPath="/client-fund-security" />
           <IdentityNav />
         </Card>
       </Container>

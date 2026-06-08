@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -7,34 +8,28 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
-const services = [
-  'Forex and CFD trading access',
-  'Trading platform information and tools',
-  'Client account management through the official client portal',
-  'Partner and introducing broker program tools',
-  'Trading-related customer support services',
-]
+const SERVICE_KEYS = ['forexCfd', 'platformTools', 'clientPortal', 'partnerProgram', 'support']
 
 export default function About() {
+  const { t } = useTranslation('trading')
+  const { t: tCommon } = useTranslation('common')
+  const seo = useSeo('about')
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="About WINPROFX | Official Company Information"
-        description="Learn about WINPROFX, its forex and CFD trading-related services, official websites, client portal, partner portal, and risk warning."
+        {...seo}
         canonicalPath="/about"
-        pageName="About WINPROFX"
+        pageName={t('about.h1')}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Official Information" title="About WINPROFX" />
+      <PolicyTitle as="h1" meta={t('about.meta')} title={t('about.h1')} />
       <Container>
         <Card>
-          <IdentitySection title="What is WINPROFX?">
-            <p>
-              WINPROFX is a forex and CFD trading brand offering access to trading platforms, client account
-              services, partner program tools, and trading-related support services through its official
-              domains and portals.
-            </p>
+          <IdentitySection title={t('about.sections.whatIsWinprofx')}>
+            <p>{t('about.whatIsBody')}</p>
             <p className="mt-4">
               The main official website is{' '}
               <a href="https://winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
@@ -44,15 +39,15 @@ export default function About() {
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Services Provided">
+          <IdentitySection title={t('about.sections.servicesProvided')}>
             <ul className="flex flex-col gap-2 list-disc pl-5">
-              {services.map((service) => (
-                <li key={service}>{service}</li>
+              {SERVICE_KEYS.map((key) => (
+                <li key={key}>{t(`about.services.${key}`)}</li>
               ))}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Official Domains">
+          <IdentitySection title={t('about.sections.officialDomains')}>
             <p className="mb-4">
               WINPROFX operates through the following official domains:
             </p>
@@ -78,14 +73,14 @@ export default function About() {
             </ul>
             <p className="mt-4">
               View the complete verified list on our{' '}
-              <Link to="/official-domains/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
-              </Link>{' '}
+              </LocalizedLink>{' '}
               page.
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Client and Partner Login">
+          <IdentitySection title={t('about.sections.clientPartnerLogin')}>
             <ul className="flex flex-col gap-3">
               <li>
                 <strong className="text-white">Client login and registration:</strong>{' '}
@@ -102,33 +97,30 @@ export default function About() {
             </ul>
             <p className="mt-4">
               Always verify the URL before entering your credentials. Only use domains listed on the{' '}
-              <Link to="/official-domains/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary">
                 Official Domains
-              </Link>{' '}
+              </LocalizedLink>{' '}
               page.
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>
-              Trading forex and CFDs involves significant risk and may not be suitable for all investors.
-              Clients should understand the risks before trading.
-            </p>
+          <IdentitySection title={t('about.sections.riskWarning')}>
+            <p>{tCommon('risk.short')}</p>
             <p className="mt-4">
               Read our{' '}
-              <Link to="/risk-warning/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/risk-warning/" className="text-white underline hover:text-primary">
                 Risk Warning
-              </Link>{' '}
+              </LocalizedLink>{' '}
               for more information.
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Contact">
+          <IdentitySection title={t('about.sections.contact')}>
             <p>
               For support, visit our{' '}
-              <Link to="/contact/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
-              </Link>{' '}
+              </LocalizedLink>{' '}
               or email{' '}
               <a href="mailto:support@winprofx.com" className="text-white underline hover:text-primary">
                 support@winprofx.com

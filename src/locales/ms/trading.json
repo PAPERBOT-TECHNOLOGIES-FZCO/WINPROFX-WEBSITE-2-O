@@ -1,0 +1,451 @@
+{
+  "winPromotion": {
+    "meta": "Eksklusif WINPROFX · Mac - Mei 2026",
+    "h1": "Program Trade to Win",
+    "des": "Capai jumlah dagangan tertentu dalam 30 hari dan buka ganjaran Apple eksklusif. Lebih banyak anda trade, lebih besar hadiahnya.",
+    "secondButton": "Lihat T&S",
+    "rewardTiers": {
+      "subTitle": "Peringkat Ganjaran",
+      "title": "Trade Lebih Banyak, Menang Lebih Banyak",
+      "des": "Capai sasaran lot volume dalam 30 hari untuk tuntut hadiah anda. Enam tier, enam peluang menang — setiap lot membawa anda lebih dekat."
+    }
+  },
+  "tradeToWin": {
+    "h1": "Program Trade to Win",
+    "meta": "Eksklusif WINPROFX",
+    "bannerTitle": "Trade Lebih Banyak, Menang Lebih Banyak",
+    "howItWorks": "Cara Ia Berfungsi",
+    "programConditions": "Syarat Program",
+    "importantTerms": "Terma Penting",
+    "labels": {
+      "tier": "TINGKAT",
+      "lots": "Lot",
+      "withinDays": "dalam 30 hari"
+    },
+    "rewardTiersTitleHtml": "Trade Lebih Banyak, <span class=\"text-primary\">Menang Lebih Banyak</span>",
+    "howItWorksSection": {
+      "subTitle": "Proses",
+      "titleHtml": "Cara Ia <span class=\"text-primary\">Berfungsi</span>",
+      "des": "Bermula sangat mudah. Lengkapkan empat langkah ini dan anda sedang dalam perjalanan memenangi ganjaran eksklusif Apple.",
+      "steps": {
+        "registerOptIn": {
+          "title": "Daftar & Opt In",
+          "body": "Daftar dengan WINPROFX dan opt in ke program Trade to Win sejak deposit pertama anda."
+        },
+        "chooseTier": {
+          "title": "Pilih Tingkat Anda",
+          "body": "Pilih tingkat ganjaran yang anda sasarkan — dari Power Bank hingga iPhone terkini."
+        },
+        "trade30Days": {
+          "title": "Trade Dalam 30 Hari",
+          "body": "Capai volum dagangan sasaran dalam 30 hari. Dagangan yang layak mesti dipegang sekurang-kurangnya 3 minit."
+        },
+        "claimPrize": {
+          "title": "Tuntut Ganjaran Anda",
+          "body": "Setelah mencapai sasaran volum, ganjaran anda disahkan dan dihantar kepada anda."
+        }
+      }
+    },
+    "programConditionsSection": {
+      "subTitle": "Peraturan & Butiran",
+      "titleHtml": "Syarat <span class=\"text-primary\">Program</span>",
+      "items": {
+        "programPeriod": {
+          "label": "Tempoh Program",
+          "value": "1 Mac 2025 – 31 Mei 2026"
+        },
+        "tradingTimeline": {
+          "label": "Garis Masa Dagangan",
+          "value": "30 hari dari tarikh mula anda"
+        },
+        "eligibleClients": {
+          "label": "Pelanggan Layak",
+          "value": "Hanya pelanggan runcit (IB dikecualikan)"
+        },
+        "minimumHold": {
+          "label": "Masa Pegangan Minimum",
+          "value": "3 minit setiap dagangan yang layak"
+        },
+        "excludedInstruments": {
+          "label": "Instrumen Dikecualikan",
+          "value": "Saham & pasangan kripto"
+        },
+        "withdrawals": {
+          "label": "Pengeluaran",
+          "value": "Dibenarkan sepanjang kempen"
+        }
+      }
+    },
+    "importantTermsSection": {
+      "subTitle": "Undang-undang",
+      "titleHtml": "Terma <span class=\"text-primary\">Penting</span>",
+      "des": "Sila baca terma ini dengan teliti sebelum menyertai program Trade to Win.",
+      "items": {
+        "fairPlay": {
+          "title": "Permainan Adil",
+          "body": "Sebarang tanda penyalahgunaan pasaran — termasuk latency arbitrage atau teknik manipulatif — akan mengakibatkan diskualifikasi serta-merta."
+        },
+        "eligibility": {
+          "title": "Had Kelayakan",
+          "body": "Hanya akaun individu yang diurus sendiri boleh menyertai. Akaun terurus atau akaun yang dirujuk IB tidak layak."
+        },
+        "liability": {
+          "title": "Penafian Liabiliti",
+          "body": "WINPROFX tidak bertanggungjawab atas sebarang kerugian dagangan. Program ini tidak mengubah profil risiko atau strategi pelaburan peserta."
+        },
+        "dispute": {
+          "title": "Penyelesaian Pertikaian",
+          "body": "Sebarang isu yang tidak disebut secara langsung dalam terma ini akan diselesaikan oleh pengurusan secara adil dan mengikat."
+        }
+      }
+    }
+  },
+  "introducingBroker": {
+    "meta": "PROGRAM RAKAN KONGSI",
+    "h1": "Program Introducing Broker",
+    "des": "Sertai program Introducing Broker (IB) terkemuka yang direka untuk hasil maksimum, ketelusan mutlak dan payout automatik harian.",
+    "buttonText": "Jadi Partner",
+    "advantages": {
+      "title": "Kelebihan Partner Eksklusif",
+      "description": "Berkongsi dengan WINPROFX sebagai introducing broker. Struktur commission, sumber sokongan dan terma perkongsian diterbitkan untuk partner yang diluluskan.",
+      "cards": {
+        "profitShare": "Sehingga <b>90%</b> profit share daripada spreads",
+        "awards": "Broker Berwibawa dengan <b>40+</b> anugerah industri",
+        "evolving": "Berkembang setiap hari dalam pasaran",
+        "rewards": "Trade dan Menangi <b>Rewards</b> Setiap Hari"
+      },
+      "stepsTitle": "Apa Yang Membezakan Kami:",
+      "stepsSubtitle": "Sebab Keutamaan Pelanggan",
+      "steps": {
+        "withdrawal": "Withdrawal Terpantas",
+        "noSwap": "Tanpa Swap",
+        "noCommission": "Tanpa Komisen",
+        "lowSpread": "Spread Rendah"
+      }
+    },
+    "benefits": {
+      "title": "Manfaat Menjadi Introducing Broker dengan WINPROFX:",
+      "paragraph1": "Buka pelbagai kelebihan dengan menjadi Introducing Broker WINPROFX. Nikmati struktur commission yang generous, pengiktirafan industri, evolusi pasaran berterusan dan peluang memberi everyday rewards kepada trader.",
+      "paragraph2": "Sertai kami membentuk masa depan perkongsian trading dengan Best Broker Trading Platform.",
+      "cardTitle": "Multi-tier sehingga 5 Level",
+      "cardDescription": "Sebagai IB, anda boleh mempunyai sehingga 5 sub level referral traders."
+    },
+    "payoutForm": {
+      "title": "Mulakan Perjalanan Anda Ke Arah Pertumbuhan & Kejayaan",
+      "heading": "Penyelesaian Payout Pantas",
+      "description": "Tinggalkan butiran anda, kami akan menghubungi anda tidak lama lagi.",
+      "fullName": "Nama Penuh",
+      "fullNamePlaceholder": "Masukkan nama penuh anda",
+      "email": "E-mel",
+      "emailPlaceholder": "Masukkan e-mel anda",
+      "phone": "Nombor Telefon",
+      "phonePlaceholder": "Masukkan nombor anda",
+      "message": "Mesej",
+      "messagePlaceholder": "Tulis mesej anda di sini",
+      "sendOtp": "HANTAR OTP",
+      "sendingOtp": "MENGHANTAR...",
+      "otpSent": "OTP DIHANTAR ✓",
+      "agree": "Dengan menghantar borang ini, anda bersetuju dihubungi oleh pasukan kami.",
+      "submit": "Hantar"
+    }
+  },
+  "platform": {
+    "meta": "PLATFORM DAGANGAN",
+    "h1": "Platform Dagangan",
+    "bannerMeta": "Platform Dagangan",
+    "bannerDes": "WINPROFX telah mencapai kejayaan ketara dalam pengembangan perniagaan global. WINPROFX menyediakan akses platform MetaTrader 5 (MT5) untuk dagangan Forex dan CFD, tersedia di Android dan iPhone, membawa anda selangkah lebih dekat ke arah kejayaan. Muat turun MT5 sekarang dan terokai dunia peluang dagangan tanpa had.",
+    "cards": {
+      "mobile": {
+        "meta": "PLATFORM DAGANGAN",
+        "title": "Muat Turun MT5 untuk Mudah Alih",
+        "description": "WINPROFX terus berjaya mengembangkan perniagaannya di seluruh dunia, dan kini MT5 tersedia di Android dan iPhone — anda selangkah lebih dekat ke arah kejayaan. Muat turun MT5 sekarang dan terjun ke dunia peluang dagangan tanpa had."
+      },
+      "desktop": {
+        "meta": "PLATFORM DAGANGAN",
+        "title": "MUAT TURUN MT5 UNTUK DESKTOP",
+        "description": "Alami kuasa MT5 di desktop anda. Akses alat carta lanjutan, keupayaan dagangan automatik dan data pasaran masa nyata. WINPROFX menyediakan platform dagangan berasaskan web yang lancar untuk pedagang profesional yang mahukan ciri lanjutan dan fleksibiliti."
+      }
+    }
+  },
+  "accounts": {
+    "meta": "AKAUN",
+    "h1": "Akaun Trading",
+    "des": "Buka akaun trading bebas komisen dengan ciri lengkap direka untuk trader moden. Daftar sekarang dan nikmati faedah akaun paling popular kami.",
+    "chooseAccount": {
+      "title": "Pilih Akaun Anda",
+      "recommended": "DISYORKAN",
+      "register": "Daftar",
+      "labels": {
+        "minimumDeposit": "Deposit Minimum",
+        "spread": "Spread",
+        "commission": "Komisen",
+        "maxLeverage": "Leverage Maksimum",
+        "instruments": "Instrumen"
+      },
+      "instruments": {
+        "forex": "Forex",
+        "metal": "Metal",
+        "crypto": "Crypto",
+        "energies": "Energies",
+        "indices": "Indices"
+      },
+      "plans": {
+        "standard": {
+          "title": "Standard",
+          "description": "Akaun paling popular kami. Sesuai untuk semua jenis pedagang.",
+          "minimumDeposit": "$50",
+          "spread": "Dari 0.2 pip",
+          "commission": "Tiada Komisen",
+          "leverage": "1:500"
+        },
+        "pro": {
+          "title": "Pro",
+          "description": "Akaun pelaksanaan segera kami, tanpa komisen dan spread rendah.",
+          "minimumDeposit": "$3000",
+          "spread": "Dari 0.1 pip",
+          "commission": "Tiada Komisen",
+          "leverage": "1:500"
+        },
+        "ecn": {
+          "title": "ECN",
+          "description": "Akaun pelaksanaan segera kami, tanpa komisen dan spread rendah",
+          "minimumDeposit": "$5000",
+          "spread": "Dari 0.0 pip",
+          "commission": "Sehingga $3.50 setiap sisi setiap lot",
+          "leverage": "1:500"
+        }
+      }
+    }
+  },
+  "aboutUs": {
+    "meta": "TENTANG KAMI",
+    "h1": "Tentang WINPROFX",
+    "values": {
+      "advancedTechnology": {
+        "title": "Teknologi Canggih",
+        "des": "Kami berterusan mencari inovasi teknologi untuk menyampaikan pelaksanaan pantas dan pengalaman trading yang lancar."
+      },
+      "clientCentric": {
+        "title": "Fokus Pelanggan",
+        "des": "Kejayaan anda adalah keutamaan kami. Kami melengkapkan trader dengan sumber, kecairan, dan sokongan yang diperlukan."
+      },
+      "integrity": {
+        "title": "Integriti Teguh",
+        "des": "Kepercayaan adalah yang utama. Kami beroperasi dengan ketelusan radikal dan piawaian etika yang ketat."
+      },
+      "globalNetwork": {
+        "title": "Rangkaian Global",
+        "des": "Sertai ekosistem profesional di mana wawasan kolektif dan prestasi individu mendorong kejayaan bersama."
+      }
+    }
+  },
+  "about": {
+    "meta": "Maklumat Rasmi",
+    "h1": "Tentang WINPROFX",
+    "sections": {
+      "whatIsWinprofx": "Apakah WINPROFX?",
+      "servicesProvided": "Perkhidmatan Disediakan",
+      "officialDomains": "Domain Rasmi",
+      "clientPartnerLogin": "Log Masuk Pelanggan dan Rakan Kongsi",
+      "riskWarning": "Amaran Risiko",
+      "contact": "Hubungi"
+    },
+    "whatIsBody": "WINPROFX ialah jenama trading Forex dan CFD yang menawarkan akses platform trading, perkhidmatan akaun pelanggan, alat program rakan kongsi, dan perkhidmatan sokongan berkaitan trading melalui domain dan portal rasminya.",
+    "services": {
+      "forexCfd": "Akses trading Forex dan CFD",
+      "platformTools": "Maklumat dan alat platform trading",
+      "clientPortal": "Pengurusan akaun pelanggan melalui portal pelanggan rasmi",
+      "partnerProgram": "Alat program rakan kongsi dan introducing broker",
+      "support": "Perkhidmatan sokongan pelanggan berkaitan trading"
+    }
+  },
+  "contact": {
+    "meta": "Sokongan Pelanggan",
+    "h1": "Hubungi WINPROFX",
+    "sections": {
+      "getInTouch": "Hubungi Kami",
+      "contactChannels": "Saluran Hubungan",
+      "businessHours": "Waktu Perniagaan",
+      "contactRiskLegal": "Nota Hubungan, Risiko & Undang-undang"
+    },
+    "labels": {
+      "supportEmail": "E-mel Sokongan",
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "officialWebsite": "Laman Web Rasmi",
+      "clientPortal": "Portal Pelanggan",
+      "partnerPortal": "Portal Rakan Kongsi"
+    }
+  },
+  "blog": {
+    "meta": "ARTIKEL",
+    "h1": "Blog WINPROFX",
+    "categories": {
+      "all": "Semua",
+      "forex": "Forex",
+      "indices": "Indeks",
+      "crypto": "Kripto",
+      "oil": "Minyak",
+      "metals": "Logam",
+      "commodities": "Komoditi"
+    },
+    "pageMeta": "Artikel",
+    "pageTitle": "Blog WINPROFX"
+  },
+  "promotionUi": {
+    "howItWorks": {
+      "subTitle": "Cara Ia Berfungsi",
+      "title": "Empat Langkah ke Hadiah Anda",
+      "des": "Memulakan sangat mudah. Lengkapkan langkah ini dan anda sedang dalam perjalanan memenangi hadiah Apple eksklusif.",
+      "steps": {
+        "register": {
+          "title": "Daftar",
+          "desc": "Buka akaun live dengan WINPROFX. Pelanggan baharu boleh opt in dari deposit pertama."
+        },
+        "optIn": {
+          "title": "Sertai Program",
+          "desc": "Pilih program Trade to Win dan tentukan tier hadiah sasaran sebelum mula dagangan."
+        },
+        "trade": {
+          "title": "Dagangan",
+          "desc": "Dagangkan instrumen layak — tahan setiap posisi sekurang-kurangnya 3 minit untuk dikira sebagai lot layak."
+        },
+        "win": {
+          "title": "Menangi Hadiah Anda",
+          "desc": "Capai volume lot sasaran dalam 30 hari dan tuntut hadiah eksklusif anda."
+        }
+      }
+    },
+    "programPeriod": {
+      "subTitle": "Tempoh Program",
+      "title": "Bilakah Program Berlangsung?",
+      "items": {
+        "activeDates": {
+          "title": "Tarikh Aktif",
+          "desc": "Program berlangsung dari 1 Mac 2025 hingga 31 Mei 2026. Sertai pada bila-bila masa dalam tempoh ini."
+        },
+        "tradingTimeline": {
+          "title": "Garis Masa Dagangan",
+          "desc": "Selepas opt in, anda mempunyai 30 hari dari tarikh mula untuk mencapai volume sasaran dan tuntut hadiah."
+        },
+        "optInDeadline": {
+          "title": "Tarikh Akhir Opt-In",
+          "desc": "Pelanggan baharu boleh opt in dari deposit pertama. Jangan tangguh — setiap hari dikira dalam tetingkap 30 hari anda."
+        }
+      }
+    },
+    "eligibility": {
+      "subTitle": "Kelayakan",
+      "title": "Siapa Boleh Menyertai?",
+      "des": "Semak keperluan kelayakan sebelum menyertai program Trade to Win.",
+      "items": {
+        "whoCanJoin": {
+          "title": "Siapa Boleh Sertai",
+          "desc": "Eksklusif untuk pelanggan runcit. Introducing Brokers (IB) dikecualikan dan tidak boleh menyertai kempen ini."
+        },
+        "singleEntry": {
+          "title": "Kemasukan Tunggal",
+          "desc": "Setiap peserta hanya boleh menyertai satu aktiviti program pada satu masa. Pilih tier dengan bijak sebelum opt in."
+        },
+        "withdrawals": {
+          "title": "Pengeluaran Dibenarkan",
+          "desc": "Pengeluaran dibenarkan sepanjang kempen dan tidak akan membatalkan kelayakan anda."
+        },
+        "tradeDuration": {
+          "title": "Tempoh Dagangan",
+          "desc": "Dagangan layak mesti dibuka sekurang-kurangnya 3 minit untuk dikira sebagai lot layak."
+        },
+        "excludedInstruments": {
+          "title": "Instrumen Dikecualikan",
+          "desc": "Saham dan pasangan cryptocurrency tidak layak untuk promosi ini. Semua instrumen supported lain layak."
+        },
+        "accountType": {
+          "title": "Jenis Akaun",
+          "desc": "Hanya akaun individu self-directed boleh menyertai. Akaun managed atau akaun rujukan IB tidak layak."
+        }
+      }
+    },
+    "startTrading": {
+      "subTitle": "Mulakan",
+      "title": "Mula Berdagang dengan WINPROFX!",
+      "des": "Setiap lot yang anda dagangkan membawa anda lebih dekat ke hadiah eksklusif. Buka akaun live hari ini dan opt in ke program Trade to Win.",
+      "steps": {
+        "register": {
+          "title": "Daftar",
+          "desc": "Cipta akaun live anda"
+        },
+        "fund": {
+          "title": "Dana",
+          "desc": "Buat deposit pertama"
+        },
+        "trade": {
+          "title": "Dagangan",
+          "desc": "Capai sasaran volume lot"
+        },
+        "claim": {
+          "title": "Tuntut Hadiah",
+          "desc": "Terima hadiah eksklusif anda"
+        }
+      },
+      "questionsPrefix": "Soalan? Hubungi kami di",
+      "questionsSuffix": "atau lawati"
+    },
+    "ptConditions": {
+      "subTitle": "Terma Penting",
+      "title": "Terma & Syarat Program",
+      "des": "Sila baca terma ini dengan teliti sebelum menyertai program Trade to Win.",
+      "items": {
+        "fairPlay": {
+          "title": "Permainan Adil",
+          "desc": "Tanda-tanda penyalahgunaan pasaran seperti latency arbitrage atau teknik dagangan manipulatif akan menyebabkan pembatalan kelayakan serta-merta."
+        },
+        "dispute": {
+          "title": "Penyelesaian Pertikaian",
+          "desc": "Isu yang tidak diuruskan secara langsung dalam terma ini akan ditangani pengurusan secara adil dan mengikat. Keputusan pengurusan adalah muktamad."
+        },
+        "liability": {
+          "title": "Penafian Liabiliti",
+          "desc": "WINPROFX tidak akan bertanggungjawab atas sebarang kerugian dagangan. Program ini tidak mengubah profil risiko atau strategi pelaburan peserta."
+        },
+        "general": {
+          "title": "Terma Am",
+          "desc": "WINPROFX berhak meminda atau menamatkan program ini pada bila-bila masa. Semua terma dan syarat WINPROFX sedia ada terpakai tambahan ke atas terma program ini."
+        }
+      },
+      "riskWarning": "Dagangan forex dan produk leveraged melibatkan risiko ketara dan tidak sesuai untuk semua pelabur. Dagangan boleh menyebabkan kerugian melebihi pelaburan awal anda. Pastikan anda memahami risiko yang terlibat sepenuhnya.",
+      "readFullRiskDisclosure": "Baca Pendedahan Risiko Penuh →"
+    },
+    "rewardTiers": {
+      "volumeLabel": "Lot",
+      "items": {
+        "tier1": {
+          "prize": "Bank Kuasa",
+          "desc": "Kekal bertenaga di mana sahaja anda berdagang"
+        },
+        "tier2": {
+          "prize": "Apple AirPods",
+          "desc": "Prestasi pro-level di tangan anda"
+        },
+        "tier3": {
+          "prize": "Jam Tangan Apple",
+          "desc": "Hadiah utama untuk pedagang teratas"
+        },
+        "tier4": {
+          "prize": "iPad",
+          "desc": "Berdagang lebih bijak pada skrin lebih besar"
+        },
+        "tier5": {
+          "prize": "iPad Pro",
+          "desc": "Berdagang lebih bijak pada skrin pro-level lebih besar"
+        },
+        "tier6": {
+          "prize": "iPhone TERKINI",
+          "desc": "Peranti muktamad untuk pedagang elite"
+        }
+      },
+      "tradingVolumeLabel": "Volume Dagangan",
+      "noteLabel": "Nota:",
+      "note": "Capai volume sasaran dalam 30 hari dari tarikh opt-in. Saham & pasangan crypto dikecualikan."
+    }
+  }
+}

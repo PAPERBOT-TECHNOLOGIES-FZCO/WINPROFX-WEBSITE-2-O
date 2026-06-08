@@ -4,58 +4,48 @@ import Accordion from '@/components/accordion'
 import CommonTitle from '@/components/common-title';
 import Card from '@/components/trade/card';
 import Cta from '@/components/trade/cta';
-import banner_bg from '@/assets/img/trade/forex-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/forex.png'
 import SeoHead from '@/components/seo-head'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 export default function Forex() {
+    const seo = useSeo('forex')
+    const { t } = useTranslation('markets')
+
     const item = [
         {
-            title: 'DISCOVER HOW TO TRADE',
-            body: `
-                <p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
-                <p>A Brief Summary of Recent News and Opinions</p>
-                <p>Volatility Forecast Based on Technical Analysis</p>
-                <p>Brief overview of major currency pairs based on the provided fundamental</p>
-                <p>For example, if you choose to trade GBP/USD (British pound/US dollar) and you think the value of the GBP will rise against USD, you go long (buy). If you think GBP will fall against USD, you go short (sell). If your prediction is correct, you make a profit. If your prediction is incorrect, you would make a loss. Remember, losses can exceed deposits..</p>
-            `,
+            title: t('shared.faq.discoverHowToTrade.title'),
+            body: t('shared.faq.discoverHowToTrade.body'),
         },
         {
-            title: 'WHAT IS FOREX?',
-            body: `
-               <p>Forex stands for FOREIGN EXCHANGE. In simple terms, by sitting in one place in the world, one can trade in any Country’s Currency, Metals, World Indices and Crypto by studying world economy and technical charts.</p>
-            `,
+            title: t('forex.faq.whatIsForex.title'),
+            body: t('forex.faq.whatIsForex.body'),
         },
         {
-            title: 'HOW TO TRADE FOREX?',
-            body: `
-                <p>First, find a reputed Forex broker, such as WINPROFX, open an account, deposit funds, analyse the market trend, choose your preferred trading instrument, and finally take your position to earn a profit.</p>
-            `,
+            title: t('forex.faq.howToTradeForex.title'),
+            body: t('forex.faq.howToTradeForex.body'),
         },
     ]
 
     return (
         <>
-            <SeoHead
-                title="Forex Trading | WINPROFX"
-                description="Explore forex market information and trading-related services at WINPROFX, including platform access, account options, and important risk details."
-                keywords="Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WINPROFX Forex Services"
-                canonicalPath="/forex"
-            />
+            <SeoHead {...seo} canonicalPath="/forex" />
             <CommonBanner
-                title="Forex Trading"
-                des="Trade 24/5 on assets in the foreign exchange market. We offer over 50 major, minor, and exotic currency pairs, with competitive spreads, sharp prices, fast execution, and 0% commission."
+                title={t('forex.banner.title')}
+                des={t('forex.banner.description')}
             />
             <div className="common-padding">
                 <Container>
                     <div className="flex flex-col gap-y-6 lg:gap-y-8 max-w-6xl">
                         <Card
-                            meta="Forex trading"
-                            title="Popular Indices Markets"
+                            meta={t('forex.card.meta')}
+                            title={t('forex.card.title')}
                             des={<>
-                                <p>Forex or the Foreign Exchange is a global market where currencies trade. It vastly overshadows the stock market, with forex trading reaching up to 5 trillion USD a day. </p>
-                                <p>Since the forex market is not centralized it is open 24 hours a day, from Sunday night to Friday night. Choosing the Best Forex Trading Platform is crucial for optimizing your trading experience.</p>
+                                <p>{t('forex.card.description1')}</p>
+                                <p>{t('forex.card.description2')}</p>
                             </>}
                             img={img}
                         />
@@ -65,10 +55,11 @@ export default function Forex() {
             </div>
             <div className="common-padding pt-0">
                 <div className='max-w-215 mx-auto px-3'>
-                    <CommonTitle className='text-center' title="Learn About Forex Trading" />
+                    <CommonTitle className='text-center' title={t('forex.learn.title')} />
                     <Accordion items={item} activeItem={0} />
                 </div>
             </div>
+            <MarketPageTrustLinks />
         </>
     )
 }

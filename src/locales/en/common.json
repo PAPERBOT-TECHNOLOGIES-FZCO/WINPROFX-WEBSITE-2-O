@@ -1,0 +1,37 @@
+{
+  "buttons": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "openAccount": "Open Account",
+    "startTrading": "Start Trading",
+    "downloadNow": "Download Now",
+    "viewPage": "View page →",
+    "viewAllArticles": "View all articles →",
+    "readFullRiskWarning": "Read full risk warning"
+  },
+  "labels": {
+    "home": "Home",
+    "trustCenter": "Trust Center",
+    "lastReviewed": "Last reviewed:",
+    "reviewedBy": "Reviewed by:",
+    "riskWarning": "Risk warning:",
+    "lastUpdated": "Last updated: {{date}}",
+    "authorReviewedBy": "Author: {{author}} · Reviewed by: {{reviewer}}",
+    "faqTitle": "Frequently Asked Questions",
+    "relatedTrustPages": "Related WINPROFX verification pages",
+    "relatedPages": "Related WINPROFX Pages",
+    "moreArticles": "More Articles",
+    "whatsapp": "Whatsapp"
+  },
+  "disclaimer": {
+    "learnEducational": "This article is for educational purposes only and does not constitute investment advice, financial advice, or a recommendation to trade."
+  },
+  "risk": {
+    "short": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Clients should understand the risks before trading.",
+    "full": "Trading forex, CFDs, and related financial products involves significant risk and may not be suitable for all investors. You may lose some or all of your invested capital. Past performance is not indicative of future results. Clients should understand the risks before trading and seek independent advice if necessary."
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  }
+}

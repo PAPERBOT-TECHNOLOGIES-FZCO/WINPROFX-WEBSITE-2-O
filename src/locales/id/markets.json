@@ -1,0 +1,191 @@
+{
+  "shared": {
+    "cta": {
+      "meta": "wawasan penting",
+      "title": "Mengungkap Pembelajaran Puncak untuk Kesuksesan Strategis.",
+      "description": "Latihan, pengetahuan, dan manajemen risiko penting bagi semua trader. Tinjau peringatan risiko WINPROFX dan informasi Trust Center sebelum trading."
+    },
+    "trustLinks": {
+      "title": "Informasi Trading dan Risiko",
+      "accountTypes": "Jenis Akun",
+      "mt5Platform": "Platform Trading MT5",
+      "trustCenter": "Pusat Kepercayaan WINPROFX",
+      "riskWarning": "Peringatan Risiko",
+      "clientFundSecurity": "Keamanan Dana Klien",
+      "learningCenter": "Pusat Pembelajaran WINPROFX"
+    },
+    "faq": {
+      "discoverHowToTrade": {
+        "title": "TEMUKAN CARA TRADING",
+        "body": "<p>Unduh aplikasi Edukasi kami untuk mempelajari cara trading berbagai instrumen keuangan di WINPROFX Trader. Untuk memulai, kami telah mencakup setiap aspek trading.</p><p>Ringkasan Singkat Berita dan Opini Terkini</p><p>Prakiraan Volatilitas Berdasarkan Analisis Teknikal</p><p>Ringkasan singkat pasangan mata uang utama berdasarkan fundamental yang disediakan</p><p>Misalnya, jika Anda memilih untuk trading GBP/USD (pound Inggris/dolar AS) dan Anda berpikir nilai GBP akan naik terhadap USD, Anda melakukan long (beli). Jika Anda berpikir GBP akan turun terhadap USD, Anda melakukan short (jual). Jika prediksi Anda benar, Anda mendapatkan keuntungan. Jika prediksi Anda salah, Anda akan mengalami kerugian. Ingat, kerugian dapat melebihi deposit..</p>"
+      }
+    }
+  },
+  "forex": {
+    "banner": {
+      "title": "Trading Forex",
+      "description": "Trading 24/5 pada aset di pasar valuta asing. Kami menawarkan lebih dari 50 pasangan mata uang mayor, minor, dan eksotis, dengan spread kompetitif, harga tajam, eksekusi cepat, dan komisi 0%."
+    },
+    "card": {
+      "meta": "Trading forex",
+      "title": "Pasar Forex Populer",
+      "description1": "Forex atau Foreign Exchange adalah pasar global tempat mata uang diperdagangkan. Pasar ini jauh melampaui pasar saham, dengan volume trading forex mencapai hingga 5 triliun USD per hari.",
+      "description2": "Karena pasar forex tidak terpusat, pasar ini buka 24 jam sehari, dari malam Minggu hingga malam Jumat. Selalu tinjau pengungkapan risiko dan informasi verifikasi resmi sebelum trading."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Forex Trading"
+    },
+    "faq": {
+      "whatIsForex": {
+        "title": "APA ITU FOREX?",
+        "body": "<p>Forex adalah singkatan dari FOREIGN EXCHANGE. Secara sederhana, dengan duduk di satu tempat di dunia, seseorang dapat trading Mata Uang, Logam, Indeks Dunia, dan Crypto negara mana pun dengan mempelajari ekonomi dunia dan grafik teknikal.</p>"
+      },
+      "howToTradeForex": {
+        "title": "BAGAIMANA CARA TRADING FOREX?",
+        "body": "<p>Pertama, temukan broker Forex terpercaya, seperti WINPROFX, buka akun, deposit dana, analisis tren pasar, pilih instrumen trading pilihan Anda, dan akhirnya ambil posisi untuk mendapatkan keuntungan.</p>"
+      }
+    }
+  },
+  "indices": {
+    "banner": {
+      "meta": "Trading indeks",
+      "title": "Trading Indeks",
+      "description": "Indeks melacak kinerja sekelompok perusahaan berkinerja terbaik, memberi Anda eksposur terhadap seluruh ekonomi melalui satu transaksi trading."
+    },
+    "card": {
+      "meta": "Trading indeks",
+      "title": "Pasar Indeks Populer",
+      "description1": "Indeks pasar saham mengukur kinerja sekeranjang saham dari bursa atau sektor tertentu.",
+      "description2": "Trading CFDs indeks memungkinkan Anda mendapatkan eksposur pasar yang luas melalui satu posisi. Selalu tinjau pengungkapan risiko dan informasi verifikasi resmi sebelum trading."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Indices Trading"
+    },
+    "faq": {
+      "howCalculated": {
+        "title": "BAGAIMANA INDEKS PASAR SAHAM DIHITUNG?",
+        "body": "<p>Sebagian besar indeks pasar saham dihitung berdasarkan kapitalisasi pasar perusahaan komponennya. Metode ini memberikan bobot lebih besar pada perusahaan dengan kapitalisasi lebih tinggi, yang berarti kinerjanya akan memengaruhi nilai indeks lebih besar daripada perusahaan dengan kapitalisasi lebih rendah.</p>"
+      },
+      "tradeWithLeverage": {
+        "title": "TRADING DENGAN LEVERAGE",
+        "body": "<p>Saat trading dengan leverage, Anda harus ingat bahwa keuntungan atau kerugian Anda dihitung menggunakan ukuran posisi keseluruhan, bukan hanya margin awal yang digunakan untuk membukanya. Ini berarti bahwa meskipun leverage dapat memperbesar keuntungan, leverage juga dapat memperbesar kerugian.</p>"
+      }
+    }
+  },
+  "crypto": {
+    "banner": {
+      "meta": "Trading kripto",
+      "title": "Trading Kripto",
+      "description1": "Cryptocurrency adalah aset digital yang dibangun di atas teknologi blockchain, menawarkan transaksi keuangan yang terdesentralisasi dan transparan. Selama dekade terakhir, pasar crypto telah berkembang menjadi salah satu peluang trading dengan pertumbuhan tercepat di dunia.",
+      "description2": "Dengan platform kami, Anda dapat trading cryptocurrency populer seperti Bitcoin, Ethereum, dan lainnya melalui CFDs—memungkinkan Anda berspekulasi pada pergerakan harga tanpa memiliki aset dasarnya.",
+      "description3": "Manfaatkan likuiditas tinggi, akses pasar 24/7, dan alat trading canggih yang dirancang untuk pemula maupun trader berpengalaman."
+    },
+    "card": {
+      "meta": "Trading kripto",
+      "title": "Trading Pasangan Cryptocurrency Populer",
+      "description": "Lacak pergerakan harga real-time dan jelajahi peluang di berbagai aset crypto terkemuka."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Cryptocurrency Trading"
+    },
+    "faq": {
+      "whatIsCrypto": {
+        "title": "APA ITU CRYPTOCURRENCY?",
+        "body": "<p>Cryptocurrency adalah sistem pembayaran digital yang tidak bergantung pada bank untuk memverifikasi transaksi. Ini adalah sistem peer-to-peer yang memungkinkan siapa saja di mana saja untuk mengirim dan menerima pembayaran. Alih-alih uang fisik yang dibawa dan ditukar di dunia nyata, pembayaran cryptocurrency hanya ada sebagai entri digital dalam database online yang mendeskripsikan transaksi tertentu. Saat Anda mentransfer dana cryptocurrency, transaksi dicatat dalam buku besar publik. Cryptocurrency disimpan dalam dompet digital.</p>"
+      },
+      "howDoesCryptoWork": {
+        "title": "BAGAIMANA CRYPTOCURRENCY BEKERJA?",
+        "body": "<p>Cryptocurrency berjalan pada buku besar publik terdistribusi yang disebut blockchain, catatan semua transaksi yang diperbarui dan dipegang oleh pemegang mata uang. Unit cryptocurrency dibuat melalui proses yang disebut mining, yang melibatkan penggunaan daya komputer untuk menyelesaikan masalah matematika rumit yang menghasilkan koin. Pengguna juga dapat membeli mata uang dari broker, lalu menyimpan dan membelanjakannya menggunakan dompet kriptografi.</p>"
+      }
+    }
+  },
+  "metals": {
+    "banner": {
+      "meta": "Trading logam",
+      "title": "Trading Logam",
+      "description1": "Spot Metal Trading memiliki tempat istimewa di hati setiap trader. Logam telah menarik trader di seluruh dunia sejak zaman kuno dan terus melakukannya hingga hari ini.",
+      "description2": "WINPROFX Trader menawarkan spread terendah untuk berbagai logam berdasarkan minat dan preferensi inti Anda. Tinjau jenis akun dan peringatan risiko sebelum trading CFDs logam."
+    },
+    "card": {
+      "meta": "Trading logam",
+      "title": "Pasar Logam Populer",
+      "description": "Lacak kinerja real-time logam utama dan identifikasi peluang trading di pasar komoditas global."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Metals Trading"
+    },
+    "faq": {
+      "whyTradeMetals": {
+        "title": "MENGAPA TRADING LOGAM DENGAN WINPROFX",
+        "body": "<p>WINPROFX memiliki rekam jejak yang kaya selama lebih dari 16 tahun. Kami telah memberikan trader kami peluang hebat dan pengalaman trading yang tak tertandingi. Ini menempatkan kami sebagai salah satu broker terkemuka dalam trading logam. Jadi, jika Anda ingin trading Emas, ada banyak alasan untuk memilih WINPROFX: Ribuan trader yang bahagia dan puas</p><p>Dukungan tersedia sepanjang waktu Penarikan dan eksekusi super cepat Analitik kaya untuk membuat keputusan yang tepat</p><p>Misalnya, jika Anda memilih untuk trading GBP/USD (pound Inggris/dolar AS) dan Anda berpikir nilai GBP akan naik terhadap USD, Anda melakukan long (beli). Jika Anda berpikir GBP akan turun terhadap USD, Anda melakukan short (jual). Jika prediksi Anda benar, Anda mendapatkan keuntungan. Jika prediksi Anda salah, Anda akan mengalami kerugian. Ingat, kerugian dapat melebihi deposit..</p>"
+      },
+      "stepUpTrading": {
+        "title": "TINGKATKAN PERMAINAN TRADING KOMODITAS ANDA",
+        "body": "<p>Emas adalah logam yang paling aktif diperdagangkan. Berdasarkan hukum penawaran dan permintaan, harganya ditentukan oleh pasar 24/7. Faktor lain seperti nilai dolar AS, permintaan industri, serta inflasi juga memengaruhi harganya. Jika Anda ingin trading logam, mulailah di jalur yang benar dengan WINPROFX dan melangkah dengan percaya diri untuk menjadi trader berpengalaman.</p>"
+      },
+      "howMetalTradingWorks": {
+        "title": "BAGAIMANA TRADING LOGAM BEKERJA?",
+        "body": "<p>Untuk mengoptimalkan pengembalian, trader harus memiliki pemahaman yang jelas tentang semua faktor yang memengaruhi harga emas dan logam lainnya. Menariknya, pendorong harga logam mulia cukup berbeda dibandingkan instrumen lainnya.</p>"
+      }
+    }
+  },
+  "commodities": {
+    "banner": {
+      "meta": "Trading komoditas",
+      "title": "Trading Komoditas",
+      "description1": "Manfaatkan volatilitas pasar dan pilih dari CFDs pada komoditas spot dan futures. Di WINPROFX, kami menawarkan beberapa instrumen paling populer di pasar komoditas termasuk emas, minyak, dan kopi, untuk spekulasi dan lindung nilai.",
+      "description2": "Trading per pergerakan tick penuh dengan komisi nol dan tanpa biaya tersembunyi. Tinjau jenis akun dan peringatan risiko sebelum trading CFDs komoditas."
+    },
+    "card": {
+      "meta": "Trading komoditas",
+      "title": "Pasar Komoditas Langsung",
+      "description": "Pantau aksi harga real-time dan lacak volatilitas harian di berbagai aset logam, energi, dan pertanian terkemuka."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Commodities Trading"
+    },
+    "faq": {
+      "whatAreCommodities": {
+        "title": "Apa itu komoditas?",
+        "body": "<p>Komoditas adalah bahan baku atau produk pertanian primer yang dapat dibeli dan dijual di pasar keuangan. Komoditas biasanya digunakan dalam produksi barang dan jasa lainnya dan diperdagangkan di bursa komoditas di seluruh dunia. Beberapa contohnya termasuk logam (emas, perak, dan platinum), sumber energi (batu bara, minyak mentah, dan gas alam), produk pertanian (kedelai, jagung, dan gandum), serta ternak dan produk hewani (sapi, telur, dan susu).</p>"
+      },
+      "howCommodityTradingWorks": {
+        "title": "Bagaimana trading komoditas bekerja?",
+        "body": "<p>Trading komoditas memungkinkan Anda berspekulasi pada pergerakan harga bahan baku melalui CFDs tanpa memiliki aset fisik. Trader menganalisis penawaran dan permintaan, pola cuaca, peristiwa geopolitik, dan data ekonomi untuk membuka posisi long atau short pada instrumen seperti emas, minyak, dan produk pertanian.</p>"
+      },
+      "howMuchToStart": {
+        "title": "Berapa banyak uang yang dibutuhkan untuk memulai trading komoditas?",
+        "body": "<p>Jumlah yang dibutuhkan tergantung pada jenis akun, leverage, dan instrumen yang Anda trading. WINPROFX menawarkan berbagai opsi akun dengan persyaratan deposit minimum yang berbeda. Mulailah dengan jumlah yang Anda mampu untuk kehilangan dan tinjau jenis akun serta peringatan risiko kami sebelum trading.</p>"
+      }
+    }
+  },
+  "oil": {
+    "banner": {
+      "meta": "Trading minyak",
+      "title": "Trading Minyak",
+      "description": "Lindung nilai terhadap volatilitas harga dan manfaatkan tren pasar global. Akses data real-time, charting canggih, dan likuiditas mendalam di platform trading utama kami untuk menavigasi sektor energi dengan percaya diri."
+    },
+    "card": {
+      "meta": "Trading minyak",
+      "title": "Trading Data Pasar Langsung",
+      "description": "Lacak pergerakan harga real-time, fluktuasi harian, dan tren teknikal di berbagai aset energi premium."
+    },
+    "learn": {
+      "title": "Pelajari Tentang Oil Trading"
+    },
+    "faq": {
+      "howToStart": {
+        "title": "Bagaimana cara memulai trading minyak?",
+        "body": "<p>Sebelum Anda mulai trading minyak, penting untuk melakukan riset dan memahami pasar. Anda perlu mengetahui faktor apa yang memengaruhi harga minyak dan bagaimana faktor-faktor tersebut dapat berubah di masa depan. Juga, pahami berbagai jenis minyak yang dapat Anda trading di pasar dan produk yang menggunakan masing-masing jenis.</p>"
+      },
+      "bestStrategy": {
+        "title": "Apa strategi terbaik untuk trading minyak mentah?",
+        "body": "<p>Strategi minyak mentah yang efektif sering menggabungkan analisis teknikal dengan kesadaran akan penawaran, permintaan, dan berita geopolitik. Banyak trader menggunakan pendekatan trend-following, breakout, atau range-trading selama sesi volume tinggi. Tidak ada strategi yang menjamin keuntungan—selalu gunakan manajemen risiko dan tinjau pengungkapan risiko WINPROFX.</p>"
+      },
+      "bestIndicator": {
+        "title": "Apa indikator terbaik untuk minyak mentah?",
+        "body": "<p>Alat populer untuk minyak mentah termasuk moving averages, RSI, MACD, dan indikator berbasis volume, sering bersamaan dengan watchlist untuk laporan inventaris dan berita OPEC. Indikator terbaik tergantung pada timeframe dan strategi Anda—berlatih di demo dan tinjau sumber daya edukasi sebelum trading live.</p>"
+      }
+    }
+  }
+}

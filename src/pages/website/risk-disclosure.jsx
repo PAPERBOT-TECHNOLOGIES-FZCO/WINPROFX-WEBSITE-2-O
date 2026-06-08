@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,9 +7,12 @@ import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function RiskDisclosure() {
-    const info = [
+    const { t } = useTranslation('legal')
+  const seo = useSeo('riskDisclosure')
+  const info = [
         {
             title: null,
             des: [
@@ -234,14 +238,14 @@ export default function RiskDisclosure() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Risk Disclosure | WINPROFX"
-                description="Explore the risks of Forex trading with WINPROFX's detailed risk disclosure. Understand market volatility and learn key safety measures. Click to read more!"
-                canonicalPath="/risk-disclosure"
-            />
+        {...seo}
+        canonicalPath="/risk-disclosure"
+        pageName={t('riskDisclosure.h1')}
+      />
             <TopShape />
             <PolicyTitle
                 as="h1"
-                title="Risk Disclosure"
+                title={t('riskDisclosure.h1')}
             />
             <Container>
                 <Card>

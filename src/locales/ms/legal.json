@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "Dasar Privasi",
+    "meta": "PEMATUHAN UNDANG-UNDANG",
+    "sections": {
+      "privacyPolicyOfWinprofx": "Dasar Privasi WINPROFX",
+      "privacyProtection": "Perlindungan Privasi",
+      "personalInformationWeCollect": "Maklumat Peribadi Yang Kami Kumpul",
+      "processingOfYourPersonalInformation": "Memproses Maklumat Peribadi Anda",
+      "performanceOfContract": "PERORMANCE KONTRAK",
+      "complianceWithLegalObligation": "MEMATUHI KEWAJIPAN UNDANG-UNDANG",
+      "safeguardingLegitimateInterests": "BAGI TUJUAN MELINDUNGI KEPENTINGAN YANG SAH",
+      "consentProvided": "ANDA TELAH MEMBERIKAN PERSETUJUAN ANDA",
+      "productsAndServices": "UNTUK MENYEDIAKAN ANDA DENGAN PRODUK DAN PERKHIDMATAN, MAKLUMAT",
+      "investigateEnquiries": "UNTUK MENYIASAT ATAU MENYELESAIKAN PERTANYAAN ATAU PERTIKAIAN",
+      "complyWithLaws": "UNTUK MEMATUHI UNDANG-UNDANG YANG BERKENAAN, PERINTAH MAHKAMAH, PROSES KEHAKIMAN LAIN, ATAU KEPERLUAN MANA-MANA PIHAK BERKUASA KAWAL SELIA YANG BERKENAAN",
+      "dataAnalysis": "ANALISIS DATA ",
+      "marketingPurposes": "TUJUAN PEMASARAN",
+      "internalBusinessPurposes": "TUJUAN PERNIAGAAN DALAMAN DAN PENYIMPANAN REKOD",
+      "legalNotifications": "PEMBERITAHUAN UNDANG-UNDANG",
+      "physicalSecurity": "Keselamatan fizikal",
+      "disclosureOfPersonalInformation": "Pendedahan Maklumat Peribadi Anda",
+      "transfersOutsideEea": "Pemindahan Di Luar Kawasan Ekonomi Eropah",
+      "yourCollectedInformation": "Maklumat Anda yang Dikumpul",
+      "deviceInformation": "Maklumat Peranti",
+      "logInformation": "Maklumat log",
+      "locationInformation": "Maklumat Lokasi",
+      "howWeObtainConsent": "Cara kami Mendapatkan Persetujuan Anda",
+      "storageAndRetention": "Tempoh Penyimpanan Maklumat Peribadi dan Pengekalan Anda",
+      "yourRights": "Hak Anda Mengenai Maklumat Peribadi dan Akses Anda",
+      "rectification": "Pembetulan",
+      "erasure": "Pemadaman",
+      "processingRestrictions": "Sekatan Pemprosesan",
+      "dataPortability": "Kebolehalihan Data",
+      "objection": "Bantahan!",
+      "optOut": "Pilih Keluar daripada Menghantar Maklumat Peribadi Anda",
+      "legalDisclaimer": "Penafian Undang-undang",
+      "cardAcceptance": "WINPROFX Penerimaan Kad",
+      "howToContactUs": "Cara Menghubungi Kami"
+    }
+  },
+  "terms": {
+    "h1": "Terma dan Syarat ",
+    "meta": "PEMATUHAN UNDANG-UNDANG",
+    "sections": {
+      "acceptanceOfTerms": "1.0 Penerimaan Terma",
+      "bindingAgreement": "Perjanjian Mengikat",
+      "ageRequirement": "Keperluan Umur",
+      "terminationOfAgreement": "PENAMATAN PERJANJIAN",
+      "modificationsToAgreement": "Pengubahsuaian kepada Perjanjian",
+      "contactInformation": "Maklumat Perhubungan"
+    }
+  },
+  "amlPolicy": {
+    "h1": "Dasar KYC / AML",
+    "meta": "PEMATUHAN UNDANG-UNDANG",
+    "sections": {
+      "moneyLaundering": "Pengubahan Wang",
+      "placement": "Peletakan",
+      "layers": "Lapisan Gulungan",
+      "integration": "Penyepaduan",
+      "amlPolicyMet": "Polisi AML dipenuhi dalam FX sebanyak WINPROFX dengan cara berikut",
+      "documentsRequired": "Dokumen berikut diperlukan untuk mengesahkan maklumat peribadi"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "Polisi Deposit & Pengeluaran",
+    "meta": "PEMATUHAN UNDANG-UNDANG",
+    "sections": {
+      "processingOfPersonalInformation": "Memproses Maklumat Peribadi Anda",
+      "deposit": "Deposit Masuk",
+      "withdrawals": "Pengeluaran",
+      "creditDebitCards": "Kad Kredit/Debit",
+      "electronicPaymentMethods": "Kaedah Pembayaran Elektronik",
+      "generalConditions": "keadaan umum. ",
+      "noThirdPartyPayments": "Tiada Bayaran Pihak Ketiga dibenarkan dalam apa jua keadaan.",
+      "refundConditions": "Syarat BAYARAN BALIK:",
+      "dispute": "pengeluaran kemudahan kredit"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "Negara Terhad",
+    "meta": "PEMATUHAN UNDANG-UNDANG",
+    "sections": {
+      "restrictedList": "WINPROFX Limited tidak menyediakan sebarang perkhidmatan kepada Negara berikut:",
+      "creditDebitCards": "Kad Kredit/Debit"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "Pendedahan Risiko",
+    "meta": "NOTIS PENTING:",
+    "sections": {
+      "noInvestmentAdvice": "Kami tidak memberikan nasihat pelaburan.",
+      "speculateWithAffordableMoney": "Hanya buat spekulasi dengan wang yang anda mampu rugi.",
+      "whenDecidingToTrade": "Apabila membuat keputusan sama ada untuk berdagang dalam instrumen sedemikian, anda harus mengetahui perkara berikut:",
+      "cfdTradingMayNotBeAppropriate": "CFD Perdagangan Mungkin Tidak Sesuai untuk Anda",
+      "weDoNotProvideAdvice": "Kami tidak memberikan nasihat perubatan.",
+      "tradingOffExchange": "Perdagangan Luar Pertukaran",
+      "margin": "Margin (Jaminan)",
+      "lossLimitsNotGuaranteed": "Had Kerugian Tidak Dijamin",
+      "pastPerformance": "Prestasi Masa Lalu",
+      "currency": "Mata wang",
+      "volatility": "Bilangan tanggungan",
+      "outOfHoursMarkets": "Pasaran Luar Jam",
+      "leverageOfGearing": "Leverage daripada Gearing",
+      "contingentLiabilityTransaction": "Transaksi Liabiliti Luar Jangka",
+      "spreadsCommissionsCosts": "Spread, Komisen dan Kos",
+      "insolvency": "Insolvensi",
+      "regulatoryAndLegalRisk": "Risiko Kawal Selia dan Undang-undang",
+      "taxRisk": "Risiko Cukai",
+      "yourMoney": "Wang Anda",
+      "systemFailure": "Kegagalan Sistem"
+    }
+  },
+  "riskWarning": {
+    "h1": "Amaran Risiko!",
+    "meta": "NOTIS PENTING:",
+    "sections": {
+      "generalRisk": "Risiko Umum",
+      "leverageRisk": "Leverage Risiko",
+      "marketVolatility": "Kemeruapan Pasaran",
+      "suitability": "Kesesuaian",
+      "noProfitGuarantees": "Tiada Jaminan Keuntungan",
+      "furtherInformation": "Maklumat Lanjut"
+    },
+    "generalRiskBody": "Berdagang forex dan CFDs melibatkan risiko yang signifikan dan mungkin tidak sesuai untuk semua pelabur. Pelanggan harus memahami risiko sebelum berdagang. Anda mungkin kehilangan sebahagian atau semua modal pelaburan anda. Anda tidak boleh berdagang dengan wang yang anda tidak mampu rugi.",
+    "leverageRiskBody": "Produk Forex dan CFD biasanya didagangkan pada margin menggunakan leveraj. Leverage boleh menguatkan kedua-dua keuntungan dan kerugian. Pergerakan pasaran yang kecil boleh mengakibatkan kerugian yang lebih besar berbanding dengan dana yang anda depositkan.",
+    "marketVolatilityBody": "Pasaran kewangan boleh menjadi tidak menentu. Harga mungkin bergerak dengan pantas dan tidak dapat diramalkan disebabkan oleh peristiwa ekonomi, berita, keadaan kecairan, atau faktor lain. Semasa keadaan yang tidak menentu, mungkin sukar untuk melaksanakan perdagangan pada harga yang dijangkakan atau untuk menutup posisi pada aras yang dikehendaki.",
+    "suitabilityBody": "Sebelum berdagang, anda perlu mempertimbangkan keadaan kewangan, pengalaman dan objektif anda dengan teliti. Jika anda tidak pasti sama ada forex atau CFD perdagangan sesuai untuk anda, dapatkan nasihat kewangan bebas daripada profesional yang berkelayakan.",
+    "noProfitGuaranteesBody": "Prestasi masa lalu tidak menunjukkan hasil masa depan. WINPROFX tidak menjamin keuntungan atau perlindungan terhadap kerugian. Semua keputusan perdagangan dibuat atas risiko anda sendiri."
+  }
+}

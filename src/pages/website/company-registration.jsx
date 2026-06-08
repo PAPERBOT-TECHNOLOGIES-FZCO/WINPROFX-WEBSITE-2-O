@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Trans, useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -8,118 +9,124 @@ import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import LicenseClarification from '@/components/company-identity/license-clarification'
+import { pathToTrustPageKey } from '@/lib/trust-page-keys'
 import {
-  DOCUMENT_TYPES,
-  INCORPORATION_CLARIFICATION,
+  BRAND_NAME,
   INCORPORATION_PDF_PATH,
-  INCORPORATION_PDF_TITLE,
-  INCORPORATION_SUBSCRIBER,
   LEGAL_ENTITY_NAME,
   relatedPageLinks,
   registrationDetailsRows,
-  RISK_WARNING_SHORT,
   shareCapitalRows,
+  JURISDICTION,
 } from '@/lib/company-registration'
 
+const PAGE_KEY = 'companyRegistration'
+
 export default function CompanyRegistration() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('companyRegistration')
+
+  const i18nVars = {
+    brandName: BRAND_NAME,
+    legalEntityName: LEGAL_ENTITY_NAME,
+    jurisdiction: JURISDICTION,
+    documentTypes: tCompany('documentTypes'),
+    incorporationSubscriber: tCompany('incorporationSubscriber'),
+  }
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Company Registration | WINPROFX"
-        description="View WINPROFX company registration information, including Winprofx Ltd. incorporation details, official domains, legal documents, and risk warning."
+        {...seo}
         canonicalPath="/company-registration"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Official Information" title="Company Registration" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
           <IdentitySection>
-            <p>
-              WINPROFX is associated with {LEGAL_ENTITY_NAME}, an International Business Company
-              incorporated in Saint Lucia. The company&apos;s certified incorporation documents include a{' '}
-              {DOCUMENT_TYPES}.
-            </p>
+            <p>{t(`pages.${PAGE_KEY}.content.intro`, i18nVars)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Company Registration Details">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.companyRegistrationDetails`)}>
             <RegistrationTable rows={registrationDetailsRows} />
           </IdentitySection>
 
-          <IdentitySection title="Share and Capital Information">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.shareAndCapitalInformation`)}>
             <RegistrationTable rows={shareCapitalRows} />
-            <p className="mt-4">
-              The company&apos;s share capital structure is defined in the Memorandum of Association
-              and Articles of Association. {LEGAL_ENTITY_NAME} has authorized shares denominated in USD
-              with ordinary shares carrying one vote per share. Shares issued by the company are not
-              redeemable on demand.
-            </p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.shareCapitalBody`, i18nVars)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Memorandum and Articles of Association">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.memorandumAndArticles`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.memorandumBody`, i18nVars)}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.subscriberLine`, i18nVars)}</p>
+          </IdentitySection>
+
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiBranchRegistration`)}>
             <p>
-              The certified incorporation document set includes the Certificate of Incorporation,
-              Memorandum of Association, and Articles of Association for {LEGAL_ENTITY_NAME}. The
-              Memorandum of Association defines the company&apos;s constitution, share structure, and
-              objects. The Articles of Association govern internal management and shareholder rights.
-            </p>
-            <p className="mt-4">
-              The subscriber for incorporation was {INCORPORATION_SUBSCRIBER}.
-            </p>
-          </IdentitySection>
-
-          <IdentitySection title="Dubai Branch Registration">
-            <p>
-              {LEGAL_ENTITY_NAME} also holds a Dubai Professional License for its UAE representative
-              office. See{' '}
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                Dubai Professional License
-              </Link>{' '}
-              and{' '}
-              <Link to="/uae-representative-office/" className="text-white underline hover:text-primary">
-                UAE Representative Office
-              </Link>{' '}
-              for details.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.dubaiBranchBody`}
+                ns="trust"
+                values={i18nVars}
+                components={{
+                  dubaiLicenseLink: (
+                    <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary" />
+                  ),
+                  uaeOfficeLink: (
+                    <LocalizedLink to="/uae-representative-office/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Important Clarification">
-            <p>{INCORPORATION_CLARIFICATION}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.importantClarification`)}>
+            <p>{tCompany('incorporationClarification')}</p>
             <div className="mt-4">
               <LicenseClarification />
             </div>
           </IdentitySection>
 
-          <IdentitySection title="Certified Incorporation Documents">
-            <p className="mb-4">
-              Certified incorporation documents for {LEGAL_ENTITY_NAME} are available for download:
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.certifiedIncorporationDocuments`)}>
+            <p className="mb-4">{t(`pages.${PAGE_KEY}.content.certifiedDocsIntro`, i18nVars)}</p>
             <a
               href={INCORPORATION_PDF_PATH}
               className="text-white underline hover:text-primary font-medium"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {INCORPORATION_PDF_TITLE}
+              {tCompany('incorporationPdfTitle')}
             </a>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Related Information">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.relatedInformation`)}>
             <ul className="flex flex-col gap-2">
-              {relatedPageLinks.map((link) => (
-                <li key={link.path}>
-                  <Link to={link.path} className="text-white underline hover:text-primary">
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              {relatedPageLinks.map((link) => {
+                const pageKey = pathToTrustPageKey(link.path)
+                return (
+                  <li key={link.path}>
+                    <LocalizedLink to={link.path} className="text-white underline hover:text-primary">
+                      {pageKey ? t(`pages.${pageKey}.label`) : link.label}
+                    </LocalizedLink>
+                  </li>
+                )
+              })}
             </ul>
           </IdentitySection>
 
+          <TrustPageFooter canonicalPath="/company-registration" />
           <IdentityNav />
         </Card>
       </Container>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -7,103 +8,93 @@ import Card from '@/components/policy/card'
 import IdentitySection from '@/components/company-identity/identity-section'
 import IdentityNav from '@/components/company-identity/identity-nav'
 import SeoHead from '@/components/seo-head'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import { useSeo } from '@/hooks/use-seo'
 import { RISK_WARNING_FULL } from '@/lib/company-registration'
 
 export default function RiskWarning() {
+  const { t } = useTranslation('legal')
+  const { t: tTrust } = useTranslation('trust')
+  const seo = useSeo('riskWarning')
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Risk Warning | WINPROFX"
-        description="Important risk warning for users trading forex, CFDs, and related financial products through WINPROFX websites and portals."
+        {...seo}
         canonicalPath="/risk-warning"
+        pageName={t('riskWarning.h1')}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Important Notice" title="Risk Warning" />
+      <PolicyTitle as="h1" meta={t('riskWarning.meta')} title={t('riskWarning.h1')} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t('riskWarning.h1')} />
           <IdentitySection>
             <p>{RISK_WARNING_FULL}</p>
           </IdentitySection>
 
-          <IdentitySection title="General Risk">
-            <p>
-              Trading forex and CFDs involves significant risk and may not be suitable for all investors.
-              Clients should understand the risks before trading. You may lose some or all of your invested
-              capital. You should not trade with money you cannot afford to lose.
-            </p>
+          <IdentitySection title={t('riskWarning.sections.generalRisk')}>
+            <p>{t('riskWarning.generalRiskBody')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Leverage Risk">
-            <p>
-              Forex and CFD products are typically traded on margin using leverage. Leverage can amplify
-              both gains and losses. A small market movement can result in proportionally larger losses
-              relative to your deposited funds.
-            </p>
+          <IdentitySection title={t('riskWarning.sections.leverageRisk')}>
+            <p>{t('riskWarning.leverageRiskBody')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Market Volatility">
-            <p>
-              Financial markets can be volatile. Prices may move rapidly and unpredictably due to economic
-              events, news, liquidity conditions, or other factors. During volatile conditions, it may be
-              difficult to execute trades at expected prices or to close positions at desired levels.
-            </p>
+          <IdentitySection title={t('riskWarning.sections.marketVolatility')}>
+            <p>{t('riskWarning.marketVolatilityBody')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Suitability">
-            <p>
-              Before trading, you should carefully consider your financial situation, experience, and
-              objectives. If you are unsure whether forex or CFD trading is appropriate for you, seek
-              independent financial advice from a qualified professional.
-            </p>
+          <IdentitySection title={t('riskWarning.sections.suitability')}>
+            <p>{t('riskWarning.suitabilityBody')}</p>
           </IdentitySection>
 
-          <IdentitySection title="No Profit Guarantees">
-            <p>
-              Past performance is not indicative of future results. WINPROFX does not guarantee profits
-              or protection against losses. All trading decisions are made at your own risk.
-            </p>
+          <IdentitySection title={t('riskWarning.sections.noProfitGuarantees')}>
+            <p>{t('riskWarning.noProfitGuaranteesBody')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Further Information">
+          <IdentitySection title={t('riskWarning.sections.furtherInformation')}>
             <p>
               For the full risk disclosure statement, please read our{' '}
-              <Link to="/risk-disclosure/" className="text-white underline hover:text-primary">
-                Risk Disclosure
-              </Link>{' '}
+              <LocalizedLink to="/risk-disclosure/" className="text-white underline hover:text-primary">
+                {tTrust('pages.riskDisclosure.label')}
+              </LocalizedLink>{' '}
               page. For legal policies, visit{' '}
-              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
-                Legal Documents
-              </Link>
+              <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary">
+                {tTrust('pages.legalDocuments.label')}
+              </LocalizedLink>
               .
             </p>
             <p className="mt-4">
               For regulatory and license information, see{' '}
-              <Link to="/regulatory-information/" className="text-white underline hover:text-primary">
-                Regulatory Information
-              </Link>
+              <LocalizedLink to="/regulatory-information/" className="text-white underline hover:text-primary">
+                {tTrust('pages.regulatoryInformation.label')}
+              </LocalizedLink>
               ,{' '}
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                Dubai Professional License
-              </Link>
+              <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary">
+                {tTrust('pages.dubaiProfessionalLicense.label')}
+              </LocalizedLink>
               , and{' '}
-              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
-                Verify WINPROFX
-              </Link>
+              <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary">
+                {tTrust('pages.verifyWinprofx.label')}
+              </LocalizedLink>
               .
             </p>
             <p className="mt-4">
               For trust and support information, see{' '}
-              <Link to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
-                Withdrawal Transparency
-              </Link>
+              <LocalizedLink to="/withdrawal-transparency/" className="text-white underline hover:text-primary">
+                {tTrust('pages.withdrawalTransparency.label')}
+              </LocalizedLink>
               ,{' '}
-              <Link to="/complaints-and-dispute-resolution/" className="text-white underline hover:text-primary">
-                Complaints and Dispute Resolution
-              </Link>
+              <LocalizedLink to="/complaints-and-dispute-resolution/" className="text-white underline hover:text-primary">
+                {tTrust('pages.complaintsAndDisputeResolution.label')}
+              </LocalizedLink>
               , and{' '}
-              <Link to="/client-fund-security/" className="text-white underline hover:text-primary">
-                Client Fund Security
-              </Link>
+              <LocalizedLink to="/client-fund-security/" className="text-white underline hover:text-primary">
+                {tTrust('pages.clientFundSecurity.label')}
+              </LocalizedLink>
               .
             </p>
             <p className="mt-4">
@@ -112,13 +103,17 @@ export default function RiskWarning() {
                 support@winprofx.com
               </a>{' '}
               or visit our{' '}
-              <Link to="/contact/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/contact/" className="text-white underline hover:text-primary">
                 Contact page
-              </Link>
+              </LocalizedLink>
               .
             </p>
           </IdentitySection>
 
+          <TrustPageFooter
+            canonicalPath="/risk-warning"
+            showRiskWarning={false}
+          />
           <IdentityNav />
         </Card>
       </Container>

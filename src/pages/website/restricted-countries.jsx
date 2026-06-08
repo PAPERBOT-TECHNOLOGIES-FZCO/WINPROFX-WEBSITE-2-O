@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,9 +7,12 @@ import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function RestrictedCountries() {
-    const info = [
+    const { t } = useTranslation('legal')
+  const seo = useSeo('restrictedCountries')
+  const info = [
         {
             title: 'WINPROFX Limited does not provide any services to the following Country :',
             des: [
@@ -66,15 +70,15 @@ export default function RestrictedCountries() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Restricted Countries | WINPROFX"
-                description="View the list of countries restricted from trading on WINPROFX due to regulatory and legal constraints. Click for full details!"
-                canonicalPath="/restricted-countries"
-            />
+        {...seo}
+        canonicalPath="/restricted-countries"
+        pageName={t('restrictedCountries.h1')}
+      />
             <TopShape />
             <PolicyTitle
                 as="h1"
-                meta="Last Updated: Jun 7, 2024"
-                title="Restricted Countries"
+                meta={t('restrictedCountries.meta')}
+                title={t('restrictedCountries.h1')}
             />
             <Container>
                 <Card>

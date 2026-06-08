@@ -11,39 +11,30 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import ButtonTwo from "@/components/buttonTwo";
+import { useTranslation } from 'react-i18next'
 
 export default function StartTrading() {
-  const items = [
-    {
-      icon: icon1,
-      title: "Register",
-      desc: "Create your live account",
-    },
-    {
-      icon: icon2,
-      title: "Fund",
-      desc: "Make your first deposit",
-    },
-    {
-      icon: icon3,
-      title: "Trade",
-      desc: "Hit your lot volume target",
-    },
-    {
-      icon: icon4,
-      title: "Claim Reward",
-      desc: "Receive your exclusive prize",
-    },
-  ];
+  const { t } = useTranslation('trading')
+  const { t: tNav } = useTranslation('navigation')
+  const pu = (key) => t(`promotionUi.startTrading.${key}`)
+
+  const stepKeys = ['register', 'fund', 'trade', 'claim']
+  const icons = [icon1, icon2, icon3, icon4]
+  const items = stepKeys.map((key, index) => ({
+    icon: icons[index],
+    title: pu(`steps.${key}.title`),
+    desc: pu(`steps.${key}.desc`),
+  }));
+
   return (
     <div className="common-padding">
       <Container>
         <CommonTitle
           className="max-w-160 mb-12 text-center mx-auto"
-          subTitle="Get Started"
+          subTitle={pu('subTitle')}
           subTitleClass="rounded-full border border-white/20 bg-white/5 px-4 py-1 mb-4 inline-block uppercase text-xs"
-          title="Start Trading with WINPROFX!"
-          des="Every lot you trade brings you closer to an exclusive prize. Open your live account today and opt in to the Trade to Win program."
+          title={pu('title')}
+          des={pu('des')}
           desClass="max-w-150"
         />
 
@@ -65,9 +56,9 @@ export default function StartTrading() {
         <div className="text-center">
             <div className="mb-4 lg:mb-6 mt-4 lg:mt-8 flex items-center justify-center gap-4">
               <Button delay='0.5' to='https://my.winprofx.org/register' />             
-              <ButtonTwo text="Login" to="https://my.winprofx.org/login" />
+              <ButtonTwo text={tNav('login')} to="https://my.winprofx.org/login" />
             </div>
-            <p>Questions? Call us at <Link href="tel:+97144471894">+971 4 447 1894</Link> or visit <Link href="https://winprofx.org">winprofx.org</Link></p>
+            <p>{pu('questionsPrefix')} <Link href="tel:+97144471894">+971 4 447 1894</Link> {pu('questionsSuffix')} <Link href="https://winprofx.org">winprofx.org</Link></p>
         </div>
       </Container>
     </div>

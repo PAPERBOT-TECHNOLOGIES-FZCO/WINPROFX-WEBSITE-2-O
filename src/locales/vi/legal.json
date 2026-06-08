@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "Chính sách quyền riêng tư",
+    "meta": "Tuân thủ pháp luật",
+    "sections": {
+      "privacyPolicyOfWinprofx": "Chính sách quyền riêng tư của WINPROFX",
+      "privacyProtection": "Bảo vệ quyền riêng tư",
+      "personalInformationWeCollect": "Thông tin cá nhân chúng tôi thu thập",
+      "processingOfYourPersonalInformation": "Xử lý thông tin cá nhân của bạn",
+      "performanceOfContract": "THỰC HIỆN HỢP ĐỒNG",
+      "complianceWithLegalObligation": "TUÂN THỦ NGHĨA VỤ PHÁP LÝ",
+      "safeguardingLegitimateInterests": "CHO MỤC ĐÍCH BẢO VỆ LỢI ÍCH HỢP PHÁP",
+      "consentProvided": "BẠN ĐÃ ĐỒNG Ý",
+      "productsAndServices": "ĐỂ CUNG CẤP CHO BẠN CÁC SẢN PHẨM VÀ DỊCH VỤ, THÔNG TIN",
+      "investigateEnquiries": "ĐỂ ĐIỀU TRA HOẶC GIẢI QUYẾT CÁC THẮC MẮC HOẶC TRANH CHẤP",
+      "complyWithLaws": "TUÂN THỦ LUẬT PHÁP HIỆN HÀNH, LỆNH CỦA TÒA ÁN, QUY TRÌNH TƯ PHÁP KHÁC HOẶC CÁC YÊU CẦU CỦA BẤT KỲ CƠ QUAN QUẢN LÝ HIỆN HÀNH NÀO",
+      "dataAnalysis": "Phân tích dữ liệu",
+      "marketingPurposes": "Mục đích tiếp thị",
+      "internalBusinessPurposes": "MỤC ĐÍCH KINH DOANH NỘI BỘ VÀ LƯU GIỮ HỒ SƠ",
+      "legalNotifications": "THÔNG BÁO PHÁP LÝ",
+      "physicalSecurity": "BẢO MẬT VẬT LÝ",
+      "disclosureOfPersonalInformation": "Tiết lộ thông tin cá nhân của bạn",
+      "transfersOutsideEea": "Chuyển ra ngoài Khu vực Kinh tế Châu Âu",
+      "yourCollectedInformation": "Thông Tin Chúng Tôi Thu Thập",
+      "deviceInformation": "Thông tin về vật chứaComment",
+      "logInformation": "Thông tin nhật ký",
+      "locationInformation": "Thông tin về vị trí",
+      "howWeObtainConsent": "Cách chúng tôi có được sự đồng ý của bạn",
+      "storageAndRetention": "Lưu trữ thông tin cá nhân và thời gian lưu giữ",
+      "yourRights": "Quyê ̀ n cu ̉ a Quy ́ vi ̣ Vê ̀ Thông tin Ca ́",
+      "rectification": "Điều chỉnh",
+      "erasure": "Xóa",
+      "processingRestrictions": "Hạn chế xử lý",
+      "dataPortability": "Khả năng di chuyển dữ liệu",
+      "objection": "Phản đối",
+      "optOut": "Từ chối gửi thông tin cá nhân của bạn",
+      "legalDisclaimer": "Tuyên Bố Miễn Trừ Trách Nhiệm Pháp Lý:",
+      "cardAcceptance": "WINPROFX Chấp nhận thẻ",
+      "howToContactUs": "Cách liên hệ với chúng tôi"
+    }
+  },
+  "terms": {
+    "h1": "Điều khoản và Điều kiện",
+    "meta": "Tuân thủ pháp luật",
+    "sections": {
+      "acceptanceOfTerms": "<g id=\"67\">Chấp nhận các Điều khoản</g>.",
+      "bindingAgreement": "Thỏa thuận ràng buộc",
+      "ageRequirement": "Yêu cầu về độ tuổi",
+      "terminationOfAgreement": "thỏa thuận chấm dứt hợp đồng.",
+      "modificationsToAgreement": "Sửa đổi Thỏa thuận",
+      "contactInformation": "Thông tin liên lạc"
+    }
+  },
+  "amlPolicy": {
+    "h1": "Chính sách KYC / AML",
+    "meta": "Tuân thủ pháp luật",
+    "sections": {
+      "moneyLaundering": "rửa tiền",
+      "placement": "Định Vị (Placement)",
+      "layers": "Các Lớp",
+      "integration": "Tích hợp",
+      "amlPolicyMet": "Chính sách AML đang được đáp ứng trong FX của WINPROFX bằng các phương tiện sau",
+      "documentsRequired": "Các tài liệu sau đây được yêu cầu để xác minh thông tin cá nhân"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "CHÍNH SÁCH NẠP TIỀN VÀ RÚT TIỀN",
+    "meta": "Tuân thủ pháp luật",
+    "sections": {
+      "processingOfPersonalInformation": "Xử lý thông tin cá nhân của bạn",
+      "deposit": "Nạp tiền",
+      "withdrawals": "Rút tiền",
+      "creditDebitCards": "Thẻ tín dụng/Thẻ ghi nợ",
+      "electronicPaymentMethods": "Phương thức thanh toán điện tử",
+      "generalConditions": "Điều kiện chung",
+      "noThirdPartyPayments": "Không được phép thanh toán cho bên thứ ba trong bất kỳ trường hợp nào.",
+      "refundConditions": "Điều kiện HOÀN TIỀN:",
+      "dispute": "Tranh chấp"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "Các quốc gia bị hạn chế",
+    "meta": "Tuân thủ pháp luật",
+    "sections": {
+      "restrictedList": "WINPROFX Limited không cung cấp bất kỳ dịch vụ nào cho Quốc gia sau:",
+      "creditDebitCards": "Thẻ tín dụng/Thẻ ghi nợ"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "Thông báo Rủi ro",
+    "meta": "Thông báo Quan trọng",
+    "sections": {
+      "noInvestmentAdvice": "Chúng tôi không cung cấp tư vấn đầu tư.",
+      "speculateWithAffordableMoney": "Chỉ đầu cơ với số tiền bạn có thể đủ khả năng để mất.",
+      "whenDecidingToTrade": "Khi quyết định có nên giao dịch các công cụ như vậy hay không, bạn nên lưu ý những điều sau:",
+      "cfdTradingMayNotBeAppropriate": "CFD Giao dịch có thể không phù hợp với bạn",
+      "weDoNotProvideAdvice": "Chúng tôi không đưa ra lời khuyên",
+      "tradingOffExchange": "Giao dịch ngoại hối",
+      "margin": "Lề",
+      "lossLimitsNotGuaranteed": "Giới hạn tổn thất không được đảm bảo",
+      "pastPerformance": "HIỆU SUẤT QUÁ KHỨ",
+      "currency": "Tiền tệ",
+      "volatility": "Tính biến động",
+      "outOfHoursMarkets": "Thị trường ngoài giờ",
+      "leverageOfGearing": "Đòn bẩy (Gearing)",
+      "contingentLiabilityTransaction": "Giao dịch trách nhiệm pháp lý dự phòng",
+      "spreadsCommissionsCosts": "Chênh Lệch, Hoa Hồng và Chi Phí",
+      "insolvency": "Mất khả năng thanh toán",
+      "regulatoryAndLegalRisk": "Rủi ro pháp lý và quy định",
+      "taxRisk": "Rủi ro về thuế",
+      "yourMoney": "Tiền của ông đây",
+      "systemFailure": "Sự cố hệ thống"
+    }
+  },
+  "riskWarning": {
+    "h1": "Cảnh Báo Rủi Ro",
+    "meta": "Thông báo Quan trọng",
+    "sections": {
+      "generalRisk": "Rủi ro chung",
+      "leverageRisk": "Leverage Rủi ro",
+      "marketVolatility": "Biến động thị trường",
+      "suitability": "Tính thích hợp",
+      "noProfitGuarantees": "Không đảm bảo lợi nhuận",
+      "furtherInformation": "Thông tin Thêm"
+    },
+    "generalRiskBody": "Giao dịch ngoại hối và CFDs liên quan đến rủi ro đáng kể và có thể không phù hợp với tất cả các nhà đầu tư. Khách hàng nên hiểu các rủi ro trước khi giao dịch. Bạn có thể mất một phần hoặc toàn bộ số vốn đầu tư của mình. Bạn không nên giao dịch bằng số tiền mà bạn không đủ khả năng để mất.",
+    "leverageRiskBody": "Forex và CFD sản phẩm thường được giao dịch ký quỹ bằng đòn bẩy. Leverage có thể khuếch đại cả lãi và lỗ. Một biến động thị trường nhỏ có thể dẫn đến tổn thất lớn hơn tương ứng so với số tiền gửi của bạn.",
+    "marketVolatilityBody": "Thị trường tài chính có thể biến động. Giá có thể biến động nhanh chóng và không thể đoán trước do các sự kiện kinh tế, tin tức, điều kiện thanh khoản hoặc các yếu tố khác. Trong điều kiện biến động, có thể khó thực hiện giao dịch ở mức giá dự kiến hoặc đóng các vị thế ở mức mong muốn.",
+    "suitabilityBody": "Trước khi giao dịch, bạn nên xem xét cẩn thận tình hình tài chính, kinh nghiệm và mục tiêu của mình. Nếu bạn không chắc liệu giao dịch ngoại hối hay CFD có phù hợp với mình hay không, hãy tìm kiếm lời khuyên tài chính độc lập từ một chuyên gia có trình độ.",
+    "noProfitGuaranteesBody": "Hiệu suất trong quá khứ không cho thấy kết quả trong tương lai. WINPROFX không đảm bảo lợi nhuận hoặc bảo vệ khỏi thua lỗ. Tất cả các quyết định giao dịch đều do bạn tự chịu rủi ro."
+  }
+}

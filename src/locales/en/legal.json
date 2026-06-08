@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "Privacy Policy",
+    "meta": "Legal & Compliance",
+    "sections": {
+      "privacyPolicyOfWinprofx": "Privacy Policy Of WINPROFX",
+      "privacyProtection": "Privacy Protection",
+      "personalInformationWeCollect": "Personal Information We Collect",
+      "processingOfYourPersonalInformation": "Processing of Your Personal Information",
+      "performanceOfContract": "PERORMANCE OF CONTRACT",
+      "complianceWithLegalObligation": "COMPLIANCE WITH A LEGAL OBLIGATION",
+      "safeguardingLegitimateInterests": "FOR THE PURPOSES OF SAFEGUARDING LEGITIMATE INTERESTS",
+      "consentProvided": "YOU HAVE PROVIDED YOUR CONSENT",
+      "productsAndServices": "TO PROVIDE YOU WITH PRODUCTS AND SERVICES, INFORMATION",
+      "investigateEnquiries": "TO INVESTIGATE OR SETTLE ENQUIRIES OR DISPUTES",
+      "complyWithLaws": "TO COMPLY WITH APPLICABLE LAWS, COURT ORDERS, OTHER JUDICIAL PROCESS, OR THE REQUIREMENTS OF ANY APPLICABLE REGULATORY AUTHORITIES",
+      "dataAnalysis": "DATA ANALYSIS",
+      "marketingPurposes": "MARKETING PURPOSES",
+      "internalBusinessPurposes": "INTERNAL BUSINESS PURPOSES AND RECORD KEEPING",
+      "legalNotifications": "LEGAL NOTIFICATIONS",
+      "physicalSecurity": "PHYSICAL SECURITY",
+      "disclosureOfPersonalInformation": "Disclosure of Your Personal Information",
+      "transfersOutsideEea": "Transfers Outside of the European Economic Area",
+      "yourCollectedInformation": "Your Collected Information",
+      "deviceInformation": "Device Information",
+      "logInformation": "Log Information",
+      "locationInformation": "Location Information",
+      "howWeObtainConsent": "How we Obtain Your Consent",
+      "storageAndRetention": "Storage of Your Personal Information and Retention Period",
+      "yourRights": "Your Right Regarding Your Personal Information and Access",
+      "rectification": "Rectification",
+      "erasure": "Erasure",
+      "processingRestrictions": "Processing Restrictions",
+      "dataPortability": "Data Portability",
+      "objection": "Objection",
+      "optOut": "Opt-Out of Submitting Your Personal Information",
+      "legalDisclaimer": "Legal Disclaimer",
+      "cardAcceptance": "WINPROFX Card Acceptance",
+      "howToContactUs": "How to Contact Us"
+    }
+  },
+  "terms": {
+    "h1": "Terms and Conditions",
+    "meta": "Legal & Compliance",
+    "sections": {
+      "acceptanceOfTerms": "Acceptance of Terms",
+      "bindingAgreement": "Binding Agreement",
+      "ageRequirement": "Age Requirement",
+      "terminationOfAgreement": "Termination of Agreement",
+      "modificationsToAgreement": "Modifications to Agreement",
+      "contactInformation": "Contact Information"
+    }
+  },
+  "amlPolicy": {
+    "h1": "KYC / AML Policy",
+    "meta": "Legal & Compliance",
+    "sections": {
+      "moneyLaundering": "Money Laundering:",
+      "placement": "Placement",
+      "layers": "Layers",
+      "integration": "Integration",
+      "amlPolicyMet": "The AML policy is being met within FX of WINPROFX by the following means",
+      "documentsRequired": "The following documents are required to verify personal information"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "Deposit & Withdrawal Policy",
+    "meta": "Legal & Compliance",
+    "sections": {
+      "processingOfPersonalInformation": "Processing of Your Personal Information",
+      "deposit": "Deposit",
+      "withdrawals": "Withdrawals",
+      "creditDebitCards": "Credit/ Debit Cards",
+      "electronicPaymentMethods": "Electronic Payment Methods",
+      "generalConditions": "General Conditions",
+      "noThirdPartyPayments": "No Third-Party Payments are allowed under any circumstances.",
+      "refundConditions": "REFUND Conditions:",
+      "dispute": "Dispute"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "Restricted Countries",
+    "meta": "Legal & Compliance",
+    "sections": {
+      "restrictedList": "WINPROFX Limited does not provide any services to the following Country :",
+      "creditDebitCards": "Credit/ Debit Cards"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "Risk Disclosure",
+    "meta": "Important Notice",
+    "sections": {
+      "noInvestmentAdvice": "We do not provide investment advice.",
+      "speculateWithAffordableMoney": "Only speculate with money you can afford to lose.",
+      "whenDecidingToTrade": "When deciding whether to trade in such instruments you should be aware of the following:",
+      "cfdTradingMayNotBeAppropriate": "CFD Trading May Not be Appropriate for You",
+      "weDoNotProvideAdvice": "We Do Not Provide Advice",
+      "tradingOffExchange": "Trading Off-Exchange",
+      "margin": "Margin",
+      "lossLimitsNotGuaranteed": "Loss Limits Are Not Guaranteed",
+      "pastPerformance": "Past Performance",
+      "currency": "Currency",
+      "volatility": "Volatility",
+      "outOfHoursMarkets": "Out-Of-Hours Markets",
+      "leverageOfGearing": "Leverage of Gearing",
+      "contingentLiabilityTransaction": "Contingent Liability Transaction",
+      "spreadsCommissionsCosts": "Spreads, Commissions and Costs",
+      "insolvency": "Insolvency",
+      "regulatoryAndLegalRisk": "Regulatory and Legal Risk",
+      "taxRisk": "Tax Risk",
+      "yourMoney": "Your Money",
+      "systemFailure": "System Failure"
+    }
+  },
+  "riskWarning": {
+    "h1": "Risk Warning",
+    "meta": "Important Notice",
+    "sections": {
+      "generalRisk": "General Risk",
+      "leverageRisk": "Leverage Risk",
+      "marketVolatility": "Market Volatility",
+      "suitability": "Suitability",
+      "noProfitGuarantees": "No Profit Guarantees",
+      "furtherInformation": "Further Information"
+    },
+    "generalRiskBody": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Clients should understand the risks before trading. You may lose some or all of your invested capital. You should not trade with money you cannot afford to lose.",
+    "leverageRiskBody": "Forex and CFD products are typically traded on margin using leverage. Leverage can amplify both gains and losses. A small market movement can result in proportionally larger losses relative to your deposited funds.",
+    "marketVolatilityBody": "Financial markets can be volatile. Prices may move rapidly and unpredictably due to economic events, news, liquidity conditions, or other factors. During volatile conditions, it may be difficult to execute trades at expected prices or to close positions at desired levels.",
+    "suitabilityBody": "Before trading, you should carefully consider your financial situation, experience, and objectives. If you are unsure whether forex or CFD trading is appropriate for you, seek independent financial advice from a qualified professional.",
+    "noProfitGuaranteesBody": "Past performance is not indicative of future results. WINPROFX does not guarantee profits or protection against losses. All trading decisions are made at your own risk."
+  }
+}

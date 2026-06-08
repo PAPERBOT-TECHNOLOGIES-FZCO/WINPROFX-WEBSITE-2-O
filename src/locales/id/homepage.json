@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "Jalan Anda Menuju Trading yang Menguntungkan Dimulai di Sini",
+    "description": "WINPROFX adalah broker bereputasi global yang menawarkan spread terketat, penarikan secepat kilat, 300+ instrumen yang dapat diperdagangkan dengan eksekusi nanodetik di ujung jari Anda.",
+    "badge": "Investasi Bersama Broker Forex Terbaik 2026",
+    "stats": {
+      "evolving": {
+        "title": "Berkembang",
+        "description": "di Pasar"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "Penghargaan"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "Negara Terjangkau"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "Instrumen Trading"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "Perjalanan <br /> Trading Anda Dimulai di Sini Bersama Kami",
+    "steps": {
+      "openAccount": {
+        "title": "Buka Akun",
+        "description": "Klik tombol di atas dan ikuti beberapa langkah mudah."
+      },
+      "makeDeposit": {
+        "title": "Lakukan Deposit",
+        "description": "Tips Pro: Deposit dan Penarikan USDT adalah yang tercepat."
+      },
+      "startTrading": {
+        "title": "Mulai Trading",
+        "description": "Setiap profesional memulai dari nol, jadi mulai trading sekarang."
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "Manfaat Trading Bersama Kami",
+    "description": "Temukan trading tanpa hambatan bersama kami, di mana transparansi dan teknologi canggih bertemu untuk kesuksesan finansial Anda.",
+    "items": {
+      "withdrawals": {
+        "meta": "Penarikan kripto dalam",
+        "title": "30 Menit",
+        "description": "Nikmati fleksibilitas finansial cepat dengan jaminan penarikan 30 menit kami."
+      },
+      "tradeDaily": {
+        "meta": "Trading setiap hari",
+        "title": "Menangkan Hadiah",
+        "description": "Trading harian, kemenangan harian — dorong kesuksesan Anda di setiap pergerakan pasar."
+      },
+      "clientSupport": {
+        "meta": "Pemenang Penghargaan",
+        "title": "Dukungan Pelanggan",
+        "description": "Memberikan keunggulan layanan yang tak tertandingi!"
+      },
+      "negativeBalance": {
+        "meta": "Saldo negatif",
+        "title": "Perlindungan",
+        "description": "Trading dengan percaya diri berkat perlindungan saldo negatif bawaan untuk keamanan finansial."
+      }
+    }
+  },
+  "platform": {
+    "meta": "PLATFORM TRADING",
+    "title": "Unduh MT 5 untuk Mobile",
+    "description": "WINPROFX telah sangat sukses memperluas bisnisnya ke seluruh dunia, dan sekarang MT 5 tersedia di Android dan iPhone, dan Anda selangkah lebih dekat menuju kesuksesan. Unduh MT 5 sekarang dan masuki dunia peluang trading tanpa batas."
+  },
+  "whatTrade": {
+    "title": "Apa yang Bisa Anda Tradingkan?",
+    "description": "Temukan trading tanpa hambatan bersama kami, di mana transparansi dan teknologi canggih bertemu untuk kesuksesan finansial Anda.",
+    "items": {
+      "crypto": {
+        "title": "Kripto",
+        "description": "Mata uang kripto atau cryptocurrency adalah instrumen investasi berpertumbuhan cepat dan"
+      },
+      "metals": {
+        "title": "Logam",
+        "description": "Trading logam spot memiliki tempat istimewa di hati setiap trader. Logam telah menarik semua"
+      },
+      "commodities": {
+        "title": "Komoditas",
+        "description": "Berinvestasi di komoditas dapat memberikan diversifikasi, lindung nilai terhadap"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex atau valuta asing adalah pasar global tempat mata uang dunia diperdagangkan. Ini sangat"
+      },
+      "indices": {
+        "title": "Indeks",
+        "description": "Indeks adalah pengukuran kinerja harga sekelompok saham dari sebuah bursa."
+      },
+      "oil": {
+        "title": "Minyak",
+        "description": "Kontrak berjangka energi adalah perjanjian untuk membeli atau menjual bahan bakar fosil atau produk terkait pada tanggal dan harga tertentu."
+      }
+    },
+    "imageAlt": "Trading WINPROFX {{market}}"
+  },
+  "about": {
+    "meta": "TENTANG WINPROFX",
+    "heading": "<strong class='font-normal text-white'>Di WINPROFX, kami menawarkan </strong> platform trading online yang aman, mendorong keberlanjutan melalui keahlian, pengetahuan pasar, dan kemitraan terpercaya.",
+    "features": {
+      "platform": "Platform terbaik untuk setiap kelas trader — pemula, menengah, atau profesional.",
+      "orderManagement": "Alat manajemen order yang canggih.",
+      "indicators": "Memperkenalkan lebih banyak indikator teknis native.",
+      "customize": "Mudah mengonfigurasi dan menyesuaikan pengaturan trading Anda"
+    }
+  },
+  "award": {
+    "title": "Broker WINPROFX dengan Keunggulan Pemenang Penghargaan",
+    "description": "Industri forex global telah mengakui pencapaian WINPROFX, menghormati kami dengan penghargaan tertinggi untuk produk dan layanan luar biasa kami.",
+    "items": {
+      "bestForexBroker2025": "Broker Forex Terbaik 2025",
+      "globalForexBroker2025": "Broker Forex Global Tahun 2025",
+      "topStpBroker2025": "Broker STP Teratas 2025",
+      "bestDepositWithdrawal2024": "Broker Deposit dan Penarikan Terbaik 2024"
+    }
+  },
+  "news": {
+    "title": "Berita & Wawasan",
+    "description": "Tetap terinformasi dengan pembaruan pasar terbaru dan wawasan ahli kami, memberdayakan Anda untuk membuat keputusan yang tepat di dunia keuangan.",
+    "paymentFlow": {
+      "title": "Aliran Dana Tanpa Usaha: Deposit Cepat dan Penarikan Lancar",
+      "description": "Rasakan kelancaran finansial dengan proses deposit dan penarikan tanpa repot kami, memastikan transaksi Anda cepat dan nyaman."
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade untuk MENANG",
+        "description": "Trading lebih banyak dan menangkan hadiah TERJAMIN. Semakin banyak Anda trading, semakin baik hadiahnya.",
+        "promotionDates": "Tanggal Promosi: 1 Januari 2026 hingga 31 Mei 2026"
+      },
+      "technicalAnalysis": {
+        "title": "Alat Analisis Teknis Gratis",
+        "description": "Identifikasi pola chart, analisis kondisi pasar & pantau pasar sepanjang waktu, hanya dengan satu klik!",
+        "poweredBy": "Didukung oleh"
+      },
+      "learnMore": "Pelajari Lebih Lanjut"
+    }
+  },
+  "demoCta": {
+    "title": "Mulai Perjalanan Menuju Keahlian: Lepaskan Kemampuan Anda dengan Pengalaman Demo WINPROFX!",
+    "description": "Mulai perjalanan trading Anda dengan akun demo MT5 gratis selama 21 hari. Temukan kekuatan Platform Strategi Trading Forex Terbaik pemenang penghargaan kami tanpa risiko — daftar sekarang dan jelajahi seni trading presisi.",
+    "button": "Coba Demo Platform MT5"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "Kebijakan Privasi",
+    "meta": "Kepatuhan Hukum",
+    "sections": {
+      "privacyPolicyOfWinprofx": "Kebijakan Privasi __ keep_0 __",
+      "privacyProtection": "Perlindungan Privasi",
+      "personalInformationWeCollect": "Informasi Pribadi yang Kami Kumpulkan",
+      "processingOfYourPersonalInformation": "Memproses Informasi Pribadi Anda",
+      "performanceOfContract": "PERORMANCE KONTRAK",
+      "complianceWithLegalObligation": "KEPATUHAN TERHADAP KEWAJIBAN HUKUM",
+      "safeguardingLegitimateInterests": "UNTUK TUJUAN MELINDUNGI KEPENTINGAN YANG SAH",
+      "consentProvided": "ANDA TELAH MEMBERIKAN PERSETUJUAN ANDA",
+      "productsAndServices": "UNTUK MEMBERI ANDA PRODUK DAN LAYANAN, INFORMASI",
+      "investigateEnquiries": "UNTUK MENYELIDIKI ATAU MENYELESAIKAN PERTANYAAN ATAU PERSELISIHAN",
+      "complyWithLaws": "UNTUK MEMATUHI HUKUM YANG BERLAKU, PERINTAH PENGADILAN, PROSES PERADILAN LAINNYA, ATAU PERSYARATAN DARI OTORITAS PENGATUR YANG BERLAKU",
+      "dataAnalysis": "ANALISIS DATA",
+      "marketingPurposes": "Untuk tujuan pemasaran",
+      "internalBusinessPurposes": "TUJUAN BISNIS INTERNAL DAN PENCATATAN",
+      "legalNotifications": "PEMBERITAHUAN HUKUM",
+      "physicalSecurity": "Keamanan Fisik",
+      "disclosureOfPersonalInformation": "Pengungkapan Informasi Pribadi Anda",
+      "transfersOutsideEea": "Transfer di Luar Wilayah Ekonomi Eropa",
+      "yourCollectedInformation": "Informasi Anda yang Dikumpulkan",
+      "deviceInformation": "Informasi Perangkat",
+      "logInformation": "Informasi log",
+      "locationInformation": "Tidak Ada Informasi Lokasi",
+      "howWeObtainConsent": "Cara kami Memperoleh Persetujuan Anda",
+      "storageAndRetention": "Penyimpanan Informasi Pribadi dan Periode Penyimpanan Anda",
+      "yourRights": "Hak Anda Mengenai Informasi dan Akses Pribadi Anda",
+      "rectification": "Perbaikan",
+      "erasure": "penghapusan",
+      "processingRestrictions": "Batasan Pemrosesan",
+      "dataPortability": "Portabilitas Data",
+      "objection": "Sanggahan",
+      "optOut": "Berhenti Mengirimkan Informasi Pribadi Anda",
+      "legalDisclaimer": "Penafian Hukum",
+      "cardAcceptance": "__ keep_0 __ Penerimaan Kartu",
+      "howToContactUs": "Cara Menghubungi Kami"
+    }
+  },
+  "terms": {
+    "h1": "Syarat-Syarat dan Ketentuan-Ketentuan ",
+    "meta": "Kepatuhan Hukum",
+    "sections": {
+      "acceptanceOfTerms": "PENERIMAAN PERSYARATAN",
+      "bindingAgreement": "PERJANJIAN MENGIKAT",
+      "ageRequirement": "Persyaratan Usia",
+      "terminationOfAgreement": "Pengakhiran Perjanjian",
+      "modificationsToAgreement": "Modifikasi Perjanjian ini. ",
+      "contactInformation": "Informasi Kontak"
+    }
+  },
+  "amlPolicy": {
+    "h1": "Kebijakan KYC / AML",
+    "meta": "Kepatuhan Hukum",
+    "sections": {
+      "moneyLaundering": "Pencucian Uang",
+      "placement": "Penempatan",
+      "layers": "Lapisan",
+      "integration": "Integrasi",
+      "amlPolicyMet": "Kebijakan APU dipenuhi dalam FX dari __ keep_0 __ dengan cara berikut",
+      "documentsRequired": "Dokumen berikut diperlukan untuk memverifikasi informasi pribadi"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "Kebijakan Deposit & Penarikan",
+    "meta": "Kepatuhan Hukum",
+    "sections": {
+      "processingOfPersonalInformation": "Memproses Informasi Pribadi Anda",
+      "deposit": "Setoran",
+      "withdrawals": "Penarikan Dana",
+      "creditDebitCards": "Kartu Kredit/Debit",
+      "electronicPaymentMethods": "Metode Pembayaran Elektronik",
+      "generalConditions": "Syarat Umum",
+      "noThirdPartyPayments": "Pembayaran Pihak Ketiga tidak diizinkan dalam keadaan apa pun.",
+      "refundConditions": "Ketentuan PENGEMBALIAN UANG:",
+      "dispute": "Sengketa"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "Negara-Negara yang Dibatasi",
+    "meta": "Kepatuhan Hukum",
+    "sections": {
+      "restrictedList": "__KEEP_0 __ Limited tidak menyediakan layanan apa pun ke Negara berikut:",
+      "creditDebitCards": "Kartu Kredit/Debit"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "ADANYA RISIKO",
+    "meta": "Pemberitahuan Penting",
+    "sections": {
+      "noInvestmentAdvice": "Kami tidak memberikan saran investasi.",
+      "speculateWithAffordableMoney": "Hanya berspekulasi dengan uang yang Anda mampu kehilangan.",
+      "whenDecidingToTrade": "Saat memutuskan apakah akan memperdagangkan instrumen tersebut, Anda harus mengetahui hal - hal berikut:",
+      "cfdTradingMayNotBeAppropriate": "__ keep_0 __ Perdagangan Mungkin Tidak Sesuai untuk Anda",
+      "weDoNotProvideAdvice": "Kami Tidak Memberikan Saran",
+      "tradingOffExchange": "Perdagangan Off - Exchange",
+      "margin": "Marjin",
+      "lossLimitsNotGuaranteed": "Batas Kerugian Tidak Dijamin",
+      "pastPerformance": "Kinerja Masa Lalu",
+      "currency": "Mata Uang",
+      "volatility": "Volatilitas ",
+      "outOfHoursMarkets": "Pasar di Luar Jam Kerja",
+      "leverageOfGearing": "__ keep_0 __ dari Gearing",
+      "contingentLiabilityTransaction": "Transaksi Kewajiban Kontinjensi",
+      "spreadsCommissionsCosts": "Spread, Komisi, dan Biaya",
+      "insolvency": "Kepailitan",
+      "regulatoryAndLegalRisk": "Risiko Regulasi dan Hukum",
+      "taxRisk": "Risiko Pajak",
+      "yourMoney": "Uang Anda",
+      "systemFailure": "Kegagalan Sistem NIBP "
+    }
+  },
+  "riskWarning": {
+    "h1": "Peringatan Risiko",
+    "meta": "Pemberitahuan Penting",
+    "sections": {
+      "generalRisk": "RISIKO UMUM",
+      "leverageRisk": "__ keep_0 __ Risiko",
+      "marketVolatility": "Volatilitas pasar.",
+      "suitability": "Kesesuaian",
+      "noProfitGuarantees": "Tidak Ada Jaminan Keuntungan",
+      "furtherInformation": "Informasi lebih lanjut"
+    },
+    "generalRiskBody": "Trading forex dan __ keep_0 __ melibatkan risiko yang signifikan dan mungkin tidak cocok untuk semua investor. Klien harus memahami risikonya sebelum melakukan perdagangan. Anda mungkin kehilangan sebagian atau seluruh modal yang Anda investasikan. Anda tidak boleh berdagang dengan uang yang tidak dapat Anda hilangkan.",
+    "leverageRiskBody": "Produk __ keep_0__ dan __ keep_1 __ biasanya diperdagangkan dengan margin menggunakan leverage. __ keep_2 __ dapat memperbesar keuntungan dan kerugian. Pergerakan pasar yang kecil dapat mengakibatkan kerugian yang lebih besar secara proporsional dibandingkan dengan dana yang Anda setorkan.",
+    "marketVolatilityBody": "Pasar keuangan bisa bergejolak. Harga dapat bergerak cepat dan tidak dapat diprediksi karena peristiwa ekonomi, berita, kondisi likuiditas, atau faktor lainnya. Selama kondisi yang bergejolak, mungkin sulit untuk mengeksekusi perdagangan pada harga yang diharapkan atau untuk menutup posisi pada level yang diinginkan.",
+    "suitabilityBody": "Sebelum melakukan perdagangan, Anda harus mempertimbangkan situasi keuangan, pengalaman, dan tujuan Anda dengan cermat. Jika Anda tidak yakin apakah trading forex atau __ keep_0__ cocok untuk Anda, mintalah saran keuangan independen dari profesional yang berkualifikasi.",
+    "noProfitGuaranteesBody": "Kinerja masa lalu tidak menunjukkan hasil di masa depan. __ keep_0 __ tidak menjamin keuntungan atau perlindungan terhadap kerugian. Semua keputusan perdagangan dibuat atas risiko Anda sendiri."
+  }
+}

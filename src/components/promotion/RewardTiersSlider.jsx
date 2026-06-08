@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "@/components/grid";
+import { useTranslation } from 'react-i18next'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -7,7 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import rewardImg1 from '@/assets/img/trade/reward-img1.png'
 import rewardImg2 from '@/assets/img/trade/reward-img2.png'
 import rewardImg3 from '@/assets/img/trade/reward-img3.png'
 import rewardImg4 from '@/assets/img/trade/reward-img4.png'
@@ -16,66 +16,27 @@ import appleWatch from '@/assets/img/trade/apple_watch.jpg'
 import ipad from '@/assets/img/trade/ipad.png'
 import { AnimatePresence, motion } from "framer-motion";
 
-const rewardTiers = [
-  {
-    volume: "50",
-    prize: "Power Bank",
-    desc: "Stay powered wherever you trade",
-    image: rewardImg4,
-    featured: false,
-  },
-  {
-    volume: "300",
-    prize: "Apple Airpods",
-    desc: "Pro-level performance in your hands",
-    image: appleAirpods,
-    featured: false,
-  },
-  {
-    volume: "500",
-    prize: "Apple Watch",
-    desc: "The ultimate prize for top traders",
-    image: appleWatch,
-    featured: false,
-  },
-  {
-    volume: "1,000",
-    prize: "iPAD",
-    desc: "Trade smarter on a bigger screen",
-    image: ipad,
-    featured: true,
-  },
-  {
-    volume: "1500",
-    prize: "iPAD Pro",
-    desc: "Trade smarter on a pro-level bigger screen",
-    image: rewardImg3,
-    featured: true,
-  },
-  {
-    volume: "2000",
-    prize: "LATEST IPHONE",
-    desc: "The ultimate device for elite traders",
-    image: rewardImg2,
-    featured: true,
-  },
-  // {
-  //   volume: "500",
-  //   prize: "Apple Watch",
-  //   desc: "The ultimate prize for top traders",
-  //   image: rewardImg2,
-  //   featured: false,
-  // },
-  // {
-  //   volume: "1,000",
-  //   prize: "ipad",
-  //   desc: "Trade smarter on a bigger screen",
-  //   image: rewardImg1,
-  //   featured: true,
-  // },
+const tierConfig = [
+  { volume: "50", tierKey: "tier1", image: rewardImg4, featured: false },
+  { volume: "300", tierKey: "tier2", image: appleAirpods, featured: false },
+  { volume: "500", tierKey: "tier3", image: appleWatch, featured: false },
+  { volume: "1,000", tierKey: "tier4", image: ipad, featured: true },
+  { volume: "1500", tierKey: "tier5", image: rewardImg3, featured: true },
+  { volume: "2000", tierKey: "tier6", image: rewardImg2, featured: true },
 ];
 
 export default function RewardTiersSlider() {
+  const { t } = useTranslation('trading')
+  const pu = (key) => t(`promotionUi.rewardTiers.${key}`)
+
+  const rewardTiers = tierConfig.map(({ volume, tierKey, image, featured }) => ({
+    volume,
+    prize: pu(`items.${tierKey}.prize`),
+    desc: pu(`items.${tierKey}.desc`),
+    image,
+    featured,
+  }));
+
   return (
     <div className="reward_tiers_slider relative">
       <div className="overflow-hidden">
@@ -136,21 +97,19 @@ export default function RewardTiersSlider() {
                           </motion.div>
                         )}
                       </AnimatePresence>
-                      {/* Card Header */}
 
                       <div className="">
                         <p className="text-sm lg:text-base tracking-[2px] uppercase text-[#ABACB3] leading-normal font-medium mb-1.5">
-                          Trading Volume
+                          {pu('tradingVolumeLabel')}
                         </p>
                         <div className="text-2xl lg:text-5xl font-bold text-primary leading-tight">
                           {tier.volume}{" "}
                           <span className="text-sm lg:text-base font-normal uppercase leading-tight text-[#ABACB3] align-middle">
-                            LOTS
+                            {pu('volumeLabel')}
                           </span>
                         </div>
                       </div>
 
-                      {/* Card Image */}
                       <div className="w-full h-45 rounded-2xl  mt-4 overflow-hidden bg-[#222428]">
                         <img
                           src={tier.image}
@@ -159,7 +118,6 @@ export default function RewardTiersSlider() {
                         />
                       </div>
 
-                      {/* Card Body */}
                       <div className="pt-5.5">
                         <h3 className="text-white text-xl  font-bold mb-1.5">
                           {tier.prize}
@@ -178,9 +136,8 @@ export default function RewardTiersSlider() {
       </div>
       <Container>
         <p className="text-xs lg:text-sm text-[#ABACB3]  mt-8 px-1 leading-normal">
-          <strong className="text-para2 font-normal leading-normal">Note:</strong> Achieve
-          your target volume within 30 days from opt-in date. Stocks & crypto
-          pairs excluded.
+          <strong className="text-para2 font-normal leading-normal">{pu('noteLabel')}</strong>{" "}
+          {pu('note')}
         </p>
       </Container>
     </div>

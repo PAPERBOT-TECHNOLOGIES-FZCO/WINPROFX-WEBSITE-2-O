@@ -1,0 +1,204 @@
+{
+  "analytics": {
+    "meta": "ANALITIK",
+    "h1": "Alat Analitik Berkuasa untuk Keputusan Trading Lebih Bijak",
+    "faqTitle": "Soalan lazim",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "Penjejak Acara",
+        "title": "Jejaki Acara Ekonomi Utama dengan Economic Calendar",
+        "des": "Kekal dimaklumkan tentang acara ekonomi penting dan keluaran data untuk meningkatkan strategi trading anda di WINPROFX."
+      },
+      "marketNews": {
+        "meta": "Berita Pasaran",
+        "title": "Berita Pasaran Masa Nyata dari WINPROFX",
+        "des": "Kekal dikemas kini dengan berita pasaran dan kemas kini terkini dari pasukan FXStreet News secara masa nyata. Gunakan aplikasi WINPROFX Trade atau WINPROFX Personal Area."
+      }
+    },
+    "smartSignals": {
+      "meta": "Isyarat Pintar",
+      "title": "Isyarat Pintar",
+      "des": "Dapatkan wawasan actionable dari Trading Central untuk menyokong keputusan trading anda."
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "Alat manakah di platform kami yang menawarkan ramalan pasaran terbaik?",
+        "body": "Gunakan Economic Calendar untuk menjejaki acara ekonomi penting dan keluaran data. Kekal dikemas kini dengan berita masa nyata melalui FXStreet News dan dapatkan wawasan dari Trading Central WebTV."
+      },
+      "tradingPatterns": {
+        "title": "Alat manakah di laman web kami yang terbaik untuk menganalisis corak trading?",
+        "body": "WINPROFX menyediakan gabungan alat analisis asas dan teknikal untuk membantu anda meramalkan pergerakan harga dan menganalisis corak trading. Alat percuma dan mudah diakses."
+      }
+    }
+  },
+  "economicCalendar": {
+    "meta": "KALENDAR EKONOMI",
+    "h1": "Kalendar Ekonomi",
+    "tableHeaders": {
+      "time": "Masa",
+      "symbol": "Simbol",
+      "event": "Acara",
+      "impact": "Impak",
+      "actual": "Sebenar",
+      "forecast": "Ramalan",
+      "previous": "Sebelumnya"
+    },
+    "faqTitle": "Soalan lazim",
+    "heroDescription": "Jejaki peristiwa makroekonomi global, penunjuk volatiliti, dan data yang menggerakkan pasaran secara masa nyata.",
+    "symbolsLabel": "Simbol",
+    "sampleEvent": "Gaji Bukan Pertanian (NFP)",
+    "impactHigh": "Tinggi",
+    "sections": {
+      "understanding": {
+        "title": "Memahami dan Memanfaatkan Kalendar Ekonomi Forex",
+        "p1": "Kalendar Ekonomi Forex ialah alat bernilai untuk pedagang, membolehkan mereka memantau dan menganalisis peristiwa yang mendorong pergerakan pasaran dan meramalkan perubahan harga. Ia menyenaraikan berita nasional dan antarabangsa penting secara kronologi.",
+        "p2": "Peristiwa utama seperti keputusan dasar monetari, penunjuk ekonomi, pengumuman KDNK, angka Non-Farm Payrolls (NFP), dan perubahan kadar faedah disertakan kerana ia boleh mempengaruhi pasaran kewangan dengan ketara."
+      },
+      "whyUse": {
+        "title": "Mengapa Anda Perlu Menggunakan Kalendar Ekonomi Forex",
+        "p1": "Kalendar Ekonomi Forex penting untuk kekal dimaklumkan tentang berita, laporan, dan pengumuman akan datang. Peristiwa ini boleh mempengaruhi volatiliti pasangan mata wang forex, saham, dan pasaran lain dengan ketara.",
+        "p2": "Dengan menggunakan kalendar, pedagang boleh merancang dagangan dengan lebih berkesan dan kekal dimaklumkan tentang corak carta dan penunjuk yang mungkin terjejas. Merujuk kalendar sebelum hari dagangan adalah amalan yang bijak."
+      }
+    },
+    "faqSubtitle": "Dapatkan jawapan jelas dan ringkas untuk soalan paling biasa tentang dagangan, persediaan akaun, deposit, pengeluaran, dan ciri platform.",
+    "faqs": {
+      "whatIs": {
+        "title": "Apakah Kalendar Ekonomi Forex?",
+        "body": "<p>Kalendar Ekonomi ialah alat yang menyenaraikan peristiwa ekonomi penting dan keluaran data secara kronologi, yang boleh memberi kesan kepada pasaran kewangan.</p>"
+      },
+      "howToUse": {
+        "title": "Bagaimana saya boleh menggunakan Kalendar Ekonomi Forex untuk dagangan?",
+        "body": "<p>Pedagang menggunakan Kalendar Ekonomi untuk kekal dimaklumkan tentang peristiwa akan datang yang mungkin mempengaruhi pergerakan pasaran, membantu merancang dagangan dengan lebih berkesan.</p>"
+      },
+      "eventTypes": {
+        "title": "Apakah jenis peristiwa yang disenaraikan pada Kalendar Ekonomi Forex?",
+        "body": "<p>Kalendar Ekonomi merangkumi peristiwa seperti keputusan dasar monetari, penunjuk ekonomi, pengumuman KDNK, angka Non-Farm Payrolls (NFP), dan perubahan kadar faedah.</p>"
+      },
+      "impact": {
+        "title": "Bagaimanakah peristiwa ekonomi Forex memberi kesan kepada dagangan?",
+        "body": "<p>Peristiwa ekonomi boleh menyebabkan volatiliti ketara dalam pasaran kewangan, mempengaruhi harga pasangan forex, saham, dan instrumen lain.</p>"
+      },
+      "whereFind": {
+        "title": "Di manakah saya boleh menemui Kalendar Ekonomi Forex pada platform WINPROFX?",
+        "body": "<p>Kalendar Ekonomi boleh diakses dalam Personal Area anda di laman web WINPROFX atau melalui aplikasi WINPROFX Trade.</p>"
+      },
+      "notifications": {
+        "title": "Bolehkah saya mendapat notifikasi untuk peristiwa ekonomi Forex akan datang?",
+        "body": "<p>Ya, anda boleh menerima notifikasi untuk peristiwa ekonomi akan datang di bawah tab \"Mailbox\" pada platform dagangan anda.</p>"
+      },
+      "importance": {
+        "title": "Adakah semua peristiwa ekonomi Forex sama penting untuk dagangan?",
+        "body": "<p>Tidak, kesan peristiwa ekonomi berbeza. Peristiwa utama seperti keputusan kadar faedah dan angka NFP biasanya memberi kesan lebih tinggi.</p>"
+      },
+      "updated": {
+        "title": "Berapa kerap Kalendar Ekonomi Forex dikemas kini?",
+        "body": "<p>Kalendar Ekonomi dikemas kini secara masa nyata untuk memastikan anda mempunyai maklumat paling terkini tentang peristiwa akan datang.</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "KALKULATOR MATA WANG",
+    "h1": "Kalkulator Mata Wang",
+    "faqTitle": "Soalan lazim",
+    "faqs": {
+      "whatIs": {
+        "title": "Apakah Forex Currency Calculator?",
+        "body": "Forex Currency Calculator ialah alat yang membantu trader mengira pips, margin, Spread, komisen, dan metrik penting lain untuk posisi trading mereka."
+      },
+      "howToUse": {
+        "title": "Bagaimana saya menggunakan Forex Currency Calculator?",
+        "body": "Masukkan butiran dagangan seperti pasangan mata wang, saiz posisi, dan Leverage untuk mengira pelbagai metrik seperti pips, margin, dan Spread."
+      },
+      "metrics": {
+        "title": "Metrik apakah yang boleh Forex Currency Calculator bantu kira?",
+        "body": "Kalkulator membantu menentukan pips, margin, Spread, komisen, dan metrik trading penting lain."
+      },
+      "free": {
+        "title": "Adakah Forex Currency Calculator percuma?",
+        "body": "Ya, Forex Currency Calculator di WINPROFX percuma untuk semua pengguna."
+      },
+      "whyUse": {
+        "title": "Mengapa saya perlu menggunakan Forex Currency Calculator?",
+        "body": "Ia memudahkan pengiraan kompleks, membantu anda membuat keputusan trading lebih termaklum dan mengurus posisi dengan berkesan."
+      },
+      "allPairs": {
+        "title": "Bolehkah saya menggunakan Kalkulator Mata Wang Forex untuk semua pasangan mata wang?",
+        "body": "Ya, kalkulator menyokong semua pasangan mata wang utama dan kecil."
+      },
+      "accountTypes": {
+        "title": "Adakah Kalkulator Mata Wang Forex mengambil kira jenis akaun yang berbeza?",
+        "body": "Ya, anda boleh menyesuaikan tetapan kalkulator agar sepadan dengan jenis akaun dan keadaan dagangan khusus anda."
+      },
+      "accuracy": {
+        "title": "Sejauh manakah ketepatan Kalkulator Mata Wang Forex?",
+        "body": "Kalkulator memberikan hasil yang sangat tepat berdasarkan data input dan keadaan pasaran semasa."
+      },
+      "whereFind": {
+        "title": "Di manakah saya boleh mencari Kalkulator Mata Wang Forex di WINPROFX?",
+        "body": "Anda boleh mengakses Kalkulator Mata Wang Forex di bahagian alat Personal Area anda di laman web WINPROFX."
+      },
+      "riskManagement": {
+        "title": "Bolehkah Kalkulator Mata Wang Forex membantu pengurusan risiko?",
+        "body": "Ya, dengan mengira metrik utama, ia membantu anda lebih memahami dan mengurus risiko yang berkaitan dengan dagangan anda."
+      }
+    },
+    "bannerMeta": "Kalkulator",
+    "bannerTitle": "Perancangan Dagangan Tepat",
+    "bannerDes": "Kira margin, nilai pip dan swap semalaman secara masa nyata merentasi pasaran global.",
+    "sectionTitle": "Kalkulator Mata Wang Forex",
+    "sectionDes": "Kalkulator Mata Wang Forex ialah alat berguna yang membantu pedagang menukar satu mata wang kepada mata wang lain dengan pantas menggunakan kadar pertukaran masa nyata."
+  },
+  "currencyConverter": {
+    "meta": "PENUKAR MATA WANG",
+    "h1": "Penukar Mata Wang",
+    "cardTitle": "Menggunakan WINPROFX Currency Converter",
+    "cardDes": "Penukar mata wang kami membantu anda menukar satu mata wang ke mata wang lain dengan cepat dan tepat menggunakan kadar masa nyata. Alat ini penting semasa deposit dan pengeluaran pada akaun trading anda.",
+    "steps": {
+      "selectBase": "Daripada enam senarai dropdown yang tersedia, pilih mata wang asas anda.",
+      "selectTargets": "Pilih sehingga lima mata wang lain untuk ditukar.",
+      "enterAmount": "Masukkan jumlah yang ingin ditukar dari mata wang asas.",
+      "autoCalculate": "Penukar mata wang akan secara automatik mengira dan memaparkan kadar pertukaran untuk mata wang pilihan anda."
+    },
+    "faqTitle": "Soalan lazim",
+    "faqs": {
+      "selectBase": {
+        "title": "Bagaimana saya memilih mata wang asas?",
+        "body": "Anda boleh memilih mata wang asas dari enam senarai dropdown yang tersedia. Ini ialah mata wang yang anda tukar dari."
+      },
+      "selectTargets": {
+        "title": "Berapa banyak mata wang boleh saya tukar?",
+        "body": "Anda boleh memilih sehingga lima mata wang lain untuk ditukar serentak."
+      },
+      "realTimeRates": {
+        "title": "Adakah kadar pertukaran masa nyata?",
+        "body": "Ya, penukar mata wang menggunakan kadar pertukaran masa nyata untuk penukaran yang tepat."
+      },
+      "freeToUse": {
+        "title": "Adakah penukar mata wang percuma?",
+        "body": "Ya, WINPROFX Currency Converter percuma untuk semua pengguna."
+      },
+      "enterAmount": {
+        "title": "Bagaimana cara memasukkan jumlah untuk ditukar?",
+        "body": "Hanya masukkan jumlah yang ingin ditukar dari mata wang asas anda dalam medan yang disediakan. Penukar akan mengira nilai setara dalam mata wang yang dipilih secara automatik."
+      },
+      "ratesUpdated": {
+        "title": "Adakah kadar pertukaran dikemas kini secara masa nyata?",
+        "body": "Ya, kadar pertukaran yang digunakan oleh WINPROFX Currency Converter dikemas kini secara masa nyata untuk memastikan ketepatan."
+      },
+      "accountRequired": {
+        "title": "Bolehkah saya menggunakan penukar mata wang tanpa akaun WINPROFX?",
+        "body": "Tidak, anda perlu mempunyai akaun WINPROFX berdaftar untuk mengakses dan menggunakan alat penukar mata wang."
+      },
+      "updateFrequency": {
+        "title": "Berapa kerap kadar pertukaran dikemas kini?",
+        "body": "Kadar pertukaran dikemas kini secara berterusan dalam masa nyata untuk mencerminkan keadaan pasaran terkini."
+      }
+    },
+    "bannerMeta": "Penukar",
+    "bannerDes": "Kira kadar pertukaran langsung dan tukar semua pasangan mata wang utama dan eksotik dengan mudah menggunakan penukar mata wang mesra pengguna kami."
+  },
+  "whyWinprofx": {
+    "title": "Mengapa WINPROFX?",
+    "description": "WINPROFX menawarkan alat dagangan canggih, kemas kini pasaran masa nyata dan platform mesra pengguna untuk membantu pedagang membuat keputusan termaklum dan mengoptimumkan strategi dagangan."
+  }
+}

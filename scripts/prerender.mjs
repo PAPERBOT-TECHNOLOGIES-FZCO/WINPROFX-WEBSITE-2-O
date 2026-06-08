@@ -5,6 +5,11 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { chromium } from 'playwright'
 import { PRERENDER_ROUTES } from './prerender-routes.mjs'
+import {
+  printPrerenderReport,
+  validatePrerenderRoutes,
+  validatePrerenderedHtmlSamples,
+} from './validate-prerender-routes.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -79,12 +84,6 @@ function startPreview() {
       const text = chunk.toString()
       process.stdout.write(text)
       outputBuffer += text
-      if (
-        outputBuffer.includes(`${PREVIEW_HOST}:${PREVIEW_PORT}`) ||
-        /Local:\s+http/i.test(outputBuffer)
-      ) {
-        // Log line seen; HTTP poll below confirms the server is accepting connections.
-      }
     }
 
     child.stdout?.on('data', onOutput)
@@ -118,7 +117,7 @@ async function waitForRoute(page, route) {
     { timeout: 45000 },
   )
 
-  if (route.path !== '/') {
+  if (route.path !== '/' && !route.path.match(/^\/(hi|id|vi|bn|ms)\/?$/)) {
     await page.waitForFunction(() => !document.getElementById('static-home-seo'), undefined, {
       timeout: 15000,
     })
@@ -153,13 +152,24 @@ function outputPathForRoute(routePath) {
 }
 
 async function main() {
+  const routeErrors = validatePrerenderRoutes()
+  if (routeErrors.length > 0) {
+    console.error('\nPrerender route validation failed:\n')
+    for (const error of routeErrors) {
+      console.error(`  - ${error}`)
+    }
+    process.exit(1)
+  }
+
+  printPrerenderReport()
+
   const preview = await startPreview()
 
   try {
     const browser = await chromium.launch({ headless: true })
 
     for (const route of PRERENDER_ROUTES) {
-      process.stdout.write(`Prerendering ${route.path}...\n`)
+      process.stdout.write(`Prerendering ${route.path} [${route.locale}]...\n`)
       const page = await browser.newPage()
       await waitForRoute(page, route)
       const html = await page.content()
@@ -171,7 +181,19 @@ async function main() {
     }
 
     await browser.close()
+
+    const htmlErrors = validatePrerenderedHtmlSamples(DIST)
+    if (htmlErrors.length > 0) {
+      console.error('\nPrerender HTML validation failed:\n')
+      for (const error of htmlErrors) {
+        console.error(`  - ${error}`)
+      }
+      process.exit(1)
+    }
+
+    console.log('\nPrerender HTML validation passed for sample English pages.')
     process.stdout.write(`Prerendered ${PRERENDER_ROUTES.length} routes.\n`)
+    printPrerenderReport()
   } finally {
     preview.kill('SIGTERM')
   }

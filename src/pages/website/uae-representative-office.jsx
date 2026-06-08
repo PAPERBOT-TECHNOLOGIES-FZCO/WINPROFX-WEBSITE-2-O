@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -9,7 +10,11 @@ import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import {
+  BRAND_NAME,
   DUBAI_ACTIVITY_STATUS,
   DUBAI_BUSINESS_NAME,
   DUBAI_EXPIRY_DATE,
@@ -17,9 +22,10 @@ import {
   DUBAI_LEGAL_TYPE,
   DUBAI_LICENSE_ACTIVITY,
   DUBAI_LICENSE_NUMBER,
-  DUBAI_SCOPE_CLARIFICATION,
-  RISK_WARNING_SHORT,
+  SUPPORT_EMAIL,
 } from '@/lib/company-registration'
+
+const PAGE_KEY = 'uaeRepresentativeOffice'
 
 const uaeLicenseSummaryRows = [
   { label: 'Business Name', value: DUBAI_BUSINESS_NAME },
@@ -38,80 +44,80 @@ const uaeLicenseSummaryRows = [
 ]
 
 export default function UaeRepresentativeOffice() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('uaeRepresentativeOffice')
+
+  const i18nVars = {
+    brandName: BRAND_NAME,
+    dubaiBusinessName: DUBAI_BUSINESS_NAME,
+    dubaiLicenseNumber: DUBAI_LICENSE_NUMBER,
+    supportEmail: SUPPORT_EMAIL,
+  }
+
+  const roleItems = Object.values(t(`pages.${PAGE_KEY}.content.roleItems`, { returnObjects: true }))
+  const verifyItems = Object.values(t(`pages.${PAGE_KEY}.content.verifyItems`, { returnObjects: true, ...i18nVars }))
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="UAE Representative Office | WINPROFX"
-        description="Learn about the WINPROFX UAE representative office, Dubai Professional License, official UAE domain, and verification information."
+        {...seo}
         canonicalPath="/uae-representative-office"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Official Information" title="UAE Representative Office" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
           <IdentitySection>
-            <p>
-              WINPROFX operates a UAE representative office under the business name{' '}
-              {DUBAI_BUSINESS_NAME}. The office is registered under Dubai Professional License No.{' '}
-              {DUBAI_LICENSE_NUMBER} with license activity listed as Representative Office.
-            </p>
-            <p className="mt-4">
-              The UAE representative office provides a local business presence for WINPROFX in the
-              United Arab Emirates. It supports information sharing, support coordination, brand
-              representation, and client or partner communication where permitted under the
-              representative office license scope.
-            </p>
+            <p>{t(`pages.${PAGE_KEY}.content.intro1`, i18nVars)}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.intro2`)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Role of a Representative Office">
-            <p>
-              A representative office is a type of business registration that allows a foreign
-              company to establish a local presence for limited activities such as marketing,
-              liaison, and coordination. It is not the same as a full trading license or a financial
-              services broker license.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.roleOfRepresentativeOffice`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.roleBody`)}</p>
             <ul className="list-disc pl-5 mt-4 flex flex-col gap-2 text-para">
-              <li>Local business presence and brand representation in the UAE</li>
-              <li>Information and support coordination for clients and partners</li>
-              <li>Communication through official WINPROFX channels where permitted</li>
-              <li>Connection to the official UAE regional domain at winprofx.ae</li>
+              {roleItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Dubai License Summary">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiLicenseSummary`)}>
             <RegistrationTable rows={uaeLicenseSummaryRows} />
             <p className="mt-4">
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                View full Dubai Professional License details
-              </Link>
+              <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary">
+                {t('shared.viewDubaiLicense')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Important Clarification">
-            <p>{DUBAI_SCOPE_CLARIFICATION}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.importantClarification`)}>
+            <p>{tCompany('dubaiScopeClarification')}</p>
             <LicenseClarification showDubaiScope={false} />
           </IdentitySection>
 
-          <IdentitySection title="User Verification Guidance">
-            <p>Before registering, logging in, depositing funds, or sharing personal information, users should verify:</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.userVerificationGuidance`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.verifyIntro`)}</p>
             <ul className="list-disc pl-5 mt-4 flex flex-col gap-2 text-para">
-              <li>The exact website domain (winprofx.org, winprofx.com, or winprofx.ae)</li>
-              <li>The license business name matches {DUBAI_BUSINESS_NAME}</li>
-              <li>Official support channels (support@winprofx.com and the Contact page)</li>
-              <li>Client portal URL: https://my.winprofx.org/</li>
-              <li>Partner portal URL: https://partner.winprofx.org/</li>
+              {verifyItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
             </ul>
             <p className="mt-4">
-              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
-                Use the full WINPROFX verification checklist
-              </Link>
+              <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary">
+                {t('shared.verifyChecklist')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
+          <TrustPageFooter canonicalPath="/uae-representative-office" />
           <IdentityNav />
         </Card>
       </Container>

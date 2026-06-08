@@ -4,7 +4,13 @@ import { Container } from "@/components/grid";
 import img from "@/assets/img/promotion/img.png";
 import { y, duration, once } from "@/utilities/animation";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next'
+
 export default function PtConditions() {
+  const { t } = useTranslation('trading')
+  const pu = (key) => t(`promotionUi.ptConditions.${key}`)
+
+  const itemKeys = ['fairPlay', 'dispute', 'liability', 'general']
   const steps = [
     {
       id: (
@@ -54,8 +60,8 @@ export default function PtConditions() {
           </defs>
         </svg>
       ),
-      title: "Fair Play",
-      desc: "Any signs of market abuse such as latency arbitrage or manipulative trading techniques will result in immediate disqualification from the program.",
+      title: pu(`items.${itemKeys[0]}.title`),
+      desc: pu(`items.${itemKeys[0]}.desc`),
     },
     {
       id: (
@@ -105,8 +111,8 @@ export default function PtConditions() {
           </defs>
         </svg>
       ),
-      title: "Dispute Resolution",
-      desc: "Any issues not directly addressed in these terms will be handled by management in a fair and binding manner. Management's decision is final.",
+      title: pu(`items.${itemKeys[1]}.title`),
+      desc: pu(`items.${itemKeys[1]}.desc`),
     },
     {
       id: (
@@ -156,8 +162,8 @@ export default function PtConditions() {
           </defs>
         </svg>
       ),
-      title: "Liability Disclaimer",
-      desc: "WINPROFX will not be held responsible for any trading losses incurred. This program does not alter participants' risk profiles or investment strategies.",
+      title: pu(`items.${itemKeys[2]}.title`),
+      desc: pu(`items.${itemKeys[2]}.desc`),
     },
     {
       id: (
@@ -207,8 +213,8 @@ export default function PtConditions() {
           </defs>
         </svg>
       ),
-      title: "General Terms",
-      desc: "WINPROFX reserves the right to amend or terminate this program at any time. All existing terms and conditions of WINPROFX apply in addition to these program-specific conditions.",
+      title: pu(`items.${itemKeys[3]}.title`),
+      desc: pu(`items.${itemKeys[3]}.desc`),
     },
   ];
   return (
@@ -216,10 +222,10 @@ export default function PtConditions() {
       <Container>
         <CommonTitle
           className="max-w-160 mb-12"
-          subTitle="Important Terms"
+          subTitle={pu('subTitle')}
           subTitleClass="rounded-full border border-white/20 bg-white/5 px-4 py-1 mb-4 inline-block uppercase text-xs"
-          title="Program Terms & Conditions"
-          des="Please read these terms carefully before participating in the Trade to Win program."
+          title={pu('title')}
+          des={pu('des')}
           desClass="max-w-102"
         />
 
@@ -233,7 +239,7 @@ export default function PtConditions() {
                   transition={{ duration: duration, delay: `0.${index * 2}` }}
                   viewport={{ once: once, amount: 0.2 }}
                   className=""
-                  key={step.id}
+                  key={index}
                 >
                   <div className="single-card relative flex items-start gap-4 ">
                     <div className="card-icon w-12.5 h-12.5 rounded-xl  flex items-center justify-center shrink-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.01)_0%,rgba(217,217,217,0.01)_100%)] shadow-[inset_0_4px_4px_0_rgba(0,217,255,0.25),-42px_103px_31px_0_rgba(0,217,255,0),-27px_66px_29px_0_rgba(0,217,255,0.01),-15px_37px_24px_0_rgba(0,217,255,0.03),-7px_17px_18px_0_rgba(0,217,255,0.04),-2px_4px_10px_0_rgba(0,217,255,0.05)]">
@@ -267,9 +273,9 @@ export default function PtConditions() {
             </svg>
           </div>
           <div className="max-w-220">
-            <p className="text-para text-sm lg:text-base leading-normal mb-4">Trading forex and leveraged products involves significant risk and is not suitable for all investors. Trading may result in losses exceeding your initial investment. Ensure you fully understand the risks involved.</p>
+            <p className="text-para text-sm lg:text-base leading-normal mb-4">{pu('riskWarning')}</p>
             <a href="/risk-disclosure" className="text-[#EA4745] text-sm lg:text-base leading-normal">
-              Read Full Risk Disclosure →
+              {pu('readFullRiskDisclosure')}
             </a>
           </div>
         </div>

@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "Your Path to Profitable Trading Start Here",
+    "description": "WINPROFX is a globally reputed broker offering tightest spreads, lightning fast withdrawals, 300+ tradable instruments with nanosecond execution on your finger tips.",
+    "badge": "Invest With The Best Forex Broker 2026",
+    "stats": {
+      "evolving": {
+        "title": "Evolving",
+        "description": "In the Market"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "Awards"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "Countries Covered"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "Trading Instruments"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "Your Journey to <br /> Trading Starts Here With Us",
+    "steps": {
+      "openAccount": {
+        "title": "Open an Account",
+        "description": "Click the button above and Just follow some easy steps."
+      },
+      "makeDeposit": {
+        "title": "Make a Deposit",
+        "description": "Pro Tip: USDT Deposits and Withdrawals are the Fastest."
+      },
+      "startTrading": {
+        "title": "Start Trading",
+        "description": "Every professional started from scratch so start trading now."
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "Benefits of Trading With Us",
+    "description": "Discover seamless trading with us, where transparency and advanced technology meet for your financial success.",
+    "items": {
+      "withdrawals": {
+        "meta": "Crypto withdraw in",
+        "title": "30 Minutes",
+        "description": "Unlock swift financial flexibility with our 30-minute withdrawal guarantee."
+      },
+      "tradeDaily": {
+        "meta": "Trade daily",
+        "title": "Win Rewards",
+        "description": "Daily trades, daily wins - fuel your success in every market move."
+      },
+      "clientSupport": {
+        "meta": "Award Winning",
+        "title": "Customer Support",
+        "description": "Delivering unparalleled service excellence!"
+      },
+      "negativeBalance": {
+        "meta": "Negative balance",
+        "title": "Protection",
+        "description": "Trade confidently with built-in negative balance protection for financial security."
+      }
+    }
+  },
+  "platform": {
+    "meta": "TRADING PLATFORM",
+    "title": "Download MT 5 For Mobile",
+    "description": "WINPROFX has remained highly successful to expand their business all over the world, and now we are MT 5 is now available on Android and iPhone, and you are one step closer to success. Download MT 5 now and dive into the world of limitless trading opportunities."
+  },
+  "whatTrade": {
+    "title": "What you can Trade?",
+    "description": "Discover seamless trading with us, where transparency and advanced technology meet for your financial success.",
+    "items": {
+      "crypto": {
+        "title": "Crypto",
+        "description": "Cryptocurrencies also known as digital currencies are fast-growth investment instruments and"
+      },
+      "metals": {
+        "title": "Metals",
+        "description": "Spot metal trading holds a special place in the heart of every trader. metals have attracted traders all"
+      },
+      "commodities": {
+        "title": "Commodities",
+        "description": "Investing in commodities can provide investors with diversification, a hedge against"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex or the foreign exchange is a global market where the world's currencies trade. It vastly"
+      },
+      "indices": {
+        "title": "Indices",
+        "description": "Indices are a measurement of the price performance of a group of shares from an exchange."
+      },
+      "oil": {
+        "title": "Oil",
+        "description": "Energy futures are contracts to buy or sell fossil fuels or related products at a set date and price."
+      }
+    },
+    "imageAlt": "WINPROFX {{market}} trading"
+  },
+  "about": {
+    "meta": "ABOUT WINPROFX",
+    "heading": "<strong class='font-normal text-white'>At WINPROFX, we offer a secure </strong> online trading platform, fostering sustainability through expertise, market knowledge, and trusted partnerships.",
+    "features": {
+      "platform": "Best platform for every class of traders beginners, intermediate or professional.",
+      "orderManagement": "Sophisticated order management tools.",
+      "indicators": "Introducing more native technical indicators.",
+      "customize": "Easy to configure and customize your trading setup"
+    }
+  },
+  "award": {
+    "title": "WINPROFX Broker with Award-Winning Excellence",
+    "description": "The global forex industry has acknowledged WINPROFX's achievements, honoring us with top accolades for our exceptional products and services.",
+    "items": {
+      "bestForexBroker2025": "Best Forex Broker 2025",
+      "globalForexBroker2025": "Global Forex Broker of the Year 2025",
+      "topStpBroker2025": "Top STP Broker 2025",
+      "bestDepositWithdrawal2024": "Best Deposit And Withdrawal Broker 2024"
+    }
+  },
+  "news": {
+    "title": "News & Insights",
+    "description": "Stay informed with our latest market updates and expert insights, empowering you to make well-informed decisions in the world of finance.",
+    "paymentFlow": {
+      "title": "Effortless Fund Flow: Swift Deposits and Seamless Withdrawals",
+      "description": "Experience financial fluidity with our hassle-free deposit and withdrawal processes, ensuring your transactions are both quick and convenient."
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade to WIN",
+        "description": "Trade more and win GUARANTED prizes. The more you trade, the better the prize.",
+        "promotionDates": "Promotion Dates: 1st January 2026 to 31st May 2026"
+      },
+      "technicalAnalysis": {
+        "title": "Free Technical Analysis Tool",
+        "description": "Identify chart patterns, analyze market conditions & monitor markets around the clock, with just one click!",
+        "poweredBy": "Powered by"
+      },
+      "learnMore": "Learn More"
+    }
+  },
+  "demoCta": {
+    "title": "Embark on Mastery: Unleash Your Skills with the WINPROFX Demo Experience!",
+    "description": "Embark on your trading journey with a complimentary 21-day MT5 demo account. Unveil the power of our award-winning Best Forex Trading Strategies Platform risk-free – register now and explore the art of precision trading.",
+    "button": "Try MT5 Platform Demo"
+  }
+}

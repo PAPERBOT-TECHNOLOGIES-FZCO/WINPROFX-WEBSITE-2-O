@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,9 +7,12 @@ import Card from '@/components/policy/card'
 import { motion } from 'framer-motion'
 import { y, duration, once } from '@/utilities/animation'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function Terms() {
-    const info = [
+    const { t } = useTranslation('legal')
+  const seo = useSeo('terms')
+  const info = [
         {
             title: 'Acceptance of Terms',
             des: [
@@ -76,14 +80,14 @@ export default function Terms() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Terms and Conditions | WINPROFX"
-                description="Read the WINPROFX Terms and Conditions for information about website usage, client responsibilities, trading-related services, and important legal terms."
-                canonicalPath="/terms"
-            />
+        {...seo}
+        canonicalPath="/terms"
+        pageName={t('terms.h1')}
+      />
             <TopShape />
             <PolicyTitle
                 as="h1"
-                title="Terms & Conditions"
+                title={t('terms.h1')}
             />
             <Container>
                 <Card>

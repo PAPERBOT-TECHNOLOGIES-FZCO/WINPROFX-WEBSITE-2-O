@@ -9,14 +9,16 @@ import FeatureComparison from "@/components/accounts/feature-comparison";
 import video from "@/assets/img/accounts/accounts.webm";
 import CtaTwo from "../../components/cta-two";
 import SeoHead from "@/components/seo-head";
+import { useSeo } from '@/hooks/use-seo';
+import { useTranslation } from 'react-i18next';
 
 export default function Accounts() {
+  const { t } = useTranslation('trading');
+  const seo = useSeo('accounts')
   return (
     <>
       <SeoHead
-        title="Trading Accounts | WINPROFX"
-        description="Explore WINPROFX trading account information, account access options, platform-related services, and important risk details."
-        keywords="Forex Trading Accounts, Standard Account, Pro Account, ECN Account, WINPROFX Account Types, Online Trading Account"
+        {...seo}
         canonicalPath="/accounts"
       />
       <TopShape />
@@ -25,15 +27,9 @@ export default function Accounts() {
         containerClass="max-w-180! text-center"
         videoBg={video}
         bgClass="mt-25 md:mt-0 md:top-1/2 h-auto 3xl:h-full! w-full bottom-0 left-0 scale-180 md:scale-100"
-        meta="ACCOUNTS"
-        title="Trading Accounts"
-        des={
-          <>
-            Unlock feature-packed, commission-free trading accounts designed for
-            today’s traders. Sign up now and enjoy the benefits of our most
-            popular account.
-          </>
-        }
+        meta={t('accounts.meta')}
+        title={t('accounts.h1')}
+        des={t('accounts.des')}
       />
 
       <div className="common-padding">

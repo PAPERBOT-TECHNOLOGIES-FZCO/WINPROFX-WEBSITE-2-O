@@ -1,0 +1,49 @@
+{
+  "tagline": "একটি প্ল্যাটফর্ম। একাধিক মার্কেট। WINPROFX-এর সাথে অসীম ট্রেডিং সুযোগ।",
+  "sections": {
+    "explore": "অন্বেষণ",
+    "markets": "মার্কেট",
+    "contactInfo": "যোগাযোগের তথ্য",
+    "officialDomains": "অফিসিয়াল ডোমেইন",
+    "importantLinks": "গুরুত্বপূর্ণ লিংক",
+    "trustLegal": "ট্রাস্ট ও আইনি",
+    "riskWarning": "ঝুঁকি সতর্কতা",
+    "restrictedRegions": "নিষিদ্ধ অঞ্চল"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX অফিসিয়াল ওয়েবসাইট",
+    "description": "WINPROFX একটি Forex এবং CFD ট্রেডিং ব্র্যান্ড যা এর অফিসিয়াল ওয়েবসাইট এবং পোর্টালের মাধ্যমে ট্রেডিং প্ল্যাটফর্ম অ্যাক্সেস, ক্লায়েন্ট অ্যাকাউন্ট সেবা, পার্টনার প্রোগ্রাম টুল এবং ট্রেডিং-সম্পর্কিত সহায়তা সেবা প্রদান করে।"
+  },
+  "domains": {
+    "officialWebsite": "অফিসিয়াল ওয়েবসাইট",
+    "officialAlternate": "অফিসিয়াল বিকল্প ডোমেইন",
+    "officialUae": "অফিসিয়াল UAE/আঞ্চলিক ডোমেইন",
+    "clientPortal": "ক্লায়েন্ট পোর্টাল",
+    "partnerPortal": "পার্টনার পোর্টাল"
+  },
+  "links": {
+    "home": "হোম",
+    "platform": "ট্রেডিং প্ল্যাটফর্ম",
+    "aboutUs": "আমাদের সম্পর্কে",
+    "about": "পরিচিতি",
+    "companyProfile": "কোম্পানি প্রোফাইল",
+    "contact": "যোগাযোগ",
+    "officialDomains": "অফিসিয়াল ডোমেইন",
+    "forex": "Forex",
+    "indices": "ইনডেক্স",
+    "crypto": "ক্রিপ্টো",
+    "metals": "ধাতু",
+    "commodities": "কমোডিটি",
+    "oil": "তেল",
+    "riskWarning": "ঝুঁকি সতর্কতা",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsConditions": "শর্তাবলী",
+    "amlPolicy": "AML নীতি",
+    "depositWithdrawPolicy": "জমা ও উত্তোলন নীতি",
+    "restrictedCountries": "নিষিদ্ধ দেশ",
+    "legalDocuments": "আইনি নথি",
+    "riskDisclosure": "ঝুঁকি প্রকাশ"
+  },
+  "restrictedRegionsText": "WINPROFX Limited USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan-এর নাগরিক/বাসিন্দাদের জন্য সেবা প্রদান করে না। WINPROFX Limited-এর সেবা এমন কোনো দেশ বা এখতিয়ারে কোনো ব্যক্তির কাছে বিতরণ বা ব্যবহারের জন্য নয়, যেখানে এমন বিতরণ বা ব্যবহার স্থানীয় আইন বা প্রবিধানের বিরোধী হবে।",
+  "copyright": "© {{year}} WINPROFX দ্বারা সর্বস্বত্ব সংরক্ষিত"
+}

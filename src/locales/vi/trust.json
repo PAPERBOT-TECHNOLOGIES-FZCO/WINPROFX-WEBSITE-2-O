@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "lastReviewed": "2 June 2026",
+    "lastReviewedIso": "2026-06-02",
+    "reviewedBy": "Đội ngũ Tuân thủ & Vận hành WINPROFX"
+  },
+  "trustCenter": {
+    "h1": "Trung tâm tin cậy WINPROFX",
+    "intro": "Trung tâm tin cậy WINPROFX là trung tâm thông tin chính thức về công ty, pháp lý, rủi ro, rút tiền, hỗ trợ và xác minh tên miền. Sử dụng các trang bên dưới để xác minh WINPROFX trước khi đăng nhập, nạp tiền hoặc chia sẻ tài liệu cá nhân.",
+    "verifyCalloutTitle": "Xác minh tên miền chính thức trước khi hành động",
+    "verifyCalloutBody": "Luôn xác nhận bạn đang ở tên miền chính thức của WINPROFX trước khi nhập thông tin đăng nhập, nạp tiền hoặc tải lên tài liệu KYC. Các trang web giả mạo và kẻ mạo danh có thể sử dụng thương hiệu tương tự.",
+    "viewOfficialDomains": "Xem tên miền chính thức WINPROFX →",
+    "howToVerify": "Cách xác minh WINPROFX →",
+    "sections": {
+      "companyLegal": "Thông tin công ty & pháp lý",
+      "verification": "Xác minh & an toàn tên miền",
+      "trustSupport": "Tin cậy, rút tiền & hỗ trợ",
+      "brandGuides": "Hướng dẫn xác minh thương hiệu",
+      "brandGuidesIntro": "Các trang chính thức cho tìm kiếm xác minh phổ biến:"
+    }
+  },
+  "pages": {
+    "companyProfile": {
+      "label": "Hồ sơ công ty",
+      "summary": "Tổng quan thương hiệu và công ty chính thức WINPROFX.",
+      "meta": "Thông tin chính thức",
+      "h1": "Hồ sơ công ty",
+      "intro": "Thông tin chính thức về thương hiệu WINPROFX, các trang web, cổng thông tin, dịch vụ, kênh hỗ trợ và thông báo rủi ro giao dịch.",
+      "sections": {
+        "brandOverview": "Tổng quan về thương hiệu",
+        "legalEntityAndRegistration": "Pháp nhân và đăng ký",
+        "uaeRepresentativeOffice": "CỘNG HÒA UAE",
+        "trustAndTransparency": "Sự tin cậy và minh bạch",
+        "officialBrandInformation": "Thông tin thương hiệu chính thức",
+        "officialDomainsAndPortalGuidance": "Hướng dẫn về miền và cổng thông tin chính thức",
+        "winprofxServices": "Dịch vụ WINPROFX",
+        "userSafetyAndBrandVerification": "An toàn người dùng và xác minh thương hiệu",
+        "riskWarning": "Cảnh báo rủi ro",
+        "restrictedCountries": "Các quốc gia bị hạn chế và tính khả dụng của dịch vụ",
+        "legalAndPolicyDocuments": "Văn bản pháp luật và chính sách",
+        "contactWinprofx": "Liên hệ WINPROFX",
+        "frequentlyAskedQuestions": "Câu hỏi thường gặp"
+      },
+      "content": {
+        "brandOverview1": "{{brandName}} là thương hiệu giao dịch ngoại hối và CFD cung cấp quyền truy cập vào nền tảng giao dịch, dịch vụ tài khoản khách hàng, công cụ chương trình đối tác, thông tin liên quan đến giao dịch và dịch vụ hỗ trợ thông qua các trang web và cổng thông tin chính thức.",
+        "brandOverview2": "Mục đích của trang này là cung cấp cho người dùng, đối tác và công cụ tìm kiếm thông tin chính thức rõ ràng về thương hiệu WINPROFX, các miền chính thức, kênh hỗ trợ, dịch vụ và thông báo liên quan đến rủi ro.",
+        "brandOverview3": "Người dùng nên dựa vào các miền và cổng chính thức được liệt kê trên trang web này khi truy cập các dịch vụ WINPROFX, xác minh danh tính hoặc liên hệ với bộ phận hỗ trợ.",
+        "legalEntityIntro": "{{brandName}} được liên kết với {{legalEntityName}}, một International Business Company được hợp nhất trong {{jurisdiction}}. Hồ sơ thành lập công ty bao gồm một {{documentTypes}}.",
+        "legalEntityRegulatory": "For regulatory and license-related information, visit the {{regulatoryLink}} page.",
+        "uaeOfficeIntro": "{{brandName}} vận hành văn phòng đại diện UAE dưới tên doanh nghiệp {{dubaiBusinessName}}, được đăng ký theo Giấy phép Chuyên nghiệp Dubai số. {{dubaiLicenseNumber}} với hoạt động cấp phép được liệt kê là {{dubaiLicenseActivity}}.",
+        "trustIntro": "{{brandName}} công bố thông tin đáng tin cậy và minh bạch để giúp khách hàng xác minh các miền chính thức, hiểu quy trình rút tiền, gửi khiếu nại và truy cập các lộ trình hỗ trợ leo thang.",
+        "domainsGuidanceIntro": "{{brandName}} sử dụng các miền và cổng chính thức để cung cấp thông tin trang web, quyền truy cập tài khoản khách hàng, dịch vụ đối tác và liên lạc hỗ trợ. Người dùng nên xác minh rằng họ đang truy cập tên miền WINPROFX chính thức trước khi đăng ký, đăng nhập, thanh toán hoặc chia sẻ thông tin liên quan đến tài khoản.",
+        "domainPurposes": {
+          "org": "Trang web chính thức và nguồn thông tin thương hiệu chính.",
+          "com": "Miền thay thế chính thức cho thương hiệu WINPROFX.",
+          "ae": "UAE / tên miền khu vực để biết thông tin WINPROFX.",
+          "my": "Cổng thông tin khách hàng để truy cập tài khoản và dịch vụ khách hàng.",
+          "partner": "Cổng đối tác để giới thiệu Nhà môi giới / quyền truy cập liên quan đến đối tác."
+        },
+        "unlistedDomainWarning": "If a website, social media page, mobile app, email, or representative claims to represent WINPROFX but is not listed on the {{officialDomainsLink}} page, users should verify it before proceeding.",
+        "servicesIntro": "{{brandName}} cung cấp các dịch vụ hỗ trợ và truy cập liên quan đến giao dịch thông qua các trang web và cổng thông tin chính thức của mình. Các dịch vụ có sẵn có thể bao gồm quyền truy cập nền tảng, quản lý tài khoản khách hàng, công cụ của đối tác và thông tin liên quan đến thị trường.",
+        "services": {
+          "forexCfd": {
+            "title": "Truy cập giao dịch Forex và CFD",
+            "description": "Truy cập vào các dịch vụ liên quan đến giao dịch ngoại hối và CFD thông qua các nền tảng được hỗ trợ và các kênh tài khoản chính thức."
+          },
+          "platform": {
+            "title": "Thông tin nền tảng giao dịch",
+            "description": "Hướng dẫn truy cập và thông tin dành cho nền tảng giao dịch được khách hàng WINPROFX sử dụng."
+          },
+          "clientAccount": {
+            "title": "Quản lý tài khoản khách hàng",
+            "description": "Quyền truy cập cổng thông tin khách hàng để quản lý các hoạt động liên quan đến tài khoản thông qua hệ thống WINPROFX chính thức."
+          },
+          "partnerPortal": {
+            "title": "Cổng thông tin đối tác / nhà môi giới giới thiệu",
+            "description": "Các công cụ và tài nguyên của cổng đối tác dành cho các đối tác được phê duyệt và Nhà môi giới giới thiệu, nếu có."
+          },
+          "tools": {
+            "title": "Công cụ giao dịch và thông tin thị trường",
+            "description": "Các công cụ liên quan đến thị trường, thông tin giao dịch và tài nguyên nền tảng được cung cấp cho người dùng thông qua các kênh chính thức."
+          },
+          "support": {
+            "title": "Hỗ trợ khách hàng",
+            "description": "Hỗ trợ hỗ trợ thông qua các kênh liên hệ chính thức của WINPROFX, bao gồm {{supportEmail}}."
+          }
+        },
+        "safetyIntro": "Người dùng phải luôn xác nhận rằng họ đang truy cập WINPROFX thông qua miền hoặc cổng chính thức. Trước khi nhập chi tiết đăng nhập, gửi tiền, liên hệ với bộ phận hỗ trợ hoặc chia sẻ tài liệu, người dùng nên xác minh địa chỉ trang web và chỉ sử dụng các kênh WINPROFX chính thức.",
+        "safetyTips": {
+          "checkDomain": "Luôn kiểm tra tên miền trước khi đăng nhập.",
+          "noOtps": "Không chia sẻ OTP, mật khẩu hoặc chi tiết tài khoản nhạy cảm với những người liên hệ không chính thức.",
+          "noUnofficialPayments": "Tránh các hướng dẫn thanh toán không chính thức từ các đại diện không xác định.",
+          "verifySuspicious": "Xác minh bất kỳ trang web hoặc thông tin liên lạc đáng ngờ nào thông qua trang liên hệ chính thức.",
+          "useDomainsPage": "Sử dụng trang tên miền chính thức để xác nhận các trang web và cổng WINPROFX hợp lệ."
+        },
+        "safetyLinks": "Learn more on the {{officialDomainsLink}}, {{verifyLink}}, and {{contactLink}} pages.",
+        "riskBody1": "Giao dịch ngoại hối và CFD có rủi ro đáng kể và có thể không phù hợp với tất cả các nhà đầu tư. Giá có thể biến động nhanh chóng và khách hàng có thể mất một phần hoặc toàn bộ vốn đầu tư của mình. Người dùng nên hiểu những rủi ro liên quan trước khi giao dịch và chỉ nên giao dịch bằng số tiền mà họ có thể chấp nhận rủi ro.",
+        "riskBody2": "{{brandName}} không đảm bảo lợi nhuận giao dịch, lợi nhuận hoặc kết quả đầu tư. Quyết định giao dịch là trách nhiệm của người dùng cá nhân.",
+        "riskLinks": "Read the full {{riskWarningLink}}, {{legalDocsLink}}, and {{termsLink}} before using any service.",
+        "restrictedIntro": "{{brandName}} có thể không cung cấp dịch vụ ở một số quốc gia hoặc khu vực pháp lý nhất định do các hạn chế về pháp lý, quy định hoặc kinh doanh. Người dùng nên xem lại trang Quốc gia bị hạn chế trước khi đăng ký hoặc sử dụng bất kỳ dịch vụ nào.",
+        "viewRestrictedCountries": "Xem các quốc gia bị hạn chế",
+        "legalDocsIntro": "Người dùng nên đọc các tài liệu pháp lý, rủi ro, quyền riêng tư và chính sách hiện hành trước khi sử dụng bất kỳ dịch vụ WINPROFX nào.",
+        "contactIntro": "Đối với các yêu cầu hỗ trợ chính thức, người dùng có thể liên hệ với WINPROFX thông qua email hỗ trợ chính thức hoặc trang Liên hệ.",
+        "brandTableLabels": {
+          "brandName": "Tên thương hiệu",
+          "mainWebsite": "Trang web chính thức chính",
+          "alternateDomain": "Tên miền thay thế chính thức",
+          "uaeDomain": "UAE chính thức / Tên miền khu vực",
+          "clientPortal": "Cổng thông tin khách hàng",
+          "partnerPortal": "Cổng đối tác",
+          "supportEmail": "Email hỗ trợ",
+          "lastUpdated": "Cập nhật lần cuối"
+        },
+        "legalLinks": {
+          "terms": "Điều khoản và Điều kiện",
+          "privacy": "Chính sách bảo mật",
+          "riskWarning": "Cảnh báo rủi ro",
+          "aml": "Chính sách AML",
+          "legalDocuments": "Văn bản pháp luật",
+          "restrictedCountries": "Các quốc gia bị hạn chế"
+        }
+      },
+      "faqs": {
+        "whatIsWinprofx": {
+          "question": "WINPROFX là gì?",
+          "answer": "WINPROFX là thương hiệu giao dịch ngoại hối và CFD cung cấp quyền truy cập vào nền tảng giao dịch, dịch vụ tài khoản khách hàng, công cụ chương trình đối tác và các dịch vụ hỗ trợ liên quan đến giao dịch thông qua các miền và cổng chính thức."
+        },
+        "officialWebsite": {
+          "question": "Trang web chính thức của WINPROFX là gì?",
+          "answer": "The main official WINPROFX website is https://2/. WINPROFX also uses official alternate and regional domains listed on its Official Domains page."
+        },
+        "clientPortal": {
+          "question": "Cổng thông tin khách hàng WINPROFX là gì?",
+          "answer": "The official WINPROFX client portal is https://my.1/. Users should verify the portal URL before logging in or entering account information."
+        },
+        "partnerPortal": {
+          "question": "Cổng đối tác WINPROFX là gì?",
+          "answer": "The official WINPROFX partner portal is https://partner.1/. It is used for partner and Introducing Broker-related access, where applicable."
+        },
+        "contactSupport": {
+          "question": "Làm cách nào tôi có thể liên hệ với bộ phận hỗ trợ WINPROFX?",
+          "answer": "Người dùng có thể liên hệ với bộ phận hỗ trợ WINPROFX tại support@winprofx.com hoặc thông qua trang Liên hệ chính thức."
+        },
+        "tradingRisk": {
+          "question": "Giao dịch ngoại hối và CFD có rủi ro không?",
+          "answer": "Đúng. Giao dịch ngoại hối và CFD có rủi ro đáng kể và có thể không phù hợp với tất cả các nhà đầu tư. Người dùng nên hiểu rõ những rủi ro trước khi giao dịch."
+        },
+        "verifyDomain": {
+          "question": "Làm cách nào người dùng có thể xác minh miền WINPROFX chính thức?",
+          "answer": "Người dùng nên tham khảo trang Miền chính thức hoặc Xác minh WINPROFX và xác nhận rằng trang web hoặc cổng thông tin được liệt kê là miền WINPROFX chính thức."
+        }
+      }
+    },
+    "companyRegistration": {
+      "label": "Đăng ký công ty",
+      "summary": "Chi tiết thành lập Saint Lucia và tài liệu được chứng nhận.",
+      "meta": "Thông tin chính thức",
+      "h1": "Đăng ký công ty",
+      "sections": {
+        "companyRegistrationDetails": "Chi tiết đăng ký công ty",
+        "shareAndCapitalInformation": "Thông tin về cổ phiếu và vốn",
+        "memorandumAndArticles": "Bản ghi nhớ và các điều khoản của Hiệp hội",
+        "dubaiBranchRegistration": "Đăng ký chi nhánh Dubai",
+        "importantClarification": "Làm rõ quan trọng",
+        "certifiedIncorporationDocuments": "Tài liệu thành lập được chứng nhận",
+        "riskWarning": "Cảnh báo rủi ro",
+        "relatedInformation": "Thông tin liên quan"
+      },
+      "content": {
+        "intro": "{{brandName}} được liên kết với {{legalEntityName}}, một International Business Company được hợp nhất trong {{jurisdiction}}. Các tài liệu thành lập được chứng nhận của công ty bao gồm một {{documentTypes}}.",
+        "shareCapitalBody": "Cơ cấu vốn cổ phần của công ty được xác định trong Bản ghi nhớ của Hiệp hội và các Điều khoản của Hiệp hội. {{legalEntityName}} có cổ phiếu được ủy quyền bằng USD với cổ phiếu phổ thông có một phiếu biểu quyết trên mỗi cổ phiếu. Cổ phiếu do công ty phát hành không được mua lại theo yêu cầu.",
+        "memorandumBody": "Bộ tài liệu hợp nhất được chứng nhận bao gồm Certificate of Incorporation, Memorandum of Association, and Articles of Association cho {{legalEntityName}}. Bản ghi nhớ của Hiệp hội xác định điều lệ, cơ cấu cổ phần và đối tượng của công ty. Các Điều khoản của Hiệp hội chi phối việc quản lý nội bộ và quyền của cổ đông.",
+        "subscriberLine": "Người đăng ký thành lập công ty là {{incorporationSubscriber}}.",
+        "dubaiBranchBody": "{{legalEntityName}} also holds a Dubai Professional License for its UAE representative office. See {{dubaiLicenseLink}} and {{uaeOfficeLink}} for details.",
+        "certifiedDocsIntro": "Giấy tờ thành lập được chứng nhận cho {{legalEntityName}} có sẵn để tải xuống:"
+      }
+    },
+    "legalEntityInformation": {
+      "label": "Thông tin pháp nhân",
+      "summary": "Tên pháp nhân, thẩm quyền và cơ cấu doanh nghiệp.",
+      "meta": "Thông tin chính thức",
+      "h1": "Thông tin pháp nhân",
+      "sections": {
+        "brandAndLegalEntity": "Thương hiệu và pháp nhân",
+        "incorporationJurisdiction": "Thẩm quyền thành lập",
+        "registeredAgent": "Đại lý đã đăng ký",
+        "registeredOffice": "Văn phòng đã đăng ký",
+        "entityStructure": "Cấu trúc thực thể",
+        "dubaiBranchAndOffice": "Chi nhánh và văn phòng Dubai",
+        "documentVerification": "Xác minh tài liệu",
+        "officialDomainsAndPortals": "Tên miền và cổng chính thức",
+        "legalDocuments": "Văn bản pháp luật",
+        "complianceClarification": "Làm rõ tuân thủ",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "brandIntro": "{{brandName}} là thương hiệu thương mại gắn liền với {{legalEntityName}}, một International Business Company được hợp nhất trong {{jurisdiction}}. Thông tin đăng ký công ty được cung cấp để minh bạch và xác minh người dùng.",
+        "entityStructureIntro": "{{legalEntityName}} là pháp nhân mẹ được thành lập ở {{jurisdiction}}. Chi nhánh Dubai hoạt động như một văn phòng đại diện theo Giấy phép Chuyên nghiệp của Dubai. Cấu trúc được tóm tắt dưới đây.",
+        "verifyBeforeAct": "Users should verify WINPROFX identity using the {{verifyLink}} checklist before registering, logging in, or sharing personal information.",
+        "legalDocsIntro": "Certified incorporation documents and other legal documents are available through the {{legalDocsLink}} section.",
+        "regulatoryVisit": "For regulatory and license-related information, visit the {{regulatoryLink}} page."
+      }
+    },
+    "dubaiProfessionalLicense": {
+      "label": "Dubai Professional License",
+      "summary": "Chi tiết giấy phép chuyên nghiệp văn phòng đại diện UAE.",
+      "meta": "Pháp lý & tuân thủ",
+      "h1": "Dubai Professional License",
+      "sections": {
+        "licenseDetails": "Chi tiết giấy phép",
+        "dubaiOfficeInformation": "Thông tin văn phòng Dubai",
+        "documentVerification": "Xác minh tài liệu",
+        "scopeClarification": "Làm rõ phạm vi",
+        "relatedInformation": "Thông tin liên quan",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro1": "{{dubaiBusinessName}} có Giấy phép Chuyên nghiệp Dubai được cấp bởi {{dubaiLicenseCategory}}. Trang này cung cấp thông tin giấy phép dựa trên tài liệu Giấy phép Chuyên nghiệp Dubai được chứng nhận. Hoạt động cấp phép được liệt kê là Representative Office và trạng thái hoạt động là Đang hoạt động.",
+        "intro2": "Giấy phép Chuyên nghiệp của Dubai dành cho Representative Office xác nhận đăng ký kinh doanh tại địa phương và hoạt động văn phòng đại diện được phép. Nó phải được hiểu riêng biệt với bất kỳ dịch vụ tài chính, nhà môi giới ngoại hối hoặc ủy quyền quản lý nhà môi giới CFD nào.",
+        "qrVerification": "Người dùng giữ hoặc nhận bản sao của tài liệu giấy phép gốc phải xác minh nó bằng mã QR được cung cấp trên tài liệu thông qua các kênh xác minh chính thức của Department of Economy and Tourism."
+      }
+    },
+    "uaeRepresentativeOffice": {
+      "label": "Văn phòng đại diện UAE",
+      "summary": "Phạm vi văn phòng đại diện Dubai và thông tin liên hệ.",
+      "meta": "Thông tin chính thức",
+      "h1": "Văn phòng đại diện UAE",
+      "sections": {
+        "roleOfRepresentativeOffice": "Vai trò của CỘNG ĐỒNG",
+        "dubaiLicenseSummary": "Tóm tắt giấy phép Dubai",
+        "importantClarification": "Làm rõ quan trọng",
+        "userVerificationGuidance": "Hướng dẫn xác minh người dùng",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro1": "{{brandName}} vận hành văn phòng đại diện UAE dưới tên doanh nghiệp {{dubaiBusinessName}}. Văn phòng được đăng ký theo Giấy phép Chuyên nghiệp Dubai số. {{dubaiLicenseNumber}} với hoạt động cấp phép được liệt kê là Representative Office.",
+        "intro2": "Văn phòng đại diện UAE cung cấp sự hiện diện kinh doanh địa phương cho WINPROFX tại Các Tiểu vương quốc Ả Rập Thống nhất. Nó hỗ trợ chia sẻ thông tin, hỗ trợ phối hợp, đại diện thương hiệu và liên lạc với khách hàng hoặc đối tác khi được phép theo phạm vi giấy phép văn phòng đại diện.",
+        "roleBody": "Văn phòng đại diện là một loại hình đăng ký kinh doanh cho phép một công ty nước ngoài thiết lập sự hiện diện tại địa phương cho các hoạt động hạn chế như tiếp thị, liên lạc và điều phối. Nó không giống như giấy phép giao dịch đầy đủ hoặc giấy phép môi giới dịch vụ tài chính.",
+        "roleItems": {
+          "localPresence": "Sự hiện diện của doanh nghiệp địa phương và đại diện thương hiệu tại UAE",
+          "supportCoordination": "Phối hợp thông tin và hỗ trợ cho khách hàng và đối tác",
+          "officialChannels": "Truyền thông qua các kênh WINPROFX chính thức nếu được phép",
+          "uaeDomain": "Kết nối với miền khu vực UAE chính thức tại winprofx.ae"
+        },
+        "verifyIntro": "Trước khi đăng ký, đăng nhập, gửi tiền hoặc chia sẻ thông tin cá nhân, người dùng nên xác minh:",
+        "verifyItems": {
+          "domain": "Tên miền trang web chính xác (winprofx.org, winprofx.com hoặc winprofx.ae)",
+          "businessName": "Tên doanh nghiệp trong giấy phép trùng khớp {{dubaiBusinessName}}",
+          "support": "Các kênh hỗ trợ chính thức ( {{supportEmail}} và trang Liên hệ)",
+          "clientPortal": "Client portal URL: https://my.0/",
+          "partnerPortal": "Partner portal URL: https://partner.0/"
+        }
+      }
+    },
+    "regulatoryInformation": {
+      "label": "Thông tin quy định",
+      "summary": "Thành lập, giấy phép Dubai và làm rõ phạm vi quy định.",
+      "meta": "Pháp lý & tuân thủ",
+      "h1": "Thông tin quy định",
+      "sections": {
+        "companyIncorporation": "Thành lập công ty",
+        "dubaiProfessionalLicense": "Giấy phép chuyên nghiệp Dubai",
+        "licenseScopeClarification": "Làm rõ phạm vi giấy phép",
+        "financialServicesLicenseClarification": "Làm rõ giấy phép dịch vụ tài chính",
+        "financialRegulatoryLicenseDetails": "Chi tiết giấy phép quản lý tài chính (Khi được xác minh)",
+        "documentAvailability": "Tính sẵn có của tài liệu",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "incorporationIntro": "{{legalEntityName}} được kết hợp trong {{jurisdiction}} như một {{companyType}}. Các tài liệu thành lập được chứng nhận của công ty bao gồm một {{documentTypes}}.",
+        "dubaiIntro": "{{legalEntityName}} có Giấy phép Chuyên nghiệp Dubai cho văn phòng đại diện UAE. Hoạt động cấp phép được liệt kê là Representative Office.",
+        "financialPlaceholderIntro": "Khi có thông tin giấy phép quản lý tài chính đã được xác minh, thông tin đó sẽ được công bố trong bảng bên dưới cùng với các liên kết đến hồ sơ cơ quan quản lý chính thức. Cho đến lúc đó, tất cả các trường vẫn giữ chỗ.",
+        "documentAvailability": "Certified incorporation documents are available under the {{legalDocsLink}} section and on the {{companyRegistrationLink}} page. Dubai license details are published on-page at {{dubaiLicenseLink}}."
+      }
+    },
+    "officialDomains": {
+      "label": "Tên miền chính thức",
+      "summary": "Danh sách trang web và cổng thông tin chính thức của WINPROFX.",
+      "meta": "Thông tin chính thức",
+      "h1": "Tên miền chính thức WINPROFX",
+      "sections": {
+        "primaryCanonicalDomain": "Tên miền Canonical chính",
+        "entityAndLicenseContext": "Bối cảnh thực thể và giấy phép",
+        "officialDomains": "Tên miền chính thức",
+        "preLoginVerificationWarning": "Cảnh báo xác minh trước khi đăng nhập",
+        "verificationWarning": "Cảnh báo xác minh",
+        "companyInformation": "Thông tin công ty"
+      },
+      "content": {
+        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
+        "canonicalAliases": "winprofx.com và winprofx.ae là các bí danh tên miền chính thức có thể phục vụ cùng một nội dung trang web. Chúng được liệt kê trong dữ liệu có cấu trúc WINPROFX dưới dạng thuộc tính chính thức có liên quan nhưng winprofx.org vẫn là nguồn chuẩn để lập chỉ mục và xác minh.",
+        "entityContext": "{{brandName}} là thương hiệu thương mại gắn liền với {{legalEntityName}}, được kết hợp trong {{jurisdiction}}. Tên miền khu vực UAE winprofx.ae được kết nối với văn phòng đại diện Dubai được đăng ký là {{dubaiBusinessName}} theo Giấy phép Chuyên nghiệp Dubai số. {{dubaiLicenseNumber}}.",
+        "domainsIntro": "Các miền chính thức sau đây được vận hành liên quan đến WINPROFX / PHÁP LÝ:",
+        "preLoginWarning": "Trước khi đăng ký, đăng nhập, gửi tiền hoặc chia sẻ thông tin cá nhân, hãy xác minh rằng URL của trang web khớp chính xác với một trong các miền chính thức được liệt kê ở trên. Nếu một trang web tuyên bố đại diện cho WINPROFX nhưng không được liệt kê ở đây thì đừng tiếp tục cho đến khi được xác minh với bộ phận hỗ trợ chính thức.",
+        "preLoginChecklist": "Use the {{verifyLink}} checklist for step-by-step verification guidance.",
+        "verificationWarning": "Nếu một trang web tuyên bố đại diện cho WINPROFX nhưng không được liệt kê ở đây, hãy xác minh trang web đó với bộ phận hỗ trợ của WINPROFX trước khi đăng nhập, gửi tiền hoặc chia sẻ thông tin cá nhân.",
+        "contactUnsure": "Contact {{supportEmail}} or visit our {{contactLink}} if you are unsure about a domain.",
+        "companyInfoLinks": "For brand and company details, see the {{companyProfileLink}}, {{companyRegistrationLink}}, and {{dubaiLicenseLink}} pages."
+      }
+    },
+    "verifyWinprofx": {
+      "label": "Xác minh WINPROFX",
+      "summary": "Hướng dẫn từng bước để xác minh các kênh chính thức của WINPROFX.",
+      "meta": "Xác minh chính thức",
+      "h1": "Xác minh WINPROFX",
+      "sections": {
+        "userVerificationChecklist": "Danh sách kiểm tra xác minh người dùng",
+        "verificationSummary": "Tóm tắt xác minh",
+        "verifyOfficialDomains": "Xác minh tên miền chính thức",
+        "trustLegalTransparencyPages": "Các trang tin cậy, pháp lý và minh bạch",
+        "safetyNote": "Lưu ý an toàn"
+      },
+      "content": {
+        "intro": "Trang này liệt kê các trang web và cổng thông tin chính thức do WINPROFX điều hành và cung cấp danh sách kiểm tra xác minh. Người dùng nên xác nhận nhận dạng thương hiệu, pháp nhân, giấy phép, tên miền và kênh hỗ trợ trước khi đăng nhập, đăng ký, gửi tiền hoặc chia sẻ thông tin cá nhân.",
+        "checklist": {
+          "brand": "Xác minh tên thương hiệu là WINPROFX",
+          "legalEntity": "Xác minh pháp nhân là HỢP PHÁP (công ty có thẩm quyền)",
+          "incorporation": "Kiểm tra số công ty 2023-00197 trên Đăng ký công ty",
+          "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
+          "domains": "Xác nhận URL trang web khớp với miền WINPROFX chính thức (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org hoặc đối tác.winprofx.org)",
+          "clientPortal": "Verify the client portal at https://my.0/",
+          "partnerPortal": "Verify the partner portal at https://partner.0/",
+          "support": "Sử dụng email hỗ trợ chính thức support@winprofx.com hoặc trang Liên hệ",
+          "readDocs": "Đọc Cảnh báo Rủi ro và Văn bản Pháp luật trước khi giao dịch hoặc gửi tiền"
+        },
+        "safetyNote": "If a website claims to represent WINPROFX but is not listed here, contact WINPROFX support before using it. Visit our {{contactLink}} or email {{supportEmail}}."
+      }
+    },
+    "legalDocuments": {
+      "label": "Tài liệu pháp lý",
+      "summary": "Mục lục chính sách, điều khoản và tài liệu tuân thủ.",
+      "meta": "Pháp lý & tuân thủ",
+      "h1": "Tài liệu pháp lý",
+      "sections": {
+        "availableDocuments": "Tài liệu có sẵn",
+        "questions": "Câu hỏi"
+      },
+      "content": {
+        "intro": "Các tài liệu pháp lý, chính sách và ủy thác sau đây áp dụng cho các dịch vụ của WINPROFX. Vui lòng đọc kỹ trước khi mở tài khoản hoặc sử dụng nền tảng của chúng tôi.",
+        "questions": "For questions about these documents, contact {{supportEmail}} or visit our {{contactLink}}.",
+        "docs": {
+          "incorporation": {
+            "name": "Tài liệu thành lập công ty",
+            "description": "Certificate of Incorporation, Memorandum of Association, and Articles of Association cho tính HỢP PHÁP"
+          },
+          "dubaiLicense": {
+            "name": "Giấy phép chuyên nghiệp Dubai",
+            "description": "Thông tin giấy phép trên trang dành cho {{dubaiBusinessName}} (Giấy phép số {{dubaiLicenseNumber}}). Hoạt động Representative Office — không phải là giấy phép môi giới dịch vụ tài chính."
+          },
+          "companyRegistration": {
+            "name": "Thông tin đăng ký công ty",
+            "description": "Chi tiết đăng ký công ty đầy đủ cho PHÁP LÝ"
+          },
+          "legalEntity": {
+            "name": "Thông tin pháp nhân",
+            "description": "Pháp nhân, đại lý đã đăng ký, văn phòng đăng ký, chi nhánh Dubai và các miền chính thức."
+          },
+          "regulatory": {
+            "name": "Thông tin quy định",
+            "description": "Thành lập công ty, giấy phép Dubai và làm rõ giấy phép dịch vụ tài chính."
+          },
+          "uaeOffice": {
+            "name": "CỘNG HÒA UAE",
+            "description": "Vai trò của văn phòng đại diện UAE, bản tóm tắt giấy phép và hướng dẫn xác minh."
+          },
+          "withdrawal": {
+            "name": "Rút tiền minh bạch",
+            "description": "Tổng quan về quy trình rút tiền, phương pháp và lộ trình leo thang."
+          },
+          "complaints": {
+            "name": "Khiếu nại và Giải quyết Tranh chấp",
+            "description": "Cách gửi khiếu nại và quy trình xem xét."
+          },
+          "clientFund": {
+            "name": "Bảo mật quỹ khách hàng",
+            "description": "Bảo mật tài khoản, KYC/AML và các biện pháp an toàn cổng thông tin."
+          },
+          "riskWarning": {
+            "name": "Cảnh báo rủi ro",
+            "description": "Tóm tắt các rủi ro giao dịch chính đối với các sản phẩm ngoại hối và CFD."
+          },
+          "terms": {
+            "name": "Điều khoản và Điều kiện",
+            "description": "Điều khoản điều chỉnh việc sử dụng các dịch vụ và nền tảng WINPROFX."
+          },
+          "privacy": {
+            "name": "Chính sách bảo mật",
+            "description": "Cách WINPROFX thu thập và sử dụng dữ liệu cá nhân."
+          },
+          "aml": {
+            "name": "Chính sách AML",
+            "description": "Chính sách tuân thủ và chống rửa tiền."
+          },
+          "depositWithdraw": {
+            "name": "Chính sách gửi và rút tiền",
+            "description": "Chính sách nạp tiền và rút tiền từ tài khoản."
+          }
+        }
+      }
+    },
+    "riskWarning": {
+      "label": "Cảnh báo rủi ro",
+      "summary": "Công bố rủi ro giao dịch Forex và CFD.",
+      "meta": "Thông báo quan trọng",
+      "h1": "Cảnh báo rủi ro"
+    },
+    "withdrawalTransparency": {
+      "label": "Minh bạch rút tiền",
+      "summary": "Tổng quan quy trình rút tiền và thông tin minh bạch.",
+      "meta": "Tin cậy & minh bạch",
+      "h1": "Minh bạch rút tiền",
+      "sections": {
+        "withdrawalProcessOverview": "Tổng quan về quy trình rút tiền",
+        "processingTimeline": "Tiến trình xử lý",
+        "commonReasonsForDelay": "Những lý do phổ biến cho sự chậm trễ",
+        "escalationProcess": "Quá trình leo thang",
+        "transparencyStatistics": "Thống kê minh bạch",
+        "riskAndComplianceNote": "Lưu ý về Rủi ro và Tuân thủ",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro1": "{{brandName}} cam kết cung cấp thông tin rõ ràng về cách gửi, xem xét và xử lý yêu cầu rút tiền. Trang này giải thích quy trình rút tiền chung, các yêu cầu xác minh và các tùy chọn nâng cấp có sẵn cho khách hàng.",
+        "intro2": "Yêu cầu rút tiền có thể yêu cầu xác minh tài khoản, xác minh phương thức thanh toán, kiểm tra AML và KYC cũng như xem xét hoạt động giao dịch hoặc tài khoản khi được yêu cầu bởi quy trình tuân thủ nội bộ. Thời gian xử lý cũng có thể phụ thuộc vào nhà cung cấp dịch vụ thanh toán bên thứ ba, ngân hàng hoặc mạng blockchain.",
+        "processIntro": "Khi khách hàng gửi yêu cầu rút tiền, yêu cầu đó thường trải qua các giai đoạn sau trước khi tiền được chuyển đến đích được phê duyệt:",
+        "processSteps": {
+          "submit": "Khách hàng gửi yêu cầu rút tiền thông qua cổng khách hàng chính thức hoặc kênh được phê duyệt",
+          "kyc": "Danh tính tài khoản và trạng thái KYC đã được xác minh",
+          "aml": "Xác minh phương thức thanh toán và kiểm tra AML được thực hiện nếu có",
+          "review": "Hoạt động giao dịch hoặc tài khoản có thể được xem xét khi được yêu cầu tuân thủ",
+          "security": "Đánh giá bảo mật tài khoản được tiến hành nếu được kích hoạt",
+          "release": "Việc rút tiền được phê duyệt sẽ được gửi đến nhà cung cấp dịch vụ thanh toán, ngân hàng hoặc mạng blockchain",
+          "confirm": "Khách hàng nhận được xác nhận sau khi quá trình xử lý hoàn tất"
+        },
+        "timelineIntro": "Bảng dưới đây phác thảo các kỳ vọng về đánh giá và xử lý tiêu chuẩn theo phương thức rút tiền. Các mốc thời gian chính xác được duy trì bởi các nhóm vận hành và tuân thủ.",
+        "timelineCaption": "Thời gian xử lý rút tiền theo phương thức",
+        "delayIntro": "Việc rút tiền có thể mất nhiều thời gian hơn dự kiến ​​vì những lý do bao gồm nhưng không giới hạn ở:",
+        "delayReasons": {
+          "incompleteKyc": "KYC không đầy đủ hoặc tài liệu nhận dạng lỗi thời",
+          "methodMismatch": "Sự không khớp giữa phương thức thanh toán tiền gửi và rút tiền",
+          "amlReview": "Đang chờ AML hoặc đánh giá tuân thủ",
+          "incorrectDetails": "Chi tiết ví, ngân hàng hoặc thanh toán không chính xác",
+          "pspDelay": "Nhà cung cấp dịch vụ thanh toán, ngân hàng hoặc xử lý blockchain chậm trễ",
+          "bonusReview": "Xem xét các điều khoản về tiền thưởng, khuyến mãi hoặc giao dịch nếu có",
+          "securityReview": "Xác minh bảo mật tài khoản hoặc xem xét hoạt động đáng ngờ"
+        },
+        "escalationIntro": "Nếu việc rút tiền bị trì hoãn ngoài thời gian tiêu chuẩn, hãy liên hệ với bộ phận hỗ trợ WINPROFX kèm theo thông tin sau:",
+        "escalationItems": {
+          "email": "Địa chỉ email đã đăng ký",
+          "accountId": "MT5 hoặc ID tài khoản",
+          "reference": "ID yêu cầu rút tiền hoặc tham chiếu (nếu có)",
+          "dateAmount": "Ngày và số tiền yêu cầu rút tiền",
+          "method": "Phương thức thanh toán được sử dụng để rút tiền"
+        },
+        "escalationContact": "Email {{supportEmail}} or visit {{supportLink}}.",
+        "statsIntro": "Số liệu rút tiền hoạt động sẽ được công bố tại đây sau khi xác minh nội bộ. Các hình bên dưới là phần giữ chỗ cho đến khi có dữ liệu được phê duyệt.",
+        "complianceNote": "Việc rút tiền có thể được xem xét về tính đầy đủ của KYC, tuân thủ AML, bảo mật tài khoản, xác minh phương thức thanh toán cũng như việc tuân thủ các điều khoản và chương trình khuyến mãi hiện hành. Khách hàng phải đảm bảo hồ sơ tài khoản và phương thức thanh toán được cập nhật trước khi gửi yêu cầu.",
+        "depositPolicyLink": "For full deposit and withdrawal policy terms, see the {{depositWithdrawLink}}."
+      }
+    },
+    "complaintsAndDisputeResolution": {
+      "label": "Khiếu nại và giải quyết tranh chấp",
+      "summary": "Cách gửi và leo thang khiếu nại của khách hàng.",
+      "meta": "Tin cậy & minh bạch",
+      "h1": "Khiếu nại và giải quyết tranh chấp",
+      "sections": {
+        "howToSubmitComplaint": "Cách gửi khiếu nại",
+        "complaintReviewProcess": "Quy trình xem xét khiếu nại",
+        "responseTimelines": "Dòng thời gian phản hồi",
+        "accountSpecificPrivacy": "Quyền riêng tư dành riêng cho tài khoản",
+        "publicReviewResponsePolicy": "Chính sách phản hồi đánh giá của công chúng",
+        "escalation": "Leo thang",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro1": "{{brandName}} cung cấp quy trình khiếu nại có cấu trúc để khách hàng và đối tác có thể nêu lên mối lo ngại về dịch vụ tài khoản, tương tác hỗ trợ, rút ​​tiền, xác minh hoặc các vấn đề liên quan đến giao dịch khác chỉ thông qua các kênh chính thức.",
+        "intro2": "Không chia sẻ mật khẩu tài khoản, chi tiết thẻ thanh toán hoặc tài liệu nhận dạng thông qua các trang web không chính thức, tin nhắn trên mạng xã hội hoặc các bên thứ ba tuyên bố đại diện cho WINPROFX.",
+        "submitIntro": "Complaints may be submitted by email to {{supportEmail}} with the subject line \"Complaint\" or through the official {{contactLink}} page. Please include:",
+        "requiredInfo": {
+          "name": "Tên đăng ký đầy đủ",
+          "email": "Địa chỉ email đã đăng ký",
+          "accountId": "Tài khoản hoặc ID MT5",
+          "ticketId": "ID vé hỗ trợ (nếu có)",
+          "description": "Mô tả chi tiết về vấn đề",
+          "documents": "Hỗ trợ ảnh chụp màn hình hoặc tài liệu",
+          "dateTime": "Ngày và giờ của giao dịch hoặc sự kiện"
+        },
+        "reviewSteps": {
+          "received": "Khiếu nại nhận được thông qua các kênh hỗ trợ chính thức",
+          "acknowledgement": "Hỗ trợ xác nhận và phân công tham chiếu nếu có",
+          "internalReview": "Đánh giá nội bộ bởi nhóm hỗ trợ và tài khoản có liên quan",
+          "complianceReview": "Xem xét tuân thủ hoặc hoạt động nếu được yêu cầu",
+          "response": "Phản hồi hoặc giải pháp được truyền đạt tới khách hàng",
+          "escalation": "Chuyển lên cấp quản lý nếu vấn đề vẫn chưa được giải quyết"
+        },
+        "timelineIntro": "Thời gian phản hồi mục tiêu được thiết lập bởi các hoạt động nội bộ và quy trình tuân thủ. SLA được phê duyệt sẽ được công bố khi được xác minh.",
+        "timelineCaption": "Thời gian giải quyết khiếu nại",
+        "escalation": "If a complaint is not resolved satisfactorily through initial support review, it may be escalated to compliance or operations management. See {{supportLink}} for escalation routes."
+      }
+    },
+    "clientFundSecurity": {
+      "label": "Bảo mật quỹ khách hàng",
+      "summary": "Hướng dẫn xử lý và bảo mật quỹ khách hàng.",
+      "meta": "Tin cậy & minh bạch",
+      "h1": "Bảo mật quỹ khách hàng",
+      "sections": {
+        "accountAccessSecurity": "Bảo mật truy cập tài khoản",
+        "kycAndAmlChecks": "Kiểm tra KYC và AML",
+        "paymentMethodVerification": "Xác minh phương thức thanh toán",
+        "withdrawalVerification": "Xác minh rút tiền",
+        "verifyBeforeDepositing": "Những điều khách hàng nên xác minh trước khi gửi tiền",
+        "portalAndWebsiteSafety": "An toàn cổng thông tin và trang web",
+        "importantNote": "Lưu ý quan trọng",
+        "reportSecurityConcerns": "Báo cáo mối lo ngại về bảo mật",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro": "{{brandName}} rất coi trọng tài khoản khách hàng và bảo mật thanh toán. Trang này phác thảo các phương pháp giúp bảo vệ tài khoản khách hàng, thông tin cá nhân và giao dịch thanh toán. Nó không mô tả các quỹ khách hàng hoặc bảo hiểm tiền gửi tách biệt trừ khi được công bố riêng trong tài liệu pháp lý đã được xác minh.",
+        "accountSecurity": {
+          "strongPassword": "Sử dụng mật khẩu mạnh, duy nhất cho tài khoản cổng thông tin khách hàng và đối tác",
+          "twoFactor": "Bật xác thực hai yếu tố nếu có",
+          "noSharing": "Không bao giờ chia sẻ thông tin đăng nhập, OTP hoặc mật khẩu với bên thứ ba",
+          "logout": "Đăng xuất khỏi các thiết bị dùng chung hoặc công cộng sau mỗi phiên",
+          "reportSuspicious": "Báo cáo hoạt động đăng nhập đáng ngờ để hỗ trợ ngay lập tức"
+        },
+        "kycBody1": "{{brandName}} yêu cầu xác minh danh tính (KYC) và có thể tiến hành kiểm tra chống rửa tiền (AML) trong quá trình triển khai và đánh giá tuân thủ liên tục. Khách hàng có thể được yêu cầu cung cấp giấy tờ tùy thân do chính phủ cấp, bằng chứng về địa chỉ và xác minh phương thức thanh toán.",
+        "kycBody2": "Việc xác minh không đầy đủ hoặc lỗi thời có thể trì hoãn việc gửi tiền, rút ​​tiền hoặc truy cập tài khoản cho đến khi các tài liệu cần thiết được gửi và phê duyệt.",
+        "paymentVerification": "Phương thức thanh toán được sử dụng để gửi và rút tiền phải thuộc về chủ tài khoản đã đăng ký. Thanh toán của bên thứ ba có thể bị từ chối. Khách hàng chỉ nên xác minh hướng dẫn thanh toán thông qua các kênh cổng thông tin chính thức và tránh gửi tiền đến các địa chỉ chưa được xác minh.",
+        "withdrawalVerification": "Withdrawals may require confirmation of account identity, payment method ownership, and compliance status before processing. See {{withdrawalLink}} for the withdrawal review process and escalation options.",
+        "preDepositChecklist": {
+          "domain": "Xác nhận URL trang web khớp với miền WINPROFX chính thức được liệt kê trên Miền chính thức",
+          "verifyPages": "Xác minh thông tin pháp nhân và giấy phép trên trang Thông tin quy định và đăng ký công ty",
+          "readDocs": "Đọc Cảnh báo rủi ro và các văn bản pháp luật hiện hành trước khi mở tài khoản",
+          "clientPortal": "Use only the official client portal at https://my.0/ for account access",
+          "noThirdParty": "Không bao giờ gửi tiền đến địa chỉ chưa được xác minh hoặc tài khoản của bên thứ ba",
+          "contactSupport": "Liên hệ với support@winprofx.com nếu bạn không chắc chắn về bất kỳ hướng dẫn thanh toán nào"
+        },
+        "preDepositLinks": "Use the {{verifyLink}} checklist and {{officialDomainsLink}} page before registering or depositing.",
+        "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.1/",
+        "importantNote": "Trang này chỉ mô tả các biện pháp bảo mật và xác minh. Nó không cấu thành yêu cầu bồi thường về quỹ khách hàng tách biệt, bảo hiểm tiền gửi hoặc bảo vệ vốn pháp định trừ khi được tiết lộ riêng trong tài liệu pháp lý đã được xác minh.",
+        "reportConcerns": "Report suspected fraud, phishing, or unauthorized access to {{supportEmail}} or via {{supportLink}}."
+      }
+    },
+    "supportAndEscalation": {
+      "label": "Hỗ trợ và leo thang",
+      "summary": "Kênh hỗ trợ và quy trình leo thang.",
+      "meta": "Tin cậy & minh bạch",
+      "h1": "Hỗ trợ và leo thang",
+      "sections": {
+        "officialSupportChannels": "Kênh hỗ trợ chính thức",
+        "supportTicketProcess": "Quy trình hỗ trợ vé",
+        "informationRequiredFromClients": "Thông tin yêu cầu từ khách hàng",
+        "warningAgainstUnofficialChannels": "Cảnh báo chống lại các kênh không chính thức",
+        "escalationProcess": "Quá trình leo thang",
+        "securityReminder": "Nhắc nhở bảo mật",
+        "complaints": "Khiếu nại",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro": "{{brandName}} cung cấp các kênh hỗ trợ chính thức cho khách hàng, đối tác và người dùng tiềm năng. Trang này giải thích cách liên hệ với bộ phận hỗ trợ, những thông tin cần đưa vào và cách báo cáo các vấn đề chưa được giải quyết chỉ thông qua các kênh đã được xác minh.",
+        "supportChannels": {
+          "email": "E-mail: {{supportEmail}}",
+          "contactPage": "{{contactLink}} trên winprofx.org",
+          "clientPortal": "Client portal (registered clients): https://my.0/"
+        },
+        "ticketSteps": {
+          "contact": "Liên hệ với bộ phận hỗ trợ qua email hoặc trang Liên hệ với dòng chủ đề rõ ràng",
+          "includeDetails": "Bao gồm tài liệu tham khảo tài khoản, email đã đăng ký và mô tả vấn đề",
+          "attach": "Đính kèm ảnh chụp màn hình hoặc tài liệu có liên quan nếu có",
+          "acknowledge": "Bộ phận hỗ trợ xác nhận đã nhận và chỉ định một tài liệu tham khảo nếu có",
+          "investigate": "Nhóm thích hợp sẽ điều tra (hỗ trợ, tuân thủ hoặc vận hành)",
+          "response": "Khách hàng nhận được phản hồi kèm theo kết quả hoặc các bước tiếp theo"
+        },
+        "clientInfo": {
+          "email": "Địa chỉ email đã đăng ký",
+          "accountId": "Tài khoản hoặc ID MT5",
+          "description": "Mô tả rõ ràng vấn đề",
+          "references": "Ngày, số tiền hoặc tài liệu tham khảo giao dịch có liên quan",
+          "screenshots": "Ảnh chụp màn hình hoặc tài liệu nếu có",
+          "withdrawalId": "ID yêu cầu rút tiền đối với các leo thang liên quan đến rút tiền"
+        },
+        "unofficialWarning": "{{brandName}} will not request passwords, full payment card numbers, or sensitive credentials through unofficial email, social media, messaging apps, or websites. Do not follow payment instructions from unknown representatives. Always verify domains on the {{verifyLink}} page before logging in, depositing, or sharing personal information.",
+        "escalationWithdrawalTitle": "Trì hoãn rút tiền",
+        "escalationWithdrawal": "Include withdrawal date, amount, payment method, MT5/account ID, and request reference. See {{withdrawalLink}}.",
+        "escalationKycTitle": "KYC và xác minh",
+        "escalationKyc": "Liên hệ hỗ trợ bằng email đã đăng ký và tài liệu tham khảo. Đảm bảo các tài liệu được gửi đáp ứng các yêu cầu đã nêu.",
+        "escalationDepositTitle": "Vấn đề về tiền gửi",
+        "escalationDeposit": "For deposit confirmation delays or payment disputes, contact support with transaction date, amount, payment method, and any reference from your bank or payment provider. See the {{depositWithdrawLink}}.",
+        "escalationIbTitle": "Đối tác môi giới giới thiệu (IB)",
+        "escalationIb": "IB partners should use partner portal channels or email with partner ID and business reference. Partner portal: https://partner.1/",
+        "securityReminder": "Protect your account credentials and verify official WINPROFX properties before any financial transaction. Report phishing or impersonation to {{supportEmail}}. Read {{clientFundLink}} for additional guidance.",
+        "complaints": "For formal complaints, see {{complaintsLink}}."
+      }
+    },
+    "companyStatistics": {
+      "label": "Thống kê công ty",
+      "summary": "Chỉ số minh bạch hoạt động khi được xác minh.",
+      "meta": "Tin cậy & minh bạch",
+      "h1": "Thống kê công ty",
+      "sections": {
+        "operationalMetrics": "Số liệu hoạt động",
+        "howStatisticsAreUpdated": "Thống kê được cập nhật như thế nào",
+        "importantNote": "Lưu ý quan trọng",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "content": {
+        "intro1": "Trang này cung cấp cái nhìn tổng quan có cấu trúc về số liệu thống kê hoạt động và số liệu minh bạch của WINPROFX. Nó tồn tại để khách hàng, đối tác và công chúng có thể truy cập dữ liệu đã được xác minh của công ty ở một nơi khi dữ liệu có sẵn sau hoạt động nội bộ và đánh giá tuân thủ.",
+        "intro2": "{{brandName}} không công bố các số liệu, giải thưởng, xếp hạng hoặc tuyên bố về hiệu suất chưa được xác minh. Tất cả các giá trị bên dưới là phần giữ chỗ cho đến khi quá trình xác minh hoạt động hoàn tất.",
+        "statsUpdate": "Các số liệu trên trang này được xem xét nội bộ trước khi xuất bản. Khi dữ liệu đã xác minh được phê duyệt, trang này sẽ được cập nhật với ngày cập nhật mới nhất hiện tại. Kiểm tra lại sau chu kỳ cập nhật minh bạch tiếp theo.",
+        "importantNote": "Số liệu thống kê được cung cấp chỉ nhằm mục đích minh bạch. Chúng không đảm bảo hiệu suất, mức độ dịch vụ hoặc thời gian xử lý trong tương lai cho các tài khoản cá nhân."
+      }
+    },
+    "contact": {
+      "label": "Liên hệ",
+      "summary": "Kênh hỗ trợ chính thức và thông tin liên hệ."
+    },
+    "depositWithdraw": {
+      "label": "Chính sách nạp và rút tiền",
+      "summary": "Thông tin chính sách nạp và rút tiền."
+    },
+    "riskDisclosure": {
+      "label": "Công bố rủi ro",
+      "summary": "Tuyên bố công bố rủi ro chi tiết."
+    }
+  },
+  "crossLinks": {
+    "trustCenter": "Trung tâm tin cậy WINPROFX",
+    "officialDomains": "Tên miền chính thức WINPROFX",
+    "verifyWinprofx": "Xác minh WINPROFX",
+    "regulatoryInformation": "Thông tin quy định WINPROFX",
+    "riskWarning": "Cảnh báo rủi ro WINPROFX",
+    "supportAndEscalation": "Hỗ trợ và leo thang"
+  },
+  "faqs": {
+    "regulatoryInformation": [
+      {
+        "question": "WINPROFX có được quy định bởi UAE SCA, DFSA hoặc ADGM không?",
+        "answer": "WINPROFX công bố thông tin quy định và pháp lý trên trang web chính thức. Dubai Professional License cho hoạt động văn phòng đại diện không giống với giấy phép cơ quan quản lý dịch vụ tài chính trừ khi được công bố và xác minh riêng trên trang Thông tin quy định."
+      },
+      {
+        "question": "Dubai Professional License là gì?",
+        "answer": "Dubai Professional License là đăng ký kinh doanh được cấp tại UAE. Đối với WINPROFX, hoạt động được cấp phép là Representative Office. Điều này liên quan đến sự hiện diện doanh nghiệp và không nên nhầm lẫn với giấy phép môi giới hoặc dịch vụ tài chính trừ khi được nêu rõ."
+      },
+      {
+        "question": "Tôi có thể xác minh đăng ký công ty WINPROFX ở đâu?",
+        "answer": "Bạn có thể xem chi tiết thành lập Saint Lucia trên trang Đăng ký công ty và tải xuống tài liệu được chứng nhận nếu được công bố. Luôn xác nhận bạn đang ở tên miền chính thức WINPROFX trước khi truy cập tài liệu."
+      }
+    ],
+    "withdrawalTransparency": [
+      {
+        "question": "Làm thế nào để yêu cầu rút tiền từ WINPROFX?",
+        "answer": "Rút tiền được gửi qua cổng khách hàng chính thức tại my.winprofx.org hoặc qua các kênh hỗ trợ được phê duyệt. Luôn xác nhận bạn đang ở tên miền chính thức trước khi đăng nhập."
+      },
+      {
+        "question": "Tại sao rút tiền WINPROFX có thể bị trì hoãn?",
+        "answer": "Các lý do phổ biến bao gồm KYC chưa hoàn tất, xem xét AML hoặc tuân thủ, xác minh phương thức thanh toán, chi tiết ngân hàng hoặc ví không chính xác, và thời gian xử lý của ngân hàng hoặc nhà cung cấp thanh toán."
+      },
+      {
+        "question": "Làm thế nào để leo thang vấn đề rút tiền?",
+        "answer": "Liên hệ support@winprofx.com hoặc truy cập trang Hỗ trợ và leo thang. Bao gồm email đã đăng ký, ID tài khoản và chi tiết tham chiếu rút tiền."
+      }
+    ],
+    "verifyWinprofx": [
+      {
+        "question": "Làm thế nào để xác minh trang web chính thức WINPROFX?",
+        "answer": "So sánh URL với trang Tên miền chính thức. Trang web chính là winprofx.org. Đăng nhập khách hàng tại my.winprofx.org và cổng đối tác tại partner.winprofx.org."
+      },
+      {
+        "question": "Tôi nên làm gì nếu nghi ngờ trang web WINPROFX giả mạo?",
+        "answer": "Không nhập thông tin đăng nhập hoặc gửi tiền. Truy cập trang Cảnh báo trang web giả, xác minh tên miền trên trang Tên miền chính thức và liên hệ hỗ trợ qua các kênh chính thức."
+      }
+    ],
+    "officialDomains": [
+      {
+        "question": "Sự khác biệt giữa winprofx.org và my.winprofx.org là gì?",
+        "answer": "winprofx.org là trang web chính thức chính cho thông tin công ty và sản phẩm. my.winprofx.org là cổng khách hàng để đăng nhập tài khoản, nạp và rút tiền."
+      },
+      {
+        "question": "winprofx.com và winprofx.ae có chính thức không?",
+        "answer": "Có. winprofx.com và winprofx.ae là tên miền thay thế chính thức chuyển hướng đến winprofx.org để có thông tin nhất quán."
+      }
+    ],
+    "complaintsAndDisputeResolution": [
+      {
+        "question": "Làm thế nào để gửi khiếu nại đến WINPROFX?",
+        "answer": "Gửi email support@winprofx.com với dòng chủ đề \"Complaint\" hoặc sử dụng trang Liên hệ. Bao gồm tên đã đăng ký, email, ID tài khoản và mô tả chi tiết."
+      },
+      {
+        "question": "WINPROFX có thể thảo luận khiếu nại của tôi trên mạng xã hội không?",
+        "answer": "Vì bảo mật và quyền riêng tư, chi tiết cụ thể về tài khoản không được thảo luận công khai. Sử dụng kênh hỗ trợ chính thức để xem xét khiếu nại."
+      }
+    ]
+  },
+  "identityNav": {
+    "ariaLabel": "Các trang thông tin công ty",
+    "relatedPages": "Trang liên quan",
+    "companyLicense": "Công ty & Giấy phép",
+    "trustSupport": "Tin tưởng & Hỗ trợ"
+  },
+  "shared": {
+    "riskWarningSection": "Cảnh báo rủi ro",
+    "viewCompanyRegistration": "Xem chi tiết đăng ký công ty đầy đủ",
+    "viewDubaiLicense": "Xem đầy đủ chi tiết Giấy phép Chuyên nghiệp Dubai",
+    "viewDubaiLicensePage": "Xem toàn bộ trang Giấy phép Chuyên nghiệp Dubai",
+    "verifyChecklist": "Sử dụng danh sách kiểm tra xác minh WINPROFX đầy đủ",
+    "contactPage": "Trang liên hệ",
+    "contactSupport": "Liên hệ hỗ trợ",
+    "verifyOfficialDomains": "Xác minh tên miền chính thức",
+    "domainPurposeSeparator": " — ",
+    "htmlOnlyNote": "Chỉ tham khảo trên trang - không tải xuống bản PDF.",
+    "tableDomain": "Lãnh địa",
+    "tablePurpose": "Mục đích",
+    "supportEmailLabel": "Email hỗ trợ:",
+    "lastUpdated": "Cập nhật lần cuối:"
+  }
+}

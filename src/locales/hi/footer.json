@@ -1,0 +1,49 @@
+{
+  "tagline": "एक प्लेटफ़ॉर्म। कई मार्केट। WINPROFX के साथ अनगिनत ट्रेडिंग अवसर।",
+  "sections": {
+    "explore": "एक्सप्लोर करें",
+    "markets": "मार्केट",
+    "contactInfo": "संपर्क जानकारी",
+    "officialDomains": "आधिकारिक डोमेन",
+    "importantLinks": "महत्वपूर्ण लिंक",
+    "trustLegal": "ट्रस्ट और कानूनी",
+    "riskWarning": "जोखिम चेतावनी",
+    "restrictedRegions": "प्रतिबंधित क्षेत्र"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX आधिकारिक वेबसाइट",
+    "description": "WINPROFX एक Forex और CFD ट्रेडिंग ब्रांड है जो अपनी आधिकारिक वेबसाइटों और पोर्टल के माध्यम से ट्रेडिंग प्लेटफ़ॉर्म एक्सेस, क्लाइंट खाता सेवाएं, पार्टनर प्रोग्राम टूल और ट्रेडिंग-संबंधित सहायता सेवाएं प्रदान करता है।"
+  },
+  "domains": {
+    "officialWebsite": "आधिकारिक वेबसाइट",
+    "officialAlternate": "आधिकारिक वैकल्पिक डोमेन",
+    "officialUae": "आधिकारिक UAE/क्षेत्रीय डोमेन",
+    "clientPortal": "क्लाइंट पोर्टल",
+    "partnerPortal": "पार्टनर पोर्टल"
+  },
+  "links": {
+    "home": "होम",
+    "platform": "प्लेटफ़ॉर्म",
+    "aboutUs": "हमारे बारे में",
+    "about": "परिचय",
+    "companyProfile": "कंपनी प्रोफ़ाइल",
+    "contact": "संपर्क",
+    "officialDomains": "आधिकारिक डोमेन",
+    "forex": "Forex",
+    "indices": "इंडेक्स",
+    "crypto": "क्रिप्टो",
+    "metals": "धातु",
+    "commodities": "कमोडिटी",
+    "oil": "तेल",
+    "riskWarning": "जोखिम चेतावनी",
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsConditions": "नियम और शर्तें",
+    "amlPolicy": "AML नीति",
+    "depositWithdrawPolicy": "जमा और निकासी नीति",
+    "restrictedCountries": "प्रतिबंधित देश",
+    "legalDocuments": "कानूनी दस्तावेज़",
+    "riskDisclosure": "जोखिम प्रकटीकरण"
+  },
+  "restrictedRegionsText": "WINPROFX Limited USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan के नागरिकों/निवासियों के लिए सेवाएं प्रदान नहीं करती। WINPROFX Limited की सेवाएं किसी भी ऐसे देश या अधिकार क्षेत्र में किसी भी व्यक्ति को वितरित करने या उपयोग करने के लिए नहीं हैं, जहां ऐसा वितरण या उपयोग स्थानीय कानून या विनियमन के विपरीत होगा।",
+  "copyright": "© {{year}} WINPROFX द्वारा सर्वाधिकार सुरक्षित"
+}

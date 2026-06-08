@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "Đội ngũ Giáo dục WINPROFX",
+    "reviewer": "Đội ngũ Tuân thủ WINPROFX"
+  },
+  "index": {
+    "h1": "Trung tâm học tập WINPROFX",
+    "intro": "Tài nguyên giáo dục về các khái niệm giao dịch forex và CFD. Các bài viết này chỉ dành cho mục đích giáo dục chung và không cấu thành lời khuyên đầu tư.",
+    "readArticle": "Đọc bài viết →",
+    "trustCenterLink": "Để biết thông tin công ty chính thức và xác minh, hãy truy cập",
+    "trustCenter": "Trung tâm tin cậy WINPROFX"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "Giao dịch Forex là gì? | WINPROFX Learn",
+      "description": "Tìm hiểu giao dịch forex là gì, cách hoạt động của cặp tiền tệ và các rủi ro chính mà người mới cần hiểu trước khi giao dịch.",
+      "h1": "Giao dịch Forex là gì?",
+      "breadcrumb": "Giao dịch Forex là gì",
+      "sections": {
+        "definition": {
+          "title": "Định nghĩa",
+          "body": "Giao dịch Forex (ngoại hối) là mua và bán các cặp tiền tệ trên thị trường tiền tệ toàn cầu. Nhà giao dịch suy đoán liệu một loại tiền tệ sẽ mạnh lên hay yếu đi so với loại khác."
+        },
+        "howCurrencyPairsWork": {
+          "title": "Cách hoạt động của cặp tiền tệ",
+          "body": "Cặp tiền tệ thể hiện giá trị của một loại tiền tệ so với loại khác (ví dụ: EUR/USD). Tiền tệ đầu tiên là base; tiền tệ thứ hai là quote. Biến động giá phản ánh điều kiện kinh tế, lãi suất và tâm lý thị trường."
+        },
+        "forexAtWinprofx": {
+          "title": "Forex tại WINPROFX",
+          "body": "WINPROFX cung cấp quyền truy cập vào thị trường forex thông qua nền tảng MetaTrader 5. Điều kiện tài khoản và công cụ có sẵn được công bố trên trang web chính thức."
+        }
+      },
+      "links": {
+        "forex": "Giao dịch Forex",
+        "platform": "Nền tảng MT5",
+        "trustCenter": "Trung tâm tin cậy WINPROFX"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "Giao dịch CFD là gì? | WINPROFX Learn",
+      "description": "Hiểu giao dịch Contract for Difference (CFD), sự khác biệt so với sở hữu tài sản và các rủi ro liên quan.",
+      "h1": "Giao dịch CFD là gì?",
+      "breadcrumb": "Giao dịch CFD là gì",
+      "sections": {
+        "definition": {
+          "title": "Định nghĩa",
+          "body": "Contract for Difference (CFD) là công cụ phái sinh cho phép nhà giao dịch suy đoán về biến động giá mà không sở hữu tài sản cơ sở. Lợi nhuận hoặc thua lỗ phụ thuộc vào chênh lệch giữa giá vào và giá ra."
+        },
+        "cfdsVsOwnership": {
+          "title": "CFD so với sở hữu",
+          "body": "Nhà giao dịch CFD không trực tiếp sở hữu cổ phiếu, hàng hóa hoặc tài sản crypto. Họ giao dịch tiếp xúc giá, có thể bao gồm đòn bẩy và chi phí tài chính qua đêm tùy theo điều khoản tài khoản."
+        },
+        "risks": {
+          "title": "Rủi ro",
+          "body": "Giao dịch CFD mang rủi ro đáng kể. Đòn bẩy có thể khuếch đại thua lỗ vượt quá khoản tiền gửi ban đầu. Hầu hết nhà giao dịch CFD bán lẻ đều mất tiền."
+        }
+      },
+      "links": {
+        "crypto": "Giao dịch CFD Crypto",
+        "riskWarning": "Cảnh báo rủi ro"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "MetaTrader 5 (MT5) là gì? | WINPROFX Learn",
+      "description": "Tìm hiểu nền tảng giao dịch MetaTrader 5, các tính năng và cách khách hàng truy cập thị trường qua MT5.",
+      "h1": "MetaTrader 5 (MT5) là gì?",
+      "breadcrumb": "MT5 là gì",
+      "sections": {
+        "overview": {
+          "title": "Tổng quan",
+          "body": "MetaTrader 5 (MT5) là nền tảng giao dịch đa tài sản dùng cho forex, CFD và các công cụ khác. Nền tảng cung cấp biểu đồ, công cụ phân tích kỹ thuật, khả năng giao dịch tự động và truy cập di động."
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX và MT5",
+          "body": "Khách hàng WINPROFX truy cập thị trường qua MT5 trên máy tính và di động. Liên kết tải xuống và thông tin nền tảng có trên trang Nền tảng."
+        }
+      },
+      "links": {
+        "platform": "Nền tảng giao dịch MT5",
+        "accounts": "Loại tài khoản"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "Đòn bẩy trong Forex là gì? | WINPROFX Learn",
+      "description": "Hiểu đòn bẩy trong giao dịch forex, cách đòn bẩy khuếch đại mức tiếp xúc và tại sao đòn bẩy tăng cả lợi nhuận và thua lỗ tiềm năng.",
+      "h1": "Đòn bẩy trong Forex là gì?",
+      "breadcrumb": "Đòn bẩy trong Forex",
+      "sections": {
+        "definition": {
+          "title": "Định nghĩa",
+          "body": "Đòn bẩy cho phép nhà giao dịch kiểm soát vị thế lớn hơn với ít vốn hơn. Đòn bẩy được thể hiện dưới dạng tỷ lệ (ví dụ: 1:100), nghĩa là khoản tiền gửi nhỏ (ký quỹ) kiểm soát quy mô giao dịch lớn hơn."
+        },
+        "howLeverageAffectsRisk": {
+          "title": "Đòn bẩy ảnh hưởng đến rủi ro như thế nào",
+          "body": "Đòn bẩy khuếch đại cả lợi nhuận và thua lỗ tiềm năng. Biến động giá bất lợi nhỏ có thể dẫn đến thua lỗ đáng kể so với ký quỹ bạn đã gửi."
+        }
+      },
+      "links": {
+        "marginCall": "Margin Call là gì?",
+        "riskWarning": "Cảnh báo rủi ro"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "Margin Call là gì? | WINPROFX Learn",
+      "description": "Tìm hiểu margin call là gì, khi nào xảy ra và yêu cầu ký quỹ ảnh hưởng đến giao dịch CFD và forex như thế nào.",
+      "h1": "Margin Call là gì?",
+      "breadcrumb": "Gọi ký quỹ",
+      "sections": {
+        "definition": {
+          "title": "Định nghĩa",
+          "body": "Margin call xảy ra khi vốn chủ sở hữu tài khoản giảm xuống dưới mức ký quỹ yêu cầu để duy trì vị thế mở. Nhà môi giới có thể yêu cầu thêm tiền hoặc đóng vị thế để khôi phục yêu cầu ký quỹ."
+        },
+        "prevention": {
+          "title": "Phòng ngừa",
+          "body": "Theo dõi vốn chủ sở hữu tài khoản, sử dụng kích thước vị thế phù hợp, hiểu tác động của đòn bẩy và duy trì ký quỹ tự do đầy đủ. Công cụ quản lý rủi ro như stop loss có thể giúp nhưng không loại bỏ rủi ro."
+        }
+      },
+      "links": {
+        "leverage": "Đòn bẩy trong Forex",
+        "accounts": "Loại tài khoản"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "Spread trong giao dịch là gì? | WINPROFX Learn",
+      "description": "Hiểu spread bid-ask, cách spread ảnh hưởng đến chi phí giao dịch và tại sao spread khác nhau giữa các công cụ.",
+      "h1": "Spread trong giao dịch là gì?",
+      "breadcrumb": "Spread trong giao dịch",
+      "sections": {
+        "definition": {
+          "title": "Định nghĩa",
+          "body": "Spread là chênh lệch giữa giá bid (bán) và ask (mua) của một công cụ. Spread đại diện cho chi phí giao dịch chính cùng với hoa hồng và swap nếu có."
+        },
+        "variableSpreads": {
+          "title": "Spread biến động",
+          "body": "Spread có thể mở rộng trong thời gian thanh khoản thấp, sự kiện tin tức hoặc biến động thị trường. Ví dụ spread được công bố mang tính chỉ dẫn và có thể khác khi thực hiện."
+        }
+      },
+      "links": {
+        "forex": "Giao dịch Forex",
+        "accounts": "Loại tài khoản"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "Cách quản lý rủi ro trong giao dịch CFD | WINPROFX Learn",
+      "description": "Hướng dẫn giáo dục về khái niệm quản lý rủi ro trong giao dịch CFD bao gồm kích thước vị thế, stop loss và nhận thức về đòn bẩy.",
+      "h1": "Cách quản lý rủi ro trong giao dịch CFD",
+      "breadcrumb": "Quản lý rủi ro trong CFD",
+      "sections": {
+        "positionSizing": {
+          "title": "Kích thước vị thế",
+          "body": "Chỉ rủi ro vốn bạn có thể chấp nhận mất. Kích thước vị thế phải phản ánh số dư tài khoản và khả năng chịu thua lỗ, không phải đòn bẩy tối đa có sẵn."
+        },
+        "stopLossAndTakeProfit": {
+          "title": "Stop Loss và Take Profit",
+          "body": "Lệnh stop loss có thể giới hạn thua lỗ tiềm năng trên một giao dịch nhưng có thể không luôn thực hiện ở giá chính xác trong khoảng trống hoặc thị trường nhanh. Lệnh take profit khóa lợi nhuận ở mức mục tiêu."
+        },
+        "diversificationAndDiscipline": {
+          "title": "Đa dạng hóa và kỷ luật",
+          "body": "Tránh tập trung quá mức vào một công cụ. Duy trì kế hoạch giao dịch và tránh quyết định cảm xúc. Nội dung này chỉ mang tính giáo dục và không phải lời khuyên đầu tư."
+        }
+      },
+      "links": {
+        "riskWarning": "Cảnh báo rủi ro",
+        "trustCenter": "Trung tâm tin cậy"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "Tài khoản Demo vs Live | WINPROFX Learn",
+      "description": "So sánh tài khoản giao dịch demo và live, mục đích của chúng và những gì thay đổi khi giao dịch bằng tiền thật.",
+      "h1": "Tài khoản Demo vs Live",
+      "breadcrumb": "Tài khoản Demo vs Live",
+      "sections": {
+        "demoAccounts": {
+          "title": "Tài khoản Demo",
+          "body": "Tài khoản demo sử dụng tiền ảo để luyện tập điều hướng nền tảng, đặt lệnh và kiểm tra chiến lược mà không có rủi ro tài chính. Điều kiện demo có thể khác với thực hiện live."
+        },
+        "liveAccounts": {
+          "title": "Tài khoản Live",
+          "body": "Tài khoản live sử dụng tiền thật. Thua lỗ là thật và có thể vượt quá tiền gửi khi sử dụng đòn bẩy. Xác minh KYC và kiểm tra tuân thủ áp dụng trước khi giao dịch live."
+        }
+      },
+      "links": {
+        "accounts": "Loại tài khoản",
+        "verifyWinprofx": "Xác minh WINPROFX"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "Cách kiểm tra nhà môi giới Forex có hợp pháp không | WINPROFX Learn",
+      "description": "Tìm hiểu cách xác minh nhà môi giới forex bằng tên miền chính thức, đăng ký công ty, phạm vi quy định và công bố rủi ro.",
+      "h1": "Cách kiểm tra nhà môi giới Forex có hợp pháp không",
+      "breadcrumb": "Kiểm tra nhà môi giới có hợp pháp",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "Xác minh tên miền chính thức",
+          "body": "Xác nhận URL trang web khớp với tên miền chính thức được công bố của nhà môi giới. Tránh trang đăng nhập truy cập qua liên kết không mong muốn hoặc tin nhắn mạng xã hội."
+        },
+        "reviewCompanyRegistration": {
+          "title": "Xem xét đăng ký công ty",
+          "body": "Kiểm tra xem pháp nhân có được công bố với chi tiết thành lập và tài liệu có thể tải xuống nếu có. Đăng ký công ty không giống với giấy phép dịch vụ tài chính."
+        },
+        "understandRegulatoryScope": {
+          "title": "Hiểu phạm vi quy định",
+          "body": "Xác định giấy phép hoặc đăng ký nào tồn tại và chúng thực sự ủy quyền điều gì. Giấy phép văn phòng đại diện khác với giấy phép nhà môi giới tài chính."
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "WINPROFX có hợp pháp không?",
+        "trustCenter": "Trung tâm tin cậy",
+        "officialDomains": "Tên miền chính thức"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "Nhà môi giới Forex offshore vs được quy định | WINPROFX Learn",
+      "description": "Hiểu sự khác biệt giữa thành lập offshore và quy định dịch vụ tài chính trong môi giới forex.",
+      "h1": "Nhà môi giới Forex offshore vs được quy định",
+      "breadcrumb": "Nhà môi giới offshore vs được quy định",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "Thành lập offshore",
+          "body": "Nhiều nhà môi giới được thành lập tại các thẩm quyền như Saint Lucia dưới dạng International Business Companies. Thành lập xác nhận hình thành pháp nhân nhưng không tự động có nghĩa là quy định dịch vụ tài chính."
+        },
+        "financialServicesRegulation": {
+          "title": "Quy định dịch vụ tài chính",
+          "body": "Cơ quan quản lý dịch vụ tài chính (như FCA, ASIC, CySEC hoặc cơ quan UAE) có thể ủy quyền hoạt động môi giới cụ thể trong điều kiện xác định. Luôn xác minh qua hồ sơ cơ quan quản lý chính thức."
+        },
+        "dueDiligence": {
+          "title": "Thẩm định",
+          "body": "Khách hàng nên xem xét những gì thực sự được xác minh và công bố, không dựa vào tuyên bố tiếp thị. Đọc cảnh báo rủi ro và hiểu hạn chế thẩm quyền."
+        }
+      },
+      "links": {
+        "regulatoryInformation": "Thông tin quy định",
+        "licenseVerification": "Xác minh giấy phép",
+        "checkBrokerLegit": "Cách kiểm tra nhà môi giới có hợp pháp"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

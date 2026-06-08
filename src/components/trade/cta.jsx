@@ -3,8 +3,11 @@ import bg from '@/assets/img/trade/cta-bg.png'
 import { motion } from 'framer-motion';
 import { duration, once } from '@/utilities/animation'
 import MetaText from '../meta-text';
+import { useTranslation } from 'react-i18next'
 
 export default function Cta() {
+    const { t } = useTranslation('markets')
+
     return (
         <motion.div
             initial={{ opacity: 0, scale: 1.1 }}
@@ -16,9 +19,9 @@ export default function Cta() {
         >
             <img src={bg} className='absolute top-0 left-0 size-full object-cover pointer-events-none -z-10' alt="" />
             <div className="max-w-167 mx-auto flex flex-col justify-center items-center">
-                <MetaText title="critical insights" className='mb-4 hidden! md:inline-block!' />
-                <h2 className='text-[22px] md:text-4xl lg:text-5xl leading-tight font-normal mb-2.5 md:mb-4'>Unveiling the Pinnacle Learnings for Strategic Success.</h2>
-                <p className='text-[#ABACB3]'>Beginners and experienced forex traders a like must keep in mind that practice, knowledge, and discipline are key to getting and staying ahead. The Best Forex Brokers Platform can help achieve success.</p>
+                <MetaText title={t('shared.cta.meta')} className='mb-4 hidden! md:inline-block!' />
+                <h2 className='text-[22px] md:text-4xl lg:text-5xl leading-tight font-normal mb-2.5 md:mb-4'>{t('shared.cta.title')}</h2>
+                <p className='text-[#ABACB3]'>{t('shared.cta.description')}</p>
             </div>
         </motion.div>
     )

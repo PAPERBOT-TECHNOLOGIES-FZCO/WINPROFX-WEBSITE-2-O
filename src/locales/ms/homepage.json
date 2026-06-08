@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "Laluan Anda ke Dagangan Menguntungkan Bermula Di Sini",
+    "description": "WINPROFX ialah broker bereputasi global yang menawarkan spread paling ketat, pengeluaran sepantas kilat, 300+ instrumen boleh dagang dengan pelaksanaan nanosaat di hujung jari anda.",
+    "badge": "Melabur Bersama Broker Forex Terbaik 2026",
+    "stats": {
+      "evolving": {
+        "title": "Berkembang",
+        "description": "di Pasaran"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "Anugerah"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "Negara Diliputi"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "Instrumen Dagangan"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "Perjalanan <br /> Dagangan Anda Bermula Di Sini Bersama Kami",
+    "steps": {
+      "openAccount": {
+        "title": "Buka Akaun",
+        "description": "Klik butang di atas dan ikuti beberapa langkah mudah."
+      },
+      "makeDeposit": {
+        "title": "Buat Deposit",
+        "description": "Tip Pro: Deposit dan Pengeluaran USDT adalah yang terpantas."
+      },
+      "startTrading": {
+        "title": "Mula Berdagang",
+        "description": "Setiap profesional bermula dari sifar, jadi mula berdagang sekarang."
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "Manfaat Berdagang Bersama Kami",
+    "description": "Temui dagangan lancar bersama kami, di mana ketelusan dan teknologi canggih bertemu untuk kejayaan kewangan anda.",
+    "items": {
+      "withdrawals": {
+        "meta": "Pengeluaran kripto dalam",
+        "title": "30 Minit",
+        "description": "Nikmati fleksibiliti kewangan pantas dengan jaminan pengeluaran 30 minit kami."
+      },
+      "tradeDaily": {
+        "meta": "Berdagang setiap hari",
+        "title": "Menangi Ganjaran",
+        "description": "Dagangan harian, kemenangan harian — pacu kejayaan anda dalam setiap pergerakan pasaran."
+      },
+      "clientSupport": {
+        "meta": "Pemenang Anugerah",
+        "title": "Sokongan Pelanggan",
+        "description": "Menyampaikan kecemerlangan perkhidmatan yang tiada tandingan!"
+      },
+      "negativeBalance": {
+        "meta": "Baki negatif",
+        "title": "Perlindungan",
+        "description": "Berdagang dengan yakin melalui perlindungan baki negatif terbina dalam untuk keselamatan kewangan."
+      }
+    }
+  },
+  "platform": {
+    "meta": "PLATFORM DAGANGAN",
+    "title": "Muat Turun MT 5 Untuk Mudah Alih",
+    "description": "WINPROFX telah berjaya memperluaskan perniagaan mereka di seluruh dunia, dan kini MT 5 tersedia di Android dan iPhone, dan anda selangkah lebih dekat ke arah kejayaan. Muat turun MT 5 sekarang dan terokai dunia peluang dagangan tanpa had."
+  },
+  "whatTrade": {
+    "title": "Apa Yang Boleh Anda Dagangkan?",
+    "description": "Temui dagangan lancar bersama kami, di mana ketelusan dan teknologi canggih bertemu untuk kejayaan kewangan anda.",
+    "items": {
+      "crypto": {
+        "title": "Kripto",
+        "description": "Mata wang kripto atau cryptocurrency ialah instrumen pelaburan berpertumbuhan pantas dan"
+      },
+      "metals": {
+        "title": "Logam",
+        "description": "Dagangan logam spot memegang tempat istimewa di hati setiap pedagang. Logam telah menarik semua"
+      },
+      "commodities": {
+        "title": "Komoditi",
+        "description": "Melabur dalam komoditi boleh memberikan pelabur kepelbagaian, lindung nilai terhadap"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex atau pertukaran asing ialah pasaran global di mana mata wang dunia didagangkan. Ia amat"
+      },
+      "indices": {
+        "title": "Indeks",
+        "description": "Indeks ialah ukuran prestasi harga sekumpulan saham daripada sebuah bursa."
+      },
+      "oil": {
+        "title": "Minyak",
+        "description": "Niaga hadapan tenaga ialah kontrak untuk membeli atau menjual bahan api fosil atau produk berkaitan pada tarikh dan harga tertentu."
+      }
+    },
+    "imageAlt": "Dagangan WINPROFX {{market}}"
+  },
+  "about": {
+    "meta": "TENTANG WINPROFX",
+    "heading": "<strong class='font-normal text-white'>Di WINPROFX, kami menawarkan </strong> platform dagangan dalam talian yang selamat, memupuk kemampanan melalui kepakaran, pengetahuan pasaran dan perkongsian dipercayai.",
+    "features": {
+      "platform": "Platform terbaik untuk setiap kelas pedagang — pemula, pertengahan atau profesional.",
+      "orderManagement": "Alat pengurusan pesanan yang canggih.",
+      "indicators": "Memperkenalkan lebih banyak penunjuk teknikal asli.",
+      "customize": "Mudah untuk mengkonfigurasi dan menyesuaikan persediaan dagangan anda"
+    }
+  },
+  "award": {
+    "title": "Broker WINPROFX dengan Kecemerlangan Pemenang Anugerah",
+    "description": "Industri forex global telah mengiktiraf pencapaian WINPROFX, menghormati kami dengan anugerah tertinggi untuk produk dan perkhidmatan luar biasa kami.",
+    "items": {
+      "bestForexBroker2025": "Broker Forex Terbaik 2025",
+      "globalForexBroker2025": "Broker Forex Global Tahun 2025",
+      "topStpBroker2025": "Broker STP Teratas 2025",
+      "bestDepositWithdrawal2024": "Broker Deposit dan Pengeluaran Terbaik 2024"
+    }
+  },
+  "news": {
+    "title": "Berita & Wawasan",
+    "description": "Kekal dimaklumkan dengan kemas kini pasaran terkini dan wawasan pakar kami, memperkasakan anda untuk membuat keputusan yang tepat dalam dunia kewangan.",
+    "paymentFlow": {
+      "title": "Aliran Dana Mudah: Deposit Pantas dan Pengeluaran Lancar",
+      "description": "Alami kelancaran kewangan dengan proses deposit dan pengeluaran tanpa kerumitan kami, memastikan transaksi anda pantas dan mudah."
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade untuk MENANG",
+        "description": "Berdagang lebih banyak dan menangi hadiah TERJAMIN. Lebih banyak anda berdagang, lebih baik hadiahnya.",
+        "promotionDates": "Tarikh Promosi: 1 Januari 2026 hingga 31 Mei 2026"
+      },
+      "technicalAnalysis": {
+        "title": "Alat Analisis Teknikal Percuma",
+        "description": "Kenal pasti corak carta, analisis keadaan pasaran & pantau pasaran sepanjang masa, hanya dengan satu klik!",
+        "poweredBy": "Dikuasakan oleh"
+      },
+      "learnMore": "Ketahui Lebih Lanjut"
+    }
+  },
+  "demoCta": {
+    "title": "Mulakan Perjalanan Penguasaan: Lepaskan Kemahiran Anda dengan Pengalaman Demo WINPROFX!",
+    "description": "Mulakan perjalanan dagangan anda dengan akaun demo MT5 percuma selama 21 hari. Temui kuasa Platform Strategi Dagangan Forex Terbaik pemenang anugerah kami tanpa risiko — daftar sekarang dan terokai seni dagangan tepat.",
+    "button": "Cuba Demo Platform MT5"
+  }
+}

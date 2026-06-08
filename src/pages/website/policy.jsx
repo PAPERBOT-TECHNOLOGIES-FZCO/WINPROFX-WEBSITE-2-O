@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,9 +7,12 @@ import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function Policy() {
-    const info = [
+    const { t } = useTranslation('legal')
+  const seo = useSeo('policy')
+  const info = [
         {
             title: 'Privacy Policy Of WINPROFX',
             des: [
@@ -361,15 +365,15 @@ export default function Policy() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="Privacy Policy | WINPROFX"
-                description="Read the WINPROFX Privacy Policy to understand how information is collected, used, protected, and managed across WINPROFX websites and portals."
-                canonicalPath="/policy"
-            />
+        {...seo}
+        canonicalPath="/policy"
+        pageName={t('policy.h1')}
+      />
             <TopShape />
             <PolicyTitle
                 as="h1"
-                meta="Last Updated: Jun 7, 2024"
-                title="Privacy Policy"
+                meta={t('policy.meta')}
+                title={t('policy.h1')}
             />
             <Container>
                 <Card>

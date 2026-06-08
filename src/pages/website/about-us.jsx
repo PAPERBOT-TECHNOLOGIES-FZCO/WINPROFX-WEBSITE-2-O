@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import Accordion from '@/components/accordion'
 import CommonTitle from '@/components/common-title';
@@ -12,6 +13,7 @@ import DemoCta from '@/components/demo-cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 
 import img_1 from '@/assets/img/home/news/2.png'
@@ -25,7 +27,8 @@ import user_icon from '@/assets/img/user_icon.svg'
 
 
 export default function AboutUs() {
-    const about_info = [
+    const seo = useSeo('aboutUs')
+  const about_info = [
         {
             icon: null,
             title: 'Advanced Technology',
@@ -83,27 +86,27 @@ export default function AboutUs() {
                <ul>
                     <li>
                         <span>
-                            <span>Global Regulation: </span> WINPROFX is reputed globally, ensuring compliance with industry standards and providing a secure trading environment.
+                            <span>Global Regulation: </span> WINPROFX publishes company registration, legal entity, and regulatory scope information on its official Trust Center.
                         </span>
                     </li>
                     <li>
                         <span>
-                            <span>Nanosecond Execution:</span>The platform boasts nanosecond execution, allowing for quick and efficient trade processing, which is crucial in fast-paced financial markets.
+                            <span>MT5 Platform Access:</span> WINPROFX provides MetaTrader 5 for desktop and mobile trading with standard order types and charting tools.
                         </span>
                     </li>                    
                     <li>
                         <span>
-                            <span>Lightning-Fast Withdrawals:</span>WINPROFX offers swift withdrawal processes, ensuring that you have timely access to your funds when needed.
+                            <span>Withdrawal Processing:</span> Withdrawal requests are handled according to WINPROFX published policies and verification requirements.
                         </span>
                     </li>                    
                     <li>
                         <span>
-                            <span>Wide Range of Tradable Instruments: </span> With over 300 tradable instruments, WINPROFX provides a diverse portfolio, allowing traders to explore various markets and investment opportunities.
+                            <span>Tradable Instruments: </span> WINPROFX provides access to multiple forex and CFD market categories through MT5.
                         </span>
                     </li>                    
                     <li>
                         <span>
-                            <span>Tightest Spreads:</span> WINPROFX offers tight spreads, minimizing the difference between buying and selling prices, which can enhance profitability for traders.
+                            <span>Spreads:</span> Spreads vary by instrument and market conditions. See account types for published spread information where available.
                         </span>
                     </li>
                 </ul>
@@ -233,11 +236,9 @@ export default function AboutUs() {
     return (
         <>
             <SeoHead
-                title="About Us | WINPROFX"
-                description="Learn about WINPROFX, a leader in forex trading, offering advanced platforms and comprehensive support to empower traders globally. Click to know more!"
-                keywords="Forex Trading Experts, Forex Trading Team, Forex Platform, Forex Trading Company, WINPROFX Services Overview, Best Forex Trading Broker Platform, Best Forex Market Trading Platform"
-                canonicalPath="/about-us"
-            />
+        {...seo}
+        canonicalPath="/about-us"
+      />
             <TopShape />
             <CommonBanner
                 videoBg={video}
@@ -246,9 +247,9 @@ export default function AboutUs() {
                 title="Pioneering Excellence: Redefining Trading Standards at WINPROFX"
                 des={
                     <>
-                        Welcome to WINPROFX — an award-winning forex and CFD broker offering advanced
-                        trading technology, competitive spreads, and 24/7 support for traders of all levels.
-                        Our primary official website is winprofx.org.
+                        Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform
+                        access, multiple account services, and client support. Verify official information
+                        on winprofx.org before trading or depositing.
                     </>
                 }
                 desClass="max-w-135 mx-auto"

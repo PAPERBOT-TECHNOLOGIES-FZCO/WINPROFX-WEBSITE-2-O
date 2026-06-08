@@ -1,0 +1,191 @@
+{
+  "shared": {
+    "cta": {
+      "meta": "thông tin quan trọng",
+      "title": "Khám Phá Những Bài Học Đỉnh Cao Cho Thành Công Chiến Lược.",
+      "description": "Thực hành, kiến thức và quản lý rủi ro rất quan trọng đối với tất cả các nhà giao dịch. Xem lại cảnh báo rủi ro WINPROFX và thông tin Trust Center trước khi giao dịch."
+    },
+    "trustLinks": {
+      "title": "Thông Tin Giao Dịch và Rủi Ro",
+      "accountTypes": "Loại Tài Khoản",
+      "mt5Platform": "Nền Tảng Giao Dịch MT5",
+      "trustCenter": "Trung tâm Tin cậy WINPROFX",
+      "riskWarning": "Cảnh Báo Rủi Ro",
+      "clientFundSecurity": "Bảo Mật Quỹ Khách Hàng",
+      "learningCenter": "Trung tâm Học tập WINPROFX"
+    },
+    "faq": {
+      "discoverHowToTrade": {
+        "title": "KHÁM PHÁ CÁCH GIAO DỊCH",
+        "body": "<p>Tải ứng dụng Giáo dục của chúng tôi để tìm hiểu cách giao dịch các công cụ tài chính đa dạng trên WINPROFX Trader. Để bắt đầu, chúng tôi đã bao quát mọi khía cạnh của giao dịch.</p><p>Tóm Tắt Ngắn Gọn Tin Tức và Ý Kiến Gần Đây</p><p>Dự Báo Biến Động Dựa Trên Phân Tích Kỹ Thuật</p><p>Tổng quan ngắn gọn về các cặp tiền tệ chính dựa trên yếu tố cơ bản được cung cấp</p><p>Ví dụ, nếu bạn chọn giao dịch GBP/USD (bảng Anh/đô la Mỹ) và bạn nghĩ giá trị GBP sẽ tăng so với USD, bạn mua (long). Nếu bạn nghĩ GBP sẽ giảm so với USD, bạn bán (short). Nếu dự đoán của bạn đúng, bạn có lợi nhuận. Nếu dự đoán của bạn sai, bạn sẽ bị lỗ. Hãy nhớ, khoản lỗ có thể vượt quá số tiền nạp..</p>"
+      }
+    }
+  },
+  "forex": {
+    "banner": {
+      "title": "Giao dịch Forex",
+      "description": "Giao dịch 24/5 trên các tài sản trong thị trường ngoại hối. Chúng tôi cung cấp hơn 50 cặp tiền tệ chính, phụ và ngoại lai, với spread cạnh tranh, giá sắc nét, thực thi nhanh và hoa hồng 0%."
+    },
+    "card": {
+      "meta": "Giao dịch forex",
+      "title": "Thị Trường Forex Phổ Biến",
+      "description1": "Forex hay Foreign Exchange là thị trường toàn cầu nơi các loại tiền tệ được giao dịch. Thị trường này vượt trội hơn nhiều so với thị trường chứng khoán, với khối lượng giao dịch forex lên đến 5 nghìn tỷ USD mỗi ngày.",
+      "description2": "Vì thị trường forex không tập trung nên nó mở cửa 24 giờ mỗi ngày, từ tối Chủ nhật đến tối thứ Sáu. Luôn xem lại thông tin công bố rủi ro và thông tin xác minh chính thức trước khi giao dịch."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Forex Trading"
+    },
+    "faq": {
+      "whatIsForex": {
+        "title": "FOREX LÀ GÌ?",
+        "body": "<p>Forex là viết tắt của FOREIGN EXCHANGE. Nói một cách đơn giản, ngồi ở một nơi trên thế giới, bạn có thể giao dịch Tiền Tệ, Kim Loại, Chỉ Số Thế Giới và Crypto của bất kỳ quốc gia nào bằng cách nghiên cứu nền kinh tế thế giới và biểu đồ kỹ thuật.</p>"
+      },
+      "howToTradeForex": {
+        "title": "CÁCH GIAO DỊCH FOREX?",
+        "body": "<p>Đầu tiên, tìm một nhà môi giới Forex uy tín, chẳng hạn như WINPROFX, mở tài khoản, nạp tiền, phân tích xu hướng thị trường, chọn công cụ giao dịch ưa thích của bạn, và cuối cùng mở vị thế để kiếm lợi nhuận.</p>"
+      }
+    }
+  },
+  "indices": {
+    "banner": {
+      "meta": "Giao dịch chỉ số",
+      "title": "Giao dịch Chỉ số",
+      "description": "Chỉ số theo dõi hiệu suất của một nhóm các công ty hoạt động tốt nhất, mang lại cho bạn tiếp cận toàn bộ nền kinh tế thông qua một giao dịch duy nhất."
+    },
+    "card": {
+      "meta": "Giao dịch chỉ số",
+      "title": "Thị Trường Chỉ Số Phổ Biến",
+      "description1": "Chỉ số thị trường chứng khoán đo lường hiệu suất của một rổ cổ phiếu từ một sàn giao dịch hoặc ngành cụ thể.",
+      "description2": "Giao dịch CFDs chỉ số cho phép bạn tiếp cận thị trường rộng lớn thông qua một vị thế duy nhất. Luôn xem lại thông tin công bố rủi ro và thông tin xác minh chính thức trước khi giao dịch."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Indices Trading"
+    },
+    "faq": {
+      "howCalculated": {
+        "title": "CHỈ SỐ THỊ TRƯỜNG CHỨNG KHOÁN ĐƯỢC TÍNH NHƯ THẾ NÀO?",
+        "body": "<p>Hầu hết các chỉ số thị trường chứng khoán được tính theo vốn hóa thị trường của các công ty thành phần. Phương pháp này trao trọng số lớn hơn cho các công ty có vốn hóa lớn hơn, nghĩa là hiệu suất của họ sẽ ảnh hưởng đến giá trị chỉ số nhiều hơn so với các công ty có vốn hóa thấp hơn.</p>"
+      },
+      "tradeWithLeverage": {
+        "title": "GIAO DỊCH VỚI ĐÒN BẨY",
+        "body": "<p>Khi giao dịch với đòn bẩy, bạn nên nhớ rằng lợi nhuận hoặc thua lỗ của bạn được tính dựa trên toàn bộ quy mô vị thế, không chỉ ký quỹ ban đầu dùng để mở vị thế. Điều này có nghĩa là trong khi đòn bẩy có thể phóng đại lợi nhuận, nó cũng có thể khuếch đại thua lỗ.</p>"
+      }
+    }
+  },
+  "crypto": {
+    "banner": {
+      "meta": "Giao dịch crypto",
+      "title": "Giao dịch Crypto",
+      "description1": "Cryptocurrency là tài sản kỹ thuật số được xây dựng trên công nghệ blockchain, mang lại các giao dịch tài chính phi tập trung và minh bạch. Trong thập kỷ qua, thị trường crypto đã phát triển thành một trong những cơ hội giao dịch tăng trưởng nhanh nhất trên toàn cầu.",
+      "description2": "Với nền tảng của chúng tôi, bạn có thể giao dịch các cryptocurrency phổ biến như Bitcoin, Ethereum và nhiều loại khác thông qua CFDs—cho phép bạn đầu cơ vào biến động giá mà không cần sở hữu tài sản cơ sở.",
+      "description3": "Hưởng lợi từ thanh khoản cao, truy cập thị trường 24/7 và các công cụ giao dịch tiên tiến được thiết kế cho cả người mới bắt đầu và nhà giao dịch có kinh nghiệm."
+    },
+    "card": {
+      "meta": "Giao dịch crypto",
+      "title": "Giao Dịch Các Cặp Cryptocurrency Phổ Biến",
+      "description": "Theo dõi biến động giá theo thời gian thực và khám phá cơ hội trên các tài sản crypto hàng đầu."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Cryptocurrency Trading"
+    },
+    "faq": {
+      "whatIsCrypto": {
+        "title": "CRYPTOCURRENCY LÀ GÌ?",
+        "body": "<p>Cryptocurrency là hệ thống thanh toán kỹ thuật số không dựa vào ngân hàng để xác minh giao dịch. Đây là hệ thống ngang hàng cho phép bất kỳ ai ở bất kỳ đâu gửi và nhận thanh toán. Thay vì tiền vật lý được mang theo và trao đổi trong thế giới thực, các khoản thanh toán cryptocurrency chỉ tồn tại dưới dạng các mục kỹ thuật số trong cơ sở dữ liệu trực tuyến mô tả các giao dịch cụ thể. Khi bạn chuyển tiền cryptocurrency, các giao dịch được ghi lại trong sổ cái công khai. Cryptocurrency được lưu trữ trong ví kỹ thuật số.</p>"
+      },
+      "howDoesCryptoWork": {
+        "title": "CRYPTOCURRENCY HOẠT ĐỘNG NHƯ THẾ NÀO?",
+        "body": "<p>Cryptocurrency chạy trên sổ cái công khai phân tán gọi là blockchain, bản ghi của tất cả các giao dịch được cập nhật và nắm giữ bởi những người nắm giữ tiền tệ. Các đơn vị cryptocurrency được tạo ra thông qua quá trình gọi là mining, liên quan đến việc sử dụng sức mạnh máy tính để giải các bài toán phức tạp tạo ra coin. Người dùng cũng có thể mua tiền tệ từ các nhà môi giới, sau đó lưu trữ và chi tiêu chúng bằng ví mật mã.</p>"
+      }
+    }
+  },
+  "metals": {
+    "banner": {
+      "meta": "Giao dịch kim loại",
+      "title": "Giao dịch Kim loại",
+      "description1": "Spot Metal Trading giữ một vị trí đặc biệt trong trái tim của mọi nhà giao dịch. Kim loại đã thu hút các nhà giao dịch trên toàn thế giới từ thời cổ đại và tiếp tục làm như vậy cho đến ngày nay.",
+      "description2": "WINPROFX Trader cung cấp spread thấp nhất từ trước đến nay cho các loại kim loại khác nhau dựa trên sở thích và ưu tiên cốt lõi của bạn. Xem lại loại tài khoản và cảnh báo rủi ro trước khi giao dịch CFDs kim loại."
+    },
+    "card": {
+      "meta": "Giao dịch kim loại",
+      "title": "Thị Trường Kim Loại Phổ Biến",
+      "description": "Theo dõi hiệu suất theo thời gian thực của các kim loại chính và xác định cơ hội giao dịch trên các thị trường hàng hóa toàn cầu."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Metals Trading"
+    },
+    "faq": {
+      "whyTradeMetals": {
+        "title": "TẠI SAO GIAO DỊCH KIM LOẠI VỚI WINPROFX",
+        "body": "<p>WINPROFX có thành tích phong phú kéo dài hơn 16 năm. Chúng tôi đã mang đến cho các nhà giao dịch cơ hội tuyệt vời và trải nghiệm giao dịch vô song. Điều này đặt chúng tôi là một trong những nhà môi giới hàng đầu khi nói đến giao dịch kim loại. Vì vậy, nếu bạn muốn giao dịch Vàng, có nhiều lý do để chọn WINPROFX: Hàng nghìn nhà giao dịch hài lòng và thỏa mãn</p><p>Hỗ trợ suốt ngày đêm Rút tiền và thực thi siêu nhanh Phân tích phong phú để đưa ra quyết định sáng suốt</p><p>Ví dụ, nếu bạn chọn giao dịch GBP/USD (bảng Anh/đô la Mỹ) và bạn nghĩ giá trị GBP sẽ tăng so với USD, bạn mua (long). Nếu bạn nghĩ GBP sẽ giảm so với USD, bạn bán (short). Nếu dự đoán của bạn đúng, bạn có lợi nhuận. Nếu dự đoán của bạn sai, bạn sẽ bị lỗ. Hãy nhớ, khoản lỗ có thể vượt quá số tiền nạp..</p>"
+      },
+      "stepUpTrading": {
+        "title": "NÂNG TẦM GIAO DỊCH HÀNG HÓA CỦA BẠN",
+        "body": "<p>Vàng là kim loại được giao dịch tích cực nhất. Dựa trên luật cung cầu, giá của nó được xác định bởi thị trường 24/7. Các yếu tố khác như giá trị đô la Mỹ, nhu cầu công nghiệp, cũng như lạm phát cũng ảnh hưởng đến giá. Nếu bạn muốn giao dịch kim loại, hãy bắt đầu đúng hướng với WINPROFX và bước đi tự tin để trở thành nhà giao dịch dày dạn kinh nghiệm.</p>"
+      },
+      "howMetalTradingWorks": {
+        "title": "GIAO DỊCH KIM LOẠI HOẠT ĐỘNG NHƯ THẾ NÀO?",
+        "body": "<p>Để tối ưu hóa lợi nhuận, các nhà giao dịch phải hiểu rõ tất cả các yếu tố ảnh hưởng đến giá vàng và các kim loại khác. Thú vị là, các yếu tố thúc đẩy giá của kim loại quý khá khác so với các công cụ khác.</p>"
+      }
+    }
+  },
+  "commodities": {
+    "banner": {
+      "meta": "Giao dịch hàng hóa",
+      "title": "Giao dịch Hàng hóa",
+      "description1": "Tận dụng biến động thị trường và lựa chọn từ CFDs trên hàng hóa giao ngay và hợp đồng tương lai. Tại WINPROFX, chúng tôi cung cấp một số công cụ phổ biến nhất trên thị trường hàng hóa bao gồm vàng, dầu và cà phê, để đầu cơ và phòng ngừa rủi ro.",
+      "description2": "Giao dịch theo từng tick di chuyển với hoa hồng bằng không và không có phí ẩn. Xem lại loại tài khoản và cảnh báo rủi ro trước khi giao dịch CFDs hàng hóa."
+    },
+    "card": {
+      "meta": "Giao dịch hàng hóa",
+      "title": "Thị Trường Hàng Hóa Trực Tiếp",
+      "description": "Theo dõi biến động giá theo thời gian thực và theo dõi biến động hàng ngày trên các tài sản kim loại, năng lượng và nông nghiệp hàng đầu."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Commodities Trading"
+    },
+    "faq": {
+      "whatAreCommodities": {
+        "title": "Hàng hóa là gì?",
+        "body": "<p>Hàng hóa là nguyên liệu thô hoặc sản phẩm nông nghiệp sơ cấp có thể được mua và bán trên thị trường tài chính. Chúng thường được sử dụng trong sản xuất các hàng hóa và dịch vụ khác và được giao dịch trên các sàn giao dịch hàng hóa trên toàn thế giới. Một số ví dụ bao gồm kim loại (vàng, bạc và bạch kim), nguồn năng lượng (than, dầu thô và khí tự nhiên), sản phẩm nông nghiệp (đậu nành, ngô và lúa mì), và chăn nuôi cùng sản phẩm động vật (gia súc, trứng và sữa).</p>"
+      },
+      "howCommodityTradingWorks": {
+        "title": "Giao dịch hàng hóa hoạt động như thế nào?",
+        "body": "<p>Giao dịch hàng hóa cho phép bạn đầu cơ vào biến động giá của nguyên liệu thô thông qua CFDs mà không cần sở hữu tài sản vật lý. Các nhà giao dịch phân tích cung cầu, mẫu thời tiết, sự kiện địa chính trị và dữ liệu kinh tế để mở vị thế mua hoặc bán trên các công cụ như vàng, dầu và sản phẩm nông nghiệp.</p>"
+      },
+      "howMuchToStart": {
+        "title": "Tôi cần bao nhiêu tiền để bắt đầu giao dịch hàng hóa?",
+        "body": "<p>Số tiền cần thiết phụ thuộc vào loại tài khoản, đòn bẩy và các công cụ bạn giao dịch. WINPROFX cung cấp nhiều tùy chọn tài khoản với các yêu cầu nạp tiền tối thiểu khác nhau. Bắt đầu với số tiền bạn có thể chấp nhận mất và xem lại loại tài khoản cũng như cảnh báo rủi ro của chúng tôi trước khi giao dịch.</p>"
+      }
+    }
+  },
+  "oil": {
+    "banner": {
+      "meta": "Giao dịch dầu",
+      "title": "Giao dịch Dầu",
+      "description": "Phòng ngừa rủi ro biến động giá và tận dụng xu hướng thị trường toàn cầu. Truy cập dữ liệu theo thời gian thực, biểu đồ tiên tiến và thanh khoản sâu trên nền tảng giao dịch hàng đầu của chúng tôi để điều hướng ngành năng lượng một cách tự tin."
+    },
+    "card": {
+      "meta": "Giao dịch dầu",
+      "title": "Giao Dịch Dữ Liệu Thị Trường Trực Tiếp",
+      "description": "Theo dõi biến động giá theo thời gian thực, biến động hàng ngày và xu hướng kỹ thuật trên các tài sản năng lượng cao cấp."
+    },
+    "learn": {
+      "title": "Tìm Hiểu Về Oil Trading"
+    },
+    "faq": {
+      "howToStart": {
+        "title": "Làm thế nào để bắt đầu giao dịch dầu?",
+        "body": "<p>Trước khi bạn bắt đầu giao dịch dầu, điều cần thiết là nghiên cứu và hiểu thị trường. Bạn cần biết những yếu tố nào ảnh hưởng đến giá dầu và cách những yếu tố đó có thể thay đổi trong tương lai. Ngoài ra, hãy hiểu các loại dầu khác nhau mà bạn có thể giao dịch trên thị trường và các sản phẩm sử dụng từng loại.</p>"
+      },
+      "bestStrategy": {
+        "title": "Chiến lược tốt nhất cho giao dịch dầu thô là gì?",
+        "body": "<p>Các chiến lược dầu thô hiệu quả thường kết hợp phân tích kỹ thuật với nhận thức về cung, cầu và tin tức địa chính trị. Nhiều nhà giao dịch sử dụng các phương pháp theo xu hướng, breakout hoặc giao dịch trong phạm vi trong các phiên có khối lượng cao. Không có chiến lược nào đảm bảo lợi nhuận—luôn sử dụng quản lý rủi ro và xem lại thông tin công bố rủi ro WINPROFX.</p>"
+      },
+      "bestIndicator": {
+        "title": "Chỉ báo tốt nhất cho dầu thô là gì?",
+        "body": "<p>Các công cụ phổ biến cho dầu thô bao gồm moving averages, RSI, MACD và các chỉ báo dựa trên khối lượng, thường kèm theo danh sách theo dõi cho báo cáo tồn kho và tin tức OPEC. Chỉ báo tốt nhất phụ thuộc vào khung thời gian và chiến lược của bạn—thực hành trên tài khoản demo và xem lại tài liệu giáo dục trước khi giao dịch thực.</p>"
+      }
+    }
+  }
+}

@@ -12,25 +12,25 @@ export default function BlogDetails() {
     const single_blog = {
         id: '1',
         date: '06 - 21 - 2026',
-        title: 'Best Forex, Indices, Crypto, Metals, commodities & Oil Trading Platform in India : WINPROFX',
+        title: 'WINPROFX Forex and CFD Trading Overview',
         img: img_1,
-        des: 'Forex trading can be a highly rewarding venture, but it often requires a significant amount of capital to get started. However, with WINPROFX, you can begin trading with a free funded Forex account without deposit, giving you the chance to trade in real markets without risking your own money. This opportunity allows traders to build confidence, develop strategies, and test their skills in a live trading environment.',
+        des: 'WINPROFX provides access to forex and CFD markets through MetaTrader 5. This overview explains platform access, account services, and where to find official company and risk information before trading.',
         info: [
             {
-                title: 'What is a Free Funded Forex Account?',
-                des: 'A free funded Forex account without deposit is an account that provides you with pre-funded trading capital. Essentially, this means you can start trading in the Forex market without having to deposit any of your own money. It’s an excellent way for both new and experienced traders to practice trading, explore market trends, and hone their strategies without financial risk.',
+                title: 'What markets does WINPROFX offer?',
+                des: 'WINPROFX offers access to forex, indices, crypto CFDs, metals, commodities, and oil through the MT5 platform. Instrument availability may vary by account type and region.',
             },
             {
-                title: 'Best Forex Trading Platform for Your Success',
-                des: 'At WINPROFX, traders have access to the best Forex trading platform, equipped with powerful tools and advanced features. The platform offers real-time data, sophisticated charting tools, and quick trade execution, ensuring that you can react to market movements effectively. Whether you are trading major currency pairs or exploring exotic pairs, WINPROFX provides the features needed to succeed in Forex trading.',
+                title: 'MT5 Platform Access',
+                des: 'Clients can access MetaTrader 5 on desktop and mobile. The platform includes charting tools, order types, and account management features. Demo accounts may be available for practice.',
             },
             {
-                title: 'Trade Indices on the Best Indices Trading Platform in India',
-                des: 'In addition to Forex trading, WINPROFX offers the best indices trading platform in India, allowing traders to diversify their portfolios. Indices trading enables you to speculate on the performance of a group of stocks rather than individual assets, making it a less volatile and more balanced option for traders. WINPROFX’s platform provides seamless access to top global indices like the S&P 500, FTSE 100, and Nifty 50.',
+                title: 'Verify WINPROFX Before Trading',
+                des: 'Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org.',
             },
             {
-                title: 'Get Started with a Forex Funded Account Today',
-                des: `WINPROFX gives you the tools and resources to start trading with a forex funded account. Whether you're interested in Forex or indices trading, their state-of-the-art platform ensures you have everything you need to succeed. Sign up today and take advantage of a Best Forex, Indices, Crypto Trading Platform in India to begin your trading journey with zero financial risk.`,
+                title: 'Risk Warning',
+                des: 'Trading forex and CFDs involves significant risk and may not be suitable for all investors. Losses can exceed deposits when using leverage. Read the full risk warning on the official WINPROFX website before trading.',
             },
         ]
     }

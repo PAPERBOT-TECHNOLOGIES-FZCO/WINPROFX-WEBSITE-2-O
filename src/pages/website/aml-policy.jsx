@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,9 +7,12 @@ import Card from '@/components/policy/card'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function AmlPolicy() {
-    const info = [
+    const { t } = useTranslation('legal')
+  const seo = useSeo('amlPolicy')
+  const info = [
         {
             title: null,
             des: [
@@ -107,14 +111,14 @@ export default function AmlPolicy() {
     return (
         <div className='padding-top-245'>
             <SeoHead
-                title="AML Policy | WINPROFX"
-                description="Read the WINPROFX AML Policy covering anti-money laundering, verification, compliance, and related policy information."
-                canonicalPath="/aml-policy"
-            />
+        {...seo}
+        canonicalPath="/aml-policy"
+        pageName={t('amlPolicy.h1')}
+      />
             <TopShape />
             <PolicyTitle
                 as="h1"
-                title="KYC / AML Policy"
+                title={t('amlPolicy.h1')}
             />
             <Container>
                 <Card>

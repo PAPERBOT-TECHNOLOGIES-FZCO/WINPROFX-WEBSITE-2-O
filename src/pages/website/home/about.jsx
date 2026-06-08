@@ -4,24 +4,14 @@ import { Container } from '@/components/grid';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import MetaText from '@/components/meta-text'
+import { useTranslation } from 'react-i18next'
 
 import video from '@/assets/img/home/about-video.webm'
 
 export default function About() {
-    const info_item = [
-        {
-            name: `Best platform for every class of traders beginners, intermediate or professional.`,
-        },
-        {
-            name: `Sophisticated order management tools.`,
-        },
-        {
-            name: `Introducing more native technical indicators.`,
-        },
-        {
-            name: `Easy to configure and customize your trading setup`,
-        },
-    ]
+    const { t } = useTranslation('homepage')
+
+    const featureKeys = ['platform', 'orderManagement', 'indicators', 'customize']
 
     return (
         <div className='common-padding pt-0'>
@@ -69,19 +59,20 @@ export default function About() {
                         viewport={{ once: once, amount: 0.2 }}
                         className="p-1 lg:p-4 xl:p-6 flex flex-col max-w-full lg:max-w-125 xl:max-w-175 lg:min-h-118">
                         <div className="mb-auto">
-                            <MetaText title="ABOUT WINPROFX" className="mb-4 md:mb-5 lg:mb-6" />
-                            <h5 className='text-xl md:text-2xl lg:text-[28px] leading-tight font-normal text-para/60'>
-                                <strong className='font-normal text-white'>At WINPROFX, we offer a secure </strong> online trading platform, fostering sustainability through expertise, market knowledge, and trusted partnerships.
-                            </h5>
+                            <MetaText title={t('about.meta')} className="mb-4 md:mb-5 lg:mb-6" />
+                            <h5
+                                className='text-xl md:text-2xl lg:text-[28px] leading-tight font-normal text-para/60'
+                                dangerouslySetInnerHTML={{ __html: t('about.heading') }}
+                            />
                         </div>
                         <div className="flex flex-col gap-y-5 lg:gap-y-6 mt-6">
                             <div className="flex flex-col gap-y-4">
-                                {info_item.map((item, idx) => (
-                                    <p className="flex items-start gap-x-2.5" key={idx}>
+                                {featureKeys.map((key) => (
+                                    <p className="flex items-start gap-x-2.5" key={key}>
                                         <svg className='flex-none translate-y-0.75' width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M7.16667 1.63338C7.62667 1.24005 8.38 1.24005 8.84667 1.63338L9.9 2.54005C10.1 2.71338 10.4733 2.85338 10.74 2.85338H11.8733C12.58 2.85338 13.16 3.43338 13.16 4.14005V5.27338C13.16 5.53338 13.3 5.91338 13.4733 6.11338L14.38 7.16671C14.7733 7.62671 14.7733 8.38005 14.38 8.84671L13.4733 9.90004C13.3 10.1 13.16 10.4734 13.16 10.74V11.8734C13.16 12.58 12.58 13.16 11.8733 13.16H10.74C10.48 13.16 10.1 13.3 9.9 13.4734L8.84667 14.38C8.38667 14.7734 7.63334 14.7734 7.16667 14.38L6.11334 13.4734C5.91334 13.3 5.54 13.16 5.27334 13.16H4.12C3.41334 13.16 2.83334 12.58 2.83334 11.8734V10.7334C2.83334 10.4734 2.69334 10.1 2.52667 9.90004L1.62667 8.84004C1.24 8.38004 1.24 7.63338 1.62667 7.17338L2.52667 6.11338C2.69334 5.91338 2.83334 5.54004 2.83334 5.28004V4.13338C2.83334 3.42671 3.41334 2.84671 4.12 2.84671H5.27334C5.53334 2.84671 5.91334 2.70671 6.11334 2.53338L7.16667 1.63338Z" fill="#00D9FF" />
                                             <path d="M7.19333 10.1134C7.06 10.1134 6.93333 10.06 6.84 9.96669L5.22667 8.35335C5.03333 8.16002 5.03333 7.84002 5.22667 7.64669C5.42 7.45335 5.74 7.45335 5.93333 7.64669L7.19333 8.90669L10.06 6.04002C10.2533 5.84669 10.5733 5.84669 10.7667 6.04002C10.96 6.23335 10.96 6.55335 10.7667 6.74669L7.54666 9.96669C7.45333 10.06 7.32666 10.1134 7.19333 10.1134Z" fill="#0D0F12" />
-                                        </svg> {item.name}
+                                        </svg> {t(`about.features.${key}`)}
                                     </p>
                                 ))}
                             </div>

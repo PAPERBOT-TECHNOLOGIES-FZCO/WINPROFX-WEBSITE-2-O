@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Trans, useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -9,116 +10,136 @@ import IdentityNav from '@/components/company-identity/identity-nav'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import {
   BRAND_NAME,
-  DUBAI_VERIFICATION_NOTE,
   entityStructureRows,
-  INCORPORATION_CLARIFICATION,
   INCORPORATION_PDF_PATH,
-  INCORPORATION_PDF_TITLE,
   legalEntitySummaryRows,
   LEGAL_ENTITY_NAME,
   officialDomainsWithLabels,
-  REGISTERED_AGENT,
-  REGISTERED_OFFICE,
-  RISK_WARNING_SHORT,
   dubaiOfficeRows,
+  JURISDICTION,
 } from '@/lib/company-registration'
 
+const PAGE_KEY = 'legalEntityInformation'
+
 export default function LegalEntityInformation() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('legalEntityInformation')
+
+  const i18nVars = {
+    brandName: BRAND_NAME,
+    legalEntityName: LEGAL_ENTITY_NAME,
+    jurisdiction: JURISDICTION,
+  }
+
+  const domainLabels = tCompany('officialDomainLabels', { returnObjects: true })
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Legal Entity Information | WINPROFX"
-        description="Learn about the legal entity information for WINPROFX, including Winprofx Ltd. incorporation details, registered agent, registered office, and official domains."
+        {...seo}
         canonicalPath="/legal-entity-information"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Official Information" title="Legal Entity Information" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
-          <IdentitySection title="Brand and Legal Entity">
-            <p>
-              {BRAND_NAME} is the trading brand associated with {LEGAL_ENTITY_NAME}, an International
-              Business Company incorporated in Saint Lucia. The company registration information is
-              provided for transparency and user verification.
-            </p>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.brandAndLegalEntity`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.brandIntro`, i18nVars)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Incorporation Jurisdiction">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.incorporationJurisdiction`)}>
             <RegistrationTable rows={legalEntitySummaryRows} />
             <p className="mt-4">
-              <Link to="/company-registration/" className="text-white underline hover:text-primary">
-                View full company registration details
-              </Link>
+              <LocalizedLink to="/company-registration/" className="text-white underline hover:text-primary">
+                {t('shared.viewCompanyRegistration')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Registered Agent">
-            <p>{REGISTERED_AGENT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.registeredAgent`)}>
+            <p>{tCompany('registeredAgent')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Registered Office">
-            <p>{REGISTERED_OFFICE}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.registeredOffice`)}>
+            <p>{tCompany('registeredOffice')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Entity Structure">
-            <p>
-              {LEGAL_ENTITY_NAME} is the parent legal entity incorporated in Saint Lucia. The Dubai
-              branch operates as a representative office under a Dubai Professional License. The
-              structure is summarized below.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.entityStructure`)}>
+            <p>{t(`pages.${PAGE_KEY}.content.entityStructureIntro`, i18nVars)}</p>
             <div className="mt-4">
               <RegistrationTable rows={entityStructureRows} />
             </div>
           </IdentitySection>
 
-          <IdentitySection title="Dubai Branch and Office">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiBranchAndOffice`)}>
             <RegistrationTable rows={dubaiOfficeRows} />
             <p className="mt-4">
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                View full Dubai Professional License details
-              </Link>
+              <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary">
+                {t('shared.viewDubaiLicense')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Document Verification">
-            <p>{DUBAI_VERIFICATION_NOTE}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.documentVerification`)}>
+            <p>{tCompany('dubaiVerificationNote')}</p>
             <p className="mt-4">
-              Users should verify WINPROFX identity using the{' '}
-              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
-                Verify WINPROFX
-              </Link>{' '}
-              checklist before registering, logging in, or sharing personal information.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.verifyBeforeAct`}
+                ns="trust"
+                components={{
+                  verifyLink: (
+                    <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Official Domains and Portals">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.officialDomainsAndPortals`)}>
             <ul className="flex flex-col gap-4">
-              {officialDomainsWithLabels.map((entry) => (
-                <li key={entry.url}>
-                  <a
-                    href={entry.url}
-                    className="text-white underline hover:text-primary font-medium break-all"
-                    {...(entry.external
-                      ? { target: '_blank', rel: 'noopener noreferrer' }
-                      : { rel: 'noopener noreferrer' })}
-                  >
-                    {entry.url}
-                  </a>
-                  <span className="text-para"> — {entry.label}</span>
-                </li>
-              ))}
+              {officialDomainsWithLabels.map((entry, index) => {
+                const labelKeys = ['mainWebsite', 'alternateMarketing', 'uaeRegional', 'clientPortal', 'partnerPortal']
+                return (
+                  <li key={entry.url}>
+                    <a
+                      href={entry.url}
+                      className="text-white underline hover:text-primary font-medium break-all"
+                      {...(entry.external
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : { rel: 'noopener noreferrer' })}
+                    >
+                      {entry.url}
+                    </a>
+                    <span className="text-para">
+                      {t('shared.domainPurposeSeparator')}
+                      {domainLabels[labelKeys[index]] ?? entry.label}
+                    </span>
+                  </li>
+                )
+              })}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Legal Documents">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.legalDocuments`)}>
             <p className="mb-4">
-              Certified incorporation documents and other legal documents are available through the{' '}
-              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
-                Legal Documents
-              </Link>{' '}
-              section.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.legalDocsIntro`}
+                ns="trust"
+                components={{
+                  legalDocsLink: (
+                    <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
             <a
               href={INCORPORATION_PDF_PATH}
@@ -126,28 +147,33 @@ export default function LegalEntityInformation() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {INCORPORATION_PDF_TITLE}
+              {tCompany('incorporationPdfTitle')}
             </a>
           </IdentitySection>
 
-          <IdentitySection title="Compliance Clarification">
-            <p>{INCORPORATION_CLARIFICATION}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.complianceClarification`)}>
+            <p>{tCompany('incorporationClarification')}</p>
             <div className="mt-4">
               <LicenseClarification />
             </div>
             <p className="mt-4">
-              For regulatory and license-related information, visit the{' '}
-              <Link to="/regulatory-information/" className="text-white underline hover:text-primary">
-                Regulatory Information
-              </Link>{' '}
-              page.
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.regulatoryVisit`}
+                ns="trust"
+                components={{
+                  regulatoryLink: (
+                    <LocalizedLink to="/regulatory-information/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
+          <TrustPageFooter canonicalPath="/legal-entity-information" />
           <IdentityNav />
         </Card>
       </Container>

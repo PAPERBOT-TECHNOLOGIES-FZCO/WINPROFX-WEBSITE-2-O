@@ -5,6 +5,8 @@ import PolicyTitle from '@/components/policy/policy-title'
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 import img_1 from '@/assets/img/blog/1.png'
 import img_2 from '@/assets/img/blog/2.png'
@@ -16,50 +18,34 @@ import shape from '@/assets/img/blog/shape.png'
 
 
 export default function Blog() {
-    const categorys = [
-        {
-            name: 'All',
-        },
-        {
-            name: 'Forex',
-        },
-        {
-            name: 'Indices',
-        },
-        {
-            name: 'Crypto',
-        },
-        {
-            name: 'Oil',
-        },
-        {
-            name: 'Metals',
-        },
-        {
-            name: 'Commodities',
-        },
-    ]
+    const { t } = useTranslation('trading')
+    const seo = useSeo('blog')
+  const categoryKeys = ['all', 'forex', 'indices', 'crypto', 'oil', 'metals', 'commodities']
+  const categorys = categoryKeys.map((key) => ({
+    key,
+    name: t(`blog.categories.${key}`),
+  }))
     const [active_category, set_active_category] = useState(categorys[0]);
 
     const blogs_item = [
         {
             img: img_1,
             date: '06 - 21 - 2026',
-            title: 'Best Forex, Indices, Crypto, Metals, Commodities & Oil Trading Platform in India',
+            title: 'WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview',
             des: '',
             category: ['forex', 'crypto', 'metals']
         },
         {
             img: img_2,
             date: '06 - 21 - 2026',
-            title: 'Best Indices Trading App, Platform in India: WINPROFX',
+            title: 'Indices Trading with WINPROFX',
             des: 'When it comes to trading indices in India, having the right platform can significantly impact your success.',
             category: ['indices', '', '']
         },
         {
             img: img_3,
             date: '06 - 21 - 2026',
-            title: 'Best Forex Trading App, Platform in India: WINPROFX',
+            title: 'Forex Trading with WINPROFX',
             des: 'In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success.',
             category: ['forex', '', '']
         },
@@ -67,69 +53,67 @@ export default function Blog() {
         {
             img: img_4,
             date: '06 - 21 - 2026',
-            title: 'Best Crypto Trading App, Platform in India: WINPROFX',
+            title: 'Crypto CFD Trading with WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
         {
             img: img_5,
             date: '06 - 21 - 2026',
-            title: 'Best Commodities Trading App, Platform in India',
+            title: 'Commodities Trading with WINPROFX',
             des: '',
             category: ['oil', '', '']
         },
         {
             img: img_6,
             date: '06 - 21 - 2026',
-            title: 'Best Metals Trading App, Platform in India: WINPROFX',
+            title: 'Gold and Metals Trading with WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
         {
             img: img_4,
             date: '06 - 21 - 2026',
-            title: 'Best Crypto Trading App, Platform in India: WINPROFX',
+            title: 'WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview',
             des: '',
             category: ['crypto', '', '']
         },
         {
             img: img_5,
             date: '06 - 21 - 2026',
-            title: 'Best Commodities Trading App, Platform in India',
+            title: 'Indices Trading with WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
         {
             img: img_6,
             date: '06 - 21 - 2026',
-            title: 'Best Metals Trading App, Platform in India: WINPROFX',
+            title: 'Forex Trading with WINPROFX',
             des: '',
             category: ['crypto', '', '']
         },
     ]
 
-    const filtered_blog = active_category.name.toLowerCase() === 'all' ? blogs_item : blogs_item.filter(blog => blog.category.some(cat => cat.toLowerCase() === active_category.name.toLowerCase()));
+    const filtered_blog = active_category.key === 'all' ? blogs_item : blogs_item.filter(blog => blog.category.some(cat => cat.toLowerCase() === active_category.key));
     const blog_card_class = 'flex flex-col bg-white/3 border border-white/8 border-solid backdrop-blur-2xl p-2 rounded-2xl md:rounded-3xl transition-all duration-300 main-shadow hover:-translate-y-1'
 
     return (
         <div className='padding-top-245 -mt-4 md:mt-0 common-padding'>
             <SeoHead
-                title="Blog | News & Insights | WINPROFX"
-                description="Stay informed with the latest financial news on WINPROFX. Our blog offers timely updates and expert analysis on forex, crypto, metals, and more."
-                keywords="Forex Blog, Trading News, Market Insights, WINPROFX Blog, Forex Analysis, Crypto News, Trading Tips"
-                canonicalPath="/blog"
-            />
+        {...seo}
+        canonicalPath="/blog"
+      />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
                 <PolicyTitle
                     as="h1"
-                    meta="Blog"
-                    title="WINPROFX Blog"
+                    meta={t('blog.pageMeta')}
+                    title={t('blog.pageTitle')}
                     className={"md:text-start! max-w-175"}
                 />
                 <div className="flex flex-wrap gap-y-2 gap-x-2 mb-4 md:mb-5 lg:mb-6">
                     {categorys.map((item, idx) => (
-                        <button onClick={() => set_active_category(item)} key={idx} className={`inline-flex items-center justify-center font-medium min-h-9 md:min-h-10.5 rounded-full px-4 md:px-5 lg:px-6 min-w-12 md:min-w-17 hover:bg-primary hover:text-black ${item.name === active_category.name ? 'bg-primary text-black' : 'bg-white/8 text-white'}`}>{item.name}</button>
+                        <button onClick={() => set_active_category(item)} key={idx} className={`inline-flex items-center justify-center font-medium min-h-9 md:min-h-10.5 rounded-full px-4 md:px-5 lg:px-6 min-w-12 md:min-w-17 hover:bg-primary hover:text-black ${item.key === active_category.key ? 'bg-primary text-black' : 'bg-white/8 text-white'}`}>{item.name}</button>
                     ))}
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">

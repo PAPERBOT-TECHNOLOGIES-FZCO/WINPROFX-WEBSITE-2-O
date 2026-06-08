@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
@@ -7,42 +8,24 @@ import img2 from '@/assets/img/introducing-broker/benefites-img2.png'
 import img3 from '@/assets/img/introducing-broker/benefites-img3.png'
 import img4 from '@/assets/img/introducing-broker/benefites-img4.png'
 import img5 from '@/assets/img/introducing-broker/benefites-img5.png'
+
 export default function Benefits() {
-    const items = [
-        {
-            image: img1,
-            title: 'Multi-tier up to 5 Levels',
-            description: 'As an IB you could have up to 5 sub levels of referral traders.'
-        },
-        {
-            image: img2,
-            title: 'Multi-tier up to 5 Levels',
-            description: 'As an IB you could have up to 5 sub levels of referral traders.'
-        },
-        {
-            image: img3,
-            title: 'Multi-tier up to 5 Levels',
-            description: 'As an IB you could have up to 5 sub levels of referral traders.'
-        },
-        {
-            image: img4,
-            title: 'Multi-tier up to 5 Levels',
-            description: 'As an IB you could have up to 5 sub levels of referral traders.'
-        },
-        {
-            image: img5,
-            title: 'Multi-tier up to 5 Levels',
-            description: 'As an IB you could have up to 5 sub levels of referral traders.'
-        },
-    ]
+    const { t } = useTranslation('trading')
+    const images = [img1, img2, img3, img4, img5]
+    const items = images.map((image) => ({
+        image,
+        title: t('introducingBroker.benefits.cardTitle'),
+        description: t('introducingBroker.benefits.cardDescription'),
+    }))
+
     return (
         <section className='common-padding'>
             <Container>
                 <div className='grid grid-cols-1 lg:grid-cols-2 text-center lg:text-start gap-1 md:gap-0 lg:gap-30 mb-8 lg:mb-16'>
-                    <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-155 mx-auto lg:mx-0 mb-4 lg:mb-6 leading-tight'>Benefits Of Becoming Introducing Broker With WINPROFX:</h2>
+                    <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-155 mx-auto lg:mx-0 mb-4 lg:mb-6 leading-tight'>{t('introducingBroker.benefits.title')}</h2>
                     <div className='text-sm lg:text-base text-para2 space-y-3 font-inter leading-normal'>
-                        <p>Unlock a world of advantages by becoming an Introducing Broker with WINPROFX. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards.</p>
-                        <p>Join us in reshaping the future of trading partnerships with the Best Broker Trading Platform.</p>
+                        <p>{t('introducingBroker.benefits.paragraph1')}</p>
+                        <p>{t('introducingBroker.benefits.paragraph2')}</p>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 mb-8 items-stretch'>
@@ -61,16 +44,15 @@ export default function Benefits() {
                                 }
                             `}
                         >
-                            <div className={`relative z-1 rounded-lg lg:rounded-[20px] min-h-100  p-4 lg:p-6 pt-5 bg-white/4 border border-solid border-white/10 overflow-hidden h-full`}>
-                                <div className='absolute top-0 left-0 w-full h-full -z-1 pointer-events-none'>
-                                    <img src={item.image} alt="" className="w-full h-full object-cover object-center" />
+                            <div className='rounded-lg lg:rounded-[20px] px-6 py-8 pt-5 text-center bg-white/4 border border-solid border-white/10 overflow-hidden h-full'>
+                                <div className='w-45 h-45 mx-auto mb-4'>
+                                    <img src={item.image} alt="" className="w-full h-full object-contain object-center" />
                                 </div>
-                                <h3 className='text-xl font-bold text-white leading-tight mb-3'>{item.title}</h3>
-                                <p className='text-para text-sm leading-normal max-w-75'>{item.description}</p>
+                                <h3 className='text-lg md:text-xl font-medium mb-2 text-white'>{item.title}</h3>
+                                <p className='text-sm md:text-base leading-normal text-para'>{item.description}</p>
                             </div>
                         </motion.div>
                     ))}
-
                 </div>
             </Container>
         </section>
