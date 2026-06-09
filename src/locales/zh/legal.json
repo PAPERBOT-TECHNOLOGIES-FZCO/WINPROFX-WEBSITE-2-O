@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "隐私政策",
+    "meta": "法律与合规",
+    "sections": {
+      "privacyPolicyOfWinprofx": "WINPROFX 隐私政策",
+      "privacyProtection": "隐私保护",
+      "personalInformationWeCollect": "我们收集的个人信息",
+      "processingOfYourPersonalInformation": "个人信息的处理",
+      "performanceOfContract": "合同履行",
+      "complianceWithLegalObligation": "履行法定义务",
+      "safeguardingLegitimateInterests": "为保护正当利益",
+      "consentProvided": "您已提供同意",
+      "productsAndServices": "向您提供产品、服务及信息",
+      "investigateEnquiries": "调查或处理咨询或争议",
+      "complyWithLaws": "遵守适用法律、法院命令、其他司法程序或任何适用监管机构的要求",
+      "dataAnalysis": "数据分析",
+      "marketingPurposes": "营销目的",
+      "internalBusinessPurposes": "内部业务目的及记录保存",
+      "legalNotifications": "法律通知",
+      "physicalSecurity": "物理安全",
+      "disclosureOfPersonalInformation": "个人信息的披露",
+      "transfersOutsideEea": "向欧洲经济区以外的传输",
+      "yourCollectedInformation": "您被收集的信息",
+      "deviceInformation": "设备信息",
+      "logInformation": "日志信息",
+      "locationInformation": "位置信息",
+      "howWeObtainConsent": "我们如何取得您的同意",
+      "storageAndRetention": "个人信息的存储及保留期限",
+      "yourRights": "您对个人信息的权利及访问权",
+      "rectification": "更正",
+      "erasure": "删除",
+      "processingRestrictions": "处理限制",
+      "dataPortability": "数据可携权",
+      "objection": "反对",
+      "optOut": "选择不提供个人信息",
+      "legalDisclaimer": "法律免责声明",
+      "cardAcceptance": "WINPROFX 卡支付受理",
+      "howToContactUs": "如何联系我们"
+    }
+  },
+  "terms": {
+    "h1": "条款与条件",
+    "meta": "法律与合规",
+    "sections": {
+      "acceptanceOfTerms": "条款的接受",
+      "bindingAgreement": "具有约束力的协议",
+      "ageRequirement": "年龄要求",
+      "terminationOfAgreement": "协议的终止",
+      "modificationsToAgreement": "协议的修改",
+      "contactInformation": "联系信息"
+    }
+  },
+  "amlPolicy": {
+    "h1": "KYC / AML 政策",
+    "meta": "法律与合规",
+    "sections": {
+      "moneyLaundering": "洗钱：",
+      "placement": "放置",
+      "layers": "分层",
+      "integration": "整合",
+      "amlPolicyMet": "WINPROFX 外汇业务通过以下方式落实 AML 政策",
+      "documentsRequired": "验证个人信息需提供以下文件"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "存取款政策",
+    "meta": "法律与合规",
+    "sections": {
+      "processingOfPersonalInformation": "个人信息的处理",
+      "deposit": "存款",
+      "withdrawals": "取款",
+      "creditDebitCards": "信用卡/借记卡",
+      "electronicPaymentMethods": "电子支付方式",
+      "generalConditions": "一般条件",
+      "noThirdPartyPayments": "任何情况下均不允许第三方支付。",
+      "refundConditions": "退款条件：",
+      "dispute": "争议"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "受限国家/地区",
+    "meta": "法律与合规",
+    "sections": {
+      "restrictedList": "WINPROFX Limited 不向以下国家/地区提供任何服务：",
+      "creditDebitCards": "信用卡/借记卡"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "风险披露",
+    "meta": "重要提示",
+    "sections": {
+      "noInvestmentAdvice": "我们不提供投资建议。",
+      "speculateWithAffordableMoney": "请仅使用您可承受损失的资金进行投机交易。",
+      "whenDecidingToTrade": "在决定是否交易此类工具时，您应了解以下事项：",
+      "cfdTradingMayNotBeAppropriate": "CFD 交易可能不适合您",
+      "weDoNotProvideAdvice": "我们不提供建议",
+      "tradingOffExchange": "场外交易",
+      "margin": "保证金",
+      "lossLimitsNotGuaranteed": "止损限制无法保证",
+      "pastPerformance": "过往业绩",
+      "currency": "货币",
+      "volatility": "波动性",
+      "outOfHoursMarkets": "非交易时段市场",
+      "leverageOfGearing": "杠杆/Gearing",
+      "contingentLiabilityTransaction": "或有负债交易",
+      "spreadsCommissionsCosts": "点差、佣金及费用",
+      "insolvency": "破产",
+      "regulatoryAndLegalRisk": "监管及法律风险",
+      "taxRisk": "税务风险",
+      "yourMoney": "您的资金",
+      "systemFailure": "系统故障"
+    }
+  },
+  "riskWarning": {
+    "h1": "风险警告",
+    "meta": "重要提示",
+    "sections": {
+      "generalRisk": "一般风险",
+      "leverageRisk": "杠杆风险",
+      "marketVolatility": "市场波动",
+      "suitability": "适当性",
+      "noProfitGuarantees": "无盈利保证",
+      "furtherInformation": "更多信息"
+    },
+    "generalRiskBody": "Forex 和 CFD 交易涉及重大风险，可能不适合所有投资者。客户在交易前应充分了解相关风险。您可能损失部分或全部投资本金。请勿使用您无法承受损失的资金进行交易。",
+    "leverageRiskBody": "Forex 和 CFD 产品通常以保证金方式并使用杠杆进行交易。杠杆可放大收益与损失。较小的市场波动可能导致相对于您存入资金而言比例更大的损失。",
+    "marketVolatilityBody": "金融市场可能剧烈波动。受经济事件、新闻、流动性状况或其他因素影响，价格可能快速且不可预测地变动。在波动剧烈的情况下，可能难以按预期价格执行交易或在理想价位平仓。",
+    "suitabilityBody": "交易前，您应仔细评估自身的财务状况、经验及投资目标。如您不确定 Forex 或 CFD 交易是否适合您，请咨询具备资质的专业人士以获取独立的财务建议。",
+    "noProfitGuaranteesBody": "过往业绩不代表未来结果。WINPROFX 不保证盈利或提供损失保护。所有交易决策均由您自行承担风险。"
+  }
+}

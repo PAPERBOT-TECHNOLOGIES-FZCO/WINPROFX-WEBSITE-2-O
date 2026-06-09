@@ -1,0 +1,49 @@
+{
+  "tagline": "一个平台，多个市场，与 WINPROFX 一起探索无限交易机会。",
+  "sections": {
+    "explore": "探索",
+    "markets": "市场",
+    "contactInfo": "联系信息",
+    "officialDomains": "官方域名",
+    "importantLinks": "重要链接",
+    "trustLegal": "信任与法律",
+    "riskWarning": "风险警告",
+    "restrictedRegions": "受限地区"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX 官方网站",
+    "description": "WINPROFX 是一个 Forex 和 CFD 交易品牌，通过其官方网站和门户提供交易平台访问、客户账户服务、合作伙伴计划工具及交易相关支持服务。"
+  },
+  "domains": {
+    "officialWebsite": "官方网站",
+    "officialAlternate": "官方备用域名",
+    "officialUae": "官方阿联酋/区域域名",
+    "clientPortal": "客户门户",
+    "partnerPortal": "合作伙伴门户"
+  },
+  "links": {
+    "home": "首页",
+    "platform": "平台",
+    "aboutUs": "关于我们",
+    "about": "关于",
+    "companyProfile": "公司简介",
+    "contact": "联系我们",
+    "officialDomains": "官方域名",
+    "forex": "Forex",
+    "indices": "指数",
+    "crypto": "加密货币",
+    "metals": "贵金属",
+    "commodities": "大宗商品",
+    "oil": "原油",
+    "riskWarning": "风险警告",
+    "privacyPolicy": "隐私政策",
+    "termsConditions": "条款与条件",
+    "amlPolicy": "反洗钱政策",
+    "depositWithdrawPolicy": "存取款政策",
+    "restrictedCountries": "受限国家/地区",
+    "legalDocuments": "法律文件",
+    "riskDisclosure": "风险披露"
+  },
+  "restrictedRegionsText": "WINPROFX Limited 不为美国、古巴、伊拉克、缅甸、印度、朝鲜、苏丹的公民/居民提供服务。WINPROFX Limited 的服务不面向任何当地法律或法规禁止此类分发或使用的国家或司法管辖区的任何人士。",
+  "copyright": "© {{year}} WINPROFX 保留所有权利"
+}

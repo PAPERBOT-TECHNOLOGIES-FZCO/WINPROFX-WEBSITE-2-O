@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "lastReviewed": "2 June 2026",
+    "lastReviewedIso": "2026-06-02",
+    "reviewedBy": "WINPROFX 合规与运营团队"
+  },
+  "trustCenter": {
+    "h1": "WINPROFX 信任中心",
+    "intro": "WINPROFX 信任中心是官方公司、法律、风险、出金、支持和域名验证信息的集中枢纽。请在登录、入金或分享个人文件前，使用以下页面验证 WINPROFX。",
+    "verifyCalloutTitle": "行动前请先验证官方域名",
+    "verifyCalloutBody": "在输入登录凭据、入金或上传 KYC 文件前，请始终确认您位于 WINPROFX 官方域名。欺诈网站和冒名者可能使用相似品牌标识。",
+    "viewOfficialDomains": "查看 WINPROFX 官方域名 →",
+    "howToVerify": "如何验证 WINPROFX →",
+    "sections": {
+      "companyLegal": "公司与法律信息",
+      "verification": "验证与域名安全",
+      "trustSupport": "信任、出金与支持",
+      "brandGuides": "品牌验证指南",
+      "brandGuidesIntro": "常见验证搜索的官方页面："
+    }
+  },
+  "pages": {
+    "companyProfile": {
+      "label": "公司简介",
+      "summary": "WINPROFX 官方品牌与公司概览。",
+      "meta": "官方信息",
+      "h1": "公司简介",
+      "intro": "关于 WINPROFX 品牌、网站、门户、服务、支持渠道及交易风险提示的官方信息。",
+      "sections": {
+        "brandOverview": "品牌概览",
+        "legalEntityAndRegistration": "法律实体与注册",
+        "uaeRepresentativeOffice": "阿联酋代表处",
+        "trustAndTransparency": "信任与透明度",
+        "officialBrandInformation": "官方品牌信息",
+        "officialDomainsAndPortalGuidance": "官方域名与门户指引",
+        "winprofxServices": "WINPROFX 服务",
+        "userSafetyAndBrandVerification": "用户安全与品牌验证",
+        "riskWarning": "风险警告",
+        "restrictedCountries": "受限国家与服务可用性",
+        "legalAndPolicyDocuments": "法律与政策文件",
+        "contactWinprofx": "联系 WINPROFX",
+        "frequentlyAskedQuestions": "常见问题"
+      },
+      "content": {
+        "brandOverview1": "{{brandName}} 是一个外汇和 CFD 交易品牌，通过其官方网站和门户提供交易平台访问、客户账户服务、合作伙伴计划工具、交易相关信息及支持服务。",
+        "brandOverview2": "本页面旨在为用户、合作伙伴和搜索引擎提供关于 WINPROFX 品牌、其官方域名、支持渠道、服务及风险相关通知的清晰官方信息。",
+        "brandOverview3": "用户在访问 WINPROFX 服务、验证身份或联系支持时，应依赖本网站列出的官方域名和门户。",
+        "legalEntityIntro": "{{brandName}} 与 {{legalEntityName}} 相关联，后者为在 {{jurisdiction}} 注册的国际商业公司。公司注册文件包括 {{documentTypes}}。",
+        "legalEntityRegulatory": "有关监管和牌照信息，请访问<regulatoryLink>监管信息</regulatoryLink>页面。",
+        "uaeOfficeIntro": "{{brandName}} 以商号 {{dubaiBusinessName}} 在阿联酋运营代表处，持有 Dubai Professional License No. {{dubaiLicenseNumber}}，许可活动为 {{dubaiLicenseActivity}}。",
+        "trustIntro": "{{brandName}} 发布信任与透明度信息，帮助客户验证官方域名、了解出金流程、提交投诉并获取支持升级途径。",
+        "domainsGuidanceIntro": "{{brandName}} 使用官方域名和门户提供网站信息、客户账户访问、合作伙伴服务及支持沟通。用户在注册、登录、付款或分享账户相关信息前，应验证其访问的是 WINPROFX 官方域名。",
+        "domainPurposes": {
+          "org": "主要官方网站及首要品牌信息来源。",
+          "com": "WINPROFX 品牌的官方备用域名。",
+          "ae": "WINPROFX 信息的阿联酋/区域域名。",
+          "my": "用于账户访问和客户服务的客户门户。",
+          "partner": "用于 Introducing Broker / 合作伙伴相关访问的合作伙伴门户。"
+        },
+        "unlistedDomainWarning": "如有网站、社交媒体页面、移动应用、电子邮件或代表声称代表 WINPROFX，但未在<officialDomainsLink>官方域名</officialDomainsLink>页面列出，用户应在继续操作前予以验证。",
+        "servicesIntro": "{{brandName}} 通过其官方网站和门户提供与交易相关的访问及支持服务。可用服务可能包括平台访问、客户账户管理、合作伙伴工具及市场相关信息。",
+        "services": {
+          "forexCfd": {
+            "title": "外汇与 CFD 交易访问",
+            "description": "通过支持的平台和官方账户渠道访问外汇与 CFD 相关交易服务。"
+          },
+          "platform": {
+            "title": "交易平台信息",
+            "description": "WINPROFX 客户所用交易平台的信息与访问指引。"
+          },
+          "clientAccount": {
+            "title": "客户账户管理",
+            "description": "通过 WINPROFX 官方系统管理账户相关活动的客户门户访问。"
+          },
+          "partnerPortal": {
+            "title": "合作伙伴 / Introducing Broker 门户",
+            "description": "适用于获批合作伙伴及 Introducing Broker 的合作伙伴门户工具和资源（如适用）。"
+          },
+          "tools": {
+            "title": "交易工具与市场信息",
+            "description": "通过官方渠道为用户提供的与市场相关的工具、交易信息及平台资源。"
+          },
+          "support": {
+            "title": "客户支持",
+            "description": "通过 WINPROFX 官方联系渠道提供支持，包括 {{supportEmail}}。"
+          }
+        },
+        "safetyIntro": "用户应始终确认其通过官方域名或门户访问 WINPROFX。在输入登录信息、入金、与支持沟通或分享文件前，用户应验证网站地址并仅使用 WINPROFX 官方渠道。",
+        "safetyTips": {
+          "checkDomain": "登录前务必检查域名。",
+          "noOtps": "请勿向非官方联系人分享 OTP、密码或敏感账户信息。",
+          "noUnofficialPayments": "避免遵循来自不明代表的非官方付款指示。",
+          "verifySuspicious": "通过官方联系页面验证任何可疑网站或沟通。",
+          "useDomainsPage": "使用官方域名页面确认有效的 WINPROFX 网站和门户。"
+        },
+        "safetyLinks": "详情请参阅<officialDomainsLink>官方域名</officialDomainsLink>、<verifyLink>验证 WINPROFX</verifyLink>及<contactLink>联系</contactLink>页面。",
+        "riskBody1": "外汇和 CFD 交易涉及重大风险，可能不适合所有投资者。价格可能快速波动，客户可能损失部分或全部投资本金。用户在交易前应了解相关风险，并仅使用其可承受损失的资金进行交易。",
+        "riskBody2": "{{brandName}} 不保证交易利润、回报或投资结果。交易决定由用户个人自行负责。",
+        "riskLinks": "使用任何服务前，请阅读完整的<riskWarningLink>风险警告</riskWarningLink>、<legalDocsLink>法律文件</legalDocsLink>及<termsLink>条款与条件</termsLink>。",
+        "restrictedIntro": "由于法律、监管或业务限制，{{brandName}} 可能不在某些国家或司法管辖区提供服务。用户在注册或使用任何服务前应查阅受限国家页面。",
+        "viewRestrictedCountries": "查看受限国家",
+        "legalDocsIntro": "用户在使用任何 WINPROFX 服务前应阅读适用的法律、风险、隐私及政策文件。",
+        "contactIntro": "如需官方支持咨询，用户可通过官方支持邮箱或联系页面联系 WINPROFX。",
+        "brandTableLabels": {
+          "brandName": "品牌名称",
+          "mainWebsite": "主要官方网站",
+          "alternateDomain": "官方备用域名",
+          "uaeDomain": "官方阿联酋/区域域名",
+          "clientPortal": "客户门户",
+          "partnerPortal": "合作伙伴门户",
+          "supportEmail": "支持邮箱",
+          "lastUpdated": "最后更新"
+        },
+        "legalLinks": {
+          "terms": "条款与条件",
+          "privacy": "隐私政策",
+          "riskWarning": "风险警告",
+          "aml": "AML 政策",
+          "legalDocuments": "法律文件",
+          "restrictedCountries": "受限国家"
+        }
+      },
+      "faqs": {
+        "whatIsWinprofx": {
+          "question": "什么是 WINPROFX？",
+          "answer": "WINPROFX 是一个外汇和 CFD 交易品牌，通过其官方域名和门户提供交易平台、客户账户服务、合作伙伴计划工具及交易相关支持服务。"
+        },
+        "officialWebsite": {
+          "question": "WINPROFX 官方网站是什么？",
+          "answer": "WINPROFX 主要官方网站为 https://winprofx.org/。WINPROFX 亦使用其官方域名页面上列出的官方备用及区域域名。"
+        },
+        "clientPortal": {
+          "question": "WINPROFX 客户门户是什么？",
+          "answer": "WINPROFX 官方客户门户为 https://my.winprofx.org/。用户在登录或输入账户信息前应验证门户 URL。"
+        },
+        "partnerPortal": {
+          "question": "WINPROFX 合作伙伴门户是什么？",
+          "answer": "WINPROFX 官方合作伙伴门户为 https://partner.winprofx.org/。该门户用于合作伙伴及 Introducing Broker 相关访问（如适用）。"
+        },
+        "contactSupport": {
+          "question": "如何联系 WINPROFX 支持？",
+          "answer": "用户可通过 support@winprofx.com 或官方联系页面联系 WINPROFX 支持。"
+        },
+        "tradingRisk": {
+          "question": "外汇和 CFD 交易是否有风险？",
+          "answer": "是的。外汇和 CFD 交易涉及重大风险，可能不适合所有投资者。用户在交易前应了解相关风险。"
+        },
+        "verifyDomain": {
+          "question": "用户如何验证 WINPROFX 官方域名？",
+          "answer": "用户应参阅官方域名或验证 WINPROFX 页面，并确认该网站或门户列为 WINPROFX 官方域名。"
+        }
+      }
+    },
+    "companyRegistration": {
+      "label": "公司注册",
+      "summary": "Saint Lucia 注册详情及认证文件。",
+      "meta": "官方信息",
+      "h1": "公司注册",
+      "sections": {
+        "companyRegistrationDetails": "公司注册详情",
+        "shareAndCapitalInformation": "股份与资本信息",
+        "memorandumAndArticles": "组织章程大纲与细则",
+        "dubaiBranchRegistration": "迪拜分支机构注册",
+        "importantClarification": "重要说明",
+        "certifiedIncorporationDocuments": "认证注册文件",
+        "riskWarning": "风险警告",
+        "relatedInformation": "相关信息"
+      },
+      "content": {
+        "intro": "{{brandName}} 与 {{legalEntityName}} 相关联，后者为在 {{jurisdiction}} 注册的国际商业公司。公司认证注册文件包括 {{documentTypes}}。",
+        "shareCapitalBody": "公司股份资本结构在组织章程大纲与细则中定义。{{legalEntityName}} 授权以 USD 计价的股份，普通股每股享有一票表决权。公司发行的股份不可应要求赎回。",
+        "memorandumBody": "认证注册文件集包括 {{legalEntityName}} 的公司注册证书、组织章程大纲及组织章程细则。组织章程大纲定义公司章程、股份结构及宗旨。组织章程细则规范内部管理及股东权利。",
+        "subscriberLine": "注册认购人为 {{incorporationSubscriber}}。",
+        "dubaiBranchBody": "{{legalEntityName}} 亦为其阿联酋代表处持有 Dubai Professional License。详情请参阅<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>及<uaeOfficeLink>阿联酋代表处</uaeOfficeLink>。",
+        "certifiedDocsIntro": "{{legalEntityName}} 的认证注册文件可供下载："
+      }
+    },
+    "legalEntityInformation": {
+      "label": "法律实体信息",
+      "summary": "法律实体名称、司法管辖区及公司结构。",
+      "meta": "官方信息",
+      "h1": "法律实体信息",
+      "sections": {
+        "brandAndLegalEntity": "品牌与法律实体",
+        "incorporationJurisdiction": "注册司法管辖区",
+        "registeredAgent": "注册代理人",
+        "registeredOffice": "注册办事处",
+        "entityStructure": "实体结构",
+        "dubaiBranchAndOffice": "迪拜分支与办事处",
+        "documentVerification": "文件验证",
+        "officialDomainsAndPortals": "官方域名与门户",
+        "legalDocuments": "法律文件",
+        "complianceClarification": "合规说明",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "brandIntro": "{{brandName}} 是与 {{legalEntityName}} 相关联的交易品牌，后者为在 {{jurisdiction}} 注册的国际商业公司。提供公司注册信息以供透明度及用户验证。",
+        "entityStructureIntro": "{{legalEntityName}} 为在 {{jurisdiction}} 注册的母公司法律实体。迪拜分支在 Dubai Professional License 下作为代表处运营。结构概览如下。",
+        "verifyBeforeAct": "用户在注册、登录或分享个人信息前，应使用<verifyLink>验证 WINPROFX</verifyLink>清单验证 WINPROFX 身份。",
+        "legalDocsIntro": "认证注册文件及其他法律文件可通过<legalDocsLink>法律文件</legalDocsLink>部分获取。",
+        "regulatoryVisit": "有关监管和牌照信息，请访问<regulatoryLink>监管信息</regulatoryLink>页面。"
+      }
+    },
+    "dubaiProfessionalLicense": {
+      "label": "Dubai Professional License",
+      "summary": "阿联酋代表处专业牌照详情。",
+      "meta": "法律与合规",
+      "h1": "Dubai Professional License",
+      "sections": {
+        "licenseDetails": "牌照详情",
+        "dubaiOfficeInformation": "迪拜办事处信息",
+        "documentVerification": "文件验证",
+        "scopeClarification": "范围说明",
+        "relatedInformation": "相关信息",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro1": "{{dubaiBusinessName}} 持有由 {{dubaiLicenseCategory}} 签发的 Dubai Professional License。本页面基于认证的 Dubai Professional License 文件提供牌照信息。许可活动为 Representative Office，活动状态为 Active。",
+        "intro2": "代表处的 Dubai Professional License 确认本地商业注册及许可的代表处活动。该牌照应与任何金融服务、外汇经纪或 CFD 经纪监管授权分开理解。",
+        "qrVerification": "持有或收到原始牌照文件副本的用户，应通过文件上提供的 QR 码，经 Department of Economy and Tourism 官方验证渠道进行验证。"
+      }
+    },
+    "uaeRepresentativeOffice": {
+      "label": "阿联酋代表处",
+      "summary": "迪拜代表处范围及联系信息。",
+      "meta": "官方信息",
+      "h1": "阿联酋代表处",
+      "sections": {
+        "roleOfRepresentativeOffice": "代表处的职能",
+        "dubaiLicenseSummary": "迪拜牌照摘要",
+        "importantClarification": "重要说明",
+        "userVerificationGuidance": "用户验证指引",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} 以商号 {{dubaiBusinessName}} 在阿联酋运营代表处。该办事处持有 Dubai Professional License No. {{dubaiLicenseNumber}}，许可活动为 Representative Office。",
+        "intro2": "阿联酋代表处为 WINPROFX 在阿拉伯联合酋长国提供本地商业存在。在代表处牌照许可范围内，支持信息共享、支持协调、品牌代表及客户或合作伙伴沟通。",
+        "roleBody": "代表处是一种商业注册形式，允许外国公司在本地建立有限活动存在，如营销、联络和协调。其与完整交易牌照或金融服务经纪牌照不同。",
+        "roleItems": {
+          "localPresence": "在阿联酋的本地商业存在与品牌代表",
+          "supportCoordination": "为客户和合作伙伴提供信息与支持协调",
+          "officialChannels": "在许可范围内通过 WINPROFX 官方渠道沟通",
+          "uaeDomain": "与 winprofx.ae 官方阿联酋区域域名关联"
+        },
+        "verifyIntro": "在注册、登录、入金或分享个人信息前，用户应验证：",
+        "verifyItems": {
+          "domain": "确切的网站域名（winprofx.org、winprofx.com 或 winprofx.ae）",
+          "businessName": "牌照商号与 {{dubaiBusinessName}} 一致",
+          "support": "官方支持渠道（{{supportEmail}} 及联系页面）",
+          "clientPortal": "客户门户 URL：https://my.winprofx.org/",
+          "partnerPortal": "合作伙伴门户 URL：https://partner.winprofx.org/"
+        }
+      }
+    },
+    "regulatoryInformation": {
+      "label": "监管信息",
+      "summary": "注册、迪拜牌照及监管范围说明。",
+      "meta": "法律与合规",
+      "h1": "监管信息",
+      "sections": {
+        "companyIncorporation": "公司注册",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "licenseScopeClarification": "牌照范围说明",
+        "financialServicesLicenseClarification": "金融服务牌照说明",
+        "financialRegulatoryLicenseDetails": "金融监管机构牌照详情（经核实后）",
+        "documentAvailability": "文件可用性",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "incorporationIntro": "{{legalEntityName}} 在 {{jurisdiction}} 注册为 {{companyType}}。公司认证注册文件包括 {{documentTypes}}。",
+        "dubaiIntro": "{{legalEntityName}} 为其阿联酋代表处持有 Dubai Professional License。许可活动为 Representative Office。",
+        "financialPlaceholderIntro": "经核实的金融监管牌照信息可用后，将在下表中发布并链接至官方监管机构记录。在此之前，所有字段均为占位符。",
+        "documentAvailability": "认证注册文件可在<legalDocsLink>法律文件</legalDocsLink>部分及<companyRegistrationLink>公司注册</companyRegistrationLink>页面获取。迪拜牌照详情在<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>页面发布。"
+      }
+    },
+    "officialDomains": {
+      "label": "官方域名",
+      "summary": "WINPROFX 官方网站与门户列表。",
+      "meta": "官方信息",
+      "h1": "WINPROFX 官方域名",
+      "sections": {
+        "primaryCanonicalDomain": "主要规范域名",
+        "entityAndLicenseContext": "实体与牌照背景",
+        "officialDomains": "官方域名",
+        "preLoginVerificationWarning": "登录前验证警告",
+        "verificationWarning": "验证警告",
+        "companyInformation": "公司信息"
+      },
+      "content": {
+        "canonicalPrimary": "https://winprofx.org/ 是 WINPROFX 主要官方网站及所有公开页面的规范域名。搜索引擎、AI 工具及官方沟通应引用 winprofx.org URL。",
+        "canonicalAliases": "winprofx.com 和 winprofx.ae 是可能提供相同网站内容的官方域名别名。它们在 WINPROFX 结构化数据中列为相关官方属性，但 winprofx.org 仍是索引与验证的规范来源。",
+        "entityContext": "{{brandName}} 是与 {{legalEntityName}} 相关联的交易品牌，在 {{jurisdiction}} 注册。阿联酋区域域名 winprofx.ae 与以 {{dubaiBusinessName}} 名义注册、持有 Dubai Professional License No. {{dubaiLicenseNumber}} 的迪拜代表处相关联。",
+        "domainsIntro": "以下官方域名与 WINPROFX / Winprofx Ltd. 相关运营：",
+        "preLoginWarning": "在注册、登录、入金或分享个人信息前，请验证网站 URL 与上述官方域名完全一致。如有网站声称代表 WINPROFX 但未在此列出，请勿继续操作，直至经官方支持验证。",
+        "preLoginChecklist": "使用<verifyLink>验证 WINPROFX</verifyLink>清单获取分步验证指引。",
+        "verificationWarning": "如有网站声称代表 WINPROFX 但未在此列出，请在登录、入金或分享个人信息前与 WINPROFX 支持核实。",
+        "contactUnsure": "如对域名有疑问，请联系 {{supportEmail}} 或访问我们的<contactLink>联系</contactLink>页面。",
+        "companyInfoLinks": "有关品牌与公司详情，请参阅<companyProfileLink>公司简介</companyProfileLink>、<companyRegistrationLink>公司注册</companyRegistrationLink>及<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>页面。"
+      }
+    },
+    "verifyWinprofx": {
+      "label": "验证 WINPROFX",
+      "summary": "验证 WINPROFX 官方渠道的分步指南。",
+      "meta": "官方验证",
+      "h1": "验证 WINPROFX",
+      "sections": {
+        "userVerificationChecklist": "用户验证清单",
+        "verificationSummary": "验证摘要",
+        "verifyOfficialDomains": "验证官方域名",
+        "trustLegalTransparencyPages": "信任、法律与透明度页面",
+        "safetyNote": "安全提示"
+      },
+      "content": {
+        "intro": "本页面列出 WINPROFX 运营的官方网站和门户，并提供验证清单。用户在登录、注册、入金或分享个人信息前，应确认品牌身份、法律实体、牌照、域名及支持渠道。",
+        "checklist": {
+          "brand": "验证品牌名称为 WINPROFX",
+          "legalEntity": "验证法律实体为 Winprofx Ltd.（Saint Lucia 注册）",
+          "incorporation": "在公司注册页面核对 Saint Lucia 注册编号 2023-00197",
+          "dubaiLicense": "验证 Dubai Professional License No. 1423678 及商号 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE（Representative Office 活动）",
+          "domains": "确认网站 URL 与 WINPROFX 官方域名一致（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.org 或 partner.winprofx.org）",
+          "clientPortal": "验证客户门户 https://my.winprofx.org/",
+          "partnerPortal": "验证合作伙伴门户 https://partner.winprofx.org/",
+          "support": "使用官方支持邮箱 support@winprofx.com 或联系页面",
+          "readDocs": "交易或入金前请阅读风险警告及法律文件"
+        },
+        "safetyNote": "如有网站声称代表 WINPROFX 但未在此列出，请在使用前联系 WINPROFX 支持。请访问我们的<contactLink>联系</contactLink>页面或发送邮件至 {{supportEmail}}。"
+      }
+    },
+    "legalDocuments": {
+      "label": "法律文件",
+      "summary": "政策、条款及合规文件索引。",
+      "meta": "法律与合规",
+      "h1": "法律文件",
+      "sections": {
+        "availableDocuments": "可用文件",
+        "questions": "疑问"
+      },
+      "content": {
+        "intro": "以下法律、政策及信任文件适用于 WINPROFX 服务。请在开户或使用我们的平台前仔细阅读。",
+        "questions": "如对这些文件有疑问，请联系 {{supportEmail}} 或访问我们的<contactLink>联系</contactLink>页面。",
+        "docs": {
+          "incorporation": {
+            "name": "公司注册文件",
+            "description": "Winprofx Ltd. 的公司注册证书、组织章程大纲及组织章程细则。"
+          },
+          "dubaiLicense": {
+            "name": "Dubai Professional License",
+            "description": "{{dubaiBusinessName}} 的页面牌照信息（牌照编号 {{dubaiLicenseNumber}}）。Representative Office 活动——非金融服务经纪牌照。"
+          },
+          "companyRegistration": {
+            "name": "公司注册信息",
+            "description": "Winprofx Ltd. 完整公司注册详情。"
+          },
+          "legalEntity": {
+            "name": "法律实体信息",
+            "description": "法律实体、注册代理人、注册办事处、迪拜分支及官方域名。"
+          },
+          "regulatory": {
+            "name": "监管信息",
+            "description": "公司注册、迪拜牌照及金融服务牌照说明。"
+          },
+          "uaeOffice": {
+            "name": "阿联酋代表处",
+            "description": "阿联酋代表处职能、牌照摘要及验证指引。"
+          },
+          "withdrawal": {
+            "name": "出金透明度",
+            "description": "出金流程概览、方式及升级途径。"
+          },
+          "complaints": {
+            "name": "投诉与争议解决",
+            "description": "如何提交投诉及审查流程。"
+          },
+          "clientFund": {
+            "name": "客户资金安全",
+            "description": "账户安全、KYC/AML 及门户安全实践。"
+          },
+          "riskWarning": {
+            "name": "风险警告",
+            "description": "外汇和 CFD 产品主要交易风险摘要。"
+          },
+          "terms": {
+            "name": "条款与条件",
+            "description": "规范 WINPROFX 服务及平台使用的条款。"
+          },
+          "privacy": {
+            "name": "隐私政策",
+            "description": "WINPROFX 如何收集和使用个人数据。"
+          },
+          "aml": {
+            "name": "AML 政策",
+            "description": "反洗钱及合规政策。"
+          },
+          "depositWithdraw": {
+            "name": "入金与出金政策",
+            "description": "账户入金与出金相关政策。"
+          }
+        }
+      }
+    },
+    "riskWarning": {
+      "label": "风险警告",
+      "summary": "外汇和 CFD 交易风险披露。",
+      "meta": "重要通知",
+      "h1": "风险警告"
+    },
+    "withdrawalTransparency": {
+      "label": "出金透明度",
+      "summary": "出金流程概览及透明度信息。",
+      "meta": "信任与透明度",
+      "h1": "出金透明度",
+      "sections": {
+        "withdrawalProcessOverview": "出金流程概览",
+        "processingTimeline": "处理时间",
+        "commonReasonsForDelay": "常见延迟原因",
+        "escalationProcess": "升级流程",
+        "transparencyStatistics": "透明度统计",
+        "riskAndComplianceNote": "风险与合规说明",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} 致力于提供关于出金请求如何提交、审查及处理的清晰信息。本页面说明一般出金工作流程、验证要求及客户可用的升级选项。",
+        "intro2": "出金请求可能需要账户验证、付款方式验证、AML 及 KYC 检查，以及按内部合规程序要求的交易或账户活动审查。处理时间亦可能取决于第三方支付服务提供商、银行或区块链网络。",
+        "processIntro": "客户提交出金请求后，资金释放至获批目的地前，请求通常经历以下阶段：",
+        "processSteps": {
+          "submit": "客户通过官方客户门户或获批渠道提交出金请求",
+          "kyc": "验证账户身份及 KYC 状态",
+          "aml": "在适用情况下进行付款方式验证及 AML 检查",
+          "review": "在合规要求下进行交易或账户活动审查",
+          "security": "如触发则进行账户安全审查",
+          "release": "获批出金发送至支付服务提供商、银行或区块链网络",
+          "confirm": "处理完成后客户收到确认"
+        },
+        "timelineIntro": "下表按出金方式概述标准审查与处理预期。确切时间由运营与合规团队维护。",
+        "timelineCaption": "按方式的出金处理时间",
+        "delayIntro": "出金可能因以下原因（包括但不限于）而超出预期时间：",
+        "delayReasons": {
+          "incompleteKyc": "KYC 不完整或身份证明文件过期",
+          "methodMismatch": "入金与出金付款方式不一致",
+          "amlReview": "AML 或合规审查待完成",
+          "incorrectDetails": "钱包、银行或付款信息错误",
+          "pspDelay": "支付服务提供商、银行或区块链处理延迟",
+          "bonusReview": "奖金、促销或交易条款审查（如适用）",
+          "securityReview": "账户安全验证或可疑活动审查"
+        },
+        "escalationIntro": "如出金超出标准时间，请联系 WINPROFX 支持并提供以下信息：",
+        "escalationItems": {
+          "email": "注册邮箱地址",
+          "accountId": "MT5 或账户 ID",
+          "reference": "出金请求 ID 或参考编号（如有）",
+          "dateAmount": "出金请求日期及金额",
+          "method": "出金所用付款方式"
+        },
+        "escalationContact": "发送邮件至 {{supportEmail}} 或访问<supportLink>支持与升级</supportLink>。",
+        "statsIntro": "运营出金指标将在内部核实后在此发布。在获批数据可用前，以下数字均为占位符。",
+        "complianceNote": "出金可能因 KYC 完整性、AML 合规、账户安全、付款方式验证及适用条款与促销遵守情况而接受审查。客户应在提交请求前确保账户资料及付款方式最新。",
+        "depositPolicyLink": "完整入金与出金政策条款，请参阅<depositWithdrawLink>入金与出金政策</depositWithdrawLink>。"
+      }
+    },
+    "complaintsAndDisputeResolution": {
+      "label": "投诉与争议解决",
+      "summary": "如何提交及升级客户投诉。",
+      "meta": "信任与透明度",
+      "h1": "投诉与争议解决",
+      "sections": {
+        "howToSubmitComplaint": "如何提交投诉",
+        "complaintReviewProcess": "投诉审查流程",
+        "responseTimelines": "响应时间",
+        "accountSpecificPrivacy": "账户特定隐私",
+        "publicReviewResponsePolicy": "公开评论响应政策",
+        "escalation": "升级",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} 提供结构化投诉流程，使客户和合作伙伴仅通过官方渠道就账户服务、支持互动、出金、验证或其他交易相关事项提出关切。",
+        "intro2": "请勿通过非官方网站、社交媒体消息或声称代表 WINPROFX 的第三方分享账户密码、支付卡详情或身份证明文件。",
+        "submitIntro": "投诉可通过发送邮件至 {{supportEmail}}（主题行 \"Complaint\"）或通过官方<contactLink>联系</contactLink>页面提交。请包括：",
+        "requiredInfo": {
+          "name": "完整注册姓名",
+          "email": "注册邮箱地址",
+          "accountId": "账户或 MT5 ID",
+          "ticketId": "支持工单 ID（如有）",
+          "description": "问题详细描述",
+          "documents": "支持性截图或文件",
+          "dateTime": "交易或事件日期及时间"
+        },
+        "reviewSteps": {
+          "received": "通过官方支持渠道收到投诉",
+          "acknowledgement": "支持确认及分配参考编号（如适用）",
+          "internalReview": "支持及相关账户团队内部审查",
+          "complianceReview": "如需要则进行合规或运营审查",
+          "response": "向客户传达响应或解决方案",
+          "escalation": "如问题仍未解决则升级至管理层"
+        },
+        "timelineIntro": "目标响应时间由内部运营及合规程序设定。经核实的 SLA 将在确认后发布。",
+        "timelineCaption": "投诉响应时间",
+        "escalation": "如投诉未通过初步支持审查得到满意解决，可升级至合规或运营管理层。升级途径请参阅<supportLink>支持与升级</supportLink>。"
+      }
+    },
+    "clientFundSecurity": {
+      "label": "客户资金安全",
+      "summary": "客户资金处理及安全指引。",
+      "meta": "信任与透明度",
+      "h1": "客户资金安全",
+      "sections": {
+        "accountAccessSecurity": "账户访问安全",
+        "kycAndAmlChecks": "KYC 与 AML 检查",
+        "paymentMethodVerification": "付款方式验证",
+        "withdrawalVerification": "出金验证",
+        "verifyBeforeDepositing": "入金前客户应验证的事项",
+        "portalAndWebsiteSafety": "门户与网站安全",
+        "importantNote": "重要说明",
+        "reportSecurityConcerns": "报告安全问题",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro": "{{brandName}} 高度重视客户账户及支付安全。本页面概述有助于保护客户账户、个人信息及支付交易的实践。除非在经核实的监管文件中另行披露，本页面不描述客户资金隔离或存款保险。",
+        "accountSecurity": {
+          "strongPassword": "为客户及合作伙伴门户账户使用强且唯一的密码",
+          "twoFactor": "在可用时启用双因素认证",
+          "noSharing": "切勿向第三方分享登录凭据、OTP 或密码",
+          "logout": "每次使用后从共享或公共设备退出登录",
+          "reportSuspicious": "立即向支持报告可疑登录活动"
+        },
+        "kycBody1": "{{brandName}} 要求身份验证（KYC），并可能在开户及持续合规审查期间进行反洗钱（AML）检查。客户可能被要求提供政府签发的身份证明、地址证明及付款方式验证。",
+        "kycBody2": "验证不完整或过期可能延迟入金、出金或账户访问，直至所需文件提交并获批。",
+        "paymentVerification": "用于入金及出金的付款方式应属于注册账户持有人。第三方付款可能被拒绝。客户应仅通过官方门户渠道验证付款指示，避免向未验证地址发送资金。",
+        "withdrawalVerification": "出金可能在处理前需要确认账户身份、付款方式所有权及合规状态。出金审查流程及升级选项请参阅<withdrawalLink>出金透明度</withdrawalLink>。",
+        "preDepositChecklist": {
+          "domain": "确认网站 URL 与官方域名页面上列出的 WINPROFX 官方域名一致",
+          "verifyPages": "在公司注册及监管信息页面验证法律实体及牌照信息",
+          "readDocs": "开户前请阅读风险警告及适用法律文件",
+          "clientPortal": "账户访问仅使用官方客户门户 https://my.winprofx.org/",
+          "noThirdParty": "切勿向未验证地址或第三方账户发送资金",
+          "contactSupport": "如对任何付款指示有疑问，请联系 support@winprofx.com"
+        },
+        "preDepositLinks": "注册或入金前请使用<verifyLink>验证 WINPROFX</verifyLink>清单及<officialDomainsLink>官方域名</officialDomainsLink>页面。",
+        "portalSafety": "钓鱼网站可能模仿合法品牌。在输入凭据或付款前，请确认 URL 与 WINPROFX 官方域名一致。官方客户门户：https://my.winprofx.org/",
+        "importantNote": "本页面仅描述安全及验证实践。除非在经核实的监管文件中另行披露，本页面不构成客户资金隔离、存款保险或监管资本保护的声明。",
+        "reportConcerns": "向 {{supportEmail}} 或通过<supportLink>支持与升级</supportLink>报告疑似欺诈、钓鱼或未经授权的访问。"
+      }
+    },
+    "supportAndEscalation": {
+      "label": "支持与升级",
+      "summary": "支持渠道及升级流程。",
+      "meta": "信任与透明度",
+      "h1": "支持与升级",
+      "sections": {
+        "officialSupportChannels": "官方支持渠道",
+        "supportTicketProcess": "支持工单流程",
+        "informationRequiredFromClients": "客户需提供的信息",
+        "warningAgainstUnofficialChannels": "非官方渠道警告",
+        "escalationProcess": "升级流程",
+        "securityReminder": "安全提醒",
+        "complaints": "投诉",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro": "{{brandName}} 为客户、合作伙伴及潜在用户提供官方支持渠道。本页面说明如何联系支持、应包含的信息，以及如何仅通过经核实渠道升级未解决的问题。",
+        "supportChannels": {
+          "email": "邮箱：{{supportEmail}}",
+          "contactPage": "winprofx.org 上的 {{contactLink}}",
+          "clientPortal": "客户门户（注册客户）：https://my.winprofx.org/"
+        },
+        "ticketSteps": {
+          "contact": "通过邮箱或联系页面联系支持，主题行清晰明确",
+          "includeDetails": "包括账户参考、注册邮箱及问题描述",
+          "attach": "如适用请附上相关截图或文件",
+          "acknowledge": "支持确认收到并分配参考编号（如适用）",
+          "investigate": "相应团队（支持、合规或运营）进行调查",
+          "response": "客户收到含结果或后续步骤的响应"
+        },
+        "clientInfo": {
+          "email": "注册邮箱地址",
+          "accountId": "账户或 MT5 ID",
+          "description": "问题清晰描述",
+          "references": "相关日期、金额或交易参考",
+          "screenshots": "截图或文件（如适用）",
+          "withdrawalId": "出金相关升级的出金请求 ID"
+        },
+        "unofficialWarning": "{{brandName}} 不会通过非官方邮箱、社交媒体、消息应用或网站要求密码、完整支付卡号或敏感凭据。请勿遵循来自不明代表的付款指示。在登录、入金或分享个人信息前，请始终在<verifyLink>验证 WINPROFX</verifyLink>页面验证域名。",
+        "escalationWithdrawalTitle": "出金延迟",
+        "escalationWithdrawal": "包括出金日期、金额、付款方式、MT5/账户 ID 及请求参考。请参阅<withdrawalLink>出金透明度</withdrawalLink>。",
+        "escalationKycTitle": "KYC 与验证",
+        "escalationKyc": "使用注册邮箱及账户参考联系支持。确保提交的文件符合所述要求。",
+        "escalationDepositTitle": "入金问题",
+        "escalationDeposit": "入金确认延迟或付款争议，请联系支持并提供交易日期、金额、付款方式及银行或支付提供商的任何参考。请参阅<depositWithdrawLink>入金与出金政策</depositWithdrawLink>。",
+        "escalationIbTitle": "Introducing Broker (IB) 合作伙伴",
+        "escalationIb": "IB 合作伙伴应使用合作伙伴门户渠道或邮件并提供合作伙伴 ID 及业务参考。合作伙伴门户：https://partner.winprofx.org/",
+        "securityReminder": "保护账户凭据，在任何金融交易前验证 WINPROFX 官方属性。向 {{supportEmail}} 报告钓鱼或冒名。更多指引请参阅<clientFundLink>客户资金安全</clientFundLink>。",
+        "complaints": "正式投诉请参阅<complaintsLink>投诉与争议解决</complaintsLink>。"
+      }
+    },
+    "companyStatistics": {
+      "label": "公司统计",
+      "summary": "经核实后的运营透明度指标。",
+      "meta": "信任与透明度",
+      "h1": "公司统计",
+      "sections": {
+        "operationalMetrics": "运营指标",
+        "howStatisticsAreUpdated": "统计数据如何更新",
+        "importantNote": "重要说明",
+        "riskWarning": "风险警告"
+      },
+      "content": {
+        "intro1": "本页面提供 WINPROFX 运营统计及透明度指标的结构化概览。旨在使客户、合作伙伴及公众在内部运营与合规审查后，于一处获取经核实的公司数据。",
+        "intro2": "{{brandName}} 不发布未经核实的数字、奖项、评级或业绩声明。在运营核实完成前，以下数值均为占位符。",
+        "statsUpdate": "本页面指标在发布前经内部审查。经核实数据获批后，本页面将更新当前最后更新日期。请在下一透明度更新周期后再次查阅。",
+        "importantNote": "统计数据仅供透明度用途。不保证未来业绩、服务水平或个别账户的处理时间。"
+      }
+    },
+    "contact": {
+      "label": "联系",
+      "summary": "官方支持渠道及联系信息。"
+    },
+    "depositWithdraw": {
+      "label": "入金与出金政策",
+      "summary": "入金与出金政策信息。"
+    },
+    "riskDisclosure": {
+      "label": "风险披露",
+      "summary": "详细风险披露声明。"
+    }
+  },
+  "crossLinks": {
+    "trustCenter": "WINPROFX 信任中心",
+    "officialDomains": "WINPROFX 官方域名",
+    "verifyWinprofx": "验证 WINPROFX",
+    "regulatoryInformation": "WINPROFX 监管信息",
+    "riskWarning": "WINPROFX 风险警告",
+    "supportAndEscalation": "支持与升级"
+  },
+  "faqs": {
+    "regulatoryInformation": [
+      {
+        "question": "WINPROFX 是否受阿联酋 SCA、DFSA 或 ADGM 监管？",
+        "answer": "WINPROFX 在其官方网站上发布监管及法律信息。代表处活动的 Dubai Professional License 与金融服务监管机构牌照不同，除非在监管信息页面另行披露并核实。"
+      },
+      {
+        "question": "什么是 Dubai Professional License？",
+        "answer": "Dubai Professional License 是在阿联酋签发的商业注册。对 WINPROFX 而言，许可活动为 Representative Office。这与公司存在相关，不应与经纪商或金融服务牌照混淆，除非明确说明。"
+      },
+      {
+        "question": "在哪里可以验证 WINPROFX 公司注册？",
+        "answer": "您可在公司注册页面查阅 Saint Lucia 注册详情，并下载已发布的认证文件。访问文件前请始终确认您位于 WINPROFX 官方域名。"
+      }
+    ],
+    "withdrawalTransparency": [
+      {
+        "question": "如何从 WINPROFX 申请出金？",
+        "answer": "出金通过 my.winprofx.org 官方客户门户或获批支持渠道提交。登录前请始终确认您位于官方域名。"
+      },
+      {
+        "question": "WINPROFX 出金可能延迟的原因有哪些？",
+        "answer": "常见原因包括 KYC 不完整、AML 或合规审查、付款方式验证、银行或钱包信息错误，以及银行或支付提供商的处理时间。"
+      },
+      {
+        "question": "如何升级出金问题？",
+        "answer": "联系 support@winprofx.com 或访问支持与升级页面。请包括注册邮箱、账户 ID 及出金参考详情。"
+      }
+    ],
+    "verifyWinprofx": [
+      {
+        "question": "如何验证 WINPROFX 官方网站？",
+        "answer": "将 URL 与官方域名页面对照。主要网站为 winprofx.org。客户登录在 my.winprofx.org，合作伙伴门户在 partner.winprofx.org。"
+      },
+      {
+        "question": "如怀疑遇到假冒 WINPROFX 网站应怎么办？",
+        "answer": "请勿输入凭据或发送资金。访问假冒网站警告页面，在官方域名页面验证域名，并通过官方渠道联系支持。"
+      }
+    ],
+    "officialDomains": [
+      {
+        "question": "winprofx.org 与 my.winprofx.org 有何区别？",
+        "answer": "winprofx.org 是公司与产品信息的主要官方网站。my.winprofx.org 是用于账户登录、入金及出金的客户门户。"
+      },
+      {
+        "question": "winprofx.com 和 winprofx.ae 是否官方？",
+        "answer": "是的。winprofx.com 和 winprofx.ae 是官方备用域名，重定向至 winprofx.org 以提供一致信息。"
+      }
+    ],
+    "complaintsAndDisputeResolution": [
+      {
+        "question": "如何向 WINPROFX 提交投诉？",
+        "answer": "发送邮件至 support@winprofx.com（主题行 \"Complaint\"）或使用联系页面。请包括注册姓名、邮箱、账户 ID 及详细描述。"
+      },
+      {
+        "question": "WINPROFX 能否在社交媒体上讨论我的投诉？",
+        "answer": "出于安全与隐私，账户特定详情不会公开讨论。请使用官方支持渠道进行投诉审查。"
+      }
+    ]
+  },
+  "identityNav": {
+    "ariaLabel": "公司信息页面",
+    "relatedPages": "相关页面",
+    "companyLicense": "公司与牌照",
+    "trustSupport": "信任与支持"
+  },
+  "shared": {
+    "riskWarningSection": "风险警告",
+    "viewCompanyRegistration": "查看完整公司注册详情",
+    "viewDubaiLicense": "查看完整 Dubai Professional License 详情",
+    "viewDubaiLicensePage": "查看完整 Dubai Professional License 页面",
+    "verifyChecklist": "使用完整 WINPROFX 验证清单",
+    "contactPage": "联系页面",
+    "contactSupport": "联系支持",
+    "verifyOfficialDomains": "验证官方域名",
+    "domainPurposeSeparator": " — ",
+    "htmlOnlyNote": "仅页面参考 — 无 PDF 下载。",
+    "tableDomain": "域名",
+    "tablePurpose": "用途",
+    "supportEmailLabel": "支持邮箱：",
+    "lastUpdated": "最后更新："
+  }
+}

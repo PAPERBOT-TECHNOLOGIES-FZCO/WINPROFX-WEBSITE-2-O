@@ -25,7 +25,7 @@ i18n
   .init({
     resources: buildResources(),
     fallbackLng: DEFAULT_LOCALE,
-    supportedLngs: ['en', 'hi', 'id', 'vi', 'bn', 'ms'],
+    supportedLngs: ['en', 'hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja'],
     defaultNS: 'common',
     ns: I18N_NAMESPACES,
     interpolation: { escapeValue: false },

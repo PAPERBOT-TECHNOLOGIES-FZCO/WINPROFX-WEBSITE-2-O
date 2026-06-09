@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "WINPROFX 教育チーム",
+    "reviewer": "WINPROFX コンプライアンスチーム"
+  },
+  "index": {
+    "h1": "WINPROFX ラーニングセンター",
+    "intro": "Forex および CFD 取引の概念に関する教育リソースです。これらの記事は一般的な教育目的のみを目的としており、投資助言を構成するものではありません。",
+    "readArticle": "記事を読む →",
+    "trustCenterLink": "公式の会社情報および認証情報については、",
+    "trustCenter": "WINPROFX トラストセンター"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "Forex 取引とは？ | WINPROFX Learn",
+      "description": "Forex 取引とは何か、通貨ペアの仕組み、取引前に初心者が理解すべき主なリスクについて学びます。",
+      "h1": "Forex 取引とは？",
+      "breadcrumb": "Forex 取引とは",
+      "sections": {
+        "definition": {
+          "title": "定義",
+          "body": "Forex（外国為替）取引とは、世界の通貨市場で通貨ペアを売買することです。トレーダーは、ある通貨が別の通貨に対して強くなるか弱くなるかを予測します。"
+        },
+        "howCurrencyPairsWork": {
+          "title": "通貨ペアの仕組み",
+          "body": "通貨ペアは、ある通貨の別の通貨に対する価値を示します（例：EUR/USD）。最初の通貨がベース通貨、2番目がクォート通貨です。価格の変動は、経済状況、金利、市場センチメントを反映します。"
+        },
+        "forexAtWinprofx": {
+          "title": "WINPROFX の Forex",
+          "body": "WINPROFX は MetaTrader 5 プラットフォームを通じて Forex 市場へのアクセスを提供しています。口座条件および取引可能な銘柄は公式ウェブサイトで公開されています。"
+        }
+      },
+      "links": {
+        "forex": "Forex 取引",
+        "platform": "MT5 プラットフォーム",
+        "trustCenter": "WINPROFX トラストセンター"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "CFD 取引とは？ | WINPROFX Learn",
+      "description": "Contract for Difference（CFD）取引、資産の直接保有との違い、および関連するリスクについて理解します。",
+      "h1": "CFD 取引とは？",
+      "breadcrumb": "CFD 取引とは",
+      "sections": {
+        "definition": {
+          "title": "定義",
+          "body": "Contract for Difference（CFD）は、原資産を保有せずに価格変動を予測できるデリバティブです。損益は、エントリー価格と決済価格の差によって決まります。"
+        },
+        "cfdsVsOwnership": {
+          "title": "CFD と直接保有",
+          "body": "CFD トレーダーは、株式、コモディティ、暗号資産を直接保有しません。価格へのエクスポージャーを取引するものであり、口座条件に応じて Leverage やオーバーナイトファイナンスコストが発生する場合があります。"
+        },
+        "risks": {
+          "title": "リスク",
+          "body": "CFD 取引には重大なリスクが伴います。Leverage は初期入金を超える損失を拡大させる可能性があります。大多数のリテール CFD トレーダーは損失を被ります。"
+        }
+      },
+      "links": {
+        "crypto": "暗号資産 CFD 取引",
+        "riskWarning": "リスク警告"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "MetaTrader 5 (MT5) とは？ | WINPROFX Learn",
+      "description": "MetaTrader 5 取引プラットフォーム、その機能、およびクライアントが MT5 を通じて市場にアクセスする方法について学びます。",
+      "h1": "MetaTrader 5 (MT5) とは？",
+      "breadcrumb": "MT5 とは",
+      "sections": {
+        "overview": {
+          "title": "概要",
+          "body": "MetaTrader 5 (MT5) は、Forex、CFD およびその他の銘柄に使用されるマルチアセット取引プラットフォームです。チャート、テクニカル分析ツール、自動取引機能、モバイルアクセスを提供します。"
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX と MT5",
+          "body": "WINPROFX のクライアントは、デスクトップおよびモバイルの MT5 を通じて市場にアクセスします。ダウンロードリンクおよびプラットフォーム情報はプラットフォームページでご確認いただけます。"
+        }
+      },
+      "links": {
+        "platform": "MT5 取引プラットフォーム",
+        "accounts": "口座タイプ"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "Forex における Leverage とは？ | WINPROFX Learn",
+      "description": "Forex 取引における Leverage、エクスポージャーの拡大方法、潜在的な利益と損失の両方を増大させる理由について理解します。",
+      "h1": "Forex における Leverage とは？",
+      "breadcrumb": "Forex における Leverage",
+      "sections": {
+        "definition": {
+          "title": "定義",
+          "body": "Leverage により、トレーダーは少ない資金でより大きなポジションをコントロールできます。比率（例：1:100）で表され、少額の入金（証拠金）でより大きな取引サイズをコントロールできることを意味します。"
+        },
+        "howLeverageAffectsRisk": {
+          "title": "Leverage がリスクに与える影響",
+          "body": "Leverage は潜在的な利益と損失の両方を拡大します。わずかな不利な価格変動でも、入金した証拠金に対して大きな損失につながる可能性があります。"
+        }
+      },
+      "links": {
+        "marginCall": "マージンコールとは？",
+        "riskWarning": "リスク警告"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "マージンコールとは？ | WINPROFX Learn",
+      "description": "マージンコールとは何か、いつ発生するか、および証拠金要件が CFD および Forex 取引にどのように影響するかを学びます。",
+      "h1": "マージンコールとは？",
+      "breadcrumb": "マージンコール",
+      "sections": {
+        "definition": {
+          "title": "定義",
+          "body": "マージンコールは、口座の純資産が、建玉を維持するために必要な証拠金水準を下回ったときに発生します。ブローカーは追加資金の要求やポジションの決済により、証拠金要件を回復させる場合があります。"
+        },
+        "prevention": {
+          "title": "予防",
+          "body": "口座の純資産を監視し、適切なポジションサイズを使用し、Leverage の影響を理解し、十分な余剰証拠金を維持してください。ストップロスなどのリスク管理ツールは役立つ場合がありますが、リスクを完全に排除するものではありません。"
+        }
+      },
+      "links": {
+        "leverage": "Forex における Leverage",
+        "accounts": "口座タイプ"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "取引における Spread とは？ | WINPROFX Learn",
+      "description": "ビッド・アスク Spread、Spread が取引コストに与える影響、および銘柄ごとに Spread が異なる理由について理解します。",
+      "h1": "取引における Spread とは？",
+      "breadcrumb": "取引における Spread",
+      "sections": {
+        "definition": {
+          "title": "定義",
+          "body": "Spread とは、銘柄のビッド（売り）価格とアスク（買い）価格の差です。該当する場合、手数料やスワップと並んで主要な取引コストの一つです。"
+        },
+        "variableSpreads": {
+          "title": "変動 Spread",
+          "body": "流動性が低い時期、ニュースイベント、または市場のボラティリティの高まりにより、Spread は拡大する場合があります。公開されている Spread の例は参考値であり、約定時には異なる場合があります。"
+        }
+      },
+      "links": {
+        "forex": "Forex 取引",
+        "accounts": "口座タイプ"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "CFD 取引でのリスク管理方法 | WINPROFX Learn",
+      "description": "ポジションサイズ、ストップロス、Leverage の認識を含む、CFD 取引におけるリスク管理概念の教育ガイドです。",
+      "h1": "CFD 取引でのリスク管理方法",
+      "breadcrumb": "CFD のリスク管理",
+      "sections": {
+        "positionSizing": {
+          "title": "ポジションサイズ",
+          "body": "失ってもよい資金のみをリスクにさらしてください。ポジションサイズは、口座残高と損失許容度を反映すべきであり、利用可能な最大 Leverage を反映するものではありません。"
+        },
+        "stopLossAndTakeProfit": {
+          "title": "ストップロスとテイクプロフィット",
+          "body": "ストップロス注文は取引の潜在的な損失を制限できますが、ギャップや急激な相場では必ずしも正確な価格で約定するとは限りません。テイクプロフィット注文は目標水準で利益を確定します。"
+        },
+        "diversificationAndDiscipline": {
+          "title": "分散と規律",
+          "body": "単一銘柄への過度な集中は避けてください。取引計画を維持し、感情的な判断は避けましょう。本コンテンツは教育目的のみであり、投資助言ではありません。"
+        }
+      },
+      "links": {
+        "riskWarning": "リスク警告",
+        "trustCenter": "トラストセンター"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "デモ口座とライブ口座 | WINPROFX Learn",
+      "description": "デモ口座とライブ口座の目的を比較し、実際の資金で取引する際に何が変わるかを説明します。",
+      "h1": "デモ口座とライブ口座",
+      "breadcrumb": "デモ口座とライブ口座",
+      "sections": {
+        "demoAccounts": {
+          "title": "デモ口座",
+          "body": "デモ口座は仮想資金を使用し、財務的リスクなしにプラットフォーム操作、注文発注、戦略テストを練習できます。デモの条件はライブ約定と異なる場合があります。"
+        },
+        "liveAccounts": {
+          "title": "ライブ口座",
+          "body": "ライブ口座は実際の資金を使用します。損失は実際のものであり、Leverage を使用する場合、入金額を超える可能性があります。ライブ取引の前に KYC 認証およびコンプライアンス審査が必要です。"
+        }
+      },
+      "links": {
+        "accounts": "口座タイプ",
+        "verifyWinprofx": "WINPROFX を認証"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "Forex ブローカーが正当かどうか確認する方法 | WINPROFX Learn",
+      "description": "公式ドメイン、会社登録、規制の範囲、リスク開示を使用して Forex ブローカーを確認する方法を学びます。",
+      "h1": "Forex ブローカーが正当かどうか確認する方法",
+      "breadcrumb": "ブローカーの正当性確認",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "公式ドメインの確認",
+          "body": "ウェブサイトの URL がブローカーが公開している公式ドメインと一致していることを確認してください。不請自来的なリンクやソーシャルメディアのメッセージから到達したログインページは避けてください。"
+        },
+        "reviewCompanyRegistration": {
+          "title": "会社登録の確認",
+          "body": "法人が開示されているか、登録詳細およびダウンロード可能な書類が提供されているかを確認してください。会社登録は金融サービスライセンスと同じではありません。"
+        },
+        "understandRegulatoryScope": {
+          "title": "規制の範囲を理解する",
+          "body": "どのようなライセンスまたは登録が存在し、実際に何を認可しているかを確認してください。代表事務所ライセンスは金融ブローカーライセンスとは異なります。"
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "WINPROFX は正当ですか？",
+        "trustCenter": "トラストセンター",
+        "officialDomains": "公式ドメイン"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "オフショアと規制 Forex ブローカー | WINPROFX Learn",
+      "description": "Forex ブローカー業におけるオフショア法人設立と金融サービス規制の違いについて理解します。",
+      "h1": "オフショアと規制 Forex ブローカー",
+      "breadcrumb": "オフショアと規制ブローカー",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "オフショア法人設立",
+          "body": "多くのブローカーは、セントルシアなどの法域で国際ビジネス会社として設立されています。法人設立は法的実体の形成を確認するものですが、自動的に金融サービス規制を意味するわけではありません。"
+        },
+        "financialServicesRegulation": {
+          "title": "金融サービス規制",
+          "body": "金融サービス規制当局（FCA、ASIC、CySEC、UAE 当局など）は、定められた条件下で特定のブローカー活動を認可する場合があります。必ず公式の規制記録を通じて確認してください。"
+        },
+        "dueDiligence": {
+          "title": "デューデリジェンス",
+          "body": "クライアントは、マーケティングの主張に依存するのではなく、実際に確認・開示されている内容を確認すべきです。リスク警告を読み、管轄上の制限を理解してください。"
+        }
+      },
+      "links": {
+        "regulatoryInformation": "規制情報",
+        "licenseVerification": "ライセンス認証",
+        "checkBrokerLegit": "ブローカーの正当性確認方法"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

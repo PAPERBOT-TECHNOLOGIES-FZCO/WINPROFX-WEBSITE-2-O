@@ -1,0 +1,132 @@
+{
+  "policy": {
+    "h1": "プライバシーポリシー",
+    "meta": "法務・コンプライアンス",
+    "sections": {
+      "privacyPolicyOfWinprofx": "WINPROFX プライバシーポリシー",
+      "privacyProtection": "プライバシー保護",
+      "personalInformationWeCollect": "当社が収集する個人情報",
+      "processingOfYourPersonalInformation": "個人情報の処理",
+      "performanceOfContract": "契約の履行",
+      "complianceWithLegalObligation": "法的義務の遵守",
+      "safeguardingLegitimateInterests": "正当な利益の保護を目的とする場合",
+      "consentProvided": "お客様の同意を得ている場合",
+      "productsAndServices": "商品・サービスおよび情報の提供",
+      "investigateEnquiries": "お問い合わせまたは紛争の調査・解決",
+      "complyWithLaws": "適用法令、裁判所命令、その他の司法手続、または適用される規制当局の要件への遵守",
+      "dataAnalysis": "データ分析",
+      "marketingPurposes": "マーケティング目的",
+      "internalBusinessPurposes": "内部業務目的および記録保管",
+      "legalNotifications": "法的通知",
+      "physicalSecurity": "物理的セキュリティ",
+      "disclosureOfPersonalInformation": "個人情報の開示",
+      "transfersOutsideEea": "欧州経済領域外への移転",
+      "yourCollectedInformation": "収集されたお客様の情報",
+      "deviceInformation": "デバイス情報",
+      "logInformation": "ログ情報",
+      "locationInformation": "位置情報",
+      "howWeObtainConsent": "同意の取得方法",
+      "storageAndRetention": "個人情報の保管および保存期間",
+      "yourRights": "個人情報に関するお客様の権利およびアクセス",
+      "rectification": "訂正",
+      "erasure": "消去",
+      "processingRestrictions": "処理の制限",
+      "dataPortability": "データポータビリティ",
+      "objection": "異議",
+      "optOut": "個人情報の提供を拒否する",
+      "legalDisclaimer": "法的免責事項",
+      "cardAcceptance": "WINPROFX カード決済の受付",
+      "howToContactUs": "お問い合わせ方法"
+    }
+  },
+  "terms": {
+    "h1": "利用規約",
+    "meta": "法務・コンプライアンス",
+    "sections": {
+      "acceptanceOfTerms": "規約への同意",
+      "bindingAgreement": "拘束力のある契約",
+      "ageRequirement": "年齢要件",
+      "terminationOfAgreement": "契約の終了",
+      "modificationsToAgreement": "契約の変更",
+      "contactInformation": "連絡先"
+    }
+  },
+  "amlPolicy": {
+    "h1": "KYC / AML ポリシー",
+    "meta": "法務・コンプライアンス",
+    "sections": {
+      "moneyLaundering": "マネーロンダリング：",
+      "placement": "プレースメント",
+      "layers": "レイヤリング",
+      "integration": "インテグレーション",
+      "amlPolicyMet": "WINPROFX の FX 業務において、以下の方法で AML ポリシーを遵守しています",
+      "documentsRequired": "個人情報の確認には、以下の書類が必要です"
+    }
+  },
+  "depositWithdraw": {
+    "h1": "入出金ポリシー",
+    "meta": "法務・コンプライアンス",
+    "sections": {
+      "processingOfPersonalInformation": "個人情報の処理",
+      "deposit": "入金",
+      "withdrawals": "出金",
+      "creditDebitCards": "クレジット/デビットカード",
+      "electronicPaymentMethods": "電子決済方法",
+      "generalConditions": "一般条件",
+      "noThirdPartyPayments": "いかなる場合も第三者による入金は認められません。",
+      "refundConditions": "返金条件：",
+      "dispute": "紛争"
+    }
+  },
+  "restrictedCountries": {
+    "h1": "提供制限国",
+    "meta": "法務・コンプライアンス",
+    "sections": {
+      "restrictedList": "WINPROFX Limited は、以下の国・地域にはいかなるサービスも提供しておりません：",
+      "creditDebitCards": "クレジット/デビットカード"
+    }
+  },
+  "riskDisclosure": {
+    "h1": "リスク開示",
+    "meta": "重要なお知らせ",
+    "sections": {
+      "noInvestmentAdvice": "当社は投資助言を提供しません。",
+      "speculateWithAffordableMoney": "損失を許容できる資金でのみ投機取引を行ってください。",
+      "whenDecidingToTrade": "このような金融商品の取引を行うかどうかを判断する際は、以下の点にご留意ください：",
+      "cfdTradingMayNotBeAppropriate": "CFD 取引がお客様に適さない場合があります",
+      "weDoNotProvideAdvice": "当社は助言を提供しません",
+      "tradingOffExchange": "店頭取引",
+      "margin": "証拠金",
+      "lossLimitsNotGuaranteed": "損失制限は保証されません",
+      "pastPerformance": "過去の実績",
+      "currency": "通貨",
+      "volatility": "ボラティリティ",
+      "outOfHoursMarkets": "時間外市場",
+      "leverageOfGearing": "レバレッジ（ギアリング）",
+      "contingentLiabilityTransaction": "偶発債務取引",
+      "spreadsCommissionsCosts": "スプレッド、手数料およびコスト",
+      "insolvency": "倒産",
+      "regulatoryAndLegalRisk": "規制および法的リスク",
+      "taxRisk": "税務リスク",
+      "yourMoney": "お客様の資金",
+      "systemFailure": "システム障害"
+    }
+  },
+  "riskWarning": {
+    "h1": "リスク警告",
+    "meta": "重要なお知らせ",
+    "sections": {
+      "generalRisk": "一般的なリスク",
+      "leverageRisk": "レバレッジリスク",
+      "marketVolatility": "市場のボラティリティ",
+      "suitability": "適合性",
+      "noProfitGuarantees": "利益の保証なし",
+      "furtherInformation": "詳細情報"
+    },
+    "generalRiskBody": "Forex および CFD の取引には重大なリスクが伴い、すべての投資家に適しているとは限りません。お取引前にリスクを十分にご理解ください。投資元本の一部または全部を失う可能性があります。失っても問題のない資金以外での取引は行わないでください。",
+    "leverageRiskBody": "Forex および CFD 商品は、通常、レバレッジを用いた証拠金取引で行われます。レバレッジは利益と損失の双方を拡大します。わずかな相場変動でも、お預け入れいただいた資金に対して比例的に大きな損失が生じる場合があります。",
+    "marketVolatilityBody": "金融市場は変動が激しい場合があります。経済イベント、ニュース、流動性の状況、その他の要因により、価格は急速かつ予測不能に動くことがあります。変動が激しい局面では、想定価格での約定や希望水準での決済が困難になる場合があります。",
+    "suitabilityBody": "お取引前に、ご自身の財務状況、経験、投資目的を慎重にご検討ください。Forex または CFD 取引がお客様に適しているか不明な場合は、資格を有する専門家から独立した金融アドバイスを受けてください。",
+    "noProfitGuaranteesBody": "過去の実績は将来の結果を示すものではありません。WINPROFX は利益または損失からの保護を保証するものではありません。すべての取引判断は、お客様ご自身の責任において行われます。"
+  }
+}

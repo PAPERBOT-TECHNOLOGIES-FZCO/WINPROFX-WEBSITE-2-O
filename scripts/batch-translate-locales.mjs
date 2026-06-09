@@ -7,6 +7,8 @@ const LOCALES = {
   vi: 'vi',
   bn: 'bn',
   ms: 'ms',
+  zh: 'zh-CN',
+  ja: 'ja',
 };
 
 const FILES = [

@@ -22,7 +22,7 @@ import { getIndexablePagePaths } from './seo-routes.mjs'
 
 export const DEFAULT_LOCALE = 'en'
 
-export const LOCALE_CODES = ['en', 'hi', 'id', 'vi', 'bn', 'ms']
+export const LOCALE_CODES = ['en', 'hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja']
 
 /** Global locale gate — set true only after locale passes translation + SEO QA. */
 export const LOCALE_SEO_READY = {
@@ -32,6 +32,8 @@ export const LOCALE_SEO_READY = {
   vi: false,
   bn: false,
   ms: false,
+  zh: false,
+  ja: false,
 }
 
 /**

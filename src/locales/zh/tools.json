@@ -1,0 +1,204 @@
+{
+  "analytics": {
+    "meta": "分析",
+    "h1": "强大的分析工具，助您做出更明智的交易决策",
+    "faqTitle": "常见问题",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "事件追踪",
+        "title": "使用经济日历追踪关键经济事件",
+        "des": "及时了解重要经济事件和数据发布，优化您在 WINPROFX 上的交易策略。"
+      },
+      "marketNews": {
+        "meta": "市场新闻",
+        "title": "WINPROFX 实时市场新闻",
+        "des": "实时了解市场新闻及 FXStreet News 团队的最新动态。使用 WINPROFX Trade 应用或 WINPROFX Personal Area 即可访问这些实用数据。"
+      }
+    },
+    "smartSignals": {
+      "meta": "Smart Signals",
+      "title": "Smart Signals",
+      "des": "从 Trading Central 获取可操作的洞察，支持您的交易决策。"
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "我们平台上哪些工具提供最佳市场预测？",
+        "body": "使用经济日历追踪重要经济事件和数据发布。通过 FXStreet News 获取实时新闻，并从 Trading Central WebTV 获取洞察。"
+      },
+      "tradingPatterns": {
+        "title": "我们网站上哪些工具最适合分析交易形态？",
+        "body": "WINPROFX 提供基本面与技术分析工具的组合，帮助您预测价格走势并分析交易形态。工具免费且易于访问，让您自信、高效地规划交易。"
+      }
+    }
+  },
+  "economicCalendar": {
+    "meta": "经济日历",
+    "h1": "经济日历",
+    "heroDescription": "实时追踪全球宏观经济事件、波动率指标及影响市场的数据。",
+    "symbolsLabel": "品种",
+    "sampleEvent": "Non-Farm Payrolls (NFP)",
+    "impactHigh": "高",
+    "tableHeaders": {
+      "time": "时间",
+      "symbol": "品种",
+      "event": "事件",
+      "impact": "影响",
+      "actual": "实际值",
+      "forecast": "预测值",
+      "previous": "前值"
+    },
+    "sections": {
+      "understanding": {
+        "title": "了解并使用 Forex 经济日历",
+        "p1": "Forex 经济日历是交易者的宝贵工具，可监控和分析推动市场走势的事件并预测价格变化。它按时间顺序列出重要的国内和国际新闻事件。",
+        "p2": "货币政策决策、经济指标、GDP 公布、Non-Farm Payrolls (NFP) 数据及利率变动等关键事件均包含在内，因为它们可能对金融市场产生重大影响。"
+      },
+      "whyUse": {
+        "title": "为何应使用 Forex 经济日历",
+        "p1": "Forex 经济日历对于掌握即将发布的新闻、报告和公告至关重要。这些事件可能显著影响 Forex 货币对、股票及其他市场的波动率。",
+        "p2": "使用日历，交易者可以更有效地规划交易，并了解可能受影响的图表形态和指标。在交易日开始前查阅日历是明智的做法，因为这些事件发布时可能引发显著的价格波动。"
+      }
+    },
+    "faqTitle": "常见问题",
+    "faqSubtitle": "查找关于交易、账户设置、入金、出金及平台功能最常见问题的清晰简洁答案。",
+    "faqs": {
+      "whatIs": {
+        "title": "什么是 Forex 经济日历？",
+        "body": "<p>经济日历是一种按时间顺序列出重要经济事件和数据发布的工具，这些事件可能影响金融市场。</p>"
+      },
+      "howToUse": {
+        "title": "如何将 Forex 经济日历用于交易？",
+        "body": "<p>交易者使用经济日历了解可能影响市场走势的即将发布事件，从而更有效地规划交易。</p>"
+      },
+      "eventTypes": {
+        "title": "Forex 经济日历上列出哪些类型的事件？",
+        "body": "<p>经济日历包括货币政策决策、经济指标、GDP 公布、Non-Farm Payrolls (NFP) 数据及利率变动等事件。</p>"
+      },
+      "impact": {
+        "title": "Forex 经济事件如何影响交易？",
+        "body": "<p>经济事件可能在金融市场引发显著波动，影响 Forex 货币对、股票及其他工具的价格。</p>"
+      },
+      "whereFind": {
+        "title": "在 WINPROFX 平台上哪里可以找到 Forex 经济日历？",
+        "body": "<p>您可在 WINPROFX 网站的 Personal Area 或通过 WINPROFX Trade 应用访问经济日历。</p>"
+      },
+      "notifications": {
+        "title": "能否收到即将发布的 Forex 经济事件通知？",
+        "body": "<p>可以，您可在交易平台的「Mailbox」标签页下接收即将发布的经济事件通知。</p>"
+      },
+      "importance": {
+        "title": "所有 Forex 经济事件对交易的重要性是否相同？",
+        "body": "<p>不是，经济事件的影响程度各不相同。利率决策和 NFP 数据等重大事件通常比其他事件影响更大。</p>"
+      },
+      "updated": {
+        "title": "Forex 经济日历多久更新一次？",
+        "body": "<p>经济日历实时更新，确保您获得即将发布事件的最新信息。</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "货币计算器",
+    "h1": "货币计算器",
+    "bannerMeta": "计算器",
+    "bannerTitle": "精准交易规划",
+    "bannerDes": "实时计算全球市场的保证金、点值和隔夜掉期。",
+    "sectionTitle": "Forex 货币计算器",
+    "sectionDes": "Forex 货币计算器是一款实用工具，帮助交易者使用实时汇率快速将一种货币换算为另一种。",
+    "faqTitle": "常见问题",
+    "faqs": {
+      "whatIs": {
+        "title": "什么是 Forex 货币计算器？",
+        "body": "Forex 货币计算器是一款帮助交易者计算点值、保证金、点差、佣金及其他重要交易指标的工具。"
+      },
+      "howToUse": {
+        "title": "如何使用 Forex 货币计算器？",
+        "body": "输入交易详情，如货币对、持仓规模和杠杆，以计算点值、保证金、点差等各项指标。"
+      },
+      "metrics": {
+        "title": "Forex 货币计算器可以帮我计算哪些指标？",
+        "body": "该计算器可帮助您确定点值、保证金、点差、佣金及其他重要交易指标。"
+      },
+      "free": {
+        "title": "Forex 货币计算器是否免费？",
+        "body": "是的，WINPROFX 上的 Forex 货币计算器对所有用户免费。"
+      },
+      "whyUse": {
+        "title": "为何应使用 Forex 货币计算器？",
+        "body": "它简化复杂计算，帮助您做出更明智的交易决策并有效管理持仓。"
+      },
+      "allPairs": {
+        "title": "Forex 货币计算器是否适用于所有货币对？",
+        "body": "是的，该计算器支持所有主要和次要货币对。"
+      },
+      "accountTypes": {
+        "title": "Forex 货币计算器是否考虑不同账户类型？",
+        "body": "是的，您可自定义计算器设置以匹配您的账户类型和交易条件。"
+      },
+      "accuracy": {
+        "title": "Forex 货币计算器的准确度如何？",
+        "body": "该计算器根据输入数据和当前市场条件提供高度准确的结果。"
+      },
+      "whereFind": {
+        "title": "在 WINPROFX 上哪里可以找到 Forex 货币计算器？",
+        "body": "您可在 WINPROFX 网站 Personal Area 的工具部分访问 Forex 货币计算器。"
+      },
+      "riskManagement": {
+        "title": "Forex 货币计算器能否帮助风险管理？",
+        "body": "可以，通过计算关键指标，它帮助您更好地理解和管理交易相关风险。"
+      }
+    }
+  },
+  "currencyConverter": {
+    "meta": "货币转换器",
+    "h1": "货币转换器",
+    "bannerMeta": "转换器",
+    "bannerDes": "使用我们便捷的货币转换器，计算实时汇率并轻松转换所有主要和奇异货币对。",
+    "cardTitle": "使用 WINPROFX 货币转换器",
+    "cardDes": "我们的货币转换器帮助您使用实时汇率快速、准确地将一种货币转换为另一种。在向交易账户入金和出金时，此工具尤为重要。",
+    "steps": {
+      "selectBase": "从六个可用下拉列表中选择您的基础货币。",
+      "selectTargets": "选择最多五种其他货币作为转换目标。",
+      "enterAmount": "输入您要从基础货币转换的金额。",
+      "autoCalculate": "货币转换器将自动计算并显示所选货币的汇率。"
+    },
+    "faqTitle": "常见问题",
+    "faqs": {
+      "selectBase": {
+        "title": "如何选择基础货币？",
+        "body": "您可从六个可用下拉列表中选择基础货币。这将是您要转换的源货币"
+      },
+      "selectTargets": {
+        "title": "可以同时转换为多少种货币？",
+        "body": "您可同时选择最多五种其他货币作为转换目标。"
+      },
+      "realTimeRates": {
+        "title": "汇率是否为实时？",
+        "body": "是的，货币转换器使用实时汇率提供准确的转换结果。"
+      },
+      "freeToUse": {
+        "title": "货币转换器是否免费？",
+        "body": "是的，WINPROFX 货币转换器对所有用户免费。"
+      },
+      "enterAmount": {
+        "title": "如何输入要转换的金额？",
+        "body": "只需在指定字段中输入您希望从基础货币转换的金额。转换器将自动计算所选货币的等值金额。"
+      },
+      "ratesUpdated": {
+        "title": "汇率是否实时更新？",
+        "body": "是的，WINPROFX 货币转换器使用的汇率实时更新，以确保准确性。"
+      },
+      "accountRequired": {
+        "title": "没有 WINPROFX 账户能否使用货币转换器？",
+        "body": "不能，您需要拥有已注册的 WINPROFX 账户才能访问和使用货币转换器工具。"
+      },
+      "updateFrequency": {
+        "title": "汇率多久更新一次？",
+        "body": "汇率持续实时更新，以反映最新的市场状况。"
+      }
+    }
+  },
+  "whyWinprofx": {
+    "title": "为何选择 WINPROFX？",
+    "description": "WINPROFX 提供先进的交易工具、实时市场更新和易用的平台，帮助交易者做出明智决策并优化交易策略。"
+  }
+}

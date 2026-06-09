@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "lastReviewed": "2 June 2026",
+    "lastReviewedIso": "2026-06-02",
+    "reviewedBy": "WINPROFX Compliance & Operations Team"
+  },
+  "trustCenter": {
+    "h1": "WINPROFX トラストセンター",
+    "intro": "WINPROFX トラストセンターは、公式の会社、法務、リスク、出金、サポート、ドメイン検証情報の中央ハブです。ログイン、入金、個人書類の共有の前に、以下のページで WINPROFX を確認してください。",
+    "verifyCalloutTitle": "行動前に公式ドメインを確認",
+    "verifyCalloutBody": "ログイン情報の入力、入金、KYC 書類のアップロードの前に、常に WINPROFX 公式ドメイン上にいることを確認してください。詐欺サイトやなりすまし者は類似のブランディングを使用する場合があります。",
+    "viewOfficialDomains": "WINPROFX 公式ドメインを見る →",
+    "howToVerify": "WINPROFX の確認方法 →",
+    "sections": {
+      "companyLegal": "会社・法務情報",
+      "verification": "検証とドメイン安全",
+      "trustSupport": "信頼、出金、サポート",
+      "brandGuides": "ブランド検証ガイド",
+      "brandGuidesIntro": "一般的な検証検索向けの公式ページ："
+    }
+  },
+  "pages": {
+    "companyProfile": {
+      "label": "会社概要",
+      "summary": "WINPROFX 公式ブランドおよび会社概要。",
+      "meta": "公式情報",
+      "h1": "会社概要",
+      "intro": "WINPROFX ブランド、ウェブサイト、ポータル、サービス、サポートチャネル、取引リスク通知に関する公式情報。",
+      "sections": {
+        "brandOverview": "ブランド概要",
+        "legalEntityAndRegistration": "法人と登録",
+        "uaeRepresentativeOffice": "UAE 代表事務所",
+        "trustAndTransparency": "信頼と透明性",
+        "officialBrandInformation": "公式ブランド情報",
+        "officialDomainsAndPortalGuidance": "公式ドメインとポータルガイダンス",
+        "winprofxServices": "WINPROFX サービス",
+        "userSafetyAndBrandVerification": "ユーザー安全とブランド検証",
+        "riskWarning": "リスク警告",
+        "restrictedCountries": "制限国とサービス提供状況",
+        "legalAndPolicyDocuments": "法務・ポリシー文書",
+        "contactWinprofx": "WINPROFX へのお問い合わせ",
+        "frequentlyAskedQuestions": "よくある質問"
+      },
+      "content": {
+        "brandOverview1": "{{brandName}} は、公式ウェブサイトおよびポータルを通じて取引プラットフォーム、クライアント口座サービス、パートナープログラムツール、取引関連情報、サポートサービスへのアクセスを提供する Forex および CFD 取引ブランドです。",
+        "brandOverview2": "本ページは、ユーザー、パートナー、検索エンジンに WINPROFX ブランド、その公式ドメイン、サポートチャネル、サービス、リスク関連通知に関する明確な公式情報を提供することを目的としています。",
+        "brandOverview3": "WINPROFX サービスへのアクセス、本人確認、サポートへの連絡の際は、本ウェブサイトに掲載された公式ドメインおよびポータルをご利用ください。",
+        "legalEntityIntro": "{{brandName}} は {{jurisdiction}} で設立された {{legalEntityName}}（International Business Company）に関連しています。会社の設立書類には {{documentTypes}} が含まれます。",
+        "legalEntityRegulatory": "規制およびライセンス関連情報については、<regulatoryLink>規制情報</regulatoryLink>ページをご覧ください。",
+        "uaeOfficeIntro": "{{brandName}} は商号 {{dubaiBusinessName}} の下で UAE 代表事務所を運営しており、Dubai Professional License No. {{dubaiLicenseNumber}} の下で登録され、ライセンス活動は {{dubaiLicenseActivity}} として記載されています。",
+        "trustIntro": "{{brandName}} は、クライアントが公式ドメインを確認し、出金プロセスを理解し、苦情を提出し、サポートエスカレーション経路にアクセスできるよう、信頼と透明性に関する情報を公開しています。",
+        "domainsGuidanceIntro": "{{brandName}} は公式ドメインおよびポータルを使用して、ウェブサイト情報、クライアント口座アクセス、パートナーサービス、サポート連絡を提供しています。登録、ログイン、支払い、口座関連情報の共有の前に、公式 WINPROFX ドメインにアクセスしていることを確認してください。",
+        "domainPurposes": {
+          "org": "主要公式ウェブサイトおよび主要ブランド情報源。",
+          "com": "WINPROFX ブランドの公式代替ドメイン。",
+          "ae": "WINPROFX 情報向け UAE / 地域ドメイン。",
+          "my": "口座アクセスおよびクライアントサービス向けクライアントポータル。",
+          "partner": "Introducing Broker / パートナー関連アクセス向けパートナーポータル。"
+        },
+        "unlistedDomainWarning": "ウェブサイト、SNS ページ、モバイルアプリ、メール、または代表者が WINPROFX を代表すると主張するが、<officialDomainsLink>公式ドメイン</officialDomainsLink>ページに掲載されていない場合、続行する前に確認してください。",
+        "servicesIntro": "{{brandName}} は公式ウェブサイトおよびポータルを通じて取引関連のアクセスおよびサポートサービスを提供しています。利用可能なサービスには、プラットフォームアクセス、クライアント口座管理、パートナーツール、市場関連情報が含まれる場合があります。",
+        "services": {
+          "forexCfd": {
+            "title": "Forex および CFD 取引アクセス",
+            "description": "サポート対象プラットフォームおよび公式口座チャネルを通じた Forex および CFD 関連取引サービスへのアクセス。"
+          },
+          "platform": {
+            "title": "取引プラットフォーム情報",
+            "description": "WINPROFX クライアントが使用する取引プラットフォームに関する情報およびアクセスガイダンス。"
+          },
+          "clientAccount": {
+            "title": "クライアント口座管理",
+            "description": "公式 WINPROFX システムを通じた口座関連活動管理のためのクライアントポータルアクセス。"
+          },
+          "partnerPortal": {
+            "title": "パートナー / Introducing Broker ポータル",
+            "description": "承認されたパートナーおよび Introducing Broker 向けのパートナーポータルツールおよびリソース（該当する場合）。"
+          },
+          "tools": {
+            "title": "取引ツールと市場情報",
+            "description": "公式チャネルを通じてユーザーに提供される市場関連ツール、取引情報、プラットフォームリソース。"
+          },
+          "support": {
+            "title": "カスタマーサポート",
+            "description": "{{supportEmail}} を含む公式 WINPROFX 連絡チャネルを通じたサポート。"
+          }
+        },
+        "safetyIntro": "ユーザーは常に公式ドメインまたはポータルを通じて WINPROFX にアクセスしていることを確認してください。ログイン情報の入力、入金、サポートとの連絡、書類の共有の前に、ウェブサイトアドレスを確認し、WINPROFX 公式チャネルのみを使用してください。",
+        "safetyTips": {
+          "checkDomain": "ログイン前に必ずドメインを確認してください。",
+          "noOtps": "非公式の連絡先に OTP、パスワード、機密口座情報を共有しないでください。",
+          "noUnofficialPayments": "不明な代表者からの非公式な支払い指示に従わないでください。",
+          "verifySuspicious": "疑わしいウェブサイトや連絡は公式お問い合わせページで確認してください。",
+          "useDomainsPage": "公式ドメインページを使用して、有効な WINPROFX ウェブサイトおよびポータルを確認してください。"
+        },
+        "safetyLinks": "詳細は<officialDomainsLink>公式ドメイン</officialDomainsLink>、<verifyLink>WINPROFX を確認</verifyLink>、<contactLink>お問い合わせ</contactLink>ページをご覧ください。",
+        "riskBody1": "Forex および CFD 取引には重大なリスクが伴い、すべての投資家に適しているとは限りません。価格は急激に変動する可能性があり、クライアントは投資元本の一部または全部を失う可能性があります。取引前にリスクを理解し、失ってもよい資金でのみ取引してください。",
+        "riskBody2": "{{brandName}} は取引利益、リターン、投資結果を保証しません。取引判断は個々のユーザーの責任です。",
+        "riskLinks": "サービスを利用する前に、<riskWarningLink>リスク警告</riskWarningLink>、<legalDocsLink>法務文書</legalDocsLink>、<termsLink>利用規約</termsLink>全文をお読みください。",
+        "restrictedIntro": "法的、規制上、または事業上の制限により、{{brandName}} は特定の国または法域でサービスを提供しない場合があります。登録またはサービス利用前に制限国ページをご確認ください。",
+        "viewRestrictedCountries": "制限国を見る",
+        "legalDocsIntro": "WINPROFX サービスを利用する前に、適用される法務、リスク、プライバシー、ポリシー文書をお読みください。",
+        "contactIntro": "公式サポートに関するお問い合わせは、公式サポートメールまたはお問い合わせページから WINPROFX にご連絡ください。",
+        "brandTableLabels": {
+          "brandName": "ブランド名",
+          "mainWebsite": "主要公式ウェブサイト",
+          "alternateDomain": "公式代替ドメイン",
+          "uaeDomain": "公式 UAE / 地域ドメイン",
+          "clientPortal": "クライアントポータル",
+          "partnerPortal": "パートナーポータル",
+          "supportEmail": "サポートメール",
+          "lastUpdated": "最終更新"
+        },
+        "legalLinks": {
+          "terms": "利用規約",
+          "privacy": "プライバシーポリシー",
+          "riskWarning": "リスク警告",
+          "aml": "AML ポリシー",
+          "legalDocuments": "法務文書",
+          "restrictedCountries": "制限国"
+        }
+      },
+      "faqs": {
+        "whatIsWinprofx": {
+          "question": "WINPROFX とは何ですか？",
+          "answer": "WINPROFX は、公式ドメインおよびポータルを通じて取引プラットフォーム、クライアント口座サービス、パートナープログラムツール、取引関連サポートサービスへのアクセスを提供する Forex および CFD 取引ブランドです。"
+        },
+        "officialWebsite": {
+          "question": "WINPROFX の公式ウェブサイトは何ですか？",
+          "answer": "WINPROFX の主要公式ウェブサイトは https://winprofx.org/ です。WINPROFX は公式ドメインページに掲載された公式代替および地域ドメインも使用しています。"
+        },
+        "clientPortal": {
+          "question": "WINPROFX クライアントポータルとは何ですか？",
+          "answer": "WINPROFX 公式クライアントポータルは https://my.winprofx.org/ です。ログインまたは口座情報入力前にポータル URL を確認してください。"
+        },
+        "partnerPortal": {
+          "question": "WINPROFX パートナーポータルとは何ですか？",
+          "answer": "WINPROFX 公式パートナーポータルは https://partner.winprofx.org/ です。パートナーおよび Introducing Broker 関連アクセスに使用されます（該当する場合）。"
+        },
+        "contactSupport": {
+          "question": "WINPROFX サポートへの連絡方法は？",
+          "answer": "support@winprofx.com または公式お問い合わせページから WINPROFX サポートに連絡できます。"
+        },
+        "tradingRisk": {
+          "question": "Forex および CFD 取引にはリスクがありますか？",
+          "answer": "はい。Forex および CFD 取引には重大なリスクが伴い、すべての投資家に適しているとは限りません。取引前にリスクを理解してください。"
+        },
+        "verifyDomain": {
+          "question": "WINPROFX 公式ドメインの確認方法は？",
+          "answer": "公式ドメインまたは WINPROFX を確認ページを参照し、ウェブサイトまたはポータルが WINPROFX 公式ドメインとして掲載されていることを確認してください。"
+        }
+      }
+    },
+    "companyRegistration": {
+      "label": "会社登録",
+      "summary": "Saint Lucia 設立詳細および認証書類。",
+      "meta": "公式情報",
+      "h1": "会社登録",
+      "sections": {
+        "companyRegistrationDetails": "会社登録詳細",
+        "shareAndCapitalInformation": "株式・資本情報",
+        "memorandumAndArticles": "定款（Memorandum and Articles of Association）",
+        "dubaiBranchRegistration": "ドバイ支店登録",
+        "importantClarification": "重要な説明",
+        "certifiedIncorporationDocuments": "認証設立書類",
+        "riskWarning": "リスク警告",
+        "relatedInformation": "関連情報"
+      },
+      "content": {
+        "intro": "{{brandName}} は {{jurisdiction}} で設立された {{legalEntityName}}（International Business Company）に関連しています。会社の認証設立書類には {{documentTypes}} が含まれます。",
+        "shareCapitalBody": "会社の株式資本構造は定款（Memorandum of Association and Articles of Association）で定義されています。{{legalEntityName}} は USD 建ての承認株式を有し、普通株式は 1 株 1 票の議決権を有します。会社が発行する株式は要求に応じて償還されません。",
+        "memorandumBody": "認証設立書類セットには、{{legalEntityName}} の Certificate of Incorporation、Memorandum of Association、Articles of Association が含まれます。Memorandum of Association は会社の定款、株式構造、目的を定義します。Articles of Association は内部管理および株主権利を規定します。",
+        "subscriberLine": "設立の申込人は {{incorporationSubscriber}} でした。",
+        "dubaiBranchBody": "{{legalEntityName}} は UAE 代表事務所向けに Dubai Professional License も保有しています。詳細は<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>および<uaeOfficeLink>UAE 代表事務所</uaeOfficeLink>をご覧ください。",
+        "certifiedDocsIntro": "{{legalEntityName}} の認証設立書類はダウンロード可能です："
+      }
+    },
+    "legalEntityInformation": {
+      "label": "法人情報",
+      "summary": "法人名、法域、コーポレート構造。",
+      "meta": "公式情報",
+      "h1": "法人情報",
+      "sections": {
+        "brandAndLegalEntity": "ブランドと法人",
+        "incorporationJurisdiction": "設立法域",
+        "registeredAgent": "登録代理人",
+        "registeredOffice": "登録事務所",
+        "entityStructure": "エンティティ構造",
+        "dubaiBranchAndOffice": "ドバイ支店と事務所",
+        "documentVerification": "書類検証",
+        "officialDomainsAndPortals": "公式ドメインとポータル",
+        "legalDocuments": "法務文書",
+        "complianceClarification": "コンプライアンス説明",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "brandIntro": "{{brandName}} は {{jurisdiction}} で設立された {{legalEntityName}}（International Business Company）に関連する取引ブランドです。透明性およびユーザー検証のため、会社登録情報を提供しています。",
+        "entityStructureIntro": "{{legalEntityName}} は {{jurisdiction}} で設立された親法人です。ドバイ支店は Dubai Professional License の下で代表事務所として運営されています。構造の概要は以下のとおりです。",
+        "verifyBeforeAct": "登録、ログイン、個人情報の共有の前に、<verifyLink>WINPROFX を確認</verifyLink>チェックリストを使用して WINPROFX の身元を確認してください。",
+        "legalDocsIntro": "認証設立書類およびその他の法務文書は、<legalDocsLink>法務文書</legalDocsLink>セクションから入手できます。",
+        "regulatoryVisit": "規制およびライセンス関連情報については、<regulatoryLink>規制情報</regulatoryLink>ページをご覧ください。"
+      }
+    },
+    "dubaiProfessionalLicense": {
+      "label": "Dubai Professional License",
+      "summary": "UAE 代表事務所プロフェッショナルライセンス詳細。",
+      "meta": "法務・コンプライアンス",
+      "h1": "Dubai Professional License",
+      "sections": {
+        "licenseDetails": "ライセンス詳細",
+        "dubaiOfficeInformation": "ドバイ事務所情報",
+        "documentVerification": "書類検証",
+        "scopeClarification": "範囲の説明",
+        "relatedInformation": "関連情報",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro1": "{{dubaiBusinessName}} は {{dubaiLicenseCategory}} により発行された Dubai Professional License を保有しています。本ページは認証された Dubai Professional License 書類に基づくライセンス情報を提供します。ライセンス活動は Representative Office、活動ステータスは Active として記載されています。",
+        "intro2": "代表事務所向け Dubai Professional License は、現地商業登録および許可された代表事務所活動を確認するものです。これは、金融サービス、Forex ブローカー、または CFD ブローカーの規制認可とは別に理解する必要があります。",
+        "qrVerification": "原本ライセンス書類の写しを保有または受領したユーザーは、書類に記載された QR コードを使用し、Department of Economy and Tourism の公式検証チャネルで確認してください。"
+      }
+    },
+    "uaeRepresentativeOffice": {
+      "label": "UAE 代表事務所",
+      "summary": "ドバイ代表事務所の範囲および連絡先情報。",
+      "meta": "公式情報",
+      "h1": "UAE 代表事務所",
+      "sections": {
+        "roleOfRepresentativeOffice": "代表事務所の役割",
+        "dubaiLicenseSummary": "ドバイライセンス概要",
+        "importantClarification": "重要な説明",
+        "userVerificationGuidance": "ユーザー検証ガイダンス",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} は商号 {{dubaiBusinessName}} の下で UAE 代表事務所を運営しています。同事務所は Dubai Professional License No. {{dubaiLicenseNumber}} の下で登録され、ライセンス活動は Representative Office として記載されています。",
+        "intro2": "UAE 代表事務所は、アラブ首長国連邦における WINPROFX の現地商業プレゼンスを提供します。代表事務所ライセンスの範囲内で許可される情報共有、サポート調整、ブランド代表、クライアントまたはパートナーとの連絡を支援します。",
+        "roleBody": "代表事務所は、外国企業がマーケティング、連絡、調整などの限定的活動のために現地プレゼンスを確立できる商業登録の一種です。完全な取引ライセンスまたは金融サービスブローカーライセンスとは異なります。",
+        "roleItems": {
+          "localPresence": "UAE における現地商業プレゼンスおよびブランド代表",
+          "supportCoordination": "クライアントおよびパートナー向け情報・サポート調整",
+          "officialChannels": "許可される範囲での WINPROFX 公式チャネルによる連絡",
+          "uaeDomain": "winprofx.ae 公式 UAE 地域ドメインとの関連"
+        },
+        "verifyIntro": "登録、ログイン、入金、個人情報の共有の前に、以下を確認してください：",
+        "verifyItems": {
+          "domain": "正確なウェブサイトドメイン（winprofx.org、winprofx.com、または winprofx.ae）",
+          "businessName": "ライセンス商号が {{dubaiBusinessName}} と一致すること",
+          "support": "公式サポートチャネル（{{supportEmail}} およびお問い合わせページ）",
+          "clientPortal": "クライアントポータル URL：https://my.winprofx.org/",
+          "partnerPortal": "パートナーポータル URL：https://partner.winprofx.org/"
+        }
+      }
+    },
+    "regulatoryInformation": {
+      "label": "規制情報",
+      "summary": "設立、ドバイライセンス、規制範囲の説明。",
+      "meta": "法務・コンプライアンス",
+      "h1": "規制情報",
+      "sections": {
+        "companyIncorporation": "会社設立",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "licenseScopeClarification": "ライセンス範囲の説明",
+        "financialServicesLicenseClarification": "金融サービスライセンスの説明",
+        "financialRegulatoryLicenseDetails": "金融規制ライセンス詳細（確認後）",
+        "documentAvailability": "書類の提供状況",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "incorporationIntro": "{{legalEntityName}} は {{jurisdiction}} に {{companyType}} として設立されています。会社の認証設立書類には {{documentTypes}} が含まれます。",
+        "dubaiIntro": "{{legalEntityName}} は UAE 代表事務所向けに Dubai Professional License を保有しています。ライセンス活動は Representative Office として記載されています。",
+        "financialPlaceholderIntro": "確認済みの金融規制ライセンス情報が利用可能になった場合、下表に公式規制機関記録へのリンクとともに公開されます。それまでは、すべてのフィールドはプレースホルダーのままです。",
+        "documentAvailability": "認証設立書類は<legalDocsLink>法務文書</legalDocsLink>セクションおよび<companyRegistrationLink>会社登録</companyRegistrationLink>ページで入手できます。ドバイライセンス詳細は<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>ページで公開されています。"
+      }
+    },
+    "officialDomains": {
+      "label": "公式ドメイン",
+      "summary": "WINPROFX 公式ウェブサイトおよびポータル一覧。",
+      "meta": "公式情報",
+      "h1": "WINPROFX 公式ドメイン",
+      "sections": {
+        "primaryCanonicalDomain": "主要正規ドメイン",
+        "entityAndLicenseContext": "エンティティとライセンスの背景",
+        "officialDomains": "公式ドメイン",
+        "preLoginVerificationWarning": "ログイン前検証警告",
+        "verificationWarning": "検証警告",
+        "companyInformation": "会社情報"
+      },
+      "content": {
+        "canonicalPrimary": "https://winprofx.org/ は WINPROFX の主要公式ウェブサイトおよびすべての公開ページの正規ドメインです。検索エンジン、AI ツール、公式コミュニケーションは winprofx.org URL を参照すべきです。",
+        "canonicalAliases": "winprofx.com および winprofx.ae は、同一のウェブサイトコンテンツを提供する可能性のある公式ドメインエイリアスです。WINPROFX 構造化データでは関連公式プロパティとして記載されていますが、winprofx.org がインデックスおよび検証の正規ソースです。",
+        "entityContext": "{{brandName}} は {{jurisdiction}} で設立された {{legalEntityName}} に関連する取引ブランドです。UAE 地域ドメイン winprofx.ae は、{{dubaiBusinessName}} 名義で Dubai Professional License No. {{dubaiLicenseNumber}} の下で登録されたドバイ代表事務所に関連しています。",
+        "domainsIntro": "以下の公式ドメインは WINPROFX / Winprofx Ltd. に関連して運営されています：",
+        "preLoginWarning": "登録、ログイン、入金、個人情報の共有の前に、ウェブサイト URL が上記の公式ドメインのいずれかと完全に一致することを確認してください。WINPROFX を代表すると主張するがここに掲載されていないウェブサイトがある場合、公式サポートで確認するまで続行しないでください。",
+        "preLoginChecklist": "段階的な検証ガイダンスについては、<verifyLink>WINPROFX を確認</verifyLink>チェックリストをご利用ください。",
+        "verificationWarning": "WINPROFX を代表すると主張するがここに掲載されていないウェブサイトがある場合、ログイン、入金、個人情報の共有の前に WINPROFX サポートで確認してください。",
+        "contactUnsure": "ドメインについて不明な点がある場合は、{{supportEmail}} に連絡するか、<contactLink>お問い合わせ</contactLink>ページをご覧ください。",
+        "companyInfoLinks": "ブランドおよび会社詳細については、<companyProfileLink>会社概要</companyProfileLink>、<companyRegistrationLink>会社登録</companyRegistrationLink>、<dubaiLicenseLink>Dubai Professional License</dubaiLicenseLink>ページをご覧ください。"
+      }
+    },
+    "verifyWinprofx": {
+      "label": "WINPROFX を確認",
+      "summary": "WINPROFX 公式チャネルを確認するステップバイステップガイド。",
+      "meta": "公式検証",
+      "h1": "WINPROFX を確認",
+      "sections": {
+        "userVerificationChecklist": "ユーザー検証チェックリスト",
+        "verificationSummary": "検証概要",
+        "verifyOfficialDomains": "公式ドメインを確認",
+        "trustLegalTransparencyPages": "信頼、法務、透明性ページ",
+        "safetyNote": "安全上の注意"
+      },
+      "content": {
+        "intro": "本ページは WINPROFX が運営する公式ウェブサイトおよびポータルを一覧し、検証チェックリストを提供します。ログイン、登録、入金、個人情報の共有の前に、ブランド身元、法人、ライセンス、ドメイン、サポートチャネルを確認してください。",
+        "checklist": {
+          "brand": "ブランド名が WINPROFX であることを確認",
+          "legalEntity": "法人が Winprofx Ltd.（Saint Lucia 設立）であることを確認",
+          "incorporation": "会社登録ページで Saint Lucia 設立番号 2023-00197 を確認",
+          "dubaiLicense": "Dubai Professional License No. 1423678 および商号 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE（Representative Office 活動）を確認",
+          "domains": "ウェブサイト URL が WINPROFX 公式ドメイン（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.org、または partner.winprofx.org）と一致することを確認",
+          "clientPortal": "クライアントポータル https://my.winprofx.org/ を確認",
+          "partnerPortal": "パートナーポータル https://partner.winprofx.org/ を確認",
+          "support": "公式サポートメール support@winprofx.com またはお問い合わせページを使用",
+          "readDocs": "取引または入金前にリスク警告および法務文書をお読みください"
+        },
+        "safetyNote": "WINPROFX を代表すると主張するがここに掲載されていないウェブサイトがある場合、使用する前に WINPROFX サポートに連絡してください。<contactLink>お問い合わせ</contactLink>ページをご覧いただくか、{{supportEmail}} にメールしてください。"
+      }
+    },
+    "legalDocuments": {
+      "label": "法務文書",
+      "summary": "ポリシー、規約、コンプライアンス文書の索引。",
+      "meta": "法務・コンプライアンス",
+      "h1": "法務文書",
+      "sections": {
+        "availableDocuments": "利用可能な文書",
+        "questions": "ご質問"
+      },
+      "content": {
+        "intro": "以下の法務、ポリシー、信頼文書が WINPROFX サービスに適用されます。口座開設またはプラットフォーム利用前に十分お読みください。",
+        "questions": "これらの文書に関するご質問は、{{supportEmail}} に連絡するか、<contactLink>お問い合わせ</contactLink>ページをご覧ください。",
+        "docs": {
+          "incorporation": {
+            "name": "会社設立書類",
+            "description": "Winprofx Ltd. の Certificate of Incorporation、Memorandum of Association、Articles of Association。"
+          },
+          "dubaiLicense": {
+            "name": "Dubai Professional License",
+            "description": "{{dubaiBusinessName}} のページ内ライセンス情報（ライセンス No. {{dubaiLicenseNumber}}）。Representative Office 活動 — 金融サービスブローカーライセンスではありません。"
+          },
+          "companyRegistration": {
+            "name": "会社登録情報",
+            "description": "Winprofx Ltd. の完全な会社登録詳細。"
+          },
+          "legalEntity": {
+            "name": "法人情報",
+            "description": "法人、登録代理人、登録事務所、ドバイ支店、公式ドメイン。"
+          },
+          "regulatory": {
+            "name": "規制情報",
+            "description": "会社設立、ドバイライセンス、金融サービスライセンスの説明。"
+          },
+          "uaeOffice": {
+            "name": "UAE 代表事務所",
+            "description": "UAE 代表事務所の役割、ライセンス概要、検証ガイダンス。"
+          },
+          "withdrawal": {
+            "name": "出金の透明性",
+            "description": "出金プロセス概要、方法、エスカレーション経路。"
+          },
+          "complaints": {
+            "name": "苦情と紛争解決",
+            "description": "苦情の提出方法および審査プロセス。"
+          },
+          "clientFund": {
+            "name": "クライアント資金の安全",
+            "description": "口座安全、KYC/AML、ポータル安全慣行。"
+          },
+          "riskWarning": {
+            "name": "リスク警告",
+            "description": "Forex および CFD 商品の主要取引リスクの概要。"
+          },
+          "terms": {
+            "name": "利用規約",
+            "description": "WINPROFX サービスおよびプラットフォームの利用を規定する規約。"
+          },
+          "privacy": {
+            "name": "プライバシーポリシー",
+            "description": "WINPROFX が個人データを収集・使用する方法。"
+          },
+          "aml": {
+            "name": "AML ポリシー",
+            "description": "マネーロンダリング防止およびコンプライアンスポリシー。"
+          },
+          "depositWithdraw": {
+            "name": "入出金ポリシー",
+            "description": "口座への入金および出金に関するポリシー。"
+          }
+        }
+      }
+    },
+    "riskWarning": {
+      "label": "リスク警告",
+      "summary": "Forex および CFD 取引リスク開示。",
+      "meta": "重要なお知らせ",
+      "h1": "リスク警告"
+    },
+    "withdrawalTransparency": {
+      "label": "出金の透明性",
+      "summary": "出金プロセス概要および透明性情報。",
+      "meta": "信頼と透明性",
+      "h1": "出金の透明性",
+      "sections": {
+        "withdrawalProcessOverview": "出金プロセス概要",
+        "processingTimeline": "処理タイムライン",
+        "commonReasonsForDelay": "遅延の一般的な理由",
+        "escalationProcess": "エスカレーションプロセス",
+        "transparencyStatistics": "透明性統計",
+        "riskAndComplianceNote": "リスクとコンプライアンスに関する注意",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} は、出金リクエストがどのように提出、審査、処理されるかについて明確な情報を提供することに取り組んでいます。本ページでは、一般的な出金ワークフロー、検証要件、クライアントが利用できるエスカレーションオプションについて説明します。",
+        "intro2": "出金リクエストには、口座検証、支払方法検証、AML および KYC チェック、内部コンプライアンス手順で必要とされる取引または口座活動の審査が必要となる場合があります。処理時間は、第三者決済サービスプロバイダー、銀行、またはブロックチェーンネットワークにも依存する場合があります。",
+        "processIntro": "クライアントが出金リクエストを提出すると、資金が承認された送金先に解放される前に、通常以下の段階を経ます：",
+        "processSteps": {
+          "submit": "クライアントが公式クライアントポータルまたは承認チャネルを通じて出金リクエストを提出",
+          "kyc": "口座身元および KYC ステータスを確認",
+          "aml": "該当する場合、支払方法検証および AML チェックを実施",
+          "review": "コンプライアンスで必要とされる取引または口座活動を審査",
+          "security": "トリガーされた場合、口座セキュリティ審査を実施",
+          "release": "承認された出金を決済サービスプロバイダー、銀行、またはブロックチェーンネットワークに送信",
+          "confirm": "処理完了後、クライアントに確認を送信"
+        },
+        "timelineIntro": "下表は、出金方法別の標準的な審査および処理の目安を示しています。正確なタイムラインは運営およびコンプライアンスチームが管理しています。",
+        "timelineCaption": "方法別出金処理タイムライン",
+        "delayIntro": "出金が予想より長くかかる理由には、以下が含まれます（これらに限定されません）：",
+        "delayReasons": {
+          "incompleteKyc": "KYC 未完了または古い本人確認書類",
+          "methodMismatch": "入金と出金の支払方法の不一致",
+          "amlReview": "AML またはコンプライアンス審査の保留",
+          "incorrectDetails": "ウォレット、銀行、または支払詳細の誤り",
+          "pspDelay": "決済サービスプロバイダー、銀行、またはブロックチェーン処理の遅延",
+          "bonusReview": "ボーナス、プロモーション、または取引条件の審査（該当する場合）",
+          "securityReview": "口座セキュリティ検証または不審な活動の審査"
+        },
+        "escalationIntro": "出金が標準タイムラインを超えて遅延している場合、以下の情報を添えて WINPROFX サポートに連絡してください：",
+        "escalationItems": {
+          "email": "登録メールアドレス",
+          "accountId": "MT5 または口座 ID",
+          "reference": "出金リクエスト ID または参照番号（利用可能な場合）",
+          "dateAmount": "出金リクエストの日付および金額",
+          "method": "出金に使用した支払方法"
+        },
+        "escalationContact": "{{supportEmail}} にメールするか、<supportLink>サポートとエスカレーション</supportLink>をご覧ください。",
+        "statsIntro": "運営出金指標は内部確認後にここに公開されます。承認データが利用可能になるまで、以下の数値はプレースホルダーです。",
+        "complianceNote": "出金は、KYC の完全性、AML コンプライアンス、口座セキュリティ、支払方法検証、適用される規約およびプロモーションの遵守について審査される場合があります。リクエスト提出前に、口座プロファイルおよび支払方法が最新であることを確認してください。",
+        "depositPolicyLink": "入出金ポリシーの全文については、<depositWithdrawLink>入出金ポリシー</depositWithdrawLink>をご覧ください。"
+      }
+    },
+    "complaintsAndDisputeResolution": {
+      "label": "苦情と紛争解決",
+      "summary": "クライアント苦情の提出およびエスカレーション方法。",
+      "meta": "信頼と透明性",
+      "h1": "苦情と紛争解決",
+      "sections": {
+        "howToSubmitComplaint": "苦情の提出方法",
+        "complaintReviewProcess": "苦情審査プロセス",
+        "responseTimelines": "対応タイムライン",
+        "accountSpecificPrivacy": "口座固有のプライバシー",
+        "publicReviewResponsePolicy": "公開レビュー対応ポリシー",
+        "escalation": "エスカレーション",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro1": "{{brandName}} は、クライアントおよびパートナーが口座サービス、サポート対応、出金、検証、その他の取引関連事項について、公式チャネルのみを通じて懸念を提起できるよう、構造化された苦情プロセスを提供しています。",
+        "intro2": "非公式ウェブサイト、SNS メッセージ、または WINPROFX を代表すると主張する第三者を通じて、口座パスワード、支払カード詳細、本人確認書類を共有しないでください。",
+        "submitIntro": "苦情は、件名 \"Complaint\" で {{supportEmail}} にメールするか、公式<contactLink>お問い合わせ</contactLink>ページから提出できます。以下を含めてください：",
+        "requiredInfo": {
+          "name": "登録氏名（フルネーム）",
+          "email": "登録メールアドレス",
+          "accountId": "口座または MT5 ID",
+          "ticketId": "サポートチケット ID（利用可能な場合）",
+          "description": "問題の詳細な説明",
+          "documents": "裏付けとなるスクリーンショットまたは書類",
+          "dateTime": "取引またはイベントの日時"
+        },
+        "reviewSteps": {
+          "received": "公式サポートチャネルで苦情を受領",
+          "acknowledgement": "サポート確認および参照番号の割り当て（該当する場合）",
+          "internalReview": "サポートおよび関連口座チームによる内部審査",
+          "complianceReview": "必要に応じたコンプライアンスまたは運営審査",
+          "response": "クライアントへの対応または解決の通知",
+          "escalation": "問題が未解決の場合、管理層へのエスカレーション"
+        },
+        "timelineIntro": "目標対応時間は内部運営およびコンプライアンス手順により設定されています。承認された SLA は確認後に公開されます。",
+        "timelineCaption": "苦情対応タイムライン",
+        "escalation": "初期サポート審査で満足のいく解決が得られない場合、コンプライアンスまたは運営管理層にエスカレーションされる場合があります。エスカレーション経路については、<supportLink>サポートとエスカレーション</supportLink>をご覧ください。"
+      }
+    },
+    "clientFundSecurity": {
+      "label": "クライアント資金の安全",
+      "summary": "クライアント資金の取り扱いおよび安全ガイダンス。",
+      "meta": "信頼と透明性",
+      "h1": "クライアント資金の安全",
+      "sections": {
+        "accountAccessSecurity": "口座アクセスセキュリティ",
+        "kycAndAmlChecks": "KYC および AML チェック",
+        "paymentMethodVerification": "支払方法の検証",
+        "withdrawalVerification": "出金検証",
+        "verifyBeforeDepositing": "入金前にクライアントが確認すべき事項",
+        "portalAndWebsiteSafety": "ポータルとウェブサイトの安全",
+        "importantNote": "重要な注意",
+        "reportSecurityConcerns": "セキュリティ上の懸念を報告",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro": "{{brandName}} はクライアント口座および支払いのセキュリティを重視しています。本ページでは、クライアント口座、個人情報、支払取引の保護に役立つ慣行を概説します。確認済み規制文書で別途開示されない限り、分別管理されたクライアント資金または預金保険については記載していません。",
+        "accountSecurity": {
+          "strongPassword": "クライアントおよびパートナーポータル口座に強力で一意のパスワードを使用",
+          "twoFactor": "利用可能な場合は二要素認証を有効化",
+          "noSharing": "ログイン情報、OTP、パスワードを第三者と共有しない",
+          "logout": "共有または公共のデバイスではセッション終了後にログアウト",
+          "reportSuspicious": "不審なログイン活動を直ちにサポートに報告"
+        },
+        "kycBody1": "{{brandName}} は本人確認（KYC）を要求し、オンボーディングおよび継続的なコンプライアンス審査中にマネーロンダリング防止（AML）チェックを実施する場合があります。政府発行の身分証明書、住所証明、支払方法の検証の提出を求められる場合があります。",
+        "kycBody2": "検証が不完全または古い場合、必要書類が提出・承認されるまで、入金、出金、口座アクセスが遅延する場合があります。",
+        "paymentVerification": "入金および出金に使用する支払方法は、登録口座名義人のものである必要があります。第三者による支払いは拒否される場合があります。支払指示は公式ポータルチャネルのみで確認し、未確認のアドレスへの送金は避けてください。",
+        "withdrawalVerification": "出金には、処理前に口座身元、支払方法の所有権、コンプライアンスステータスの確認が必要となる場合があります。出金審査プロセスおよびエスカレーションオプションについては、<withdrawalLink>出金の透明性</withdrawalLink>をご覧ください。",
+        "preDepositChecklist": {
+          "domain": "ウェブサイト URL が公式ドメインページに掲載された WINPROFX 公式ドメインと一致することを確認",
+          "verifyPages": "会社登録および規制情報ページで法人およびライセンス情報を確認",
+          "readDocs": "口座開設前にリスク警告および適用法務文書をお読みください",
+          "clientPortal": "口座アクセスには公式クライアントポータル https://my.winprofx.org/ のみを使用",
+          "noThirdParty": "未確認のアドレスまたは第三者口座への送金は行わない",
+          "contactSupport": "支払指示について不明な点がある場合は support@winprofx.com に連絡"
+        },
+        "preDepositLinks": "登録または入金前に、<verifyLink>WINPROFX を確認</verifyLink>チェックリストおよび<officialDomainsLink>公式ドメイン</officialDomainsLink>ページをご利用ください。",
+        "portalSafety": "フィッシングサイトは正規ブランドを模倣する場合があります。認証情報の入力または支払いの前に、URL が WINPROFX 公式ドメインと一致することを確認してください。公式クライアントポータル：https://my.winprofx.org/",
+        "importantNote": "本ページはセキュリティおよび検証慣行のみを記載しています。確認済み規制文書で別途開示されない限り、分別管理されたクライアント資金、預金保険、規制資本保護の表明を構成するものではありません。",
+        "reportConcerns": "詐欺、フィッシング、不正アクセスの疑いは {{supportEmail}} または<supportLink>サポートとエスカレーション</supportLink>経由で報告してください。"
+      }
+    },
+    "supportAndEscalation": {
+      "label": "サポートとエスカレーション",
+      "summary": "サポートチャネルおよびエスカレーションプロセス。",
+      "meta": "信頼と透明性",
+      "h1": "サポートとエスカレーション",
+      "sections": {
+        "officialSupportChannels": "公式サポートチャネル",
+        "supportTicketProcess": "サポートチケットプロセス",
+        "informationRequiredFromClients": "クライアントから必要な情報",
+        "warningAgainstUnofficialChannels": "非公式チャネルに関する警告",
+        "escalationProcess": "エスカレーションプロセス",
+        "securityReminder": "セキュリティリマインダー",
+        "complaints": "苦情",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro": "{{brandName}} は、クライアント、パートナー、見込みユーザー向けに公式サポートチャネルを提供しています。本ページでは、サポートへの連絡方法、含めるべき情報、確認済みチャネルのみを通じた未解決問題のエスカレーション方法について説明します。",
+        "supportChannels": {
+          "email": "メール：{{supportEmail}}",
+          "contactPage": "winprofx.org 上の {{contactLink}}",
+          "clientPortal": "クライアントポータル（登録クライアント）：https://my.winprofx.org/"
+        },
+        "ticketSteps": {
+          "contact": "明確な件名でメールまたはお問い合わせページからサポートに連絡",
+          "includeDetails": "口座参照、登録メール、問題の説明を含める",
+          "attach": "該当する場合、関連スクリーンショットまたは書類を添付",
+          "acknowledge": "サポートが受領を確認し、参照番号を割り当て（該当する場合）",
+          "investigate": "適切なチーム（サポート、コンプライアンス、または運営）が調査",
+          "response": "クライアントに結果または次のステップを含む対応を送信"
+        },
+        "clientInfo": {
+          "email": "登録メールアドレス",
+          "accountId": "口座または MT5 ID",
+          "description": "問題の明確な説明",
+          "references": "関連する日付、金額、または取引参照",
+          "screenshots": "スクリーンショットまたは書類（該当する場合）",
+          "withdrawalId": "出金関連エスカレーション向け出金リクエスト ID"
+        },
+        "unofficialWarning": "{{brandName}} は、非公式メール、SNS、メッセージアプリ、またはウェブサイトを通じてパスワード、支払カード番号全文、機密認証情報の提供を求めることはありません。不明な代表者からの支払指示に従わないでください。ログイン、入金、個人情報の共有の前に、<verifyLink>WINPROFX を確認</verifyLink>ページで常にドメインを確認してください。",
+        "escalationWithdrawalTitle": "出金の遅延",
+        "escalationWithdrawal": "出金日、金額、支払方法、MT5/口座 ID、リクエスト参照を含めてください。<withdrawalLink>出金の透明性</withdrawalLink>をご覧ください。",
+        "escalationKycTitle": "KYC と検証",
+        "escalationKyc": "登録メールおよび口座参照を添えてサポートに連絡してください。提出書類が記載要件を満たしていることを確認してください。",
+        "escalationDepositTitle": "入金の問題",
+        "escalationDeposit": "入金確認の遅延または支払争議については、取引日、金額、支払方法、銀行または決済プロバイダーからの参照番号を添えてサポートに連絡してください。<depositWithdrawLink>入出金ポリシー</depositWithdrawLink>をご覧ください。",
+        "escalationIbTitle": "Introducing Broker (IB) パートナー",
+        "escalationIb": "IB パートナーはパートナーポータルチャネルまたはパートナー ID およびビジネス参照を添えたメールを使用してください。パートナーポータル：https://partner.winprofx.org/",
+        "securityReminder": "口座認証情報を保護し、金融取引の前に WINPROFX 公式プロパティを確認してください。フィッシングまたはなりすましは {{supportEmail}} に報告してください。追加ガイダンスについては、<clientFundLink>クライアント資金の安全</clientFundLink>をお読みください。",
+        "complaints": "正式な苦情については、<complaintsLink>苦情と紛争解決</complaintsLink>をご覧ください。"
+      }
+    },
+    "companyStatistics": {
+      "label": "会社統計",
+      "summary": "確認後の運営透明性指標。",
+      "meta": "信頼と透明性",
+      "h1": "会社統計",
+      "sections": {
+        "operationalMetrics": "運営指標",
+        "howStatisticsAreUpdated": "統計の更新方法",
+        "importantNote": "重要な注意",
+        "riskWarning": "リスク警告"
+      },
+      "content": {
+        "intro1": "本ページは WINPROFX 運営統計および透明性指標の構造化概要を提供します。内部運営およびコンプライアンス審査後に利用可能となった確認済み会社データを、クライアント、パートナー、一般の方が一箇所でアクセスできるようにするために存在します。",
+        "intro2": "{{brandName}} は未確認の数値、賞、評価、パフォーマンス主張を公開しません。運営確認が完了するまで、以下の値はすべてプレースホルダーです。",
+        "statsUpdate": "本ページの指標は公開前に内部審査されます。確認済みデータが承認されると、本ページは現在の最終更新日で更新されます。次の透明性更新サイクル後に再度ご確認ください。",
+        "importantNote": "統計は透明性目的でのみ提供されます。個別口座の将来のパフォーマンス、サービスレベル、処理時間を保証するものではありません。"
+      }
+    },
+    "contact": {
+      "label": "お問い合わせ",
+      "summary": "公式サポートチャネルおよび連絡先情報。"
+    },
+    "depositWithdraw": {
+      "label": "入出金ポリシー",
+      "summary": "入出金ポリシー情報。"
+    },
+    "riskDisclosure": {
+      "label": "リスク開示",
+      "summary": "詳細なリスク開示声明。"
+    }
+  },
+  "crossLinks": {
+    "trustCenter": "WINPROFX トラストセンター",
+    "officialDomains": "WINPROFX 公式ドメイン",
+    "verifyWinprofx": "WINPROFX を確認",
+    "regulatoryInformation": "WINPROFX 規制情報",
+    "riskWarning": "WINPROFX リスク警告",
+    "supportAndEscalation": "サポートとエスカレーション"
+  },
+  "faqs": {
+    "regulatoryInformation": [
+      {
+        "question": "WINPROFX は UAE SCA、DFSA、または ADGM により規制されていますか？",
+        "answer": "WINPROFX は公式ウェブサイトで規制および法務情報を公開しています。代表事務所活動向け Dubai Professional License は、規制情報ページで別途開示・確認されない限り、金融サービス規制ライセンスと同じではありません。"
+      },
+      {
+        "question": "Dubai Professional License とは何ですか？",
+        "answer": "Dubai Professional License は UAE で発行される商業登録です。WINPROFX の場合、ライセンス活動は Representative Office です。これはコーポレートプレゼンスに関連するものであり、明示的に記載されない限り、ブローカーディーラーまたは金融サービスライセンスと混同すべきではありません。"
+      },
+      {
+        "question": "WINPROFX の会社登録はどこで確認できますか？",
+        "answer": "会社登録ページで Saint Lucia 設立詳細を確認し、公開されている認証書類をダウンロードできます。書類にアクセスする前に、常に WINPROFX 公式ドメイン上にいることを確認してください。"
+      }
+    ],
+    "withdrawalTransparency": [
+      {
+        "question": "WINPROFX から出金をリクエストする方法は？",
+        "answer": "出金は my.winprofx.org の公式クライアントポータルまたは承認されたサポートチャネルを通じて提出されます。ログイン前に常に公式ドメイン上にいることを確認してください。"
+      },
+      {
+        "question": "WINPROFX の出金が遅延する理由は？",
+        "answer": "一般的な理由には、KYC 未完了、AML またはコンプライアンス審査、支払方法検証、銀行またはウォレット詳細の誤り、銀行または決済プロバイダーによる処理時間が含まれます。"
+      },
+      {
+        "question": "出金問題をエスカレーションする方法は？",
+        "answer": "support@winprofx.com に連絡するか、サポートとエスカレーションページをご覧ください。登録メール、口座 ID、出金参照詳細を含めてください。"
+      }
+    ],
+    "verifyWinprofx": [
+      {
+        "question": "WINPROFX 公式ウェブサイトの確認方法は？",
+        "answer": "URL を公式ドメインページと照合してください。主要ウェブサイトは winprofx.org です。クライアントログインは my.winprofx.org、パートナーポータルは partner.winprofx.org です。"
+      },
+      {
+        "question": "偽の WINPROFX ウェブサイトを疑う場合はどうすればよいですか？",
+        "answer": "認証情報を入力したり、資金を送ったりしないでください。偽サイト警告ページをご覧いただき、公式ドメインページでドメインを確認し、公式チャネルからサポートに連絡してください。"
+      }
+    ],
+    "officialDomains": [
+      {
+        "question": "winprofx.org と my.winprofx.org の違いは何ですか？",
+        "answer": "winprofx.org は会社および商品情報向けの主要公式ウェブサイトです。my.winprofx.org は口座ログイン、入金、出金向けのクライアントポータルです。"
+      },
+      {
+        "question": "winprofx.com と winprofx.ae は公式ですか？",
+        "answer": "はい。winprofx.com と winprofx.ae は、一貫した情報のために winprofx.org にリダイレクトする公式代替ドメインです。"
+      }
+    ],
+    "complaintsAndDisputeResolution": [
+      {
+        "question": "WINPROFX に苦情を提出する方法は？",
+        "answer": "件名 \"Complaint\" で support@winprofx.com にメールするか、お問い合わせページをご利用ください。登録氏名、メール、口座 ID、詳細な説明を含めてください。"
+      },
+      {
+        "question": "WINPROFX は SNS で私の苦情について議論できますか？",
+        "answer": "セキュリティおよびプライバシーのため、口座固有の詳細は公開されません。苦情審査には公式サポートチャネルをご利用ください。"
+      }
+    ]
+  },
+  "identityNav": {
+    "ariaLabel": "会社情報ページ",
+    "relatedPages": "関連ページ",
+    "companyLicense": "会社とライセンス",
+    "trustSupport": "信頼とサポート"
+  },
+  "shared": {
+    "riskWarningSection": "リスク警告",
+    "viewCompanyRegistration": "会社登録の詳細全文を見る",
+    "viewDubaiLicense": "Dubai Professional License の詳細全文を見る",
+    "viewDubaiLicensePage": "Dubai Professional License ページ全文を見る",
+    "verifyChecklist": "WINPROFX 検証チェックリスト全文を使用",
+    "contactPage": "お問い合わせページ",
+    "contactSupport": "サポートに連絡",
+    "verifyOfficialDomains": "公式ドメインを確認",
+    "domainPurposeSeparator": " — ",
+    "htmlOnlyNote": "ページ内参照のみ — PDF ダウンロードなし。",
+    "tableDomain": "ドメイン",
+    "tablePurpose": "用途",
+    "supportEmailLabel": "サポートメール：",
+    "lastUpdated": "最終更新："
+  }
+}

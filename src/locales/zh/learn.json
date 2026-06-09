@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "WINPROFX 教育团队",
+    "reviewer": "WINPROFX 合规团队"
+  },
+  "index": {
+    "h1": "WINPROFX 学习中心",
+    "intro": "关于 Forex 和 CFD 交易概念的教育资源。这些文章仅供一般教育用途，不构成投资建议。",
+    "readArticle": "阅读文章 →",
+    "trustCenterLink": "如需官方公司与验证信息，请访问",
+    "trustCenter": "WINPROFX 信任中心"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "什么是 Forex 交易？ | WINPROFX Learn",
+      "description": "了解 Forex 交易是什么、货币对如何运作，以及初学者在交易前应了解的主要风险。",
+      "h1": "什么是 Forex 交易？",
+      "breadcrumb": "什么是 Forex 交易",
+      "sections": {
+        "definition": {
+          "title": "定义",
+          "body": "Forex（外汇）交易是在全球货币市场中买卖货币对。交易者推测一种货币相对另一种货币会走强还是走弱。"
+        },
+        "howCurrencyPairsWork": {
+          "title": "货币对如何运作",
+          "body": "货币对显示一种货币相对于另一种货币的价值（例如 EUR/USD）。第一种货币为基础货币；第二种为报价货币。价格波动反映经济状况、利率和市场情绪。"
+        },
+        "forexAtWinprofx": {
+          "title": "WINPROFX 的 Forex 交易",
+          "body": "WINPROFX 通过 MetaTrader 5 平台提供 Forex 市场接入。账户条件与可用品种信息均发布于官方网站。"
+        }
+      },
+      "links": {
+        "forex": "Forex 交易",
+        "platform": "MT5 平台",
+        "trustCenter": "WINPROFX 信任中心"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "什么是 CFD 交易？ | WINPROFX Learn",
+      "description": "了解差价合约（Contract for Difference，CFD）交易、其与直接持有资产的区别，以及相关风险。",
+      "h1": "什么是 CFD 交易？",
+      "breadcrumb": "什么是 CFD 交易",
+      "sections": {
+        "definition": {
+          "title": "定义",
+          "body": "差价合约（Contract for Difference，CFD）是一种衍生品，允许交易者在不持有标的资产的情况下对价格走势进行推测。盈亏取决于开仓价与平仓价之间的差额。"
+        },
+        "cfdsVsOwnership": {
+          "title": "CFD 与直接持有",
+          "body": "CFD 交易者并不直接持有股票、大宗商品或加密资产。他们交易的是价格敞口，根据账户条款可能涉及 Leverage 和隔夜融资成本。"
+        },
+        "risks": {
+          "title": "风险",
+          "body": "CFD 交易具有重大风险。Leverage 可能放大损失，使其超过您的初始入金。大多数零售 CFD 交易者会亏损。"
+        }
+      },
+      "links": {
+        "crypto": "加密货币 CFD 交易",
+        "riskWarning": "风险警告"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "什么是 MetaTrader 5 (MT5)？ | WINPROFX Learn",
+      "description": "了解 MetaTrader 5 交易平台、其主要功能，以及客户如何通过 MT5 接入市场。",
+      "h1": "什么是 MetaTrader 5 (MT5)？",
+      "breadcrumb": "什么是 MT5",
+      "sections": {
+        "overview": {
+          "title": "概述",
+          "body": "MetaTrader 5 (MT5) 是用于 Forex、CFD 及其他品种的多资产交易平台。它提供图表、技术分析工具、自动化交易功能以及移动端访问。"
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX 与 MT5",
+          "body": "WINPROFX 客户可通过桌面端和移动端的 MT5 接入市场。下载链接与平台信息可在平台页面查看。"
+        }
+      },
+      "links": {
+        "platform": "MT5 交易平台",
+        "accounts": "账户类型"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "Forex 中的 Leverage 是什么？ | WINPROFX Learn",
+      "description": "了解 Forex 交易中的 Leverage、它如何放大敞口，以及为何会同时增加潜在收益与潜在损失。",
+      "h1": "Forex 中的 Leverage 是什么？",
+      "breadcrumb": "Forex 中的 Leverage",
+      "sections": {
+        "definition": {
+          "title": "定义",
+          "body": "Leverage 允许交易者以较少的资金控制更大的头寸。它以比率表示（例如 1:100），意味着较小的入金（保证金）可控制较大的交易规模。"
+        },
+        "howLeverageAffectsRisk": {
+          "title": "Leverage 如何影响风险",
+          "body": "Leverage 会同时放大潜在收益与潜在损失。即使价格出现小幅不利波动，也可能相对于您存入的保证金造成重大损失。"
+        }
+      },
+      "links": {
+        "marginCall": "什么是追加保证金通知？",
+        "riskWarning": "风险警告"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "什么是追加保证金通知？ | WINPROFX Learn",
+      "description": "了解追加保证金通知是什么、何时发生，以及保证金要求如何影响 CFD 和 Forex 交易。",
+      "h1": "什么是追加保证金通知？",
+      "breadcrumb": "追加保证金通知",
+      "sections": {
+        "definition": {
+          "title": "定义",
+          "body": "当账户净值低于维持未平仓头寸所需的保证金水平时，会发生追加保证金通知。经纪商可能要求追加资金或平仓，以恢复保证金要求。"
+        },
+        "prevention": {
+          "title": "预防",
+          "body": "监控账户净值，使用适当的头寸规模，了解 Leverage 的影响，并保持充足的可用保证金。止损等风险管理工具可能有帮助，但无法消除风险。"
+        }
+      },
+      "links": {
+        "leverage": "Forex 中的 Leverage",
+        "accounts": "账户类型"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "交易中的 Spread 是什么？ | WINPROFX Learn",
+      "description": "了解买卖价差（Spread）、Spread 如何影响交易成本，以及不同品种的 Spread 为何存在差异。",
+      "h1": "交易中的 Spread 是什么？",
+      "breadcrumb": "交易中的 Spread",
+      "sections": {
+        "definition": {
+          "title": "定义",
+          "body": "Spread 是某品种的买价（ask）与卖价（bid）之间的差额。在适用情况下，它是除佣金和隔夜利息之外的主要交易成本之一。"
+        },
+        "variableSpreads": {
+          "title": "浮动 Spread",
+          "body": "在流动性较低、新闻事件或市场波动期间，Spread 可能扩大。公布的 Spread 示例仅供参考，实际成交时可能有所不同。"
+        }
+      },
+      "links": {
+        "forex": "Forex 交易",
+        "accounts": "账户类型"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "如何在 CFD 交易中管理风险 | WINPROFX Learn",
+      "description": "CFD 交易风险管理概念的教育指南，包括头寸规模、止损以及对 Leverage 的认知。",
+      "h1": "如何在 CFD 交易中管理风险",
+      "breadcrumb": "CFD 风险管理",
+      "sections": {
+        "positionSizing": {
+          "title": "头寸规模",
+          "body": "仅承担您能够承受损失的资金风险。头寸规模应反映您的账户余额和可接受的亏损程度，而非最大可用 Leverage。"
+        },
+        "stopLossAndTakeProfit": {
+          "title": "止损与止盈",
+          "body": "止损单可以限制单笔交易的潜在损失，但在跳空或快速行情中未必总能按确切价格成交。止盈单可在目标价位锁定收益。"
+        },
+        "diversificationAndDiscipline": {
+          "title": "分散与纪律",
+          "body": "避免过度集中于单一品种。保持交易计划，避免情绪化决策。本内容仅供教育用途，不构成投资建议。"
+        }
+      },
+      "links": {
+        "riskWarning": "风险警告",
+        "trustCenter": "信任中心"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "模拟账户与真实账户 | WINPROFX Learn",
+      "description": "比较模拟账户与真实账户的用途，以及使用真实资金交易时会发生哪些变化。",
+      "h1": "模拟账户与真实账户",
+      "breadcrumb": "模拟账户与真实账户",
+      "sections": {
+        "demoAccounts": {
+          "title": "模拟账户",
+          "body": "模拟账户使用虚拟资金，可在无财务风险的情况下练习平台操作、下单和策略测试。模拟条件可能与真实成交存在差异。"
+        },
+        "liveAccounts": {
+          "title": "真实账户",
+          "body": "真实账户使用真实资金。亏损是真实的，在使用 Leverage 时可能超过入金金额。进行真实交易前需完成 KYC 验证与合规审查。"
+        }
+      },
+      "links": {
+        "accounts": "账户类型",
+        "verifyWinprofx": "验证 WINPROFX"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "如何核实 Forex 经纪商是否可靠 | WINPROFX Learn",
+      "description": "了解如何通过官方域名、公司注册信息、监管范围和风险披露来核实 Forex 经纪商。",
+      "h1": "如何核实 Forex 经纪商是否可靠",
+      "breadcrumb": "如何核实经纪商是否可靠",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "核实官方域名",
+          "body": "确认网站 URL 与经纪商公布的官方域名一致。避免通过未经请求的链接或社交媒体消息进入登录页面。"
+        },
+        "reviewCompanyRegistration": {
+          "title": "查阅公司注册信息",
+          "body": "核查法律实体是否已披露，并在可用时提供注册详情与可下载文件。公司注册不等同于金融服务牌照。"
+        },
+        "understandRegulatoryScope": {
+          "title": "了解监管范围",
+          "body": "确认存在哪些牌照或注册，以及它们实际授权的内容。代表处牌照与金融经纪牌照并不相同。"
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "WINPROFX 是否可靠？",
+        "trustCenter": "信任中心",
+        "officialDomains": "官方域名"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "离岸与受监管 Forex 经纪商 | WINPROFX Learn",
+      "description": "了解 Forex 经纪业务中离岸注册与金融服务监管之间的区别。",
+      "h1": "离岸与受监管 Forex 经纪商",
+      "breadcrumb": "离岸与受监管经纪商",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "离岸注册",
+          "body": "许多经纪商在圣卢西亚等司法管辖区注册为国际商业公司。注册确认法律实体的成立，但并不意味着自动获得金融服务监管。"
+        },
+        "financialServicesRegulation": {
+          "title": "金融服务监管",
+          "body": "金融服务监管机构（如 FCA、ASIC、CySEC 或阿联酋相关机构）可能在特定条件下授权经纪商的特定业务活动。请始终通过官方监管记录进行核实。"
+        },
+        "dueDiligence": {
+          "title": "尽职调查",
+          "body": "客户应审查实际已核实和披露的信息，而非依赖营销宣传。请阅读风险警告并了解司法管辖限制。"
+        }
+      },
+      "links": {
+        "regulatoryInformation": "监管信息",
+        "licenseVerification": "牌照验证",
+        "checkBrokerLegit": "如何核实经纪商是否可靠"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

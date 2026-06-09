@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "isWinprofxLegit": {
+      "path": "/is-winprofx-legit/",
+      "h1": "WINPROFXは正当な会社ですか？",
+      "breadcrumb": "WINPROFXは正当な会社ですか？",
+      "intro": "この公式ページでは、お客様がWINPROFXの会社情報、法人詳細、ドバイ代表事務所の登録、公式ドメイン、規制範囲を確認する方法を説明します。本ページは投資助言を構成するものではありません。",
+      "sections": {
+        "legalEntitySummary": "法人概要",
+        "companyRegistration": "会社登録",
+        "dubaiRepresentativeOffice": "ドバイ代表事務所",
+        "regulatoryClarification": "規制情報の説明",
+        "officialDomainsVerification": "公式ドメインの確認",
+        "whatToVerifyBeforeDepositing": "入金前に確認すべき事項",
+        "riskWarning": "リスク警告"
+      },
+      "faqs": {
+        "registeredCompany": {
+          "question": "WINPROFXは登録会社ですか？",
+          "answer": "{{legalEntityName}}は{{jurisdiction}}において国際商業会社（設立番号{{incorporationNumber}}）として設立されています。会社登録の詳細はWINPROFX公式ウェブサイトで公開されています。"
+        },
+        "dubaiOffice": {
+          "question": "WINPROFXにはドバイのオフィスがありますか？",
+          "answer": "WINPROFXはドバイ・プロフェッショナル・ライセンス（{{dubaiBusinessName}}）の下で登録されたUAE代表事務所を維持しています。許可された事業内容は{{dubaiLicenseActivity}}です。別途開示されない限り、これは金融サービス規制当局のライセンスとは異なります。"
+        },
+        "verifyOfficial": {
+          "question": "WINPROFXが公式であることをどのように確認できますか？",
+          "answer": "公式ドメインページと照合してドメインを確認し、会社登録書類を確認し、ログインまたは入金前にWINPROFX確認チェックリストをご利用ください。"
+        },
+        "beforeDepositing": {
+          "question": "WINPROFXに入金する前に何を確認すべきですか？",
+          "answer": "公式ドメインにアクセスしていることを確認し、リスク警告を確認し、出金および苦情処理の手順を理解し、Trust Centerで会社登録および規制範囲の情報を確認してください。"
+        }
+      }
+    },
+    "winprofxReview": {
+      "path": "/winprofx-review/",
+      "h1": "WINPROFXレビュー",
+      "breadcrumb": "WINPROFXレビュー",
+      "intro": "これはWINPROFXのサービスおよび確認情報に関する公式の事実に基づく概要です。第三者によるレビューではなく、お客様の声や星評価は含まれていません。",
+      "sections": {
+        "whatWinprofxIs": "WINPROFXとは",
+        "tradingPlatform": "取引プラットフォーム",
+        "marketsOffered": "提供市場",
+        "accountServices": "口座サービス",
+        "trustAndLegal": "信頼と法的情報",
+        "withdrawalsAndComplaints": "出金と苦情",
+        "whatToVerifyBeforeTrading": "取引前に確認すべき事項",
+        "riskWarning": "リスク警告"
+      }
+    },
+    "winprofxWithdrawalProcess": {
+      "path": "/winprofx-withdrawal-process/",
+      "h1": "WINPROFX出金プロセス",
+      "breadcrumb": "出金プロセス",
+      "intro": "このページでは、WINPROFXの一般的な出金プロセス、確認チェック、一般的な遅延理由、エスカレーションオプションについて説明します。処理時間は異なる場合があり、保証されません。",
+      "sections": {
+        "overview": "出金プロセスの概要",
+        "stepByStep": "ステップバイステップの出金フロー",
+        "kycAml": "KYCおよびAMLチェック",
+        "commonDelays": "出金遅延の一般的な理由",
+        "howToAvoid": "出金問題を回避する方法",
+        "escalation": "エスカレーションとサポート",
+        "riskWarning": "リスク警告"
+      },
+      "faqs": {
+        "howToRequest": {
+          "question": "WINPROFXから出金をリクエストするにはどうすればよいですか？",
+          "answer": "my.winprofx.orgの公式クライアントポータルから出金リクエストを送信してください。ログイン前に必ずURLを確認してください。"
+        },
+        "whyDelayed": {
+          "question": "WINPROFXの出金が遅延する理由は何ですか？",
+          "answer": "一般的な理由には、KYCの未完了、AML審査、支払い方法の確認、誤った銀行詳細、銀行または決済プロバイダーによる処理時間などがあります。"
+        },
+        "escalate": {
+          "question": "出金の問題をエスカレーションするにはどうすればよいですか？",
+          "answer": "口座IDと出金参照番号を添えてsupport@winprofx.comにご連絡いただくか、サポートとエスカレーションページをご覧ください。"
+        }
+      }
+    },
+    "winprofxLicenseVerification": {
+      "path": "/winprofx-license-verification/",
+      "h1": "WINPROFXライセンス確認",
+      "breadcrumb": "ライセンス確認",
+      "intro": "このページでは、WINPROFXの会社登録、ドバイ代表事務所のライセンス、規制範囲について説明します。会社設立とDubai Professional Licenseは、金融サービスブローカーライセンスとは異なります。",
+      "sections": {
+        "companyRegistration": "会社登録",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "regulatoryScope": "規制範囲の説明",
+        "notFinancialServicesLicense": "金融サービスライセンスと異なる点",
+        "verifyDocuments": "書類の確認方法",
+        "legalEntityInformation": "法人情報"
+      }
+    },
+    "winprofxComplaints": {
+      "path": "/winprofx-complaints/",
+      "h1": "WINPROFX苦情",
+      "breadcrumb": "苦情",
+      "intro": "このページでは、WINPROFXがお客様の苦情をどのように処理するか、必要な情報、審査段階、エスカレーションオプションについて説明します。",
+      "sections": {
+        "howToSubmit": "苦情の提出方法",
+        "requiredInformation": "必要な情報",
+        "reviewStages": "苦情審査の段階",
+        "publicReviewPolicy": "公開審査ポリシー",
+        "escalation": "エスカレーションとサポート"
+      },
+      "faqs": {
+        "howToSubmit": {
+          "question": "WINPROFXに苦情を提出するにはどうすればよいですか？",
+          "answer": "件名「Complaint」でsupport@winprofx.comにメールを送信するか、口座詳細を添えてお問い合わせページをご利用ください。"
+        },
+        "requiredInfo": {
+          "question": "苦情にはどのような情報を含めるべきですか？",
+          "answer": "登録名、メールアドレス、口座ID、取引または出金の参照番号、問題の詳細な説明を含めてください。"
+        },
+        "escalation": {
+          "question": "苦情はどのようにエスカレーションされますか？",
+          "answer": "初回のサポート審査で問題が解決されない場合は、サポートとエスカレーションページのエスカレーションプロセスに従ってください。"
+        }
+      }
+    },
+    "winprofxFakeWebsiteWarning": {
+      "path": "/winprofx-fake-website-warning/",
+      "h1": "WINPROFX偽サイト警告",
+      "breadcrumb": "偽サイト警告",
+      "intro": "偽のWINPROFXウェブサイト、フィッシングページ、なりすまし者から身を守ってください。ログイン情報、資金、個人書類を共有する前に、必ずドメインとサポートチャネルを確認してください。",
+      "sections": {
+        "officialDomains": "WINPROFX公式ドメイン",
+        "warningSigns": "偽サイトの警告サイン",
+        "howToVerify": "ドメインの確認方法",
+        "safeLogin": "安全なログインのガイダンス",
+        "whatNotToShare": "共有してはいけない情報",
+        "ifSuspectImpersonation": "なりすましを疑う場合"
+      },
+      "faqs": {
+        "howToKnowFake": {
+          "question": "WINPROFXのウェブサイトが偽物かどうかはどう判断できますか？",
+          "answer": "URLを公式ドメインページと照合してください。偽サイトは類似のブランドを異なるドメインで使用したり、異常な支払い方法を要求したり、ログイン情報の共有を迫ったりする場合があります。"
+        },
+        "enteredCredentials": {
+          "question": "不審なサイトでログイン情報を入力してしまった場合はどうすればよいですか？",
+          "answer": "公式クライアントポータルから直ちにパスワードを変更し、support@winprofx.comにご連絡ください。確認が完了するまで追加の資金を送金しないでください。"
+        },
+        "socialMediaContact": {
+          "question": "WINPROFXのサポート担当者がソーシャルメディアで連絡してくることはありますか？",
+          "answer": "公式サポートはsupport@winprofx.comおよび公式ウェブサイトのチャネルを通じて提供されます。WINPROFXを名乗る不審なソーシャルメディアメッセージにはご注意ください。"
+        }
+      }
+    },
+    "winprofxOfficialLogin": {
+      "path": "/winprofx-official-login/",
+      "h1": "WINPROFX公式ログイン",
+      "breadcrumb": "公式ログイン",
+      "intro": "このページからWINPROFXの公式ログインガイダンスにアクセスしてください。ログイン情報を入力する前に、ブラウザでURLを必ず確認してください。",
+      "sections": {
+        "clientPortal": "クライアントポータルログイン",
+        "partnerPortal": "パートナーポータルログイン",
+        "passwordSecurity": "パスワードと口座のセキュリティ",
+        "verifyBeforeLogin": "ログイン前の確認"
+      }
+    },
+    "winprofxDepositWithdrawalMethods": {
+      "path": "/winprofx-deposit-and-withdrawal-methods/",
+      "h1": "WINPROFX入出金方法",
+      "breadcrumb": "入出金方法",
+      "intro": "このページでは、WINPROFXの入出金方法、確認要件、セキュリティに関する注意事項の概要を提供します。特定の方法の利用可否は、口座および地域によって異なる場合があります。",
+      "sections": {
+        "depositOverview": "入金方法の概要",
+        "withdrawalOverview": "出金方法の概要",
+        "kycAml": "KYCおよびAML審査",
+        "processingDisclaimer": "処理に関する免責事項",
+        "securityNote": "セキュリティに関する注意",
+        "commonIssues": "よくある問題",
+        "riskWarning": "リスク警告"
+      },
+      "faqs": {
+        "depositMethods": {
+          "question": "WINPROFXはどのような入金方法に対応していますか？",
+          "answer": "利用可能な入金方法はクライアントポータルで公開されており、口座および地域によっては銀行振込、カード、電子決済オプションが含まれる場合があります。"
+        },
+        "withdrawalTime": {
+          "question": "WINPROFXの出金は特定の時間内に保証されますか？",
+          "answer": "処理時間は異なる場合があり、保証されません。KYC、AML審査、決済プロバイダーの処理がタイムラインに影響する場合があります。"
+        },
+        "kycEffect": {
+          "question": "KYCが入金または出金に影響する理由は何ですか？",
+          "answer": "KYCおよびAMLの確認はコンプライアンスのために必要です。確認が未完了の場合、解決されるまで入出金が遅延または制限される場合があります。"
+        }
+      }
+    }
+  }
+}

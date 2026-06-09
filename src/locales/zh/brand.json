@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "isWinprofxLegit": {
+      "path": "/is-winprofx-legit/",
+      "h1": "WINPROFX 是否正规？",
+      "breadcrumb": "WINPROFX 是否正规？",
+      "intro": "本官方页面说明客户如何核实 WINPROFX 公司信息、法律实体详情、迪拜代表处注册、官方域名及监管范围。本页面不构成投资建议。",
+      "sections": {
+        "legalEntitySummary": "法律实体摘要",
+        "companyRegistration": "公司注册",
+        "dubaiRepresentativeOffice": "迪拜代表处",
+        "regulatoryClarification": "监管信息说明",
+        "officialDomainsVerification": "官方域名核实",
+        "whatToVerifyBeforeDepositing": "入金前需核实的事项",
+        "riskWarning": "风险警告"
+      },
+      "faqs": {
+        "registeredCompany": {
+          "question": "WINPROFX 是否为注册公司？",
+          "answer": "{{legalEntityName}} 在 {{jurisdiction}} 注册为国际商业公司（注册编号 {{incorporationNumber}}）。公司注册详情发布于 WINPROFX 官方网站。"
+        },
+        "dubaiOffice": {
+          "question": "WINPROFX 是否在迪拜设有办事处？",
+          "answer": "WINPROFX 在阿联酋设有代表处，持有迪拜专业执照（{{dubaiBusinessName}}）。许可经营范围为 {{dubaiLicenseActivity}}。除非另行披露，这与金融服务监管机构颁发的牌照不同。"
+        },
+        "verifyOfficial": {
+          "question": "如何核实 WINPROFX 为官方机构？",
+          "answer": "对照官方域名页核实域名，查阅公司注册文件，并在登录或入金前使用核实 WINPROFX 清单。"
+        },
+        "beforeDepositing": {
+          "question": "向 WINPROFX 入金前应检查哪些事项？",
+          "answer": "确认您访问的是官方域名，查阅风险警告，了解出金和投诉流程，并在 Trust Center 核实公司注册及监管范围信息。"
+        }
+      }
+    },
+    "winprofxReview": {
+      "path": "/winprofx-review/",
+      "h1": "WINPROFX 概览",
+      "breadcrumb": "WINPROFX 概览",
+      "intro": "这是 WINPROFX 服务及核实信息的官方事实性概览。本页面并非第三方评价，不包含客户证言或星级评分。",
+      "sections": {
+        "whatWinprofxIs": "WINPROFX 是什么",
+        "tradingPlatform": "交易平台",
+        "marketsOffered": "提供的市场",
+        "accountServices": "账户服务",
+        "trustAndLegal": "信任与法律信息",
+        "withdrawalsAndComplaints": "出金与投诉",
+        "whatToVerifyBeforeTrading": "交易前需核实的事项",
+        "riskWarning": "风险警告"
+      }
+    },
+    "winprofxWithdrawalProcess": {
+      "path": "/winprofx-withdrawal-process/",
+      "h1": "WINPROFX 出金流程",
+      "breadcrumb": "出金流程",
+      "intro": "本页面说明 WINPROFX 的一般出金流程、核实检查、常见延迟原因及升级选项。处理时间因情况而异，不作保证。",
+      "sections": {
+        "overview": "出金流程概览",
+        "stepByStep": "分步出金流程",
+        "kycAml": "KYC 与 AML 检查",
+        "commonDelays": "出金延迟的常见原因",
+        "howToAvoid": "如何避免出金问题",
+        "escalation": "升级与支持",
+        "riskWarning": "风险警告"
+      },
+      "faqs": {
+        "howToRequest": {
+          "question": "如何向 WINPROFX 申请出金？",
+          "answer": "通过 my.winprofx.org 上的官方客户门户提交出金申请。登录前请务必核实网址。"
+        },
+        "whyDelayed": {
+          "question": "我的 WINPROFX 出金为何可能延迟？",
+          "answer": "常见原因包括 KYC 未完成、AML 审查、支付方式核实、银行信息错误，以及银行或支付服务商的处理时间。"
+        },
+        "escalate": {
+          "question": "如何升级出金问题？",
+          "answer": "请携带账户 ID 及出金参考编号联系 support@winprofx.com，或访问支持与升级页面。"
+        }
+      }
+    },
+    "winprofxLicenseVerification": {
+      "path": "/winprofx-license-verification/",
+      "h1": "WINPROFX 牌照核实",
+      "breadcrumb": "牌照核实",
+      "intro": "本页面说明 WINPROFX 公司注册、迪拜代表处执照及监管范围。公司注册与 Dubai Professional License 不同于金融服务经纪商牌照。",
+      "sections": {
+        "companyRegistration": "公司注册",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "regulatoryScope": "监管范围说明",
+        "notFinancialServicesLicense": "与金融服务牌照的区别",
+        "verifyDocuments": "如何核实文件",
+        "legalEntityInformation": "法律实体信息"
+      }
+    },
+    "winprofxComplaints": {
+      "path": "/winprofx-complaints/",
+      "h1": "WINPROFX 投诉",
+      "breadcrumb": "投诉",
+      "intro": "本页面说明 WINPROFX 如何处理客户投诉、所需信息、审查阶段及升级选项。",
+      "sections": {
+        "howToSubmit": "如何提交投诉",
+        "requiredInformation": "所需信息",
+        "reviewStages": "投诉审查阶段",
+        "publicReviewPolicy": "公开审查政策",
+        "escalation": "升级与支持"
+      },
+      "faqs": {
+        "howToSubmit": {
+          "question": "如何向 WINPROFX 提交投诉？",
+          "answer": "发送邮件至 support@winprofx.com，主题注明「Complaint」，或通过联系页面附上账户详情。"
+        },
+        "requiredInfo": {
+          "question": "投诉中应包含哪些信息？",
+          "answer": "请包含注册姓名、电子邮箱、账户 ID、交易或出金参考编号，以及对问题的详细说明。"
+        },
+        "escalation": {
+          "question": "投诉如何升级？",
+          "answer": "若问题未通过初步支持审查得到解决，请按照支持与升级页面上的升级流程操作。"
+        }
+      }
+    },
+    "winprofxFakeWebsiteWarning": {
+      "path": "/winprofx-fake-website-warning/",
+      "h1": "WINPROFX 假冒网站警告",
+      "breadcrumb": "假冒网站警告",
+      "intro": "请防范假冒 WINPROFX 网站、钓鱼页面及冒充者。在分享登录凭据、资金或个人文件前，请务必核实域名及支持渠道。",
+      "sections": {
+        "officialDomains": "WINPROFX 官方域名",
+        "warningSigns": "假冒网站的警示信号",
+        "howToVerify": "如何核实域名",
+        "safeLogin": "安全登录指引",
+        "whatNotToShare": "不应分享的信息",
+        "ifSuspectImpersonation": "如怀疑遭遇冒充"
+      },
+      "faqs": {
+        "howToKnowFake": {
+          "question": "如何判断 WINPROFX 网站是否为假冒？",
+          "answer": "将网址与官方域名页进行比对。假冒网站可能使用相似品牌但不同域名，要求异常支付方式，或施压要求您分享登录凭据。"
+        },
+        "enteredCredentials": {
+          "question": "如在可疑网站输入了登录凭据该怎么办？",
+          "answer": "请立即通过官方客户门户更改密码，联系 support@winprofx.com，并在核实完成前勿再转账。"
+        },
+        "socialMediaContact": {
+          "question": "WINPROFX 客服人员会通过社交媒体联系我吗？",
+          "answer": "官方支持渠道为 support@winprofx.com 及官方网站渠道。请警惕自称 WINPROFX 的未经请求社交媒体消息。"
+        }
+      }
+    },
+    "winprofxOfficialLogin": {
+      "path": "/winprofx-official-login/",
+      "h1": "WINPROFX 官方登录",
+      "breadcrumb": "官方登录",
+      "intro": "使用本页面获取 WINPROFX 官方登录指引。输入凭据前请务必在浏览器中核实网址。",
+      "sections": {
+        "clientPortal": "客户门户登录",
+        "partnerPortal": "合作伙伴门户登录",
+        "passwordSecurity": "密码与账户安全",
+        "verifyBeforeLogin": "登录前核实"
+      }
+    },
+    "winprofxDepositWithdrawalMethods": {
+      "path": "/winprofx-deposit-and-withdrawal-methods/",
+      "h1": "WINPROFX 入金与出金方式",
+      "breadcrumb": "入金与出金方式",
+      "intro": "本页面概述 WINPROFX 入金与出金方式、核实要求及安全说明。具体方式的可用性可能因账户及地区而异。",
+      "sections": {
+        "depositOverview": "入金方式概览",
+        "withdrawalOverview": "出金方式概览",
+        "kycAml": "KYC 与 AML 审查",
+        "processingDisclaimer": "处理免责声明",
+        "securityNote": "安全说明",
+        "commonIssues": "常见问题",
+        "riskWarning": "风险警告"
+      },
+      "faqs": {
+        "depositMethods": {
+          "question": "WINPROFX 支持哪些入金方式？",
+          "answer": "可用入金方式公布于客户门户，可能包括银行转账、银行卡及电子支付选项，具体取决于账户及地区。"
+        },
+        "withdrawalTime": {
+          "question": "WINPROFX 出金是否保证在特定时间内完成？",
+          "answer": "处理时间因情况而异，不作保证。KYC、AML 审查及支付服务商处理可能影响时间线。"
+        },
+        "kycEffect": {
+          "question": "KYC 为何可能影响我的入金或出金？",
+          "answer": "KYC 与 AML 核实为合规所必需。核实未完成可能导致入金或出金延迟或受限，直至问题解决。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "利益を生む取引への道は、ここから始まる",
+    "description": "WINPROFX は、タイトなスプレッド、迅速な出金、300 以上の取引銘柄、指先でのナノ秒実行を提供する世界的に評価の高いブローカーです。",
+    "badge": "2026 年最高の Forex ブローカーで投資",
+    "stats": {
+      "evolving": {
+        "title": "進化し続ける",
+        "description": "マーケットで"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "受賞"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "カ国以上をカバー"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "取引銘柄"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "あなたの取引の旅は<br />ここから始まります",
+    "steps": {
+      "openAccount": {
+        "title": "口座開設",
+        "description": "上のボタンをクリックし、簡単なステップに従うだけです。"
+      },
+      "makeDeposit": {
+        "title": "入金",
+        "description": "プロのヒント：USDT の入出金が最も高速です。"
+      },
+      "startTrading": {
+        "title": "取引開始",
+        "description": "すべてのプロも最初はゼロから。今すぐ取引を始めましょう。"
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "当社で取引するメリット",
+    "description": "透明性と先進テクノロジーが融合したシームレスな取引体験で、あなたの金融的成功をサポートします。",
+    "items": {
+      "withdrawals": {
+        "meta": "暗号資産出金",
+        "title": "30 分",
+        "description": "30 分出金保証で、資金を迅速かつ柔軟に管理できます。"
+      },
+      "tradeDaily": {
+        "meta": "毎日取引",
+        "title": "報酬を獲得",
+        "description": "毎日の取引、毎日の成果——すべての相場変動で成功を加速します。"
+      },
+      "clientSupport": {
+        "meta": "受賞歴あり",
+        "title": "カスタマーサポート",
+        "description": "卓越したサービス体験をお届けします！"
+      },
+      "negativeBalance": {
+        "meta": "マイナス残高",
+        "title": "保護",
+        "description": "組み込みのマイナス残高保護で、安心して取引できます。"
+      }
+    }
+  },
+  "platform": {
+    "meta": "取引プラットフォーム",
+    "title": "モバイル版 MT5 をダウンロード",
+    "description": "WINPROFX は世界中で事業を拡大してきました。MT5 が Android と iPhone で利用可能になり、成功への一歩が近づきました。今すぐ MT5 をダウンロードし、無限の取引機会の世界へ。"
+  },
+  "whatTrade": {
+    "title": "何を取引できますか？",
+    "description": "透明性と先進テクノロジーが融合したシームレスな取引体験で、あなたの金融的成功をサポートします。",
+    "items": {
+      "crypto": {
+        "title": "暗号資産",
+        "description": "暗号資産（デジタル通貨とも呼ばれます）は成長の早い投資商品であり、"
+      },
+      "metals": {
+        "title": "貴金属",
+        "description": "スポット貴金属取引は、すべてのトレーダーの心に特別な位置を占めています。貴金属は"
+      },
+      "commodities": {
+        "title": "コモディティ",
+        "description": "コモディティへの投資は、投資家に分散投資や"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex（外国為替）は、世界の通貨が取引されるグローバルマーケットです。"
+      },
+      "indices": {
+        "title": "インデックス",
+        "description": "インデックスは、取引所の株式グループの価格パフォーマンスを測定する指標です。"
+      },
+      "oil": {
+        "title": "原油",
+        "description": "エネルギー先物は、指定日・指定価格で化石燃料や関連商品を売買する契約です。"
+      }
+    },
+    "imageAlt": "WINPROFX {{market}} 取引"
+  },
+  "about": {
+    "meta": "WINPROFX について",
+    "heading": "<strong class='font-normal text-white'>WINPROFX では、安全な</strong> オンライン取引プラットフォームを提供し、専門知識、マーケット知見、信頼できるパートナーシップを通じて持続可能性を推進しています。",
+    "features": {
+      "platform": "初心者、中級者、プロまで、あらゆるレベルのトレーダーに最適なプラットフォーム。",
+      "orderManagement": "高度な注文管理ツール。",
+      "indicators": "より多くのネイティブテクニカル指標を導入。",
+      "customize": "取引環境を簡単に設定・カスタマイズ"
+    }
+  },
+  "award": {
+    "title": "受賞歴を誇る WINPROFX ブローカー",
+    "description": "グローバル Forex 業界は WINPROFX の実績を認め、卓越した製品とサービスにより最高の栄誉を授与しました。",
+    "items": {
+      "bestForexBroker2025": "2025 年 Best Forex Broker",
+      "globalForexBroker2025": "2025 年 Global Forex Broker of the Year",
+      "topStpBroker2025": "2025 年 Top STP Broker",
+      "bestDepositWithdrawal2024": "2024 年 Best Deposit And Withdrawal Broker"
+    }
+  },
+  "news": {
+    "title": "ニュース＆インサイト",
+    "description": "最新のマーケット更新と専門家のインサイトで情報をキャッチし、金融の世界で的確な判断を。",
+    "paymentFlow": {
+      "title": "スムーズな資金フロー：迅速な入金とシームレスな出金",
+      "description": "手間のかからない入出金プロセスで資金の流動性を実現。取引は迅速かつ便利です。"
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade to WIN",
+        "description": "より多く取引し、保証された賞品を獲得。取引量が多いほど、より良い賞品が手に入ります。",
+        "promotionDates": "プロモーション期間：2026 年 1 月 1 日〜2026 年 5 月 31 日"
+      },
+      "technicalAnalysis": {
+        "title": "無料テクニカル分析ツール",
+        "description": "ワンクリックでチャートパターンを識別し、市場状況を分析し、24 時間マーケットを監視！",
+        "poweredBy": "Powered by"
+      },
+      "learnMore": "詳しく見る"
+    }
+  },
+  "demoCta": {
+    "title": "マスターへの旅：WINPROFX デモ体験でスキルを解き放とう！",
+    "description": "無料 21 日間の MT5 デモ口座で取引の旅を始めましょう。受賞歴のある Best Forex Trading Strategies Platform をリスクなしで体験——今すぐ登録し、精密取引の世界を探索してください。",
+    "button": "MT5 デモプラットフォームを試す"
+  }
+}
