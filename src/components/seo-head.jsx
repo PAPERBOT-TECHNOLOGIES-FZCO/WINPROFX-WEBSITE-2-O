@@ -37,7 +37,7 @@ export default function SeoHead({
   blogPosting,
   article,
 }) {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation(['company', 'seo'])
   const locale = normalizeReadinessLocale(i18n.language || DEFAULT_LOCALE)
   const canonical = buildCanonicalUrl(localizedCanonicalPath(canonicalPath, locale))
   const effectiveRobots = resolveRobotsForLocale(locale, canonicalPath, robots)
@@ -45,7 +45,11 @@ export default function SeoHead({
   const pageConfig = getPageSchemaConfig(schemaPath)
   const pageExtensions = getPageSchemaExtensions(schemaPath)
 
-  const organizationSchema = buildOrganizationSchema(locale)
+  const organizationSchema = buildOrganizationSchema(
+    locale,
+    t('company:schema.brandDescription', { defaultValue: 'WINPROFX is a forex and CFD trading brand.' }),
+    t('company:schema.customerSupport', { defaultValue: 'customer support' }),
+  )
   const websiteSchema = buildWebsiteSchema(locale)
   const webPageName = pageName ?? pageConfig?.pageName ?? title
   const webPageSchema = buildWebPageSchema({

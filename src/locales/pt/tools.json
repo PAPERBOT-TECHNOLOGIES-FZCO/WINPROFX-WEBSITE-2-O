@@ -1,0 +1,253 @@
+{
+  "analytics": {
+    "meta": "ANALÍTICA",
+    "h1": "Ferramentas analíticas potentes para decisões de trading mais inteligentes",
+    "faqTitle": "Perguntas frequentes",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "Rastreador de eventos",
+        "title": "Acompanhe eventos económicos-chave com o calendário económico",
+        "des": "Mantenha-se atualizado sobre eventos económicos e publicações de dados essenciais para melhorar a sua estratégia de trading na WINPROFX."
+      },
+      "marketNews": {
+        "meta": "Notícias de mercado",
+        "title": "Notícias de mercado em tempo real da WINPROFX",
+        "des": "Mantenha-se atualizado com notícias de mercado e as últimas atualizações da equipa FXStreet News em tempo real. Aceda a estes dados úteis na app WINPROFX Trade ou na sua Área Pessoal WINPROFX."
+      }
+    },
+    "smartSignals": {
+      "meta": "Sinais inteligentes",
+      "title": "Sinais inteligentes",
+      "des": "Obtenha insights acionáveis da Trading Central para apoiar as suas decisões de trading."
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "Que ferramentas da nossa plataforma oferecem as melhores previsões de mercado?",
+        "body": "Utilize o calendário económico para acompanhar eventos e publicações de dados importantes. Mantenha-se atualizado com notícias em tempo real através da FXStreet News e obtenha insights da Trading Central WebTV."
+      },
+      "tradingPatterns": {
+        "title": "Que ferramentas do nosso site são melhores para analisar padrões de trading?",
+        "body": "A WINPROFX oferece uma combinação de ferramentas de análise fundamental e técnica para ajudá-lo a prever movimentos de preço e analisar padrões. As ferramentas são gratuitas e acessíveis, permitindo-lhe planear operações com confiança."
+      },
+      "freeSignals": {
+        "title": "Onde posso aceder a sinais de trading gratuitos no site WINPROFX?",
+        "body": "Pode aceder a sinais gratuitos da Trading Central na sua Área Pessoal e na app WINPROFX Trade. Estes sinais combinam diversas abordagens analíticas e são valiosos tanto para principiantes como para traders experientes."
+      }
+    },
+    "bannerMeta": "Ferramentas analíticas",
+    "bannerTitle": "Ferramentas analíticas potentes para decisões de trading mais inteligentes",
+    "bannerDes": "Para ajudá-lo a planear operações com confiança, damos-lhe acesso às melhores ferramentas analíticas fundamentais e técnicas.",
+    "smartSignalsTitle": "Sinais de trading estratégicos",
+    "smartSignalsDes": "Aproveite ao máximo os sinais da Trading Central para elaborar os seus planos e técnicas de trading. Estes sinais combinam diversas técnicas analíticas e estão disponíveis na app WINPROFX Trade ou na sua Área Pessoal WINPROFX.",
+    "faqSubtitle": "Encontre respostas claras e concisas às perguntas mais comuns sobre trading, abertura de conta, depósitos, levantamentos e funcionalidades da plataforma.",
+    "faqKeys": [
+      "marketPredictions",
+      "tradingPatterns",
+      "freeSignals"
+    ]
+  },
+  "economicCalendar": {
+    "meta": "ECONOMIC CALENDAR",
+    "h1": "Calendário Económico",
+    "heroDescription": "Track global macroeconomic events, volatility indicators, and market-moving data in real-time.",
+    "symbolsLabel": "Symbols",
+    "sampleEvent": "Non-Farm Payrolls (NFP)",
+    "impactHigh": "High",
+    "tableHeaders": {
+      "time": "Time",
+      "symbol": "Symbol",
+      "event": "Event",
+      "impact": "Impact",
+      "actual": "Actual",
+      "forecast": "Forecast",
+      "previous": "Previous"
+    },
+    "sections": {
+      "understanding": {
+        "title": "Understanding and Utilizing the Forex Economic Calendar",
+        "p1": "A Forex Economic Calendar is an invaluable tool for traders, enabling them to monitor and analyze events that drive market movements and forecast price changes. It lists significant national and international news events in chronological order.",
+        "p2": "Key events such as monetary policy decisions, economic indicators, GDP announcements, Non-Farm Payrolls (NFP) figures, and interest rate changes are included, as they can heavily influence financial markets."
+      },
+      "whyUse": {
+        "title": "Why You Should Use the Forex Economic Calendar",
+        "p1": "A Forex Economic Calendar is essential for keeping abreast of upcoming news, reports, and announcements. These events can significantly affect the volatility of forex currency pairs, stocks, and other markets.",
+        "p2": "By using the calendar, traders can plan their trades more effectively and stay informed about chart patterns and indicators that may be impacted. Referring to the calendar before the trading day is a prudent practice, as these events can trigger significant price movements when released."
+      }
+    },
+    "faqTitle": "Frequently asked questions",
+    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqs": {
+      "whatIs": {
+        "title": "What is a Forex Economic Calendar?",
+        "body": "<p>The Economic Calendar is a tool that lists significant economic events and data releases in chronological order, which can impact financial markets.</p>"
+      },
+      "howToUse": {
+        "title": "How can I use the Forex Economic Calendar for trading?",
+        "body": "<p>Traders use the Economic Calendar to stay informed about upcoming events that might influence market movements, helping them plan their trades more effectively.</p>"
+      },
+      "eventTypes": {
+        "title": "What types of events are listed on the Forex Economic Calendar?",
+        "body": "<p>The Economic Calendar includes events such as monetary policy decisions, economic indicators, GDP announcements, Non-Farm Payrolls (NFP) figures, and interest rate changes.</p>"
+      },
+      "impact": {
+        "title": "How do Forex economic events impact trading?",
+        "body": "<p>Economic events can cause significant volatility in financial markets, influencing the prices of forex pairs, stocks, and other instruments.</p>"
+      },
+      "whereFind": {
+        "title": "Where can I find the Forex Economic Calendar on the WINPROFX platform?",
+        "body": "<p>The Economic Calendar is accessible in your Personal Area on the WINPROFX website or through the WINPROFX Trade app.</p>"
+      },
+      "notifications": {
+        "title": "Can I get notifications for upcoming Forex economic events?",
+        "body": "<p>Yes, you can receive notifications for upcoming economic events under the \"Mailbox\" tab on your trading platform.</p>"
+      },
+      "importance": {
+        "title": "Are all Forex economic events equally important for trading?",
+        "body": "<p>No, the impact of economic events varies. Major events like interest rate decisions and NFP figures typically have a higher impact than others.</p>"
+      },
+      "updated": {
+        "title": "How often is the Forex Economic Calendar updated?",
+        "body": "<p>The Economic Calendar is updated in real-time to ensure you have the most current information about upcoming events.</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "CURRENCY CALCULATOR",
+    "h1": "Calculadora Monetária",
+    "bannerMeta": "Calculator",
+    "bannerTitle": "Precision Trade Planning",
+    "bannerDes": "Calculate margin, pip values, and overnight swaps in real-time across global markets.",
+    "sectionTitle": "Forex Currency Calculator",
+    "sectionDes": "Forex Currency Calculator is a useful tool that helps traders quickly convert one currency into another using real-time exchange rates.",
+    "faqTitle": "Frequently asked questions",
+    "faqs": {
+      "whatIs": {
+        "title": "What is a Forex Currency Calculator?",
+        "body": "A Forex Currency Calculator is a tool that helps traders calculate pips, margin, spread, commission, and other important metrics for their trading positions."
+      },
+      "howToUse": {
+        "title": "How do I use a Forex Currency Calculator?",
+        "body": "Input your trade details, such as currency pair, position size, and leverage, to calculate various metrics like pips, margin, and spread."
+      },
+      "metrics": {
+        "title": "What metrics can the Forex Currency Calculator help me calculate?",
+        "body": "The calculator helps you determine pips, margin, spread, commission, and other essential trading metrics."
+      },
+      "free": {
+        "title": "Is a Forex Currency Calculator free to use?",
+        "body": "Yes, a Forex Currency Calculator on WINPROFX is free for all users."
+      },
+      "whyUse": {
+        "title": "Why should I use a Forex Currency Calculator?",
+        "body": "It simplifies complex calculations, helping you make more informed trading decisions and manage your positions effectively."
+      },
+      "allPairs": {
+        "title": "Can I use the Forex Currency Calculator for all currency pairs?",
+        "body": "Yes, the calculator supports all major and minor currency pairs."
+      },
+      "accountTypes": {
+        "title": "Does the Forex Currency Calculator account for different account types?",
+        "body": "Yes, you can customize the calculator settings to match your specific account type and trading conditions."
+      },
+      "accuracy": {
+        "title": "How accurate is the Forex Currency Calculator?",
+        "body": "The calculator provides highly accurate results based on the input data and current market conditions."
+      },
+      "whereFind": {
+        "title": "Where can I find the Forex Currency Calculator on WINPROFX?",
+        "body": "You can access the Forex Currency Calculator in the tools section of your Personal Area on the WINPROFX website."
+      },
+      "riskManagement": {
+        "title": "Can the Forex Currency Calculator help with risk management?",
+        "body": "Yes, by calculating key metrics, it helps you better understand and manage the risks associated with your trades."
+      }
+    }
+  },
+  "currencyConverter": {
+    "meta": "CURRENCY CONVERTER",
+    "h1": "Conversor de Moeda",
+    "bannerMeta": "Converter",
+    "bannerDes": "Calculate live exchange rates and convert all major and exotic currency pairs effortlessly with our user-friendly currency converter.",
+    "cardTitle": "Using the WINPROFX Currency Converter",
+    "cardDes": "Our currency converter assists you in swiftly and accurately converting one currency to another with real-time rates. This tool is essential when making deposits and withdrawals on your trading account.",
+    "steps": {
+      "selectBase": "From the available six dropdown lists, select your base currency.",
+      "selectTargets": "Choose up to five other currencies to convert to.",
+      "enterAmount": "Enter the amount you want to convert from the base currency.",
+      "autoCalculate": "The currency converter will automatically calculate and display the exchange rates for your chosen currencies."
+    },
+    "faqTitle": "Frequently asked questions",
+    "faqs": {
+      "selectBase": {
+        "title": "How do I select the base currency?",
+        "body": "You can select your base currency from the six available dropdown lists. This will be the currency you are converting from"
+      },
+      "selectTargets": {
+        "title": "How many currencies can I convert to?",
+        "body": "You can choose up to five other currencies to convert to simultaneously."
+      },
+      "realTimeRates": {
+        "title": "Are the exchange rates real-time?",
+        "body": "Yes, the currency converter uses real-time exchange rates to provide accurate conversions."
+      },
+      "freeToUse": {
+        "title": "Is the currency converter free to use?",
+        "body": "Yes, the WINPROFX currency converter is free for all users."
+      },
+      "enterAmount": {
+        "title": "How do I enter the amount to convert?",
+        "body": "Simply enter the amount you wish to convert from your base currency in the designated field. The converter will automatically calculate the equivalent values in the selected currencies."
+      },
+      "ratesUpdated": {
+        "title": "Are the exchange rates updated in real-time?",
+        "body": "Yes, the exchange rates used by the WINPROFX Currency Converter are updated in real-time to ensure accuracy."
+      },
+      "accountRequired": {
+        "title": "Can I use the currency converter without a WINPROFX account?",
+        "body": "No, you need to have a registered WINPROFX account to access and use the currency converter tool."
+      },
+      "updateFrequency": {
+        "title": "How often are the exchange rates updated?",
+        "body": "The exchange rates are updated continuously in real-time to reflect the most current market conditions."
+      }
+    }
+  },
+  "whyWinprofx": {
+    "title": "Why WINPROFX?",
+    "description": "WINPROFX offers advanced trading tools, real-time market updates, and a user-friendly platform to help traders make informed decisions and optimize their trading strategies."
+  },
+  "converterUi": {
+    "title": "Converta a sua moeda",
+    "account": "Conta",
+    "accountPlaceholder": "Introduza a sua conta",
+    "convertedAmount": "Montante convertido",
+    "convertedPlaceholder": "Montante convertido",
+    "convertNow": "Converter agora"
+  },
+  "calculatorUi": {
+    "yourOrder": "A sua ordem",
+    "accountType": "Tipo de conta",
+    "selectAccountType": "Selecione o tipo de conta",
+    "standard": "Standard",
+    "lotSizePlaceholder": "Introduza o tamanho do lote",
+    "disclaimer": "Aviso legal: A calculadora de trading é fornecida apenas para fins ilustrativos. Os resultados são educativos e estimativos; não deve basear-se neles para tomar decisões de investimento. Os resultados em tempo real só podem ser determinados no momento da execução da ordem.",
+    "accountCurrency": "Moeda da conta",
+    "selectAccountCurrency": "Selecione a moeda da conta",
+    "selectInstrument": "Selecione o instrumento",
+    "lot": "Lote",
+    "leverage": "Alavancagem",
+    "selectLeverage": "Selecione a alavancagem",
+    "calculateNow": "Calcular agora",
+    "results": "Resultados",
+    "margin": "Margem",
+    "spreadCost": "Custo do spread",
+    "commission": "Comissão",
+    "swapShot": "Swap curto",
+    "swapLong": "Swap longo",
+    "pipValue": "Valor do pip",
+    "pro": "Pro",
+    "ecn": "ECN",
+    "disclaimerLabel": "Aviso legal:",
+    "disclaimerBody": "A calculadora de trading é fornecida apenas para fins ilustrativos. Os resultados são educativos e estimativos; não deve basear-se neles para tomar decisões de investimento. Os resultados em tempo real só podem ser determinados no momento da execução da ordem."
+  }
+}

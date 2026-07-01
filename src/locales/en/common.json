@@ -33,5 +33,23 @@
   "store": {
     "appStore": "App Store",
     "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Page Not Found",
+    "seoTitle": "Page Not Found | WINPROFX",
+    "backHome": "Back to Home"
+  },
+  "download": {
+    "appStorePrefix": "Download on the",
+    "googlePlayPrefix": "GET IT ON",
+    "windowsPrefix": "Download for",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Open in",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Are You Ready to Start Trading",
+    "accountsDes": "Trade with an Award Winning broker!",
+    "openLiveAccount": "Open Live account"
   }
 }

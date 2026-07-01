@@ -2,7 +2,7 @@
 
 export const DEFAULT_LOCALE = 'en'
 
-export const LOCALE_CODES = ['en', 'hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja']
+export const LOCALE_CODES = ['en', 'hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja', 'es', 'pt']
 
 /** Re-export SEO readiness flags — source of truth: scripts/locale-seo-readiness.mjs */
 export { LOCALE_SEO_READY, PAGE_LOCALE_SEO_READY } from '@/lib/locale-seo-readiness'
@@ -18,6 +18,8 @@ export const LOCALE_META = {
   ms: { code: 'ms', label: 'Malay', nativeLabel: 'Bahasa Melayu', flag: '🇲🇾', dir: 'ltr' },
   zh: { code: 'zh', label: 'Chinese', nativeLabel: '中文', flag: '🇨🇳', dir: 'ltr' },
   ja: { code: 'ja', label: 'Japanese', nativeLabel: '日本語', flag: '🇯🇵', dir: 'ltr' },
+  es: { code: 'es', label: 'Spanish', nativeLabel: 'Español', flag: '🇪🇸', dir: 'ltr' },
+  pt: { code: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: '🇵🇹', dir: 'ltr' },
 }
 
 export function normalizeLocale(locale) {

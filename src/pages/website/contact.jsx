@@ -36,21 +36,20 @@ export default function Contact() {
         <Card>
           <IdentitySection title={t('contact.sections.getInTouch')}>
             <p className="mb-4">
-              WINPROFX provides customer support for account inquiries, trading platform assistance,
-              deposits, withdrawals, and general questions. Our main official website is{' '}
+              {t('contact.introP1')}{' '}
               <a href="https://winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
                 https://winprofx.org/
               </a>
               .
             </p>
             <p>
-              For account login and trading, use the{' '}
+              {t('contact.introP2Start')}{' '}
               <a href="https://my.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
-                client portal at my.winprofx.org
+                {t('contact.introP2ClientPortal')}
               </a>
-              . Partners should use{' '}
+              . {t('contact.introP2Middle')}{' '}
               <a href="https://partner.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
-                partner.winprofx.org
+                {t('contact.introP2PartnerPortal')}
               </a>
               .
             </p>
@@ -78,31 +77,31 @@ export default function Contact() {
 
           <IdentitySection title={t('contact.sections.businessHours')}>
             <p>
-              <strong className="text-white">Customer Support:</strong> Available 24 hours a day, 7 days a week
+              <strong className="text-white">{t('contact.customerSupport')}</strong> {t('contact.customerSupportHours')}
             </p>
             <p className="mt-2">
-              <strong className="text-white">Office Hours (UAE):</strong> Monday – Friday, 09:00 – 18:00 (GST)
+              <strong className="text-white">{t('contact.officeHours')}</strong> {t('contact.officeHoursValue')}
             </p>
           </IdentitySection>
 
           <IdentitySection title={t('contact.sections.contactRiskLegal')}>
             <p>
-              Before trading, please read our{' '}
+              {t('contact.riskLegalP1Start')}{' '}
               <Link to="/risk-warning/" className="text-white underline hover:text-primary">
-                Risk Warning
+                {t('contact.riskWarningLink')}
               </Link>{' '}
-              and review our{' '}
+              {t('contact.riskLegalP1Middle')}{' '}
               <Link to="/legal-documents/" className="text-white underline hover:text-primary">
-                Legal Documents
+                {t('contact.legalDocumentsLink')}
               </Link>
-              . Trading forex and CFDs involves significant risk and may not be suitable for all investors.
+              . {t('contact.riskLegalP1End')}
             </p>
             <p className="mt-4">
-              Verify official domains on our{' '}
+              {t('contact.officialDomainsNote')}{' '}
               <Link to="/official-domains/" className="text-white underline hover:text-primary">
-                Official Domains
+                {t('contact.officialDomainsLink')}
               </Link>{' '}
-              page before logging in or sharing personal information.
+              {t('contact.officialDomainsEnd')}
             </p>
           </IdentitySection>
 

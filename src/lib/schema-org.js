@@ -121,7 +121,7 @@ const PAGE_SCHEMA_EXTENSIONS = {
   },
 }
 
-export function buildOrganizationSchema(locale = 'en') {
+export function buildOrganizationSchema(locale = 'en', description = BRAND_DESCRIPTION, contactType = 'customer support') {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -130,7 +130,7 @@ export function buildOrganizationSchema(locale = 'en') {
     legalName: 'Winprofx Ltd.',
     url: `${BASE_URL}/`,
     logo: LOGO_URL,
-    description: BRAND_DESCRIPTION,
+    description,
     email: 'support@winprofx.com',
     sameAs: [...OFFICIAL_SAME_AS, ...SOCIAL_SAME_AS],
     address: {
@@ -142,7 +142,7 @@ export function buildOrganizationSchema(locale = 'en') {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        contactType: 'customer support',
+        contactType,
         url: `${BASE_URL}/contact/`,
         email: 'support@winprofx.com',
         availableLanguage: [locale],

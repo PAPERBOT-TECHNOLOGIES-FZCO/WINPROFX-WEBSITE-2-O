@@ -28,8 +28,23 @@
       "tradingPatterns": {
         "title": "当社ウェブサイトで取引パターン分析に最適なツールは？",
         "body": "WINPROFX はファンダメンタル分析とテクニカル分析ツールを組み合わせ、価格変動の予測と取引パターンの分析を支援します。ツールは無料で簡単にアクセスでき、自信を持って効果的に取引を計画できます。"
+      },
+      "freeSignals": {
+        "title": "Where can I access free trading signals on the WINPROFX website?",
+        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
       }
-    }
+    },
+    "bannerMeta": "Analytics Tools",
+    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
+    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
+    "smartSignalsTitle": "Strategic Trading Signals",
+    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
+    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqKeys": [
+      "marketPredictions",
+      "tradingPatterns",
+      "freeSignals"
+    ]
   },
   "economicCalendar": {
     "meta": "経済カレンダー",
@@ -200,5 +215,39 @@
   "whyWinprofx": {
     "title": "なぜ WINPROFX？",
     "description": "WINPROFX は高度な取引ツール、リアルタイムのマーケット更新、使いやすいプラットフォームを提供し、トレーダーが情報に基づいた判断を下し、取引戦略を最適化できるよう支援します。"
+  },
+  "converterUi": {
+    "title": "Convert Your Currency",
+    "account": "Account",
+    "accountPlaceholder": "Enter your account",
+    "convertedAmount": "Converted Amount",
+    "convertedPlaceholder": "Converted amount",
+    "convertNow": "Convert Now"
+  },
+  "calculatorUi": {
+    "yourOrder": "Your Order",
+    "accountType": "Account Type",
+    "selectAccountType": "Select account type",
+    "standard": "Standard",
+    "lotSizePlaceholder": "Enter your lot size",
+    "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
+    "accountCurrency": "Account Currency",
+    "selectAccountCurrency": "Select account Currency",
+    "selectInstrument": "Select instrument",
+    "lot": "Lot",
+    "leverage": "Leverage",
+    "selectLeverage": "Select leverage",
+    "calculateNow": "Calculate Now",
+    "results": "Results",
+    "margin": "Margin",
+    "spreadCost": "Spread Cost",
+    "commission": "Commission",
+    "swapShot": "Swap Shot",
+    "swapLong": "Swap Long",
+    "pipValue": "Pip Value",
+    "pro": "Pro",
+    "ecn": "ECN",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
   }
 }

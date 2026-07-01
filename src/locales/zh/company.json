@@ -45,5 +45,9 @@
     "uaeRegional": "官方阿联酋/区域域名",
     "clientPortal": "官方客户门户",
     "partnerPortal": "官方合作伙伴/IB 门户"
+  },
+  "schema": {
+    "brandDescription": "WINPROFX is a forex and CFD trading brand associated with Winprofx Ltd., an International Business Company incorporated in Saint Lucia.",
+    "customerSupport": "customer support"
   }
 }

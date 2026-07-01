@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom';
 import { Container } from '@/components/grid'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -6,7 +7,6 @@ import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import SeoHead from '@/components/seo-head'
 import { useSeo } from '@/hooks/use-seo'
-import { useTranslation } from 'react-i18next'
 
 import img_1 from '@/assets/img/blog/1.png'
 import img_2 from '@/assets/img/blog/2.png'
@@ -27,72 +27,25 @@ export default function Blog() {
   }))
     const [active_category, set_active_category] = useState(categorys[0]);
 
-    const blogs_item = [
-        {
-            img: img_1,
-            date: '06 - 21 - 2026',
-            title: 'WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview',
-            des: '',
-            category: ['forex', 'crypto', 'metals']
-        },
-        {
-            img: img_2,
-            date: '06 - 21 - 2026',
-            title: 'Indices Trading with WINPROFX',
-            des: 'When it comes to trading indices in India, having the right platform can significantly impact your success.',
-            category: ['indices', '', '']
-        },
-        {
-            img: img_3,
-            date: '06 - 21 - 2026',
-            title: 'Forex Trading with WINPROFX',
-            des: 'In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success.',
-            category: ['forex', '', '']
-        },
-
-        {
-            img: img_4,
-            date: '06 - 21 - 2026',
-            title: 'Crypto CFD Trading with WINPROFX',
-            des: '',
-            category: ['crypto', '', '']
-        },
-        {
-            img: img_5,
-            date: '06 - 21 - 2026',
-            title: 'Commodities Trading with WINPROFX',
-            des: '',
-            category: ['oil', '', '']
-        },
-        {
-            img: img_6,
-            date: '06 - 21 - 2026',
-            title: 'Gold and Metals Trading with WINPROFX',
-            des: '',
-            category: ['crypto', '', '']
-        },
-        {
-            img: img_4,
-            date: '06 - 21 - 2026',
-            title: 'WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview',
-            des: '',
-            category: ['crypto', '', '']
-        },
-        {
-            img: img_5,
-            date: '06 - 21 - 2026',
-            title: 'Indices Trading with WINPROFX',
-            des: '',
-            category: ['crypto', '', '']
-        },
-        {
-            img: img_6,
-            date: '06 - 21 - 2026',
-            title: 'Forex Trading with WINPROFX',
-            des: '',
-            category: ['crypto', '', '']
-        },
+    const postKeys = t('blog.postKeys', { returnObjects: true, defaultValue: [] })
+    const postImages = [img_1, img_2, img_3, img_4, img_5, img_6, img_4]
+    const postCategories = [
+      ['forex', 'crypto', 'metals'],
+      ['indices'],
+      ['forex'],
+      ['crypto'],
+      ['oil'],
+      ['metals'],
+      ['crypto'],
     ]
+
+    const blogs_item = (Array.isArray(postKeys) ? postKeys : []).map((key, idx) => ({
+      img: postImages[idx] ?? img_1,
+      date: '06 - 21 - 2026',
+      title: t(`blog.posts.${key}.title`),
+      des: t(`blog.posts.${key}.des`),
+      category: postCategories[idx] ?? ['forex'],
+    }))
 
     const filtered_blog = active_category.key === 'all' ? blogs_item : blogs_item.filter(blog => blog.category.some(cat => cat.toLowerCase() === active_category.key));
     const blog_card_class = 'flex flex-col bg-white/3 border border-white/8 border-solid backdrop-blur-2xl p-2 rounded-2xl md:rounded-3xl transition-all duration-300 main-shadow hover:-translate-y-1'

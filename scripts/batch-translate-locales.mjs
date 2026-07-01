@@ -9,6 +9,8 @@ const LOCALES = {
   ms: 'ms',
   zh: 'zh-CN',
   ja: 'ja',
+  es: 'es',
+  pt: 'pt',
 };
 
 const FILES = [
