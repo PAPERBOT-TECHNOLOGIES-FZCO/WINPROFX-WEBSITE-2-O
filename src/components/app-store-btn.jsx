@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { y, duration, once } from "@/utilities/animation";
 import { motion } from "framer-motion";
 
@@ -9,6 +10,7 @@ export default function AppStoreBtn({
   animation = true,
   delay = "0.2",
 }) {
+  const { t } = useTranslation("common");
   return (
     <motion.div
       initial={animation ? { opacity: 0, y: y } : ""}
@@ -42,7 +44,7 @@ export default function AppStoreBtn({
         {/* Text Container */}
         <div className="flex flex-col">
           <span className="text-[10px] font-normal text-white block mb-[3px]">
-            Download on the
+            {t("download.appStorePrefix")}
           </span>
           <svg
             width="74"

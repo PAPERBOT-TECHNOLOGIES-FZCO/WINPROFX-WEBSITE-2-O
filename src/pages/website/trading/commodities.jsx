@@ -9,44 +9,35 @@ import Cta from '@/components/trade/cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 import img from '@/assets/img/trade/crypto.png'
 import bg from '@/assets/img/trade/commodities-banner-bg.png'
 
 export default function Commodities() {
+    const seo = useSeo('commodities')
+    const { t } = useTranslation('markets')
+
     const item = [
         {
-            title: 'What are commodities?',
-            body: `
-                <p>Commodities are raw materials or primary agricultural products that can be bought and sold in the financial markets. They are typically used in the production of other goods and services and are traded on commodity exchanges around the world. Some examples include metals (gold, silver, and platinum), energy sources (coal, crude oil, and natural gas), agricultural products (soybeans, corn, and wheat), and livestock and animal products (cattle, eggs, and milk).</p>
-                
-                
-            `,
+            title: t('commodities.faq.whatAreCommodities.title'),
+            body: t('commodities.faq.whatAreCommodities.body'),
         },
         {
-            title: 'How does commodity trading work?',
-            body: `
-                <p>Commodities are raw materials or primary agricultural products that can be bought and sold in the financial markets. They are typically used in the production of other goods and services and are traded on commodity exchanges around the world. Some examples include metals (gold, silver, and platinum), energy sources (coal, crude oil, and natural gas), agricultural products (soybeans, corn, and wheat), and livestock and animal products (cattle, eggs, and milk). </p>
-                
-            `,
+            title: t('commodities.faq.howCommodityTradingWorks.title'),
+            body: t('commodities.faq.howCommodityTradingWorks.body'),
         },
         {
-            title: 'How much money do I need to start commodity trading?',
-            body: `
-                <p>Commodities are raw materials or primary agricultural products that can be bought and sold in the financial markets. They are typically used in the production of other goods and services and are traded on commodity exchanges around the world. Some examples include metals (gold, silver, and platinum), energy sources (coal, crude oil, and natural gas), agricultural products (soybeans, corn, and wheat), and livestock and animal products (cattle, eggs, and milk).</p>
-                
-            `,
+            title: t('commodities.faq.howMuchToStart.title'),
+            body: t('commodities.faq.howMuchToStart.body'),
         },
     ]
 
     return (
         <>
-            <SeoHead
-                title="Best Commodities Trading Platform in India | WINPROFX"
-                description="Explore the best commodities trading app and platform in India with WINPROFX. Get free funded accounts, low spreads, and advanced tools for successful commodities trading."
-                keywords="Best Commodities Trading App in India, WINPROFX Commodities Trading Platform, Free Funded Accounts, Commodities Brokers in India, Commodities Trading India, Low Spreads Commodities Trading, User-Friendly Commodities Trading App"
-                canonicalPath="/trading/commodities"
-            />
+            <SeoHead {...seo} canonicalPath="/trading/commodities" />
             <div className="h-screen pt-30 md:pt-0 xl:h-235 2xl:h-280 3xl:h-300 4xl:min-h-screen pb-13 md:pb-12 xl:pb-25 flex flex-col w-full relative">
                 <svg className='absolute top-0 right-0 -z-10 pointer-events-none' width="1920" height="971" viewBox="0 0 1920 971" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.6" filter="url(#filter0_f_1_9152)">
@@ -79,8 +70,8 @@ export default function Commodities() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col items-start justify-start max-w-150 lg:max-w-110 xl:max-w-160">
-                        <MetaText title="Commodities trading" className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" />
-                        <h1 className='max-w-75 mx-auto md:max-w-full text-3xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium'>Commodities Trading</h1>
+                        <MetaText title={t('commodities.banner.meta')} className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" />
+                        <h1 className='max-w-75 mx-auto md:max-w-full text-3xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium'>{t('commodities.banner.title')}</h1>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: y }}
@@ -88,8 +79,8 @@ export default function Commodities() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col gap-y-3 lg:max-w-120 xl:max-w-130 2xl:max-w-175 w-full">
-                        <p className='text-para2'>Take advantage of market volatility and choose from CFDs on spot commodities and futures. At WINPROFX, we offer some of the most popular instruments in the commodity market including gold, oil, and coffee, for speculation and hedging. </p>
-                        <p className='text-para2'>Trade per whole tick movement with zero commissions and no hidden fees. Explore our Best Commodity Trading Platform for seamless trading experiences.</p>
+                        <p className='text-para2'>{t('commodities.banner.description1')}</p>
+                        <p className='text-para2'>{t('commodities.banner.description2')}</p>
                         <Button animation={false} className="mt-3 lg:mt-5" />
                     </motion.div>
                 </div>
@@ -99,10 +90,10 @@ export default function Commodities() {
                 <Container>
                     <div className="flex flex-col gap-y-6 lg:gap-y-8 max-w-6xl">
                         <Card
-                            meta="Commodities trading"
-                            title="Live Commodity Markets"
+                            meta={t('commodities.card.meta')}
+                            title={t('commodities.card.title')}
                             des={<>
-                                <p>Monitor real-time price action and track daily volatility across top-tier metals, energy, and agricultural assets.</p>
+                                <p>{t('commodities.card.description')}</p>
                             </>}
                             img={img}
                         />
@@ -112,10 +103,11 @@ export default function Commodities() {
             </div>
             <div className="common-padding pt-0">
                 <div className='max-w-215 mx-auto px-3'>
-                    <CommonTitle className='text-center' title="Learn About Commodities Trading" />
+                    <CommonTitle className='text-center' title={t('commodities.learn.title')} />
                     <Accordion items={item} activeItem={0} />
                 </div>
             </div>
+            <MarketPageTrustLinks />
         </>
     )
 }

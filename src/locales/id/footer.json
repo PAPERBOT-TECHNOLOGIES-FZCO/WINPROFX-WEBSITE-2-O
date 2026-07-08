@@ -1,0 +1,49 @@
+{
+  "tagline": "Satu platform. Banyak pasar. Peluang trading tanpa batas dengan WINPROFX.",
+  "sections": {
+    "explore": "Jelajahi",
+    "markets": "Pasar",
+    "contactInfo": "Info Kontak",
+    "officialDomains": "Domain Resmi",
+    "importantLinks": "Tautan Penting",
+    "trustLegal": "Kepercayaan & Legal",
+    "riskWarning": "Peringatan Risiko",
+    "restrictedRegions": "Wilayah Terbatas"
+  },
+  "officialWebsite": {
+    "title": "Situs Resmi WINPROFX",
+    "description": "WINPROFX adalah merek trading Forex dan CFD yang menawarkan akses platform trading, layanan akun klien, alat program mitra, dan layanan dukungan terkait trading melalui situs web dan portal resminya."
+  },
+  "domains": {
+    "officialWebsite": "Situs Resmi",
+    "officialAlternate": "Domain Alternatif Resmi",
+    "officialUae": "Domain Resmi UAE/Regional",
+    "clientPortal": "Portal Klien",
+    "partnerPortal": "Portal Mitra"
+  },
+  "links": {
+    "home": "Beranda",
+    "platform": "Platform Trading",
+    "aboutUs": "Tentang Kami",
+    "about": "Tentang",
+    "companyProfile": "Profil Perusahaan",
+    "contact": "Kontak",
+    "officialDomains": "Domain Resmi",
+    "forex": "Forex",
+    "indices": "Indeks",
+    "crypto": "Kripto",
+    "metals": "Logam",
+    "commodities": "Komoditas",
+    "oil": "Minyak",
+    "riskWarning": "Peringatan Risiko",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsConditions": "Syarat & Ketentuan",
+    "amlPolicy": "Kebijakan AML",
+    "depositWithdrawPolicy": "Kebijakan Deposit & Penarikan",
+    "restrictedCountries": "Negara Terbatas",
+    "legalDocuments": "Dokumen Legal",
+    "riskDisclosure": "Pengungkapan Risiko"
+  },
+  "restrictedRegionsText": "WINPROFX Limited tidak menyediakan layanan untuk warga negara/penduduk USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. Layanan WINPROFX Limited tidak dimaksudkan untuk didistribusikan kepada, atau digunakan oleh, siapa pun di negara atau yurisdiksi mana pun di mana distribusi atau penggunaan tersebut akan bertentangan dengan hukum atau peraturan setempat.",
+  "copyright": "© {{year}} Hak Cipta Dilindungi oleh WINPROFX"
+}

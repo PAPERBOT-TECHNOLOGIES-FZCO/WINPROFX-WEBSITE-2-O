@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation, Trans } from 'react-i18next'
 import CommonTitle from '@/components/common-title'
 import { Container } from '@/components/grid'
 import { y, duration, once } from '@/utilities/animation'
@@ -10,45 +11,25 @@ import icon_4 from '@/assets/img/introducing-broker/advantages-img4.png'
 import bg from '@/assets/img/introducing-broker/reasons-bg.png'
 
 export default function Advantages() {
-    const items = [
-        {
-            icon: icon_1,
-            des: 'Up to <b>90%</b> profit share from spreads'
-        },
-        {
-            icon: icon_2,
-            des: 'Reputable Broker With <b>40+</b> Industry awards'
-        },
-        {
-            icon: icon_3,
-            des: 'Evolving everyday in the market'
-        },
-        {
-            icon: icon_4,
-            des: 'Trade and Win <b>Rewards</b> Everyday'
-        },
-    ]
-    const steps = [
-        {
-            text: "Fastest Withdrawal"
-        },
-        {
-            text: "No Swap"
-        },
-        {
-            text: "No Commission"
-        },
-        {
-            text: "Low Spread"
-        }
-    ];
+    const { t } = useTranslation('trading')
+    const cardKeys = ['profitShare', 'awards', 'evolving', 'rewards']
+    const icons = [icon_1, icon_2, icon_3, icon_4]
+    const items = cardKeys.map((key, index) => ({
+        icon: icons[index],
+        desKey: `introducingBroker.advantages.cards.${key}`,
+    }))
+    const stepKeys = ['withdrawal', 'noSwap', 'noCommission', 'lowSpread']
+    const steps = stepKeys.map((key) => ({
+        text: t(`introducingBroker.advantages.steps.${key}`),
+    }))
     return (
         <div className='common-padding max-w-6xl mx-auto'>
             <Container>
                 <CommonTitle
                     className="max-w-170 text-center mx-auto mb-10 md:mb-12 lg:mb-16"
-                    title={`Exclusive Partner Advantages`}
-                    des={`Partnering Perks: Commission Riches, Award-Winning Trust, Market Evolution and Daily Win Rewards!`} desClass="max-w-114 mx-auto"
+                    title={t('introducingBroker.advantages.title')}
+                    des={t('introducingBroker.advantages.description')}
+                    desClass="max-w-114 mx-auto"
                 />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 items-stretch">
                     {items.map((item, idx) => (
@@ -62,7 +43,13 @@ export default function Advantages() {
                                 <div className='w-45 h-45 mx-auto'>
                                     <img src={item.icon} alt="" className="w-full h-full object-contain object-center" />
                                 </div>
-                                <p dangerouslySetInnerHTML={{ __html: item.des }} className='text-sm md:text-base leading-normal text-white' />
+                                <p className='text-sm md:text-base leading-normal text-white'>
+                                    <Trans
+                                        i18nKey={item.desKey}
+                                        ns="trading"
+                                        components={{ b: <b /> }}
+                                    />
+                                </p>
                             </div>
                         </motion.div>
                     ))}
@@ -75,17 +62,18 @@ export default function Advantages() {
                         transition={{ duration: duration, delay: `0.2` }}
                         viewport={{ once: once, amount: 0.2 }}
                         className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-150 lg:max-w-200 mb-4 lg:mb-6 leading-tight'>
-                        What Sets Us Apart: <br className="hidden md:block" /> Reasons for Client Preference
+                        {t('introducingBroker.advantages.stepsTitle')} <br className="hidden md:block" /> {t('introducingBroker.advantages.stepsSubtitle')}
                     </motion.h2>
                     <div className="space-y-4 w-max md:ms-auto">
                         {steps.map((item, index) => (
                             <motion.div
+                                key={index}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: `0.${index * 2}` }}
                                 viewport={{ once: true }}
                             >
-                                <div key={index} className="flex items-center gap-3">
+                                <div className="flex items-center gap-3">
                                     <span className="flex items-center justify-center rounded-full min-w-11 max-w-11 h-11 border border-white/10 bg-[radial-gradient(50%_50%_at_50%_50%,rgba(255,255,255,0)_54.72%,rgba(255,255,255,0.06)_100%)] text-white">
                                         {index + 1}
                                     </span>

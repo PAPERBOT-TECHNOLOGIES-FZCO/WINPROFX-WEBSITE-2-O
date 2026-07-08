@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import bg from "@/assets/img/noise.png";
 import { y, duration, once } from "@/utilities/animation";
 import { motion } from "framer-motion";
 
 export default function Button({
   to = "https://my.winprofx.org/register",
-  text = "Open Account",
+  text,
   className = "",
   animation = true,
   delay = "0.2",
@@ -14,6 +15,8 @@ export default function Button({
   gradientEnd = "#00C8EB",
   variant = "default",
 }) {
+  const { t } = useTranslation("common");
+  const resolvedText = text ?? t("buttons.openAccount");
   const isTransparent = variant === "outline";
   const backgroundStyle = isTransparent
     ? { backgroundImage: "none" }
@@ -48,7 +51,7 @@ export default function Button({
         )}
 
         <span className="inline-block pl-4 translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ease-in-out">
-          {text}
+          {resolvedText}
         </span>
         <span className="relative flex items-center size-8.5 justify-center rounded-full bg-[#E9E9E9] text-[#0D0F12] shadow-[0_-1px_1px_0_#FFF_inset,0_4px_4px_0_rgba(0,217,255,0.25)_inset,0_1px_1px_0_rgba(0,217,255,0.60)_inset] overflow-hidden">
           <svg

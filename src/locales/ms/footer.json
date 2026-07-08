@@ -1,0 +1,49 @@
+{
+  "tagline": "Satu platform. Pelbagai pasaran. Peluang trading tanpa had dengan WINPROFX.",
+  "sections": {
+    "explore": "Terokai",
+    "markets": "Pasaran",
+    "contactInfo": "Maklumat Hubungan",
+    "officialDomains": "Domain Rasmi",
+    "importantLinks": "Pautan Penting",
+    "trustLegal": "Amanah & Undang-undang",
+    "riskWarning": "Amaran Risiko",
+    "restrictedRegions": "Wilayah Terhad"
+  },
+  "officialWebsite": {
+    "title": "Laman Web Rasmi WINPROFX",
+    "description": "WINPROFX ialah jenama trading Forex dan CFD yang menawarkan akses platform trading, perkhidmatan akaun pelanggan, alat program rakan kongsi, dan perkhidmatan sokongan berkaitan trading melalui laman web dan portal rasminya."
+  },
+  "domains": {
+    "officialWebsite": "Laman Web Rasmi",
+    "officialAlternate": "Domain Alternatif Rasmi",
+    "officialUae": "Domain Rasmi UAE/Serantau",
+    "clientPortal": "Portal Pelanggan",
+    "partnerPortal": "Portal Rakan Kongsi"
+  },
+  "links": {
+    "home": "Laman Utama",
+    "platform": "Platform Dagangan",
+    "aboutUs": "Tentang Kami",
+    "about": "Tentang",
+    "companyProfile": "Profil Syarikat",
+    "contact": "Hubungi",
+    "officialDomains": "Domain Rasmi",
+    "forex": "Forex",
+    "indices": "Indeks",
+    "crypto": "Kripto",
+    "metals": "Logam",
+    "commodities": "Komoditi",
+    "oil": "Minyak",
+    "riskWarning": "Amaran Risiko",
+    "privacyPolicy": "Dasar Privasi",
+    "termsConditions": "Terma & Syarat",
+    "amlPolicy": "Dasar AML",
+    "depositWithdrawPolicy": "Dasar Deposit & Pengeluaran",
+    "restrictedCountries": "Negara Terhad",
+    "legalDocuments": "Dokumen Undang-undang",
+    "riskDisclosure": "Pendedahan Risiko"
+  },
+  "restrictedRegionsText": "WINPROFX Limited tidak menyediakan perkhidmatan untuk warganegara/penduduk USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. Perkhidmatan WINPROFX Limited tidak bertujuan untuk diedarkan kepada, atau digunakan oleh, sesiapa sahaja di mana-mana negara atau bidang kuasa di mana pengedaran atau penggunaan sedemikian akan bertentangan dengan undang-undang atau peraturan tempatan.",
+  "copyright": "© {{year}} Hak Cipta Terpelihara oleh WINPROFX"
+}

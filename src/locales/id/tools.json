@@ -1,0 +1,253 @@
+{
+  "analytics": {
+    "meta": "ANALITIK",
+    "h1": "Alat Analitik Canggih untuk Keputusan Trading yang Lebih Cerdas",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "Pelacak Acara",
+        "title": "Lacak Peristiwa Ekonomi Utama dengan Economic Calendar",
+        "des": "Tetap update tentang peristiwa ekonomi penting dan rilis data untuk meningkatkan strategi trading Anda di WINPROFX."
+      },
+      "marketNews": {
+        "meta": "Berita Pasar",
+        "title": "Berita Pasar Real-Time dari WINPROFX",
+        "des": "Tetap update dengan berita pasar dan pembaruan terbaru dari tim FXStreet News secara real-time. Gunakan aplikasi WINPROFX Trade atau WINPROFX Personal Area."
+      }
+    },
+    "smartSignals": {
+      "meta": "Sinyal Cerdas",
+      "title": "Sinyal Cerdas",
+      "des": "Dapatkan wawasan actionable dari Trading Central untuk mendukung keputusan trading Anda."
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "Alat apa di platform kami yang menawarkan prediksi pasar terbaik?",
+        "body": "Gunakan Economic Calendar untuk melacak peristiwa ekonomi penting dan rilis data. Tetap update dengan berita real-time melalui FXStreet News dan dapatkan wawasan dari Trading Central WebTV."
+      },
+      "tradingPatterns": {
+        "title": "Alat apa di situs web kami yang terbaik untuk menganalisis pola trading?",
+        "body": "WINPROFX menyediakan kombinasi alat analisis fundamental dan teknis untuk membantu Anda memprediksi pergerakan harga dan menganalisis pola trading. Alat gratis dan mudah diakses."
+      },
+      "freeSignals": {
+        "title": "Where can I access free trading signals on the WINPROFX website?",
+        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+      }
+    },
+    "bannerMeta": "Analytics Tools",
+    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
+    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
+    "smartSignalsTitle": "Strategic Trading Signals",
+    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
+    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqKeys": [
+      "marketPredictions",
+      "tradingPatterns",
+      "freeSignals"
+    ]
+  },
+  "economicCalendar": {
+    "meta": "KALENDER EKONOMI",
+    "h1": "Kalender Ekonomi",
+    "tableHeaders": {
+      "time": "Waktu",
+      "symbol": "Simbol",
+      "event": "Acara",
+      "impact": "Dampak",
+      "actual": "Aktual",
+      "forecast": "Perkiraan",
+      "previous": "Sebelumnya"
+    },
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "heroDescription": "Lacak peristiwa makroekonomi global, indikator volatilitas, dan data yang menggerakkan pasar secara real-time.",
+    "symbolsLabel": "Simbol",
+    "sampleEvent": "Penggajian Non-Pertanian (NFP)",
+    "impactHigh": "Tinggi",
+    "sections": {
+      "understanding": {
+        "title": "Memahami dan Memanfaatkan Kalender Ekonomi Forex",
+        "p1": "Kalender Ekonomi Forex adalah alat berharga bagi trader, memungkinkan mereka memantau dan menganalisis peristiwa yang mendorong pergerakan pasar dan memperkirakan perubahan harga. Alat ini mencantumkan berita nasional dan internasional penting secara kronologis.",
+        "p2": "Peristiwa kunci seperti keputusan kebijakan moneter, indikator ekonomi, pengumuman PDB, angka Non-Farm Payrolls (NFP), dan perubahan suku bunga disertakan karena dapat sangat memengaruhi pasar keuangan."
+      },
+      "whyUse": {
+        "title": "Mengapa Anda Harus Menggunakan Kalender Ekonomi Forex",
+        "p1": "Kalender Ekonomi Forex penting untuk mengikuti berita, laporan, dan pengumuman mendatang. Peristiwa ini dapat memengaruhi volatilitas pasangan mata uang forex, saham, dan pasar lain secara signifikan.",
+        "p2": "Dengan menggunakan kalender, trader dapat merencanakan trading lebih efektif dan tetap mendapat informasi tentang pola grafik dan indikator yang mungkin terpengaruh. Merujuk kalender sebelum hari trading adalah praktik yang bijaksana."
+      }
+    },
+    "faqSubtitle": "Temukan jawaban jelas dan ringkas untuk pertanyaan paling umum tentang trading, pengaturan akun, deposit, penarikan, dan fitur platform.",
+    "faqs": {
+      "whatIs": {
+        "title": "Apa itu Kalender Ekonomi Forex?",
+        "body": "<p>Kalender Ekonomi adalah alat yang mencantumkan peristiwa ekonomi penting dan rilis data secara kronologis, yang dapat memengaruhi pasar keuangan.</p>"
+      },
+      "howToUse": {
+        "title": "Bagaimana cara menggunakan Kalender Ekonomi Forex untuk trading?",
+        "body": "<p>Trader menggunakan Kalender Ekonomi untuk tetap mendapat informasi tentang peristiwa mendatang yang mungkin memengaruhi pergerakan pasar, membantu merencanakan trading lebih efektif.</p>"
+      },
+      "eventTypes": {
+        "title": "Jenis peristiwa apa saja yang tercantum di Kalender Ekonomi Forex?",
+        "body": "<p>Kalender Ekonomi mencakup peristiwa seperti keputusan kebijakan moneter, indikator ekonomi, pengumuman PDB, angka Non-Farm Payrolls (NFP), dan perubahan suku bunga.</p>"
+      },
+      "impact": {
+        "title": "Bagaimana peristiwa ekonomi Forex memengaruhi trading?",
+        "body": "<p>Peristiwa ekonomi dapat menyebabkan volatilitas signifikan di pasar keuangan, memengaruhi harga pasangan forex, saham, dan instrumen lain.</p>"
+      },
+      "whereFind": {
+        "title": "Di mana saya dapat menemukan Kalender Ekonomi Forex di platform WINPROFX?",
+        "body": "<p>Kalender Ekonomi dapat diakses di Personal Area Anda di situs web WINPROFX atau melalui aplikasi WINPROFX Trade.</p>"
+      },
+      "notifications": {
+        "title": "Bisakah saya mendapat notifikasi untuk peristiwa ekonomi Forex mendatang?",
+        "body": "<p>Ya, Anda dapat menerima notifikasi untuk peristiwa ekonomi mendatang di tab \"Mailbox\" pada platform trading Anda.</p>"
+      },
+      "importance": {
+        "title": "Apakah semua peristiwa ekonomi Forex sama pentingnya untuk trading?",
+        "body": "<p>Tidak, dampak peristiwa ekonomi bervariasi. Peristiwa besar seperti keputusan suku bunga dan angka NFP biasanya memiliki dampak lebih tinggi.</p>"
+      },
+      "updated": {
+        "title": "Seberapa sering Kalender Ekonomi Forex diperbarui?",
+        "body": "<p>Kalender Ekonomi diperbarui secara real-time untuk memastikan Anda memiliki informasi paling mutakhir tentang peristiwa mendatang.</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "KALKULATOR MATA UANG",
+    "h1": "Kalkulator Mata Uang",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faqs": {
+      "whatIs": {
+        "title": "Apa itu Forex Currency Calculator?",
+        "body": "Forex Currency Calculator adalah alat yang membantu trader menghitung pips, margin, Spread, komisi, dan metrik penting lainnya untuk posisi trading mereka."
+      },
+      "howToUse": {
+        "title": "Bagaimana cara menggunakan Forex Currency Calculator?",
+        "body": "Masukkan detail trade seperti pasangan mata uang, ukuran posisi, dan Leverage untuk menghitung berbagai metrik seperti pips, margin, dan Spread."
+      },
+      "metrics": {
+        "title": "Metrik apa yang dapat dihitung Forex Currency Calculator?",
+        "body": "Kalkulator membantu menentukan pips, margin, Spread, komisi, dan metrik trading penting lainnya."
+      },
+      "free": {
+        "title": "Apakah Forex Currency Calculator gratis?",
+        "body": "Ya, Forex Currency Calculator di WINPROFX gratis untuk semua pengguna."
+      },
+      "whyUse": {
+        "title": "Mengapa saya harus menggunakan Forex Currency Calculator?",
+        "body": "Ini menyederhanakan perhitungan kompleks, membantu Anda membuat keputusan trading yang lebih baik dan mengelola posisi secara efektif."
+      },
+      "allPairs": {
+        "title": "Bisakah saya menggunakan Kalkulator Mata Uang Forex untuk semua pasangan mata uang?",
+        "body": "Ya, kalkulator mendukung semua pasangan mata uang mayor dan minor."
+      },
+      "accountTypes": {
+        "title": "Apakah Kalkulator Mata Uang Forex memperhitungkan jenis akun yang berbeda?",
+        "body": "Ya, Anda dapat menyesuaikan pengaturan kalkulator agar sesuai dengan jenis akun dan kondisi trading spesifik Anda."
+      },
+      "accuracy": {
+        "title": "Seberapa akurat Kalkulator Mata Uang Forex?",
+        "body": "Kalkulator memberikan hasil yang sangat akurat berdasarkan data input dan kondisi pasar saat ini."
+      },
+      "whereFind": {
+        "title": "Di mana saya dapat menemukan Kalkulator Mata Uang Forex di WINPROFX?",
+        "body": "Anda dapat mengakses Kalkulator Mata Uang Forex di bagian alat Personal Area Anda di situs web WINPROFX."
+      },
+      "riskManagement": {
+        "title": "Bisakah Kalkulator Mata Uang Forex membantu manajemen risiko?",
+        "body": "Ya, dengan menghitung metrik utama, alat ini membantu Anda lebih memahami dan mengelola risiko yang terkait dengan trade Anda."
+      }
+    },
+    "bannerMeta": "Kalkulator",
+    "bannerTitle": "Perencanaan Trade Presisi",
+    "bannerDes": "Hitung margin, nilai pip, dan swap overnight secara real-time di seluruh pasar global.",
+    "sectionTitle": "Kalkulator Mata Uang Forex",
+    "sectionDes": "Kalkulator Mata Uang Forex adalah alat berguna yang membantu trader mengonversi satu mata uang ke mata uang lain dengan cepat menggunakan kurs real-time."
+  },
+  "currencyConverter": {
+    "meta": "KONVERTER MATA UANG",
+    "h1": "Konverter Mata Uang",
+    "cardTitle": "Menggunakan WINPROFX Currency Converter",
+    "cardDes": "Konverter mata uang kami membantu Anda mengonversi satu mata uang ke mata uang lain dengan cepat dan akurat menggunakan kurs real-time. Alat ini penting saat melakukan deposit dan penarikan di akun trading Anda.",
+    "steps": {
+      "selectBase": "Dari enam daftar dropdown yang tersedia, pilih mata uang dasar Anda.",
+      "selectTargets": "Pilih hingga lima mata uang lain untuk dikonversi.",
+      "enterAmount": "Masukkan jumlah yang ingin dikonversi dari mata uang dasar.",
+      "autoCalculate": "Konverter mata uang akan otomatis menghitung dan menampilkan kurs untuk mata uang yang Anda pilih."
+    },
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "faqs": {
+      "selectBase": {
+        "title": "Bagaimana cara memilih mata uang dasar?",
+        "body": "Anda dapat memilih mata uang dasar dari enam daftar dropdown yang tersedia. Ini adalah mata uang yang Anda konversi dari."
+      },
+      "selectTargets": {
+        "title": "Berapa banyak mata uang yang bisa saya konversi?",
+        "body": "Anda dapat memilih hingga lima mata uang lain untuk dikonversi secara bersamaan."
+      },
+      "realTimeRates": {
+        "title": "Apakah kurs pertukaran real-time?",
+        "body": "Ya, konverter mata uang menggunakan kurs pertukaran real-time untuk konversi yang akurat."
+      },
+      "freeToUse": {
+        "title": "Apakah konverter mata uang gratis?",
+        "body": "Ya, konverter mata uang WINPROFX gratis untuk semua pengguna."
+      },
+      "enterAmount": {
+        "title": "Bagaimana cara memasukkan jumlah yang akan dikonversi?",
+        "body": "Cukup masukkan jumlah yang ingin dikonversi dari mata uang dasar Anda di kolom yang tersedia. Konverter akan otomatis menghitung nilai setara dalam mata uang yang dipilih."
+      },
+      "ratesUpdated": {
+        "title": "Apakah kurs pertukaran diperbarui secara real-time?",
+        "body": "Ya, kurs yang digunakan oleh WINPROFX Currency Converter diperbarui secara real-time untuk memastikan akurasi."
+      },
+      "accountRequired": {
+        "title": "Bisakah saya menggunakan konverter mata uang tanpa akun WINPROFX?",
+        "body": "Tidak, Anda harus memiliki akun WINPROFX terdaftar untuk mengakses dan menggunakan alat konverter mata uang."
+      },
+      "updateFrequency": {
+        "title": "Seberapa sering kurs pertukaran diperbarui?",
+        "body": "Kurs pertukaran diperbarui terus-menerus secara real-time untuk mencerminkan kondisi pasar terkini."
+      }
+    },
+    "bannerMeta": "Konverter",
+    "bannerDes": "Hitung kurs live dan konversi semua pasangan mata uang mayor dan eksotis dengan mudah menggunakan konverter mata uang kami yang ramah pengguna."
+  },
+  "whyWinprofx": {
+    "title": "Mengapa WINPROFX?",
+    "description": "WINPROFX menawarkan alat trading canggih, pembaruan pasar real-time, dan platform yang mudah digunakan untuk membantu trader membuat keputusan tepat dan mengoptimalkan strategi trading."
+  },
+  "converterUi": {
+    "title": "Convert Your Currency",
+    "account": "Account",
+    "accountPlaceholder": "Enter your account",
+    "convertedAmount": "Converted Amount",
+    "convertedPlaceholder": "Converted amount",
+    "convertNow": "Convert Now"
+  },
+  "calculatorUi": {
+    "yourOrder": "Your Order",
+    "accountType": "Account Type",
+    "selectAccountType": "Select account type",
+    "standard": "Standard",
+    "lotSizePlaceholder": "Enter your lot size",
+    "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
+    "accountCurrency": "Account Currency",
+    "selectAccountCurrency": "Select account Currency",
+    "selectInstrument": "Select instrument",
+    "lot": "Lot",
+    "leverage": "Leverage",
+    "selectLeverage": "Select leverage",
+    "calculateNow": "Calculate Now",
+    "results": "Results",
+    "margin": "Margin",
+    "spreadCost": "Spread Cost",
+    "commission": "Commission",
+    "swapShot": "Swap Shot",
+    "swapLong": "Swap Long",
+    "pipValue": "Pip Value",
+    "pro": "Pro",
+    "ecn": "ECN",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+  }
+}

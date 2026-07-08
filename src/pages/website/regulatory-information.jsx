@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Trans, useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -10,21 +11,20 @@ import RegistrationTable from '@/components/company-identity/registration-table'
 import DubaiLicenseTable from '@/components/company-identity/dubai-license-table'
 import LicenseClarification from '@/components/company-identity/license-clarification'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { getTrustPageFaqs, TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import {
   COMPANY_TYPE,
-  DOCUMENT_TYPES,
-  FINANCIAL_LICENSE_CLARIFICATION,
-  FINANCIAL_LICENSE_PENDING,
+  financialLicensePlaceholderRows,
   INCORPORATION_DATE,
   INCORPORATION_NUMBER,
   INCORPORATION_PDF_PATH,
-  INCORPORATION_PDF_TITLE,
   JURISDICTION,
   LEGAL_ENTITY_NAME,
-  financialLicensePlaceholderRows,
-  LICENSE_SCOPE_CLARIFICATION,
-  RISK_WARNING_SHORT,
 } from '@/lib/company-registration'
+
+const PAGE_KEY = 'regulatoryInformation'
 
 const incorporationSummaryRows = [
   { label: 'Legal Entity', value: LEGAL_ENTITY_NAME },
@@ -35,79 +35,86 @@ const incorporationSummaryRows = [
 ]
 
 export default function RegulatoryInformation() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('regulatoryInformation')
+  const faqItems = getTrustPageFaqs(t, '/regulatory-information')
+
+  const i18nVars = {
+    legalEntityName: LEGAL_ENTITY_NAME,
+    jurisdiction: JURISDICTION,
+    companyType: COMPANY_TYPE,
+    documentTypes: tCompany('documentTypes'),
+  }
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Regulatory Information | WINPROFX"
-        description="View WINPROFX regulatory and legal information, including Saint Lucia incorporation, Dubai Professional License, license scope clarification, and risk warning."
+        {...seo}
         canonicalPath="/regulatory-information"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
+        faqItems={faqItems}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Legal & Compliance" title="Regulatory Information" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
-          <IdentitySection title="Company Incorporation">
-            <p className="mb-4">
-              {LEGAL_ENTITY_NAME} is incorporated in {JURISDICTION} as an {COMPANY_TYPE}. The
-              company&apos;s certified incorporation documents include a {DOCUMENT_TYPES}.
-            </p>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.companyIncorporation`)}>
+            <p className="mb-4">{t(`pages.${PAGE_KEY}.content.incorporationIntro`, i18nVars)}</p>
             <RegistrationTable rows={incorporationSummaryRows} />
             <p className="mt-4">
-              <Link to="/company-registration/" className="text-white underline hover:text-primary">
-                View full company registration details
-              </Link>
+              <LocalizedLink to="/company-registration/" className="text-white underline hover:text-primary">
+                {t('shared.viewCompanyRegistration')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Dubai Professional License">
-            <p className="mb-4">
-              {LEGAL_ENTITY_NAME} holds a Dubai Professional License for its UAE representative
-              office. The license activity is listed as Representative Office.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiProfessionalLicense`)}>
+            <p className="mb-4">{t(`pages.${PAGE_KEY}.content.dubaiIntro`, i18nVars)}</p>
             <DubaiLicenseTable />
             <p className="mt-4">
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                View full Dubai Professional License page
-              </Link>
+              <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary">
+                {t('shared.viewDubaiLicensePage')}
+              </LocalizedLink>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="License Scope Clarification">
-            <p>{LICENSE_SCOPE_CLARIFICATION}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.licenseScopeClarification`)}>
+            <p>{tCompany('licenseScopeClarification')}</p>
             <div className="mt-4">
               <LicenseClarification showDubaiScope={false} />
             </div>
           </IdentitySection>
 
-          <IdentitySection title="Financial Services License Clarification">
-            <p>{FINANCIAL_LICENSE_CLARIFICATION}</p>
-            <p className="mt-4 text-para italic">{FINANCIAL_LICENSE_PENDING}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.financialServicesLicenseClarification`)}>
+            <p>{tCompany('financialLicenseClarification')}</p>
+            <p className="mt-4 text-para italic">{tCompany('financialLicensePending')}</p>
           </IdentitySection>
 
-          <IdentitySection title="Financial Regulatory License Details (When Verified)">
-            <p className="mb-4">
-              When verified financial regulatory license information becomes available, it will be
-              published in the table below with links to official regulator records. Until then, all
-              fields remain placeholders.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.financialRegulatoryLicenseDetails`)}>
+            <p className="mb-4">{t(`pages.${PAGE_KEY}.content.financialPlaceholderIntro`)}</p>
             <RegistrationTable rows={financialLicensePlaceholderRows} />
           </IdentitySection>
 
-          <IdentitySection title="Document Availability">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.documentAvailability`)}>
             <p>
-              Certified incorporation documents are available under the{' '}
-              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
-                Legal Documents
-              </Link>{' '}
-              section and on the{' '}
-              <Link to="/company-registration/" className="text-white underline hover:text-primary">
-                Company Registration
-              </Link>{' '}
-              page. Dubai license details are published on-page at{' '}
-              <Link to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                Dubai Professional License
-              </Link>
-              .
+              <Trans
+                i18nKey={`pages.${PAGE_KEY}.content.documentAvailability`}
+                ns="trust"
+                components={{
+                  legalDocsLink: (
+                    <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary" />
+                  ),
+                  companyRegistrationLink: (
+                    <LocalizedLink to="/company-registration/" className="text-white underline hover:text-primary" />
+                  ),
+                  dubaiLicenseLink: (
+                    <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary" />
+                  ),
+                }}
+              />
             </p>
             <p className="mt-4">
               <a
@@ -116,15 +123,20 @@ export default function RegulatoryInformation() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {INCORPORATION_PDF_TITLE}
+                {tCompany('incorporationPdfTitle')}
               </a>
             </p>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
+          <TrustPageFooter
+            canonicalPath="/regulatory-information"
+            faqItems={faqItems}
+            showRiskWarning={false}
+          />
           <IdentityNav />
         </Card>
       </Container>

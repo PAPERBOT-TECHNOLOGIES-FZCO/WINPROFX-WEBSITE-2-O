@@ -1,0 +1,641 @@
+{
+  "winPromotion": {
+    "meta": "WINPROFX एक्सक्लूसिव · मार्च - मई 2026",
+    "h1": "ट्रेड टू विन प्रोग्राम",
+    "des": "30 दिनों के भीतर निर्दिष्ट ट्रेडिंग वॉल्यूम हासिल करें और विशेष Apple रिवॉर्ड अनलॉक करें। जितना अधिक ट्रेड करेंगे, उतना बड़ा इनाम मिलेगा।",
+    "secondButton": "नियम और शर्तें देखें",
+    "rewardTiers": {
+      "subTitle": "रिवॉर्ड टियर",
+      "title": "ज़्यादा ट्रेड करें, ज़्यादा जीतें",
+      "des": "30 दिनों के भीतर अपना लक्ष्य lot volume पूरा करें और अपना इनाम पाएं। छह टियर, जीतने के छह मौके — हर lot आपको करीब लाता है।"
+    }
+  },
+  "tradeToWin": {
+    "h1": "ट्रेड टू विन प्रोग्राम",
+    "meta": "WINPROFX एक्सक्लूसिव",
+    "bannerTitle": "ज़्यादा ट्रेड करें, ज़्यादा जीतें",
+    "howItWorks": "यह कैसे काम करता है",
+    "programConditions": "प्रोग्राम की शर्तें",
+    "importantTerms": "महत्वपूर्ण शर्तें",
+    "labels": {
+      "tier": "टियर",
+      "lots": "लॉट",
+      "withinDays": "30 दिनों के भीतर"
+    },
+    "rewardTiersTitleHtml": "ज़्यादा ट्रेड करें, <span class=\"text-primary\">ज़्यादा जीतें</span>",
+    "howItWorksSection": {
+      "subTitle": "प्रक्रिया",
+      "titleHtml": "यह कैसे <span class=\"text-primary\">काम करता है</span>",
+      "des": "शुरू करना आसान है। ये चार कदम पूरे करें और विशेष Apple पुरस्कार जीतने की राह पर आगे बढ़ें।",
+      "steps": {
+        "registerOptIn": {
+          "title": "रजिस्टर करें और ऑप्ट-इन करें",
+          "body": "WINPROFX के साथ साइन अप करें और अपनी पहली जमा राशि से Trade to Win प्रोग्राम में ऑप्ट-इन करें।"
+        },
+        "chooseTier": {
+          "title": "अपना टियर चुनें",
+          "body": "वह रिवॉर्ड टियर चुनें जिसे आप लक्ष्य बना रहे हैं — Power Bank से लेकर नवीनतम iPhone तक।"
+        },
+        "trade30Days": {
+          "title": "30 दिनों के भीतर ट्रेड करें",
+          "body": "30 दिनों के भीतर अपना लक्ष्य ट्रेडिंग वॉल्यूम पूरा करें। योग्य ट्रेड कम से कम 3 मिनट तक होल्ड किए जाने चाहिए।"
+        },
+        "claimPrize": {
+          "title": "अपना पुरस्कार प्राप्त करें",
+          "body": "एक बार जब आप अपना वॉल्यूम लक्ष्य पूरा कर लें, आपका रिवॉर्ड पुष्टि हो जाता है और आपको भेज दिया जाता है।"
+        }
+      }
+    },
+    "programConditionsSection": {
+      "subTitle": "नियम और विवरण",
+      "titleHtml": "प्रोग्राम <span class=\"text-primary\">शर्तें</span>",
+      "items": {
+        "programPeriod": {
+          "label": "प्रोग्राम अवधि",
+          "value": "1 मार्च, 2025 – 31 मई, 2026"
+        },
+        "tradingTimeline": {
+          "label": "ट्रेडिंग समयसीमा",
+          "value": "आपकी शुरुआत की तारीख से 30 दिन"
+        },
+        "eligibleClients": {
+          "label": "योग्य क्लाइंट",
+          "value": "केवल रिटेल क्लाइंट (IB शामिल नहीं)"
+        },
+        "minimumHold": {
+          "label": "न्यूनतम होल्ड समय",
+          "value": "प्रत्येक योग्य ट्रेड के लिए 3 मिनट"
+        },
+        "excludedInstruments": {
+          "label": "बहिष्कृत इंस्ट्रूमेंट",
+          "value": "स्टॉक और क्रिप्टो पेयर"
+        },
+        "withdrawals": {
+          "label": "निकासी",
+          "value": "पूरे अभियान के दौरान अनुमत"
+        }
+      }
+    },
+    "importantTermsSection": {
+      "subTitle": "कानूनी",
+      "titleHtml": "महत्वपूर्ण <span class=\"text-primary\">शर्तें</span>",
+      "des": "Trade to Win प्रोग्राम में भाग लेने से पहले कृपया इन शर्तों को ध्यान से पढ़ें।",
+      "items": {
+        "fairPlay": {
+          "title": "निष्पक्ष खेल",
+          "body": "बाज़ार दुरुपयोग के किसी भी संकेत — जिसमें लेटेंसी आर्बिट्राज या हेरफेर तकनीकें शामिल हैं — के परिणामस्वरूप तत्काल अयोग्यता होगी।"
+        },
+        "eligibility": {
+          "title": "पात्रता सीमाएँ",
+          "body": "केवल स्व-निर्देशित व्यक्तिगत खाते भाग ले सकते हैं। प्रबंधित खाते या IB-रेफ़र्ड खाते योग्य नहीं हैं।"
+        },
+        "liability": {
+          "title": "दायित्व अस्वीकरण",
+          "body": "WINPROFX किसी भी ट्रेडिंग हानि के लिए जिम्मेदार नहीं है। यह प्रोग्राम प्रतिभागियों के जोखिम प्रोफ़ाइल या निवेश रणनीतियों को बदलता नहीं है।"
+        },
+        "dispute": {
+          "title": "विवाद समाधान",
+          "body": "इन शर्तों में सीधे संबोधित न किए गए किसी भी मुद्दे का प्रबंधन द्वारा निष्पक्ष और बाध्यकारी तरीके से समाधान किया जाएगा।"
+        }
+      }
+    }
+  },
+  "introducingBroker": {
+    "meta": "पार्टनर प्रोग्राम",
+    "h1": "Introducing Broker प्रोग्राम",
+    "des": "अधिकतम उपज, पूर्ण पारदर्शिता और दैनिक automated payouts के लिए डिज़ाइन किया गया अग्रणी Introducing Broker (IB) प्रोग्राम में शामिल हों।",
+    "buttonText": "पार्टनर बनें",
+    "advantages": {
+      "title": "विशेष पार्टनर लाभ",
+      "description": "WINPROFX के साथ introducing broker के रूप में पार्टनर बनें। स्वीकृत पार्टनर्स के लिए Commission structures, support resources और partnership terms प्रकाशित हैं।",
+      "cards": {
+        "profitShare": "Spreads से <b>90%</b> तक profit share",
+        "awards": "<b>40+</b> Industry awards के साथ प्रतिष्ठित Broker",
+        "evolving": "बाज़ार में हर दिन विकास",
+        "rewards": "हर दिन Trade करें और <b>Rewards</b> जीतें"
+      },
+      "stepsTitle": "हमें क्या अलग बनाता है:",
+      "stepsSubtitle": "क्लाइंट पसंद के कारण",
+      "steps": {
+        "withdrawal": "सबसे तेज़ Withdrawal",
+        "noSwap": "नो स्वैप",
+        "noCommission": "नो कमीशन",
+        "lowSpread": "कम स्प्रेड"
+      }
+    },
+    "benefits": {
+      "title": "WINPROFX के साथ Introducing Broker बनने के लाभ:",
+      "paragraph1": "WINPROFX के साथ Introducing Broker बनकर लाभों की दुनिया खोलें। उदार commission structures, industry recognition, निरंतर market evolution और traders को everyday rewards देने का अवसर पाएं।",
+      "paragraph2": "Best Broker Trading Platform के साथ trading partnerships के भविष्य को नए रूप में गढ़ने में हमारे साथ जुड़ें।",
+      "cardTitle": "5 Levels तक Multi-tier",
+      "cardDescription": "एक IB के रूप में आप referral traders के 5 sub levels तक हो सकते हैं।"
+    },
+    "payoutForm": {
+      "title": "विकास और सफलता की ओर अपनी यात्रा शुरू करें",
+      "heading": "Fast Payout Settlement",
+      "description": "अपना विवरण छोड़ें, हम जल्द ही आपसे संपर्क करेंगे।",
+      "fullName": "पूरा नाम",
+      "fullNamePlaceholder": "अपना पूरा नाम दर्ज करें",
+      "email": "ईमेल",
+      "emailPlaceholder": "अपना ईमेल दर्ज करें",
+      "phone": "फ़ोन नंबर",
+      "phonePlaceholder": "अपना नंबर दर्ज करें",
+      "message": "संदेश",
+      "messagePlaceholder": "अपना संदेश यहाँ लिखें",
+      "sendOtp": "OTP भेजें",
+      "sendingOtp": "भेजा जा रहा है...",
+      "otpSent": "OTP भेजा गया ✓",
+      "agree": "इस फ़ॉर्म को सबमिट करके, आप हमारी टीम द्वारा संपर्क किए जाने से सहमत हैं।",
+      "submit": "सबमिट करें"
+    },
+    "calculator": {
+      "title": "How Much You Can Earn? Calculate your profit",
+      "clients": "Clients",
+      "rewards": "Rewards",
+      "perLot": "Per lot",
+      "ctaTitle": "Become a WINPROFX Partner & Start Earning Today",
+      "steps": {
+        "apply": "Apply to become an <span>Introducing Broker </span>",
+        "share": "Attract clients by sharing your <span>Referral Link</span>",
+        "earn": "Earn <span>commission</span> on every trade your clients make"
+      },
+      "description": "This advanced commission calculator operates on the basis of Introducing Brokers' client count and their trading volume in lots, providing an accurate reflection of earned commissions.",
+      "partnerDes": "Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.",
+      "stepKeys": [
+        "apply",
+        "share",
+        "earn"
+      ]
+    }
+  },
+  "platform": {
+    "meta": "प्लेटफ़ॉर्म",
+    "h1": "ट्रेडिंग प्लेटफ़ॉर्म",
+    "bannerMeta": "प्लेटफ़ॉर्म",
+    "bannerDes": "WINPROFX ने वैश्विक व्यावसायिक विस्तार में महत्वपूर्ण सफलता हासिल की है। WINPROFX Forex और CFD ट्रेडिंग के लिए MetaTrader 5 (MT5) प्लेटफ़ॉर्म एक्सेस प्रदान करता है, जो Android और iPhone दोनों पर उपलब्ध है, जो आपको सफलता के एक कदम और करीब लाता है। MT5 अभी डाउनलोड करें और अनंत ट्रेडिंग अवसरों की दुनिया में कूद पड़ें।",
+    "cards": {
+      "mobile": {
+        "meta": "ट्रेडिंग प्लेटफ़ॉर्म",
+        "title": "मोबाइल के लिए MT5 डाउनलोड करें",
+        "description": "WINPROFX ने दुनिया भर में अपना व्यवसाय विस्तारित करने में लगातार सफलता पाई है, और अब MT5 Android और iPhone पर उपलब्ध है — आप सफलता के एक कदम और करीब हैं। MT5 अभी डाउनलोड करें और असीमित ट्रेडिंग अवसरों की दुनिया में डुबकी लगाएँ।"
+      },
+      "desktop": {
+        "meta": "ट्रेडिंग प्लेटफ़ॉर्म",
+        "title": "डेस्कटॉप के लिए MT5 डाउनलोड करें",
+        "description": "अपने डेस्कटॉप पर MT5 की शक्ति का अनुभव करें। उन्नत चार्टिंग टूल, स्वचालित ट्रेडिंग क्षमताएँ और रियल-टाइम मार्केट डेटा एक्सेस करें। WINPROFX उन्नत सुविधाएँ और लचीलापन चाहने वाले पेशेवर ट्रेडर्स के लिए एक सहज वेब-आधारित ट्रेडिंग प्लेटफ़ॉर्म प्रदान करता है।"
+      }
+    }
+  },
+  "accounts": {
+    "meta": "खाते",
+    "h1": "ट्रेडिंग खाते",
+    "des": "आज के ट्रेडर्स के लिए डिज़ाइन किए गए फीचर-समृद्ध, कमीशन-मुक्त ट्रेडिंग खाते अनलॉक करें। अभी साइन अप करें और हमारे सबसे लोकप्रिय खाते के लाभ उठाएं।",
+    "chooseAccount": {
+      "title": "अपना अकाउंट चुनें",
+      "recommended": "अनुशंसित",
+      "register": "रजिस्टर करें",
+      "labels": {
+        "minimumDeposit": "न्यूनतम जमा",
+        "spread": "स्प्रेड",
+        "commission": "कमीशन",
+        "maxLeverage": "अधिकतम लीवरेज",
+        "instruments": "इंस्ट्रूमेंट"
+      },
+      "instruments": {
+        "forex": "Forex",
+        "metal": "Metal",
+        "crypto": "Crypto",
+        "energies": "Energies",
+        "indices": "Indices"
+      },
+      "plans": {
+        "standard": {
+          "title": "Standard",
+          "description": "हमारा सबसे लोकप्रिय अकाउंट। सभी प्रकार के ट्रेडर्स के लिए उपयुक्त।",
+          "minimumDeposit": "$50",
+          "spread": "0.2 pips से",
+          "commission": "No Commission",
+          "leverage": "1:500"
+        },
+        "pro": {
+          "title": "Pro",
+          "description": "हमारा instant execution अकाउंट, zero commission और low spread के साथ।",
+          "minimumDeposit": "$3000",
+          "spread": "0.1 pips से",
+          "commission": "No Commission",
+          "leverage": "1:500"
+        },
+        "ecn": {
+          "title": "ECN",
+          "description": "हमारा instant execution अकाउंट, zero commission और low spread के साथ",
+          "minimumDeposit": "$5000",
+          "spread": "0.0 pips से",
+          "commission": "प्रति लॉट प्रति साइड $3.50 तक",
+          "leverage": "1:500"
+        }
+      }
+    },
+    "featureComparison": {
+      "title": "Feature Comparison",
+      "standard": "STANDARD",
+      "pro": "PRO",
+      "ecn": "ECN",
+      "rows": {
+        "minimumDeposit": "Minimum Deposit",
+        "spread": "Spread",
+        "commission": "Commission",
+        "maximumLeverage": "Maximum Leverage",
+        "instruments": "Instruments",
+        "minimumLotSize": "Minimum lot size",
+        "maximumLotSize": "Maximum lot size",
+        "marginCall": "Margin call",
+        "stopOut": "Stop out",
+        "orderExecution": "Order execution",
+        "swapFree": "Swap-Free"
+      },
+      "values": {
+        "spreadStandard": "From 0.2 pips",
+        "spreadPro": "From 0.1 pips",
+        "spreadEcn": "From 0 pips",
+        "commissionEcn": "Up to $3.50 each side per lot",
+        "orderExecution": "Market",
+        "swapFree": "Available"
+      },
+      "instrumentKeys": [
+        "forex",
+        "metal",
+        "crypto",
+        "energies",
+        "indices"
+      ]
+    }
+  },
+  "aboutUs": {
+    "meta": "हमारे बारे में",
+    "h1": "WINPROFX के बारे में",
+    "values": {
+      "advancedTechnology": {
+        "title": "उन्नत तकनीक",
+        "des": "हम बिजली की गति से execution और seamless ट्रेडिंग अनुभव प्रदान करने के लिए तकनीकी नवाचार की निरंतर खोज करते हैं।"
+      },
+      "clientCentric": {
+        "title": "क्लाइंट-केंद्रित दृष्टिकोण",
+        "des": "आपकी सफलता हमारी प्राथमिकता है। हम ट्रेडर्स को सफल होने के लिए आवश्यक संसाधन, liquidity और सहायता प्रदान करते हैं।"
+      },
+      "integrity": {
+        "title": "अटूट ईमानदारी",
+        "des": "विश्वास सर्वोपरि है। हम हर लेनदेन में पूर्ण पारदर्शिता और कड़े नैतिक मानकों के साथ काम करते हैं।"
+      },
+      "globalNetwork": {
+        "title": "वैश्विक नेटवर्क",
+        "des": "पेशेवरों के एक समृद्ध ecosystem में शामिल हों जहाँ सामूहिक insights और व्यक्तिगत प्रदर्शन पारस्परिक सफलता को आगे बढ़ाते हैं।"
+      }
+    },
+    "bannerTitle": "Pioneering Excellence: Redefining Trading Standards at WINPROFX",
+    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.org before trading or depositing.",
+    "companyInfoTitle": "Company Information",
+    "legalName": "Legal Name:",
+    "legalNameValue": "WINPROFX Limited",
+    "tradingName": "Trading Name:",
+    "tradingNameValue": "WINPROFX",
+    "primaryWebsite": "Primary Website:",
+    "regulation": "Regulation:",
+    "regulationValue": "Financial Services Commission of the Republic of Mauritius (Investment Dealer license)",
+    "support": "Support:",
+    "standardTitle": "The WINPROFX Standard",
+    "standardDes": "A foundation built on transparency, innovation, and uncompromising execution.",
+    "featuredIn": "As Featured In",
+    "faqTitle": "Your Guide to Seamless Trading",
+    "faqDes": "Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WINPROFX is smooth and successful.",
+    "valueKeys": [
+      "advancedTechnology",
+      "clientCentric",
+      "integrity",
+      "globalNetwork"
+    ],
+    "faqs": {
+      "whatIsWinprofx": {
+        "title": "What is WINPROFX?",
+        "body": "<p>WINPROFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WINPROFX stands out for several reasons:</p><ul><li><span><span>Global Regulation: </span> WINPROFX publishes company registration, legal entity, and regulatory scope information on its official Trust Center.</span></li><li><span><span>MT5 Platform Access:</span> WINPROFX provides MetaTrader 5 for desktop and mobile trading with standard order types and charting tools.</span></li><li><span><span>Withdrawal Processing:</span> Withdrawal requests are handled according to WINPROFX published policies and verification requirements.</span></li><li><span><span>Tradable Instruments: </span> WINPROFX provides access to multiple forex and CFD market categories through MT5.</span></li><li><span><span>Spreads:</span> Spreads vary by instrument and market conditions. See account types for published spread information where available.</span></li></ul>"
+      },
+      "howToStart": {
+        "title": "How do I start trading with WINPROFX?",
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> or <a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
+      },
+      "instruments": {
+        "title": "Which Financial instruments can I trade with WINPROFX?",
+        "body": "<p>Common categories of financial instruments that traders can potentially access on WINPROFX: </p><ul><li><span><span>Forex (Foreign Exchange): </span>Currency pairs, such as EUR/USD, GBP/JPY, USD/JPY, etc.</span></li><li><span><span>Indices:</span>Benchmarks representing the performance of a group of stocks on a specific exchange such as S&P500, US30, etc.</span></li><li><span><span>Commodities:</span>Such as oil, agricultural products, etc.</span></li><li><span><span>Precious Metals:</span>Assets like gold, silver, platinum, palladium, etc.</span></li><li><span><span>Cryptocurrencies:</span>Digital currencies like Bitcoin, Ethereum, Litecoin, etc.</span></li></ul>"
+      },
+      "depositWithdraw": {
+        "title": "How can I deposit and withdraw funds on WINPROFX?",
+        "body": "<p>For clients convenience WINPROFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>"
+      },
+      "platforms": {
+        "title": "What trading platforms does WINPROFX support?",
+        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.org for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
+      },
+      "support": {
+        "title": "How can I contact WINPROFX customer support?",
+        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+      }
+    },
+    "faqKeys": [
+      "whatIsWinprofx",
+      "howToStart",
+      "instruments",
+      "depositWithdraw",
+      "platforms",
+      "support"
+    ]
+  },
+  "about": {
+    "meta": "आधिकारिक जानकारी",
+    "h1": "WINPROFX के बारे में",
+    "sections": {
+      "whatIsWinprofx": "WINPROFX क्या है?",
+      "servicesProvided": "प्रदान की गई सेवाएं",
+      "officialDomains": "आधिकारिक डोमेन",
+      "clientPartnerLogin": "क्लाइंट और पार्टनर लॉगिन",
+      "riskWarning": "जोखिम चेतावनी",
+      "contact": "संपर्क"
+    },
+    "whatIsBody": "WINPROFX एक Forex और CFD ट्रेडिंग ब्रांड है जो अपने आधिकारिक डोमेन और पोर्टल के माध्यम से ट्रेडिंग प्लेटफ़ॉर्म, क्लाइंट खाता सेवाएं, पार्टनर प्रोग्राम टूल और ट्रेडिंग-संबंधित सहायता सेवाएं प्रदान करता है।",
+    "services": {
+      "forexCfd": "Forex और CFD ट्रेडिंग एक्सेस",
+      "platformTools": "ट्रेडिंग प्लेटफ़ॉर्म जानकारी और टूल",
+      "clientPortal": "आधिकारिक क्लाइंट पोर्टल के माध्यम से क्लाइंट खाता प्रबंधन",
+      "partnerProgram": "पार्टनर और introducing broker प्रोग्राम टूल",
+      "support": "ट्रेडिंग-संबंधित ग्राहक सहायता सेवाएं"
+    }
+  },
+  "contact": {
+    "meta": "ग्राहक सहायता",
+    "h1": "WINPROFX से संपर्क करें",
+    "sections": {
+      "getInTouch": "संपर्क करें",
+      "contactChannels": "संपर्क चैनल",
+      "businessHours": "कार्य समय",
+      "contactRiskLegal": "संपर्क, जोखिम और कानूनी नोट"
+    },
+    "labels": {
+      "supportEmail": "सहायता ईमेल",
+      "phone": "फ़ोन",
+      "whatsapp": "WhatsApp",
+      "officialWebsite": "आधिकारिक वेबसाइट",
+      "clientPortal": "क्लाइंट पोर्टल",
+      "partnerPortal": "पार्टनर पोर्टल"
+    },
+    "introP1": "WINPROFX provides customer support for account inquiries, trading platform assistance, deposits, withdrawals, and general questions. Our main official website is",
+    "introP2Start": "For account login and trading, use the",
+    "introP2ClientPortal": "client portal at my.winprofx.org",
+    "introP2Middle": ". Partners should use",
+    "introP2PartnerPortal": "partner.winprofx.org",
+    "customerSupport": "Customer Support:",
+    "customerSupportHours": "Available 24 hours a day, 7 days a week",
+    "officeHours": "Office Hours (UAE):",
+    "officeHoursValue": "Monday – Friday, 09:00 – 18:00 (GST)",
+    "riskLegalP1Start": "Before trading, please read our",
+    "riskWarningLink": "Risk Warning",
+    "riskLegalP1Middle": "and review our",
+    "legalDocumentsLink": "Legal Documents",
+    "riskLegalP1End": "Trading forex and CFDs involves significant risk and may not be suitable for all investors.",
+    "officialDomainsNote": "Always verify you are on an official WINPROFX domain before logging in or depositing. See",
+    "officialDomainsLink": "Official Domains",
+    "officialDomainsEnd": "for the complete list."
+  },
+  "blog": {
+    "meta": "ब्लॉग",
+    "h1": "ब्लॉग",
+    "categories": {
+      "all": "सभी",
+      "forex": "Forex",
+      "indices": "इंडेक्स",
+      "crypto": "क्रिप्टो",
+      "oil": "तेल",
+      "metals": "धातु",
+      "commodities": "कमोडिटीज़"
+    },
+    "pageMeta": "ब्लॉग",
+    "pageTitle": "WINPROFX ब्लॉग",
+    "posts": {
+      "overview": {
+        "title": "WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview",
+        "des": ""
+      },
+      "indices": {
+        "title": "Indices Trading with WINPROFX",
+        "des": "When it comes to trading indices in India, having the right platform can significantly impact your success."
+      },
+      "forex": {
+        "title": "Forex Trading with WINPROFX",
+        "des": "In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success."
+      },
+      "crypto": {
+        "title": "Crypto CFD Trading with WINPROFX",
+        "des": ""
+      },
+      "commodities": {
+        "title": "Commodities Trading with WINPROFX",
+        "des": ""
+      },
+      "metals": {
+        "title": "Gold and Metals Trading with WINPROFX",
+        "des": ""
+      }
+    },
+    "postKeys": [
+      "overview",
+      "indices",
+      "forex",
+      "crypto",
+      "commodities",
+      "metals",
+      "overview"
+    ],
+    "details": {
+      "meta": "Overview",
+      "title": "WINPROFX Forex and CFD Trading Overview",
+      "des": "WINPROFX provides access to forex and CFD markets through MetaTrader 5. This overview explains platform access, account services, and where to find official company and risk information before trading.",
+      "sections": {
+        "markets": {
+          "title": "What markets does WINPROFX offer?",
+          "des": "WINPROFX offers access to forex, indices, crypto CFDs, metals, commodities, and oil through the MT5 platform. Instrument availability may vary by account type and region."
+        },
+        "mt5": {
+          "title": "MT5 Platform Access",
+          "des": "Clients can access MetaTrader 5 on desktop and mobile. The platform includes charting tools, order types, and account management features. Demo accounts may be available for practice."
+        },
+        "verify": {
+          "title": "Verify WINPROFX Before Trading",
+          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org."
+        },
+        "risk": {
+          "title": "Risk Warning",
+          "des": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Losses can exceed deposits when using leverage. Read the full risk warning on the official WINPROFX website before trading."
+        }
+      },
+      "sectionKeys": [
+        "markets",
+        "mt5",
+        "verify",
+        "risk"
+      ]
+    }
+  },
+  "promotionUi": {
+    "howItWorks": {
+      "subTitle": "यह कैसे काम करता है",
+      "title": "अपने इनाम तक पहुँचने के चार चरण",
+      "des": "शुरुआत करना आसान है। ये चरण पूरे करें और विशेष Apple इनाम जीतने की दिशा में आगे बढ़ें।",
+      "steps": {
+        "register": {
+          "title": "रजिस्टर करें",
+          "desc": "WINPROFX के साथ live खाता खोलें। नए क्लाइंट अपनी पहली जमा से ही opt in कर सकते हैं।"
+        },
+        "optIn": {
+          "title": "Opt In करें",
+          "desc": "Trade to Win प्रोग्राम चुनें और ट्रेडिंग शुरू करने से पहले अपना लक्ष्य reward tier चुनें।"
+        },
+        "trade": {
+          "title": "ट्रेड करें",
+          "desc": "योग्य instruments पर ट्रेड करें — qualifying lot गिनने के लिए प्रत्येक ट्रेड कम से कम 3 मिनट तक खुली रखें।"
+        },
+        "win": {
+          "title": "अपना इनाम जीतें",
+          "desc": "30 दिनों के भीतर अपना लक्ष्य lot volume पूरा करें और अपना विशेष इनाम प्राप्त करें।"
+        }
+      }
+    },
+    "programPeriod": {
+      "subTitle": "प्रोग्राम अवधि",
+      "title": "प्रोग्राम कब चलता है?",
+      "items": {
+        "activeDates": {
+          "title": "सक्रिय तिथियाँ",
+          "desc": "प्रोग्राम 1 मार्च 2025 से 31 मई 2026 तक चलता है। इस अवधि में किसी भी समय शामिल हों।"
+        },
+        "tradingTimeline": {
+          "title": "ट्रेडिंग समयरेखा",
+          "desc": "Opt in करने के बाद, अपनी शुरुआत की तिथि से 30 दिनों में अपना लक्ष्य volume पूरा करें और इनाम प्राप्त करें।"
+        },
+        "optInDeadline": {
+          "title": "Opt-In अंतिम तिथि",
+          "desc": "नए क्लाइंट अपनी पहली जमा से opt in कर सकते हैं। देरी न करें — हर दिन आपकी 30-दिवसीय अवधि में गिना जाता है।"
+        }
+      }
+    },
+    "eligibility": {
+      "subTitle": "पात्रता",
+      "title": "कौन भाग ले सकता है?",
+      "des": "Trade to Win प्रोग्राम में शामिल होने से पहले पात्रता आवश्यकताओं की समीक्षा करें।",
+      "items": {
+        "whoCanJoin": {
+          "title": "कौन शामिल हो सकता है",
+          "desc": "केवल retail clients के लिए। Introducing Brokers (IBs) बाहर हैं और इस campaign में भाग नहीं ले सकते।"
+        },
+        "singleEntry": {
+          "title": "एकल प्रविष्टि",
+          "desc": "प्रत्येक प्रतिभागी एक समय में केवल एक program activity में शामिल हो सकता है। Opt in से पहले अपना tier सावधानी से चुनें।"
+        },
+        "withdrawals": {
+          "title": "निकासी की अनुमति",
+          "desc": "Campaign के दौरान निकासी की अनुमति है और इससे आप program से बाहर नहीं होंगे।"
+        },
+        "tradeDuration": {
+          "title": "ट्रेड अवधि",
+          "desc": "योग्य ट्रेड्स को आपके लक्ष्य की ओर qualifying lot गिनने के लिए कम से कम 3 मिनट तक खुला रखना होगा।"
+        },
+        "excludedInstruments": {
+          "title": "बाहर किए गए instruments",
+          "desc": "Stocks और cryptocurrency pairs इस promotion के लिए योग्य नहीं हैं। अन्य सभी supported instruments योग्य हैं।"
+        },
+        "accountType": {
+          "title": "खाता प्रकार",
+          "desc": "केवल self-directed individual accounts भाग ले सकते हैं। Managed accounts या IB-referred accounts योग्य नहीं हैं।"
+        }
+      }
+    },
+    "startTrading": {
+      "subTitle": "शुरू करें",
+      "title": "WINPROFX के साथ ट्रेडिंग शुरू करें!",
+      "des": "आप जितने अधिक lots ट्रेड करेंगे, उतने करीब एक विशेष इनाम के। आज ही अपना live खाता खोलें और Trade to Win प्रोग्राम में opt in करें।",
+      "steps": {
+        "register": {
+          "title": "रजिस्टर",
+          "desc": "अपना live खाता बनाएं"
+        },
+        "fund": {
+          "title": "फंड",
+          "desc": "अपनी पहली जमा करें"
+        },
+        "trade": {
+          "title": "ट्रेड",
+          "desc": "अपना lot volume लक्ष्य पूरा करें"
+        },
+        "claim": {
+          "title": "इनाम प्राप्त करें",
+          "desc": "अपना विशेष इनाम प्राप्त करें"
+        }
+      },
+      "questionsPrefix": "प्रश्न? हमें कॉल करें",
+      "questionsSuffix": "या देखें"
+    },
+    "ptConditions": {
+      "subTitle": "महत्वपूर्ण शर्तें",
+      "title": "प्रोग्राम नियम और शर्तें",
+      "des": "Trade to Win प्रोग्राम में भाग लेने से पहले कृपया इन शर्तों को ध्यान से पढ़ें।",
+      "items": {
+        "fairPlay": {
+          "title": "निष्पक्ष व्यवहार",
+          "desc": "latency arbitrage या manipulative trading techniques जैसे market abuse के संकेत तुरंत program से अयोग्यता का कारण बनेंगे।"
+        },
+        "dispute": {
+          "title": "विवाद समाधान",
+          "desc": "इन शर्तों में सीधे संबोधित नहीं किए गए मुद्दों को management निष्पक्ष और बाध्यकारी तरीके से हल करेगी। Management का निर्णय अंतिम है।"
+        },
+        "liability": {
+          "title": "दायित्व अस्वीकरण",
+          "desc": "WINPROFX किसी भी trading loss के लिए जिम्मेदार नहीं होगा। यह program प्रतिभागियों के risk profiles या investment strategies को नहीं बदलता।"
+        },
+        "general": {
+          "title": "सामान्य शर्तें",
+          "desc": "WINPROFX किसी भी समय इस program को संशोधित या समाप्त करने का अधिकार सुरक्षित रखता है। WINPROFX की सभी मौजूदा terms and conditions इन program-specific conditions के अतिरिक्त लागू होती हैं।"
+        }
+      },
+      "riskWarning": "Forex और leveraged products में ट्रेडिंग में महत्वपूर्ण जोखिम शामिल है और यह सभी निवेशकों के लिए उपयुक्त नहीं है। ट्रेडिंग से आपकी प्रारंभिक निवेश राशि से अधिक नुकसान हो सकता है। सुनिश्चित करें कि आप शामिल जोखिमों को पूरी तरह समझते हैं।",
+      "readFullRiskDisclosure": "पूर्ण जोखिम प्रकटीकरण पढ़ें →"
+    },
+    "rewardTiers": {
+      "volumeLabel": "लॉट",
+      "items": {
+        "tier1": {
+          "prize": "पावर बैंक",
+          "desc": "जहाँ भी ट्रेड करें, चार्ज रहें"
+        },
+        "tier2": {
+          "prize": "एप्पल AirPods",
+          "desc": "अपने हाथ में pro-level performance"
+        },
+        "tier3": {
+          "prize": "एप्पल वॉच",
+          "desc": "शीर्ष ट्रेडर्स के लिए अंतिम इनाम"
+        },
+        "tier4": {
+          "prize": "आईपैड",
+          "desc": "बड़ी स्क्रीन पर smarter ट्रेड करें"
+        },
+        "tier5": {
+          "prize": "आईपैड Pro",
+          "desc": "pro-level बड़ी स्क्रीन पर smarter ट्रेड करें"
+        },
+        "tier6": {
+          "prize": "नवीनतम iPhone",
+          "desc": "elite traders के लिए अंतिम डिवाइस"
+        }
+      },
+      "tradingVolumeLabel": "ट्रेडिंग वॉल्यूम",
+      "noteLabel": "नोट:",
+      "note": "Opt-in तिथि से 30 दिनों के भीतर अपना लक्ष्य volume पूरा करें। Stocks और crypto pairs बाहर हैं।"
+    }
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "lastReviewed": "2 June 2026",
+    "lastReviewedIso": "2026-06-02",
+    "reviewedBy": "Tim Kepatuhan & Operasi WINPROFX"
+  },
+  "trustCenter": {
+    "h1": "Pusat Kepercayaan WINPROFX",
+    "intro": "Pusat Kepercayaan WINPROFX adalah pusat informasi resmi perusahaan, hukum, risiko, penarikan, dukungan, dan verifikasi domain. Gunakan halaman di bawah ini untuk memverifikasi WINPROFX sebelum masuk, menyetor dana, atau membagikan dokumen pribadi.",
+    "verifyCalloutTitle": "Verifikasi domain resmi sebelum bertindak",
+    "verifyCalloutBody": "Selalu pastikan Anda berada di domain resmi WINPROFX sebelum memasukkan kredensial login, melakukan deposit, atau mengunggah dokumen KYC. Situs web palsu dan peniru dapat menggunakan branding serupa.",
+    "viewOfficialDomains": "Lihat domain resmi WINPROFX →",
+    "howToVerify": "Cara memverifikasi WINPROFX →",
+    "sections": {
+      "companyLegal": "Informasi Perusahaan & Hukum",
+      "verification": "Verifikasi & Keamanan Domain",
+      "trustSupport": "Kepercayaan, Penarikan & Dukungan",
+      "brandGuides": "Panduan Verifikasi Merek",
+      "brandGuidesIntro": "Halaman resmi untuk pencarian verifikasi umum:"
+    }
+  },
+  "pages": {
+    "companyProfile": {
+      "label": "Profil Perusahaan",
+      "summary": "Ikhtisar merek dan perusahaan resmi WINPROFX.",
+      "meta": "Informasi Resmi",
+      "h1": "Profil Perusahaan",
+      "intro": "Informasi resmi tentang merek WINPROFX, situs web, portal, layanan, saluran dukungan, dan pemberitahuan risiko perdagangan.",
+      "sections": {
+        "brandOverview": "Ikhtisar Merek",
+        "legalEntityAndRegistration": "Badan Hukum dan Pendaftaran",
+        "uaeRepresentativeOffice": "Representative Office UEATERM",
+        "trustAndTransparency": "Kepercayaan dan Transparansi",
+        "officialBrandInformation": "Informasi Merek Resmi",
+        "officialDomainsAndPortalGuidance": "Panduan Domain dan Portal Resmi",
+        "winprofxServices": "Layanan NAMA MERK",
+        "userSafetyAndBrandVerification": "Keamanan Pengguna dan Verifikasi Merek",
+        "riskWarning": "Peringatan Resiko",
+        "restrictedCountries": "Negara Terlarang dan Ketersediaan Layanan",
+        "legalAndPolicyDocuments": "Dokumen Hukum dan Kebijakan",
+        "contactWinprofx": "Hubungi NAMA MEREK",
+        "frequentlyAskedQuestions": "Pertanyaan yang Sering Diajukan"
+      },
+      "content": {
+        "brandOverview1": "{{brandName}} adalah merek perdagangan valas dan CFD yang menyediakan akses ke platform perdagangan, layanan akun klien, alat program mitra, informasi terkait perdagangan, dan layanan dukungan melalui situs web dan portal resminya.",
+        "brandOverview2": "Tujuan halaman ini adalah untuk memberikan informasi resmi yang jelas kepada pengguna, mitra, dan mesin pencari tentang merek WINPROFX, domain resminya, saluran dukungan, layanan, dan pemberitahuan terkait risiko.",
+        "brandOverview3": "Pengguna harus mengandalkan domain dan portal resmi yang tercantum di situs web ini saat mengakses layanan WINPROFX, memverifikasi identitas, atau menghubungi dukungan.",
+        "legalEntityIntro": "{{brandName}} dikaitkan dengan {{legalEntityName}}, suatu JENIS PERUSAHAAN yang tergabung dalam {{jurisdiction}}. Dokumen pendirian perusahaan meliputi a {{documentTypes}}.",
+        "legalEntityRegulatory": "For regulatory and license-related information, visit the {{regulatoryLink}} page.",
+        "uaeOfficeIntro": "{{brandName}} mengoperasikan kantor perwakilan UAE dengan nama bisnis {{dubaiBusinessName}}, terdaftar di bawah Lisensi Profesional Dubai No. {{dubaiLicenseNumber}} dengan aktivitas lisensi terdaftar sebagai {{dubaiLicenseActivity}}.",
+        "trustIntro": "{{brandName}} menerbitkan informasi kepercayaan dan transparansi untuk membantu klien memverifikasi domain resmi, memahami proses penarikan, menyampaikan keluhan, dan mengakses rute eskalasi dukungan.",
+        "domainsGuidanceIntro": "{{brandName}} menggunakan domain dan portal resmi untuk menyediakan informasi situs web, akses akun klien, layanan mitra, dan dukungan komunikasi. Pengguna harus memverifikasi bahwa mereka mengunjungi domain resmi WINPROFX sebelum mendaftar, masuk, melakukan pembayaran, atau berbagi informasi terkait akun.",
+        "domainPurposes": {
+          "org": "Situs web resmi utama dan sumber informasi merek utama.",
+          "com": "Domain alternatif resmi untuk merek WINPROFX.",
+          "ae": "UAE / domain regional untuk informasi WINPROFX.",
+          "my": "Portal klien untuk akses akun dan layanan klien.",
+          "partner": "Portal mitra untuk akses terkait Introducing Broker / mitra."
+        },
+        "unlistedDomainWarning": "If a website, social media page, mobile app, email, or representative claims to represent WINPROFX but is not listed on the {{officialDomainsLink}} page, users should verify it before proceeding.",
+        "servicesIntro": "{{brandName}} menyediakan akses terkait perdagangan dan layanan dukungan melalui situs web dan portal resminya. Layanan yang tersedia mungkin mencakup akses platform, manajemen akun klien, alat mitra, dan informasi terkait pasar.",
+        "services": {
+          "forexCfd": {
+            "title": "Akses Perdagangan Forex dan CFD",
+            "description": "Akses ke layanan terkait perdagangan valas dan CFD melalui platform yang didukung dan saluran akun resmi."
+          },
+          "platform": {
+            "title": "Informasi Platform Perdagangan",
+            "description": "Panduan informasi dan akses untuk platform perdagangan yang digunakan oleh klien WINPROFX."
+          },
+          "clientAccount": {
+            "title": "Manajemen Akun Klien",
+            "description": "Akses portal klien untuk mengelola aktivitas terkait akun melalui sistem WINPROFX resmi."
+          },
+          "partnerPortal": {
+            "title": "Portal Mitra / Introducing Broker",
+            "description": "Alat dan sumber daya portal mitra untuk mitra yang disetujui dan Introducing Broker, jika berlaku."
+          },
+          "tools": {
+            "title": "Alat Perdagangan dan Informasi Pasar",
+            "description": "Alat terkait pasar, informasi perdagangan, dan sumber daya platform disediakan untuk pengguna melalui saluran resmi."
+          },
+          "support": {
+            "title": "Dukungan Pelanggan",
+            "description": "Bantuan dukungan melalui saluran kontak resmi WINPROFX, termasuk {{supportEmail}}."
+          }
+        },
+        "safetyIntro": "Pengguna harus selalu mengonfirmasi bahwa mereka mengakses WINPROFX melalui domain atau portal resmi. Sebelum memasukkan detail login, melakukan deposit, berkomunikasi dengan dukungan, atau berbagi dokumen, pengguna harus memverifikasi alamat situs web dan hanya menggunakan saluran WINPROFX resmi.",
+        "safetyTips": {
+          "checkDomain": "Selalu periksa domain sebelum login.",
+          "noOtps": "Jangan bagikan OTP, kata sandi, atau detail akun sensitif dengan kontak tidak resmi.",
+          "noUnofficialPayments": "Hindari instruksi pembayaran tidak resmi dari perwakilan yang tidak dikenal.",
+          "verifySuspicious": "Verifikasi situs web atau komunikasi apa pun yang mencurigakan melalui halaman kontak resmi.",
+          "useDomainsPage": "Gunakan halaman domain resmi untuk mengonfirmasi situs web dan portal WINPROFX yang valid."
+        },
+        "safetyLinks": "Learn more on the {{officialDomainsLink}}, {{verifyLink}}, and {{contactLink}} pages.",
+        "riskBody1": "Perdagangan valas dan CFD melibatkan risiko yang signifikan dan mungkin tidak cocok untuk semua investor. Harga dapat bergerak dengan cepat, dan klien mungkin kehilangan sebagian atau seluruh modal yang mereka investasikan. Pengguna harus memahami risiko yang ada sebelum melakukan perdagangan dan hanya boleh berdagang dengan dana yang mampu mereka ambil risikonya.",
+        "riskBody2": "{{brandName}} tidak menjamin keuntungan perdagangan, pengembalian, atau hasil investasi. Keputusan perdagangan adalah tanggung jawab masing-masing pengguna.",
+        "riskLinks": "Read the full {{riskWarningLink}}, {{legalDocsLink}}, and {{termsLink}} before using any service.",
+        "restrictedIntro": "{{brandName}} mungkin tidak menyediakan layanan di negara atau yurisdiksi tertentu karena batasan hukum, peraturan, atau bisnis. Pengguna harus meninjau halaman Negara yang Dilarang sebelum mendaftar atau menggunakan layanan apa pun.",
+        "viewRestrictedCountries": "Lihat Negara yang Dibatasi",
+        "legalDocsIntro": "Pengguna harus membaca dokumen hukum, risiko, privasi, dan kebijakan yang berlaku sebelum menggunakan layanan WINPROFX apa pun.",
+        "contactIntro": "Untuk pertanyaan dukungan resmi, pengguna dapat menghubungi WINPROFX melalui email dukungan resmi atau halaman Kontak.",
+        "brandTableLabels": {
+          "brandName": "Nama Merek",
+          "mainWebsite": "Situs Resmi Utama",
+          "alternateDomain": "Domain Alternatif Resmi",
+          "uaeDomain": "UEATERM Resmi / Domain Regional",
+          "clientPortal": "Portal Klien",
+          "partnerPortal": "Portal Mitra",
+          "supportEmail": "Email Dukungan",
+          "lastUpdated": "Terakhir Diperbarui"
+        },
+        "legalLinks": {
+          "terms": "syarat dan Ketentuan",
+          "privacy": "Kebijakan Privasi",
+          "riskWarning": "Peringatan Resiko",
+          "aml": "Kebijakan AML",
+          "legalDocuments": "Dokumen Hukum",
+          "restrictedCountries": "Negara yang Dibatasi"
+        }
+      },
+      "faqs": {
+        "whatIsWinprofx": {
+          "question": "Apa itu NAMA MEREK?",
+          "answer": "WINPROFX adalah merek perdagangan valas dan CFD yang menawarkan akses ke platform perdagangan, layanan akun klien, alat program mitra, dan layanan dukungan terkait perdagangan melalui domain dan portal resminya."
+        },
+        "officialWebsite": {
+          "question": "Apa situs resmi WINPROFX?",
+          "answer": "The main official WINPROFX website is https://2/. WINPROFX also uses official alternate and regional domains listed on its Official Domains page."
+        },
+        "clientPortal": {
+          "question": "Apa yang dimaksud dengan portal klien WINPROFX?",
+          "answer": "The official WINPROFX client portal is https://my.1/. Users should verify the portal URL before logging in or entering account information."
+        },
+        "partnerPortal": {
+          "question": "Apa yang dimaksud dengan portal mitra WINPROFX?",
+          "answer": "The official WINPROFX partner portal is https://partner.1/. It is used for partner and Introducing Broker-related access, where applicable."
+        },
+        "contactSupport": {
+          "question": "Bagaimana cara menghubungi dukungan WINPROFX?",
+          "answer": "Pengguna dapat menghubungi dukungan WINPROFX di support@winprofx.com atau melalui halaman Kontak resmi."
+        },
+        "tradingRisk": {
+          "question": "Apakah trading forex dan CFD melibatkan risiko?",
+          "answer": "Ya. Perdagangan valas dan CFD melibatkan risiko yang signifikan dan mungkin tidak cocok untuk semua investor. Pengguna harus memahami risikonya sebelum melakukan perdagangan."
+        },
+        "verifyDomain": {
+          "question": "Bagaimana cara pengguna memverifikasi domain WINPROFX resmi?",
+          "answer": "Pengguna harus merujuk ke halaman Domain Resmi atau Verifikasi NAMA BRAND dan mengonfirmasi bahwa situs web atau portal terdaftar sebagai domain WINPROFX resmi."
+        }
+      }
+    },
+    "companyRegistration": {
+      "label": "Registrasi Perusahaan",
+      "summary": "Detail inkorporasi Saint Lucia dan dokumen bersertifikat.",
+      "meta": "Informasi Resmi",
+      "h1": "Registrasi Perusahaan",
+      "sections": {
+        "companyRegistrationDetails": "Detail Pendaftaran Perusahaan",
+        "shareAndCapitalInformation": "Informasi Saham dan Modal",
+        "memorandumAndArticles": "Memorandum dan Anggaran Dasar",
+        "dubaiBranchRegistration": "Pendaftaran Cabang Dubai",
+        "importantClarification": "Klarifikasi Penting",
+        "certifiedIncorporationDocuments": "Dokumen Pendirian Bersertifikat",
+        "riskWarning": "Peringatan Resiko",
+        "relatedInformation": "Informasi Terkait"
+      },
+      "content": {
+        "intro": "{{brandName}} dikaitkan dengan {{legalEntityName}}, suatu JENIS PERUSAHAAN yang tergabung dalam {{jurisdiction}}. Dokumen pendirian perusahaan yang disertifikasi meliputi a {{documentTypes}}.",
+        "shareCapitalBody": "Struktur permodalan saham perusahaan ditentukan dalam Memorandum Asosiasi dan Anggaran Dasar. {{legalEntityName}} memiliki saham resmi dalam mata uang USD dengan saham biasa yang mempunyai satu suara per saham. Saham yang diterbitkan oleh perusahaan tidak dapat ditebus sesuai permintaan.",
+        "memorandumBody": "Kumpulan dokumen pendirian bersertifikat mencakup Certificate of Incorporation, Memorandum of Association, and Articles of Association untuk {{legalEntityName}}. Memorandum Asosiasi mendefinisikan konstitusi perusahaan, struktur saham, dan objek. Anggaran Dasar mengatur pengurusan internal dan hak-hak pemegang saham.",
+        "subscriberLine": "Pelanggan untuk penggabungan adalah {{incorporationSubscriber}}.",
+        "dubaiBranchBody": "{{legalEntityName}} also holds a Dubai Professional License for its UAE representative office. See {{dubaiLicenseLink}} and {{uaeOfficeLink}} for details.",
+        "certifiedDocsIntro": "Dokumen pendirian bersertifikat untuk {{legalEntityName}} tersedia untuk diunduh:"
+      }
+    },
+    "legalEntityInformation": {
+      "label": "Informasi Entitas Hukum",
+      "summary": "Nama entitas hukum, yurisdiksi, dan struktur korporat.",
+      "meta": "Informasi Resmi",
+      "h1": "Informasi Entitas Hukum",
+      "sections": {
+        "brandAndLegalEntity": "Merek dan Badan Hukum",
+        "incorporationJurisdiction": "Yurisdiksi Pendirian",
+        "registeredAgent": "Agen Terdaftar",
+        "registeredOffice": "Kantor Terdaftar",
+        "entityStructure": "Struktur Entitas",
+        "dubaiBranchAndOffice": "Cabang dan Kantor Dubai",
+        "documentVerification": "Verifikasi Dokumen",
+        "officialDomainsAndPortals": "Domain dan Portal Resmi",
+        "legalDocuments": "Dokumen Hukum",
+        "complianceClarification": "Klarifikasi Kepatuhan",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "brandIntro": "{{brandName}} adalah merek dagang yang terkait dengannya {{legalEntityName}}, suatu JENIS PERUSAHAAN yang tergabung dalam {{jurisdiction}}. Informasi pendaftaran perusahaan disediakan untuk transparansi dan verifikasi pengguna.",
+        "entityStructureIntro": "{{legalEntityName}} adalah badan hukum induk yang didirikan di dalamnya {{jurisdiction}}. Cabang Dubai beroperasi sebagai kantor perwakilan di bawah Lisensi Profesional Dubai. Strukturnya dirangkum di bawah ini.",
+        "verifyBeforeAct": "Users should verify WINPROFX identity using the {{verifyLink}} checklist before registering, logging in, or sharing personal information.",
+        "legalDocsIntro": "Certified incorporation documents and other legal documents are available through the {{legalDocsLink}} section.",
+        "regulatoryVisit": "For regulatory and license-related information, visit the {{regulatoryLink}} page."
+      }
+    },
+    "dubaiProfessionalLicense": {
+      "label": "Dubai Professional License",
+      "summary": "Detail lisensi profesional kantor perwakilan UAE.",
+      "meta": "Hukum & Kepatuhan",
+      "h1": "Dubai Professional License",
+      "sections": {
+        "licenseDetails": "Detail Lisensi",
+        "dubaiOfficeInformation": "Informasi Kantor Dubai",
+        "documentVerification": "Verifikasi Dokumen",
+        "scopeClarification": "Klarifikasi Ruang Lingkup",
+        "relatedInformation": "Informasi Terkait",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro1": "{{dubaiBusinessName}} memegang Lisensi Profesional Dubai yang dikeluarkan oleh {{dubaiLicenseCategory}}. Halaman ini memberikan informasi lisensi berdasarkan dokumen Lisensi Profesional Dubai yang disertifikasi. Aktivitas lisensi terdaftar sebagai Representative Office dan status aktivitasnya Aktif.",
+        "intro2": "Lisensi Profesional Dubai untuk Representative Office mengonfirmasi pendaftaran bisnis lokal dan aktivitas kantor perwakilan yang diizinkan. Hal ini harus dipahami secara terpisah dari layanan keuangan, broker forex, atau otorisasi regulasi broker CFD.",
+        "qrVerification": "Pengguna yang memegang atau menerima salinan dokumen lisensi asli harus memverifikasinya menggunakan kode QR yang disediakan pada dokumen melalui saluran verifikasi resmi Department of Economy and Tourism."
+      }
+    },
+    "uaeRepresentativeOffice": {
+      "label": "Kantor Perwakilan UAE",
+      "summary": "Ruang lingkup kantor perwakilan Dubai dan informasi kontak.",
+      "meta": "Informasi Resmi",
+      "h1": "Kantor Perwakilan UAE",
+      "sections": {
+        "roleOfRepresentativeOffice": "Peran Representative Office",
+        "dubaiLicenseSummary": "Ringkasan Lisensi Dubai",
+        "importantClarification": "Klarifikasi Penting",
+        "userVerificationGuidance": "Panduan Verifikasi Pengguna",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro1": "{{brandName}} mengoperasikan kantor perwakilan UAE dengan nama bisnis {{dubaiBusinessName}}. Kantor tersebut terdaftar di bawah Lisensi Profesional Dubai No. {{dubaiLicenseNumber}} dengan aktivitas lisensi terdaftar sebagai Representative Office.",
+        "intro2": "Kantor perwakilan UAE menyediakan kehadiran bisnis lokal untuk WINPROFX di Uni Emirat Arab. Ini mendukung berbagi informasi, koordinasi dukungan, representasi merek, dan komunikasi klien atau mitra jika diizinkan berdasarkan cakupan lisensi kantor perwakilan.",
+        "roleBody": "Kantor perwakilan adalah jenis pendaftaran bisnis yang memungkinkan perusahaan asing membangun kehadiran lokal untuk aktivitas terbatas seperti pemasaran, penghubung, dan koordinasi. Ini tidak sama dengan lisensi perdagangan penuh atau lisensi broker jasa keuangan.",
+        "roleItems": {
+          "localPresence": "Kehadiran bisnis lokal dan representasi merek di UAE",
+          "supportCoordination": "Koordinasi informasi dan dukungan untuk klien dan mitra",
+          "officialChannels": "Komunikasi melalui saluran resmi WINPROFX jika diizinkan",
+          "uaeDomain": "Koneksi ke domain regional resmi UAE di winprofx.ae"
+        },
+        "verifyIntro": "Sebelum mendaftar, masuk, menyetor dana, atau membagikan informasi pribadi, pengguna harus memverifikasi:",
+        "verifyItems": {
+          "domain": "Domain situs web yang tepat (winprofx.org, winprofx.com, atau winprofx.ae)",
+          "businessName": "Nama bisnis lisensinya cocok {{dubaiBusinessName}}",
+          "support": "Saluran dukungan resmi ( {{supportEmail}} dan halaman Kontak)",
+          "clientPortal": "Client portal URL: https://my.0/",
+          "partnerPortal": "Partner portal URL: https://partner.0/"
+        }
+      }
+    },
+    "regulatoryInformation": {
+      "label": "Informasi Regulasi",
+      "summary": "Inkorporasi, lisensi Dubai, dan klarifikasi ruang lingkup regulasi.",
+      "meta": "Hukum & Kepatuhan",
+      "h1": "Informasi Regulasi",
+      "sections": {
+        "companyIncorporation": "Pendirian Perusahaan",
+        "dubaiProfessionalLicense": "Lisensi Profesional Dubai",
+        "licenseScopeClarification": "Klarifikasi Cakupan Lisensi",
+        "financialServicesLicenseClarification": "Klarifikasi Izin Jasa Keuangan",
+        "financialRegulatoryLicenseDetails": "Detail Lisensi Peraturan Keuangan (Saat Diverifikasi)",
+        "documentAvailability": "Ketersediaan Dokumen",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "incorporationIntro": "{{legalEntityName}} tergabung dalam {{jurisdiction}} sebagai {{companyType}}. Dokumen pendirian perusahaan yang disertifikasi meliputi a {{documentTypes}}.",
+        "dubaiIntro": "{{legalEntityName}} memegang Lisensi Profesional Dubai untuk kantor perwakilan UAE. Aktivitas lisensi terdaftar sebagai Representative Office.",
+        "financialPlaceholderIntro": "Ketika informasi izin regulasi keuangan yang terverifikasi tersedia, informasi tersebut akan dipublikasikan pada tabel di bawah dengan tautan ke catatan resmi regulator. Sampai saat itu tiba, semua bidang tetap menjadi pengganti.",
+        "documentAvailability": "Certified incorporation documents are available under the {{legalDocsLink}} section and on the {{companyRegistrationLink}} page. Dubai license details are published on-page at {{dubaiLicenseLink}}."
+      }
+    },
+    "officialDomains": {
+      "label": "Domain Resmi",
+      "summary": "Daftar situs web dan portal resmi WINPROFX.",
+      "meta": "Informasi Resmi",
+      "h1": "Domain Resmi WINPROFX",
+      "sections": {
+        "primaryCanonicalDomain": "Domain Kanonik Utama",
+        "entityAndLicenseContext": "Konteks Entitas dan Lisensi",
+        "officialDomains": "Domain Resmi",
+        "preLoginVerificationWarning": "Peringatan Verifikasi Pra-Login",
+        "verificationWarning": "Peringatan Verifikasi",
+        "companyInformation": "Informasi Perusahaan"
+      },
+      "content": {
+        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
+        "canonicalAliases": "winprofx.com dan winprofx.ae adalah alias domain resmi yang mungkin menyajikan konten situs web yang sama. Mereka tercantum dalam data terstruktur WINPROFX sebagai properti resmi terkait, namun winprofx.org tetap menjadi sumber kanonik untuk pengindeksan dan verifikasi.",
+        "entityContext": "{{brandName}} adalah merek dagang yang terkait dengannya {{legalEntityName}}, tergabung dalam {{jurisdiction}}. winprofx.ae domain regional UAE terhubung ke kantor perwakilan Dubai yang terdaftar sebagai {{dubaiBusinessName}} di bawah Lisensi Profesional Dubai No. {{dubaiLicenseNumber}}.",
+        "domainsIntro": "Domain resmi berikut dioperasikan sehubungan dengan NAMA MEREK / LEGALENTITAS:",
+        "preLoginWarning": "Sebelum mendaftar, masuk, menyetor dana, atau membagikan informasi pribadi, verifikasi bahwa URL situs web sama persis dengan salah satu domain resmi yang tercantum di atas. Jika situs web mengaku mewakili WINPROFX namun tidak tercantum di sini, jangan lanjutkan hingga diverifikasi dengan dukungan resmi.",
+        "preLoginChecklist": "Use the {{verifyLink}} checklist for step-by-step verification guidance.",
+        "verificationWarning": "Jika situs web mengklaim mewakili WINPROFX namun tidak tercantum di sini, verifikasikan situs tersebut dengan dukungan WINPROFX sebelum masuk, menyetor dana, atau membagikan informasi pribadi.",
+        "contactUnsure": "Contact {{supportEmail}} or visit our {{contactLink}} if you are unsure about a domain.",
+        "companyInfoLinks": "For brand and company details, see the {{companyProfileLink}}, {{companyRegistrationLink}}, and {{dubaiLicenseLink}} pages."
+      }
+    },
+    "verifyWinprofx": {
+      "label": "Verifikasi WINPROFX",
+      "summary": "Panduan langkah demi langkah untuk memverifikasi saluran resmi WINPROFX.",
+      "meta": "Verifikasi Resmi",
+      "h1": "Verifikasi WINPROFX",
+      "sections": {
+        "userVerificationChecklist": "Daftar Periksa Verifikasi Pengguna",
+        "verificationSummary": "Ringkasan Verifikasi",
+        "verifyOfficialDomains": "Verifikasi Domain Resmi",
+        "trustLegalTransparencyPages": "Halaman Kepercayaan, Hukum, dan Transparansi",
+        "safetyNote": "Catatan Keamanan"
+      },
+      "content": {
+        "intro": "Halaman ini mencantumkan situs web dan portal resmi yang dioperasikan oleh WINPROFX dan menyediakan daftar periksa verifikasi. Pengguna harus mengonfirmasi identitas merek, badan hukum, lisensi, domain, dan saluran dukungan sebelum masuk, mendaftar, menyetor dana, atau berbagi informasi pribadi.",
+        "checklist": {
+          "brand": "Verifikasi nama mereknya adalah WINPROFX",
+          "legalEntity": "Memverifikasi badan hukumnya LEGALENTITAS (penggabungan YURISDIKSI)",
+          "incorporation": "Periksa nomor pendirian YURISDIKSI 2023-00197 pada Daftar Perusahaan",
+          "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
+          "domains": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, atau partner.winprofx.org)",
+          "clientPortal": "Verify the client portal at https://my.0/",
+          "partnerPortal": "Verify the partner portal at https://partner.0/",
+          "support": "Gunakan email dukungan resmi support@winprofx.com atau halaman Kontak",
+          "readDocs": "Baca Peringatan Risiko dan Dokumen Hukum sebelum melakukan perdagangan atau deposit"
+        },
+        "safetyNote": "If a website claims to represent WINPROFX but is not listed here, contact WINPROFX support before using it. Visit our {{contactLink}} or email {{supportEmail}}."
+      }
+    },
+    "legalDocuments": {
+      "label": "Dokumen Legal",
+      "summary": "Indeks kebijakan, syarat, dan dokumen kepatuhan.",
+      "meta": "Hukum & Kepatuhan",
+      "h1": "Dokumen Legal",
+      "sections": {
+        "availableDocuments": "Dokumen yang Tersedia",
+        "questions": "Pertanyaan"
+      },
+      "content": {
+        "intro": "Dokumen hukum, kebijakan, dan kepercayaan berikut berlaku untuk layanan WINPROFX. Harap membacanya dengan cermat sebelum membuka akun atau menggunakan platform kami.",
+        "questions": "For questions about these documents, contact {{supportEmail}} or visit our {{contactLink}}.",
+        "docs": {
+          "incorporation": {
+            "name": "Dokumen Pendirian Perusahaan",
+            "description": "DOKTIPE LEGALENTITAS"
+          },
+          "dubaiLicense": {
+            "name": "Lisensi Profesional Dubai",
+            "description": "Informasi lisensi di halaman untuk {{dubaiBusinessName}} (Nomor Lisensi. {{dubaiLicenseNumber}}). Aktivitas Representative Office — bukan izin broker jasa keuangan."
+          },
+          "companyRegistration": {
+            "name": "Informasi Pendaftaran Perusahaan",
+            "description": "Detail lengkap pendaftaran perusahaan untuk LEGALENTITAS"
+          },
+          "legalEntity": {
+            "name": "Informasi Badan Hukum",
+            "description": "Badan hukum, agen terdaftar, kantor terdaftar, cabang Dubai, dan domain resmi."
+          },
+          "regulatory": {
+            "name": "Informasi Peraturan",
+            "description": "Pendirian perusahaan, lisensi Dubai, dan klarifikasi lisensi jasa keuangan."
+          },
+          "uaeOffice": {
+            "name": "Representative Office UEATERM",
+            "description": "Peran kantor perwakilan UAE, ringkasan lisensi, dan panduan verifikasi."
+          },
+          "withdrawal": {
+            "name": "Transparansi Penarikan",
+            "description": "Ikhtisar proses penarikan, metode, dan rute eskalasi."
+          },
+          "complaints": {
+            "name": "Pengaduan dan Penyelesaian Sengketa",
+            "description": "Cara menyampaikan keluhan dan proses peninjauannya."
+          },
+          "clientFund": {
+            "name": "Keamanan Dana Klien",
+            "description": "Keamanan akun, KYC/AML, dan praktik keamanan portal."
+          },
+          "riskWarning": {
+            "name": "Peringatan Resiko",
+            "description": "Ringkasan risiko perdagangan utama untuk produk forex dan CFD."
+          },
+          "terms": {
+            "name": "syarat dan Ketentuan",
+            "description": "Ketentuan yang mengatur penggunaan layanan dan platform WINPROFX."
+          },
+          "privacy": {
+            "name": "Kebijakan Privasi",
+            "description": "Cara WINPROFX mengumpulkan dan menggunakan data pribadi."
+          },
+          "aml": {
+            "name": "Kebijakan AML",
+            "description": "Kebijakan anti pencucian uang dan kepatuhan."
+          },
+          "depositWithdraw": {
+            "name": "Kebijakan Deposit dan Penarikan",
+            "description": "Kebijakan untuk pendanaan dan penarikan dari akun."
+          }
+        }
+      }
+    },
+    "riskWarning": {
+      "label": "Peringatan Risiko",
+      "summary": "Pengungkapan risiko trading Forex dan CFD.",
+      "meta": "Pemberitahuan Penting",
+      "h1": "Peringatan Risiko"
+    },
+    "withdrawalTransparency": {
+      "label": "Transparansi Penarikan",
+      "summary": "Ikhtisar proses penarikan dan informasi transparansi.",
+      "meta": "Kepercayaan & Transparansi",
+      "h1": "Transparansi Penarikan",
+      "sections": {
+        "withdrawalProcessOverview": "Ikhtisar Proses Penarikan",
+        "processingTimeline": "Garis Waktu Pemrosesan",
+        "commonReasonsForDelay": "Alasan Umum Penundaan",
+        "escalationProcess": "Proses Eskalasi",
+        "transparencyStatistics": "Statistik Transparansi",
+        "riskAndComplianceNote": "Catatan Risiko dan Kepatuhan",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro1": "{{brandName}} berkomitmen untuk memberikan informasi yang jelas tentang bagaimana permintaan penarikan diajukan, ditinjau, dan diproses. Halaman ini menjelaskan alur kerja penarikan umum, persyaratan verifikasi, dan opsi eskalasi yang tersedia untuk klien.",
+        "intro2": "Permintaan penarikan mungkin memerlukan verifikasi akun, verifikasi metode pembayaran, pemeriksaan AML dan KYC, dan peninjauan aktivitas perdagangan atau akun jika diwajibkan oleh prosedur kepatuhan internal. Waktu pemrosesan mungkin juga bergantung pada penyedia layanan pembayaran pihak ketiga, bank, atau jaringan blockchain.",
+        "processIntro": "Saat klien mengajukan permintaan penarikan, permintaan tersebut biasanya melewati tahapan berikut sebelum dana disalurkan ke tujuan yang disetujui:",
+        "processSteps": {
+          "submit": "Klien mengajukan permintaan penarikan melalui portal klien resmi atau saluran yang disetujui",
+          "kyc": "Identitas akun dan status KYC telah diverifikasi",
+          "aml": "Verifikasi metode pembayaran dan pemeriksaan AML dilakukan jika berlaku",
+          "review": "Aktivitas perdagangan atau akun dapat ditinjau jika diperlukan untuk kepatuhan",
+          "security": "Tinjauan keamanan akun dilakukan jika dipicu",
+          "release": "Penarikan yang disetujui dikirim ke penyedia layanan pembayaran, bank, atau jaringan blockchain",
+          "confirm": "Klien menerima konfirmasi setelah pemrosesan selesai"
+        },
+        "timelineIntro": "Tabel di bawah menguraikan tinjauan standar dan ekspektasi pemrosesan berdasarkan metode penarikan. Jadwal pastinya dikelola oleh tim operasi dan kepatuhan.",
+        "timelineCaption": "Garis waktu pemrosesan penarikan berdasarkan metode",
+        "delayIntro": "Penarikan mungkin memakan waktu lebih lama dari yang diharapkan karena alasan termasuk, namun tidak terbatas pada:",
+        "delayReasons": {
+          "incompleteKyc": "KYC tidak lengkap atau dokumen identitas sudah ketinggalan zaman",
+          "methodMismatch": "Ketidaksesuaian antara metode pembayaran deposit dan penarikan",
+          "amlReview": "Menunggu tinjauan AML atau kepatuhan",
+          "incorrectDetails": "Dompet, bank, atau detail pembayaran salah",
+          "pspDelay": "Penyedia layanan pembayaran, bank, atau penundaan pemrosesan blockchain",
+          "bonusReview": "Tinjauan bonus, promosi, atau persyaratan perdagangan jika berlaku",
+          "securityReview": "Verifikasi keamanan akun atau peninjauan aktivitas mencurigakan"
+        },
+        "escalationIntro": "Jika penarikan tertunda melebihi jadwal standar, hubungi dukungan WINPROFX dengan informasi berikut:",
+        "escalationItems": {
+          "email": "Alamat email terdaftar",
+          "accountId": "MT5 atau ID akun",
+          "reference": "ID atau referensi permintaan penarikan (jika tersedia)",
+          "dateAmount": "Tanggal dan jumlah permintaan penarikan",
+          "method": "Metode pembayaran yang digunakan untuk penarikan"
+        },
+        "escalationContact": "Email {{supportEmail}} or visit {{supportLink}}.",
+        "statsIntro": "Metrik penarikan operasional akan dipublikasikan di sini setelah verifikasi internal. Gambar di bawah adalah pengganti hingga data yang disetujui tersedia.",
+        "complianceNote": "Penarikan dapat ditinjau kelengkapan KYC, kepatuhan AML, keamanan akun, verifikasi metode pembayaran, dan kepatuhan terhadap syarat dan promosi yang berlaku. Klien harus memastikan profil akun dan metode pembayaran mutakhir sebelum mengirimkan permintaan.",
+        "depositPolicyLink": "For full deposit and withdrawal policy terms, see the {{depositWithdrawLink}}."
+      }
+    },
+    "complaintsAndDisputeResolution": {
+      "label": "Keluhan dan Penyelesaian Sengketa",
+      "summary": "Cara mengajukan dan mengeskalasi keluhan klien.",
+      "meta": "Kepercayaan & Transparansi",
+      "h1": "Keluhan dan Penyelesaian Sengketa",
+      "sections": {
+        "howToSubmitComplaint": "Cara Mengajukan Keluhan",
+        "complaintReviewProcess": "Proses Peninjauan Pengaduan",
+        "responseTimelines": "Garis Waktu Respons",
+        "accountSpecificPrivacy": "Privasi Khusus Akun",
+        "publicReviewResponsePolicy": "Kebijakan Respon Tinjauan Publik",
+        "escalation": "Eskalasi",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro1": "{{brandName}} menyediakan proses pengaduan terstruktur sehingga klien dan mitra dapat menyampaikan kekhawatiran tentang layanan akun, interaksi dukungan, penarikan, verifikasi, atau hal terkait perdagangan lainnya hanya melalui saluran resmi.",
+        "intro2": "Jangan membagikan kata sandi akun, detail kartu pembayaran, atau dokumen identitas melalui situs web tidak resmi, pesan media sosial, atau pihak ketiga yang mengaku mewakili WINPROFX.",
+        "submitIntro": "Complaints may be submitted by email to {{supportEmail}} with the subject line \"Complaint\" or through the official {{contactLink}} page. Please include:",
+        "requiredInfo": {
+          "name": "Nama lengkap terdaftar",
+          "email": "Alamat email terdaftar",
+          "accountId": "Akun atau ID MT5",
+          "ticketId": "ID tiket dukungan (jika tersedia)",
+          "description": "Deskripsi rinci tentang masalah ini",
+          "documents": "Mendukung tangkapan layar atau dokumen",
+          "dateTime": "Tanggal dan waktu transaksi atau peristiwa"
+        },
+        "reviewSteps": {
+          "received": "Keluhan diterima melalui saluran dukungan resmi",
+          "acknowledgement": "Mendukung pengakuan dan penugasan referensi jika memungkinkan",
+          "internalReview": "Tinjauan internal oleh dukungan dan tim akun yang relevan",
+          "complianceReview": "Tinjauan kepatuhan atau operasi jika diperlukan",
+          "response": "Respon atau resolusi dikomunikasikan kepada klien",
+          "escalation": "Eskalasi ke manajemen jika masalah masih belum terselesaikan"
+        },
+        "timelineIntro": "Target waktu respons ditentukan oleh operasi internal dan prosedur kepatuhan. SLA yang disetujui akan dipublikasikan saat diverifikasi.",
+        "timelineCaption": "Jadwal tanggapan pengaduan",
+        "escalation": "If a complaint is not resolved satisfactorily through initial support review, it may be escalated to compliance or operations management. See {{supportLink}} for escalation routes."
+      }
+    },
+    "clientFundSecurity": {
+      "label": "Keamanan Dana Klien",
+      "summary": "Panduan penanganan dan keamanan dana klien.",
+      "meta": "Kepercayaan & Transparansi",
+      "h1": "Keamanan Dana Klien",
+      "sections": {
+        "accountAccessSecurity": "Keamanan Akses Akun",
+        "kycAndAmlChecks": "Pemeriksaan KYC dan AML",
+        "paymentMethodVerification": "Verifikasi Metode Pembayaran",
+        "withdrawalVerification": "Verifikasi Penarikan",
+        "verifyBeforeDepositing": "Apa yang Harus Diverifikasi Klien Sebelum Menyetor",
+        "portalAndWebsiteSafety": "Keamanan Portal dan Situs Web",
+        "importantNote": "Catatan Penting",
+        "reportSecurityConcerns": "Laporkan Masalah Keamanan",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro": "{{brandName}} memperhatikan akun klien dan keamanan pembayaran dengan serius. Halaman ini menguraikan praktik yang membantu melindungi akun klien, informasi pribadi, dan transaksi pembayaran. Hal ini tidak menjelaskan pemisahan dana klien atau asuransi simpanan kecuali diungkapkan secara terpisah dalam dokumentasi peraturan yang terverifikasi.",
+        "accountSecurity": {
+          "strongPassword": "Gunakan kata sandi yang kuat dan unik untuk akun portal klien dan mitra",
+          "twoFactor": "Aktifkan autentikasi dua faktor jika tersedia",
+          "noSharing": "Jangan pernah membagikan kredensial login, OTP, atau kata sandi dengan pihak ketiga",
+          "logout": "Keluar dari perangkat bersama atau publik setelah setiap sesi",
+          "reportSuspicious": "Laporkan aktivitas login yang mencurigakan ke dukungan segera"
+        },
+        "kycBody1": "{{brandName}} memerlukan verifikasi identitas (KYC) dan dapat melakukan pemeriksaan anti pencucian uang (AML) selama orientasi dan tinjauan kepatuhan yang sedang berlangsung. Klien mungkin diminta untuk memberikan tanda pengenal yang dikeluarkan pemerintah, bukti alamat, dan verifikasi metode pembayaran.",
+        "kycBody2": "Verifikasi yang tidak lengkap atau ketinggalan jaman dapat menunda penyetoran, penarikan, atau akses akun hingga dokumen yang diperlukan diserahkan dan disetujui.",
+        "paymentVerification": "Metode pembayaran yang digunakan untuk penyetoran dan penarikan harus menjadi milik pemegang rekening terdaftar. Pembayaran pihak ketiga mungkin ditolak. Klien harus memverifikasi instruksi pembayaran hanya melalui saluran portal resmi dan menghindari pengiriman dana ke alamat yang tidak terverifikasi.",
+        "withdrawalVerification": "Withdrawals may require confirmation of account identity, payment method ownership, and compliance status before processing. See {{withdrawalLink}} for the withdrawal review process and escalation options.",
+        "preDepositChecklist": {
+          "domain": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi yang terdaftar di Domain Resmi",
+          "verifyPages": "Verifikasi informasi badan hukum dan lisensi di halaman Pendaftaran Perusahaan dan Informasi Peraturan",
+          "readDocs": "Baca Peringatan Risiko dan dokumen hukum yang berlaku sebelum membuka rekening",
+          "clientPortal": "Use only the official client portal at https://my.0/ for account access",
+          "noThirdParty": "Jangan pernah mengirim dana ke alamat yang tidak terverifikasi atau rekening pihak ketiga",
+          "contactSupport": "Hubungi support@winprofx.com jika Anda tidak yakin tentang instruksi pembayaran apa pun"
+        },
+        "preDepositLinks": "Use the {{verifyLink}} checklist and {{officialDomainsLink}} page before registering or depositing.",
+        "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.1/",
+        "importantNote": "Halaman ini hanya menjelaskan praktik keamanan dan verifikasi. Hal ini bukan merupakan klaim dana klien terpisah, asuransi simpanan, atau perlindungan modal sesuai peraturan kecuali diungkapkan secara terpisah dalam dokumentasi peraturan yang terverifikasi.",
+        "reportConcerns": "Report suspected fraud, phishing, or unauthorized access to {{supportEmail}} or via {{supportLink}}."
+      }
+    },
+    "supportAndEscalation": {
+      "label": "Dukungan dan Eskalasi",
+      "summary": "Saluran dukungan dan proses eskalasi.",
+      "meta": "Kepercayaan & Transparansi",
+      "h1": "Dukungan dan Eskalasi",
+      "sections": {
+        "officialSupportChannels": "Saluran Dukungan Resmi",
+        "supportTicketProcess": "Proses Tiket Dukungan",
+        "informationRequiredFromClients": "Informasi yang Dibutuhkan dari Klien",
+        "warningAgainstUnofficialChannels": "Peringatan Terhadap Saluran Tidak Resmi",
+        "escalationProcess": "Proses Eskalasi",
+        "securityReminder": "Pengingat Keamanan",
+        "complaints": "Keluhan",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro": "{{brandName}} menyediakan saluran dukungan resmi untuk klien, mitra, dan calon pengguna. Halaman ini menjelaskan cara menghubungi dukungan, informasi apa yang harus disertakan, dan cara mengeskalasi masalah yang belum terselesaikan hanya melalui saluran terverifikasi.",
+        "supportChannels": {
+          "email": "E-mail: {{supportEmail}}",
+          "contactPage": "{{contactLink}} di winprofx.org",
+          "clientPortal": "Client portal (registered clients): https://my.0/"
+        },
+        "ticketSteps": {
+          "contact": "Hubungi dukungan melalui email atau halaman Kontak dengan baris subjek yang jelas",
+          "includeDetails": "Sertakan referensi akun, email terdaftar, dan deskripsi masalah",
+          "attach": "Lampirkan tangkapan layar atau dokumen yang relevan jika ada",
+          "acknowledge": "Dukungan mengakui tanda terima dan memberikan referensi jika berlaku",
+          "investigate": "Tim yang tepat melakukan investigasi (dukungan, kepatuhan, atau operasi)",
+          "response": "Klien menerima respons dengan hasil atau langkah selanjutnya"
+        },
+        "clientInfo": {
+          "email": "Alamat email terdaftar",
+          "accountId": "Akun atau ID MT5",
+          "description": "Deskripsi masalah yang jelas",
+          "references": "Tanggal, jumlah, atau referensi transaksi yang relevan",
+          "screenshots": "Tangkapan layar atau dokumen jika ada",
+          "withdrawalId": "ID permintaan penarikan untuk eskalasi terkait penarikan"
+        },
+        "unofficialWarning": "{{brandName}} will not request passwords, full payment card numbers, or sensitive credentials through unofficial email, social media, messaging apps, or websites. Do not follow payment instructions from unknown representatives. Always verify domains on the {{verifyLink}} page before logging in, depositing, or sharing personal information.",
+        "escalationWithdrawalTitle": "Penundaan Penarikan",
+        "escalationWithdrawal": "Include withdrawal date, amount, payment method, MT5/account ID, and request reference. See {{withdrawalLink}}.",
+        "escalationKycTitle": "KYC dan Verifikasi",
+        "escalationKyc": "Hubungi dukungan dengan email terdaftar dan referensi akun. Pastikan dokumen yang diserahkan memenuhi persyaratan yang ditentukan.",
+        "escalationDepositTitle": "Masalah Setoran",
+        "escalationDeposit": "For deposit confirmation delays or payment disputes, contact support with transaction date, amount, payment method, and any reference from your bank or payment provider. See the {{depositWithdrawLink}}.",
+        "escalationIbTitle": "Mitra Introducing Broker (IB).",
+        "escalationIb": "IB partners should use partner portal channels or email with partner ID and business reference. Partner portal: https://partner.1/",
+        "securityReminder": "Protect your account credentials and verify official WINPROFX properties before any financial transaction. Report phishing or impersonation to {{supportEmail}}. Read {{clientFundLink}} for additional guidance.",
+        "complaints": "For formal complaints, see {{complaintsLink}}."
+      }
+    },
+    "companyStatistics": {
+      "label": "Statistik Perusahaan",
+      "summary": "Metrik transparansi operasional saat diverifikasi.",
+      "meta": "Kepercayaan & Transparansi",
+      "h1": "Statistik Perusahaan",
+      "sections": {
+        "operationalMetrics": "Metrik Operasional",
+        "howStatisticsAreUpdated": "Bagaimana Statistik Diperbarui",
+        "importantNote": "Catatan Penting",
+        "riskWarning": "Peringatan Resiko"
+      },
+      "content": {
+        "intro1": "Halaman ini memberikan ikhtisar terstruktur tentang statistik operasional WINPROFX dan metrik transparansi. Ini ada agar klien, mitra, dan masyarakat dapat mengakses data perusahaan yang terverifikasi di satu tempat setelah data tersebut tersedia setelah operasi internal dan tinjauan kepatuhan.",
+        "intro2": "{{brandName}} tidak mempublikasikan angka, penghargaan, peringkat, atau klaim kinerja yang belum diverifikasi. Semua nilai di bawah adalah placeholder hingga verifikasi operasi selesai.",
+        "statsUpdate": "Metrik pada halaman ini ditinjau secara internal sebelum dipublikasikan. Ketika data terverifikasi disetujui, halaman ini akan diperbarui dengan tanggal terakhir diperbarui. Periksa kembali setelah siklus pembaruan transparansi berikutnya.",
+        "importantNote": "Statistik disediakan hanya untuk tujuan transparansi. Mereka tidak menjamin kinerja masa depan, tingkat layanan, atau waktu pemrosesan untuk masing-masing akun."
+      }
+    },
+    "contact": {
+      "label": "Kontak",
+      "summary": "Saluran dukungan resmi dan informasi kontak."
+    },
+    "depositWithdraw": {
+      "label": "Kebijakan Deposit dan Penarikan",
+      "summary": "Informasi kebijakan deposit dan penarikan."
+    },
+    "riskDisclosure": {
+      "label": "Pengungkapan Risiko",
+      "summary": "Pernyataan pengungkapan risiko terperinci."
+    }
+  },
+  "crossLinks": {
+    "trustCenter": "Pusat Kepercayaan WINPROFX",
+    "officialDomains": "Domain resmi WINPROFX",
+    "verifyWinprofx": "Verifikasi WINPROFX",
+    "regulatoryInformation": "Informasi regulasi WINPROFX",
+    "riskWarning": "Peringatan risiko WINPROFX",
+    "supportAndEscalation": "Dukungan dan Eskalasi"
+  },
+  "faqs": {
+    "regulatoryInformation": [
+      {
+        "question": "Apakah WINPROFX diatur oleh UAE SCA, DFSA, atau ADGM?",
+        "answer": "WINPROFX menerbitkan informasi regulasi dan hukum di situs web resminya. Dubai Professional License untuk kegiatan kantor perwakilan tidak sama dengan lisensi regulator layanan keuangan kecuali diungkapkan dan diverifikasi secara terpisah di halaman Informasi Regulasi."
+      },
+      {
+        "question": "Apa itu Dubai Professional License?",
+        "answer": "Dubai Professional License adalah registrasi bisnis yang diterbitkan di UAE. Untuk WINPROFX, kegiatan berlisensi adalah Representative Office. Ini berkaitan dengan kehadiran korporat dan tidak boleh disamakan dengan lisensi broker-dealer atau layanan keuangan kecuali dinyatakan secara eksplisit."
+      },
+      {
+        "question": "Di mana saya dapat memverifikasi registrasi perusahaan WINPROFX?",
+        "answer": "Anda dapat meninjau detail inkorporasi Saint Lucia di halaman Registrasi Perusahaan dan mengunduh dokumen bersertifikat yang dipublikasikan. Selalu pastikan Anda berada di domain resmi WINPROFX sebelum mengakses dokumen."
+      }
+    ],
+    "withdrawalTransparency": [
+      {
+        "question": "Bagaimana cara meminta penarikan dari WINPROFX?",
+        "answer": "Penarikan diajukan melalui portal klien resmi di my.winprofx.org atau melalui saluran dukungan yang disetujui. Selalu pastikan Anda berada di domain resmi sebelum masuk."
+      },
+      {
+        "question": "Mengapa penarikan WINPROFX mungkin tertunda?",
+        "answer": "Alasan umum meliputi KYC yang belum lengkap, tinjauan AML atau kepatuhan, verifikasi metode pembayaran, detail bank atau dompet yang salah, dan waktu pemrosesan oleh bank atau penyedia pembayaran."
+      },
+      {
+        "question": "Bagaimana cara mengeskalasi masalah penarikan?",
+        "answer": "Hubungi support@winprofx.com atau kunjungi halaman Dukungan dan Eskalasi. Sertakan email terdaftar, ID akun, dan detail referensi penarikan Anda."
+      }
+    ],
+    "verifyWinprofx": [
+      {
+        "question": "Bagaimana cara memverifikasi situs web resmi WINPROFX?",
+        "answer": "Bandingkan URL dengan halaman Domain Resmi. Situs web utama adalah winprofx.org. Login klien di my.winprofx.org dan portal mitra di partner.winprofx.org."
+      },
+      {
+        "question": "Apa yang harus saya lakukan jika mencurigai situs web WINPROFX palsu?",
+        "answer": "Jangan masukkan kredensial atau mengirim dana. Kunjungi halaman Peringatan Situs Web Palsu, verifikasi domain di halaman Domain Resmi, dan hubungi dukungan melalui saluran resmi."
+      }
+    ],
+    "officialDomains": [
+      {
+        "question": "Apa perbedaan antara winprofx.org dan my.winprofx.org?",
+        "answer": "winprofx.org adalah situs web resmi utama untuk informasi perusahaan dan produk. my.winprofx.org adalah portal klien untuk login akun, deposit, dan penarikan."
+      },
+      {
+        "question": "Apakah winprofx.com dan winprofx.ae resmi?",
+        "answer": "Ya. winprofx.com dan winprofx.ae adalah domain alternatif resmi yang mengarahkan ke winprofx.org untuk informasi yang konsisten."
+      }
+    ],
+    "complaintsAndDisputeResolution": [
+      {
+        "question": "Bagaimana cara mengajukan keluhan ke WINPROFX?",
+        "answer": "Email support@winprofx.com dengan baris subjek \"Complaint\" atau gunakan halaman Kontak. Sertakan nama terdaftar, email, ID akun, dan deskripsi terperinci."
+      },
+      {
+        "question": "Bisakah WINPROFX mendiskusikan keluhan saya di media sosial?",
+        "answer": "Untuk keamanan dan privasi, detail spesifik akun tidak dibahas secara publik. Gunakan saluran dukungan resmi untuk tinjauan keluhan."
+      }
+    ]
+  },
+  "identityNav": {
+    "ariaLabel": "Halaman informasi perusahaan",
+    "relatedPages": "Halaman Terkait",
+    "companyLicense": "Perusahaan & Lisensi",
+    "trustSupport": "Kepercayaan & Dukungan"
+  },
+  "shared": {
+    "riskWarningSection": "Peringatan Resiko",
+    "viewCompanyRegistration": "Lihat detail lengkap pendaftaran perusahaan",
+    "viewDubaiLicense": "Lihat detail lengkap Lisensi Profesional Dubai",
+    "viewDubaiLicensePage": "Lihat halaman Lisensi Profesional Dubai selengkapnya",
+    "verifyChecklist": "Gunakan daftar periksa verifikasi WINPROFX yang lengkap",
+    "contactPage": "Halaman kontak",
+    "contactSupport": "Hubungi Dukungan",
+    "verifyOfficialDomains": "Verifikasi Domain Resmi",
+    "domainPurposeSeparator": " — ",
+    "htmlOnlyNote": "Hanya referensi di halaman — tidak ada unduhan PDF.",
+    "tableDomain": "Nama Domain",
+    "tablePurpose": "Tujuan",
+    "supportEmailLabel": "Email Dukungan:",
+    "lastUpdated": "Terakhir diperbarui:"
+  }
+}

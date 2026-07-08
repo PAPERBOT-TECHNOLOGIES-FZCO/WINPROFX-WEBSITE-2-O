@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import banner_bg from '@/assets/img/trade/win-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
@@ -11,37 +12,39 @@ import TopShape from '@/components/top-shape';
 import PtConditions from '@/components/promotion/PtConditions';
 import StartTrading from '@/components/promotion/StartTrading';
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
 
 export default function WinPromotion() {
-    return (
+    const { t } = useTranslation('trading')
+    const seo = useSeo('winPromotion')
+  return (
         <>
             <SeoHead
-                title="Win Promotion | Trade to Win | WINPROFX"
-                description="Join WINPROFX's exclusive Win Promotion. Trade more, earn more rewards with our tiered reward program designed for active traders."
-                keywords="WINPROFX Promotion, Trade to Win, Forex Trading Rewards, Trading Bonuses, WINPROFX Incentives"
-                canonicalPath="/trading/win-promotion"
-            />
+        {...seo}
+        canonicalPath="/trading/win-promotion"
+      />
             <TopShape />
             <CommonBanner
                 className="3xl:min-h-300!"
                 bg={banner_bg}
-                meta="WINPROFX Exclusive · March - May 2026"
-                title="Trade to Win Program"
-                des={
-                    <>
-                        Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. The more you trade, the greater the prize.
-                    </>
-                }
+                meta={t('winPromotion.meta')}
+                title={t('winPromotion.h1')}
+                des={t('winPromotion.des')}
                 desClass="max-w-135 mx-auto"
-                secondButtonText="View T&C"
+                secondButtonText={t('winPromotion.secondButton')}
                 secondButtonLink="/trading/trade-to-win"
-
             />
 
             <div className="common-padding ">
                 <Container>
                     <div className='max-w-135 px-3'>
-                        <CommonTitle className='text-start' subTitle="Reward Tiers" subTitleClass="rounded-[100px] border border-white/20 bg-white/[0.06] px-4 py-1 mb-4 inline-block" title="Trade More, Win More" des="Hit your target lot volume within 30 days to claim your prize. Six tiers, six chances to win — every lot gets you closer." />
+                        <CommonTitle
+                            className='text-start'
+                            subTitle={t('winPromotion.rewardTiers.subTitle')}
+                            subTitleClass="rounded-[100px] border border-white/20 bg-white/[0.06] px-4 py-1 mb-4 inline-block"
+                            title={t('winPromotion.rewardTiers.title')}
+                            des={t('winPromotion.rewardTiers.des')}
+                        />
                     </div>
                 </Container>
                 <div className="reward_tiers_slider">

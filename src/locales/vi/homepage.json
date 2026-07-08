@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "Con Đường Giao Dịch Sinh Lời Của Bạn Bắt Đầu Tại Đây",
+    "description": "WINPROFX là nhà môi giới uy tín toàn cầu cung cấp spread chặt nhất, rút tiền nhanh như chớp, hơn 300 công cụ giao dịch với khớp lệnh trong tích tắc ngay trên đầu ngón tay của bạn.",
+    "badge": "Đầu Tư Cùng Nhà Môi Giới Forex Tốt Nhất 2026",
+    "stats": {
+      "evolving": {
+        "title": "Phát triển",
+        "description": "Trên Thị Trường"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "Giải Thưởng"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "Quốc Gia Phủ Sóng"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "Công Cụ Giao Dịch"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "Hành Trình <br /> Giao Dịch Của Bạn Bắt Đầu Tại Đây Cùng Chúng Tôi",
+    "steps": {
+      "openAccount": {
+        "title": "Mở Tài Khoản",
+        "description": "Nhấp vào nút phía trên và chỉ cần làm theo một vài bước đơn giản."
+      },
+      "makeDeposit": {
+        "title": "Nạp Tiền",
+        "description": "Mẹo Chuyên Nghiệp: Nạp và Rút USDT là nhanh nhất."
+      },
+      "startTrading": {
+        "title": "Bắt Đầu Giao Dịch",
+        "description": "Mọi chuyên gia đều bắt đầu từ con số không, vì vậy hãy bắt đầu giao dịch ngay."
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "Lợi Ích Khi Giao Dịch Cùng Chúng Tôi",
+    "description": "Khám phá giao dịch liền mạch cùng chúng tôi, nơi sự minh bạch và công nghệ tiên tiến hội tụ vì thành công tài chính của bạn.",
+    "items": {
+      "withdrawals": {
+        "meta": "Rút tiền crypto trong",
+        "title": "30 Phút",
+        "description": "Mở khóa sự linh hoạt tài chính nhanh chóng với cam kết rút tiền trong 30 phút của chúng tôi."
+      },
+      "tradeDaily": {
+        "meta": "Giao dịch hàng ngày",
+        "title": "Nhận Phần Thưởng",
+        "description": "Giao dịch mỗi ngày, chiến thắng mỗi ngày — thúc đẩy thành công của bạn trong mọi biến động thị trường."
+      },
+      "clientSupport": {
+        "meta": "Đoạt Giải Thưởng",
+        "title": "Hỗ Trợ Khách Hàng",
+        "description": "Mang đến dịch vụ xuất sắc vượt trội!"
+      },
+      "negativeBalance": {
+        "meta": "Số dư âm",
+        "title": "Bảo Vệ",
+        "description": "Giao dịch tự tin với bảo vệ số dư âm tích hợp sẵn để đảm bảo an toàn tài chính."
+      }
+    }
+  },
+  "platform": {
+    "meta": "NỀN TẢNG GIAO DỊCH",
+    "title": "Tải MT 5 Cho Di Động",
+    "description": "WINPROFX đã rất thành công trong việc mở rộng hoạt động kinh doanh trên toàn thế giới, và giờ đây MT 5 đã có trên Android và iPhone, bạn đang tiến gần hơn một bước tới thành công. Tải MT 5 ngay và bước vào thế giới cơ hội giao dịch không giới hạn."
+  },
+  "whatTrade": {
+    "title": "Bạn Có Thể Giao Dịch Gì?",
+    "description": "Khám phá giao dịch liền mạch cùng chúng tôi, nơi sự minh bạch và công nghệ tiên tiến hội tụ vì thành công tài chính của bạn.",
+    "items": {
+      "crypto": {
+        "title": "Tiền mã hóa",
+        "description": "Tiền điện tử hay cryptocurrency là công cụ đầu tư tăng trưởng nhanh và"
+      },
+      "metals": {
+        "title": "Kim Loại",
+        "description": "Giao dịch kim loại giao ngay giữ vị trí đặc biệt trong trái tim mọi nhà giao dịch. Kim loại đã thu hút tất cả"
+      },
+      "commodities": {
+        "title": "Hàng Hóa",
+        "description": "Đầu tư vào hàng hóa có thể mang lại cho nhà đầu tư sự đa dạng hóa, phòng ngừa rủi ro"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex hay thị trường ngoại hối là thị trường toàn cầu nơi các loại tiền tệ trên thế giới được giao dịch. Nó vô cùng"
+      },
+      "indices": {
+        "title": "Chỉ Số",
+        "description": "Chỉ số là thước đo hiệu suất giá của một nhóm cổ phiếu từ một sàn giao dịch."
+      },
+      "oil": {
+        "title": "Dầu",
+        "description": "Hợp đồng tương lai năng lượng là thỏa thuận mua hoặc bán nhiên liệu hóa thạch hoặc sản phẩm liên quan vào ngày và giá đã định."
+      }
+    },
+    "imageAlt": "Giao dịch WINPROFX {{market}}"
+  },
+  "about": {
+    "meta": "VỀ WINPROFX",
+    "heading": "<strong class='font-normal text-white'>Tại WINPROFX, chúng tôi cung cấp </strong> nền tảng giao dịch trực tuyến an toàn, thúc đẩy sự bền vững thông qua chuyên môn, kiến thức thị trường và các đối tác đáng tin cậy.",
+    "features": {
+      "platform": "Nền tảng tốt nhất cho mọi cấp độ nhà giao dịch — người mới, trung cấp hoặc chuyên nghiệp.",
+      "orderManagement": "Công cụ quản lý lệnh tinh vi.",
+      "indicators": "Giới thiệu thêm nhiều chỉ báo kỹ thuật gốc.",
+      "customize": "Dễ dàng cấu hình và tùy chỉnh thiết lập giao dịch của bạn"
+    }
+  },
+  "award": {
+    "title": "WINPROFX — Nhà Môi Giới Xuất Sắc Đoạt Giải Thưởng",
+    "description": "Ngành forex toàn cầu đã ghi nhận thành tựu của WINPROFX, vinh danh chúng tôi với những giải thưởng hàng đầu cho sản phẩm và dịch vụ xuất sắc.",
+    "items": {
+      "bestForexBroker2025": "Broker Forex Tốt nhất 2025",
+      "globalForexBroker2025": "Broker Forex Toàn cầu Năm 2025",
+      "topStpBroker2025": "Broker STP Hàng đầu 2025",
+      "bestDepositWithdrawal2024": "Broker Nạp/Rút Tốt nhất 2024"
+    }
+  },
+  "news": {
+    "title": "Tin Tức & Thông Tin",
+    "description": "Luôn cập nhật với các bản tin thị trường mới nhất và thông tin chuyên gia của chúng tôi, giúp bạn đưa ra quyết định sáng suốt trong thế giới tài chính.",
+    "paymentFlow": {
+      "title": "Dòng Vốn Dễ Dàng: Nạp Tiền Nhanh và Rút Tiền Liền Mạch",
+      "description": "Trải nghiệm sự linh hoạt tài chính với quy trình nạp và rút tiền không rắc rối của chúng tôi, đảm bảo giao dịch của bạn nhanh chóng và thuận tiện."
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade để THẮNG",
+        "description": "Giao dịch nhiều hơn và nhận phần thưởng ĐẢM BẢO. Giao dịch càng nhiều, phần thưởng càng lớn.",
+        "promotionDates": "Thời Gian Khuyến Mãi: 1 tháng 1 năm 2026 đến 31 tháng 5 năm 2026"
+      },
+      "technicalAnalysis": {
+        "title": "Công Cụ Phân Tích Kỹ Thuật Miễn Phí",
+        "description": "Nhận diện mẫu biểu đồ, phân tích điều kiện thị trường & theo dõi thị trường suốt ngày đêm, chỉ với một cú nhấp!",
+        "poweredBy": "Được cung cấp bởi"
+      },
+      "learnMore": "Tìm Hiểu Thêm"
+    }
+  },
+  "demoCta": {
+    "title": "Bắt Đầu Hành Trình Làm Chủ: Phát Huy Kỹ Năng Với Trải Nghiệm Demo WINPROFX!",
+    "description": "Bắt đầu hành trình giao dịch với tài khoản demo MT5 miễn phí 21 ngày. Khám phá sức mạnh của Nền Tảng Chiến Lược Giao Dịch Forex Tốt Nhất đoạt giải thưởng của chúng tôi mà không rủi ro — đăng ký ngay và khám phá nghệ thuật giao dịch chính xác.",
+    "button": "Dùng Thử Demo Nền Tảng MT5"
+  }
+}

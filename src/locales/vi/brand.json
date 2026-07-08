@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "isWinprofxLegit": {
+      "path": "/is-winprofx-legit/",
+      "h1": "WINPROFX có hợp pháp không?",
+      "breadcrumb": "WINPROFX có hợp pháp không?",
+      "intro": "Trang chính thức này giải thích cách khách hàng có thể xác minh thông tin công ty WINPROFX, chi tiết pháp nhân, đăng ký văn phòng đại diện Dubai, tên miền chính thức và phạm vi quy định. Trang này không cấu thành lời khuyên đầu tư.",
+      "sections": {
+        "legalEntitySummary": "Tóm tắt pháp nhân",
+        "companyRegistration": "Đăng ký công ty",
+        "dubaiRepresentativeOffice": "Văn phòng đại diện Dubai",
+        "regulatoryClarification": "Làm rõ thông tin quy định",
+        "officialDomainsVerification": "Xác minh tên miền chính thức",
+        "whatToVerifyBeforeDepositing": "Những gì cần xác minh trước khi nạp tiền",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "faqs": {
+        "registeredCompany": {
+          "question": "WINPROFX có phải là công ty đã đăng ký không?",
+          "answer": "{{legalEntityName}} được thành lập tại {{jurisdiction}} với tư cách International Business Company (số thành lập {{incorporationNumber}}). Chi tiết đăng ký công ty được công bố trên trang web chính thức của WINPROFX."
+        },
+        "dubaiOffice": {
+          "question": "WINPROFX có văn phòng tại Dubai không?",
+          "answer": "WINPROFX duy trì văn phòng đại diện UAE được đăng ký theo Dubai Professional License ({{dubaiBusinessName}}). Hoạt động được cấp phép là {{dubaiLicenseActivity}}. Đây không giống với giấy phép cơ quan quản lý dịch vụ tài chính trừ khi được công bố riêng."
+        },
+        "verifyOfficial": {
+          "question": "Làm thế nào để xác minh WINPROFX là chính thức?",
+          "answer": "Xác minh tên miền so với trang Tên miền chính thức, xem lại tài liệu đăng ký công ty và sử dụng danh sách kiểm tra Xác minh WINPROFX trước khi đăng nhập hoặc nạp tiền."
+        },
+        "beforeDepositing": {
+          "question": "Tôi nên kiểm tra gì trước khi nạp tiền vào WINPROFX?",
+          "answer": "Xác nhận bạn đang ở tên miền chính thức, xem lại Cảnh báo rủi ro, hiểu quy trình rút tiền và khiếu nại, và xác minh thông tin đăng ký công ty và phạm vi quy định trên Trung tâm tin cậy."
+        }
+      }
+    },
+    "winprofxReview": {
+      "path": "/winprofx-review/",
+      "h1": "Đánh giá WINPROFX",
+      "breadcrumb": "Đánh giá WINPROFX",
+      "intro": "Đây là tổng quan thực tế chính thức về dịch vụ WINPROFX và thông tin xác minh. Đây không phải đánh giá của bên thứ ba và không bao gồm lời chứng thực hay xếp hạng sao.",
+      "sections": {
+        "whatWinprofxIs": "WINPROFX là gì",
+        "tradingPlatform": "Nền tảng giao dịch",
+        "marketsOffered": "Thị trường được cung cấp",
+        "accountServices": "Dịch vụ tài khoản",
+        "trustAndLegal": "Thông tin tin cậy và pháp lý",
+        "withdrawalsAndComplaints": "Rút tiền và khiếu nại",
+        "whatToVerifyBeforeTrading": "Những gì cần xác minh trước khi giao dịch",
+        "riskWarning": "Cảnh báo rủi ro"
+      }
+    },
+    "winprofxWithdrawalProcess": {
+      "path": "/winprofx-withdrawal-process/",
+      "h1": "Quy trình rút tiền WINPROFX",
+      "breadcrumb": "Quy trình rút tiền",
+      "intro": "Trang này giải thích quy trình rút tiền WINPROFX chung, các kiểm tra xác minh, lý do chậm trễ phổ biến và các tùy chọn leo thang. Thời gian xử lý có thể khác nhau và không được đảm bảo.",
+      "sections": {
+        "overview": "Tổng quan quy trình rút tiền",
+        "stepByStep": "Quy trình rút tiền từng bước",
+        "kycAml": "Kiểm tra KYC và AML",
+        "commonDelays": "Lý do phổ biến gây chậm trễ rút tiền",
+        "howToAvoid": "Cách tránh vấn đề rút tiền",
+        "escalation": "Leo thang và hỗ trợ",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "faqs": {
+        "howToRequest": {
+          "question": "Làm thế nào để yêu cầu rút tiền từ WINPROFX?",
+          "answer": "Gửi yêu cầu rút tiền qua cổng khách hàng chính thức tại my.winprofx.org. Luôn xác minh URL trước khi đăng nhập."
+        },
+        "whyDelayed": {
+          "question": "Tại sao việc rút tiền WINPROFX của tôi có thể bị chậm?",
+          "answer": "Các lý do phổ biến bao gồm KYC chưa hoàn tất, xem xét AML, xác minh phương thức thanh toán, chi tiết ngân hàng không chính xác và thời gian xử lý của ngân hàng hoặc nhà cung cấp thanh toán."
+        },
+        "escalate": {
+          "question": "Làm thế nào để leo thang vấn đề rút tiền?",
+          "answer": "Liên hệ support@winprofx.com với ID tài khoản và mã tham chiếu rút tiền của bạn, hoặc truy cập trang Hỗ trợ và leo thang."
+        }
+      }
+    },
+    "winprofxLicenseVerification": {
+      "path": "/winprofx-license-verification/",
+      "h1": "Xác minh giấy phép WINPROFX",
+      "breadcrumb": "Xác minh giấy phép",
+      "intro": "Trang này giải thích đăng ký công ty WINPROFX, giấy phép văn phòng đại diện Dubai và phạm vi quy định. Thành lập công ty và Dubai Professional License không giống với giấy phép môi giới dịch vụ tài chính.",
+      "sections": {
+        "companyRegistration": "Đăng ký công ty",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "regulatoryScope": "Làm rõ phạm vi quy định",
+        "notFinancialServicesLicense": "Những gì không giống giấy phép dịch vụ tài chính",
+        "verifyDocuments": "Cách xác minh tài liệu",
+        "legalEntityInformation": "Thông tin pháp nhân"
+      }
+    },
+    "winprofxComplaints": {
+      "path": "/winprofx-complaints/",
+      "h1": "Khiếu nại WINPROFX",
+      "breadcrumb": "Khiếu nại",
+      "intro": "Trang này giải thích cách WINPROFX xử lý khiếu nại của khách hàng, thông tin bắt buộc, các giai đoạn xem xét và tùy chọn leo thang.",
+      "sections": {
+        "howToSubmit": "Cách gửi khiếu nại",
+        "requiredInformation": "Thông tin bắt buộc",
+        "reviewStages": "Các giai đoạn xem xét khiếu nại",
+        "publicReviewPolicy": "Chính sách xem xét công khai",
+        "escalation": "Leo thang và hỗ trợ"
+      },
+      "faqs": {
+        "howToSubmit": {
+          "question": "Làm thế nào để gửi khiếu nại đến WINPROFX?",
+          "answer": "Gửi email đến support@winprofx.com với dòng tiêu đề \"Khiếu nại\" hoặc sử dụng trang Liên hệ với chi tiết tài khoản của bạn."
+        },
+        "requiredInfo": {
+          "question": "Tôi nên bao gồm thông tin gì trong khiếu nại?",
+          "answer": "Bao gồm tên đã đăng ký, email, ID tài khoản, mã tham chiếu giao dịch hoặc rút tiền và mô tả chi tiết vấn đề."
+        },
+        "escalation": {
+          "question": "Khiếu nại được leo thang như thế nào?",
+          "answer": "Nếu vấn đề của bạn không được giải quyết qua xem xét hỗ trợ ban đầu, hãy làm theo quy trình leo thang trên trang Hỗ trợ và leo thang."
+        }
+      }
+    },
+    "winprofxFakeWebsiteWarning": {
+      "path": "/winprofx-fake-website-warning/",
+      "h1": "Cảnh báo trang web giả WINPROFX",
+      "breadcrumb": "Cảnh báo trang web giả",
+      "intro": "Bảo vệ bản thân khỏi các trang web WINPROFX giả, trang lừa đảo và kẻ mạo danh. Luôn xác minh tên miền và kênh hỗ trợ trước khi chia sẻ thông tin đăng nhập, tiền hoặc tài liệu cá nhân.",
+      "sections": {
+        "officialDomains": "Tên miền chính thức WINPROFX",
+        "warningSigns": "Dấu hiệu cảnh báo của trang web giả",
+        "howToVerify": "Cách xác minh tên miền",
+        "safeLogin": "Hướng dẫn đăng nhập an toàn",
+        "whatNotToShare": "Những gì bạn không nên chia sẻ",
+        "ifSuspectImpersonation": "Nếu bạn nghi ngờ bị mạo danh"
+      },
+      "faqs": {
+        "howToKnowFake": {
+          "question": "Làm sao biết trang web WINPROFX là giả?",
+          "answer": "So sánh URL với trang Tên miền chính thức. Các trang giả có thể dùng thương hiệu tương tự với tên miền khác, yêu cầu phương thức thanh toán bất thường hoặc thúc ép bạn chia sẻ thông tin đăng nhập."
+        },
+        "enteredCredentials": {
+          "question": "Tôi nên làm gì nếu đã nhập thông tin đăng nhập trên trang đáng ngờ?",
+          "answer": "Đổi mật khẩu ngay lập tức qua cổng khách hàng chính thức, liên hệ support@winprofx.com và không gửi thêm tiền cho đến khi được xác minh."
+        },
+        "socialMediaContact": {
+          "question": "Nhân viên hỗ trợ WINPROFX có thể liên hệ tôi qua mạng xã hội không?",
+          "answer": "Hỗ trợ chính thức qua support@winprofx.com và các kênh trang web chính thức. Hãy thận trọng với tin nhắn mạng xã hội không mong muốn tự xưng là WINPROFX."
+        }
+      }
+    },
+    "winprofxOfficialLogin": {
+      "path": "/winprofx-official-login/",
+      "h1": "Đăng nhập chính thức WINPROFX",
+      "breadcrumb": "Đăng nhập chính thức",
+      "intro": "Sử dụng trang này để truy cập hướng dẫn đăng nhập chính thức WINPROFX. Luôn xác minh URL trong trình duyệt trước khi nhập thông tin đăng nhập.",
+      "sections": {
+        "clientPortal": "Đăng nhập cổng khách hàng",
+        "partnerPortal": "Đăng nhập cổng đối tác",
+        "passwordSecurity": "Bảo mật mật khẩu và tài khoản",
+        "verifyBeforeLogin": "Xác minh trước khi đăng nhập"
+      }
+    },
+    "winprofxDepositWithdrawalMethods": {
+      "path": "/winprofx-deposit-and-withdrawal-methods/",
+      "h1": "Phương thức nạp và rút tiền WINPROFX",
+      "breadcrumb": "Phương thức nạp & rút tiền",
+      "intro": "Trang này cung cấp tổng quan về phương thức nạp và rút tiền WINPROFX, yêu cầu xác minh và ghi chú bảo mật. Tính khả dụng của phương thức cụ thể có thể khác nhau theo tài khoản và khu vực.",
+      "sections": {
+        "depositOverview": "Tổng quan phương thức nạp tiền",
+        "withdrawalOverview": "Tổng quan phương thức rút tiền",
+        "kycAml": "Xem xét KYC và AML",
+        "processingDisclaimer": "Tuyên bố miễn trừ xử lý",
+        "securityNote": "Ghi chú bảo mật",
+        "commonIssues": "Vấn đề phổ biến",
+        "riskWarning": "Cảnh báo rủi ro"
+      },
+      "faqs": {
+        "depositMethods": {
+          "question": "WINPROFX hỗ trợ những phương thức nạp tiền nào?",
+          "answer": "Các phương thức nạp tiền có sẵn được công bố trên cổng khách hàng và có thể bao gồm chuyển khoản ngân hàng, thẻ và tùy chọn thanh toán điện tử tùy theo tài khoản và khu vực."
+        },
+        "withdrawalTime": {
+          "question": "Rút tiền WINPROFX có được đảm bảo trong thời gian cụ thể không?",
+          "answer": "Thời gian xử lý có thể khác nhau và không được đảm bảo. KYC, xem xét AML và xử lý của nhà cung cấp thanh toán có thể ảnh hưởng đến thời hạn."
+        },
+        "kycEffect": {
+          "question": "Tại sao KYC có thể ảnh hưởng đến nạp hoặc rút tiền của tôi?",
+          "answer": "Xác minh KYC và AML là bắt buộc để tuân thủ. Xác minh chưa hoàn tất có thể làm chậm hoặc hạn chế nạp và rút tiền cho đến khi được giải quyết."
+        }
+      }
+    }
+  }
+}

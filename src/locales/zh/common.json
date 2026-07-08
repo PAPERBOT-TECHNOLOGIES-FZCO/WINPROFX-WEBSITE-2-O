@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "getStarted": "立即开始",
+    "learnMore": "了解更多",
+    "openAccount": "开立账户",
+    "startTrading": "开始交易",
+    "downloadNow": "立即下载",
+    "viewPage": "查看页面 →",
+    "viewAllArticles": "查看全部文章 →",
+    "readFullRiskWarning": "阅读完整风险警告"
+  },
+  "labels": {
+    "home": "首页",
+    "trustCenter": "信任中心",
+    "lastReviewed": "最后审核：",
+    "reviewedBy": "审核人：",
+    "riskWarning": "风险警告：",
+    "lastUpdated": "最后更新：{{date}}",
+    "authorReviewedBy": "作者：{{author}} · 审核人：{{reviewer}}",
+    "faqTitle": "常见问题",
+    "relatedTrustPages": "相关 WINPROFX 验证页面",
+    "relatedPages": "相关 WINPROFX 页面",
+    "moreArticles": "更多文章",
+    "whatsapp": "WhatsApp"
+  },
+  "disclaimer": {
+    "learnEducational": "本文仅供教育用途，不构成投资建议、财务建议或交易推荐。"
+  },
+  "risk": {
+    "short": "Forex 和 CFD 交易涉及重大风险，可能不适合所有投资者。客户在交易前应充分了解相关风险。",
+    "full": "Forex、CFD 及相关金融产品交易涉及重大风险，可能不适合所有投资者。您可能会损失部分或全部投资本金。过往表现不代表未来结果。客户在交易前应充分了解相关风险，并在必要时寻求独立建议。"
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Page Not Found",
+    "seoTitle": "Page Not Found | WINPROFX",
+    "backHome": "Back to Home"
+  },
+  "download": {
+    "appStorePrefix": "Download on the",
+    "googlePlayPrefix": "GET IT ON",
+    "windowsPrefix": "Download for",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Open in",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Are You Ready to Start Trading",
+    "accountsDes": "Trade with an Award Winning broker!",
+    "openLiveAccount": "Open Live account"
+  }
+}

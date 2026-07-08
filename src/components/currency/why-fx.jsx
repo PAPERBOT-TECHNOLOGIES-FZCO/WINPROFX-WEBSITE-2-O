@@ -1,10 +1,13 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { duration, once } from '@/utilities/animation'
 import { Container } from '@/components/grid';
 import { motion } from 'framer-motion';
 import why_bg from '@/assets/img/economic-calender/why-bg.png';
 
 export default function WhyFx() {
+    const { t } = useTranslation('tools')
+
     return (
         <Container>
             <motion.div
@@ -62,8 +65,8 @@ export default function WhyFx() {
                 </svg>
                 <img src={why_bg} className="absolute bottom-0 left-0 -z-20 w-full h-auto" alt="" />
                 <div className="mx-auto max-w-130 text-center">
-                    <h3 className="h2 mb-3">Why WINPROFX?</h3>
-                    <p className="text-para2 text-xs md:text-sm lg:text-base">WINPROFX offers advanced trading tools, real-time market updates, and a user-friendly platform to help traders make informed decisions and optimize their trading strategies.</p>
+                    <h3 className="h2 mb-3">{t('whyWinprofx.title')}</h3>
+                    <p className="text-para2 text-xs md:text-sm lg:text-base">{t('whyWinprofx.description')}</p>
                 </div>
 
             </motion.div>

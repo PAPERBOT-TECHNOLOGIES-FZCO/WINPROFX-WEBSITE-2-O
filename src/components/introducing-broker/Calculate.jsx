@@ -1,4 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
@@ -67,24 +68,17 @@ function RangeSlider({ label, min, max, value, onChange }) {
 }
 
 export default function Calculate() {
+    const { t } = useTranslation('trading')
     const [clients, setClients] = useState(500)
 
     const commissionPerLot = 30
     const totalEarnings = clients * commissionPerLot
-    const items = [
-        {
-            icon: icon1,
-            desc: "Apply to become an <span>Introducing Broker </span>",
-        },
-        {
-            icon: icon2,
-            desc: "Attract clients by sharing your <span>Referral Link</span>",
-        },
-        {
-            icon: icon3,
-            desc: "Receive Daily <span>Commission Payouts</span>",
-        },
-    ];
+    const stepKeys = t('introducingBroker.calculator.stepKeys', { returnObjects: true, defaultValue: ['apply', 'share', 'earn'] })
+    const stepIcons = [icon1, icon2, icon3]
+    const items = (Array.isArray(stepKeys) ? stepKeys : []).map((key, index) => ({
+        icon: stepIcons[index],
+        desc: t(`introducingBroker.calculator.steps.${key}`),
+    }))
     return (
         <section className='common-padding pt-0'>
             <Container>
@@ -93,13 +87,13 @@ export default function Calculate() {
                     {/* Left Content */}
                     <div className='grow'>
                         <h2 className='text-2xl md:text-4xl lg:text-5xl max-w-138 mb-4 lg:mb-6 leading-normal'>
-                            How Much You Can Earn? Calculate your profit
+                            {t('introducingBroker.calculator.title')}
                         </h2>
                         <p className='max-w-140 text-para2 leading-normal text-sm! md:text-base mb-5 md:mb-8 lg:mb-12'>
-                            This advanced commission calculator operates on the basis of Introducing Brokers' client count and their trading volume in lots, providing an accurate reflection of earned commissions.
+                            {t('introducingBroker.calculator.description')}
                         </p>
                         <RangeSlider
-                            label="Clients"
+                            label={t('introducingBroker.calculator.clients')}
                             min={0}
                             max={1000}
                             value={clients}
@@ -108,10 +102,10 @@ export default function Calculate() {
                     </div>
                     <div className='shrink-0 w-full lg:w-72 relative z-1 rounded-lg lg:rounded-[20px] bg-white/4 border border-solid border-white/10 overflow-hidden'>
                         <div className='p-6 -mb-10'>
-                            <h4 className='text-xs tracking-widest text-[#7a8a9a] uppercase font-medium mb-2'>Rewards</h4>
+                            <h4 className='text-xs tracking-widest text-[#7a8a9a] uppercase font-medium mb-2'>{t('introducingBroker.calculator.rewards')}</h4>
                             <p className='leading-none'>
                                 <span className='text-3xl md:text-4xl lg:text-5xl text-primary font-bold'>${commissionPerLot}</span>
-                                <span className='text-xs text-[#ABACB3] uppercase ml-2'>Per lot</span>
+                                <span className='text-xs text-[#ABACB3] uppercase ml-2'>{t('introducingBroker.calculator.perLot')}</span>
                             </p>
                         </div>
                         <div className='pointer-events-none'>
@@ -125,10 +119,10 @@ export default function Calculate() {
                     <div className='mb-5 lg:mb-10'>
                         <div className='flex flex-wrap lg:flex-nowrap gap-3 lg:gap-8 '>
                             <h2 className='grow text-xl md:text-3xl lg:text-4xl xl:text-5xl leading-normal'>
-                                Become a WINPROFX Partner & Start Earning Today
+                                {t('introducingBroker.calculator.ctaTitle')}
                             </h2>
                             <p className='grow w-full max-w-106 text-para2 leading-normal text-sm! md:text-base'>
-                                Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.
+                                {t('introducingBroker.calculator.partnerDes')}
                             </p>
                         </div>
                     </div>

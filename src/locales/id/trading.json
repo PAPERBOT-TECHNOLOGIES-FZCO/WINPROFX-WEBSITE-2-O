@@ -1,0 +1,641 @@
+{
+  "winPromotion": {
+    "meta": "Eksklusif WINPROFX · Maret - Mei 2026",
+    "h1": "Program Trade to Win",
+    "des": "Capai volume trading tertentu dalam 30 hari dan buka hadiah Apple eksklusif. Semakin banyak Anda trading, semakin besar hadiahnya.",
+    "secondButton": "Lihat S&K",
+    "rewardTiers": {
+      "subTitle": "Tingkat Hadiah",
+      "title": "Trading Lebih Banyak, Menang Lebih Banyak",
+      "des": "Capai target lot volume dalam 30 hari untuk klaim hadiah Anda. Enam tier, enam peluang menang — setiap lot membawa Anda lebih dekat."
+    }
+  },
+  "tradeToWin": {
+    "h1": "Program Trade to Win",
+    "meta": "Eksklusif WINPROFX",
+    "bannerTitle": "Trading Lebih Banyak, Menang Lebih Banyak",
+    "howItWorks": "Cara Kerjanya",
+    "programConditions": "Kondisi Program",
+    "importantTerms": "Ketentuan Penting",
+    "labels": {
+      "tier": "TINGKAT",
+      "lots": "Lot",
+      "withinDays": "dalam 30 hari"
+    },
+    "rewardTiersTitleHtml": "Trade Lebih Banyak, <span class=\"text-primary\">Menang Lebih Banyak</span>",
+    "howItWorksSection": {
+      "subTitle": "Proses",
+      "titleHtml": "Cara <span class=\"text-primary\">Kerjanya</span>",
+      "des": "Memulai sangat mudah. Selesaikan empat langkah ini dan Anda siap memenangkan hadiah eksklusif Apple.",
+      "steps": {
+        "registerOptIn": {
+          "title": "Daftar & Opt In",
+          "body": "Daftar di WINPROFX dan opt in ke program Trade to Win sejak deposit pertama Anda."
+        },
+        "chooseTier": {
+          "title": "Pilih Tingkat Anda",
+          "body": "Pilih tingkat hadiah yang Anda incar — dari Power Bank hingga iPhone terbaru."
+        },
+        "trade30Days": {
+          "title": "Trade Dalam 30 Hari",
+          "body": "Capai volume trading target dalam 30 hari. Trade yang memenuhi syarat harus ditahan minimal 3 menit."
+        },
+        "claimPrize": {
+          "title": "Klaim Hadiah Anda",
+          "body": "Setelah mencapai target volume, hadiah Anda dikonfirmasi dan dikirimkan kepada Anda."
+        }
+      }
+    },
+    "programConditionsSection": {
+      "subTitle": "Aturan & Detail",
+      "titleHtml": "Kondisi <span class=\"text-primary\">Program</span>",
+      "items": {
+        "programPeriod": {
+          "label": "Periode Program",
+          "value": "1 Maret 2025 – 31 Mei 2026"
+        },
+        "tradingTimeline": {
+          "label": "Linimasa Trading",
+          "value": "30 hari sejak tanggal mulai Anda"
+        },
+        "eligibleClients": {
+          "label": "Klien yang Memenuhi Syarat",
+          "value": "Hanya klien retail (IB dikecualikan)"
+        },
+        "minimumHold": {
+          "label": "Waktu Hold Minimum",
+          "value": "3 menit per trade yang memenuhi syarat"
+        },
+        "excludedInstruments": {
+          "label": "Instrumen yang Dikecualikan",
+          "value": "Saham & pasangan kripto"
+        },
+        "withdrawals": {
+          "label": "Penarikan",
+          "value": "Diizinkan sepanjang kampanye"
+        }
+      }
+    },
+    "importantTermsSection": {
+      "subTitle": "Ketentuan Hukum",
+      "titleHtml": "Ketentuan <span class=\"text-primary\">Penting</span>",
+      "des": "Harap baca ketentuan ini dengan saksama sebelum mengikuti program Trade to Win.",
+      "items": {
+        "fairPlay": {
+          "title": "Permainan Adil",
+          "body": "Segala bentuk penyalahgunaan pasar — termasuk latency arbitrage atau teknik manipulatif — akan mengakibatkan diskualifikasi segera."
+        },
+        "eligibility": {
+          "title": "Batasan Kelayakan",
+          "body": "Hanya akun individu yang dikelola sendiri yang dapat berpartisipasi. Akun terkelola atau akun yang dirujuk IB tidak memenuhi syarat."
+        },
+        "liability": {
+          "title": "Penafian Tanggung Jawab",
+          "body": "WINPROFX tidak bertanggung jawab atas kerugian trading apa pun. Program ini tidak mengubah profil risiko atau strategi investasi peserta."
+        },
+        "dispute": {
+          "title": "Penyelesaian Sengketa",
+          "body": "Setiap masalah yang tidak secara langsung diatur dalam ketentuan ini akan diselesaikan oleh manajemen secara adil dan mengikat."
+        }
+      }
+    }
+  },
+  "introducingBroker": {
+    "meta": "PROGRAM MITRA",
+    "h1": "Program Introducing Broker",
+    "des": "Bergabung dengan program Introducing Broker (IB) terdepan yang dirancang untuk hasil maksimal, transparansi penuh, dan payout otomatis harian.",
+    "buttonText": "Jadi Partner",
+    "advantages": {
+      "title": "Keunggulan Partner Eksklusif",
+      "description": "Bermitra dengan WINPROFX sebagai introducing broker. Struktur komisi, sumber daya dukungan, dan ketentuan kemitraan dipublikasikan untuk partner yang disetujui.",
+      "cards": {
+        "profitShare": "Hingga <b>90%</b> profit share dari spreads",
+        "awards": "Broker Terpercaya dengan <b>40+</b> penghargaan industri",
+        "evolving": "Terus berkembang setiap hari di pasar",
+        "rewards": "Trade dan Menangkan <b>Rewards</b> Setiap Hari"
+      },
+      "stepsTitle": "Yang Membedakan Kami:",
+      "stepsSubtitle": "Alasan Preferensi Klien",
+      "steps": {
+        "withdrawal": "Withdrawal Tercepat",
+        "noSwap": "Tanpa Swap",
+        "noCommission": "Tanpa Komisi",
+        "lowSpread": "Spread Rendah"
+      }
+    },
+    "benefits": {
+      "title": "Manfaat Menjadi Introducing Broker dengan WINPROFX:",
+      "paragraph1": "Buka berbagai keuntungan dengan menjadi Introducing Broker WINPROFX. Nikmati struktur komisi yang generous, pengakuan industri, evolusi pasar berkelanjutan, dan kesempatan memberikan rewards harian kepada trader.",
+      "paragraph2": "Bergabunglah dengan kami membentuk masa depan kemitraan trading dengan Best Broker Trading Platform.",
+      "cardTitle": "Multi-tier hingga 5 Level",
+      "cardDescription": "Sebagai IB, Anda dapat memiliki hingga 5 sub level referral traders."
+    },
+    "payoutForm": {
+      "title": "Mulai Perjalanan Anda Menuju Pertumbuhan & Kesuksesan",
+      "heading": "Penyelesaian Payout Cepat",
+      "description": "Tinggalkan detail Anda, kami akan segera menghubungi Anda.",
+      "fullName": "Nama Lengkap",
+      "fullNamePlaceholder": "Masukkan nama lengkap Anda",
+      "email": "Email",
+      "emailPlaceholder": "Masukkan email Anda",
+      "phone": "Nomor Telepon",
+      "phonePlaceholder": "Masukkan nomor Anda",
+      "message": "Pesan",
+      "messagePlaceholder": "Tulis pesan Anda di sini",
+      "sendOtp": "KIRIM OTP",
+      "sendingOtp": "MENGIRIM...",
+      "otpSent": "OTP TERKIRIM ✓",
+      "agree": "Dengan mengirimkan formulir ini, Anda setuju untuk dihubungi oleh tim kami.",
+      "submit": "Kirim"
+    },
+    "calculator": {
+      "title": "How Much You Can Earn? Calculate your profit",
+      "clients": "Clients",
+      "rewards": "Rewards",
+      "perLot": "Per lot",
+      "ctaTitle": "Become a WINPROFX Partner & Start Earning Today",
+      "steps": {
+        "apply": "Apply to become an <span>Introducing Broker </span>",
+        "share": "Attract clients by sharing your <span>Referral Link</span>",
+        "earn": "Earn <span>commission</span> on every trade your clients make"
+      },
+      "description": "This advanced commission calculator operates on the basis of Introducing Brokers' client count and their trading volume in lots, providing an accurate reflection of earned commissions.",
+      "partnerDes": "Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.",
+      "stepKeys": [
+        "apply",
+        "share",
+        "earn"
+      ]
+    }
+  },
+  "platform": {
+    "meta": "PLATFORM PERDAGANGAN",
+    "h1": "Platform Trading",
+    "bannerMeta": "Platform Trading",
+    "bannerDes": "WINPROFX telah mencapai kesuksesan signifikan dalam ekspansi bisnis global. WINPROFX menyediakan akses platform MetaTrader 5 (MT5) untuk trading Forex dan CFD, tersedia di Android dan iPhone, membawa Anda selangkah lebih dekat menuju kesuksesan. Unduh MT5 sekarang dan terjun ke dunia peluang trading tanpa batas.",
+    "cards": {
+      "mobile": {
+        "meta": "PLATFORM TRADING",
+        "title": "Unduh MT5 untuk Mobile",
+        "description": "WINPROFX terus berhasil memperluas bisnisnya di seluruh dunia, dan kini MT5 tersedia di Android dan iPhone — Anda selangkah lebih dekat menuju kesuksesan. Unduh MT5 sekarang dan jelajahi dunia peluang trading tanpa batas."
+      },
+      "desktop": {
+        "meta": "PLATFORM TRADING",
+        "title": "UNDUH MT5 UNTUK DESKTOP",
+        "description": "Rasakan kekuatan MT5 di desktop Anda. Akses alat charting canggih, kemampuan trading otomatis, dan data pasar real-time. WINPROFX menyediakan platform trading berbasis web yang mulus untuk trader profesional yang menginginkan fitur canggih dan fleksibilitas."
+      }
+    }
+  },
+  "accounts": {
+    "meta": "AKUN",
+    "h1": "Akun Trading",
+    "des": "Buka akun trading bebas komisi dengan fitur lengkap yang dirancang untuk trader masa kini. Daftar sekarang dan nikmati manfaat akun paling populer kami.",
+    "chooseAccount": {
+      "title": "Pilih Akun Anda",
+      "recommended": "DIREKOMENDASIKAN",
+      "register": "Daftar",
+      "labels": {
+        "minimumDeposit": "Deposit Minimum",
+        "spread": "Spread",
+        "commission": "Komisi",
+        "maxLeverage": "Leverage Maksimum",
+        "instruments": "Instrumen"
+      },
+      "instruments": {
+        "forex": "Forex",
+        "metal": "Metal",
+        "crypto": "Crypto",
+        "energies": "Energies",
+        "indices": "Indices"
+      },
+      "plans": {
+        "standard": {
+          "title": "Standard",
+          "description": "Akun paling populer kami. Cocok untuk semua jenis trader.",
+          "minimumDeposit": "$50",
+          "spread": "Mulai 0,2 pip",
+          "commission": "Tanpa Komisi",
+          "leverage": "1:500"
+        },
+        "pro": {
+          "title": "Pro",
+          "description": "Akun eksekusi instan kami, tanpa komisi dan spread rendah.",
+          "minimumDeposit": "$3000",
+          "spread": "Mulai 0,1 pip",
+          "commission": "Tanpa Komisi",
+          "leverage": "1:500"
+        },
+        "ecn": {
+          "title": "ECN",
+          "description": "Akun eksekusi instan kami, tanpa komisi dan spread rendah",
+          "minimumDeposit": "$5000",
+          "spread": "Mulai 0,0 pip",
+          "commission": "Hingga $3,50 per sisi per lot",
+          "leverage": "1:500"
+        }
+      }
+    },
+    "featureComparison": {
+      "title": "Feature Comparison",
+      "standard": "STANDARD",
+      "pro": "PRO",
+      "ecn": "ECN",
+      "rows": {
+        "minimumDeposit": "Minimum Deposit",
+        "spread": "Spread",
+        "commission": "Commission",
+        "maximumLeverage": "Maximum Leverage",
+        "instruments": "Instruments",
+        "minimumLotSize": "Minimum lot size",
+        "maximumLotSize": "Maximum lot size",
+        "marginCall": "Margin call",
+        "stopOut": "Stop out",
+        "orderExecution": "Order execution",
+        "swapFree": "Swap-Free"
+      },
+      "values": {
+        "spreadStandard": "From 0.2 pips",
+        "spreadPro": "From 0.1 pips",
+        "spreadEcn": "From 0 pips",
+        "commissionEcn": "Up to $3.50 each side per lot",
+        "orderExecution": "Market",
+        "swapFree": "Available"
+      },
+      "instrumentKeys": [
+        "forex",
+        "metal",
+        "crypto",
+        "energies",
+        "indices"
+      ]
+    }
+  },
+  "aboutUs": {
+    "meta": "TENTANG KAMI",
+    "h1": "Tentang WINPROFX",
+    "values": {
+      "advancedTechnology": {
+        "title": "Teknologi Canggih",
+        "des": "Kami terus mengejar inovasi teknologi untuk memberikan eksekusi super cepat dan pengalaman trading yang mulus."
+      },
+      "clientCentric": {
+        "title": "Fokus pada Klien",
+        "des": "Kesuksesan Anda adalah prioritas kami. Kami melengkapi trader dengan sumber daya, likuiditas, dan dukungan yang dibutuhkan untuk berkembang."
+      },
+      "integrity": {
+        "title": "Integritas Tanpa Kompromi",
+        "des": "Kepercayaan adalah yang utama. Kami beroperasi dengan transparansi radikal dan standar etika yang ketat di setiap transaksi."
+      },
+      "globalNetwork": {
+        "title": "Jaringan Global",
+        "des": "Bergabunglah dengan ekosistem profesional yang berkembang di mana wawasan kolektif dan kinerja individu mendorong kesuksesan bersama."
+      }
+    },
+    "bannerTitle": "Pioneering Excellence: Redefining Trading Standards at WINPROFX",
+    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.org before trading or depositing.",
+    "companyInfoTitle": "Company Information",
+    "legalName": "Legal Name:",
+    "legalNameValue": "WINPROFX Limited",
+    "tradingName": "Trading Name:",
+    "tradingNameValue": "WINPROFX",
+    "primaryWebsite": "Primary Website:",
+    "regulation": "Regulation:",
+    "regulationValue": "Financial Services Commission of the Republic of Mauritius (Investment Dealer license)",
+    "support": "Support:",
+    "standardTitle": "The WINPROFX Standard",
+    "standardDes": "A foundation built on transparency, innovation, and uncompromising execution.",
+    "featuredIn": "As Featured In",
+    "faqTitle": "Your Guide to Seamless Trading",
+    "faqDes": "Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WINPROFX is smooth and successful.",
+    "valueKeys": [
+      "advancedTechnology",
+      "clientCentric",
+      "integrity",
+      "globalNetwork"
+    ],
+    "faqs": {
+      "whatIsWinprofx": {
+        "title": "What is WINPROFX?",
+        "body": "<p>WINPROFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WINPROFX stands out for several reasons:</p><ul><li><span><span>Global Regulation: </span> WINPROFX publishes company registration, legal entity, and regulatory scope information on its official Trust Center.</span></li><li><span><span>MT5 Platform Access:</span> WINPROFX provides MetaTrader 5 for desktop and mobile trading with standard order types and charting tools.</span></li><li><span><span>Withdrawal Processing:</span> Withdrawal requests are handled according to WINPROFX published policies and verification requirements.</span></li><li><span><span>Tradable Instruments: </span> WINPROFX provides access to multiple forex and CFD market categories through MT5.</span></li><li><span><span>Spreads:</span> Spreads vary by instrument and market conditions. See account types for published spread information where available.</span></li></ul>"
+      },
+      "howToStart": {
+        "title": "How do I start trading with WINPROFX?",
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> or <a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
+      },
+      "instruments": {
+        "title": "Which Financial instruments can I trade with WINPROFX?",
+        "body": "<p>Common categories of financial instruments that traders can potentially access on WINPROFX: </p><ul><li><span><span>Forex (Foreign Exchange): </span>Currency pairs, such as EUR/USD, GBP/JPY, USD/JPY, etc.</span></li><li><span><span>Indices:</span>Benchmarks representing the performance of a group of stocks on a specific exchange such as S&P500, US30, etc.</span></li><li><span><span>Commodities:</span>Such as oil, agricultural products, etc.</span></li><li><span><span>Precious Metals:</span>Assets like gold, silver, platinum, palladium, etc.</span></li><li><span><span>Cryptocurrencies:</span>Digital currencies like Bitcoin, Ethereum, Litecoin, etc.</span></li></ul>"
+      },
+      "depositWithdraw": {
+        "title": "How can I deposit and withdraw funds on WINPROFX?",
+        "body": "<p>For clients convenience WINPROFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>"
+      },
+      "platforms": {
+        "title": "What trading platforms does WINPROFX support?",
+        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.org for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
+      },
+      "support": {
+        "title": "How can I contact WINPROFX customer support?",
+        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+      }
+    },
+    "faqKeys": [
+      "whatIsWinprofx",
+      "howToStart",
+      "instruments",
+      "depositWithdraw",
+      "platforms",
+      "support"
+    ]
+  },
+  "about": {
+    "meta": "Informasi Resmi",
+    "h1": "Tentang WINPROFX",
+    "sections": {
+      "whatIsWinprofx": "Apa itu WINPROFX?",
+      "servicesProvided": "Layanan yang Disediakan",
+      "officialDomains": "Domain Resmi",
+      "clientPartnerLogin": "Login Klien dan Mitra",
+      "riskWarning": "Peringatan Risiko",
+      "contact": "Kontak"
+    },
+    "whatIsBody": "WINPROFX adalah merek trading Forex dan CFD yang menawarkan akses platform trading, layanan akun klien, alat program mitra, dan layanan dukungan terkait trading melalui domain dan portal resminya.",
+    "services": {
+      "forexCfd": "Akses trading Forex dan CFD",
+      "platformTools": "Informasi dan alat platform trading",
+      "clientPortal": "Manajemen akun klien melalui portal klien resmi",
+      "partnerProgram": "Alat program mitra dan introducing broker",
+      "support": "Layanan dukungan pelanggan terkait trading"
+    }
+  },
+  "contact": {
+    "meta": "Dukungan Pelanggan",
+    "h1": "Hubungi WINPROFX",
+    "sections": {
+      "getInTouch": "Hubungi Kami",
+      "contactChannels": "Saluran Kontak",
+      "businessHours": "Jam Operasional",
+      "contactRiskLegal": "Catatan Kontak, Risiko & Legal"
+    },
+    "labels": {
+      "supportEmail": "Email Dukungan",
+      "phone": "Telepon",
+      "whatsapp": "WhatsApp",
+      "officialWebsite": "Situs Resmi",
+      "clientPortal": "Portal Klien",
+      "partnerPortal": "Portal Mitra"
+    },
+    "introP1": "WINPROFX provides customer support for account inquiries, trading platform assistance, deposits, withdrawals, and general questions. Our main official website is",
+    "introP2Start": "For account login and trading, use the",
+    "introP2ClientPortal": "client portal at my.winprofx.org",
+    "introP2Middle": ". Partners should use",
+    "introP2PartnerPortal": "partner.winprofx.org",
+    "customerSupport": "Customer Support:",
+    "customerSupportHours": "Available 24 hours a day, 7 days a week",
+    "officeHours": "Office Hours (UAE):",
+    "officeHoursValue": "Monday – Friday, 09:00 – 18:00 (GST)",
+    "riskLegalP1Start": "Before trading, please read our",
+    "riskWarningLink": "Risk Warning",
+    "riskLegalP1Middle": "and review our",
+    "legalDocumentsLink": "Legal Documents",
+    "riskLegalP1End": "Trading forex and CFDs involves significant risk and may not be suitable for all investors.",
+    "officialDomainsNote": "Always verify you are on an official WINPROFX domain before logging in or depositing. See",
+    "officialDomainsLink": "Official Domains",
+    "officialDomainsEnd": "for the complete list."
+  },
+  "blog": {
+    "meta": "ARTIKEL",
+    "h1": "Blog WINPROFX",
+    "categories": {
+      "all": "Semua",
+      "forex": "Forex",
+      "indices": "Indeks",
+      "crypto": "Kripto",
+      "oil": "Minyak",
+      "metals": "Logam",
+      "commodities": "Komoditas"
+    },
+    "pageMeta": "Artikel",
+    "pageTitle": "Blog WINPROFX",
+    "posts": {
+      "overview": {
+        "title": "WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview",
+        "des": ""
+      },
+      "indices": {
+        "title": "Indices Trading with WINPROFX",
+        "des": "When it comes to trading indices in India, having the right platform can significantly impact your success."
+      },
+      "forex": {
+        "title": "Forex Trading with WINPROFX",
+        "des": "In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success."
+      },
+      "crypto": {
+        "title": "Crypto CFD Trading with WINPROFX",
+        "des": ""
+      },
+      "commodities": {
+        "title": "Commodities Trading with WINPROFX",
+        "des": ""
+      },
+      "metals": {
+        "title": "Gold and Metals Trading with WINPROFX",
+        "des": ""
+      }
+    },
+    "postKeys": [
+      "overview",
+      "indices",
+      "forex",
+      "crypto",
+      "commodities",
+      "metals",
+      "overview"
+    ],
+    "details": {
+      "meta": "Overview",
+      "title": "WINPROFX Forex and CFD Trading Overview",
+      "des": "WINPROFX provides access to forex and CFD markets through MetaTrader 5. This overview explains platform access, account services, and where to find official company and risk information before trading.",
+      "sections": {
+        "markets": {
+          "title": "What markets does WINPROFX offer?",
+          "des": "WINPROFX offers access to forex, indices, crypto CFDs, metals, commodities, and oil through the MT5 platform. Instrument availability may vary by account type and region."
+        },
+        "mt5": {
+          "title": "MT5 Platform Access",
+          "des": "Clients can access MetaTrader 5 on desktop and mobile. The platform includes charting tools, order types, and account management features. Demo accounts may be available for practice."
+        },
+        "verify": {
+          "title": "Verify WINPROFX Before Trading",
+          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org."
+        },
+        "risk": {
+          "title": "Risk Warning",
+          "des": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Losses can exceed deposits when using leverage. Read the full risk warning on the official WINPROFX website before trading."
+        }
+      },
+      "sectionKeys": [
+        "markets",
+        "mt5",
+        "verify",
+        "risk"
+      ]
+    }
+  },
+  "promotionUi": {
+    "howItWorks": {
+      "subTitle": "Cara Kerjanya",
+      "title": "Empat Langkah Menuju Hadiah Anda",
+      "des": "Memulai itu mudah. Selesaikan langkah-langkah ini dan Anda selangkah lebih dekat memenangkan hadiah Apple eksklusif.",
+      "steps": {
+        "register": {
+          "title": "Daftar",
+          "desc": "Buka akun live dengan WINPROFX. Klien baru dapat opt in sejak deposit pertama."
+        },
+        "optIn": {
+          "title": "Ikut Program",
+          "desc": "Pilih program Trade to Win dan tentukan tier hadiah target sebelum mulai trading."
+        },
+        "trade": {
+          "title": "Trading",
+          "desc": "Trading instrumen yang memenuhi syarat — tahan setiap posisi minimal 3 menit agar dihitung sebagai lot qualifying."
+        },
+        "win": {
+          "title": "Menangkan Hadiah Anda",
+          "desc": "Capai target volume lot dalam 30 hari dan klaim hadiah eksklusif Anda."
+        }
+      }
+    },
+    "programPeriod": {
+      "subTitle": "Periode Program",
+      "title": "Kapan Program Berjalan?",
+      "items": {
+        "activeDates": {
+          "title": "Tanggal Aktif",
+          "desc": "Program berjalan dari 1 Maret 2025 hingga 31 Mei 2026. Bergabung kapan saja selama periode ini."
+        },
+        "tradingTimeline": {
+          "title": "Linimasa Trading",
+          "desc": "Setelah opt in, Anda memiliki 30 hari dari tanggal mulai untuk mencapai volume target dan klaim hadiah."
+        },
+        "optInDeadline": {
+          "title": "Batas Opt-In",
+          "desc": "Klien baru dapat opt in sejak deposit pertama. Jangan menunda — setiap hari dihitung dalam jendela 30 hari Anda."
+        }
+      }
+    },
+    "eligibility": {
+      "subTitle": "Kelayakan",
+      "title": "Siapa yang Bisa Berpartisipasi?",
+      "des": "Tinjau persyaratan kelayakan sebelum bergabung dengan program Trade to Win.",
+      "items": {
+        "whoCanJoin": {
+          "title": "Siapa yang Bisa Bergabung",
+          "desc": "Eksklusif untuk klien retail. Introducing Brokers (IB) dikecualikan dan tidak dapat berpartisipasi."
+        },
+        "singleEntry": {
+          "title": "Entri Tunggal",
+          "desc": "Setiap peserta hanya dapat bergabung satu aktivitas program sekaligus. Pilih tier dengan bijak sebelum opt in."
+        },
+        "withdrawals": {
+          "title": "Penarikan Diizinkan",
+          "desc": "Penarikan diperbolehkan selama kampanye dan tidak akan mendiskualifikasi Anda."
+        },
+        "tradeDuration": {
+          "title": "Durasi Trading",
+          "desc": "Trading yang memenuhi syarat harus dibuka minimal 3 menit agar dihitung sebagai lot qualifying."
+        },
+        "excludedInstruments": {
+          "title": "Instrumen yang Dikecualikan",
+          "desc": "Saham dan pasangan cryptocurrency tidak memenuhi syarat promosi ini. Semua instrumen supported lainnya memenuhi syarat."
+        },
+        "accountType": {
+          "title": "Jenis Akun",
+          "desc": "Hanya akun individu self-directed yang dapat berpartisipasi. Akun managed atau akun rujukan IB tidak memenuhi syarat."
+        }
+      }
+    },
+    "startTrading": {
+      "subTitle": "Mulai",
+      "title": "Mulai Trading dengan WINPROFX!",
+      "des": "Setiap lot yang Anda trading membawa Anda lebih dekat ke hadiah eksklusif. Buka akun live hari ini dan opt in ke program Trade to Win.",
+      "steps": {
+        "register": {
+          "title": "Daftar",
+          "desc": "Buat akun live Anda"
+        },
+        "fund": {
+          "title": "Danai",
+          "desc": "Lakukan deposit pertama"
+        },
+        "trade": {
+          "title": "Trading",
+          "desc": "Capai target volume lot Anda"
+        },
+        "claim": {
+          "title": "Klaim Hadiah",
+          "desc": "Terima hadiah eksklusif Anda"
+        }
+      },
+      "questionsPrefix": "Pertanyaan? Hubungi kami di",
+      "questionsSuffix": "atau kunjungi"
+    },
+    "ptConditions": {
+      "subTitle": "Ketentuan Penting",
+      "title": "Syarat & Ketentuan Program",
+      "des": "Harap baca ketentuan ini dengan saksama sebelum berpartisipasi dalam program Trade to Win.",
+      "items": {
+        "fairPlay": {
+          "title": "Permainan Adil",
+          "desc": "Tanda-tanda market abuse seperti latency arbitrage atau teknik trading manipulatif akan langsung mendiskualifikasi Anda."
+        },
+        "dispute": {
+          "title": "Penyelesaian Sengketa",
+          "desc": "Masalah yang tidak diatur langsung dalam ketentuan ini akan ditangani manajemen secara adil dan mengikat. Keputusan manajemen bersifat final."
+        },
+        "liability": {
+          "title": "Penafian Tanggung Jawab",
+          "desc": "WINPROFX tidak bertanggung jawab atas kerugian trading. Program ini tidak mengubah profil risiko atau strategi investasi peserta."
+        },
+        "general": {
+          "title": "Ketentuan Umum",
+          "desc": "WINPROFX berhak mengubah atau mengakhiri program ini kapan saja. Semua syarat dan ketentuan WINPROFX yang ada berlaku tambahan atas ketentuan program ini."
+        }
+      },
+      "riskWarning": "Trading forex dan produk leveraged melibatkan risiko signifikan dan tidak cocok untuk semua investor. Trading dapat menyebabkan kerugian melebihi investasi awal Anda. Pastikan Anda sepenuhnya memahami risiko yang terlibat.",
+      "readFullRiskDisclosure": "Baca Pengungkapan Risiko Lengkap →"
+    },
+    "rewardTiers": {
+      "volumeLabel": "Lot",
+      "items": {
+        "tier1": {
+          "prize": "Bank Daya",
+          "desc": "Tetap terisi daya di mana pun Anda trading"
+        },
+        "tier2": {
+          "prize": "Apple AirPods",
+          "desc": "Performa pro-level di tangan Anda"
+        },
+        "tier3": {
+          "prize": "Jam Tangan Apple",
+          "desc": "Hadiah utama untuk trader teratas"
+        },
+        "tier4": {
+          "prize": "iPad",
+          "desc": "Trading lebih cerdas di layar lebih besar"
+        },
+        "tier5": {
+          "prize": "iPad Pro",
+          "desc": "Trading lebih cerdas di layar pro-level lebih besar"
+        },
+        "tier6": {
+          "prize": "iPhone TERBARU",
+          "desc": "Perangkat ultimate untuk trader elite"
+        }
+      },
+      "tradingVolumeLabel": "Volume Trading",
+      "noteLabel": "Catatan:",
+      "note": "Capai volume target dalam 30 hari sejak tanggal opt-in. Saham & pasangan crypto dikecualikan."
+    }
+  }
+}

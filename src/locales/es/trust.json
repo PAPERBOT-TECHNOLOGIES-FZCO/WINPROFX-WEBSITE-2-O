@@ -1,0 +1,715 @@
+{
+  "meta": {
+    "lastReviewed": "2 de junio de 2026",
+    "lastReviewedIso": "2026-06-02",
+    "reviewedBy": "Equipo de cumplimiento y operaciones de WINPROFX"
+  },
+  "trustCenter": {
+    "h1": "Centro de confianza WINPROFX",
+    "intro": "El Centro de confianza WINPROFX es el centro de información oficial de la empresa, legal, de riesgos, de retiro, de soporte y de verificación de dominio. Utilice las páginas siguientes para verificar WINPROFX antes de iniciar sesión, depositar fondos o compartir documentos personales.",
+    "verifyCalloutTitle": "Verifica los dominios oficiales antes de actuar",
+    "verifyCalloutBody": "Confirme siempre que está en un dominio oficial de WINPROFX antes de ingresar las credenciales de inicio de sesión, realizar depósitos o cargar documentos KYC. Los sitios web fraudulentos y los imitadores pueden utilizar marcas similares.",
+    "viewOfficialDomains": "Ver dominios oficiales de WINPROFX →",
+    "howToVerify": "Cómo verificar WINPROFX →",
+    "sections": {
+      "companyLegal": "Información legal y de la empresa",
+      "verification": "Verificación y seguridad del dominio",
+      "trustSupport": "Confianza, retiros y soporte",
+      "brandGuides": "Guías de verificación de marca",
+      "brandGuidesIntro": "Páginas oficiales para búsquedas de verificación comunes:"
+    }
+  },
+  "pages": {
+    "companyProfile": {
+      "label": "Perfil de la empresa",
+      "summary": "Descripción oficial de la marca WINPROFX y de la empresa.",
+      "meta": "Información oficial",
+      "h1": "Perfil de la empresa",
+      "intro": "Información oficial sobre la marca WINPROFX, sitios web, portales, servicios, canales de soporte y aviso de riesgo comercial.",
+      "sections": {
+        "brandOverview": "Descripción general de la marca",
+        "legalEntityAndRegistration": "Persona Jurídica y Registro",
+        "uaeRepresentativeOffice": "Oficina representativa en los EAU",
+        "trustAndTransparency": "Confianza y Transparencia",
+        "officialBrandInformation": "Información oficial de la marca",
+        "officialDomainsAndPortalGuidance": "Dominios oficiales y orientación sobre portales",
+        "winprofxServices": "Servicios WINPROFX",
+        "userSafetyAndBrandVerification": "Seguridad del usuario y verificación de marca",
+        "riskWarning": "Advertencia de riesgo",
+        "restrictedCountries": "Países restringidos y disponibilidad de servicios",
+        "legalAndPolicyDocuments": "Documentos legales y de políticas",
+        "contactWinprofx": "Contactar con WINPROFX",
+        "frequentlyAskedQuestions": "Preguntas frecuentes"
+      },
+      "content": {
+        "brandOverview1": "{{brandName}} es una marca comercial de Forex y CFD que brinda acceso a plataformas comerciales, servicios de cuentas de clientes, herramientas de programas de socios, información relacionada con las operaciones y servicios de soporte a través de sus sitios web y portales oficiales.",
+        "brandOverview2": "El propósito de esta página es proporcionar a los usuarios, socios y motores de búsqueda información oficial clara sobre la marca WINPROFX, sus dominios oficiales, canales de soporte, servicios y avisos relacionados con riesgos.",
+        "brandOverview3": "Los usuarios deben confiar en los dominios y portales oficiales enumerados en este sitio web al acceder a los servicios de WINPROFX, verificar la identidad o comunicarse con el soporte.",
+        "legalEntityIntro": "{{brandName}} está asociado con{{legalEntityName}}, un International Business Company constituida en{{jurisdiction}}. Los documentos de constitución de la empresa incluyen una{{documentTypes}}.",
+        "legalEntityRegulatory": "Para obtener información regulatoria y relacionada con licencias, visite el <regulatoryLink> Información regulatoria </regulatoryLink> página.",
+        "uaeOfficeIntro": "{{brandName}} opera una oficina representativa en los EAU bajo el nombre comercial{{dubaiBusinessName}}, registrado bajo la Licencia Profesional de Dubai No.{{dubaiLicenseNumber}} con licencia de actividad listada como{{dubaiLicenseActivity}}.",
+        "trustIntro": "{{brandName}} publica información de confianza y transparencia para ayudar a los clientes a verificar dominios oficiales, comprender los procesos de retiro, presentar quejas y acceder a rutas de escalada de soporte.",
+        "domainsGuidanceIntro": "{{brandName}} utiliza dominios y portales oficiales para proporcionar información del sitio web, acceso a cuentas de clientes, servicios de socios y comunicación de soporte. Los usuarios deben verificar que están visitando un dominio oficial de WINPROFX antes de registrarse, iniciar sesión, realizar pagos o compartir información relacionada con la cuenta.",
+        "domainPurposes": {
+          "org": "Sitio web oficial principal y fuente principal de información de la marca.",
+          "com": "Dominio alternativo oficial para la marca WINPROFX.",
+          "ae": "EAU / dominio regional para información de WINPROFX.",
+          "my": "Portal de clientes para acceso a cuentas y servicios al cliente.",
+          "partner": "Portal de socios para el acceso relacionado con el corredor de presentación/los socios."
+        },
+        "unlistedDomainWarning": "Si un sitio web, una página de redes sociales, una aplicación móvil, un correo electrónico o un representante afirma representar a WINPROFX pero no figura en la lista <officialDomainsLink> Dominios Oficiales </officialDomainsLink> página, los usuarios deben verificarla antes de continuar.",
+        "servicesIntro": "{{brandName}} proporciona acceso relacionado con el comercio y servicios de soporte a través de sus sitios web y portales oficiales. Los servicios disponibles pueden incluir acceso a la plataforma, gestión de cuentas de clientes, herramientas de socios e información relacionada con el mercado.",
+        "services": {
+          "forexCfd": {
+            "title": "Acceso a operaciones Forex y CFD",
+            "description": "Acceso a servicios relacionados con el comercio de divisas y CFD a través de plataformas compatibles y canales de cuentas oficiales."
+          },
+          "platform": {
+            "title": "Información de la plataforma comercial",
+            "description": "Información y orientación de acceso a las plataformas comerciales utilizadas por los clientes de WINPROFX."
+          },
+          "clientAccount": {
+            "title": "Gestión de cuentas de clientes",
+            "description": "Acceso al portal del cliente para gestionar actividades relacionadas con la cuenta a través de los sistemas oficiales de WINPROFX."
+          },
+          "partnerPortal": {
+            "title": "Portal de socios/corredores introductorios",
+            "description": "Herramientas y recursos del portal de socios para socios aprobados y agentes introductorios, cuando corresponda."
+          },
+          "tools": {
+            "title": "Herramientas comerciales e información de mercado",
+            "description": "Herramientas relacionadas con el mercado, información comercial y recursos de plataforma proporcionados a los usuarios a través de canales oficiales."
+          },
+          "support": {
+            "title": "Atención al cliente",
+            "description": "Asistencia de soporte a través de los canales de contacto oficiales de WINPROFX, incluidos{{supportEmail}}."
+          }
+        },
+        "safetyIntro": "Los usuarios siempre deben confirmar que acceden a WINPROFX a través de un dominio o portal oficial. Antes de ingresar los datos de inicio de sesión, realizar depósitos, comunicarse con el soporte o compartir documentos, los usuarios deben verificar la dirección del sitio web y utilizar únicamente los canales oficiales de WINPROFX.",
+        "safetyTips": {
+          "checkDomain": "Siempre verifique el dominio antes de iniciar sesión.",
+          "noOtps": "No comparta OTP, contraseñas ni detalles confidenciales de la cuenta con contactos no oficiales.",
+          "noUnofficialPayments": "Evite instrucciones de pago no oficiales de representantes desconocidos.",
+          "verifySuspicious": "Verifique cualquier sitio web o comunicación sospechosa a través de la página de contacto oficial.",
+          "useDomainsPage": "Utilice la página de dominios oficiales para confirmar los sitios web y portales de WINPROFX válidos."
+        },
+        "safetyLinks": "Obtenga más información sobre el <officialDomainsLink> Dominios Oficiales </officialDomainsLink>, <verifyLink> Verificar WINPROFX </verifyLink>, y <contactLink> Contacto </contactLink> páginas.",
+        "riskBody1": "Operar con Forex y CFD implica un riesgo significativo y puede no ser adecuado para todos los inversores. Los precios pueden variar rápidamente y los clientes pueden perder parte o la totalidad de su capital invertido. Los usuarios deben comprender los riesgos involucrados antes de operar y solo deben operar con fondos que puedan arriesgarse.",
+        "riskBody2": "{{brandName}} no garantiza ganancias comerciales, retornos o resultados de inversión. Las decisiones comerciales son responsabilidad del usuario individual.",
+        "riskLinks": "Leer el completo <riskWarningLink> Advertencia de riesgo </riskWarningLink>, <legalDocsLink> Documentos Legales </legalDocsLink>, y <termsLink> Términos y condiciones </termsLink> antes de utilizar cualquier servicio.",
+        "restrictedIntro": "{{brandName}} Es posible que no proporcione servicios en ciertos países o jurisdicciones debido a restricciones legales, regulatorias o comerciales. Los usuarios deben revisar la página de Países restringidos antes de registrarse o utilizar cualquier servicio.",
+        "viewRestrictedCountries": "Ver países restringidos",
+        "legalDocsIntro": "Los usuarios deben leer los documentos legales, de riesgo, de privacidad y de política aplicables antes de utilizar cualquier servicio de WINPROFX.",
+        "contactIntro": "Para consultas de soporte oficial, los usuarios pueden comunicarse con WINPROFX a través del correo electrónico de soporte oficial o la página de Contacto.",
+        "brandTableLabels": {
+          "brandName": "Nombre de la marca",
+          "mainWebsite": "Sitio web oficial principal",
+          "alternateDomain": "Dominio alternativo oficial",
+          "uaeDomain": "UAE Oficial / Dominio Regional",
+          "clientPortal": "Portal del cliente",
+          "partnerPortal": "Portal de socios",
+          "supportEmail": "Envíe un correo a de soporte",
+          "lastUpdated": "Última actualización"
+        },
+        "legalLinks": {
+          "terms": "Términos y condiciones",
+          "privacy": "política de privacidad",
+          "riskWarning": "Advertencia de riesgo",
+          "aml": "Política AML",
+          "legalDocuments": "Documentos Legales",
+          "restrictedCountries": "Países restringidos"
+        }
+      },
+      "faqs": {
+        "whatIsWinprofx": {
+          "question": "¿Qué es WINPROFX?",
+          "answer": "WINPROFX es una marca comercial de Forex y CFD que ofrece acceso a plataformas comerciales, servicios de cuentas de clientes, herramientas de programas de socios y servicios de soporte relacionados con las operaciones a través de sus dominios y portales oficiales."
+        },
+        "officialWebsite": {
+          "question": "¿Cuál es el sitio web oficial de WINPROFX?",
+          "answer": "El principal sitio web oficial de WINPROFX es https://winprofx.org/. WINPROFX también utiliza dominios regionales y alternativos oficiales enumerados en su página de Dominios Oficiales."
+        },
+        "clientPortal": {
+          "question": "¿Qué es el portal de clientes de WINPROFX?",
+          "answer": "El portal oficial del cliente de WINPROFX es https://my.winprofx.org/. Los usuarios deben verificar la URL del portal antes de iniciar sesión o ingresar información de la cuenta."
+        },
+        "partnerPortal": {
+          "question": "¿Qué es el portal de socios de WINPROFX?",
+          "answer": "El portal oficial de socios de WINPROFX es https://partner.winprofx.org/. Se utiliza para el acceso relacionado con socios y corredores de presentación, cuando corresponda."
+        },
+        "contactSupport": {
+          "question": "¿Cómo puedo comunicarme con el soporte de WINPROFX?",
+          "answer": "Los usuarios pueden ponerse en contacto con el soporte de WINPROFX en support@winprofx.com o a través de la página de contacto oficial."
+        },
+        "tradingRisk": {
+          "question": "¿El comercio de divisas y CFD implica riesgos?",
+          "answer": "Sí. Operar con Forex y CFD implica un riesgo significativo y puede no ser adecuado para todos los inversores. Los usuarios deben comprender los riesgos antes de operar."
+        },
+        "verifyDomain": {
+          "question": "¿Cómo pueden los usuarios verificar un dominio oficial de WINPROFX?",
+          "answer": "Los usuarios deben consultar la página Dominios oficiales o Verificar WINPROFX y confirmar que el sitio web o portal figura como un dominio oficial de WINPROFX."
+        }
+      }
+    },
+    "companyRegistration": {
+      "label": "Registro de empresa",
+      "summary": "JURISDICCIÓN datos de constitución y documentos certificados.",
+      "meta": "Información oficial",
+      "h1": "Registro de empresa",
+      "sections": {
+        "companyRegistrationDetails": "Detalles de registro de la empresa",
+        "shareAndCapitalInformation": "Información sobre acciones y capital",
+        "memorandumAndArticles": "Memorando y estatutos",
+        "dubaiBranchRegistration": "Registro de sucursal de Dubái",
+        "importantClarification": "Aclaración importante",
+        "certifiedIncorporationDocuments": "Documentos de constitución certificados",
+        "riskWarning": "Advertencia de riesgo",
+        "relatedInformation": "Información relacionada"
+      },
+      "content": {
+        "intro": "{{brandName}} está asociado con{{legalEntityName}}, un International Business Company constituida en{{jurisdiction}}. Los documentos de constitución certificados de la empresa incluyen una{{documentTypes}}.",
+        "shareCapitalBody": "La estructura de capital social de la empresa se define en la escritura de constitución y los estatutos.{{legalEntityName}} tiene acciones autorizadas denominadas en dólares estadounidenses y las acciones ordinarias conllevan un voto por acción. Las acciones emitidas por la empresa no son reembolsables a la vista.",
+        "memorandumBody": "El conjunto de documentos de constitución certificados incluye el Certificado de constitución, el Memorando de asociación y los Artículos de asociación para{{legalEntityName}}. El Acta de Constitución define la constitución, la estructura accionaria y el objeto de la empresa. Los Estatutos Sociales regulan la gestión interna y los derechos de los accionistas.",
+        "subscriberLine": "El suscriptor de constitución fue{{incorporationSubscriber}}.",
+        "dubaiBranchBody": "{{legalEntityName}} también posee una Licencia Profesional de Dubai para su oficina representativa en los EAU. Ver <dubaiLicenseLink> Licencia profesional de Dubái </dubaiLicenseLink> y <uaeOfficeLink> Oficina representativa en los EAU </uaeOfficeLink> para más detalles.",
+        "certifiedDocsIntro": "Documentos de constitución certificados para{{legalEntityName}} están disponibles para descargar:"
+      }
+    },
+    "legalEntityInformation": {
+      "label": "Información de la entidad legal",
+      "summary": "Nombre de la entidad jurídica, jurisdicción y estructura corporativa.",
+      "meta": "Información oficial",
+      "h1": "Información de la entidad legal",
+      "sections": {
+        "brandAndLegalEntity": "Marca y entidad legal",
+        "incorporationJurisdiction": "Jurisdicción de constitución",
+        "registeredAgent": "Agente registrado",
+        "registeredOffice": "Oficina registrada",
+        "entityStructure": "Estructura de la entidad",
+        "dubaiBranchAndOffice": "Sucursal y oficina de Dubái",
+        "documentVerification": "Verificación de documentos",
+        "officialDomainsAndPortals": "Dominios y Portales Oficiales",
+        "legalDocuments": "Documentos Legales",
+        "complianceClarification": "Aclaración de cumplimiento",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "brandIntro": "{{brandName}} es la marca comercial asociada con{{legalEntityName}}, un International Business Company constituida en{{jurisdiction}}. La información de registro de la empresa se proporciona para mayor transparencia y verificación del usuario.",
+        "entityStructureIntro": "{{legalEntityName}} es la entidad legal matriz constituida en{{jurisdiction}}. La sucursal de Dubai opera como oficina de representación bajo una licencia profesional de Dubai. La estructura se resume a continuación.",
+        "verifyBeforeAct": "Los usuarios deben verificar la identidad de WINPROFX utilizando el <verifyLink> Verificar WINPROFX </verifyLink> lista de verificación antes de registrarse, iniciar sesión o compartir información personal.",
+        "legalDocsIntro": "Los documentos de constitución certificados y otros documentos legales están disponibles a través del <legalDocsLink> Documentos Legales </legalDocsLink> sección.",
+        "regulatoryVisit": "Para obtener información regulatoria y relacionada con licencias, visite el <regulatoryLink> Información regulatoria </regulatoryLink> página."
+      }
+    },
+    "dubaiProfessionalLicense": {
+      "label": "Licencia profesional de Dubái",
+      "summary": "Detalles de licencia profesional de oficina representativa en los EAU.",
+      "meta": "Asuntos legales y cumplimiento",
+      "h1": "Licencia profesional de Dubái",
+      "sections": {
+        "licenseDetails": "Detalles de la licencia",
+        "dubaiOfficeInformation": "Información de la oficina de Dubái",
+        "documentVerification": "Verificación de documentos",
+        "scopeClarification": "Aclaración del alcance",
+        "relatedInformation": "Información relacionada",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro1": "{{dubaiBusinessName}} posee una licencia profesional de Dubai emitida por la{{dubaiLicenseCategory}}. Esta página proporciona información sobre la licencia basada en el documento certificado de licencia profesional de Dubai. La actividad de la licencia aparece como Oficina representativa y el estado de la actividad es Activo.",
+        "intro2": "Una licencia profesional de Dubai para una Oficina representativa confirma el registro de empresas locales y la actividad permitida de la oficina de representación. Debe entenderse por separado de cualquier autorización regulatoria de servicios financieros, corredor de divisas o corredor CFD.",
+        "qrVerification": "Los usuarios que posean o reciban una copia del documento de licencia original deben verificarlo utilizando el código QR proporcionado en el documento a través de los canales de verificación oficiales del Department of Economy and Tourism."
+      }
+    },
+    "uaeRepresentativeOffice": {
+      "label": "Oficina representativa en los EAU",
+      "summary": "Alcance de la oficina de representación de Dubai e información de contacto.",
+      "meta": "Información oficial",
+      "h1": "Oficina representativa en los EAU",
+      "sections": {
+        "roleOfRepresentativeOffice": "Papel de una oficina representativa",
+        "dubaiLicenseSummary": "Resumen de licencia de Dubái",
+        "importantClarification": "Aclaración importante",
+        "userVerificationGuidance": "Guía de verificación de usuario",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro1": "{{brandName}} opera una oficina representativa en los EAU bajo el nombre comercial{{dubaiBusinessName}}. La oficina está registrada bajo la Licencia Profesional de Dubai No.{{dubaiLicenseNumber}} con licencia de actividad catalogada como Oficina representativa.",
+        "intro2": "La oficina representativa en los EAU proporciona presencia comercial local para WINPROFX en los Emiratos Árabes Unidos. Admite el intercambio de información, la coordinación de soporte, la representación de la marca y la comunicación con el cliente o socio cuando lo permita el alcance de la licencia de la oficina de representación.",
+        "roleBody": "Una oficina de representación es un tipo de registro comercial que permite a una empresa extranjera establecer una presencia local para actividades limitadas como marketing, enlace y coordinación. No es lo mismo que una licencia comercial completa o una licencia de corredor de servicios financieros.",
+        "roleItems": {
+          "localPresence": "Presencia empresarial local y representación de marca en la UAE",
+          "supportCoordination": "Coordinación de información y soporte a clientes y socios.",
+          "officialChannels": "Comunicación a través de canales oficiales de WINPROFX cuando esté permitido",
+          "uaeDomain": "Conexión al dominio regional oficial de la UAE en winprofx.ae"
+        },
+        "verifyIntro": "Antes de registrarse, iniciar sesión, depositar fondos o compartir información personal, los usuarios deben verificar:",
+        "verifyItems": {
+          "domain": "El dominio exacto del sitio web (winprofx.org, winprofx.com o winprofx.ae)",
+          "businessName": "El nombre comercial de la licencia coincide{{dubaiBusinessName}}",
+          "support": "Canales de soporte oficiales ({{supportEmail}} y la página de contacto)",
+          "clientPortal": "URL del portal del cliente: https://my.winprofx.org/",
+          "partnerPortal": "URL del portal de socios: https://partner.winprofx.org/"
+        }
+      }
+    },
+    "regulatoryInformation": {
+      "label": "Información regulatoria",
+      "summary": "Constitución, licencia de Dubai y aclaración del alcance regulatorio.",
+      "meta": "Asuntos legales y cumplimiento",
+      "h1": "Información regulatoria",
+      "sections": {
+        "companyIncorporation": "Constitución de la empresa",
+        "dubaiProfessionalLicense": "Licencia profesional de Dubái",
+        "licenseScopeClarification": "Aclaración del alcance de la licencia",
+        "financialServicesLicenseClarification": "Aclaración de licencia de servicios financieros",
+        "financialRegulatoryLicenseDetails": "Detalles de la licencia regulatoria financiera (cuando se verifique)",
+        "documentAvailability": "Disponibilidad de documentos",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "incorporationIntro": "{{legalEntityName}} está incorporado en{{jurisdiction}} como un{{companyType}}. Los documentos de constitución certificados de la empresa incluyen una{{documentTypes}}.",
+        "dubaiIntro": "{{legalEntityName}} posee una Licencia Profesional de Dubai para su oficina representativa en los EAU. La actividad de la licencia aparece como Oficina representativa.",
+        "financialPlaceholderIntro": "Cuando la información verificada sobre la licencia regulatoria financiera esté disponible, se publicará en la siguiente tabla con enlaces a los registros oficiales del regulador. Hasta entonces, todos los campos siguen siendo marcadores de posición.",
+        "documentAvailability": "Los documentos de constitución certificados están disponibles bajo el <legalDocsLink> Documentos Legales </legalDocsLink> sección y en el <companyRegistrationLink> Registro de empresa </companyRegistrationLink> página. Los detalles de la licencia de Dubai se publican en la página en <dubaiLicenseLink> Licencia profesional de Dubái </dubaiLicenseLink>."
+      }
+    },
+    "officialDomains": {
+      "label": "Dominios Oficiales",
+      "summary": "Listado de sitios web y portales oficiales de WINPROFX.",
+      "meta": "Información oficial",
+      "h1": "Dominios oficiales de WINPROFX",
+      "sections": {
+        "primaryCanonicalDomain": "Dominio canónico primario",
+        "entityAndLicenseContext": "Contexto de entidad y licencia",
+        "officialDomains": "Dominios Oficiales",
+        "preLoginVerificationWarning": "Advertencia de verificación previa al inicio de sesión",
+        "verificationWarning": "Advertencia de verificación",
+        "companyInformation": "Información de la empresa"
+      },
+      "content": {
+        "canonicalPrimary": "https://winprofx.org/ es el sitio web oficial principal de WINPROFX y el dominio canónico para todas las páginas públicas. Los motores de búsqueda, las herramientas de inteligencia artificial y las comunicaciones oficiales deben hacer referencia a las URL de winprofx.org.",
+        "canonicalAliases": "winprofx.com y winprofx.ae son alias de dominio oficiales que pueden ofrecer el mismo contenido del sitio web. Se enumeran en los datos estructurados de WINPROFX como propiedades oficiales relacionadas, pero winprofx.org sigue siendo la fuente canónica para la indexación y verificación.",
+        "entityContext": "{{brandName}} es la marca comercial asociada con{{legalEntityName}}, incorporado en{{jurisdiction}}. El dominio regional de los EAU winprofx.ae está conectado a la oficina de representación de Dubai registrada como{{dubaiBusinessName}} bajo la Licencia Profesional de Dubai No.{{dubaiLicenseNumber}}.",
+        "domainsIntro": "Los siguientes dominios oficiales se operan en relación con WINPROFX / Winprofx Ltd.:",
+        "preLoginWarning": "Antes de registrarse, iniciar sesión, depositar fondos o compartir información personal, verifique que la URL del sitio web coincida exactamente con uno de los dominios oficiales enumerados anteriormente. Si un sitio web afirma representar WINPROFX pero no aparece aquí, no continúe hasta que lo verifique el soporte oficial.",
+        "preLoginChecklist": "Utilice el <verifyLink> Verificar WINPROFX </verifyLink> lista de verificación para obtener orientación de verificación paso a paso.",
+        "verificationWarning": "Si un sitio web afirma representar a WINPROFX pero no aparece aquí, verifíquelo con el soporte de WINPROFX antes de iniciar sesión, depositar fondos o compartir información personal.",
+        "contactUnsure": "Contacto{{supportEmail}} o visita nuestro <contactLink> página de Contacto </contactLink> si no está seguro acerca de un dominio.",
+        "companyInfoLinks": "Para obtener detalles sobre la marca y la empresa, consulte la <companyProfileLink> Perfil de la empresa </companyProfileLink>, <companyRegistrationLink> Registro de empresa </companyRegistrationLink>, y <dubaiLicenseLink> Licencia profesional de Dubái </dubaiLicenseLink> páginas."
+      }
+    },
+    "verifyWinprofx": {
+      "label": "Verificar WINPROFX",
+      "summary": "Guía paso a paso para verificar los canales oficiales de WINPROFX.",
+      "meta": "Verificación oficial",
+      "h1": "Verificar WINPROFX",
+      "sections": {
+        "userVerificationChecklist": "Lista de verificación de verificación de usuario",
+        "verificationSummary": "Resumen de verificación",
+        "verifyOfficialDomains": "Verificar dominios oficiales",
+        "trustLegalTransparencyPages": "Páginas de Confianza, Legales y Transparencia",
+        "safetyNote": "Nota de seguridad"
+      },
+      "content": {
+        "intro": "Esta página enumera los sitios web y portales oficiales operados por WINPROFX y proporciona una lista de verificación. Los usuarios deben confirmar la identidad de la marca, la entidad legal, las licencias, los dominios y los canales de soporte antes de iniciar sesión, registrarse, depositar fondos o compartir información personal.",
+        "checklist": {
+          "brand": "Verifique que el nombre de la marca sea WINPROFX",
+          "legalEntity": "Verificar que la entidad legal sea Winprofx Ltd. (JURISDICCIÓN constitución)",
+          "incorporation": "Verifique el número de incorporación de JURISDICCIÓN 2023-00197 en el Registro de la Compañía",
+          "dubaiLicense": "Verifique la licencia profesional de Dubai No. 1423678 y el nombre comercial DUBAIBIZNAME (actividad de Oficina representativa)",
+          "domains": "Confirme que la URL del sitio web coincida con un dominio WINPROFX oficial (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org o socio.winprofx.org).",
+          "clientPortal": "Verificar el portal del cliente en https://my.winprofx.org/",
+          "partnerPortal": "Verifique el portal de socios en https://partner.winprofx.org/",
+          "support": "Utilice el correo electrónico de soporte oficial support@winprofx.com o la página de contacto",
+          "readDocs": "Lea la Advertencia de Riesgo y los Documentos Legales antes de operar o depositar"
+        },
+        "safetyNote": "Si un sitio web afirma representar a WINPROFX pero no aparece aquí, comuníquese con el soporte de WINPROFX antes de usarlo. Visita nuestro <contactLink> página de Contacto </contactLink> o correo electrónico{{supportEmail}}."
+      }
+    },
+    "legalDocuments": {
+      "label": "Documentos Legales",
+      "summary": "Índice de políticas, términos y documentos de cumplimiento.",
+      "meta": "Asuntos legales y cumplimiento",
+      "h1": "Documentos Legales",
+      "sections": {
+        "availableDocuments": "Documentos disponibles",
+        "questions": "Preguntas"
+      },
+      "content": {
+        "intro": "Los siguientes documentos legales, de políticas y de confianza se aplican a los servicios de WINPROFX. Léalos atentamente antes de abrir una cuenta o utilizar nuestras plataformas.",
+        "questions": "Si tiene preguntas sobre estos documentos, comuníquese con{{supportEmail}} o visita nuestro <contactLink> página de Contacto </contactLink>.",
+        "docs": {
+          "incorporation": {
+            "name": "Documentos de constitución de la empresa",
+            "description": "Certificado de constitución, escritura de constitución y estatutos de Winprofx Ltd."
+          },
+          "dubaiLicense": {
+            "name": "Licencia profesional de Dubái",
+            "description": "Información de licencia en la página para{{dubaiBusinessName}} (Licencia No.{{dubaiLicenseNumber}} ). Actividad Oficina representativa: no es una licencia de corredor de servicios financieros."
+          },
+          "companyRegistration": {
+            "name": "Información de registro de la empresa",
+            "description": "Detalles completos del registro de empresa para Winprofx Ltd."
+          },
+          "legalEntity": {
+            "name": "Información de la entidad legal",
+            "description": "Entidad jurídica, agente registrado, domicilio social, sucursal de Dubai y dominios oficiales."
+          },
+          "regulatory": {
+            "name": "Información regulatoria",
+            "description": "Aclaración de constitución de empresas, licencia de Dubai y licencia de servicios financieros."
+          },
+          "uaeOffice": {
+            "name": "Oficina representativa en los EAU",
+            "description": "Rol de la oficina representativa en los EAU, resumen de licencia y guía de verificación."
+          },
+          "withdrawal": {
+            "name": "Transparencia en los retiros",
+            "description": "Descripción general del proceso de retiro, métodos y rutas de escalada."
+          },
+          "complaints": {
+            "name": "Quejas y resolución de disputas",
+            "description": "Cómo presentar quejas y el proceso de revisión."
+          },
+          "clientFund": {
+            "name": "Seguridad del fondo del cliente",
+            "description": "Seguridad de la cuenta, KYC/AML y prácticas de seguridad del portal."
+          },
+          "riskWarning": {
+            "name": "Advertencia de riesgo",
+            "description": "Resumen de los riesgos comerciales clave para productos Forex y CFD."
+          },
+          "terms": {
+            "name": "Términos y condiciones",
+            "description": "Términos que rigen el uso de los servicios y plataformas de WINPROFX."
+          },
+          "privacy": {
+            "name": "política de privacidad",
+            "description": "Cómo WINPROFX recopila y utiliza datos personales."
+          },
+          "aml": {
+            "name": "Política AML",
+            "description": "Políticas de prevención de blanqueo de capitales y cumplimiento."
+          },
+          "depositWithdraw": {
+            "name": "Política de depósito y retiro",
+            "description": "Políticas de financiación y retiro de cuentas."
+          }
+        }
+      }
+    },
+    "riskWarning": {
+      "label": "Advertencia de riesgo",
+      "summary": "Divulgaciones de riesgos comerciales de Forex y CFD.",
+      "meta": "Aviso importante",
+      "h1": "Advertencia de riesgo"
+    },
+    "withdrawalTransparency": {
+      "label": "Transparencia en los retiros",
+      "summary": "Descripción general del proceso de retiro e información de transparencia.",
+      "meta": "Confianza y transparencia",
+      "h1": "Transparencia en los retiros",
+      "sections": {
+        "withdrawalProcessOverview": "Descripción general del proceso de retiro",
+        "processingTimeline": "Cronograma de procesamiento",
+        "commonReasonsForDelay": "Razones comunes de retraso",
+        "escalationProcess": "Proceso de escalada",
+        "transparencyStatistics": "Estadísticas de transparencia",
+        "riskAndComplianceNote": "Nota de riesgo y cumplimiento",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro1": "{{brandName}} se compromete a proporcionar información clara sobre cómo se envían, revisan y procesan las solicitudes de retiro. Esta página explica el flujo de trabajo general de retiro, los requisitos de verificación y las opciones de escalamiento disponibles para los clientes.",
+        "intro2": "Las solicitudes de retiro pueden requerir verificación de la cuenta, verificación del método de pago, verificaciones AML y KYC, y revisión de la actividad comercial o de la cuenta cuando así lo requieran los procedimientos de cumplimiento internos. Los tiempos de procesamiento también pueden depender de proveedores de servicios de pago externos, bancos o redes blockchain.",
+        "processIntro": "Cuando un cliente envía una solicitud de retiro, la solicitud generalmente pasa por las siguientes etapas antes de que los fondos se liberen al destino aprobado:",
+        "processSteps": {
+          "submit": "El cliente envía una solicitud de retiro a través del portal oficial del cliente o canal aprobado",
+          "kyc": "Se verifican la identidad de la cuenta y el estado de KYC.",
+          "aml": "La verificación del método de pago y las comprobaciones AMLTEM se realizan cuando corresponde",
+          "review": "La actividad comercial o de la cuenta puede revisarse cuando así lo requiera el cumplimiento.",
+          "security": "Se realiza una revisión de seguridad de la cuenta si se activa",
+          "release": "El retiro aprobado se envía al proveedor de servicios de pago, al banco o a la red blockchain",
+          "confirm": "El cliente recibe la confirmación una vez que se completa el procesamiento."
+        },
+        "timelineIntro": "La siguiente tabla describe las expectativas de revisión y procesamiento estándar por método de retiro. Los equipos de operaciones y cumplimiento mantienen los cronogramas exactos.",
+        "timelineCaption": "Cronograma de procesamiento de retiros por método",
+        "delayIntro": "Los retiros pueden tardar más de lo esperado por motivos que incluyen, entre otros:",
+        "delayReasons": {
+          "incompleteKyc": "KYC incompleto o documentos de identidad obsoletos",
+          "methodMismatch": "Desajuste entre el método de pago de depósito y retiro",
+          "amlReview": "AML pendiente o revisión de cumplimiento",
+          "incorrectDetails": "Detalles de billetera, banco o pago incorrectos",
+          "pspDelay": "Retraso en el procesamiento del proveedor de servicios de pago, banco o blockchain",
+          "bonusReview": "Revisión de los términos de bonificación, promoción o negociación cuando corresponda",
+          "securityReview": "Verificación de seguridad de la cuenta o revisión de actividad sospechosa"
+        },
+        "escalationIntro": "Si un retiro se retrasa más allá del cronograma estándar, comuníquese con el soporte de WINPROFX con la siguiente información:",
+        "escalationItems": {
+          "email": "Dirección de correo electrónico registrada",
+          "accountId": "MT5 o ID de cuenta",
+          "reference": "ID o referencia de solicitud de retiro (si está disponible)",
+          "dateAmount": "Fecha y monto de la solicitud de retiro",
+          "method": "Método de pago utilizado para el retiro"
+        },
+        "escalationContact": "Correo electrónico{{supportEmail}} o visitar <supportLink> Soporte y escalada </supportLink>.",
+        "statsIntro": "Las métricas de retiro operativo se publicarán aquí después de la verificación interna. Las figuras a continuación son marcadores de posición hasta que los datos aprobados estén disponibles.",
+        "complianceNote": "Es posible revisar los retiros para verificar que estén completos con KYC, que cumplan con AML, que sean seguros de la cuenta, que verifiquen el método de pago y que cumplan con los términos y promociones aplicables. Los clientes deben asegurarse de que los perfiles de cuenta y los métodos de pago estén actualizados antes de enviar solicitudes.",
+        "depositPolicyLink": "Para conocer los términos completos de la política de depósito y retiro, consulte el <depositWithdrawLink> Política de depósito y retiro </depositWithdrawLink>."
+      }
+    },
+    "complaintsAndDisputeResolution": {
+      "label": "Quejas y resolución de disputas",
+      "summary": "Cómo presentar y escalar quejas de los clientes.",
+      "meta": "Confianza y transparencia",
+      "h1": "Quejas y resolución de disputas",
+      "sections": {
+        "howToSubmitComplaint": "Cómo presentar una queja",
+        "complaintReviewProcess": "Proceso de revisión de quejas",
+        "responseTimelines": "Cronogramas de respuesta",
+        "accountSpecificPrivacy": "Privacidad específica de la cuenta",
+        "publicReviewResponsePolicy": "Política de respuesta a reseñas públicas",
+        "escalation": "Escalada",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro1": "{{brandName}} proporciona un proceso de quejas estructurado para que los clientes y socios puedan plantear inquietudes sobre servicios de cuentas, interacciones de soporte, retiros, verificación u otros asuntos relacionados con el comercio a través de canales oficiales únicamente.",
+        "intro2": "No comparta contraseñas de cuentas, detalles de tarjetas de pago o documentos de identidad a través de sitios web no oficiales, mensajes de redes sociales o terceros que afirmen representar a WINPROFX.",
+        "submitIntro": "Las quejas podrán presentarse por correo electrónico a{{supportEmail}} con el asunto \"Queja\" o a través del funcionario <contactLink> Contacto </contactLink> página. Por favor incluya:",
+        "requiredInfo": {
+          "name": "Nombre registrado completo",
+          "email": "Dirección de correo electrónico registrada",
+          "accountId": "Cuenta o ID MT5",
+          "ticketId": "ID del ticket de soporte (si está disponible)",
+          "description": "Descripción detallada del problema.",
+          "documents": "Capturas de pantalla o documentos de respaldo",
+          "dateTime": "Fecha y hora de la transacción o evento"
+        },
+        "reviewSteps": {
+          "received": "Reclamo recibido a través de canales oficiales de soporte.",
+          "acknowledgement": "Reconocimiento de soporte y asignación de referencias cuando corresponda.",
+          "internalReview": "Revisión interna por parte de equipos de soporte y cuentas relevantes.",
+          "complianceReview": "Revisión de cumplimiento u operaciones si es necesario",
+          "response": "Respuesta o resolución comunicada al cliente",
+          "escalation": "Escalado a la gerencia si el problema sigue sin resolverse"
+        },
+        "timelineIntro": "Los tiempos de respuesta objetivo los establecen las operaciones internas y los procedimientos de cumplimiento. Los SLA aprobados se publicarán cuando se verifiquen.",
+        "timelineCaption": "Plazos de respuesta a quejas",
+        "escalation": "Si una queja no se resuelve satisfactoriamente mediante la revisión de soporte inicial, se puede elevar a la gestión de cumplimiento o de operaciones. Ver <supportLink> Soporte y escalada </supportLink> para rutas de escalada."
+      }
+    },
+    "clientFundSecurity": {
+      "label": "Seguridad del fondo del cliente",
+      "summary": "Manejo de fondos del cliente y orientación sobre seguridad.",
+      "meta": "Confianza y transparencia",
+      "h1": "Seguridad del fondo del cliente",
+      "sections": {
+        "accountAccessSecurity": "Seguridad de acceso a la cuenta",
+        "kycAndAmlChecks": "Comprobaciones KYC y AML",
+        "paymentMethodVerification": "Verificación del método de pago",
+        "withdrawalVerification": "Verificación de retiro",
+        "verifyBeforeDepositing": "Qué deben verificar los clientes antes de depositar",
+        "portalAndWebsiteSafety": "Seguridad del portal y del sitio web",
+        "importantNote": "Nota importante",
+        "reportSecurityConcerns": "Informar problemas de seguridad",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro": "{{brandName}} se toma en serio la seguridad de la cuenta del cliente y de los pagos. Esta página describe prácticas que ayudan a proteger las cuentas de los clientes, la información personal y las transacciones de pago. No describe fondos de clientes segregados ni seguros de depósitos a menos que se revelen por separado en documentación regulatoria verificada.",
+        "accountSecurity": {
+          "strongPassword": "Utilice contraseñas seguras y únicas para las cuentas del portal de clientes y socios",
+          "twoFactor": "Habilite la autenticación de dos factores cuando esté disponible",
+          "noSharing": "Nunca comparta credenciales de inicio de sesión, OTP o contraseñas con terceros",
+          "logout": "Cerrar sesión en dispositivos públicos o compartidos después de cada sesión",
+          "reportSuspicious": "Informe cualquier actividad de inicio de sesión sospechosa al soporte técnico de inmediato"
+        },
+        "kycBody1": "{{brandName}} requiere verificación de identidad (KYC) y puede realizar controles contra el lavado de dinero (AML) durante la incorporación y la revisión de cumplimiento continua. Es posible que se solicite a los clientes que proporcionen una identificación emitida por el gobierno, un comprobante de domicilio y una verificación del método de pago.",
+        "kycBody2": "La verificación incompleta o desactualizada puede retrasar los depósitos, retiros o el acceso a la cuenta hasta que se envíen y aprueben los documentos requeridos.",
+        "paymentVerification": "Los métodos de pago utilizados para depósitos y retiros deben pertenecer al titular de la cuenta registrada. Los pagos de terceros podrán ser rechazados. Los clientes deben verificar las instrucciones de pago únicamente a través de los canales oficiales del portal y evitar enviar fondos a direcciones no verificadas.",
+        "withdrawalVerification": "Los retiros pueden requerir confirmación de la identidad de la cuenta, la propiedad del método de pago y el estado de cumplimiento antes de procesarse. Ver <withdrawalLink> Transparencia en los retiros </withdrawalLink> para el proceso de revisión de retiros y las opciones de escalamiento.",
+        "preDepositChecklist": {
+          "domain": "Confirme que la URL del sitio web coincida con un dominio WINPROFX oficial que figura en Dominios oficiales",
+          "verifyPages": "Verifique la entidad legal y la información de licencia en las páginas de Registro de la empresa e Información regulatoria",
+          "readDocs": "Lea la Advertencia de riesgo y los documentos legales aplicables antes de abrir una cuenta.",
+          "clientPortal": "Utilice únicamente el portal oficial del cliente en https://my.winprofx.org/ para acceder a la cuenta.",
+          "noThirdParty": "Nunca envíe fondos a direcciones no verificadas o cuentas de terceros",
+          "contactSupport": "Comuníquese con support@winprofx.com si no está seguro acerca de alguna instrucción de pago"
+        },
+        "preDepositLinks": "Utilice el <verifyLink> Verificar WINPROFX </verifyLink> lista de verificación y <officialDomainsLink> Dominios Oficiales </officialDomainsLink> página antes de registrarse o depositar.",
+        "portalSafety": "Los sitios web de phishing pueden imitar marcas legítimas. Antes de ingresar las credenciales o realizar pagos, confirme que la URL coincida con un dominio oficial de WINPROFX. Portal oficial del cliente: https://my.winprofx.org/",
+        "importantNote": "Esta página describe únicamente prácticas de seguridad y verificación. No constituye un reclamo de fondos segregados de clientes, seguro de depósitos o protección de capital regulatorio a menos que se revele por separado en documentación regulatoria verificada.",
+        "reportConcerns": "Informar sospechas de fraude, phishing o acceso no autorizado a{{supportEmail}} o vía <supportLink> Soporte y escalada </supportLink>."
+      }
+    },
+    "supportAndEscalation": {
+      "label": "Soporte y escalada",
+      "summary": "Canales de soporte y proceso de escalamiento.",
+      "meta": "Confianza y transparencia",
+      "h1": "Soporte y escalada",
+      "sections": {
+        "officialSupportChannels": "Canales de soporte oficiales",
+        "supportTicketProcess": "Proceso de ticket de soporte",
+        "informationRequiredFromClients": "Información requerida de los clientes",
+        "warningAgainstUnofficialChannels": "Advertencia contra canales no oficiales",
+        "escalationProcess": "Proceso de escalada",
+        "securityReminder": "Recordatorio de seguridad",
+        "complaints": "Quejas",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro": "{{brandName}} proporciona canales de soporte oficiales para clientes, socios y usuarios potenciales. Esta página explica cómo ponerse en contacto con el soporte, qué información incluir y cómo derivar problemas no resueltos únicamente a través de canales verificados.",
+        "supportChannels": {
+          "email": "Correo electrónico:{{supportEmail}}",
+          "contactPage": "{{contactLink}} en winprofx.org",
+          "clientPortal": "Portal de clientes (clientes registrados): https://my.winprofx.org/"
+        },
+        "ticketSteps": {
+          "contact": "Póngase en contacto con el soporte por correo electrónico o la página de contacto con una línea de asunto clara",
+          "includeDetails": "Incluya la referencia de la cuenta, el correo electrónico registrado y la descripción del problema.",
+          "attach": "Adjunte capturas de pantalla o documentos relevantes, si corresponde",
+          "acknowledge": "El soporte acusa recibo y asigna una referencia cuando corresponda",
+          "investigate": "El equipo apropiado investiga (soporte, cumplimiento u operaciones)",
+          "response": "El cliente recibe una respuesta con el resultado o los próximos pasos."
+        },
+        "clientInfo": {
+          "email": "Dirección de correo electrónico registrada",
+          "accountId": "Cuenta o ID MT5",
+          "description": "Descripción clara del problema.",
+          "references": "Fechas, montos o referencias de transacciones relevantes",
+          "screenshots": "Capturas de pantalla o documentos cuando corresponda",
+          "withdrawalId": "ID de solicitud de retiro para escalamientos relacionados con retiros"
+        },
+        "unofficialWarning": "{{brandName}} no solicitará contraseñas, números completos de tarjetas de pago ni credenciales confidenciales a través de correos electrónicos, redes sociales, aplicaciones de mensajería o sitios web no oficiales. No siga instrucciones de pago de representantes desconocidos. Siempre verifique los dominios en el <verifyLink> Verificar WINPROFX </verifyLink> página antes de iniciar sesión, depositar o compartir información personal.",
+        "escalationWithdrawalTitle": "Retrasos en el retiro",
+        "escalationWithdrawal": "Incluya la fecha de retiro, el monto, el método de pago, MT5/ID de cuenta y la referencia de la solicitud. Ver <withdrawalLink> Transparencia en los retiros </withdrawalLink>.",
+        "escalationKycTitle": "KYC y Verificación",
+        "escalationKyc": "Póngase en contacto con el soporte con el correo electrónico registrado y la referencia de la cuenta. Asegúrese de que los documentos presentados cumplan con los requisitos establecidos.",
+        "escalationDepositTitle": "Problemas de depósito",
+        "escalationDeposit": "Para retrasos en la confirmación de depósitos o disputas de pago, comuníquese con el soporte con la fecha de la transacción, el monto, el método de pago y cualquier referencia de su banco o proveedor de pagos. Ver el <depositWithdrawLink> Política de depósito y retiro </depositWithdrawLink>.",
+        "escalationIbTitle": "Socios del corredor de presentación (IB)",
+        "escalationIb": "Los socios de IB deben utilizar los canales del portal de socios o enviar un correo electrónico con el ID del socio y la referencia comercial. Portal de socios: https://partner.winprofx.org/",
+        "securityReminder": "Proteja las credenciales de su cuenta y verifique las propiedades oficiales de WINPROFX antes de cualquier transacción financiera. Denunciar phishing o suplantación de identidad a{{supportEmail}}. Leer <clientFundLink> Seguridad del fondo del cliente </clientFundLink> para obtener orientación adicional.",
+        "complaints": "Para quejas formales, ver <complaintsLink> Quejas y resolución de disputas </complaintsLink>."
+      }
+    },
+    "companyStatistics": {
+      "label": "Estadísticas de la empresa",
+      "summary": "Métricas de transparencia operativa cuando se verifican.",
+      "meta": "Confianza y transparencia",
+      "h1": "Estadísticas de la empresa",
+      "sections": {
+        "operationalMetrics": "Métricas operativas",
+        "howStatisticsAreUpdated": "Cómo se actualizan las estadísticas",
+        "importantNote": "Nota importante",
+        "riskWarning": "Advertencia de riesgo"
+      },
+      "content": {
+        "intro1": "Esta página proporciona una descripción general estructurada de las estadísticas operativas y métricas de transparencia de WINPROFX. Existe para que los clientes, socios y el público puedan acceder a datos verificados de la empresa en un solo lugar, a medida que estén disponibles después de las operaciones internas y la revisión de cumplimiento.",
+        "intro2": "{{brandName}} no publica cifras, premios, calificaciones o afirmaciones de desempeño no verificados. Todos los valores siguientes son marcadores de posición hasta que se complete la verificación de las operaciones.",
+        "statsUpdate": "Las métricas de esta página se revisan internamente antes de su publicación. Cuando se aprueben los datos verificados, esta página se actualizará con la última fecha de actualización actual. Vuelva a consultar después del próximo ciclo de actualización de transparencia.",
+        "importantNote": "Las estadísticas se proporcionan únicamente con fines de transparencia. No garantizan el rendimiento futuro, los niveles de servicio ni los tiempos de procesamiento para cuentas individuales."
+      }
+    },
+    "contact": {
+      "label": "Contacto",
+      "summary": "Canales oficiales de soporte e información de contacto."
+    },
+    "depositWithdraw": {
+      "label": "Política de depósito y retiro",
+      "summary": "Información sobre políticas de depósito y retiro."
+    },
+    "riskDisclosure": {
+      "label": "Divulgación de riesgos",
+      "summary": "Declaración detallada de divulgación de riesgos."
+    }
+  },
+  "crossLinks": {
+    "trustCenter": "Centro de confianza WINPROFX",
+    "officialDomains": "Dominios oficiales de WINPROFX",
+    "verifyWinprofx": "Verificar WINPROFX",
+    "regulatoryInformation": "Información regulatoria de WINPROFX",
+    "riskWarning": "Advertencia de riesgo de WINPROFX",
+    "supportAndEscalation": "Soporte y escalada"
+  },
+  "faqs": {
+    "regulatoryInformation": [
+      {
+        "question": "¿WINPROFX está regulado por la UAE SCA, DFSA o ADGM?",
+        "answer": "WINPROFX publica información regulatoria y legal en su sitio web oficial. Una licencia profesional de Dubái para actividades de oficina de representación no es lo mismo que una licencia de regulador de servicios financieros a menos que se revele y verifique por separado en la página de Información regulatoria."
+      },
+      {
+        "question": "¿Qué es una licencia profesional de Dubai?",
+        "answer": "Una licencia profesional de Dubai es un registro comercial emitido en la UAE. Para WINPROFX, la actividad autorizada es Oficina representativa. Esto se relaciona con la presencia corporativa y no debe confundirse con una licencia de corredor de bolsa o de servicios financieros a menos que se indique explícitamente."
+      },
+      {
+        "question": "¿Dónde puedo verificar el registro de la empresa WINPROFX?",
+        "answer": "Puede revisar los detalles de constitución de JURISDICCIÓN en la página de Registro de la empresa y descargar los documentos certificados donde se publicaron. Siempre verifique que está en un dominio oficial de WINPROFX antes de acceder a los documentos."
+      }
+    ],
+    "withdrawalTransparency": [
+      {
+        "question": "¿Cómo solicito un retiro de WINPROFX?",
+        "answer": "Los retiros se envían a través del portal oficial del cliente en my.winprofx.org o mediante canales de soporte aprobados. Confirme siempre que está en un dominio oficial antes de iniciar sesión."
+      },
+      {
+        "question": "¿Por qué podría retrasarse un retiro de WINPROFX?",
+        "answer": "Los motivos comunes incluyen KYC, AML o revisión de cumplimiento incompleta, verificación de método de pago, datos bancarios o de billetera incorrectos y tiempo de procesamiento por parte de bancos o proveedores de pagos."
+      },
+      {
+        "question": "¿Cómo puedo escalar un problema de retiro?",
+        "answer": "Comuníquese con support@winprofx.com o visite la página de soporte y escalamiento. Incluya su correo electrónico registrado, ID de cuenta y detalles de referencia de retiro."
+      }
+    ],
+    "verifyWinprofx": [
+      {
+        "question": "¿Cómo verifico un sitio web oficial de WINPROFX?",
+        "answer": "Compare la URL con la página de Dominios oficiales. El sitio web principal es winprofx.org. El inicio de sesión del cliente se realiza en my.winprofx.org y el portal de socios en partner.winprofx.org."
+      },
+      {
+        "question": "¿Qué debo hacer si sospecho de un sitio web falso de WINPROFX?",
+        "answer": "No ingrese credenciales ni envíe fondos. Visite la página de Advertencia de sitios web falsos, verifique los dominios en la página de Dominios oficiales y comuníquese con el soporte a través de los canales oficiales."
+      }
+    ],
+    "officialDomains": [
+      {
+        "question": "¿Cuál es la diferencia entre winprofx.org y my.winprofx.org?",
+        "answer": "winprofx.org es el principal sitio web oficial para información sobre empresas y productos. my.winprofx.org es el portal del cliente para iniciar sesión en cuentas, realizar depósitos y retiros."
+      },
+      {
+        "question": "¿Son oficiales winprofx.com y winprofx.ae?",
+        "answer": "Sí. winprofx.com y winprofx.ae son dominios alternativos oficiales que redireccionan a winprofx.org para obtener información coherente."
+      }
+    ],
+    "complaintsAndDisputeResolution": [
+      {
+        "question": "¿Cómo envío una queja a WINPROFX?",
+        "answer": "Envíe un correo electrónico a support@winprofx.com con el asunto \"Queja\" o utilice la página de Contacto. Incluya su nombre registrado, correo electrónico, ID de cuenta y una descripción detallada."
+      },
+      {
+        "question": "¿WINPROFX puede discutir mi queja en las redes sociales?",
+        "answer": "Por motivos de seguridad y privacidad, los detalles específicos de la cuenta no se discuten públicamente. Utilice los canales de soporte oficiales para la revisión de quejas."
+      }
+    ]
+  },
+  "identityNav": {
+    "ariaLabel": "Páginas de información de la empresa.",
+    "relatedPages": "Páginas Relacionadas",
+    "companyLicense": "Empresa y licencia",
+    "trustSupport": "Confianza y apoyo"
+  },
+  "shared": {
+    "riskWarningSection": "Advertencia de riesgo",
+    "viewCompanyRegistration": "Ver detalles completos del registro de la empresa",
+    "viewDubaiLicense": "Ver detalles completos de la licencia profesional de Dubai",
+    "viewDubaiLicensePage": "Ver página completa de licencia profesional de Dubai",
+    "verifyChecklist": "Utilice la lista de verificación completa de WINPROFX",
+    "contactPage": "página de Contacto",
+    "contactSupport": "Contactar con soporte",
+    "verifyOfficialDomains": "Verificar dominios oficiales",
+    "domainPurposeSeparator": "—",
+    "htmlOnlyNote": "Solo referencia en la página; no se puede descargar PDF.",
+    "tableDomain": "Dominio",
+    "tablePurpose": "Objetivo",
+    "supportEmailLabel": "Envíe un correo a de soporte:",
+    "lastUpdated": "Última actualización:"
+  }
+}

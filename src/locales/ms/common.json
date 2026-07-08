@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "getStarted": "Mulakan",
+    "learnMore": "Ketahui Lebih Lanjut",
+    "openAccount": "Buka Akaun",
+    "startTrading": "Mula Trading",
+    "downloadNow": "Muat Turun Sekarang",
+    "viewPage": "Lihat halaman →",
+    "viewAllArticles": "Lihat semua artikel →",
+    "readFullRiskWarning": "Baca amaran risiko penuh"
+  },
+  "labels": {
+    "home": "Laman Utama",
+    "trustCenter": "Pusat Amanah",
+    "lastReviewed": "Kali terakhir disemak:",
+    "reviewedBy": "Disemak oleh:",
+    "riskWarning": "Amaran risiko:",
+    "lastUpdated": "Kemas kini terakhir: {{date}}",
+    "authorReviewedBy": "Pengarang: {{author}} · Disemak oleh: {{reviewer}}",
+    "faqTitle": "Soalan Lazim",
+    "relatedTrustPages": "Halaman pengesahan WINPROFX berkaitan",
+    "relatedPages": "Halaman WINPROFX Berkaitan",
+    "moreArticles": "Lebih Banyak Artikel",
+    "whatsapp": "Whatsapp"
+  },
+  "disclaimer": {
+    "learnEducational": "Artikel ini adalah untuk tujuan pendidikan sahaja dan bukan nasihat pelaburan, nasihat kewangan, atau cadangan untuk trading."
+  },
+  "risk": {
+    "short": "Trading Forex dan CFD melibatkan risiko yang ketara dan mungkin tidak sesuai untuk semua pelabur. Pelanggan harus memahami risiko sebelum trading.",
+    "full": "Trading Forex, CFD, dan produk kewangan berkaitan melibatkan risiko yang ketara dan mungkin tidak sesuai untuk semua pelabur. Anda mungkin kehilangan sebahagian atau semua modal yang dilaburkan. Prestasi lepas bukan petunjuk keputusan masa depan. Pelanggan harus memahami risiko sebelum trading dan mendapatkan nasihat bebas jika perlu."
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Page Not Found",
+    "seoTitle": "Page Not Found | WINPROFX",
+    "backHome": "Back to Home"
+  },
+  "download": {
+    "appStorePrefix": "Download on the",
+    "googlePlayPrefix": "GET IT ON",
+    "windowsPrefix": "Download for",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Open in",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Are You Ready to Start Trading",
+    "accountsDes": "Trade with an Award Winning broker!",
+    "openLiveAccount": "Open Live account"
+  }
+}

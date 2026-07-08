@@ -1,0 +1,49 @@
+{
+  "tagline": "One platform. Multiple markets. Endless trading opportunities with WINPROFX.",
+  "sections": {
+    "explore": "Explore",
+    "markets": "Mercados",
+    "contactInfo": "Informações de contacto",
+    "officialDomains": "Domínios Oficiais",
+    "importantLinks": "Links importantes",
+    "trustLegal": "Confiança e Jurídico",
+    "riskWarning": "Advertência sobre os riscos",
+    "restrictedRegions": "Regiões Restritas"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX Official Website",
+    "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
+  },
+  "domains": {
+    "officialWebsite": "Website oficial",
+    "officialAlternate": "Domínio Alternativo Oficial",
+    "officialUae": "Domínio oficial dos Emirados Árabes Unidos/Regional",
+    "clientPortal": "Portal de Clientes",
+    "partnerPortal": "Portal do Parceiro"
+  },
+  "links": {
+    "home": "Casa",
+    "platform": "Plataforma",
+    "aboutUs": "Sobre Nós",
+    "about": "Sobre",
+    "companyProfile": "Perfil Empresarial",
+    "contact": "Contacto",
+    "officialDomains": "Domínios Oficiais",
+    "forex": "Forex",
+    "indices": "Índices",
+    "crypto": "Crypto",
+    "metals": "Metais",
+    "commodities": "Mercadorias",
+    "oil": "Óleo",
+    "riskWarning": "Advertência sobre os riscos",
+    "privacyPolicy": "Política de privacidade",
+    "termsConditions": "Termos e Condições",
+    "amlPolicy": "Política de AML (contra Branqueamento de Capitais)",
+    "depositWithdrawPolicy": "Política de Depósitos/Levantamentos",
+    "restrictedCountries": "Restrição a alguns países",
+    "legalDocuments": "Documentos legais",
+    "riskDisclosure": "Divulgação de Risco"
+  },
+  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
+  "copyright": "© {{year}} All Rights Reserved By WINPROFX"
+}

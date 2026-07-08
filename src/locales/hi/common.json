@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "getStarted": "शुरू करें",
+    "learnMore": "और जानें",
+    "openAccount": "खाता खोलें",
+    "startTrading": "ट्रेडिंग शुरू करें",
+    "downloadNow": "अभी डाउनलोड करें",
+    "viewPage": "पेज देखें →",
+    "viewAllArticles": "सभी लेख देखें →",
+    "readFullRiskWarning": "पूर्ण जोखिम चेतावनी पढ़ें"
+  },
+  "labels": {
+    "home": "होम",
+    "trustCenter": "ट्रस्ट सेंटर",
+    "lastReviewed": "अंतिम समीक्षा:",
+    "reviewedBy": "समीक्षक:",
+    "riskWarning": "जोखिम चेतावनी:",
+    "lastUpdated": "अंतिम अपडेट: {{date}}",
+    "authorReviewedBy": "लेखक: {{author}} · समीक्षक: {{reviewer}}",
+    "faqTitle": "अक्सर पूछे जाने वाले प्रश्न",
+    "relatedTrustPages": "संबंधित WINPROFX सत्यापन पेज",
+    "relatedPages": "संबंधित WINPROFX पेज",
+    "moreArticles": "और लेख",
+    "whatsapp": "Whatsapp"
+  },
+  "disclaimer": {
+    "learnEducational": "यह लेख केवल शैक्षिक उद्देश्यों के लिए है और निवेश सलाह, वित्तीय सलाह, या ट्रेडिंग की सिफारिश नहीं है।"
+  },
+  "risk": {
+    "short": "Forex और CFDs में ट्रेडिंग में महत्वपूर्ण जोखिम शामिल है और यह सभी निवेशकों के लिए उपयुक्त नहीं हो सकती। ट्रेडिंग से पहले ग्राहकों को जोखिमों को समझना चाहिए।",
+    "full": "Forex, CFDs और संबंधित वित्तीय उत्पादों में ट्रेडिंग में महत्वपूर्ण जोखिम शामिल है और यह सभी निवेशकों के लिए उपयुक्त नहीं हो सकती। आप अपनी निवेशित पूंजी का कुछ या पूरा हिस्सा खो सकते हैं। पिछला प्रदर्शन भविष्य के परिणामों का संकेत नहीं देता। ट्रेडिंग से पहले ग्राहकों को जोखिमों को समझना चाहिए और आवश्यकता होने पर स्वतंत्र सलाह लेनी चाहिए।"
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Page Not Found",
+    "seoTitle": "Page Not Found | WINPROFX",
+    "backHome": "Back to Home"
+  },
+  "download": {
+    "appStorePrefix": "Download on the",
+    "googlePlayPrefix": "GET IT ON",
+    "windowsPrefix": "Download for",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Open in",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Are You Ready to Start Trading",
+    "accountsDes": "Trade with an Award Winning broker!",
+    "openLiveAccount": "Open Live account"
+  }
+}

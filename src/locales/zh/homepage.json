@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "您的盈利交易之路，从这里开始",
+    "description": "WINPROFX 是一家享誉全球的经纪商，提供极低点差、闪电般快速提款、300+ 可交易品种，以及指尖上的纳秒级执行速度。",
+    "badge": "与 2026 年最佳 Forex 经纪商一起投资",
+    "stats": {
+      "evolving": {
+        "title": "持续进化",
+        "description": "深耕市场"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "项奖项"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "覆盖国家"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "交易品种"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "您的交易之旅<br />从这里与我们一同开启",
+    "steps": {
+      "openAccount": {
+        "title": "开立账户",
+        "description": "点击上方按钮，只需几个简单步骤即可完成。"
+      },
+      "makeDeposit": {
+        "title": "存入资金",
+        "description": "专业提示：USDT 存取款速度最快。"
+      },
+      "startTrading": {
+        "title": "开始交易",
+        "description": "每位专业人士都从零开始，现在就开启您的交易之旅。"
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "选择我们的交易优势",
+    "description": "体验无缝交易——透明度与先进技术相结合，助您实现财务目标。",
+    "items": {
+      "withdrawals": {
+        "meta": "加密货币提款",
+        "title": "30 分钟到账",
+        "description": "享受 30 分钟提款保障，灵活掌控您的资金。"
+      },
+      "tradeDaily": {
+        "meta": "每日交易",
+        "title": "赢取奖励",
+        "description": "每日交易，每日收获——在每个市场波动中推动您的成功。"
+      },
+      "clientSupport": {
+        "meta": "屡获殊荣",
+        "title": "客户支持",
+        "description": "提供卓越的服务体验！"
+      },
+      "negativeBalance": {
+        "meta": "负余额",
+        "title": "保护",
+        "description": "内置负余额保护，让您安心交易，保障财务安全。"
+      }
+    }
+  },
+  "platform": {
+    "meta": "交易平台",
+    "title": "下载 MT5 移动版",
+    "description": "WINPROFX 已成功将业务拓展至全球各地，MT5 现已登陆 Android 和 iPhone，您离成功又近一步。立即下载 MT5，探索无限交易机会。"
+  },
+  "whatTrade": {
+    "title": "您可以交易什么？",
+    "description": "体验无缝交易——透明度与先进技术相结合，助您实现财务目标。",
+    "items": {
+      "crypto": {
+        "title": "加密货币",
+        "description": "加密货币又称数字货币，是增长迅速的投资工具，"
+      },
+      "metals": {
+        "title": "贵金属",
+        "description": "现货贵金属交易在每位交易者心中都占有特殊地位。贵金属一直吸引着"
+      },
+      "commodities": {
+        "title": "大宗商品",
+        "description": "投资大宗商品可为投资者提供多元化配置，"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex 即外汇市场，是全球各国货币交易的市场。它"
+      },
+      "indices": {
+        "title": "指数",
+        "description": "指数是衡量交易所一组股票价格表现的指标。"
+      },
+      "oil": {
+        "title": "原油",
+        "description": "能源期货是在指定日期和价格买卖化石燃料或相关产品的合约。"
+      }
+    },
+    "imageAlt": "WINPROFX {{market}} 交易"
+  },
+  "about": {
+    "meta": "关于 WINPROFX",
+    "heading": "<strong class='font-normal text-white'>在 WINPROFX，我们提供安全的</strong> 在线交易平台，通过专业知识、市场洞察和值得信赖的合作伙伴关系，推动可持续发展。",
+    "features": {
+      "platform": "适合各类交易者的最佳平台——新手、进阶或专业交易者。",
+      "orderManagement": "先进的订单管理工具。",
+      "indicators": "引入更多原生技术指标。",
+      "customize": "轻松配置和定制您的交易环境"
+    }
+  },
+  "award": {
+    "title": "屡获殊荣的 WINPROFX 经纪商",
+    "description": "全球 Forex 行业认可 WINPROFX 的成就，因卓越的产品和服务授予我们最高荣誉。",
+    "items": {
+      "bestForexBroker2025": "2025 年度最佳 Forex 经纪商",
+      "globalForexBroker2025": "2025 年度全球 Forex 经纪商",
+      "topStpBroker2025": "2025 年度顶级 STP 经纪商",
+      "bestDepositWithdrawal2024": "2024 年度最佳存取款经纪商"
+    }
+  },
+  "news": {
+    "title": "新闻与洞察",
+    "description": "通过最新市场动态和专家洞察保持信息领先，助您在金融领域做出明智决策。",
+    "paymentFlow": {
+      "title": "轻松资金流转：快速入金，顺畅提款",
+      "description": "体验流畅的资金管理——便捷的存取款流程，确保您的交易既快速又方便。"
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade to WIN",
+        "description": "交易越多，赢取保证奖品。交易越活跃，奖品越丰厚。",
+        "promotionDates": "促销日期：2026 年 1 月 1 日至 2026 年 5 月 31 日"
+      },
+      "technicalAnalysis": {
+        "title": "免费技术分析工具",
+        "description": "一键识别图表形态、分析市场状况并全天候监控市场！",
+        "poweredBy": "技术支持"
+      },
+      "learnMore": "了解更多"
+    }
+  },
+  "demoCta": {
+    "title": "开启精通之旅：释放您的技能，体验 WINPROFX 模拟账户！",
+    "description": "开启您的交易之旅——免费 21 天 MT5 模拟账户。零风险体验我们屡获殊荣的最佳 Forex 交易策略平台——立即注册，探索精准交易之道。",
+    "button": "试用 MT5 模拟平台"
+  }
+}

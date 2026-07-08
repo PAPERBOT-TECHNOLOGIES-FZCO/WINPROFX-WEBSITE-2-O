@@ -1,0 +1,153 @@
+{
+  "banner": {
+    "title": "Su camino hacia el trading rentable comienza aquí",
+    "description": "WINPROFX es un bróker de reconocimiento global que ofrece spreads ajustados, retiros ultrarrápidos, más de 300 instrumentos negociables y ejecución a nanosegundos al alcance de su mano.",
+    "badge": "Invierta con el mejor bróker Forex 2026",
+    "stats": {
+      "evolving": {
+        "title": "Evolucionando",
+        "description": "en el mercado"
+      },
+      "awards": {
+        "count": 40,
+        "suffix": "+",
+        "description": "Premios"
+      },
+      "countries": {
+        "count": 105,
+        "suffix": "+",
+        "description": "Países atendidos"
+      },
+      "instruments": {
+        "count": 300,
+        "suffix": "+",
+        "description": "Instrumentos de trading"
+      }
+    }
+  },
+  "tradingStarts": {
+    "title": "Su camino hacia el <br /> trading comienza aquí con nosotros",
+    "steps": {
+      "openAccount": {
+        "title": "Abra una cuenta",
+        "description": "Haga clic en el botón de arriba y siga unos sencillos pasos."
+      },
+      "makeDeposit": {
+        "title": "Realice un depósito",
+        "description": "Consejo: los depósitos y retiros en USDT son los más rápidos."
+      },
+      "startTrading": {
+        "title": "Comience a operar",
+        "description": "Todo profesional empezó desde cero; comience a operar ahora."
+      }
+    }
+  },
+  "benefitsTrading": {
+    "title": "Beneficios de operar con nosotros",
+    "description": "Descubra un trading fluido donde la transparencia y la tecnología avanzada se unen para impulsar su éxito financiero.",
+    "items": {
+      "withdrawals": {
+        "meta": "Retiro cripto en",
+        "title": "30 minutos",
+        "description": "Disfrute de flexibilidad financiera con nuestra garantía de retiro en 30 minutos."
+      },
+      "tradeDaily": {
+        "meta": "Opere a diario",
+        "title": "Gane recompensas",
+        "description": "Operaciones diarias, victorias diarias: impulse su éxito en cada movimiento del mercado."
+      },
+      "clientSupport": {
+        "meta": "Premiado",
+        "title": "Atención al cliente",
+        "description": "¡Ofrecemos un servicio de excelencia incomparable!"
+      },
+      "negativeBalance": {
+        "meta": "Protección contra",
+        "title": "saldo negativo",
+        "description": "Opere con confianza gracias a la protección integrada contra saldo negativo."
+      }
+    }
+  },
+  "platform": {
+    "meta": "PLATAFORMA DE TRADING",
+    "title": "Descargue MT5 para móvil",
+    "description": "WINPROFX ha expandido con éxito su presencia en todo el mundo. MT5 ya está disponible en Android e iPhone, un paso más hacia el éxito. Descargue MT5 ahora y acceda a oportunidades de trading ilimitadas."
+  },
+  "whatTrade": {
+    "title": "¿Qué puede operar?",
+    "description": "Descubra un trading fluido donde la transparencia y la tecnología avanzada se unen para impulsar su éxito financiero.",
+    "items": {
+      "crypto": {
+        "title": "Crypto",
+        "description": "Las criptomonedas, también conocidas como monedas digitales, son instrumentos de inversión de rápido crecimiento y"
+      },
+      "metals": {
+        "title": "Metales",
+        "description": "El trading al contado de metales ocupa un lugar especial para todo trader. Los metales han atraído a operadores de"
+      },
+      "commodities": {
+        "title": "Materias primas",
+        "description": "Invertir en materias primas puede ofrecer diversificación y cobertura frente a"
+      },
+      "forex": {
+        "title": "Forex",
+        "description": "Forex, o mercado de divisas, es un mercado global donde se negocian las monedas del mundo. Amplia"
+      },
+      "indices": {
+        "title": "Índices",
+        "description": "Los índices miden el rendimiento del precio de un grupo de acciones en una bolsa."
+      },
+      "oil": {
+        "title": "Petróleo",
+        "description": "Los futuros energéticos son contratos para comprar o vender combustibles fósiles o productos relacionados a una fecha y precio determinados."
+      }
+    },
+    "imageAlt": "Trading de {{market}} con WINPROFX"
+  },
+  "about": {
+    "meta": "SOBRE WINPROFX",
+    "heading": "<strong class='font-normal text-white'>En WINPROFX ofrecemos una plataforma de trading en línea segura </strong> que impulsa la sostenibilidad mediante experiencia, conocimiento del mercado y alianzas de confianza.",
+    "features": {
+      "platform": "La mejor plataforma para todo tipo de traders: principiantes, intermedios o profesionales.",
+      "orderManagement": "Herramientas avanzadas de gestión de órdenes.",
+      "indicators": "Más indicadores técnicos nativos.",
+      "customize": "Configure y personalice fácilmente su entorno de trading"
+    }
+  },
+  "award": {
+    "title": "WINPROFX: bróker con excelencia galardonada",
+    "description": "La industria global del forex ha reconocido los logros de WINPROFX, otorgándonos los máximos galardones por nuestros productos y servicios excepcionales.",
+    "items": {
+      "bestForexBroker2025": "Mejor bróker Forex 2025",
+      "globalForexBroker2025": "Bróker Forex global del año 2025",
+      "topStpBroker2025": "Mejor bróker STP 2025",
+      "bestDepositWithdrawal2024": "Mejor bróker en depósitos y retiros 2024"
+    }
+  },
+  "news": {
+    "title": "Noticias e insights",
+    "description": "Manténgase informado con nuestras actualizaciones de mercado y análisis de expertos para tomar decisiones financieras fundamentadas.",
+    "paymentFlow": {
+      "title": "Flujo de fondos sin fricciones: depósitos ágiles y retiros fluidos",
+      "description": "Disfrute de agilidad financiera con procesos de depósito y retiro sencillos, rápidos y convenientes."
+    },
+    "blog": {
+      "tradeToWin": {
+        "title": "Trade to WIN",
+        "description": "Opere más y gane premios GARANTIZADOS. Cuanto más opere, mejor será el premio.",
+        "promotionDates": "Fechas de la promoción: 1 de enero de 2026 al 31 de mayo de 2026"
+      },
+      "technicalAnalysis": {
+        "title": "Herramienta gratuita de análisis técnico",
+        "description": "Identifique patrones gráficos, analice las condiciones del mercado y supervise los mercados las 24 horas con un solo clic.",
+        "poweredBy": "Con tecnología de"
+      },
+      "learnMore": "Más información"
+    }
+  },
+  "demoCta": {
+    "title": "Domine el trading: desarrolle sus habilidades con la experiencia demo de WINPROFX",
+    "description": "Inicie su camino con una cuenta demo MT5 gratuita de 21 días. Descubra el potencial de nuestra plataforma galardonada de estrategias Forex sin riesgo: regístrese ahora y explore el trading de precisión.",
+    "button": "Probar demo de la plataforma MT5"
+  }
+}

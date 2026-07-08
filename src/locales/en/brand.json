@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "isWinprofxLegit": {
+      "path": "/is-winprofx-legit/",
+      "h1": "Is WINPROFX Legit?",
+      "breadcrumb": "Is WINPROFX Legit?",
+      "intro": "This official page explains how clients can verify WINPROFX company information, legal entity details, Dubai representative office registration, official domains, and regulatory scope. It does not constitute investment advice.",
+      "sections": {
+        "legalEntitySummary": "Legal Entity Summary",
+        "companyRegistration": "Company Registration",
+        "dubaiRepresentativeOffice": "Dubai Representative Office",
+        "regulatoryClarification": "Regulatory Information Clarification",
+        "officialDomainsVerification": "Official Domains Verification",
+        "whatToVerifyBeforeDepositing": "What to Verify Before Depositing",
+        "riskWarning": "Risk Warning"
+      },
+      "faqs": {
+        "registeredCompany": {
+          "question": "Is WINPROFX a registered company?",
+          "answer": "{{legalEntityName}} is incorporated in {{jurisdiction}} as an International Business Company (incorporation number {{incorporationNumber}}). Company registration details are published on the official WINPROFX website."
+        },
+        "dubaiOffice": {
+          "question": "Does WINPROFX have a Dubai office?",
+          "answer": "WINPROFX maintains a UAE representative office registered under a Dubai Professional License ({{dubaiBusinessName}}). The licensed activity is {{dubaiLicenseActivity}}. This is not the same as a financial services regulator license unless separately disclosed."
+        },
+        "verifyOfficial": {
+          "question": "How can I verify WINPROFX is official?",
+          "answer": "Verify the domain against the Official Domains page, review company registration documents, and use the Verify WINPROFX checklist before logging in or depositing."
+        },
+        "beforeDepositing": {
+          "question": "What should I check before depositing with WINPROFX?",
+          "answer": "Confirm you are on an official domain, review the Risk Warning, understand withdrawal and complaint processes, and verify company registration and regulatory scope information on the Trust Center."
+        }
+      }
+    },
+    "winprofxReview": {
+      "path": "/winprofx-review/",
+      "h1": "WINPROFX Review",
+      "breadcrumb": "WINPROFX Review",
+      "intro": "This is an official factual overview of WINPROFX services and verification information. It is not a third-party review and does not include testimonials or star ratings.",
+      "sections": {
+        "whatWinprofxIs": "What WINPROFX Is",
+        "tradingPlatform": "Trading Platform",
+        "marketsOffered": "Markets Offered",
+        "accountServices": "Account Services",
+        "trustAndLegal": "Trust and Legal Information",
+        "withdrawalsAndComplaints": "Withdrawals and Complaints",
+        "whatToVerifyBeforeTrading": "What to Verify Before Trading",
+        "riskWarning": "Risk Warning"
+      }
+    },
+    "winprofxWithdrawalProcess": {
+      "path": "/winprofx-withdrawal-process/",
+      "h1": "WINPROFX Withdrawal Process",
+      "breadcrumb": "Withdrawal Process",
+      "intro": "This page explains the general WINPROFX withdrawal process, verification checks, common delay reasons, and escalation options. Processing times vary and are not guaranteed.",
+      "sections": {
+        "overview": "Withdrawal Process Overview",
+        "stepByStep": "Step-by-Step Withdrawal Flow",
+        "kycAml": "KYC and AML Checks",
+        "commonDelays": "Common Reasons for Withdrawal Delay",
+        "howToAvoid": "How to Avoid Withdrawal Issues",
+        "escalation": "Escalation and Support",
+        "riskWarning": "Risk Warning"
+      },
+      "faqs": {
+        "howToRequest": {
+          "question": "How do I request a withdrawal from WINPROFX?",
+          "answer": "Submit a withdrawal request through the official client portal at my.winprofx.org. Always verify the URL before logging in."
+        },
+        "whyDelayed": {
+          "question": "Why might my WINPROFX withdrawal be delayed?",
+          "answer": "Common reasons include incomplete KYC, AML review, payment method verification, incorrect bank details, and processing time by banks or payment providers."
+        },
+        "escalate": {
+          "question": "How do I escalate a withdrawal issue?",
+          "answer": "Contact support@winprofx.com with your account ID and withdrawal reference, or visit the Support and Escalation page."
+        }
+      }
+    },
+    "winprofxLicenseVerification": {
+      "path": "/winprofx-license-verification/",
+      "h1": "WINPROFX License Verification",
+      "breadcrumb": "License Verification",
+      "intro": "This page explains WINPROFX company registration, Dubai representative office license, and regulatory scope. Company incorporation and a Dubai Professional License are not the same as a financial services broker license.",
+      "sections": {
+        "companyRegistration": "Company Registration",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "regulatoryScope": "Regulatory Scope Clarification",
+        "notFinancialServicesLicense": "What Is Not the Same as a Financial Services License",
+        "verifyDocuments": "How to Verify Documents",
+        "legalEntityInformation": "Legal Entity Information"
+      }
+    },
+    "winprofxComplaints": {
+      "path": "/winprofx-complaints/",
+      "h1": "WINPROFX Complaints",
+      "breadcrumb": "Complaints",
+      "intro": "This page explains how WINPROFX handles client complaints, required information, review stages, and escalation options.",
+      "sections": {
+        "howToSubmit": "How to Submit a Complaint",
+        "requiredInformation": "Required Information",
+        "reviewStages": "Complaint Review Stages",
+        "publicReviewPolicy": "Public Review Policy",
+        "escalation": "Escalation and Support"
+      },
+      "faqs": {
+        "howToSubmit": {
+          "question": "How do I submit a complaint to WINPROFX?",
+          "answer": "Email support@winprofx.com with the subject line \"Complaint\" or use the Contact page with your account details."
+        },
+        "requiredInfo": {
+          "question": "What information should I include in a complaint?",
+          "answer": "Include your registered name, email, account ID, transaction or withdrawal reference, and a detailed description of the issue."
+        },
+        "escalation": {
+          "question": "How are complaints escalated?",
+          "answer": "If your issue is not resolved through initial support review, follow the escalation process on the Support and Escalation page."
+        }
+      }
+    },
+    "winprofxFakeWebsiteWarning": {
+      "path": "/winprofx-fake-website-warning/",
+      "h1": "WINPROFX Fake Website Warning",
+      "breadcrumb": "Fake Website Warning",
+      "intro": "Protect yourself from fake WINPROFX websites, phishing pages, and impersonators. Always verify domains and support channels before sharing login credentials, funds, or personal documents.",
+      "sections": {
+        "officialDomains": "Official WINPROFX Domains",
+        "warningSigns": "Warning Signs of Fake Websites",
+        "howToVerify": "How to Verify a Domain",
+        "safeLogin": "Safe Login Guidance",
+        "whatNotToShare": "What You Should Not Share",
+        "ifSuspectImpersonation": "If You Suspect Impersonation"
+      },
+      "faqs": {
+        "howToKnowFake": {
+          "question": "How do I know if a WINPROFX website is fake?",
+          "answer": "Compare the URL against the Official Domains page. Fake sites may use similar branding with different domains, request unusual payment methods, or pressure you to share credentials."
+        },
+        "enteredCredentials": {
+          "question": "What should I do if I entered credentials on a suspicious site?",
+          "answer": "Change your password immediately through the official client portal, contact support@winprofx.com, and do not send additional funds until verified."
+        },
+        "socialMediaContact": {
+          "question": "Can WINPROFX support agents contact me on social media?",
+          "answer": "Official support is through support@winprofx.com and official website channels. Be cautious of unsolicited social media messages claiming to be WINPROFX."
+        }
+      }
+    },
+    "winprofxOfficialLogin": {
+      "path": "/winprofx-official-login/",
+      "h1": "WINPROFX Official Login",
+      "breadcrumb": "Official Login",
+      "intro": "Use this page to access official WINPROFX login guidance. Always verify the URL in your browser before entering credentials.",
+      "sections": {
+        "clientPortal": "Client Portal Login",
+        "partnerPortal": "Partner Portal Login",
+        "passwordSecurity": "Password and Account Security",
+        "verifyBeforeLogin": "Verify Before You Log In"
+      }
+    },
+    "winprofxDepositWithdrawalMethods": {
+      "path": "/winprofx-deposit-and-withdrawal-methods/",
+      "h1": "WINPROFX Deposit and Withdrawal Methods",
+      "breadcrumb": "Deposit & Withdrawal Methods",
+      "intro": "This page provides an overview of WINPROFX deposit and withdrawal methods, verification requirements, and security notes. Specific method availability may vary by account and region.",
+      "sections": {
+        "depositOverview": "Deposit Methods Overview",
+        "withdrawalOverview": "Withdrawal Methods Overview",
+        "kycAml": "KYC and AML Review",
+        "processingDisclaimer": "Processing Disclaimer",
+        "securityNote": "Security Note",
+        "commonIssues": "Common Issues",
+        "riskWarning": "Risk Warning"
+      },
+      "faqs": {
+        "depositMethods": {
+          "question": "What deposit methods does WINPROFX support?",
+          "answer": "Available deposit methods are published in the client portal and may include bank transfer, card, and electronic payment options depending on account and region."
+        },
+        "withdrawalTime": {
+          "question": "Are WINPROFX withdrawals guaranteed within a specific time?",
+          "answer": "Processing times vary and are not guaranteed. KYC, AML review, and payment provider processing may affect timelines."
+        },
+        "kycEffect": {
+          "question": "Why might KYC affect my deposit or withdrawal?",
+          "answer": "KYC and AML verification are required for compliance. Incomplete verification may delay or restrict deposits and withdrawals until resolved."
+        }
+      }
+    }
+  }
+}

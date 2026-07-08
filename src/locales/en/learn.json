@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "WINPROFX Education Team",
+    "reviewer": "WINPROFX Compliance Team"
+  },
+  "index": {
+    "h1": "WINPROFX Learning Center",
+    "intro": "Educational resources about forex and CFD trading concepts. These articles are for general education only and do not constitute investment advice.",
+    "readArticle": "Read article →",
+    "trustCenterLink": "For official company and verification information, visit the",
+    "trustCenter": "WINPROFX Trust Center"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "What Is Forex Trading? | WINPROFX Learn",
+      "description": "Learn what forex trading is, how currency pairs work, and key risks beginners should understand before trading.",
+      "h1": "What Is Forex Trading?",
+      "breadcrumb": "What Is Forex Trading",
+      "sections": {
+        "definition": {
+          "title": "Definition",
+          "body": "Forex (foreign exchange) trading is the buying and selling of currency pairs in the global currency market. Traders speculate on whether one currency will strengthen or weaken against another."
+        },
+        "howCurrencyPairsWork": {
+          "title": "How Currency Pairs Work",
+          "body": "Currency pairs show the value of one currency relative to another (e.g., EUR/USD). The first currency is the base; the second is the quote. Price movements reflect economic conditions, interest rates, and market sentiment."
+        },
+        "forexAtWinprofx": {
+          "title": "Forex at WINPROFX",
+          "body": "WINPROFX provides access to forex markets through the MetaTrader 5 platform. Account conditions and available instruments are published on the official website."
+        }
+      },
+      "links": {
+        "forex": "Forex Trading",
+        "platform": "MT5 Platform",
+        "trustCenter": "WINPROFX Trust Center"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "What Is CFD Trading? | WINPROFX Learn",
+      "description": "Understand Contract for Difference (CFD) trading, how it differs from owning assets, and associated risks.",
+      "h1": "What Is CFD Trading?",
+      "breadcrumb": "What Is CFD Trading",
+      "sections": {
+        "definition": {
+          "title": "Definition",
+          "body": "A Contract for Difference (CFD) is a derivative that allows traders to speculate on price movements without owning the underlying asset. Profits or losses depend on the difference between entry and exit prices."
+        },
+        "cfdsVsOwnership": {
+          "title": "CFDs vs Ownership",
+          "body": "CFD traders do not own shares, commodities, or crypto assets directly. They trade price exposure, which may involve leverage and overnight financing costs depending on account terms."
+        },
+        "risks": {
+          "title": "Risks",
+          "body": "CFD trading carries significant risk. Leverage can amplify losses beyond your initial deposit. Most retail CFD traders lose money."
+        }
+      },
+      "links": {
+        "crypto": "Crypto CFD Trading",
+        "riskWarning": "Risk Warning"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "What Is MetaTrader 5 (MT5)? | WINPROFX Learn",
+      "description": "Learn about the MetaTrader 5 trading platform, its features, and how clients access markets through MT5.",
+      "h1": "What Is MetaTrader 5 (MT5)?",
+      "breadcrumb": "What Is MT5",
+      "sections": {
+        "overview": {
+          "title": "Overview",
+          "body": "MetaTrader 5 (MT5) is a multi-asset trading platform used for forex, CFDs, and other instruments. It offers charting, technical analysis tools, automated trading capabilities, and mobile access."
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX and MT5",
+          "body": "WINPROFX clients access markets through MT5 on desktop and mobile. Download links and platform information are available on the Platform page."
+        }
+      },
+      "links": {
+        "platform": "MT5 Trading Platform",
+        "accounts": "Account Types"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "What Is Leverage in Forex? | WINPROFX Learn",
+      "description": "Understand leverage in forex trading, how it amplifies exposure, and why it increases both potential gains and losses.",
+      "h1": "What Is Leverage in Forex?",
+      "breadcrumb": "Leverage in Forex",
+      "sections": {
+        "definition": {
+          "title": "Definition",
+          "body": "Leverage allows traders to control a larger position with a smaller amount of capital. It is expressed as a ratio (e.g., 1:100), meaning a small deposit (margin) controls a larger trade size."
+        },
+        "howLeverageAffectsRisk": {
+          "title": "How Leverage Affects Risk",
+          "body": "Leverage amplifies both potential gains and losses. A small adverse price move can result in significant losses relative to your deposited margin."
+        }
+      },
+      "links": {
+        "marginCall": "What Is a Margin Call?",
+        "riskWarning": "Risk Warning"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "What Is a Margin Call? | WINPROFX Learn",
+      "description": "Learn what a margin call is, when it occurs, and how margin requirements affect CFD and forex trading.",
+      "h1": "What Is a Margin Call?",
+      "breadcrumb": "Margin Call",
+      "sections": {
+        "definition": {
+          "title": "Definition",
+          "body": "A margin call occurs when your account equity falls below the required margin level to maintain open positions. The broker may request additional funds or close positions to restore margin requirements."
+        },
+        "prevention": {
+          "title": "Prevention",
+          "body": "Monitor account equity, use appropriate position sizes, understand leverage effects, and maintain adequate free margin. Risk management tools such as stop losses may help but do not eliminate risk."
+        }
+      },
+      "links": {
+        "leverage": "Leverage in Forex",
+        "accounts": "Account Types"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "What Is Spread in Trading? | WINPROFX Learn",
+      "description": "Understand bid-ask spread, how spreads affect trading costs, and why spreads vary across instruments.",
+      "h1": "What Is Spread in Trading?",
+      "breadcrumb": "Spread in Trading",
+      "sections": {
+        "definition": {
+          "title": "Definition",
+          "body": "The spread is the difference between the bid (sell) price and ask (buy) price of an instrument. It represents a primary trading cost alongside commissions and swaps where applicable."
+        },
+        "variableSpreads": {
+          "title": "Variable Spreads",
+          "body": "Spreads may widen during low liquidity, news events, or market volatility. Published spread examples are indicative and may differ at execution."
+        }
+      },
+      "links": {
+        "forex": "Forex Trading",
+        "accounts": "Account Types"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "How to Manage Risk in CFD Trading | WINPROFX Learn",
+      "description": "Educational guide to risk management concepts in CFD trading including position sizing, stop losses, and leverage awareness.",
+      "h1": "How to Manage Risk in CFD Trading",
+      "breadcrumb": "Risk Management in CFDs",
+      "sections": {
+        "positionSizing": {
+          "title": "Position Sizing",
+          "body": "Risk only capital you can afford to lose. Position size should reflect your account balance and tolerance for loss, not maximum available leverage."
+        },
+        "stopLossAndTakeProfit": {
+          "title": "Stop Loss and Take Profit",
+          "body": "Stop loss orders can limit potential loss on a trade but may not always execute at the exact price during gaps or fast markets. Take profit orders lock in gains at a target level."
+        },
+        "diversificationAndDiscipline": {
+          "title": "Diversification and Discipline",
+          "body": "Avoid over-concentration in a single instrument. Maintain a trading plan and avoid emotional decisions. This content is educational only and not investment advice."
+        }
+      },
+      "links": {
+        "riskWarning": "Risk Warning",
+        "trustCenter": "Trust Center"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "Demo vs Live Trading Account | WINPROFX Learn",
+      "description": "Compare demo and live trading accounts, their purposes, and what changes when trading with real funds.",
+      "h1": "Demo vs Live Trading Account",
+      "breadcrumb": "Demo vs Live Account",
+      "sections": {
+        "demoAccounts": {
+          "title": "Demo Accounts",
+          "body": "Demo accounts use virtual funds to practice platform navigation, order placement, and strategy testing without financial risk. Demo conditions may differ from live execution."
+        },
+        "liveAccounts": {
+          "title": "Live Accounts",
+          "body": "Live accounts use real funds. Losses are real and may exceed deposits when using leverage. KYC verification and compliance checks apply before live trading."
+        }
+      },
+      "links": {
+        "accounts": "Account Types",
+        "verifyWinprofx": "Verify WINPROFX"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "How to Check If a Forex Broker Is Legit | WINPROFX Learn",
+      "description": "Learn how to verify a forex broker using official domains, company registration, regulatory scope, and risk disclosures.",
+      "h1": "How to Check If a Forex Broker Is Legit",
+      "breadcrumb": "Check If a Broker Is Legit",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "Verify Official Domains",
+          "body": "Confirm the website URL matches the broker's published official domains. Avoid login pages reached through unsolicited links or social media messages."
+        },
+        "reviewCompanyRegistration": {
+          "title": "Review Company Registration",
+          "body": "Check whether the legal entity is disclosed with incorporation details and downloadable documents where available. Company registration is not the same as a financial services license."
+        },
+        "understandRegulatoryScope": {
+          "title": "Understand Regulatory Scope",
+          "body": "Determine what licenses or registrations exist and what they actually authorize. A representative office license differs from a financial broker license."
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "Is WINPROFX Legit?",
+        "trustCenter": "Trust Center",
+        "officialDomains": "Official Domains"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "Offshore vs Regulated Forex Brokers | WINPROFX Learn",
+      "description": "Understand differences between offshore incorporation and financial services regulation in forex brokerage.",
+      "h1": "Offshore vs Regulated Forex Brokers",
+      "breadcrumb": "Offshore vs Regulated Brokers",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "Offshore Incorporation",
+          "body": "Many brokers are incorporated in jurisdictions such as Saint Lucia as International Business Companies. Incorporation confirms legal entity formation but does not automatically mean financial services regulation."
+        },
+        "financialServicesRegulation": {
+          "title": "Financial Services Regulation",
+          "body": "Financial services regulators (such as FCA, ASIC, CySEC, or UAE authorities) may authorize specific broker activities under defined conditions. Always verify through official regulator records."
+        },
+        "dueDiligence": {
+          "title": "Due Diligence",
+          "body": "Clients should review what is actually verified and disclosed, not rely on marketing claims. Read risk warnings and understand jurisdictional limitations."
+        }
+      },
+      "links": {
+        "regulatoryInformation": "Regulatory Information",
+        "licenseVerification": "License Verification",
+        "checkBrokerLegit": "How to Check If a Broker Is Legit"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

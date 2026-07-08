@@ -1,0 +1,49 @@
+{
+  "tagline": "One platform. Multiple markets. Endless trading opportunities with WINPROFX.",
+  "sections": {
+    "explore": "Explore",
+    "markets": "Markets",
+    "contactInfo": "Contact Info",
+    "officialDomains": "Official Domains",
+    "importantLinks": "Important Links",
+    "trustLegal": "Trust & Legal",
+    "riskWarning": "Risk Warning",
+    "restrictedRegions": "Restricted Regions"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX Official Website",
+    "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
+  },
+  "domains": {
+    "officialWebsite": "Official Website",
+    "officialAlternate": "Official Alternate Domain",
+    "officialUae": "Official UAE/Regional Domain",
+    "clientPortal": "Client Portal",
+    "partnerPortal": "Partner Portal"
+  },
+  "links": {
+    "home": "Home",
+    "platform": "Platform",
+    "aboutUs": "About Us",
+    "about": "About",
+    "companyProfile": "Company Profile",
+    "contact": "Contact",
+    "officialDomains": "Official Domains",
+    "forex": "Forex",
+    "indices": "Indices",
+    "crypto": "Crypto",
+    "metals": "Metals",
+    "commodities": "Commodities",
+    "oil": "Oil",
+    "riskWarning": "Risk Warning",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "amlPolicy": "AML Policy",
+    "depositWithdrawPolicy": "Deposit & withdrawal Policy",
+    "restrictedCountries": "Restricted Countries",
+    "legalDocuments": "Legal Documents",
+    "riskDisclosure": "Risk Disclosure"
+  },
+  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
+  "copyright": "© {{year}} All Rights Reserved By WINPROFX"
+}

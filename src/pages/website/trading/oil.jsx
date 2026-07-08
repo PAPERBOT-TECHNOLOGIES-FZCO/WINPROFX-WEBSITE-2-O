@@ -9,43 +9,36 @@ import Button from '@/components/button';
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import SeoHead from '@/components/seo-head'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 import banner_bg from '@/assets/img/trade/oil-bg.png'
 import banner_img from '@/assets/img/trade/oil-banner.png'
 import img from '@/assets/img/trade/oil.png'
 
 export default function Oil() {
+    const seo = useSeo('oil')
+    const { t } = useTranslation('markets')
+
     const item = [
         {
-            title: 'How to start oil trading?',
-            body: `
-                <p>Before you start trading oil, it is essential to do your research and understand the market. You need to know what factors affect oil prices and how those factors may change in the future. Also, understand the different types of oil you can trade on the market and the products that use each.</p>
-                `,
+            title: t('oil.faq.howToStart.title'),
+            body: t('oil.faq.howToStart.body'),
         },
         {
-            title: 'What is the best strategy for crude oil trading?',
-            body: `
-                <p>Before you start trading oil, it is essential to do your research and understand the market. You need to know what factors affect oil prices and how those factors may change in the future. Also, understand the different types of oil you can trade on the market and the products that use each. </p>
-                
-            `,
+            title: t('oil.faq.bestStrategy.title'),
+            body: t('oil.faq.bestStrategy.body'),
         },
         {
-            title: 'What is the best indicator for crude oil?',
-            body: `
-                <p>Before you start trading oil, it is essential to do your research and understand the market. You need to know what factors affect oil prices and how those factors may change in the future. Also, understand the different types of oil you can trade on the market and the products that use each.</p>
-                
-            `,
+            title: t('oil.faq.bestIndicator.title'),
+            body: t('oil.faq.bestIndicator.body'),
         },
     ]
 
     return (
         <>
-            <SeoHead
-                title="Best Oil Trading Platform in India | WINPROFX"
-                description="Discover the best oil trading app and platform in India with WINPROFX. Trade crude oil with free funded accounts, low spreads, and advanced tools to enhance your trading success."
-                keywords="Best Oil Trading App in India, WINPROFX Oil Trading Platform, Free Funded Accounts, Oil Brokers in India, Oil Trading India, Low Spreads Oil Trading, Crude Oil Trading India, User-Friendly Oil Trading App"
-                canonicalPath="/trading/oil"
-            />
+            <SeoHead {...seo} canonicalPath="/trading/oil" />
             <div className="relative z-1 min-h-screen overflow-hidden flex items-center pt-0 md:pt-40 lg:pt-40 xl:pt-50">
                 <img src={banner_bg} className={`absolute top-0 left-0 w-full h-full object-cover -z-10 pointer-events-none`} alt="" />
                 <Container className="max-w-375!">
@@ -56,9 +49,9 @@ export default function Oil() {
                             transition={{ duration: duration, delay: `0.2` }}
                             viewport={{ once: once, amount: 0.4 }}
                             className="max-w-154 w-full">
-                            <MetaText className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" title="Oil trading" />
-                            <h1 className='max-w-65 mx-auto md:max-w-full text-2xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium capitalize mb-4 md:mb-5 lg:mb-7'>Oil Trading</h1>
-                            <p className='text-para2 max-w-150 lg:max-w-xl mb-4 md:mb-6 lg:mb-8'>Hedge against price volatility and capitalize on global market trends. Access real-time data, advanced charting, and deep liquidity on our premier trading platform to navigate the energy sector with confidence.</p>
+                            <MetaText className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" title={t('oil.banner.meta')} />
+                            <h1 className='max-w-65 mx-auto md:max-w-full text-2xl md:text-5xl lg:text-6xl xl:text-[64px] leading-[110%] font-medium capitalize mb-4 md:mb-5 lg:mb-7'>{t('oil.banner.title')}</h1>
+                            <p className='text-para2 max-w-150 lg:max-w-xl mb-4 md:mb-6 lg:mb-8'>{t('oil.banner.description')}</p>
                             <Button animation={false} />
                         </motion.div>
                         <motion.div
@@ -76,10 +69,10 @@ export default function Oil() {
                 <Container>
                     <div className="flex flex-col gap-y-6 lg:gap-y-8 max-w-6xl">
                         <Card
-                            meta="Oil trading"
-                            title="Trade Live Market Data"
+                            meta={t('oil.card.meta')}
+                            title={t('oil.card.title')}
                             des={<>
-                                <p>Track real-time price movements, daily fluctuations, and technical trends across premium energy assets.</p>
+                                <p>{t('oil.card.description')}</p>
                             </>}
                             img={img}
                         />
@@ -89,10 +82,11 @@ export default function Oil() {
             </div>
             <div className="common-padding pt-0">
                 <div className='max-w-215 mx-auto px-3'>
-                    <CommonTitle className='text-center' title="Learn About Commodities Trading" />
+                    <CommonTitle className='text-center' title={t('oil.learn.title')} />
                     <Accordion items={item} activeItem={0} />
                 </div>
             </div>
+            <MarketPageTrustLinks />
         </>
     )
 }

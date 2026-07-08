@@ -1,0 +1,49 @@
+{
+  "tagline": "1つのプラットフォーム。複数のマーケット。WINPROFX で無限の取引機会を。",
+  "sections": {
+    "explore": "探索",
+    "markets": "マーケット",
+    "contactInfo": "お問い合わせ",
+    "officialDomains": "公式ドメイン",
+    "importantLinks": "重要リンク",
+    "trustLegal": "トラスト＆法務",
+    "riskWarning": "リスク警告",
+    "restrictedRegions": "制限地域"
+  },
+  "officialWebsite": {
+    "title": "WINPROFX 公式ウェブサイト",
+    "description": "WINPROFX は Forex および CFD 取引ブランドで、公式ウェブサイトおよびポータルを通じて取引プラットフォームへのアクセス、クライアント口座サービス、パートナープログラムツール、取引関連サポートサービスを提供しています。"
+  },
+  "domains": {
+    "officialWebsite": "公式ウェブサイト",
+    "officialAlternate": "公式代替ドメイン",
+    "officialUae": "公式 UAE/地域ドメイン",
+    "clientPortal": "クライアントポータル",
+    "partnerPortal": "パートナーポータル"
+  },
+  "links": {
+    "home": "ホーム",
+    "platform": "プラットフォーム",
+    "aboutUs": "会社概要",
+    "about": "概要",
+    "companyProfile": "会社プロフィール",
+    "contact": "お問い合わせ",
+    "officialDomains": "公式ドメイン",
+    "forex": "Forex",
+    "indices": "インデックス",
+    "crypto": "暗号資産",
+    "metals": "貴金属",
+    "commodities": "コモディティ",
+    "oil": "原油",
+    "riskWarning": "リスク警告",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsConditions": "利用規約",
+    "amlPolicy": "AML ポリシー",
+    "depositWithdrawPolicy": "入出金ポリシー",
+    "restrictedCountries": "制限国",
+    "legalDocuments": "法的文書",
+    "riskDisclosure": "リスク開示"
+  },
+  "restrictedRegionsText": "WINPROFX Limited は、米国、キューバ、イラク、ミャンマー、インド、北朝鮮、スーダンの市民/居住者向けにサービスを提供していません。WINPROFX Limited のサービスは、そのような配布または使用が現地の法律または規制に反する国または管轄区域のいかなる人物への配布または使用も意図していません。",
+  "copyright": "© {{year}} WINPROFX All Rights Reserved"
+}

@@ -3,36 +3,27 @@ import CommonTitle from '@/components/common-title'
 import { Container } from '@/components/grid'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next'
 import icon_1 from '@/assets/img/trade/programe-period-icon1.svg'
-import icon_2 from '@/assets/img/trade/programe-period-icon1.svg'
-import icon_3 from '@/assets/img/trade/programe-period-icon1.svg'
 
 export default function ProgramPeriod() {
-   const items = [
-        {
-            icon: icon_1,
-            title: 'Active Dates',
-            des: 'The program runs from March 1, 2025 through May 31, 2026. Join at any point during this window.'
-        },
-        {
-            icon: icon_2,
-            title: 'Trading Timeline',
-            des: 'Once you opt in, you have 30 days from your start date to reach your chosen target volume and claim your reward.'
-        },
-        {
-            icon: icon_3,
-            title: 'Opt-In Deadline',
-            des: 'New clients can opt in starting from their very first deposit. Don\'t wait every day counts toward your 30-day window.'
-        },
-    ]
+  const { t } = useTranslation('trading')
+  const pu = (key) => t(`promotionUi.programPeriod.${key}`)
+
+  const itemKeys = ['activeDates', 'tradingTimeline', 'optInDeadline']
+  const items = itemKeys.map((key) => ({
+    icon: icon_1,
+    title: pu(`items.${key}.title`),
+    des: pu(`items.${key}.desc`),
+  }))
 
     return (
         <div className='common-padding max-w-6xl mx-auto'>
             <Container>
                 <CommonTitle
                     className="max-w-170 text-center mx-auto mb-10 md:mb-12 lg:mb-16"
-                    subTitle="Program Period" subTitleClass="rounded-[100px] border border-white/20 bg-white/[0.06] px-4 py-1 mb-4 inline-block uppercase"
-                    title={`When Does the Program Run?`}
+                    subTitle={pu('subTitle')} subTitleClass="rounded-[100px] border border-white/20 bg-white/[0.06] px-4 py-1 mb-4 inline-block uppercase"
+                    title={pu('title')}
                 />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 md:mb-12 lg:mb-16">
                     {items.map((item, idx) => (

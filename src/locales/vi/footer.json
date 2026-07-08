@@ -1,0 +1,49 @@
+{
+  "tagline": "Một nền tảng. Nhiều thị trường. Vô vàn cơ hội giao dịch cùng WINPROFX.",
+  "sections": {
+    "explore": "Khám phá",
+    "markets": "Thị trường",
+    "contactInfo": "Thông tin liên hệ",
+    "officialDomains": "Tên miền chính thức",
+    "importantLinks": "Liên kết quan trọng",
+    "trustLegal": "Tin cậy & Pháp lý",
+    "riskWarning": "Cảnh báo rủi ro",
+    "restrictedRegions": "Khu vực hạn chế"
+  },
+  "officialWebsite": {
+    "title": "Trang web chính thức WINPROFX",
+    "description": "WINPROFX là thương hiệu giao dịch Forex và CFD cung cấp quyền truy cập nền tảng giao dịch, dịch vụ tài khoản khách hàng, công cụ chương trình đối tác và dịch vụ hỗ trợ liên quan đến giao dịch thông qua các trang web và cổng thông tin chính thức."
+  },
+  "domains": {
+    "officialWebsite": "Trang web chính thức",
+    "officialAlternate": "Tên miền thay thế chính thức",
+    "officialUae": "Tên miền chính thức UAE/Khu vực",
+    "clientPortal": "Cổng khách hàng",
+    "partnerPortal": "Cổng đối tác"
+  },
+  "links": {
+    "home": "Trang chủ",
+    "platform": "Nền tảng",
+    "aboutUs": "Về chúng tôi",
+    "about": "Giới thiệu",
+    "companyProfile": "Hồ sơ công ty",
+    "contact": "Liên hệ",
+    "officialDomains": "Tên miền chính thức",
+    "forex": "Forex",
+    "indices": "Chỉ số",
+    "crypto": "Tiền mã hóa",
+    "metals": "Kim loại",
+    "commodities": "Hàng hóa",
+    "oil": "Dầu",
+    "riskWarning": "Cảnh báo rủi ro",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsConditions": "Điều khoản & Điều kiện",
+    "amlPolicy": "Chính sách AML",
+    "depositWithdrawPolicy": "Chính sách nạp & rút tiền",
+    "restrictedCountries": "Quốc gia hạn chế",
+    "legalDocuments": "Tài liệu pháp lý",
+    "riskDisclosure": "Công bố rủi ro"
+  },
+  "restrictedRegionsText": "WINPROFX Limited không cung cấp dịch vụ cho công dân/cư dân của USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. Dịch vụ của WINPROFX Limited không nhằm phân phối cho hoặc sử dụng bởi bất kỳ ai ở quốc gia hoặc khu vực pháp lý nào mà việc phân phối hoặc sử dụng đó sẽ trái với luật hoặc quy định địa phương.",
+  "copyright": "© {{year}} Bản quyền thuộc về WINPROFX"
+}

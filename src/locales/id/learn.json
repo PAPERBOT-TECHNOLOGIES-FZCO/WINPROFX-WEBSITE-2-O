@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "Tim Edukasi WINPROFX",
+    "reviewer": "Tim Kepatuhan WINPROFX"
+  },
+  "index": {
+    "h1": "Pusat Pembelajaran WINPROFX",
+    "intro": "Sumber edukasi tentang konsep trading forex dan CFD. Artikel ini hanya untuk pendidikan umum dan bukan merupakan saran investasi.",
+    "readArticle": "Baca artikel →",
+    "trustCenterLink": "Untuk informasi perusahaan resmi dan verifikasi, kunjungi",
+    "trustCenter": "Pusat Kepercayaan WINPROFX"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "Apa Itu Trading Forex? | WINPROFX Learn",
+      "description": "Pelajari apa itu trading forex, cara kerja pasangan mata uang, dan risiko utama yang harus dipahami pemula sebelum trading.",
+      "h1": "Apa Itu Trading Forex?",
+      "breadcrumb": "Apa Itu Trading Forex",
+      "sections": {
+        "definition": {
+          "title": "Definisi",
+          "body": "Trading Forex (valuta asing) adalah pembelian dan penjualan pasangan mata uang di pasar mata uang global. Trader berspekulasi apakah satu mata uang akan menguat atau melemah terhadap mata uang lain."
+        },
+        "howCurrencyPairsWork": {
+          "title": "Cara Kerja Pasangan Mata Uang",
+          "body": "Pasangan mata uang menunjukkan nilai satu mata uang relatif terhadap mata uang lain (misalnya, EUR/USD). Mata uang pertama adalah base; yang kedua adalah quote. Pergerakan harga mencerminkan kondisi ekonomi, suku bunga, dan sentimen pasar."
+        },
+        "forexAtWinprofx": {
+          "title": "Forex di WINPROFX",
+          "body": "WINPROFX menyediakan akses ke pasar forex melalui platform MetaTrader 5. Kondisi akun dan instrumen yang tersedia dipublikasikan di situs web resmi."
+        }
+      },
+      "links": {
+        "forex": "Trading Forex",
+        "platform": "Platform MT5",
+        "trustCenter": "Pusat Kepercayaan WINPROFX"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "Apa Itu Trading CFD? | WINPROFX Learn",
+      "description": "Pahami trading Contract for Difference (CFD), perbedaannya dengan memiliki aset, dan risiko terkait.",
+      "h1": "Apa Itu Trading CFD?",
+      "breadcrumb": "Apa Itu Trading CFD",
+      "sections": {
+        "definition": {
+          "title": "Definisi",
+          "body": "Contract for Difference (CFD) adalah derivatif yang memungkinkan trader berspekulasi pada pergerakan harga tanpa memiliki aset dasar. Keuntungan atau kerugian bergantung pada selisih antara harga masuk dan keluar."
+        },
+        "cfdsVsOwnership": {
+          "title": "CFD vs Kepemilikan",
+          "body": "Trader CFD tidak memiliki saham, komoditas, atau aset kripto secara langsung. Mereka trading eksposur harga, yang mungkin melibatkan leverage dan biaya pembiayaan semalam tergantung pada ketentuan akun."
+        },
+        "risks": {
+          "title": "Risiko",
+          "body": "Trading CFD membawa risiko signifikan. Leverage dapat memperbesar kerugian melebihi deposit awal Anda. Sebagian besar trader CFD ritel kehilangan uang."
+        }
+      },
+      "links": {
+        "crypto": "Trading CFD Kripto",
+        "riskWarning": "Peringatan Risiko"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "Apa Itu MetaTrader 5 (MT5)? | WINPROFX Learn",
+      "description": "Pelajari platform trading MetaTrader 5, fitur-fiturnya, dan bagaimana klien mengakses pasar melalui MT5.",
+      "h1": "Apa Itu MetaTrader 5 (MT5)?",
+      "breadcrumb": "Apa Itu MT5",
+      "sections": {
+        "overview": {
+          "title": "Ikhtisar",
+          "body": "MetaTrader 5 (MT5) adalah platform trading multi-aset yang digunakan untuk forex, CFD, dan instrumen lainnya. Platform ini menawarkan charting, alat analisis teknikal, kemampuan trading otomatis, dan akses mobile."
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX dan MT5",
+          "body": "Klien WINPROFX mengakses pasar melalui MT5 di desktop dan mobile. Tautan unduhan dan informasi platform tersedia di halaman Platform."
+        }
+      },
+      "links": {
+        "platform": "Platform Trading MT5",
+        "accounts": "Jenis Akun"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "Apa Itu Leverage dalam Forex? | WINPROFX Learn",
+      "description": "Pahami leverage dalam trading forex, bagaimana leverage memperbesar eksposur, dan mengapa leverage meningkatkan potensi keuntungan dan kerugian.",
+      "h1": "Apa Itu Leverage dalam Forex?",
+      "breadcrumb": "Leverage dalam Forex",
+      "sections": {
+        "definition": {
+          "title": "Definisi",
+          "body": "Leverage memungkinkan trader mengendalikan posisi yang lebih besar dengan jumlah modal yang lebih kecil. Leverage dinyatakan sebagai rasio (misalnya, 1:100), artinya deposit kecil (margin) mengendalikan ukuran trading yang lebih besar."
+        },
+        "howLeverageAffectsRisk": {
+          "title": "Bagaimana Leverage Mempengaruhi Risiko",
+          "body": "Leverage memperbesar potensi keuntungan dan kerugian. Pergerakan harga yang merugikan kecil dapat mengakibatkan kerugian signifikan relatif terhadap margin yang Anda depositkan."
+        }
+      },
+      "links": {
+        "marginCall": "Apa Itu Margin Call?",
+        "riskWarning": "Peringatan Risiko"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "Apa Itu Margin Call? | WINPROFX Learn",
+      "description": "Pelajari apa itu margin call, kapan terjadi, dan bagaimana persyaratan margin memengaruhi trading CFD dan forex.",
+      "h1": "Apa Itu Margin Call?",
+      "breadcrumb": "Panggilan Margin",
+      "sections": {
+        "definition": {
+          "title": "Definisi",
+          "body": "Margin call terjadi ketika ekuitas akun Anda turun di bawah tingkat margin yang diperlukan untuk mempertahankan posisi terbuka. Broker mungkin meminta dana tambahan atau menutup posisi untuk memulihkan persyaratan margin."
+        },
+        "prevention": {
+          "title": "Pencegahan",
+          "body": "Pantau ekuitas akun, gunakan ukuran posisi yang sesuai, pahami efek leverage, dan pertahankan free margin yang memadai. Alat manajemen risiko seperti stop loss dapat membantu tetapi tidak menghilangkan risiko."
+        }
+      },
+      "links": {
+        "leverage": "Leverage dalam Forex",
+        "accounts": "Jenis Akun"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "Apa Itu Spread dalam Trading? | WINPROFX Learn",
+      "description": "Pahami spread bid-ask, bagaimana spread memengaruhi biaya trading, dan mengapa spread bervariasi antar instrumen.",
+      "h1": "Apa Itu Spread dalam Trading?",
+      "breadcrumb": "Spread dalam Trading",
+      "sections": {
+        "definition": {
+          "title": "Definisi",
+          "body": "Spread adalah selisih antara harga bid (jual) dan ask (beli) suatu instrumen. Spread merupakan biaya trading utama bersama komisi dan swap jika berlaku."
+        },
+        "variableSpreads": {
+          "title": "Spread Variabel",
+          "body": "Spread mungkin melebar selama likuiditas rendah, peristiwa berita, atau volatilitas pasar. Contoh spread yang dipublikasikan bersifat indikatif dan mungkin berbeda saat eksekusi."
+        }
+      },
+      "links": {
+        "forex": "Trading Forex",
+        "accounts": "Jenis Akun"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "Cara Mengelola Risiko dalam Trading CFD | WINPROFX Learn",
+      "description": "Panduan edukasi tentang konsep manajemen risiko dalam trading CFD termasuk ukuran posisi, stop loss, dan kesadaran leverage.",
+      "h1": "Cara Mengelola Risiko dalam Trading CFD",
+      "breadcrumb": "Manajemen Risiko dalam CFD",
+      "sections": {
+        "positionSizing": {
+          "title": "Ukuran Posisi",
+          "body": "Risikokan hanya modal yang Anda mampu kehilangan. Ukuran posisi harus mencerminkan saldo akun dan toleransi kerugian Anda, bukan leverage maksimum yang tersedia."
+        },
+        "stopLossAndTakeProfit": {
+          "title": "Stop Loss dan Take Profit",
+          "body": "Order stop loss dapat membatasi potensi kerugian pada trading tetapi mungkin tidak selalu dieksekusi pada harga tepat selama gap atau pasar cepat. Order take profit mengunci keuntungan pada level target."
+        },
+        "diversificationAndDiscipline": {
+          "title": "Diversifikasi dan Disiplin",
+          "body": "Hindari konsentrasi berlebihan pada satu instrumen. Pertahankan rencana trading dan hindari keputusan emosional. Konten ini hanya edukatif dan bukan saran investasi."
+        }
+      },
+      "links": {
+        "riskWarning": "Peringatan Risiko",
+        "trustCenter": "Pusat Kepercayaan"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "Akun Demo vs Live | WINPROFX Learn",
+      "description": "Bandingkan akun trading demo dan live, tujuannya, dan apa yang berubah saat trading dengan dana nyata.",
+      "h1": "Akun Demo vs Live",
+      "breadcrumb": "Akun Demo vs Live",
+      "sections": {
+        "demoAccounts": {
+          "title": "Akun Demo",
+          "body": "Akun demo menggunakan dana virtual untuk berlatih navigasi platform, penempatan order, dan pengujian strategi tanpa risiko finansial. Kondisi demo mungkin berbeda dari eksekusi live."
+        },
+        "liveAccounts": {
+          "title": "Akun Live",
+          "body": "Akun live menggunakan dana nyata. Kerugian nyata dan mungkin melebihi deposit saat menggunakan leverage. Verifikasi KYC dan pemeriksaan kepatuhan berlaku sebelum trading live."
+        }
+      },
+      "links": {
+        "accounts": "Jenis Akun",
+        "verifyWinprofx": "Verifikasi WINPROFX"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "Cara Memeriksa Apakah Broker Forex Legit | WINPROFX Learn",
+      "description": "Pelajari cara memverifikasi broker forex menggunakan domain resmi, registrasi perusahaan, ruang lingkup regulasi, dan pengungkapan risiko.",
+      "h1": "Cara Memeriksa Apakah Broker Forex Legit",
+      "breadcrumb": "Periksa Apakah Broker Legit",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "Verifikasi Domain Resmi",
+          "body": "Pastikan URL situs web sesuai dengan domain resmi yang dipublikasikan broker. Hindari halaman login yang diakses melalui tautan tidak diminta atau pesan media sosial."
+        },
+        "reviewCompanyRegistration": {
+          "title": "Tinjau Registrasi Perusahaan",
+          "body": "Periksa apakah entitas hukum diungkapkan dengan detail inkorporasi dan dokumen yang dapat diunduh jika tersedia. Registrasi perusahaan tidak sama dengan lisensi layanan keuangan."
+        },
+        "understandRegulatoryScope": {
+          "title": "Pahami Ruang Lingkup Regulasi",
+          "body": "Tentukan lisensi atau registrasi apa yang ada dan apa yang sebenarnya mereka otorisasi. Lisensi kantor perwakilan berbeda dari lisensi broker keuangan."
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "Apakah WINPROFX Legit?",
+        "trustCenter": "Pusat Kepercayaan",
+        "officialDomains": "Domain Resmi"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "Broker Forex Offshore vs Teregulasi | WINPROFX Learn",
+      "description": "Pahami perbedaan antara inkorporasi offshore dan regulasi layanan keuangan dalam perantara forex.",
+      "h1": "Broker Forex Offshore vs Teregulasi",
+      "breadcrumb": "Broker Offshore vs Teregulasi",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "Inkorporasi Offshore",
+          "body": "Banyak broker diinkorporasikan di yurisdiksi seperti Saint Lucia sebagai International Business Companies. Inkorporasi mengonfirmasi pembentukan entitas hukum tetapi tidak secara otomatis berarti regulasi layanan keuangan."
+        },
+        "financialServicesRegulation": {
+          "title": "Regulasi Layanan Keuangan",
+          "body": "Regulator layanan keuangan (seperti FCA, ASIC, CySEC, atau otoritas UAE) dapat mengotorisasi aktivitas broker tertentu dalam kondisi yang ditentukan. Selalu verifikasi melalui catatan regulator resmi."
+        },
+        "dueDiligence": {
+          "title": "Uji Tuntas",
+          "body": "Klien harus meninjau apa yang benar-benar diverifikasi dan diungkapkan, bukan mengandalkan klaim pemasaran. Baca peringatan risiko dan pahami keterbatasan yurisdiksi."
+        }
+      },
+      "links": {
+        "regulatoryInformation": "Informasi Regulasi",
+        "licenseVerification": "Verifikasi Lisensi",
+        "checkBrokerLegit": "Cara Memeriksa Apakah Broker Legit"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

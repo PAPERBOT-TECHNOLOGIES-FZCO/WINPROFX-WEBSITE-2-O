@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "getStarted": "Começar",
+    "learnMore": "Saber mais",
+    "openAccount": "Abrir conta",
+    "startTrading": "Começar a negociar",
+    "downloadNow": "Descarregar agora",
+    "viewPage": "Ver página →",
+    "viewAllArticles": "Ver todos os artigos →",
+    "readFullRiskWarning": "Ler aviso de risco completo"
+  },
+  "labels": {
+    "home": "Início",
+    "trustCenter": "Centro de confiança",
+    "lastReviewed": "Última revisão:",
+    "reviewedBy": "Revisto por:",
+    "riskWarning": "Aviso de risco:",
+    "lastUpdated": "Última atualização: {{date}}",
+    "authorReviewedBy": "Autor: {{author}} · Revisto por: {{reviewer}}",
+    "faqTitle": "Perguntas frequentes",
+    "relatedTrustPages": "Páginas de verificação relacionadas WINPROFX",
+    "relatedPages": "Páginas relacionadas WINPROFX",
+    "moreArticles": "Mais artigos",
+    "whatsapp": "WhatsApp"
+  },
+  "disclaimer": {
+    "learnEducational": "Este artigo é apenas para fins educacionais e não constitui aconselhamento de investimento, aconselhamento financeiro ou uma recomendação para negociar."
+  },
+  "risk": {
+    "short": "O trading de forex e CFD envolve risco significativo e pode não ser adequado para todos os investidores. Os clientes devem compreender os riscos antes de negociar.",
+    "full": "O trading de forex, CFD e produtos financeiros relacionados envolve risco significativo e pode não ser adequado para todos os investidores. Pode perder parte ou a totalidade do seu capital investido. O desempenho passado não garante resultados futuros. Os clientes devem compreender os riscos antes de negociar e procurar aconselhamento independente se necessário."
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Página não encontrada",
+    "seoTitle": "Página não encontrada | WINPROFX",
+    "backHome": "Voltar ao início"
+  },
+  "download": {
+    "appStorePrefix": "Descarregar na",
+    "googlePlayPrefix": "DISPONÍVEL NA",
+    "windowsPrefix": "Descarregar para",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Abrir em",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Está pronto para começar a negociar?",
+    "accountsDes": "Negocie com uma corretora premiada!",
+    "openLiveAccount": "Abrir conta real"
+  }
+}

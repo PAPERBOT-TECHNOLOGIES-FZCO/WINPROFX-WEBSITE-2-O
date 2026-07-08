@@ -1,0 +1,1080 @@
+{
+  "policy": {
+    "h1": "गोपनीयता नीति",
+    "meta": "कानूनी और अनुपालन",
+    "sections": {
+      "privacyPolicyOfWinprofx": "WINPROFX की गोपनीयता नीति",
+      "privacyProtection": "गोपनीयता संरक्षण",
+      "personalInformationWeCollect": "हम जो व्यक्तिगत जानकारी एकत्र करते हैं",
+      "processingOfYourPersonalInformation": "आपकी व्यक्तिगत जानकारी का प्रसंस्करण",
+      "performanceOfContract": "अनुबंध का निष्पादन",
+      "complianceWithLegalObligation": "कानूनी दायित्व का अनुपालन",
+      "safeguardingLegitimateInterests": "वैध हितों की सुरक्षा के उद्देश्य से",
+      "consentProvided": "आपने अपनी सहमति प्रदान की है",
+      "productsAndServices": "आपको उत्पाद और सेवाएं, जानकारी प्रदान करने के लिए",
+      "investigateEnquiries": "पूछताछ या विवादों की जांच या निपटान के लिए",
+      "complyWithLaws": "लागू कानूनों, अदालती आदेशों, अन्य न्यायिक प्रक्रिया, या लागू नियामक प्राधिकरणों की आवश्यकताओं का अनुपालन करने के लिए",
+      "dataAnalysis": "डेटा विश्लेषण",
+      "marketingPurposes": "विपणन उद्देश्य",
+      "internalBusinessPurposes": "आंतरिक व्यावसायिक उद्देश्य और रिकॉर्ड रखरखाव",
+      "legalNotifications": "कानूनी सूचनाएं",
+      "physicalSecurity": "भौतिक सुरक्षा",
+      "disclosureOfPersonalInformation": "आपकी व्यक्तिगत जानकारी का प्रकटीकरण",
+      "transfersOutsideEea": "यूरोपीय आर्थिक क्षेत्र के बाहर स्थानांतरण",
+      "yourCollectedInformation": "आपकी एकत्रित जानकारी",
+      "deviceInformation": "डिवाइस जानकारी",
+      "logInformation": "लॉग जानकारी",
+      "locationInformation": "स्थान जानकारी",
+      "howWeObtainConsent": "हम आपकी सहमति कैसे प्राप्त करते हैं",
+      "storageAndRetention": "आपकी व्यक्तिगत जानकारी का भंडारण और प्रतिधारण अवधि",
+      "yourRights": "आपकी व्यक्तिगत जानकारी और पहुंच के संबंध में आपके अधिकार",
+      "rectification": "सुधार",
+      "erasure": "विलोपन",
+      "processingRestrictions": "प्रसंस्करण प्रतिबंध",
+      "dataPortability": "डेटा पोर्टेबिलिटी",
+      "objection": "आपत्ति",
+      "optOut": "अपनी व्यक्तिगत जानकारी जमा करने से opt-out",
+      "legalDisclaimer": "कानूनी अस्वीकरण",
+      "cardAcceptance": "WINPROFX कार्ड स्वीकृति",
+      "howToContactUs": "हमसे कैसे संपर्क करें"
+    },
+    "content": [
+      {
+        "title": "Privacy Policy Of WINPROFX",
+        "des": [
+          {
+            "name": "It is the stated policy of WINPROFX (hereafter referred to as “WINPROFX”, ‘us’, ‘we’ and ‘our’) that WINPROFX will act in accordance with current best practice with regard to the processing of personal data."
+          },
+          {
+            "name": "Your privacy is very important to us and we make it our priority to safeguard and secure any and all confidential information relating to individuals. WINPROFX understands the importance of maintaining the privacy of your personal information. WINPROFX as a company would like to assure you of our commitment to keeping it private"
+          }
+        ]
+      },
+      {
+        "title": "Privacy Protection",
+        "des": [
+          {
+            "name": "WINPROFX has appointed a Data Protection Officer to ensure that our Company manages/processes your personal information in compliance with the applicable data protection laws and regulations and in accordance with this Privacy Policy."
+          },
+          {
+            "name": "In relation to your personal data, you agree that we use and rely on the data you provided us, and we and our group companies can store and process them both in physically and/or electronically."
+          },
+          {
+            "name": "It is your responsibility to make sure that your password is only known to you and not disclosed to anyone else. Your registered information is securely stored with us, and only authorized staff have access to this information. Please also note that transfer of information via the internet is not always entirely secure, but we have taken significant precautions to assure that your personal data is being protected."
+          }
+        ]
+      },
+      {
+        "title": "Personal Information We Collect",
+        "des": [
+          {
+            "name": "If you decide to apply to open an account with WINPROFX Limited, there is certain information that we will require from you in order to do so. WINPROFX obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing customer service. WINPROFX may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities."
+          }
+        ]
+      },
+      {
+        "title": "Processing of Your Personal Information",
+        "des": [
+          {
+            "name": "We may process your personal data on the following bases and for the following purposes:"
+          }
+        ],
+        "list": [
+          {
+            "title": "PERORMANCE OF CONTRACT",
+            "des": [
+              {
+                "name": "We process personal data in order to provide our services and products, as well as information regarding our products and services based on the contractual relationship with our clients (i.e. so as to perform our contractual obligations). In addition, processing of personal data takes place to be able to complete our client on-boarding/acceptance procedures. In view of the above, we need to verify your identity in order to accept you as our client and we will need to use those details in order to effectively manage your trading account with us. "
+              },
+              {
+                "name": "This may include third parties carrying out credit or identity checks on our behalf. The use of your personal information is necessary for us to know who you are as we have a legal obligation to comply with ‘Know Your Customer’ and customer due diligence’ regulatory obligations."
+              }
+            ]
+          },
+          {
+            "title": "COMPLIANCE WITH A LEGAL OBLIGATION",
+            "des": [
+              {
+                "name": "In view of the above, we need to verify your identity in order to accept you as our client and we will need to use those details in order to effectively manage your trading account with us. This may include third parties carrying out credit or identity checks on our behalf. The use of your personal information is necessary for us to know who you are as we have a legal obligation to comply with ‘Know Your Customer’ and customer due diligence’ regulatory obligations"
+              }
+            ]
+          },
+          {
+            "title": "FOR THE PURPOSES OF SAFEGUARDING LEGITIMATE INTERESTS",
+            "des": [
+              {
+                "name": "We process personal data so as to safeguard the legitimate interests pursued by us or by a third party. A legitimate interest is when we have a business or commercial reason to use your information. Examples of such processing activities include the following:",
+                "ul": [
+                  "Nitiating legal claim and preparing our defense in litigation procedures",
+                  "Risk management",
+                  "Measures to manage business and for further developing and services",
+                  "Measures to ensure IT and system security, preventing potential crime, asset security, admittance controls and anti-trespassing measures",
+                  "Sharing your personal data within WINPROFX for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework."
+                ]
+              }
+            ]
+          },
+          {
+            "title": "YOU HAVE PROVIDED YOUR CONSENT",
+            "des": [
+              {
+                "name": "Our storage and use of your personal data is based on your consent (other than for the reasons described or implied in this policy when your consent is not required). You may revoke consent at any time; however, any processing of personal data prior to the receipt of your revocation will not be affected."
+              }
+            ]
+          },
+          {
+            "title": "TO PROVIDE YOU WITH PRODUCTS AND SERVICES, INFORMATION",
+            "des": [
+              {
+                "name": "Once you successfully open a trading account with us, or subscribe to an update, we will need to use your personal information to perform our services and comply with our obligations to you. It is also in our legitimate interests to try to ensure that we are providing the best products and services so we may periodically review your needs based on our assessment of your personal information to try to ensure that you are getting the benefit of the best possible products and services from us."
+              }
+            ]
+          },
+          {
+            "title": "TO INVESTIGATE OR SETTLE ENQUIRIES OR DISPUTES",
+            "des": [
+              {
+                "name": "We may need to use personal information collected from you to investigate issues or to settle disputes with you because it is in our legitimate interests to ensure that issues and disputes get investigated and resolved in a timely and efficient manner."
+              }
+            ]
+          },
+          {
+            "title": "TO COMPLY WITH APPLICABLE LAWS, COURT ORDERS, OTHER JUDICIAL PROCESS, OR THE REQUIREMENTS OF ANY APPLICABLE REGULATORY AUTHORITIES",
+            "des": [
+              {
+                "name": "We may need to use your personal information to comply with any applicable laws and regulations, court orders or other judicial process, or the requirements of any applicable regulatory authority. We do this not only to comply with our legal obligations but because it may also be in our legitimate interest to do so."
+              }
+            ]
+          },
+          {
+            "title": "DATA ANALYSIS",
+            "des": [
+              {
+                "name": "Our web pages and emails may contain web beacons or pixel tags or any other similar type of data analysis tools that allow us to track receipt of correspondence and count the number of users that have visited our webpage or opened our correspondence. We may aggregate your personal information (such as trading history) with the personal information of our other clients on an anonymous basis. "
+              },
+              {
+                "name": "If your personal information is not in an anonymized form, it is in our legitimate interest to continually evaluate that personal information to ensure that the products and services we provide are relevant to the market."
+              }
+            ]
+          },
+          {
+            "title": "MARKETING PURPOSES",
+            "des": [
+              {
+                "name": "We may use your personal information to send you marketing communications by email, phone, SMS or other methods (such as social media channels) to ensure that you are kept up to date with our latest products and services. We will not disclose your information to any outside parties that may allow them to directly market to you."
+              }
+            ]
+          },
+          {
+            "title": "INTERNAL BUSINESS PURPOSES AND RECORD KEEPING",
+            "des": [
+              {
+                "name": "We may use your personal information for internal business and research or record keeping purposes. Such processing is in our own legitimate interests and is required in order to comply with our legal obligations. This may include any communications that we have with you in relation to the services and products we provide to you. We will also keep records to ensure that you comply with your contractual obligations pursuant to the agreement governing our relationship with you."
+              }
+            ]
+          },
+          {
+            "title": "LEGAL NOTIFICATIONS",
+            "des": [
+              {
+                "name": "Often the law requires us to advise you of certain changes to products or services or laws. We may need to inform you of changes to the terms or the features of our products or services. We need to process your personal information to send you these legal notifications. You will continue to receive this information from us even if you choose not to receive direct marketing information from us."
+              }
+            ]
+          },
+          {
+            "title": "PHYSICAL SECURITY",
+            "des": [
+              {
+                "name": "If you enter any of our premises we may record your image on our CCTV for security reasons. We may also take your details to keep a record of who has entered our premises on any given day. It is in our legitimate interest to do this to maintain a safe and secure working environment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Disclosure of Your Personal Information",
+        "des": [
+          {
+            "name": "The Company will not disclose any of its clients’ confidential information to a third party, except:",
+            "ul": [
+              "to the extent that it is required to do so pursuant to any applicable laws, rules or regulations;",
+              "if there is a duty to disclose;",
+              "if our legitimate business interests require disclosure; or",
+              "at your request or with your consent or to Persons described in this policy. The Company will endeavor to make such disclosures on a ‘needto-know’ basis, unless otherwise instructed by a regulatory authority. Under such circumstances, the Company will notify the third party regarding the confidential nature of any such information."
+            ]
+          },
+          {
+            "name": "As part of using your personal data for the purposes set out above, the Company may disclose your personal information to the following:",
+            "ul": [
+              "Any companies under WINPROFX, meaning any of our ultimate holding companies and their respective subsidiaries may receive such information;",
+              "Our associates and service providers, for business purposes, including third parties such as business service providers and specialist advisers who have been contracted to provide us with administrative, financial, legal, tax, compliance, insurance, research or other services;",
+              "Business introducers with whom we have a mutual business relationship;",
+              "Business parties, credit providers, courts, tribunals and regulatory authorities as agreed or authorized by law;",
+              "Anyone authorized by you."
+            ]
+          },
+          {
+            "name": "If the Company discloses your personal information to business parties, such as card or other payment processing companies or banks, in order to perform the services requested by clients, such third parties may store your information in order to comply with their legal and other obligations. Clients accept and consent that the Company may, from time to time, analyze the data collected while visiting our website(s) or by other means, such as questionnaires, for statistical purposes in order to improve the Company’s business activities."
+          }
+        ]
+      },
+      {
+        "title": "Transfers Outside of the European Economic Area",
+        "des": [
+          {
+            "name": "We may transfer your personal information outside the European Economic Area (EEA) to other WINPROFX companies as well as service providers (i.e. processors) who are engaged on our behalf. To the extent we transfer your information outside the EEA, we will ensure that the transfer is lawful and that processors in third countries are obliged to comply with the European data protection laws or other countries’ laws which are comparable and to provide appropriate safeguards in relation to the transfer of your data in accordance with GDPR Article 46."
+          },
+          {
+            "name": "By submitting your personal data, you consent to your personal information being processed by staff of WINPROFX operating outside the EEA who work for us. Such staff may be, among others, engaged in the fulfilment of your requests, the processing of your payment details and the provision of support services. The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy"
+          }
+        ]
+      },
+      {
+        "title": "Your Collected Information",
+        "des": [
+          {
+            "name": "Tracking systems used on the Company’s website(s) may collect your personal data in order to optimize the services provided to clients/potential clients. The website collects information in the following ways:"
+          }
+        ]
+      },
+      {
+        "title": "Device Information",
+        "des": [
+          {
+            "name": "By recognizing your device used to access and use the Company’s website(s), we can provide you with the most appropriate version of our website(s)."
+          }
+        ]
+      },
+      {
+        "title": "Log Information",
+        "des": [
+          {
+            "name": "Logging certain behaviors on the site enables the company to track user action and therefore troubleshoot any issues that may occur."
+          }
+        ]
+      },
+      {
+        "title": "Location Information",
+        "des": [
+          {
+            "name": "Using your IP address helps us localize our website content, which we provide to you based on your country, and improve your user experience on our site(s). For further details about our cookie policy and how our cookies work, read our Privacy Policy."
+          }
+        ]
+      },
+      {
+        "title": "How we Obtain Your Consent",
+        "des": [
+          {
+            "name": "If our use of your personal information requires your consent, such consent will be provided in accordance with the express written terms which govern our business relationship (which are available on our website(s), as amended from time time), or any other contract we may have entered into with you or as set out in our communication with you from time to time"
+          },
+          {
+            "name": "If we rely on your consent as our legal basis for holding and processing your personal information, you have the right to withdraw that consent at any time by contacting us using the contact details set out in this Privacy Policy."
+          }
+        ]
+      },
+      {
+        "title": "Storage of Your Personal Information and Retention Period",
+        "des": [
+          {
+            "name": "In relation to your personal information, we will hold this for as long as we have a business relationship with you, in a combination of secure computer storage facilities and paper-based files and other records and we take the necessary measures to protect the personal information we hold from misuse, loss, unauthorized access, modification or disclosure."
+          },
+          {
+            "name": "When we consider that personal information is no longer necessary for the purpose for which it was collected, we will remove any details that will identify you or we will securely destroy the records. However, we may need to maintain records for a significant period of time (after you cease being our client). For example, we are subject to certain antimoney laundering laws which require us to retain the following, for a period of 5 years after our business relationship with you has ended:"
+          },
+          {
+            "name": "A copy of the documents we used in order to comply with our customer due diligence obligations;"
+          },
+          {
+            "name": "Supporting evidence and records of transactions with you and your relationship with us Also, the personal information we hold in the form of a recorded communication, by telephone, electronically, in person or otherwise, will be held in line with local regulatory requirements (i.e., 5 years after our business relationship with you has ended or longer if you have legitimate interests (such as handling a dispute with you). If you have opted out of receiving marketing communications we will hold your details on our suppression list so that we know you do not want to receive these communications."
+          }
+        ]
+      },
+      {
+        "title": "Your Right Regarding Your Personal Information and Access",
+        "des": [
+          {
+            "name": "You have the right to request what information we process, along with a copy of that personal information within thirty (30) days from the date of your request. If you require additional copies, we may need to charge an administration fee."
+          }
+        ]
+      },
+      {
+        "title": "Rectification",
+        "des": [
+          {
+            "name": "We will take all reasonable steps to make sure that your personal information remains accurate, complete and up-to-date. If the personal information we hold about you is inaccurate or incomplete, you are entitled to have it rectified. If we have disclosed your personal information to others, we will let them know about the rectification where possible. You may inform us at any time that your personal details have changed by emailing us at support@winprofx.com The Company will change your personal information in accordance with your instructions. To proceed with such requests, in some cases we may need supporting documents from you as proof, i.e. personal information that we are required to keep for regulatory or other legal purposes."
+          }
+        ]
+      },
+      {
+        "title": "Erasure",
+        "des": [
+          {
+            "name": "You can ask us to delete or remove your personal information in certain circumstances such as if we no longer need it or you withdraw your consent (if applicable) provided that we have no legal obligation to retain that data. Such requests will be subject to any retention limits we are required to comply with in accordance with applicable laws and regulations. If we have disclosed your personal information to others, we will let them know about the erasure where possible."
+          }
+        ]
+      },
+      {
+        "title": "Processing Restrictions",
+        "des": [
+          {
+            "name": "You can ask us to ‘block’ or suppress the processing of your personal data in certain circumstances such as if you contest the accuracy of that personal information or object to us processing it. It will not stop us from storing your personal information. We will inform you before we decide not to agree with any requested restriction. If we have disclosed your personal information to others, we will inform you about the restriction if possible."
+          }
+        ]
+      },
+      {
+        "title": "Data Portability",
+        "des": [
+          {
+            "name": "Under the General Data Protection Regulation (679/2016), you have the right, in certain circumstances, to obtain personal information you have provided us with (in a structured, commonly used and machine readable format) and to re-use it elsewhere or ask us to transfer this to a third party of your choice."
+          }
+        ]
+      },
+      {
+        "title": "Objection",
+        "des": [
+          {
+            "name": "You can ask us to stop processing your personal information, and we will do so, if we are:"
+          },
+          {
+            "name": "Relying on our own or someone else’s legitimate interests to process your personal information except if we can demonstrate compelling legal grounds for the processing;"
+          },
+          {
+            "name": "Processing your personal information for direct marketing;"
+          },
+          {
+            "name": "Processing your personal information for research unless we reasonably believe such processing is necessary or prudent for the performance of a task carried out in the public interest (such as by a regulatory or enforcement agency)."
+          }
+        ]
+      },
+      {
+        "title": "Opt-Out of Submitting Your Personal Information",
+        "des": [
+          {
+            "name": "If you do not want us to use your personal information, you must inform the Company by sending an email to support@winprofx.com . If you decide to do so, we may not be able to continue to provide information, services and/or products requested by you and we will have no liability to you in this respect."
+          }
+        ]
+      },
+      {
+        "title": "Legal Disclaimer",
+        "des": [
+          {
+            "name": "The Company may disclose your personally identifiable information as required by rules and regulations and if the Company believes that disclosure is necessary to protect our rights or to comply with other proceedings, court order, legal process served or pursuant to governmental, intergovernmental or other regulatory bodies. "
+          },
+          {
+            "name": "The Company is not liable for misuse or loss of personal information or otherwise on the Company’s website(s) that the Company does not have access to or control over. The Company will not be liable for unlawful or unauthorized use of your personal information due to misuse or misplacement of your passwords, negligent or malicious intervention or otherwise by you or due to your acts or omissions or a person authorized by you (whether or to that authorization is permitted by the terms of our legal relationship with you)."
+          }
+        ]
+      },
+      {
+        "title": "WINPROFX Card Acceptance",
+        "des": [
+          {
+            "name": "All credit/debit cards details and personally identifiable information will NOT be stored sold, shared, rented or leased to any third parties"
+          }
+        ]
+      },
+      {
+        "title": "How to Contact  Us",
+        "des": [
+          {
+            "name": "If you have any questions or concerns regarding this Privacy Policy, please email us at <strong>support@winprofx.com</strong> View the <strong>Privacy Policy</strong> for more details."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "h1": "नियम और शर्तें",
+    "meta": "कानूनी और अनुपालन",
+    "sections": {
+      "acceptanceOfTerms": "शर्तों की स्वीकृति",
+      "bindingAgreement": "बाध्यकारी समझौता",
+      "ageRequirement": "आयु आवश्यकता",
+      "terminationOfAgreement": "समझौते की समाप्ति",
+      "modificationsToAgreement": "समझौते में संशोधन",
+      "contactInformation": "संपर्क जानकारी"
+    },
+    "content": [
+      {
+        "title": "Acceptance of Terms",
+        "des": [
+          {
+            "name": "By accessing or using any services or products offered by WINPROFX.com (hereinafter referred to as \"WINPROFX\"), you agree to be bound by the terms and conditions outlined in this Trading Platform Agreement. If you do not agree with any part of these terms, please refrain from accessing or using WINPROFX services and products."
+          },
+          {
+            "name": "This Trading Platform Agreement applies to all users and customers of WINPROFX, including both guests and registered users. By accessing or using our platform, you signify your acceptance of this agreement."
+          }
+        ]
+      },
+      {
+        "title": "Binding Agreement",
+        "des": [
+          {
+            "name": "By agreeing to this Trading Platform Agreement, you are entering into a legally binding contract with WINPROFX."
+          },
+          {
+            "name": "You acknowledge and agree that your use of WINPROFX services and products constitutes acceptance of this Trading Platform Agreement and any other applicable WINPROFX contractual documentation, including but not limited to the General Terms and Conditions."
+          }
+        ]
+      },
+      {
+        "title": "Age Requirement",
+        "des": [
+          {
+            "name": "You must be at least eighteen (18) years old or the legal age for entering into legally binding contracts under applicable laws to use WINPROFX services and products. By continuing to access or use our platform, you affirm that you meet this age requirement."
+          },
+          {
+            "name": "Misrepresentation of your age to gain access to WINPROFX services and products is strictly prohibited and constitutes a breach of this Trading Platform Agreement."
+          }
+        ]
+      },
+      {
+        "title": "Termination of Agreement",
+        "des": [
+          {
+            "name": "WINPROFX reserves the right to terminate this Trading Platform Agreement and deny access to its services and products to any user who violates the terms outlined herein."
+          },
+          {
+            "name": "In the event of termination, you must cease all use of WINPROFX services and products immediately."
+          }
+        ]
+      },
+      {
+        "title": "Modifications to Agreement",
+        "des": [
+          {
+            "name": "WINPROFX reserves the right to modify or update this Trading Platform Agreement at any time without prior notice. It is your responsibility to review this agreement periodically for changes."
+          },
+          {
+            "name": "Your continued use of WINPROFX services and products after any modifications to this Agreement constitutes acceptance of those changes."
+          }
+        ]
+      },
+      {
+        "title": "Contact Information",
+        "des": [
+          {
+            "name": "If you have any questions or concerns about this Trading Platform Agreement or WINPROFX services and products, please contact <br> us at:  <strong>support@winprofx.com</strong>"
+          }
+        ]
+      }
+    ]
+  },
+  "amlPolicy": {
+    "h1": "KYC / AML नीति",
+    "meta": "कानूनी और अनुपालन",
+    "sections": {
+      "moneyLaundering": "मनी लॉन्डरिंग:",
+      "placement": "प्लेसमेंट",
+      "layers": "लेयरिंग",
+      "integration": "इंटीग्रेशन",
+      "amlPolicyMet": "WINPROFX के FX में AML नीति निम्नलिखित तरीकों से पूरी की जाती है",
+      "documentsRequired": "व्यक्तिगत जानकारी सत्यापित करने के लिए निम्नलिखित दस्तावेज़ आवश्यक हैं"
+    },
+    "content": [
+      {
+        "title": null,
+        "des": [
+          {
+            "name": "WINPROFX is committed to the highest standards of compliance against money laundering (AML) and anti-terrorist financing (ATF). The objective of the Companies Policy against Money Laundering and Terrorism Financing is to actively prevent the risks of these matters. To help the government combat the financing of terrorism and money laundering activities, the law requires all financial institutions to obtain, verify, and record information that identifies each person who opens an account. We have an obligation to report suspicious client activity relevant to Money laundering."
+          }
+        ]
+      },
+      {
+        "title": "Money Laundering:",
+        "des": [
+          {
+            "name": "The process of converting funds received from illegal activities (such as fraud, corruption, terrorism, etc.) into other funds or investments that appear legitimate to hide or distort the actual source of funds"
+          },
+          {
+            "name": "The Money laundering process can be divided into three sequential stages."
+          }
+        ]
+      },
+      {
+        "title": "Placement",
+        "des": [
+          {
+            "name": "Any withdrawal of funds, from your WINPROFX account to a bank account, can only be refunded to the same bank account that the funds were originally received from or any other bank account under client’s individual name. Please note, that the processing time of withdrawals to reach your bank account substantially depends on the currency of the bank account, as well as the location and the internal policies and procedures of the recipient’s financial institution and country. Therefore, please expect the amounts withdrawn to be credited to your bank account within 2 to 7 business days."
+          }
+        ]
+      },
+      {
+        "title": "Layers",
+        "des": [
+          {
+            "name": "The funds are transferred or moved to other accounts and other financial instruments. It is done to disguise the origin and interrupt the indication of the entity that carried out the multiple financial transactions. Moving funds and changing their form makes it difficult to track the money that is being laundered."
+          }
+        ]
+      },
+      {
+        "title": "Integration",
+        "des": [
+          {
+            "name": "The funds are re-circulated as legitimate to purchase goods and services.WINPROFX adheres to the principles of Anti-Money Laundering and actively prevents any action that targets or facilitates the legalization process of illegally obtained funds. The AML policy means preventing the use of the company's services by criminals, with the objective of money laundering, terrorist financing or other criminal activity."
+          },
+          {
+            "name": "To prevent money laundering, WINPROFX does not accept or pay in cash under any circumstances. The company reserves the right to suspend the operation of any client, which may be considered illegal or, in the opinion of the staff, related to money laundering."
+          },
+          {
+            "name": "Company procedures WINPROFX will ensure that it is a real or legal person. WINPROFX alsoperforms all the necessary measures in accordance with the applicable laws and regulations, issued by the monetary authorities."
+          }
+        ]
+      },
+      {
+        "title": "The AML policy is being met within FX of WINPROFX by the following means",
+        "des": [
+          {
+            "ul": [
+              "know your client's policy and due diligence",
+              "monitor customer activity",
+              "Registry maintenance"
+            ],
+            "name": "Know Your Customer - Due to the company's commitment to AML and KYC policies, each company customer must complete a verification procedure. Before WINPROFX initiates any cooperation with the client, the company ensures that satisfactory evidence is presented or other measures are taken that produce satisfactory proof of the identity of any client or counterparty. The company also applies increased scrutiny to clients, who are residents of other countries, identified by credible sources as countries, who have inadequate AML standards or who may pose a high risk of crime and corruption and beneficial owners who reside in and whose funds are sourced from named countries. Individual clients During the registration process, each client provides personal information, specifically:<strong>Full name; Birthdate; Country of origin; and Full Residential Address.</strong>"
+          }
+        ]
+      },
+      {
+        "title": "The following documents are required to verify personal information",
+        "des": [
+          {
+            "name": "A client submits the following documents (in case the documents are written in non-Latin characters: to avoid delays in the verification process, it is necessary to provide a notarized translation of the document in English ) due to KYC requirements and to confirm the indicated information:"
+          },
+          {
+            "name": "Valid passport (showing the first page of the local or international passport, where the photo and signature are clearly visible); or • Driving license with photograph; or • National identity card (showing the front and back); • Documents proving current permanent address (such as utility bills, bank statements, etc.) containing the customer's Full Name and Place of residence. These documents should not be older than 3 months from the filing date."
+          },
+          {
+            "name": "Corporate clients In the event that the applicant company is listed on a recognized or approved stock exchange or when there is independent evidence to show that the applicant is a wholly owned subsidiary or a subsidiary under the control of said company, no further steps will normally be taken to verify the identity. necessary. In the event that the company is not listed and none of the main directors or shareholders already has an account with WINPROFX, the following documentation must be provided:"
+          },
+          {
+            "name": "Certificate of incorporation or any national equivalent; • Memorandum and Articles of Association and statutory declaration or any national equivalent; • Certificate of good standing or other proof of the company's registered address; • Resolution of the board of directors to open an account and grant authority to those who will operate it; • Copies of powers of attorney or other authorities granted by the directors in relation to the company; • Proof of the identity of the directors in case they deal with WINPROFX on behalf of the Client (in accordance with the individual identity verification rules described above); • Proof of identity of the final beneficiary (s) and / or the person (s) under whose instructions the signers of the account are empowered to act (in accordance with the rules of individual identity verification described above)."
+          },
+          {
+            "name": "Tracking customer activity In addition to collecting customer information, WINPROFX continues to monitor the activity of each customer to identify and prevent any suspicious transactions. A suspicious transaction is known as a transaction that is not consistent with the legitimate business of the customer or with the transaction history of the regular customer known by tracking customer activity. WINPROFX has implemented the named transactions monitoring system (both automatic and, if necessary, manual) to prevent criminals from using the company's services."
+          },
+          {
+            "name": "Registry maintenance Records must be kept of all transaction data and data obtained for identification purposes, as well as all documents related to money laundering issues (e.g. suspicious activity reporting files, AML account monitoring documentation , etc.). Those records are kept for a minimum of 7 years after the account is closed."
+          },
+          {
+            "name": "Measures taken In cases of an attempt to execute transactions that WINPROFX suspects are related to money laundering or other criminal activity, it will proceed in accordance with applicable law and report the suspicious activity to the regulatory authority."
+          },
+          {
+            "name": "WINPROFX reserves the right to suspend the operation of any client, which may be considered illegal or may be related to money laundering in the opinion of the staff. WINPROFX has full discretion to temporarily block the suspicious customer's account or terminate a relationship with an existing customer."
+          },
+          {
+            "name": "For more information you can contact us at support <strong>support@winprofx.com</strong>"
+          }
+        ]
+      }
+    ]
+  },
+  "depositWithdraw": {
+    "h1": "जमा और निकासी नीति",
+    "meta": "कानूनी और अनुपालन",
+    "sections": {
+      "processingOfPersonalInformation": "आपकी व्यक्तिगत जानकारी का प्रसंस्करण",
+      "deposit": "जमा",
+      "withdrawals": "निकासी",
+      "creditDebitCards": "क्रेडिट/डेबिट कार्ड",
+      "electronicPaymentMethods": "इलेक्ट्रॉनिक भुगतान विधियां",
+      "generalConditions": "सामान्य शर्तें",
+      "noThirdPartyPayments": "किसी भी परिस्थिति में तृतीय-पक्ष भुगतान की अनुमति नहीं है।",
+      "refundConditions": "रिफंड शर्तें:",
+      "dispute": "विवाद"
+    },
+    "content": [
+      {
+        "title": null,
+        "des": [
+          {
+            "name": "Winprofx Ltd. (hereafter referred to as “WINPROFX”, ‘us’, ‘we’ and ‘our’) is incorporated under the laws of Saint Lucia with registered address Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia."
+          }
+        ]
+      },
+      {
+        "title": "Processing of Your Personal Information",
+        "des": null,
+        "list": [
+          {
+            "title": "Deposit",
+            "des": [
+              {
+                "name": "When depositing by a Bank Transfer, you are required to use only a bank account, which is in your name which should exactly match the name of the trading account. An authentic SWIFT confirmation or a Wire Transfer Confirmation, showing the origin of the funds, must be sent to our team once requested. Failure to submit the confirmation may result in the return of the deposited amount, hence preventing such pending amounts from being deposited to your WINPROFX Limited."
+              }
+            ]
+          },
+          {
+            "title": "Withdrawals",
+            "des": [
+              {
+                "name": "Any withdrawal of funds, from your WINPROFX account to a bank account, can only be refunded to the same bank account that the funds were originally received from or any other bank account under client’s individual name. Please note, that the processing time of withdrawals to reach your bank account substantially depends on the currency of the bank account, as well as the location and the internal policies and procedures of the recipient’s financial institution and country. Therefore, please expect the amounts withdrawn to be credited to your bank account within 2 to 7 business days."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Credit/ Debit Cards",
+        "des": null,
+        "list": [
+          {
+            "title": "Deposit",
+            "des": [
+              {
+                "name": "Credit/ Debit card deposits may be performed, according to the card companies' regulations. Credit or Debit card deposits are processed instantly in case there is no need for additional verification"
+              }
+            ]
+          },
+          {
+            "title": "Withdrawals",
+            "des": [
+              {
+                "name": "When a withdrawal is performed the amounts withdrawn will be returned to the same card used earlier for depositing. WINPROFX cannot process the withdrawals made to any different Card number or Card holder."
+              },
+              {
+                "name": "We are not liable for any transfer delays you may experience due to a disruption of service in the system of the payment processor. WINPROFX reserves the right to ask you to upload a scanned color copy or photos of both the front and back pages of your card. It is advised that you only leave the first 4 and last 4 digits of your card number visible in the image, and also cover the CVV number from the back of your credit card. Please note that for cards that don’t show cardholder name, we may require from the Client a documental proof of card ownership, such as a confirmation letter or a Statement by the card issuer."
+              },
+              {
+                "name": "The company takes extreme precautions when dealing with security alerts for credit card payments in order to protect our and our clients' financial integrity. For this reason, although we strive to credit our clients' Credit/Debit card deposits as soon as possible, we do not undertake nor promise or ensure immediate crediting after depositing, as in some cases additional verification of payments is likely to be performed."
+              },
+              {
+                "name": "In some rare cases if your card does not belong to CFT/OCT programs, by which your card issuer allows withdrawals above the deposited amount, we will not be able to process the transaction. In this case you may withdraw your funds via bank transfer instead. WINPROFX cannot determine if your card belongs to this program and accepts such transactions until we receive your withdrawal request. You should consult with your card issuer for any further information."
+              }
+            ]
+          },
+          {
+            "title": "Electronic Payment Methods",
+            "des": [
+              {
+                "name": "When depositing funds using these facilities, you agree to, and acknowledge being bound by, the regulations and rules of such service, including, but not limited to, fees and other restrictions. When a withdrawal is requested, this may be performed only via the same payment method clients use when initially depositing to your trading account."
+              },
+              {
+                "name": "Using electronic payment facilities as a means of transferring funds is at the discretion of each client and we recommends that all policies and procedures regarding transfer, transaction limits, fees, etc. are clearly understood by the client prior to the opening of an account or using their services."
+              }
+            ]
+          },
+          {
+            "title": "General Conditions",
+            "des": [
+              {
+                "name": "All withdrawal requests are processed from Monday to Friday between 9am to 6pm Labuan timing. All requests received outside of these hours will be processed on the next business day."
+              },
+              {
+                "name": "Funds deposit and withdrawal is only available for clients who have been identified and assessed by WINPROFX, and their contact details are confirmed. Clients would be required to upload their supporting documents, such as a Photo ID and a Proof of an Address, and have their trading account verified in order to have their funds deposited for trading."
+              },
+              {
+                "name": "Please note that WINPROFX is legally required to return any Client’s deposits made into an unverified trading accounts in case the verification procedures are not completed within 15 days from the first deposit date."
+              },
+              {
+                "name": "Please note that WINPROFX is legally required to return any Client’s deposits made into an unverified trading accounts in case the verification procedures are not completed within 15 days from the first deposit date."
+              },
+              {
+                "name": "WINPROFX reserves the right to impose withdrawal limits and withdrawal fees in its system."
+              },
+              {
+                "name": "WINPROFX cannot accommodate withdrawal requests for floating trading profits. A trading position will need to be closed before any profits attributed to it may be withdrawn."
+              }
+            ]
+          },
+          {
+            "title": "No Third-Party Payments are allowed under any circumstances.",
+            "des": [
+              {
+                "name": "This policy protects both us, and our clients against fraud and money laundering as WINPROFXonly transfers funds back to the source of the original deposit. WINPROFX, at its sole discretion, may execute withdrawals to a facility other than the facility used for the original deposit."
+              },
+              {
+                "name": "WINPROFX reserves the right to require the client withdrawal method on the WINPROFX’s discretion."
+              },
+              {
+                "name": "Clients shall request, under all circumstances, to withdraw funds from their trading accounts inthe currency in which the deposit was originally made. Should the deposit currency differ from the transfer currency, the transfer amount will be converted by WINPROFX into the transfer currency."
+              }
+            ]
+          },
+          {
+            "title": "REFUND Conditions:",
+            "des": [
+              {
+                "name": "WINPROFX provide clients with a clear and transparent refund policy. In cases, where clients are not satisfied with the Company’s service level and did not make trading, investing, conversiontransactions, the Client can request a refund. The Company offers a 100% refund within 1 working day of the original service deposit. The request will be reviewed within 5 business days. After one day, deposit will no longer be refundable and will be treated as normal withdrawal based on the existing withdrawal terms and conditions."
+              },
+              {
+                "name": "The Client agree not to request for a refund or chargeback from its payment method provider at any time while or after using the Company’s services."
+              },
+              {
+                "name": "Profits or losses received as a result of the Client’s trading activity cannot be subject to refund request."
+              },
+              {
+                "name": "Refunds should be made only to the payment system bank account / card client used to deposit."
+              },
+              {
+                "name": "If the origins of the Client’s funds and/or the whole activities are contrary to the Company’s Anti – Money Laundering Policy (AML Policy), the Company reserves unilateral rights to cancel transferring of funds (deposit or withdraw) and freeze the assets to refund them back."
+              }
+            ]
+          },
+          {
+            "title": "REFUND Conditions:",
+            "des": [
+              {
+                "name": "WINPROFX provide clients with a clear and transparent refund policy. In cases, where clients are not satisfied with the Company’s service level and did not make trading, investing, conversiontransactions, the Client can request a refund. The Company offers a 100% refund within 1 working day of the original service deposit. The request will be reviewed within 5 business days. After one day, deposit will no longer be refundable and will be treated as normal withdrawal based on the existing withdrawal terms and conditions."
+              },
+              {
+                "name": "The Client agree not to request for a refund or chargeback from its payment method provider at any time while or after using the Company’s services."
+              },
+              {
+                "name": "Profits or losses received as a result of the Client’s trading activity cannot be subject to refund request."
+              },
+              {
+                "name": "Refunds should be made only to the payment system bank account / card client used to deposit."
+              },
+              {
+                "name": "If the origins of the Client’s funds and/or the whole activities are contrary to the Company’s Anti – Money Laundering Policy (AML Policy), the Company reserves unilateral rights to cancel transferring of funds (deposit or withdraw) and freeze the assets to refund them back."
+              }
+            ]
+          },
+          {
+            "title": "Dispute",
+            "des": [
+              {
+                "name": "Any dispute arising with or in connection to any of the terms and conditions of the WithdrawalPolicy shall be dealt by the Company as per the Company’s Complaint handling policy, which is available on the Company’s website."
+              },
+              {
+                "name": "All complaints must be in writing and addressed to the Customer Support team of the Company via email <br /> at <strong>support@winprofx.com</strong>"
+              },
+              {
+                "name": "Please note that this policy cannot be exhaustive, and additional conditions or requirements may apply at any time due to regulations and policies, including those set-in order to prevent money laundering. Any and all usage of the site and services is subject to the Terms and Conditions, as may be amended from time to time by WINPROFX, at its sole discretion."
+              },
+              {
+                "name": "View the <strong>Deposit & Withdrawal Policy</strong> for more details."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "restrictedCountries": {
+    "h1": "प्रतिबंधित देश",
+    "meta": "कानूनी और अनुपालन",
+    "sections": {
+      "restrictedList": "WINPROFX Limited निम्नलिखित देश को कोई सेवा प्रदान नहीं करती:",
+      "creditDebitCards": "क्रेडिट/डेबिट कार्ड"
+    },
+    "content": [
+      {
+        "title": "WINPROFX Limited does not provide any services to the following Country :",
+        "des": [
+          {
+            "name": "EU Member countries",
+            "ulr": null
+          }
+        ]
+      },
+      {
+        "title": "Credit/ Debit Cards",
+        "des": [
+          {
+            "name": "As per ongoing and substantial money laundering and financing of terrorism (ML/FT) risks - We do not offer accounts to residents of the following sanctioned countries which has deficiencies that pose a risk to the international financial system.",
+            "ul": [
+              "Afghanistan",
+              "Albania",
+              "Angola",
+              "Bahamas",
+              "Barbados",
+              "Botswana",
+              "Cambodia",
+              "Cote d'Ivoire (Ivory Coast)",
+              "Crimea and Sevastopol",
+              "Cuba",
+              "Democratic People's Republic of Korea (DPRK)",
+              "Democratic Republic of Congo",
+              "Ghana",
+              "Iceland",
+              "Iran",
+              "India",
+              "Iraq",
+              "Jamaica",
+              "Liberia",
+              "Mauritius",
+              "Mongolia",
+              "Myanmar",
+              "Nicaragua",
+              "Panama",
+              "Somalia",
+              "Sudan",
+              "Syria",
+              "Trinidad and Tobago",
+              "Uganda",
+              "UAE",
+              "USA",
+              "Yemen",
+              "Zimbabwe"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "riskDisclosure": {
+    "h1": "जोखिम प्रकटीकरण",
+    "meta": "महत्वपूर्ण सूचना",
+    "sections": {
+      "noInvestmentAdvice": "हम निवेश सलाह प्रदान नहीं करते।",
+      "speculateWithAffordableMoney": "केवल उस धन के साथ सट्टा लगाएं जिसे आप खोने का जोखिम उठा सकते हैं।",
+      "whenDecidingToTrade": "इस तरह के उपकरणों में ट्रेडिंग करने का निर्णय लेते समय आपको निम्नलिखित से अवगत होना चाहिए:",
+      "cfdTradingMayNotBeAppropriate": "CFD ट्रेडिंग आपके लिए उपयुक्त नहीं हो सकती",
+      "weDoNotProvideAdvice": "हम सलाह प्रदान नहीं करते",
+      "tradingOffExchange": "Off-Exchange ट्रेडिंग",
+      "margin": "मार्जिन",
+      "lossLimitsNotGuaranteed": "हानि सीमा की गारंटी नहीं",
+      "pastPerformance": "पिछला प्रदर्शन",
+      "currency": "मुद्रा",
+      "volatility": "अस्थिरता",
+      "outOfHoursMarkets": "घंटों के बाहर के मार्केट",
+      "leverageOfGearing": "Leverage या Gearing",
+      "contingentLiabilityTransaction": "Contingent Liability लेनदेन",
+      "spreadsCommissionsCosts": "Spread, Commission और लागत",
+      "insolvency": "दिवालियापन",
+      "regulatoryAndLegalRisk": "नियामक और कानूनी जोखिम",
+      "taxRisk": "कर जोखिम",
+      "yourMoney": "आपका धन",
+      "systemFailure": "सिस्टम विफलता"
+    },
+    "content": [
+      {
+        "title": null,
+        "des": [
+          {
+            "name": "WINPROFX is associated with Winprofx Ltd. Clients should review the Regulatory Information page for current company and compliance details."
+          }
+        ]
+      },
+      {
+        "title": "We do not provide investment advice.",
+        "des": [
+          {
+            "name": "If you are unsure if this form of investing suits you, you should seek advice from an authorised financial adviser. We are not currently authorised to give investment advice of any kind and therefore will not provide advice to you. However, from time to time, we may give you information in relation to an underlying market or a transaction which you have enquired about."
+          }
+        ]
+      },
+      {
+        "title": "Only speculate with money you can afford to lose.",
+        "des": [
+          {
+            "name": "This Risk Warning is meant to help you understand the risks involved with the products and services offered by us; however, this Risk Warning cannot explain all risks involved. It can only serve as a general guide to the risks involved with trading our products and using our services, and you must determine for yourself if the risks involved are appropriate for your investment strategy and risk appetite."
+          },
+          {
+            "name": "Trading in derivative financial products involves high risks. Spread bets and CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. Prices may move rapidly against you, particularly during volatile market conditions. Certain Products are more volatile than others and may be even more susceptible to sharp and sudden movements in price."
+          },
+          {
+            "name": "You should not enter into CFD Margin Trades unless you fully understand the risks involved."
+          }
+        ]
+      },
+      {
+        "title": "When deciding whether to trade in such instruments you should be aware of the following:",
+        "des": [
+          {
+            "name": null
+          }
+        ],
+        "list": [
+          {
+            "title": "CFD Trading May Not be Appropriate for You",
+            "des": [
+              {
+                "name": "Before you are able to open an account to trade a CFD or spread bet product, WINPROFX will evaluate whether the product(s) and/ or services you have chosen are appropriate for you, and to warn you if, on the basis of the information you provide to us, any product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or services."
+              },
+              {
+                "name": "During our application process, our assessment process may include a questionnaire that focuses on previous experience and knowledge around the product and the risks involved in trading complex instruments. It is up to you to assess whether your financial resources are adequate for your financial activity with us and your risk appetite in the products and services you use."
+              }
+            ]
+          },
+          {
+            "title": "We Do Not Provide Advice",
+            "des": [
+              {
+                "name": "Our services are provided on an execution only basis. We do not provide investment advice in relation to CFDs or spread bets. We sometimes provide factual information or research recommendations about a market, information about transaction procedures and information about the potential risks involved and how those risks may be minimised."
+              },
+              {
+                "name": "Any information we provide to you, including any information provided by our client services team, is purely factual and does not take into account your personal circumstances. Any decision to use our products or services is made by you."
+              },
+              {
+                "name": "You are responsible for managing your tax and legal affairs including making any regulatory filings and payments and complying with applicable laws and regulations. We do not provide any regulatory, tax or legal advice. If you are in any doubt as to the tax treatment or liabilities of investment products available through your CFD or spread betting account, you should seek independent advice."
+              }
+            ]
+          },
+          {
+            "title": "Trading Off-Exchange",
+            "des": [
+              {
+                "name": "When you trade with us, you will be entering into an off-exchange (also known as an over-the-counter, or OTC) derivative which is non-transferable. This means you will enter into trades directly with us and those trades must be closed with us. You will not be able to sell or transfer your trades to third parties. This can involve greater risk than investing in a financial instrument which is transferable, or dealing in an exchange-traded derivative, because your ability to open and close trades with us is dependent on our being in a position to accept orders from you and to execute them."
+              }
+            ]
+          },
+          {
+            "title": "Margin",
+            "des": [
+              {
+                "name": "CFD Margin Trades involve leverage (also known as ‘gearing’ or ‘margining’), which means that the effects of small movements in Price are multiplied and may have large impacts on the value of your Positions, both in respect of profits made and losses incurred and the higher the leverage rate, the higher the risk involved. You can rapidly lose on a trade. Any market losses exceeding the Margin will be taken from your account. You may be called upon to deposit additional Margin at short notice to maintain your trade. We will revalue your open trades continuously during each trading day, and any profit or loss will be immediately reflected in your account. A loss may require you immediately to deposit additional funds in your account in order to maintain your open trades."
+              },
+              {
+                "name": "It is therefore important that you monitor your CFD Margin Trades closely and the rate of leverage utilized. A small movement in price may have a large impact on your CFD margin trades and account and may result in immediate account close-out."
+              }
+            ]
+          },
+          {
+            "title": "TO PROVIDE YOU WITH PRODUCTS AND SERVICES, INFORMATION",
+            "des": [
+              {
+                "name": "Once you successfully open a trading account with us, or subscribe to an update, we will need to use your personal information to perform our services and comply with our obligations to you. It is also in our legitimate interests to try to ensure that we are providing the best products and services so we may periodically review your needs based on our assessment of your personal information to try to ensure that you are getting the benefit of the best possible products and services from us."
+              }
+            ]
+          },
+          {
+            "title": "Loss Limits Are Not Guaranteed",
+            "des": [
+              {
+                "name": "Making a stop loss order may limit your loss but this is not guaranteed. Your loss may be greater in some circumstances. Slippage (also called 'gapping') occurs when the market moves past the price at which you have set your stop loss order. This may occur because the underlying market has become unusually volatile. In such a circumstance we would close your open trade at or as quickly after the reopening of trading in that underlying market, i.e. at the next price available. Additionally, markets may also be extremely busy when the underlying market becomes volatile. This may result in your stop loss order being executed at a price below your stop loss order price in a rapidly falling underlying market."
+              }
+            ]
+          },
+          {
+            "title": "Past Performance",
+            "des": [
+              {
+                "name": "You should not assume that past performance bears any relation to potential future performance. There can be no certainty concerning the future performance of any underlying market or trades that you make. No representation can be made as to future performance."
+              }
+            ]
+          },
+          {
+            "title": "Currency",
+            "des": [
+              {
+                "name": "If you trade in a market denominated in a currency other than your base currency, currency exchange fluctuations may impact your profits and losses."
+              }
+            ]
+          },
+          {
+            "title": "Volatility",
+            "des": [
+              {
+                "name": "Movements in the price of underlying markets can be volatile. This will have a direct impact on your profits and losses. Knowing the volatility of an underlying market will help guide you as to where any Stops should be placed. It should be noted that volatility can be unexpected and unpredictable."
+              }
+            ]
+          },
+          {
+            "title": "Out-Of-Hours Markets",
+            "des": [
+              {
+                "name": "During the out-of-hours sessions on index markets, our quotations reflect our own view of the prospects for a market. This could include referring to price movements in other relevant markets which are open. Furthermore, business done by other clients may itself affect our quotations. There may be nothing against which to measure our quotation at these times."
+              }
+            ]
+          },
+          {
+            "title": "Out-Of-Hours Markets",
+            "des": [
+              {
+                "name": "At times, market conditions and the operation of the rules of certain markets (i.e. suspension of trades due to volatility, lack of liquidity in the underlying, and other reasons) may make trading riskier. This may lead, in extreme cases, to a change of the settlement of a contract. We reserve the right to change settlement for contracts expiring on a given day if, on that day, trading is suspended."
+              }
+            ]
+          },
+          {
+            "title": "Leverage of Gearing",
+            "des": [
+              {
+                "name": "Leverage or gearing enables you to enter into trades with a small deposit (also called margin) in terms of the overall contract value. However, this means a small movement in the underlying market can have a disproportionately dramatic effect on your trade."
+              },
+              {
+                "name": "Even a small movement in the underlying market may result in the loss of your entire margin amount. Therefore, it is imperative that you only speculate with money that you can afford to lose."
+              }
+            ]
+          },
+          {
+            "title": "Contingent Liability Transaction",
+            "des": [
+              {
+                "name": "Where a trade is margined, we require you to make a series of payments against the purchase price, instead of paying the whole purchase price immediately. Even if a trade is not margin, it may still carry an obligation to make further payments in certain circumstances over and above any amount paid when you entered into the contract. Contingent liability transactions which are not traded on or under the rules of a recognised or designated investment exchange may expose you to substantially greater risks."
+              }
+            ]
+          },
+          {
+            "title": "Spreads, Commissions and Costs",
+            "des": [
+              {
+                "name": "Before you begin to trade with us, you should obtain details of all commissions and other charges for which you will be liable. If any charges are not expressed in money terms (for example, as a bid offer spread), you should obtain a clear explanation of what such charges are likely to mean in specific money terms. In the case of futures, when commission is charged as a percentage, it will normally be as a percentage of the total contract value, and not simply as a percentage of your initial payment."
+              },
+              {
+                "name": "Depending on the type of trade you make and how long it lasts we may require you to pay financing costs. Also, if you trade in currencies different from your base currency, we may require you to convert those foreign currencies to your base currency. The aggregate of financing costs and foreign exchange costs may exceed any profits on your trade or increase the losses you may suffer on a trade."
+              }
+            ]
+          },
+          {
+            "title": "Insolvency",
+            "des": [
+              {
+                "name": "The insolvency or default of any other brokers involved with your transaction, may lead to positions being liquidated or closed out without your consent. In certain circumstances, you may not get back the actual assets that you have invested, and you may have to accept any available payments in cash."
+              }
+            ]
+          },
+          {
+            "title": "Regulatory and Legal Risk",
+            "des": [
+              {
+                "name": "The risk that a change in laws and regulations will materially impact a security and investments in a sector or market. A change in laws or regulations made by the government or a regulatory body can increase the costs of operating a business, reduce the attractiveness of investment and/or change the competitive landscape and as such alter the profit potential of an investment. This risk is unpredictable and may vary from market to market. In emerging markets such risk may be higher than in more developed markets."
+              }
+            ]
+          },
+          {
+            "title": "Tax Risk",
+            "des": [
+              {
+                "name": "You take the risk that your trades and any related profits may be or become subject to tax. We do not represent or warrant that no tax or stamp duty (other than trading duty) will be payable. You will be responsible for all taxes and stamp duty in respect of your trades. WINPROFX does not provide any tax advice to clients, and you are responsible for your own tax affairs."
+              }
+            ]
+          },
+          {
+            "title": "Your Money",
+            "des": [
+              {
+                "name": "If you have been categorised as a retail client or we have otherwise agreed to treat you as a professional client, we will hold your money in trust in a segregated client money bank account separate from our money; however, this may not provide complete protection (for example, in the insolvency of our bank). Your attention is also drawn to the 'Your Money' section of our Customer Terms and Conditions."
+              }
+            ]
+          },
+          {
+            "title": "System Failure",
+            "des": [
+              {
+                "name": "Operational risks with WINPROFX on your device are inherent in every CFD transaction. Disruptions in WINPROFX’s operational processes such as phone systems, IT systems, networks or external events may lead to delays in the execution and settlement of a transaction."
+              },
+              {
+                "name": "The functions that enable you to access our Platform via mobile applications are not identical to the functions available to you when accessing our Platform via a desktop computer. This may limit the information that you are able to see at any time and adversely affect your ability to take quick and reliable actions on our Platform and to limit the related risks."
+              },
+              {
+                "name": "WINPROFX accepts or bears any liability whatsoever in relation to the operational processes of WINPROFX, except to the extent that it is caused by the fraud or dishonesty by WINPROFX."
+              },
+              {
+                "name": "For more information you can contact us at support <strong>support@winprofx.com</strong>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "riskWarning": {
+    "h1": "जोखिम चेतावनी",
+    "meta": "महत्वपूर्ण सूचना",
+    "sections": {
+      "generalRisk": "सामान्य जोखिम",
+      "leverageRisk": "Leverage जोखिम",
+      "marketVolatility": "मार्केट अस्थिरता",
+      "suitability": "उपयुक्तता",
+      "noProfitGuarantees": "कोई लाभ गारंटी नहीं",
+      "furtherInformation": "अतिरिक्त जानकारी"
+    },
+    "generalRiskBody": "Forex और CFDs में ट्रेडिंग में महत्वपूर्ण जोखिम शामिल है और यह सभी निवेशकों के लिए उपयुक्त नहीं हो सकती। ट्रेडिंग से पहले ग्राहकों को जोखिमों को समझना चाहिए। आप अपनी निवेशित पूंजी का कुछ या पूरा हिस्सा खो सकते हैं। आपको उस धन के साथ ट्रेड नहीं करना चाहिए जिसे आप खोने का जोखिम नहीं उठा सकते।",
+    "leverageRiskBody": "Forex और CFD उत्पाद आमतौर पर Leverage का उपयोग करके margin पर ट्रेड किए जाते हैं। Leverage लाभ और हानि दोनों को बढ़ा सकता है। छोटी मार्केट गतिविधि आपकी जमा राशि के सापेक्ष अनुपात में बड़ी हानि का कारण बन सकती है।",
+    "marketVolatilityBody": "वित्तीय मार्केट अस्थिर हो सकते हैं। आर्थिक घटनाओं, समाचार, liquidity स्थितियों या अन्य कारकों के कारण कीमतें तेजी से और अप्रत्याशित रूप से बदल सकती हैं। अस्थिर स्थितियों में, अपेक्षित कीमतों पर ट्रेड निष्पादित करना या वांछित स्तर पर पोजीशन बंद करना मुश्किल हो सकता है।",
+    "suitabilityBody": "ट्रेडिंग से पहले, आपको अपनी वित्तीय स्थिति, अनुभव और उद्देश्यों पर सावधानीपूर्वक विचार करना चाहिए। यदि आप अनिश्चित हैं कि Forex या CFD ट्रेडिंग आपके लिए उपयुक्त है, तो योग्य पेशेवर से स्वतंत्र वित्तीय सलाह लें।",
+    "noProfitGuaranteesBody": "पिछला प्रदर्शन भविष्य के परिणामों का संकेत नहीं देता। WINPROFX लाभ या हानियों से सुरक्षा की गारंटी नहीं देता। सभी ट्रेडिंग निर्णय आपके अपने जोखिम पर लिए जाते हैं।"
+  }
+}

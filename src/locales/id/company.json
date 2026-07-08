@@ -1,0 +1,53 @@
+{
+  "footerTrustLegal": {
+    "trust-center": "Pusat Kepercayaan",
+    "company-profile": "Profil Perusahaan",
+    "company-registration": "Registrasi Perusahaan",
+    "legal-entity-information": "Informasi Entitas Hukum",
+    "regulatory-information": "Informasi Regulasi",
+    "official-domains": "Domain Resmi",
+    "verify-winprofx": "Verifikasi WINPROFX",
+    "risk-warning": "Peringatan Risiko",
+    "withdrawal-transparency": "Transparansi Penarikan",
+    "complaints-and-dispute-resolution": "Keluhan",
+    "client-fund-security": "Keamanan Dana Klien",
+    "support-and-escalation": "Dukungan dan Eskalasi",
+    "company-statistics": "Statistik Perusahaan",
+    "dubai-professional-license": "Dubai Professional License",
+    "uae-representative-office": "Kantor Perwakilan UAE",
+    "legal-documents": "Dokumen Legal"
+  },
+  "brandName": "WINPROFX",
+  "legalEntityName": "Winprofx Ltd.",
+  "companyType": "Perusahaan Bisnis Internasional",
+  "jurisdiction": "Saint Lucia",
+  "riskWarningShort": "Trading Forex dan CFD melibatkan risiko signifikan dan mungkin tidak cocok untuk semua investor. Klien harus memahami risiko sebelum trading.",
+  "riskWarningFull": "Trading Forex, CFD, dan produk keuangan terkait melibatkan risiko signifikan dan mungkin tidak cocok untuk semua investor. Anda dapat kehilangan sebagian atau seluruh modal yang diinvestasikan. Kinerja masa lalu bukan indikasi hasil di masa depan. Klien harus memahami risiko sebelum trading dan mencari saran independen jika diperlukan.",
+  "incorporationClarification": "Dokumen pendirian tersebut mengukuhkan terbentuknya hukum LEGALENTITAS sebagai JENIS PERUSAHAAN dalam YURISDIKSI. Pendirian perusahaan berbeda dengan lisensi jasa keuangan, lisensi broker forex, lisensi broker CFD, atau otorisasi peraturan. Setiap informasi peraturan atau izin jasa keuangan, jika berlaku, harus diverifikasi secara terpisah melalui halaman Informasi Peraturan dan referensi resmi regulator.",
+  "licenseScopeClarification": "Dokumen penggabungan YURISDIKSI menegaskan pembentukan hukum LEGALENTITAS Lisensi Profesional Dubai menegaskan pendaftaran dan aktivitas kantor cabang / perwakilan Dubai sebagai Representative Office. Dokumen-dokumen ini berbeda dengan lisensi pialang jasa keuangan, lisensi pialang valas, lisensi pialang CFD, atau otorisasi layanan investasi kecuali rincian lisensi jasa keuangan yang diterbitkan dan diverifikasi secara terpisah oleh regulator dipublikasikan dan diverifikasi.",
+  "dubaiScopeClarification": "Lisensi Profesional Dubai ini mencantumkan aktivitas tersebut sebagai Representative Office. Izin kantor perwakilan berbeda dengan izin perantara jasa keuangan. Otorisasi peraturan broker jasa keuangan, broker forex, atau CFD apa pun harus diverifikasi secara terpisah melalui catatan peraturan resmi.",
+  "dubaiVerificationNote": "Dokumen lisensi Dubai menyatakan bahwa itu adalah dokumen elektronik bersertifikat yang diterbitkan tanpa tanda tangan oleh Department of Economy and Tourism dan dapat diverifikasi dengan memindai kode QR pada dokumen aslinya.",
+  "financialLicenseClarification": "Penggabungan LEGALENTITAS mengukuhkan berdirinya hukum perseroan. Lisensi ini tidak dengan sendirinya merupakan lisensi jasa keuangan, lisensi broker forex, lisensi broker CFD, atau otorisasi regulasi. Jika informasi izin regulasi keuangan berlaku, informasi tersebut harus diverifikasi melalui catatan resmi regulator dan akan dipublikasikan di halaman ini dengan nama regulator, nomor lisensi, jenis lisensi, yurisdiksi, aktivitas yang diizinkan, dan tautan verifikasi.",
+  "financialLicensePending": "Rincian izin peraturan keuangan sedang menunggu verifikasi kepatuhan dan akan diperbarui hanya setelah verifikasi melalui catatan resmi regulator.",
+  "statsPlaceholder": "Untuk diperbarui setelah verifikasi operasi.",
+  "opsPlaceholder": "Untuk diperbarui oleh tim operasi/kepatuhan.",
+  "accountSpecificPrivacyNote": "Demi alasan keamanan dan privasi, WINPROFX tidak dapat mendiskusikan detail spesifik akun secara publik di platform ulasan atau media sosial.",
+  "publicReviewResponsePolicy": "Ketika keluhan diposting secara publik, WINPROFX dapat meminta detail tiket atau alamat email yang terdaftar melalui saluran dukungan resmi sehingga kasus tersebut dapat ditinjau dengan aman.",
+  "incorporationPdfTitle": "Dokumen Pendirian Bersertifikat",
+  "documentTypes": "DOKTIPE",
+  "registeredAgent": "REGAGEN",
+  "registeredOffice": "Lantai Dasar, Gedung Sotheby, Rodney Village, Rodney Bay, Gros-Islet, YURISDIKSI",
+  "incorporationSubscriber": "REGAGEN",
+  "supportEmail": "support@winprofx.com",
+  "officialDomainLabels": {
+    "mainWebsite": "Situs resmi utama WINPROFX",
+    "alternateMarketing": "Domain alternatif/pemasaran resmi",
+    "uaeRegional": "UAE resmi / domain regional",
+    "clientPortal": "Portal klien resmi",
+    "partnerPortal": "Mitra resmi / portal IB"
+  },
+  "schema": {
+    "brandDescription": "WINPROFX is a forex and CFD trading brand associated with Winprofx Ltd., an International Business Company incorporated in Saint Lucia.",
+    "customerSupport": "customer support"
+  }
+}

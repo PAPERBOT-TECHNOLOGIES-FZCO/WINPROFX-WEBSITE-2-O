@@ -1,4 +1,5 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import MetaText from '@/components/meta-text';
@@ -19,10 +20,13 @@ export default function CommonBanner({
   titleClass = "",
   des = "",
   desClass = "max-w-150 mx-auto lg:max-w-200",
-  buttonText = "Open Account",
+  buttonText,
   buttonLink = "https://my.winprofx.org/register",
   secondButtonText = "",
   secondButtonLink = "" }) {
+  const { t } = useTranslation('common')
+  const resolvedButtonText = buttonText ?? t('buttons.openAccount')
+
   return (
     <div
       className={`relative z-1 min-h-173 md:min-h-180 lg:min-h-190 xl:min-h-230 2xl:min-h-300 3xl:min-h-375 4xl:min-h-screen! overflow-hidden padding-top-245 bg-main-bg ${className}`}
@@ -56,7 +60,7 @@ export default function CommonBanner({
           {des}
         </motion.p>
         <div className={`items-center justify-center gap-3 ${secondButtonText ? 'flex' : ''} mt-5 md:mt-6 lg:mt-8`}>
-          <Button delay="0.5" text={buttonText} to={buttonLink} />
+          <Button delay="0.5" text={resolvedButtonText} to={buttonLink} />
           {secondButtonText && (
             <ButtonTwo
               delay="0.6"

@@ -1,0 +1,191 @@
+{
+  "shared": {
+    "cta": {
+      "meta": "wawasan kritikal",
+      "title": "Mendedahkan Pembelajaran Tertinggi untuk Kejayaan Strategik.",
+      "description": "Amalan, pengetahuan, dan pengurusan risiko penting untuk semua pedagang. Semak amaran risiko WINPROFX dan maklumat Trust Center sebelum berdagang."
+    },
+    "trustLinks": {
+      "title": "Maklumat Dagangan dan Risiko",
+      "accountTypes": "Jenis Akaun",
+      "mt5Platform": "Platform Dagangan MT5",
+      "trustCenter": "Pusat Amanah WINPROFX",
+      "riskWarning": "Amaran Risiko",
+      "clientFundSecurity": "Keselamatan Dana Pelanggan",
+      "learningCenter": "Pusat Pembelajaran WINPROFX"
+    },
+    "faq": {
+      "discoverHowToTrade": {
+        "title": "KETAHUI CARA BERDAGANG",
+        "body": "<p>Muat turun aplikasi Pendidikan kami untuk mempelajari cara berdagang pelbagai instrumen kewangan di WINPROFX Trader. Untuk bermula, kami telah merangkumi setiap aspek dagangan.</p><p>Ringkasan Ringkas Berita dan Pendapat Terkini</p><p>Ramalan Volatiliti Berdasarkan Analisis Teknikal</p><p>Ringkasan ringkas pasangan mata wang utama berdasarkan asas yang disediakan</p><p>Contohnya, jika anda memilih untuk berdagang GBP/USD (pound British/dolar AS) dan anda fikir nilai GBP akan meningkat berbanding USD, anda melakukan long (beli). Jika anda fikir GBP akan jatuh berbanding USD, anda melakukan short (jual). Jika ramalan anda betul, anda mendapat keuntungan. Jika ramalan anda salah, anda akan mengalami kerugian. Ingat, kerugian boleh melebihi deposit..</p>"
+      }
+    }
+  },
+  "forex": {
+    "banner": {
+      "title": "Dagangan Forex",
+      "description": "Berdagang 24/5 pada aset dalam pasaran pertukaran asing. Kami menawarkan lebih 50 pasangan mata wang utama, kecil, dan eksotik, dengan spread kompetitif, harga tajam, pelaksanaan pantas, dan komisen 0%."
+    },
+    "card": {
+      "meta": "Dagangan forex",
+      "title": "Pasaran Forex Popular",
+      "description1": "Forex atau Foreign Exchange ialah pasaran global di mana mata wang didagangkan. Ia jauh mengatasi pasaran saham, dengan dagangan forex mencapai sehingga 5 trilion USD sehari.",
+      "description2": "Memandangkan pasaran forex tidak berpusat, ia dibuka 24 jam sehari, dari malam Ahad hingga malam Jumaat. Sentiasa semak pendedahan risiko dan maklumat pengesahan rasmi sebelum berdagang."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Forex Trading"
+    },
+    "faq": {
+      "whatIsForex": {
+        "title": "APAKAH FOREX?",
+        "body": "<p>Forex bermaksud FOREIGN EXCHANGE. Secara ringkasnya, dengan duduk di satu tempat di dunia, seseorang boleh berdagang Mata Wang, Logam, Indeks Dunia dan Crypto mana-mana negara dengan mengkaji ekonomi dunia dan carta teknikal.</p>"
+      },
+      "howToTradeForex": {
+        "title": "BAGAIMANA UNTUK BERDAGANG FOREX?",
+        "body": "<p>Pertama, cari broker Forex yang bereputasi, seperti WINPROFX, buka akaun, deposit dana, analisis trend pasaran, pilih instrumen dagangan pilihan anda, dan akhirnya ambil kedudukan anda untuk mendapat keuntungan.</p>"
+      }
+    }
+  },
+  "indices": {
+    "banner": {
+      "meta": "Dagangan indeks",
+      "title": "Dagangan Indeks",
+      "description": "Indeks menjejaki prestasi sekumpulan syarikat berprestasi tinggi, memberi anda pendedahan kepada keseluruhan ekonomi melalui satu dagangan."
+    },
+    "card": {
+      "meta": "Dagangan indeks",
+      "title": "Pasaran Indeks Popular",
+      "description1": "Indeks pasaran saham mengukur prestasi bakul saham daripada bursa atau sektor tertentu.",
+      "description2": "Dagangan CFDs indeks membolehkan anda mendapat pendedahan pasaran yang luas melalui satu kedudukan. Sentiasa semak pendedahan risiko dan maklumat pengesahan rasmi sebelum berdagang."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Indices Trading"
+    },
+    "faq": {
+      "howCalculated": {
+        "title": "BAGAIMANA INDEKS PASARAN SAHAM DIKIRA?",
+        "body": "<p>Kebanyakan indeks pasaran saham dikira mengikut permodalan pasaran syarikat komponennya. Kaedah ini memberikan pemberat yang lebih besar kepada syarikat berkapitalisasi besar, bermakna prestasi mereka akan menjejaskan nilai indeks lebih daripada syarikat berkapitalisasi kecil.</p>"
+      },
+      "tradeWithLeverage": {
+        "title": "BERDAGANG DENGAN LEVERAGE",
+        "body": "<p>Apabila berdagang dengan leverage, anda harus ingat bahawa keuntungan atau kerugian anda dikira menggunakan saiz kedudukan keseluruhan, bukan hanya margin awal yang digunakan untuk membukanya. Ini bermakna walaupun leverage boleh membesarkan keuntungan, ia juga boleh membesarkan kerugian.</p>"
+      }
+    }
+  },
+  "crypto": {
+    "banner": {
+      "meta": "Dagangan kripto",
+      "title": "Dagangan Kripto",
+      "description1": "Cryptocurrency ialah aset digital yang dibina atas teknologi blockchain, menawarkan transaksi kewangan terdesentralisasi dan telus. Sepanjang dekad lalu, pasaran crypto telah berkembang menjadi salah satu peluang dagangan yang paling pesat berkembang di seluruh dunia.",
+      "description2": "Dengan platform kami, anda boleh berdagang cryptocurrency popular seperti Bitcoin, Ethereum, dan banyak lagi melalui CFDs—membolehkan anda berspekulasi pada pergerakan harga tanpa memiliki aset asas.",
+      "description3": "Manfaatkan kecairan tinggi, akses pasaran 24/7, dan alat dagangan canggih yang direka untuk pedagang pemula dan berpengalaman."
+    },
+    "card": {
+      "meta": "Dagangan kripto",
+      "title": "Berdagang Pasangan Cryptocurrency Popular",
+      "description": "Jejaki pergerakan harga masa nyata dan terokai peluang merentasi aset crypto terkemuka."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Cryptocurrency Trading"
+    },
+    "faq": {
+      "whatIsCrypto": {
+        "title": "APAKAH CRYPTOCURRENCY?",
+        "body": "<p>Cryptocurrency ialah sistem pembayaran digital yang tidak bergantung pada bank untuk mengesahkan transaksi. Ia ialah sistem peer-to-peer yang membolehkan sesiapa sahaja di mana-mana sahaja menghantar dan menerima pembayaran. Daripada wang fizikal yang dibawa dan ditukar di dunia sebenar, pembayaran cryptocurrency wujud semata-mata sebagai entri digital dalam pangkalan data dalam talian yang menerangkan transaksi tertentu. Apabila anda memindahkan dana cryptocurrency, transaksi direkodkan dalam lejar awam. Cryptocurrency disimpan dalam dompet digital.</p>"
+      },
+      "howDoesCryptoWork": {
+        "title": "BAGAIMANA CRYPTOCURRENCY BERFUNGSI?",
+        "body": "<p>Cryptocurrency berjalan pada lejar awam teragih yang dipanggil blockchain, rekod semua transaksi yang dikemas kini dan dipegang oleh pemegang mata wang. Unit cryptocurrency dicipta melalui proses yang dipanggil mining, yang melibatkan penggunaan kuasa komputer untuk menyelesaikan masalah matematik rumit yang menjana syiling. Pengguna juga boleh membeli mata wang daripada broker, kemudian menyimpan dan membelanjakannya menggunakan dompet kriptografi.</p>"
+      }
+    }
+  },
+  "metals": {
+    "banner": {
+      "meta": "Dagangan logam",
+      "title": "Dagangan Logam",
+      "description1": "Spot Metal Trading memegang tempat istimewa di hati setiap pedagang. Logam telah menarik pedagang di seluruh dunia sejak zaman purba dan terus berbuat demikian hingga hari ini.",
+      "description2": "WINPROFX Trader menawarkan spread terendah untuk pelbagai logam berdasarkan minat dan keutamaan teras anda. Semak jenis akaun dan amaran risiko sebelum berdagang CFDs logam."
+    },
+    "card": {
+      "meta": "Dagangan logam",
+      "title": "Pasaran Logam Popular",
+      "description": "Jejaki prestasi masa nyata logam utama dan kenal pasti peluang dagangan merentasi pasaran komoditi global."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Metals Trading"
+    },
+    "faq": {
+      "whyTradeMetals": {
+        "title": "MENGAPA BERDAGANG LOGAM DENGAN WINPROFX",
+        "body": "<p>WINPROFX mempunyai rekod prestasi yang kaya selama lebih 16 tahun. Kami telah memberikan pedagang kami peluang hebat dan pengalaman dagangan yang tiada tandingan. Ini meletakkan kami sebagai salah satu broker terkemuka dalam dagangan logam. Jadi, jika anda ingin berdagang Emas, terdapat banyak sebab untuk memilih WINPROFX: Beribu-ribu pedagang yang gembira dan berpuas hati</p><p>Sokongan tersedia sepanjang masa Pengeluaran dan pelaksanaan super pantas Analitik kaya untuk membuat keputusan termaklum</p><p>Contohnya, jika anda memilih untuk berdagang GBP/USD (pound British/dolar AS) dan anda fikir nilai GBP akan meningkat berbanding USD, anda melakukan long (beli). Jika anda fikir GBP akan jatuh berbanding USD, anda melakukan short (jual). Jika ramalan anda betul, anda mendapat keuntungan. Jika ramalan anda salah, anda akan mengalami kerugian. Ingat, kerugian boleh melebihi deposit..</p>"
+      },
+      "stepUpTrading": {
+        "title": "TINGKATKAN PERMAINAN DAGANGAN KOMODITI ANDA",
+        "body": "<p>Emas ialah logam yang paling aktif didagangkan. Berdasarkan undang-undang penawaran dan permintaan, harganya ditentukan oleh pasaran 24/7. Faktor lain seperti nilai dolar AS, permintaan industri, serta inflasi juga mempengaruhi harganya. Jika anda ingin berdagang logam, mulakan di landasan yang betul dengan WINPROFX dan melangkah dengan yakin untuk menjadi pedagang berpengalaman.</p>"
+      },
+      "howMetalTradingWorks": {
+        "title": "BAGAIMANA DAGANGAN LOGAM BERFUNGSI?",
+        "body": "<p>Untuk mengoptimumkan pulangan, pedagang mesti mempunyai pemahaman yang jelas tentang semua faktor yang mempengaruhi harga emas dan logam lain. Menariknya, pemacu harga logam berharga agak berbeza berbanding instrumen lain.</p>"
+      }
+    }
+  },
+  "commodities": {
+    "banner": {
+      "meta": "Dagangan komoditi",
+      "title": "Dagangan Komoditi",
+      "description1": "Manfaatkan volatiliti pasaran dan pilih daripada CFDs pada komoditi spot dan niaga hadapan. Di WINPROFX, kami menawarkan beberapa instrumen paling popular dalam pasaran komoditi termasuk emas, minyak, dan kopi, untuk spekulasi dan lindung nilai.",
+      "description2": "Berdagang setiap pergerakan tick penuh dengan komisen sifar dan tiada yuran tersembunyi. Semak jenis akaun dan amaran risiko sebelum berdagang CFDs komoditi."
+    },
+    "card": {
+      "meta": "Dagangan komoditi",
+      "title": "Pasaran Komoditi Langsung",
+      "description": "Pantau tindakan harga masa nyata dan jejak volatiliti harian merentasi aset logam, tenaga, dan pertanian terkemuka."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Commodities Trading"
+    },
+    "faq": {
+      "whatAreCommodities": {
+        "title": "Apakah komoditi?",
+        "body": "<p>Komoditi ialah bahan mentah atau produk pertanian primer yang boleh dibeli dan dijual dalam pasaran kewangan. Ia biasanya digunakan dalam pengeluaran barangan dan perkhidmatan lain dan didagangkan di bursa komoditi di seluruh dunia. Beberapa contoh termasuk logam (emas, perak, dan platinum), sumber tenaga (arang batu, minyak mentah, dan gas asli), produk pertanian (kacang soya, jagung, dan gandum), serta ternakan dan produk haiwan (lembu, telur, dan susu).</p>"
+      },
+      "howCommodityTradingWorks": {
+        "title": "Bagaimana dagangan komoditi berfungsi?",
+        "body": "<p>Dagangan komoditi membolehkan anda berspekulasi pada pergerakan harga bahan mentah melalui CFDs tanpa memiliki aset fizikal. Pedagang menganalisis penawaran dan permintaan, corak cuaca, peristiwa geopolitik, dan data ekonomi untuk membuka kedudukan long atau short pada instrumen seperti emas, minyak, dan produk pertanian.</p>"
+      },
+      "howMuchToStart": {
+        "title": "Berapa banyak wang yang diperlukan untuk memulakan dagangan komoditi?",
+        "body": "<p>Jumlah yang diperlukan bergantung pada jenis akaun, leverage, dan instrumen yang anda dagangkan. WINPROFX menawarkan pelbagai pilihan akaun dengan keperluan deposit minimum yang berbeza. Mulakan dengan jumlah yang anda mampu untuk rugi dan semak jenis akaun serta amaran risiko kami sebelum berdagang.</p>"
+      }
+    }
+  },
+  "oil": {
+    "banner": {
+      "meta": "Dagangan minyak",
+      "title": "Dagangan Minyak",
+      "description": "Lindung nilai terhadap volatiliti harga dan manfaatkan trend pasaran global. Akses data masa nyata, carta canggih, dan kecairan mendalam pada platform dagangan utama kami untuk menavigasi sektor tenaga dengan yakin."
+    },
+    "card": {
+      "meta": "Dagangan minyak",
+      "title": "Berdagang Data Pasaran Langsung",
+      "description": "Jejaki pergerakan harga masa nyata, turun naik harian, dan trend teknikal merentasi aset tenaga premium."
+    },
+    "learn": {
+      "title": "Ketahui Tentang Oil Trading"
+    },
+    "faq": {
+      "howToStart": {
+        "title": "Bagaimana untuk memulakan dagangan minyak?",
+        "body": "<p>Sebelum anda mula berdagang minyak, adalah penting untuk melakukan kajian dan memahami pasaran. Anda perlu mengetahui faktor apa yang mempengaruhi harga minyak dan bagaimana faktor-faktor tersebut mungkin berubah pada masa hadapan. Juga, fahami pelbagai jenis minyak yang boleh anda dagangkan di pasaran dan produk yang menggunakan setiap satu.</p>"
+      },
+      "bestStrategy": {
+        "title": "Apakah strategi terbaik untuk dagangan minyak mentah?",
+        "body": "<p>Strategi minyak mentah yang berkesan sering menggabungkan analisis teknikal dengan kesedaran tentang penawaran, permintaan, dan berita geopolitik. Ramai pedagang menggunakan pendekatan trend-following, breakout, atau range-trading semasa sesi volum tinggi. Tiada strategi menjamin keuntungan—sentiasa gunakan pengurusan risiko dan semak pendedahan risiko WINPROFX.</p>"
+      },
+      "bestIndicator": {
+        "title": "Apakah penunjuk terbaik untuk minyak mentah?",
+        "body": "<p>Alat popular untuk minyak mentah termasuk moving averages, RSI, MACD, dan penunjuk berasaskan volum, sering bersama senarai pantau untuk laporan inventori dan tajuk utama OPEC. Penunjuk terbaik bergantung pada rangka masa dan strategi anda—berlatih pada demo dan semak sumber pendidikan sebelum dagangan langsung.</p>"
+      }
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "lastUpdated": "2026-06-02",
+    "author": "WINPROFX Education Team",
+    "reviewer": "WINPROFX Compliance Team"
+  },
+  "index": {
+    "h1": "Centro de aprendizaje WINPROFX",
+    "intro": "Recursos educativos sobre conceptos de trading de forex y CFD. Estos artículos son solo para fines educativos generales y no constituyen asesoramiento de inversión.",
+    "readArticle": "Leer artículo →",
+    "trustCenterLink": "Para información oficial de la empresa y verificación, visite el",
+    "trustCenter": "Centro de confianza WINPROFX"
+  },
+  "articles": {
+    "whatIsForexTrading": {
+      "slug": "what-is-forex-trading",
+      "path": "/learn/what-is-forex-trading/",
+      "title": "¿Qué es el trading de Forex? | WINPROFX Learn",
+      "description": "Aprenda qué es el trading de forex, cómo funcionan los pares de divisas y los riesgos clave que los principiantes deben comprender antes de operar.",
+      "h1": "¿Qué es el trading de Forex?",
+      "breadcrumb": "¿Qué es el trading de Forex?",
+      "sections": {
+        "definition": {
+          "title": "Definición",
+          "body": "El trading de forex (mercado de divisas) consiste en comprar y vender pares de divisas en el mercado global de monedas. Los operadores especulan sobre si una moneda se fortalecerá o debilitará frente a otra."
+        },
+        "howCurrencyPairsWork": {
+          "title": "Cómo funcionan los pares de divisas",
+          "body": "Los pares de divisas muestran el valor de una moneda en relación con otra (p. ej., EUR/USD). La primera moneda es la base; la segunda es la cotizada. Los movimientos de precio reflejan las condiciones económicas, los tipos de interés y el sentimiento del mercado."
+        },
+        "forexAtWinprofx": {
+          "title": "Forex en WINPROFX",
+          "body": "WINPROFX proporciona acceso a los mercados de forex a través de la plataforma MetaTrader 5. Las condiciones de cuenta y los instrumentos disponibles se publican en el sitio web oficial."
+        }
+      },
+      "links": {
+        "forex": "Trading de Forex",
+        "platform": "Plataforma MT5",
+        "trustCenter": "Centro de confianza WINPROFX"
+      }
+    },
+    "whatIsCfdTrading": {
+      "slug": "what-is-cfd-trading",
+      "path": "/learn/what-is-cfd-trading/",
+      "title": "¿Qué es el trading de CFD? | WINPROFX Learn",
+      "description": "Comprenda el trading de Contratos por Diferencia (CFD), en qué se diferencia de poseer activos y los riesgos asociados.",
+      "h1": "¿Qué es el trading de CFD?",
+      "breadcrumb": "¿Qué es el trading de CFD?",
+      "sections": {
+        "definition": {
+          "title": "Definición",
+          "body": "Un Contrato por Diferencia (CFD) es un derivado que permite a los operadores especular sobre los movimientos de precios sin poseer el activo subyacente. Las ganancias o pérdidas dependen de la diferencia entre los precios de entrada y salida."
+        },
+        "cfdsVsOwnership": {
+          "title": "CFD frente a propiedad",
+          "body": "Los operadores de CFD no poseen acciones, materias primas ni criptoactivos directamente. Operan exposición al precio, lo que puede implicar apalancamiento y costes de financiación nocturna según las condiciones de la cuenta."
+        },
+        "risks": {
+          "title": "Riesgos",
+          "body": "El trading de CFD conlleva un riesgo significativo. El apalancamiento puede amplificar las pérdidas más allá de su depósito inicial. La mayoría de los operadores minoristas de CFD pierden dinero."
+        }
+      },
+      "links": {
+        "crypto": "Trading de CFD sobre criptomonedas",
+        "riskWarning": "Advertencia de riesgo"
+      }
+    },
+    "whatIsMt5": {
+      "slug": "what-is-mt5",
+      "path": "/learn/what-is-mt5/",
+      "title": "¿Qué es MetaTrader 5 (MT5)? | WINPROFX Learn",
+      "description": "Conozca la plataforma de trading MetaTrader 5, sus funciones y cómo los clientes acceden a los mercados a través de MT5.",
+      "h1": "¿Qué es MetaTrader 5 (MT5)?",
+      "breadcrumb": "¿Qué es MT5?",
+      "sections": {
+        "overview": {
+          "title": "Descripción general",
+          "body": "MetaTrader 5 (MT5) es una plataforma de trading multiactivo utilizada para forex, CFD y otros instrumentos. Ofrece gráficos, herramientas de análisis técnico, capacidades de trading automatizado y acceso móvil."
+        },
+        "winprofxAndMt5": {
+          "title": "WINPROFX y MT5",
+          "body": "Los clientes de WINPROFX acceden a los mercados a través de MT5 en escritorio y móvil. Los enlaces de descarga y la información de la plataforma están disponibles en la página de Plataforma."
+        }
+      },
+      "links": {
+        "platform": "Plataforma de trading MT5",
+        "accounts": "Tipos de cuenta"
+      }
+    },
+    "whatIsLeverageInForex": {
+      "slug": "what-is-leverage-in-forex",
+      "path": "/learn/what-is-leverage-in-forex/",
+      "title": "¿Qué es el apalancamiento en Forex? | WINPROFX Learn",
+      "description": "Comprenda el apalancamiento en el trading de forex, cómo amplifica la exposición y por qué aumenta tanto las ganancias potenciales como las pérdidas.",
+      "h1": "¿Qué es el apalancamiento en Forex?",
+      "breadcrumb": "Apalancamiento en Forex",
+      "sections": {
+        "definition": {
+          "title": "Definición",
+          "body": "El apalancamiento permite a los operadores controlar una posición mayor con una cantidad menor de capital. Se expresa como una ratio (p. ej., 1:100), lo que significa que un pequeño depósito (margen) controla un tamaño de operación mayor."
+        },
+        "howLeverageAffectsRisk": {
+          "title": "Cómo afecta el apalancamiento al riesgo",
+          "body": "El apalancamiento amplifica tanto las ganancias potenciales como las pérdidas. Un pequeño movimiento adverso del precio puede resultar en pérdidas significativas en relación con su margen depositado."
+        }
+      },
+      "links": {
+        "marginCall": "¿Qué es una llamada de margen?",
+        "riskWarning": "Advertencia de riesgo"
+      }
+    },
+    "whatIsMarginCall": {
+      "slug": "what-is-margin-call",
+      "path": "/learn/what-is-margin-call/",
+      "title": "¿Qué es una llamada de margen? | WINPROFX Learn",
+      "description": "Aprenda qué es una llamada de margen, cuándo ocurre y cómo los requisitos de margen afectan al trading de CFD y forex.",
+      "h1": "¿Qué es una llamada de margen?",
+      "breadcrumb": "Llamada de margen",
+      "sections": {
+        "definition": {
+          "title": "Definición",
+          "body": "Una llamada de margen ocurre cuando el capital de su cuenta cae por debajo del nivel de margen requerido para mantener posiciones abiertas. El bróker puede solicitar fondos adicionales o cerrar posiciones para restablecer los requisitos de margen."
+        },
+        "prevention": {
+          "title": "Prevención",
+          "body": "Monitoree el capital de su cuenta, utilice tamaños de posición adecuados, comprenda los efectos del apalancamiento y mantenga un margen libre adecuado. Las herramientas de gestión del riesgo como los stop loss pueden ayudar, pero no eliminan el riesgo."
+        }
+      },
+      "links": {
+        "leverage": "Apalancamiento en Forex",
+        "accounts": "Tipos de cuenta"
+      }
+    },
+    "whatIsSpreadInTrading": {
+      "slug": "what-is-spread-in-trading",
+      "path": "/learn/what-is-spread-in-trading/",
+      "title": "¿Qué es el spread en el trading? | WINPROFX Learn",
+      "description": "Comprenda el spread bid-ask, cómo afecta a los costes de trading y por qué los spreads varían entre instrumentos.",
+      "h1": "¿Qué es el spread en el trading?",
+      "breadcrumb": "Spread en el trading",
+      "sections": {
+        "definition": {
+          "title": "Definición",
+          "body": "El spread es la diferencia entre el precio bid (venta) y el precio ask (compra) de un instrumento. Representa un coste principal de trading junto con las comisiones y los swaps, cuando corresponda."
+        },
+        "variableSpreads": {
+          "title": "Spreads variables",
+          "body": "Los spreads pueden ampliarse durante períodos de baja liquidez, eventos de noticias o volatilidad del mercado. Los ejemplos de spreads publicados son indicativos y pueden diferir en la ejecución."
+        }
+      },
+      "links": {
+        "forex": "Trading de Forex",
+        "accounts": "Tipos de cuenta"
+      }
+    },
+    "howToManageRiskInCfdTrading": {
+      "slug": "how-to-manage-risk-in-cfd-trading",
+      "path": "/learn/how-to-manage-risk-in-cfd-trading/",
+      "title": "Cómo gestionar el riesgo en el trading de CFD | WINPROFX Learn",
+      "description": "Guía educativa sobre conceptos de gestión del riesgo en el trading de CFD, incluyendo el tamaño de posición, los stop loss y la conciencia del apalancamiento.",
+      "h1": "Cómo gestionar el riesgo en el trading de CFD",
+      "breadcrumb": "Gestión del riesgo en CFD",
+      "sections": {
+        "positionSizing": {
+          "title": "Tamaño de posición",
+          "body": "Arriesgue solo capital que pueda permitirse perder. El tamaño de la posición debe reflejar el saldo de su cuenta y su tolerancia a la pérdida, no el apalancamiento máximo disponible."
+        },
+        "stopLossAndTakeProfit": {
+          "title": "Stop loss y take profit",
+          "body": "Las órdenes stop loss pueden limitar la pérdida potencial de una operación, pero no siempre se ejecutan al precio exacto durante gaps o mercados rápidos. Las órdenes take profit bloquean ganancias en un nivel objetivo."
+        },
+        "diversificationAndDiscipline": {
+          "title": "Diversificación y disciplina",
+          "body": "Evite la sobreconcentración en un solo instrumento. Mantenga un plan de trading y evite decisiones emocionales. Este contenido es solo educativo y no constituye asesoramiento de inversión."
+        }
+      },
+      "links": {
+        "riskWarning": "Advertencia de riesgo",
+        "trustCenter": "Centro de confianza"
+      }
+    },
+    "demoVsLiveTradingAccount": {
+      "slug": "demo-vs-live-trading-account",
+      "path": "/learn/demo-vs-live-trading-account/",
+      "title": "Cuenta demo vs cuenta real | WINPROFX Learn",
+      "description": "Compare las cuentas demo y reales, sus propósitos y qué cambia al operar con fondos reales.",
+      "h1": "Cuenta demo vs cuenta real",
+      "breadcrumb": "Cuenta demo vs real",
+      "sections": {
+        "demoAccounts": {
+          "title": "Cuentas demo",
+          "body": "Las cuentas demo utilizan fondos virtuales para practicar la navegación en la plataforma, la colocación de órdenes y las pruebas de estrategias sin riesgo financiero. Las condiciones demo pueden diferir de la ejecución en cuenta real."
+        },
+        "liveAccounts": {
+          "title": "Cuentas reales",
+          "body": "Las cuentas reales utilizan fondos reales. Las pérdidas son reales y pueden superar los depósitos al usar apalancamiento. La verificación KYC y las comprobaciones de cumplimiento se aplican antes del trading en vivo."
+        }
+      },
+      "links": {
+        "accounts": "Tipos de cuenta",
+        "verifyWinprofx": "Verificar WINPROFX"
+      }
+    },
+    "howToCheckIfAForexBrokerIsLegit": {
+      "slug": "how-to-check-if-a-forex-broker-is-legit",
+      "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
+      "title": "Cómo comprobar si un bróker de Forex es legítimo | WINPROFX Learn",
+      "description": "Aprenda cómo verificar un bróker de forex utilizando dominios oficiales, registro de la empresa, ámbito regulatorio y declaraciones de riesgo.",
+      "h1": "Cómo comprobar si un bróker de Forex es legítimo",
+      "breadcrumb": "Comprobar si un bróker es legítimo",
+      "sections": {
+        "verifyOfficialDomains": {
+          "title": "Verificar dominios oficiales",
+          "body": "Confirme que la URL del sitio web coincide con los dominios oficiales publicados del bróker. Evite páginas de inicio de sesión alcanzadas a través de enlaces no solicitados o mensajes en redes sociales."
+        },
+        "reviewCompanyRegistration": {
+          "title": "Revisar el registro de la empresa",
+          "body": "Compruebe si la entidad legal se divulga con datos de incorporación y documentos descargables cuando estén disponibles. El registro de la empresa no es lo mismo que una licencia de servicios financieros."
+        },
+        "understandRegulatoryScope": {
+          "title": "Comprender el ámbito regulatorio",
+          "body": "Determine qué licencias o registros existen y qué autorizan realmente. Una licencia de oficina representativa difiere de una licencia de bróker financiero."
+        }
+      },
+      "links": {
+        "isWinprofxLegit": "¿Es WINPROFX legítimo?",
+        "trustCenter": "Centro de confianza",
+        "officialDomains": "Dominios oficiales"
+      }
+    },
+    "offshoreVsRegulatedForexBrokers": {
+      "slug": "offshore-vs-regulated-forex-brokers",
+      "path": "/learn/offshore-vs-regulated-forex-brokers/",
+      "title": "Brókers de Forex offshore vs regulados | WINPROFX Learn",
+      "description": "Comprenda las diferencias entre la incorporación offshore y la regulación de servicios financieros en la intermediación de forex.",
+      "h1": "Brókers de Forex offshore vs regulados",
+      "breadcrumb": "Offshore vs brókers regulados",
+      "sections": {
+        "offshoreIncorporation": {
+          "title": "Incorporación offshore",
+          "body": "Muchos brókers están incorporados en jurisdicciones como Santa Lucía como International Business Companies. La incorporación confirma la formación de la entidad legal, pero no significa automáticamente regulación de servicios financieros."
+        },
+        "financialServicesRegulation": {
+          "title": "Regulación de servicios financieros",
+          "body": "Los reguladores de servicios financieros (como FCA, ASIC, CySEC o autoridades de los EAU) pueden autorizar actividades específicas de bróker bajo condiciones definidas. Verifique siempre a través de registros oficiales del regulador."
+        },
+        "dueDiligence": {
+          "title": "Diligencia debida",
+          "body": "Los clientes deben revisar lo que está realmente verificado y divulgado, y no confiar en afirmaciones de marketing. Lea las advertencias de riesgo y comprenda las limitaciones jurisdiccionales."
+        }
+      },
+      "links": {
+        "regulatoryInformation": "Información regulatoria",
+        "licenseVerification": "Verificación de licencia",
+        "checkBrokerLegit": "Cómo comprobar si un bróker es legítimo"
+      }
+    }
+  },
+  "articleLinks": {
+    "forex": "/forex/",
+    "platform": "/platform/",
+    "trustCenter": "/trust-center/",
+    "crypto": "/crypto/",
+    "riskWarning": "/risk-warning/",
+    "accounts": "/accounts/",
+    "marginCall": "/learn/what-is-margin-call/",
+    "leverage": "/learn/what-is-leverage-in-forex/",
+    "verifyWinprofx": "/verify-winprofx/",
+    "isWinprofxLegit": "/is-winprofx-legit/",
+    "officialDomains": "/official-domains/",
+    "regulatoryInformation": "/regulatory-information/",
+    "licenseVerification": "/winprofx-license-verification/",
+    "checkBrokerLegit": "/learn/how-to-check-if-a-forex-broker-is-legit/"
+  }
+}

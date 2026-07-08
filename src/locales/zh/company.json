@@ -1,0 +1,53 @@
+{
+  "footerTrustLegal": {
+    "trust-center": "信任中心",
+    "company-profile": "公司简介",
+    "company-registration": "公司注册",
+    "legal-entity-information": "法律实体信息",
+    "regulatory-information": "监管信息",
+    "official-domains": "官方域名",
+    "verify-winprofx": "验证 WINPROFX",
+    "risk-warning": "风险警告",
+    "withdrawal-transparency": "提款透明度",
+    "complaints-and-dispute-resolution": "投诉",
+    "client-fund-security": "客户资金安全",
+    "support-and-escalation": "支持与升级",
+    "company-statistics": "公司统计数据",
+    "dubai-professional-license": "迪拜专业许可证",
+    "uae-representative-office": "阿联酋代表处",
+    "legal-documents": "法律文件"
+  },
+  "brandName": "WINPROFX",
+  "legalEntityName": "Winprofx Ltd.",
+  "companyType": "International Business Company",
+  "jurisdiction": "Saint Lucia",
+  "riskWarningShort": "Forex 和 CFD 交易涉及重大风险，可能不适合所有投资者。客户在交易前应充分了解相关风险。",
+  "riskWarningFull": "Forex、CFD 及相关金融产品交易涉及重大风险，可能不适合所有投资者。您可能会损失部分或全部投资本金。过往表现不代表未来结果。客户在交易前应充分了解相关风险，并在必要时寻求独立建议。",
+  "incorporationClarification": "公司注册文件确认 Winprofx Ltd. 在圣卢西亚作为 International Business Company 的合法成立。公司注册不同于金融服务许可证、Forex 经纪商许可证、CFD 经纪商许可证或监管授权。如有适用的监管或金融服务许可证信息，应通过监管信息页面和官方监管机构参考资料单独核实。",
+  "licenseScopeClarification": "圣卢西亚注册文件确认 Winprofx Ltd. 的合法成立。迪拜专业许可证确认迪拜分公司/代表处的注册及代表处活动。这些文件不应与金融服务经纪商许可证、Forex 经纪商许可证、CFD 经纪商许可证或投资服务授权混淆，除非另行发布并核实监管机构签发的金融服务许可证详情。",
+  "dubaiScopeClarification": "本迪拜专业许可证列出的活动为代表处。代表处许可证不同于金融服务经纪商许可证。任何金融服务、Forex 经纪商或 CFD 经纪商监管授权应通过官方监管记录单独核实。",
+  "dubaiVerificationNote": "迪拜许可证文件说明，这是由经济和旅游部签发、无需签名的认证电子文件，可通过扫描原始文件上的二维码进行验证。",
+  "financialLicenseClarification": "Winprofx Ltd. 的注册确认公司的合法成立。这本身不构成金融服务许可证、Forex 经纪商许可证、CFD 经纪商许可证或监管授权。如适用金融监管许可证信息，必须通过官方监管记录核实，并在此页面发布监管机构名称、许可证编号、许可证类型、司法管辖区、许可活动及验证链接。",
+  "financialLicensePending": "金融监管许可证详情正在等待合规核实，仅在通过官方监管记录核实后才会更新。",
+  "statsPlaceholder": "运营核实后将更新。",
+  "opsPlaceholder": "由运营/合规团队更新。",
+  "accountSpecificPrivacyNote": "出于安全和隐私原因，WINPROFX 无法在评论平台或社交媒体上公开讨论账户特定详情。",
+  "publicReviewResponsePolicy": "当投诉公开发布时，WINPROFX 可能会通过官方支持渠道要求提供工单详情或注册邮箱地址，以便安全地审查该案件。",
+  "incorporationPdfTitle": "认证注册文件",
+  "documentTypes": "公司注册证书、组织章程大纲及组织章程细则",
+  "registeredAgent": "Fortgate Offshore Investment and Legal Services Ltd.",
+  "registeredOffice": "Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia",
+  "incorporationSubscriber": "Fortgate Offshore Investment and Legal Services Ltd.",
+  "supportEmail": "support@winprofx.com",
+  "officialDomainLabels": {
+    "mainWebsite": "WINPROFX 主要官方网站",
+    "alternateMarketing": "官方备用/营销域名",
+    "uaeRegional": "官方阿联酋/区域域名",
+    "clientPortal": "官方客户门户",
+    "partnerPortal": "官方合作伙伴/IB 门户"
+  },
+  "schema": {
+    "brandDescription": "WINPROFX is a forex and CFD trading brand associated with Winprofx Ltd., an International Business Company incorporated in Saint Lucia.",
+    "customerSupport": "customer support"
+  }
+}

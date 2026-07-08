@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LocalizedLink from '@/components/localized-link'
 import { Container } from '@/components/grid'
 import TopShape from '@/components/top-shape'
 import PolicyTitle from '@/components/policy/policy-title'
@@ -10,79 +11,93 @@ import DubaiLicenseTable from '@/components/company-identity/dubai-license-table
 import LicenseClarification from '@/components/company-identity/license-clarification'
 import RegistrationTable from '@/components/company-identity/registration-table'
 import SeoHead from '@/components/seo-head'
+import { useSeo } from '@/hooks/use-seo'
+import { TrustPageBreadcrumb, TrustPageFooter } from '@/components/trust/trust-page-extras'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import { pathToTrustPageKey } from '@/lib/trust-page-keys'
 import {
   DUBAI_BUSINESS_NAME,
   DUBAI_LICENSE_CATEGORY,
-  DUBAI_SCOPE_CLARIFICATION,
-  DUBAI_VERIFICATION_NOTE,
   dubaiOfficeRows,
-  RISK_WARNING_SHORT,
 } from '@/lib/company-registration'
 
+const PAGE_KEY = 'dubaiProfessionalLicense'
+
+const relatedPaths = [
+  '/uae-representative-office/',
+  '/legal-entity-information/',
+  '/regulatory-information/',
+  '/official-domains/',
+  '/verify-winprofx/',
+  '/risk-warning/',
+]
+
 export default function DubaiProfessionalLicense() {
+  const { t } = useTranslation('trust')
+  const { t: tCompany } = useTranslation('company')
+  const seo = useSeo('dubaiProfessionalLicense')
+
+  const i18nVars = {
+    dubaiBusinessName: DUBAI_BUSINESS_NAME,
+    dubaiLicenseCategory: DUBAI_LICENSE_CATEGORY,
+  }
+
   return (
     <div className="padding-top-245">
       <SeoHead
-        title="Dubai Professional License | WINPROFX"
-        description="View the Dubai Professional License information for WINPROFX LTD - DUBAI BRANCH - REP. OFFICE, including license number, activity, status, issue date, expiry date, and verification note."
+        {...seo}
         canonicalPath="/dubai-professional-license"
+        pageName={t(`pages.${PAGE_KEY}.h1`)}
+        dateModified={TRUST_LAST_REVIEWED_ISO}
       />
       <TopShape />
-      <PolicyTitle as="h1" meta="Legal & Compliance" title="Dubai Professional License" />
+      <PolicyTitle as="h1" meta={t(`pages.${PAGE_KEY}.meta`)} title={t(`pages.${PAGE_KEY}.h1`)} />
       <Container>
         <Card>
+          <TrustPageBreadcrumb pageLabel={t(`pages.${PAGE_KEY}.h1`)} />
           <IdentitySection>
-            <p>
-              {DUBAI_BUSINESS_NAME} holds a Dubai Professional License issued by the{' '}
-              {DUBAI_LICENSE_CATEGORY}. This page provides license information based on the certified
-              Dubai Professional License document. The license activity is listed as Representative
-              Office and the activity status is Active.
-            </p>
-            <p className="mt-4">
-              A Dubai Professional License for a Representative Office confirms local business
-              registration and permitted representative office activity. It should be understood
-              separately from any financial services, forex broker, or CFD broker regulatory
-              authorization.
-            </p>
+            <p>{t(`pages.${PAGE_KEY}.content.intro1`, i18nVars)}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.intro2`)}</p>
           </IdentitySection>
 
-          <IdentitySection title="License Details">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.licenseDetails`)}>
             <DubaiLicenseTable />
           </IdentitySection>
 
-          <IdentitySection title="Dubai Office Information">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiOfficeInformation`)}>
             <RegistrationTable rows={dubaiOfficeRows} />
           </IdentitySection>
 
-          <IdentitySection title="Document Verification">
-            <p>{DUBAI_VERIFICATION_NOTE}</p>
-            <p className="mt-4">
-              Users who hold or receive a copy of the original license document should verify it using
-              the QR code provided on the document through official Department of Economy and Tourism
-              verification channels.
-            </p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.documentVerification`)}>
+            <p>{tCompany('dubaiVerificationNote')}</p>
+            <p className="mt-4">{t(`pages.${PAGE_KEY}.content.qrVerification`)}</p>
           </IdentitySection>
 
-          <IdentitySection title="Scope Clarification">
-            <p>{DUBAI_SCOPE_CLARIFICATION}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.scopeClarification`)}>
+            <p>{tCompany('dubaiScopeClarification')}</p>
             <LicenseClarification showDubaiScope={false} />
           </IdentitySection>
 
-          <IdentitySection title="Related Information">
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.relatedInformation`)}>
             <ul className="flex flex-col gap-2">
-              <li><Link to="/uae-representative-office/" className="text-white underline hover:text-primary">UAE Representative Office</Link></li>
-              <li><Link to="/legal-entity-information/" className="text-white underline hover:text-primary">Legal Entity Information</Link></li>
-              <li><Link to="/regulatory-information/" className="text-white underline hover:text-primary">Regulatory Information</Link></li>
-              <li><Link to="/official-domains/" className="text-white underline hover:text-primary">Official Domains</Link></li>
-              <li><Link to="/verify-winprofx/" className="text-white underline hover:text-primary">Verify WINPROFX</Link></li>
-              <li><Link to="/risk-warning/" className="text-white underline hover:text-primary">Risk Warning</Link></li>
+              {relatedPaths.map((path) => {
+                const pageKey = pathToTrustPageKey(path)
+                return (
+                  <li key={path}>
+                    <LocalizedLink to={path} className="text-white underline hover:text-primary">
+                      {pageKey ? t(`pages.${pageKey}.label`) : path}
+                    </LocalizedLink>
+                  </li>
+                )
+              })}
             </ul>
           </IdentitySection>
 
-          <IdentitySection title="Risk Warning">
-            <p>{RISK_WARNING_SHORT}</p>
+          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.riskWarning`)}>
+            <p>{tCompany('riskWarningShort')}</p>
           </IdentitySection>
 
+          <TrustPageFooter canonicalPath="/dubai-professional-license" />
           <IdentityNav />
         </Card>
       </Container>

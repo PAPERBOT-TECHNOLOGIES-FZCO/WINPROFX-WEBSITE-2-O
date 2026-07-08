@@ -1,149 +1,74 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import Logo from '@/components/logo';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'
 import Social from '@/components/social'
 import { Container } from '@/components/grid'
 import { duration, once, y } from '@/utilities/animation'
+import LocalizedLink from '@/components/localized-link'
 
 import { footerTrustLegalLinks } from '@/lib/company-registration'
 import bg from '@/assets/img/footer-bg.png'
 import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png'
 
 export default function Footer() {
+  const { t } = useTranslation(['footer', 'common', 'company'])
+
   const official_domains = [
-    {
-      label: 'Official Website',
-      url: 'https://winprofx.org/',
-      internal: true,
-    },
-    {
-      label: 'Official Alternate Domain',
-      url: 'https://winprofx.com/',
-    },
-    {
-      label: 'Official UAE/Regional Domain',
-      url: 'https://winprofx.ae/',
-    },
-    {
-      label: 'Client Portal',
-      url: 'https://my.winprofx.org/',
-    },
-    {
-      label: 'Partner Portal',
-      url: 'https://partner.winprofx.org/',
-    },
+    { labelKey: 'domains.officialWebsite', url: 'https://winprofx.org/', internal: true },
+    { labelKey: 'domains.officialAlternate', url: 'https://winprofx.com/' },
+    { labelKey: 'domains.officialUae', url: 'https://winprofx.ae/' },
+    { labelKey: 'domains.clientPortal', url: 'https://my.winprofx.org/' },
+    { labelKey: 'domains.partnerPortal', url: 'https://partner.winprofx.org/' },
   ]
 
   const important_links = [
-    { name: 'Company Profile', path: '/company-profile/' },
-    { name: 'About', path: '/about/' },
-    { name: 'Contact', path: '/contact/' },
+    { nameKey: 'links.companyProfile', path: '/company-profile/' },
+    { nameKey: 'links.officialDomains', path: '/official-domains/' },
+    { nameKey: 'links.riskWarning', path: '/risk-warning/' },
+    { nameKey: 'links.contact', path: '/contact/' },
   ]
 
   const trust_legal_links = footerTrustLegalLinks.map((link) => ({
-    name: link.label,
+    name: t(`company:footerTrustLegal.${link.path.replace(/\//g, '')}`, { defaultValue: link.label }),
     path: link.path,
   }))
 
   const footer_items = [
     {
-      title: 'Explore',
+      titleKey: 'sections.explore',
       links: [
-        {
-          name: 'Home',
-          path: '/'
-        },
-        {
-          name: 'Platform',
-          path: '/platform/'
-        },
-        {
-          name: 'About Us',
-          path: '/about-us/'
-        },
-        {
-          name: 'About',
-          path: '/about/'
-        },
-        {
-          name: 'Company Profile',
-          path: '/company-profile/'
-        },
-        {
-          name: 'Contact',
-          path: '/contact/'
-        },
-        {
-          name: 'Official Domains',
-          path: '/official-domains/'
-        },
-      ]
+        { nameKey: 'links.home', path: '/' },
+        { nameKey: 'links.platform', path: '/platform/' },
+        { nameKey: 'links.aboutUs', path: '/about-us/' },
+        { nameKey: 'links.about', path: '/about/' },
+        { nameKey: 'links.companyProfile', path: '/company-profile/' },
+        { nameKey: 'links.contact', path: '/contact/' },
+        { nameKey: 'links.officialDomains', path: '/official-domains/' },
+      ],
     },
     {
-      title: 'Markets',
+      titleKey: 'sections.markets',
       links: [
-        {
-          name: 'Forex',
-          path: '/forex/'
-        },
-        {
-          name: 'Indices',
-          path: '/indices/'
-        },
-        {
-          name: 'Crypto',
-          path: '/crypto/'
-        },
-        {
-          name: 'Metals',
-          path: '/trading/metals/'
-        },
-        {
-          name: 'Commodities',
-          path: '/trading/commodities/'
-        },
-        {
-          name: 'Oil',
-          path: '/trading/oil/'
-        },
-      ]
+        { nameKey: 'links.forex', path: '/forex/' },
+        { nameKey: 'links.indices', path: '/indices/' },
+        { nameKey: 'links.crypto', path: '/crypto/' },
+        { nameKey: 'links.metals', path: '/trading/metals/' },
+        { nameKey: 'links.commodities', path: '/trading/commodities/' },
+        { nameKey: 'links.oil', path: '/trading/oil/' },
+      ],
     },
   ]
 
   const copyright_links = [
-    {
-      name: 'Privacy Policy',
-      path: '/policy/'
-    },
-    {
-      name: 'Terms & Conditions',
-      path: '/terms/'
-    },
-    {
-      name: 'AML Policy',
-      path: '/aml-policy/'
-    },
-    {
-      name: 'Deposit & withdrawal Policy',
-      path: '/deposit-withdraw/'
-    },
-    {
-      name: 'Restricted Countries',
-      path: '/restricted-countries/'
-    },
-    {
-      name: 'Risk Warning',
-      path: '/risk-warning/'
-    },
-    {
-      name: 'Legal Documents',
-      path: '/legal-documents/'
-    },
-    {
-      name: 'Risk Disclosure',
-      path: '/risk-disclosure/'
-    },
+    { nameKey: 'links.privacyPolicy', path: '/policy/' },
+    { nameKey: 'links.termsConditions', path: '/terms/' },
+    { nameKey: 'links.amlPolicy', path: '/aml-policy/' },
+    { nameKey: 'links.depositWithdrawPolicy', path: '/deposit-withdraw/' },
+    { nameKey: 'links.restrictedCountries', path: '/restricted-countries/' },
+    { nameKey: 'links.riskWarning', path: '/risk-warning/' },
+    { nameKey: 'links.legalDocuments', path: '/legal-documents/' },
+    { nameKey: 'links.riskDisclosure', path: '/risk-disclosure/' },
   ]
 
   return (
@@ -166,22 +91,22 @@ export default function Footer() {
           className="grid grid-cols-2 md:flex flex-wrap justify-between gap-x-6 lg:gap-x-8 xl:gap-x-0 2xl:gap-x-10 gap-y-6 mt-6 md:mt-9 lg:mt-12">
           <div className="flex flex-col gap-y-4 text-center xl:text-start xl:max-w-60 w-full mb-2 md:mb-8 xl:mb-0 col-span-2">
             <Logo className='h-14 mx-auto xl:mx-0' />
-            <p>One platform. Multiple markets. Endless trading opportunities with WINPROFX.</p>
+            <p>{t('footer:tagline')}</p>
           </div>
 
           {footer_items.map((item, idx) => (
             <div className="flex flex-col gap-y-4" key={idx}>
-              <strong className='block text-base text-white'>{item.title}</strong>
+              <strong className='block text-base text-white'>{t(`footer:${item.titleKey}`)}</strong>
               <div className="flex flex-col gap-y-4">
                 {item.links.map((link, lidx) => (
-                  <Link to={link.path} className='block text-para text-sm md:text-base leading-tight hover:text-white hover:translate-x-1' key={lidx}>{link.name}</Link>
+                  <LocalizedLink to={link.path} className='block text-para text-sm md:text-base leading-tight hover:text-white hover:translate-x-1' key={lidx}>{t(`footer:${link.nameKey}`)}</LocalizedLink>
                 ))}
               </div>
             </div>
           ))}
 
           <div className="flex flex-col gap-y-4 col-span-2">
-            <strong className='block text-base text-white'>Contact Info</strong>
+            <strong className='block text-base text-white'>{t('footer:sections.contactInfo')}</strong>
             <div className="flex flex-col gap-y-4">
               <a target='_blank' rel='noopener noreferrer' href="https://wa.me/97144471894" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -195,18 +120,13 @@ export default function Footer() {
                       <rect width="24" height="24" fill="white" />
                     </clipPath>
                   </defs>
-                </svg> Whatsapp
+                </svg> {t('common:labels.whatsapp')}
               </a>
               <a target='_blank' href="mailto:support@winprofx.com" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.6715 14.6642C13.1739 15.0023 12.5959 15.181 12 15.181C11.4042 15.181 10.8262 15.0023 10.3286 14.6642L2.13316 9.09625C2.0877 9.06536 2.0434 9.03316 2 9.00004V18.1238C2 19.1698 2.83301 20 3.84114 20H20.1589C21.1854 20 22 19.1511 22 18.1238V9C21.9565 9.0332 21.9121 9.06548 21.8666 9.09641L13.6715 14.6642Z" fill="#E3E4E9" />
-                  <path d="M2.7832 8.27583L10.9786 13.6924C11.2889 13.8975 11.6444 14 12 14C12.3555 14 12.7111 13.8975 13.0214 13.6924L21.2168 8.27583C21.7072 7.95189 22 7.40974 22 6.82461C22 5.81849 21.1743 5 20.1595 5H3.84051C2.82566 5.00004 2 5.81853 2 6.82557C2 7.40974 2.29281 7.95189 2.7832 8.27583Z" fill="#E3E4E9" />
-                </svg> support@winprofx.com
+                support@winprofx.com
               </a>
               <a target='_blank' href="tel:+971 4 447 1894" className='flex items-center gap-2 text-sm md:text-base leading-normal hover:text-white hover:translate-x-1'>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.528 16.2102L18.0108 13.6982C17.1117 12.8011 15.5834 13.16 15.2238 14.3262C14.9541 15.1337 14.0551 15.5822 13.246 15.4028C11.4479 14.9542 9.02061 12.6217 8.57111 10.7377C8.3014 9.93026 8.84081 9.03313 9.64992 8.76403C10.8186 8.40518 11.1782 6.88007 10.2792 5.98294L7.76199 3.47099C7.04278 2.843 5.96397 2.843 5.33466 3.47099L3.62653 5.17553C1.9184 6.96978 3.80633 11.7245 8.0317 15.941C12.2571 20.1575 17.0218 22.1312 18.8199 20.3369L20.528 18.6324C21.1573 17.9147 21.1573 16.8382 20.528 16.2102Z" fill="#E3E4E9" />
-                </svg> +971 4 447 1894
+                +971 4 447 1894
               </a>
               <Social />
             </div>
@@ -222,11 +142,14 @@ export default function Footer() {
           className="rounded-2xl md:rounded-3xl lg:rounded-[30px] border border-solid border-white/12 bg-white/6 backdrop-blur-lg p-4 md:p-6 lg:p-8 mt-8 lg:mt-10 flex flex-col gap-y-6 md:gap-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div className="flex flex-col gap-y-3">
-              <strong className="text-xl font-semibold leading-tight text-white">WINPROFX</strong>
+              <h2 className="text-xl font-semibold leading-tight text-white">{t('footer:officialWebsite.title')}</h2>
+              <p className="text-sm md:text-base leading-normal text-para">
+                {t('footer:officialWebsite.description')}
+              </p>
               <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
                 {official_domains.map((item) => (
                   <li key={item.url}>
-                    <span className="text-white">{item.label}: </span>
+                    <span className="text-white">{t(`footer:${item.labelKey}`)}: </span>
                     {item.internal ? (
                       <a href={item.url} className="text-white underline hover:text-primary break-all">
                         {item.url}
@@ -247,26 +170,26 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-y-3">
-              <strong className="text-xl font-semibold leading-tight text-white">Important Links</strong>
+              <strong className="text-xl font-semibold leading-tight text-white">{t('footer:sections.importantLinks')}</strong>
               <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
                 {important_links.map((link) => (
                   <li key={link.path}>
-                    <Link to={link.path} className="text-white underline hover:text-primary">
-                      {link.name}
-                    </Link>
+                    <LocalizedLink to={link.path} className="text-white underline hover:text-primary">
+                      {t(`footer:${link.nameKey}`)}
+                    </LocalizedLink>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div className="flex flex-col gap-y-3 md:col-span-2 lg:col-span-1">
-              <strong className="text-xl font-semibold leading-tight text-white">Trust &amp; Legal</strong>
+              <strong className="text-xl font-semibold leading-tight text-white">{t('footer:sections.trustLegal')}</strong>
               <ul className="text-sm md:text-base leading-normal text-para grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
                 {trust_legal_links.map((link) => (
                   <li key={link.path}>
-                    <Link to={link.path} className="text-white underline hover:text-primary">
+                    <LocalizedLink to={link.path} className="text-white underline hover:text-primary">
                       {link.name}
-                    </Link>
+                    </LocalizedLink>
                   </li>
                 ))}
               </ul>
@@ -274,16 +197,15 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-y-2 border-t border-white/10 pt-6">
-            <strong className="text-base md:text-lg font-semibold leading-tight text-white">Risk Warning</strong>
+            <strong className="text-base md:text-lg font-semibold leading-tight text-white">{t('footer:sections.riskWarning')}</strong>
             <p className="text-sm md:text-base leading-normal text-para">
-              Trading forex and CFDs involves significant risk and may not be suitable for all investors.
-              Clients should understand the risks before trading.
+              {t('common:risk.short')}
             </p>
           </div>
 
           <div className="flex flex-col gap-y-3 border-t border-white/10 pt-6">
-            <strong className='text-xl font-semibold leading-tight text-white'>Restricted Regions</strong>
-            <p className='text-sm md:text-base leading-normal text-para'>WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar,India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</p>
+            <strong className='text-xl font-semibold leading-tight text-white'>{t('footer:sections.restrictedRegions')}</strong>
+            <p className='text-sm md:text-base leading-normal text-para'>{t('footer:restrictedRegionsText')}</p>
           </div>
         </motion.div>
 
@@ -294,12 +216,12 @@ export default function Footer() {
           viewport={{ once: once, amount: 0.2 }}
           className="mt-6 md:mt-8 lg:mt-10 flex flex-col md:flex-row flex-wrap items-center justify-center lg:justify-between gap-x-4 lg:gap-x-0 xl:gap-x-6 2xl:gap-x-8 gap-y-1 md:gap-y-2">
           {copyright_links.map((item, idx) => (
-            <Link to={item.path} className='bg-white/1 backdrop-blur-[100px] border border-white/12 border-solid md:bg-transparent md:border-transparent w-full md:w-max text-center rounded-full min-h-13 md:min-h-auto flex items-center justify-center text-base lg:text-xs xl:text-base leading-tight text-white hover:text-primary hover:-translate-y-0.5' key={idx}>{item.name}</Link>
+            <LocalizedLink to={item.path} className='bg-white/1 backdrop-blur-[100px] border border-white/12 border-solid md:bg-transparent md:border-transparent w-full md:w-max text-center rounded-full min-h-13 md:min-h-auto flex items-center justify-center text-base lg:text-xs xl:text-base leading-tight text-white hover:text-primary hover:-translate-y-0.5' key={idx}>{t(`footer:${item.nameKey}`)}</LocalizedLink>
           ))}
         </motion.div>
 
         <div className="py-4 md:py-6 flex items-center justify-center text-center border-t border-solid border-white/10 mt-4 md:mt-6">
-          <p>© {new Date().getFullYear()} All Rights Reserved By WINPROFX</p>
+          <p>{t('footer:copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </Container>
     </div>

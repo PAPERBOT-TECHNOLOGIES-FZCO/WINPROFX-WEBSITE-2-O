@@ -1,9 +1,6 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Container } from '@/components/grid'
-import Accordion from '@/components/accordion'
-import CommonTitle from '@/components/common-title';
-import Card from '@/components/trade/card';
-import Cta from '@/components/trade/cta';
 import banner_bg from '@/assets/img/mt5/mt5-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import imgApp from '@/assets/img/mt5/mt5-app.png'
@@ -11,53 +8,44 @@ import imgWeb from '@/assets/img/mt5/mt5-web.png'
 import TopShape from '../../components/top-shape';
 import PlatformCard from '../../components/mt5/platform-card';
 import PaymentFlow from '../../components/payment-flow';
-import DemoCta from '../../components/demo-cta';
+import DemoCta from '@/components/demo-cta';
 import SeoHead from '@/components/seo-head'
-
-// Demo data for platform cards
-const platformCardsData = [
-  {
-    id: 1,
-    meta: "TRADING PLATFORM",
-    title: "Download MT 5 For Mobile",
-    description: "WINPROFX has remained highly successful to expand their business all over the world, and now we are MT 5 is now available on Android and iPhone, and you are one step closer to success. Download MT 5 now and dive into the world of limitless trading opportunities.",
-    img: imgApp,
-  },
-  {
-    id: 2,
-    meta: "TRADING PLATFORM",
-    title: "DOWNLOAD MT5 FOR DESKTOP",
-    description: "Experience the power of MT5 on your desktop. Access advanced charting tools, automated trading capabilities, and real-time market data. WINPROFX provides a seamless web-based trading platform for professional traders looking for advanced features and flexibility.",
-    img: imgWeb,
-  },
-];
+import { useSeo } from '@/hooks/use-seo'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
 
 export default function Mt5Platform() {
+  const { t } = useTranslation('trading')
+  const seo = useSeo('platform')
+  const pf = (key) => t(`platform.${key}`)
+
+  const platformCardsData = [
+    {
+      id: 1,
+      meta: pf('cards.mobile.meta'),
+      title: pf('cards.mobile.title'),
+      description: pf('cards.mobile.description'),
+      img: imgApp,
+    },
+    {
+      id: 2,
+      meta: pf('cards.desktop.meta'),
+      title: pf('cards.desktop.title'),
+      description: pf('cards.desktop.description'),
+      img: imgWeb,
+    },
+  ]
 
   return (
     <>
-      <SeoHead
-        title="Trading Platform | WINPROFX"
-        description="Learn about WINPROFX trading platform access, client tools, account services, and trading-related support features."
-        keywords="Forex Trading Platform, WINPROFX Trading Platform, MT5 Trading Platform, Forex Trading Tools, CFD Trading Platform, Commodities Trading Platform, Online Trading Solutions, Advanced Trading Platform, Forex Market Tools"
-        canonicalPath="/platform"
-      />
+      <SeoHead {...seo} canonicalPath="/platform" />
       <TopShape />
       <CommonBanner
         className="3xl:min-h-350!"
         bg={banner_bg}
         bgClass="bottom-0 w-full"
-        meta="Platform"
-        title="Trading Platform"
-        des={
-          <>
-            WINPROFX has achieved significant success in global business
-            expansion. We offer the Best Forex Trading Platform on MT5,
-            accessible on both Android and iPhone, bringing you one step
-            closer to success. Take the plunge into a realm of endless trading
-            opportunities by downloading MT5 now.
-          </>
-        }
+        meta={pf('bannerMeta')}
+        title={pf('h1')}
+        des={pf('bannerDes')}
       />
       <div className="common-padding">
         <Container>
@@ -68,11 +56,7 @@ export default function Mt5Platform() {
                 id={card.id}
                 meta={card.meta}
                 title={card.title}
-                des={
-                  <>
-                    <p>{card.description}</p>
-                  </>
-                }
+                des={<p>{card.description}</p>}
                 img={card.img}
               />
             ))}
@@ -90,4 +74,3 @@ export default function Mt5Platform() {
     </>
   );
 }
-

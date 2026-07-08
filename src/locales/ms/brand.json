@@ -1,0 +1,192 @@
+{
+  "pages": {
+    "isWinprofxLegit": {
+      "path": "/is-winprofx-legit/",
+      "h1": "Adakah WINPROFX Sah?",
+      "breadcrumb": "Adakah WINPROFX Sah?",
+      "intro": "Halaman rasmi ini menerangkan bagaimana pelanggan boleh mengesahkan maklumat syarikat WINPROFX, butiran entiti undang-undang, pendaftaran pejabat wakil Dubai, domain rasmi dan skop kawal selia. Ia bukan nasihat pelaburan.",
+      "sections": {
+        "legalEntitySummary": "Ringkasan Entiti Undang-undang",
+        "companyRegistration": "Pendaftaran Syarikat",
+        "dubaiRepresentativeOffice": "Pejabat Wakil Dubai",
+        "regulatoryClarification": "Penjelasan Maklumat Kawal Selia",
+        "officialDomainsVerification": "Pengesahan Domain Rasmi",
+        "whatToVerifyBeforeDepositing": "Apa yang Perlu Disahkan Sebelum Deposit",
+        "riskWarning": "Amaran Risiko"
+      },
+      "faqs": {
+        "registeredCompany": {
+          "question": "Adakah WINPROFX syarikat berdaftar?",
+          "answer": "{{legalEntityName}} diperbadankan di {{jurisdiction}} sebagai International Business Company (nombor penubuhan {{incorporationNumber}}). Butiran pendaftaran syarikat diterbitkan di laman web rasmi WINPROFX."
+        },
+        "dubaiOffice": {
+          "question": "Adakah WINPROFX mempunyai pejabat di Dubai?",
+          "answer": "WINPROFX mengekalkan pejabat wakil UAE yang berdaftar di bawah Dubai Professional License ({{dubaiBusinessName}}). Aktiviti berlesen ialah {{dubaiLicenseActivity}}. Ini tidak sama dengan lesen pengawal selia perkhidmatan kewangan melainkan didedahkan secara berasingan."
+        },
+        "verifyOfficial": {
+          "question": "Bagaimana saya boleh mengesahkan WINPROFX adalah rasmi?",
+          "answer": "Sahkan domain berbanding halaman Domain Rasmi, semak dokumen pendaftaran syarikat dan gunakan senarai semak Sahkan WINPROFX sebelum log masuk atau deposit."
+        },
+        "beforeDepositing": {
+          "question": "Apa yang perlu saya semak sebelum deposit dengan WINPROFX?",
+          "answer": "Sahkan anda berada di domain rasmi, semak Amaran Risiko, fahami proses pengeluaran dan aduan serta sahkan maklumat pendaftaran syarikat dan skop kawal selia di Pusat Amanah."
+        }
+      }
+    },
+    "winprofxReview": {
+      "path": "/winprofx-review/",
+      "h1": "Ulasan WINPROFX",
+      "breadcrumb": "Ulasan WINPROFX",
+      "intro": "Ini ialah gambaran fakta rasmi perkhidmatan WINPROFX dan maklumat pengesahan. Ia bukan ulasan pihak ketiga dan tidak termasuk testimoni atau penarafan bintang.",
+      "sections": {
+        "whatWinprofxIs": "Apakah WINPROFX",
+        "tradingPlatform": "Platform Dagangan",
+        "marketsOffered": "Pasaran yang Ditawarkan",
+        "accountServices": "Perkhidmatan Akaun",
+        "trustAndLegal": "Maklumat Amanah dan Undang-undang",
+        "withdrawalsAndComplaints": "Pengeluaran dan Aduan",
+        "whatToVerifyBeforeTrading": "Apa yang Perlu Disahkan Sebelum Berdagang",
+        "riskWarning": "Amaran Risiko"
+      }
+    },
+    "winprofxWithdrawalProcess": {
+      "path": "/winprofx-withdrawal-process/",
+      "h1": "Proses Pengeluaran WINPROFX",
+      "breadcrumb": "Proses Pengeluaran",
+      "intro": "Halaman ini menerangkan proses pengeluaran WINPROFX secara umum, semakan pengesahan, sebab kelewatan biasa dan pilihan eskalasi. Masa pemprosesan berbeza-beza dan tidak dijamin.",
+      "sections": {
+        "overview": "Gambaran Proses Pengeluaran",
+        "stepByStep": "Aliran Pengeluaran Langkah demi Langkah",
+        "kycAml": "Semakan KYC dan AML",
+        "commonDelays": "Sebab Biasa Kelewatan Pengeluaran",
+        "howToAvoid": "Cara Mengelakkan Masalah Pengeluaran",
+        "escalation": "Eskalasi dan Sokongan",
+        "riskWarning": "Amaran Risiko"
+      },
+      "faqs": {
+        "howToRequest": {
+          "question": "Bagaimana saya meminta pengeluaran daripada WINPROFX?",
+          "answer": "Hantar permintaan pengeluaran melalui portal pelanggan rasmi di my.winprofx.org. Sentiasa sahkan URL sebelum log masuk."
+        },
+        "whyDelayed": {
+          "question": "Mengapa pengeluaran WINPROFX saya mungkin tertangguh?",
+          "answer": "Sebab biasa termasuk KYC tidak lengkap, semakan AML, pengesahan kaedah pembayaran, butiran bank yang salah dan masa pemprosesan oleh bank atau penyedia pembayaran."
+        },
+        "escalate": {
+          "question": "Bagaimana saya menaikkan isu pengeluaran?",
+          "answer": "Hubungi support@winprofx.com dengan ID akaun dan rujukan pengeluaran anda, atau lawati halaman Sokongan dan Eskalasi."
+        }
+      }
+    },
+    "winprofxLicenseVerification": {
+      "path": "/winprofx-license-verification/",
+      "h1": "Pengesahan Lesen WINPROFX",
+      "breadcrumb": "Pengesahan Lesen",
+      "intro": "Halaman ini menerangkan pendaftaran syarikat WINPROFX, lesen pejabat wakil Dubai dan skop kawal selia. Penubuhan syarikat dan Dubai Professional License tidak sama dengan lesen broker perkhidmatan kewangan.",
+      "sections": {
+        "companyRegistration": "Pendaftaran Syarikat",
+        "dubaiProfessionalLicense": "Dubai Professional License",
+        "regulatoryScope": "Penjelasan Skop Kawal Selia",
+        "notFinancialServicesLicense": "Apa yang Bukan Sama dengan Lesen Perkhidmatan Kewangan",
+        "verifyDocuments": "Cara Mengesahkan Dokumen",
+        "legalEntityInformation": "Maklumat Entiti Undang-undang"
+      }
+    },
+    "winprofxComplaints": {
+      "path": "/winprofx-complaints/",
+      "h1": "Aduan WINPROFX",
+      "breadcrumb": "Aduan",
+      "intro": "Halaman ini menerangkan bagaimana WINPROFX mengendalikan aduan pelanggan, maklumat yang diperlukan, peringkat semakan dan pilihan eskalasi.",
+      "sections": {
+        "howToSubmit": "Cara Menghantar Aduan",
+        "requiredInformation": "Maklumat Diperlukan",
+        "reviewStages": "Peringkat Semakan Aduan",
+        "publicReviewPolicy": "Dasar Semakan Awam",
+        "escalation": "Eskalasi dan Sokongan"
+      },
+      "faqs": {
+        "howToSubmit": {
+          "question": "Bagaimana saya menghantar aduan kepada WINPROFX?",
+          "answer": "E-mel support@winprofx.com dengan baris subjek \"Aduan\" atau gunakan halaman Hubungi dengan butiran akaun anda."
+        },
+        "requiredInfo": {
+          "question": "Maklumat apa yang perlu saya sertakan dalam aduan?",
+          "answer": "Sertakan nama berdaftar, e-mel, ID akaun, rujukan transaksi atau pengeluaran dan penerangan terperinci isu."
+        },
+        "escalation": {
+          "question": "Bagaimana aduan dinaikkan?",
+          "answer": "Jika isu anda tidak diselesaikan melalui semakan sokongan awal, ikuti proses eskalasi di halaman Sokongan dan Eskalasi."
+        }
+      }
+    },
+    "winprofxFakeWebsiteWarning": {
+      "path": "/winprofx-fake-website-warning/",
+      "h1": "Amaran Laman Web Palsu WINPROFX",
+      "breadcrumb": "Amaran Laman Web Palsu",
+      "intro": "Lindungi diri anda daripada laman web WINPROFX palsu, halaman phishing dan peniru. Sentiasa sahkan domain dan saluran sokongan sebelum berkongsi kelayakan log masuk, dana atau dokumen peribadi.",
+      "sections": {
+        "officialDomains": "Domain Rasmi WINPROFX",
+        "warningSigns": "Tanda Amaran Laman Web Palsu",
+        "howToVerify": "Cara Mengesahkan Domain",
+        "safeLogin": "Panduan Log Masuk Selamat",
+        "whatNotToShare": "Apa yang Tidak Perlu Anda Kongsi",
+        "ifSuspectImpersonation": "Jika Anda Mengesyaki Peniruan"
+      },
+      "faqs": {
+        "howToKnowFake": {
+          "question": "Bagaimana saya tahu jika laman web WINPROFX palsu?",
+          "answer": "Bandingkan URL dengan halaman Domain Rasmi. Laman palsu mungkin menggunakan penjenamaan serupa dengan domain berbeza, meminta kaedah pembayaran luar biasa atau menekan anda berkongsi kelayakan."
+        },
+        "enteredCredentials": {
+          "question": "Apa yang perlu saya lakukan jika saya memasukkan kelayakan di laman mencurigakan?",
+          "answer": "Tukar kata laluan serta-merta melalui portal pelanggan rasmi, hubungi support@winprofx.com dan jangan hantar dana tambahan sehingga disahkan."
+        },
+        "socialMediaContact": {
+          "question": "Bolehkah ejen sokongan WINPROFX menghubungi saya di media sosial?",
+          "answer": "Sokongan rasmi melalui support@winprofx.com dan saluran laman web rasmi. Berhati-hati dengan mesej media sosial yang tidak diminta mendakwa sebagai WINPROFX."
+        }
+      }
+    },
+    "winprofxOfficialLogin": {
+      "path": "/winprofx-official-login/",
+      "h1": "Log Masuk Rasmi WINPROFX",
+      "breadcrumb": "Log Masuk Rasmi",
+      "intro": "Gunakan halaman ini untuk mengakses panduan log masuk rasmi WINPROFX. Sentiasa sahkan URL dalam pelayar anda sebelum memasukkan kelayakan.",
+      "sections": {
+        "clientPortal": "Log Masuk Portal Pelanggan",
+        "partnerPortal": "Log Masuk Portal Rakan Kongsi",
+        "passwordSecurity": "Keselamatan Kata Laluan dan Akaun",
+        "verifyBeforeLogin": "Sahkan Sebelum Anda Log Masuk"
+      }
+    },
+    "winprofxDepositWithdrawalMethods": {
+      "path": "/winprofx-deposit-and-withdrawal-methods/",
+      "h1": "Kaedah Deposit dan Pengeluaran WINPROFX",
+      "breadcrumb": "Kaedah Deposit & Pengeluaran",
+      "intro": "Halaman ini memberikan gambaran kaedah deposit dan pengeluaran WINPROFX, keperluan pengesahan dan nota keselamatan. Ketersediaan kaedah tertentu mungkin berbeza mengikut akaun dan wilayah.",
+      "sections": {
+        "depositOverview": "Gambaran Kaedah Deposit",
+        "withdrawalOverview": "Gambaran Kaedah Pengeluaran",
+        "kycAml": "Semakan KYC dan AML",
+        "processingDisclaimer": "Penafian Pemprosesan",
+        "securityNote": "Nota Keselamatan",
+        "commonIssues": "Isu Biasa",
+        "riskWarning": "Amaran Risiko"
+      },
+      "faqs": {
+        "depositMethods": {
+          "question": "Kaedah deposit apa yang disokong WINPROFX?",
+          "answer": "Kaedah deposit yang tersedia diterbitkan di portal pelanggan dan mungkin termasuk pindahan bank, kad dan pilihan pembayaran elektronik bergantung pada akaun dan wilayah."
+        },
+        "withdrawalTime": {
+          "question": "Adakah pengeluaran WINPROFX dijamin dalam masa tertentu?",
+          "answer": "Masa pemprosesan berbeza-beza dan tidak dijamin. KYC, semakan AML dan pemprosesan penyedia pembayaran boleh menjejaskan garis masa."
+        },
+        "kycEffect": {
+          "question": "Mengapa KYC boleh menjejaskan deposit atau pengeluaran saya?",
+          "answer": "Pengesahan KYC dan AML diperlukan untuk pematuhan. Pengesahan tidak lengkap boleh melambatkan atau mengehadkan deposit dan pengeluaran sehingga diselesaikan."
+        }
+      }
+    }
+  }
+}

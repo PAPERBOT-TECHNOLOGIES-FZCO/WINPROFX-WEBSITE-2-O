@@ -1,106 +1,74 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import Logo from '@/components/logo';
-import LangulageSelect from '@/components/langulage-select'
+import LanguageSelect from '@/components/langulage-select';
+import LocalizedLink from '@/components/localized-link';
 
 export default function Header() {
+  const { t } = useTranslation('navigation');
+
   const navLinks = [
     {
-      btn_title: 'Markets',
+      btn_title: t('markets'),
       to: '',
       children: [
-        {
-          btn_title: 'Forex',
-          to: '/forex'
-        },
-        {
-          btn_title: 'Indices',
-          to: '/indices'
-        },
-        {
-          btn_title: 'Crypto',
-          to: '/crypto'
-        },
-        {
-          btn_title: 'Metals',
-          to: '/trading/metals',
-        },
-        {
-          btn_title: 'Commodities',
-          to: '/trading/commodities',
-        },
-        {
-          btn_title: 'Oil',
-          to: '/trading/oil',
-        },
+        { btn_title: t('forex'), to: '/forex' },
+        { btn_title: t('indices'), to: '/indices' },
+        { btn_title: t('crypto'), to: '/crypto' },
+        { btn_title: t('metals'), to: '/trading/metals' },
+        { btn_title: t('commodities'), to: '/trading/commodities' },
+        { btn_title: t('oil'), to: '/trading/oil' },
       ],
     },
     {
-      btn_title: 'Trading',
+      btn_title: t('trading'),
       to: '',
       children: [
-        {
-          btn_title: 'Platfrom',
-          to: '/platform',
-        },
-        {
-          btn_title: 'Accounts',
-          to: '/accounts',
-        },
+        { btn_title: t('platform'), to: '/platform' },
+        { btn_title: t('accounts'), to: '/accounts' },
       ],
     },
     {
-      btn_title: 'Tools',
+      btn_title: t('tools'),
       to: '',
       children: [
-        {
-          btn_title: 'Analytics',
-          to: '/analytics'
-        },
-        {
-          btn_title: 'Economic Calendar',
-          to: '/economic-calendar'
-        },
-        {
-          btn_title: 'Currency Calculator',
-          to: '/currency-calculator'
-        },
-        {
-          btn_title: 'Currency Converter',
-          to: '/currency-converter'
-        },
+        { btn_title: t('analytics'), to: '/analytics' },
+        { btn_title: t('economicCalendar'), to: '/economic-calendar' },
+        { btn_title: t('currencyCalculator'), to: '/currency-calculator' },
+        { btn_title: t('currencyConverter'), to: '/currency-converter' },
       ],
     },
     {
-      btn_title: 'Insights',
+      btn_title: t('insights'),
       to: '',
       children: [
-        {
-          btn_title: 'Blog',
-          to: '/blog'
-        },
+        { btn_title: t('blog'), to: '/blog' },
+        { btn_title: t('learn'), to: '/learn' },
       ],
     },
     {
-      btn_title: 'Promotions',
+      btn_title: t('promotions'),
       to: '',
       children: [
-        {
-          btn_title: 'Promotion',
-          to: '/trading/win-promotion',
-        },
+        { btn_title: t('promotion'), to: '/trading/win-promotion' },
       ],
     },
     {
-      btn_title: 'About Us',
-      to: '/about-us',
+      btn_title: t('aboutUs'),
+      to: '',
+      children: [
+        { btn_title: t('aboutWinprofx'), to: '/about-us' },
+        { btn_title: t('trustCenter'), to: '/trust-center' },
+        { btn_title: t('companyProfile'), to: '/company-profile' },
+      ],
     },
   ];
+
   const [active_child, set_active_child] = useState(null);
   const header_ref = useRef()
-  // when click outside of menu, close the menu
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (header_ref.current && !header_ref.current.contains(event.target)) {
@@ -112,7 +80,6 @@ export default function Header() {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [set_active_child]);
-
 
   const [isMenu, setIsMenu] = useState(false);
   const handleTouchStart = () => {
@@ -130,7 +97,6 @@ export default function Header() {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [scrolled, setScrolled]);
-
 
   useEffect(() => {
     if (isMenu) {
@@ -165,7 +131,7 @@ export default function Header() {
             <ul className="flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:items-center">
               {navLinks.map((link, index) => (
                 <li key={index} className='block relative z-1'>
-                  <Link
+                  <LocalizedLink
                     className="inline-flex items-center justify-center lg:px-1.5 2xl:px-2.5 gap-2 text-base text-white leading-normal hover:text-primary transition-all duration-300 hover:-translate-y-0.5"
                     to={link.to}
                     onClick={() => !link.children && window.innerWidth <= 991 && handleTouchStart(link.to)}
@@ -176,7 +142,7 @@ export default function Header() {
                       <svg className={`${active_child === index ? '-scale-y-100' : 'scale-y-100'} transition-all duration-300`} width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.96004 4.475L6.70004 7.735C6.31504 8.12 5.68504 8.12 5.30004 7.735L2.04004 4.475" stroke="currentColor" strokeOpacity="0.6" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>}
-                  </Link>
+                  </LocalizedLink>
                   <AnimatePresence mode='wait'>
                     {(active_child === index && link.children) &&
                       <motion.div
@@ -187,13 +153,13 @@ export default function Header() {
                         <ul className="flex flex-col gap-2 p-2">
                           {link.children?.map((child, childIndex) => (
                             <li key={childIndex}>
-                              <Link
+                              <LocalizedLink
                                 onClick={() => { set_active_child(null); setIsMenu(false) }}
                                 className="inline-flex items-center justify-center px-2.5 gap-1.5 text-base text-white leading-normal hover:text-primary transition-all duration-300 hover:translate-x-1"
                                 to={child.to}
                               >
                                 {child.btn_title}
-                              </Link>
+                              </LocalizedLink>
                             </li>
                           ))}
                         </ul>
@@ -203,7 +169,7 @@ export default function Header() {
                 </li>
               ))}
               <li className='md:hidden mt-4'>
-                <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6'>Introducing Broker</Link>
+                <LocalizedLink to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6'>{t('introducingBroker')}</LocalizedLink>
               </li>
               <li className='md:hidden'>
                 <a
@@ -212,31 +178,30 @@ export default function Header() {
                   rel='noopener noreferrer'
                   className='gradient-text-primary text-base font-medium'
                 >
-                  Partner Portal
+                  {t('partnerPortal')}
                 </a>
               </li>
               <li className="flex lg:hidden items-center gap-4 mt-4 border-t border-solid border-white/10 pt-4">
-                <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
-                <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
+                <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>{t('login')}</a>
+                <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>{t('register')}</a>
               </li>
             </ul>
           </nav>
 
           <div className="heading-actions flex items-center flex-wrap gap-2">
-            <Link to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6 hidden md:block lg:hidden xl:inline-block'>Introducing Broker</Link>
+            <LocalizedLink to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6 hidden md:block lg:hidden xl:inline-block'>{t('introducingBroker')}</LocalizedLink>
             <a
               href='https://partner.winprofx.org'
               target='_blank'
               rel='noopener noreferrer'
               className='gradient-text-primary text-base font-medium mr-4 hidden lg:inline-block'
             >
-              Partner Portal
+              {t('partnerPortal')}
             </a>
-            <LangulageSelect className='flex lg:hidden xl:flex' />
-            <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>Login</a>
-            <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>Register</a>
+            <LanguageSelect className='flex lg:hidden xl:flex' />
+            <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>{t('login')}</a>
+            <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>{t('register')}</a>
 
-            {/* Mobile menu button */}
             <button className="heading-toggler lg:hidden!" onClick={() => setIsMenu(!isMenu)}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6.5 md:size-8">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />

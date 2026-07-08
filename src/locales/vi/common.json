@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "getStarted": "Bắt đầu",
+    "learnMore": "Tìm hiểu thêm",
+    "openAccount": "Mở tài khoản",
+    "startTrading": "Bắt đầu giao dịch",
+    "downloadNow": "Tải ngay",
+    "viewPage": "Xem trang →",
+    "viewAllArticles": "Xem tất cả bài viết →",
+    "readFullRiskWarning": "Đọc cảnh báo rủi ro đầy đủ"
+  },
+  "labels": {
+    "home": "Trang chủ",
+    "trustCenter": "Trung tâm tin cậy",
+    "lastReviewed": "Lần xem xét cuối:",
+    "reviewedBy": "Người xem xét:",
+    "riskWarning": "Cảnh báo rủi ro:",
+    "lastUpdated": "Cập nhật lần cuối: {{date}}",
+    "authorReviewedBy": "Tác giả: {{author}} · Người xem xét: {{reviewer}}",
+    "faqTitle": "Câu hỏi thường gặp",
+    "relatedTrustPages": "Các trang xác minh WINPROFX liên quan",
+    "relatedPages": "Các trang WINPROFX liên quan",
+    "moreArticles": "Thêm bài viết",
+    "whatsapp": "Whatsapp"
+  },
+  "disclaimer": {
+    "learnEducational": "Bài viết này chỉ nhằm mục đích giáo dục và không cấu thành lời khuyên đầu tư, lời khuyên tài chính hoặc khuyến nghị giao dịch."
+  },
+  "risk": {
+    "short": "Giao dịch Forex và CFD có rủi ro đáng kể và có thể không phù hợp với tất cả nhà đầu tư. Khách hàng nên hiểu rõ rủi ro trước khi giao dịch.",
+    "full": "Giao dịch Forex, CFD và các sản phẩm tài chính liên quan có rủi ro đáng kể và có thể không phù hợp với tất cả nhà đầu tư. Bạn có thể mất một phần hoặc toàn bộ vốn đầu tư. Hiệu suất trong quá khứ không phải là chỉ báo cho kết quả tương lai. Khách hàng nên hiểu rõ rủi ro trước khi giao dịch và tìm kiếm lời khuyên độc lập nếu cần."
+  },
+  "store": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play"
+  },
+  "errors": {
+    "title": "Page Not Found",
+    "seoTitle": "Page Not Found | WINPROFX",
+    "backHome": "Back to Home"
+  },
+  "download": {
+    "appStorePrefix": "Download on the",
+    "googlePlayPrefix": "GET IT ON",
+    "windowsPrefix": "Download for",
+    "windowsLabel": "Windows",
+    "webTradingPrefix": "Open in",
+    "webTradingLabel": "WebTrading"
+  },
+  "cta": {
+    "accountsTitle": "Are You Ready to Start Trading",
+    "accountsDes": "Trade with an Award Winning broker!",
+    "openLiveAccount": "Open Live account"
+  }
+}

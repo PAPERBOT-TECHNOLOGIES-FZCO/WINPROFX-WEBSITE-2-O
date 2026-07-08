@@ -9,44 +9,35 @@ import Cta from '@/components/trade/cta';
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import SeoHead from '@/components/seo-head'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 import img from '@/assets/img/trade/crypto.png'
 import bg from '@/assets/img/trade/crypto-bg.png'
 
 export default function Crypto() {
+    const seo = useSeo('crypto')
+    const { t } = useTranslation('markets')
+
     const item = [
         {
-            title: 'DISCOVER HOW TO TRADE',
-            body: `
-                <p>Download our Education app to learn how to trade on WINPROFX Trader's various financial instruments. To get started, we've covered every aspect of trading.</p>
-                <p>A Brief Summary of Recent News and Opinions</p>
-                <p>Volatility Forecast Based on Technical Analysis</p>
-                <p>Brief overview of major currency pairs based on the provided fundamental</p>
-                <p>For example, if you choose to trade GBP/USD (British pound/US dollar) and you think the value of the GBP will rise against USD, you go long (buy). If you think GBP will fall against USD, you go short (sell). If your prediction is correct, you make a profit. If your prediction is incorrect, you would make a loss. Remember, losses can exceed deposits..</p>
-            `,
+            title: t('shared.faq.discoverHowToTrade.title'),
+            body: t('shared.faq.discoverHowToTrade.body'),
         },
         {
-            title: 'WHAT IS CRYPTOCURRENCY?',
-            body: `
-                <p>Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.</p>
-            `,
+            title: t('crypto.faq.whatIsCrypto.title'),
+            body: t('crypto.faq.whatIsCrypto.body'),
         },
         {
-            title: 'HOW DOES CRYPTOCURRENCY WORK?',
-            body: `
-                <p>Cryptocurrencies run on a distributed public ledger called blockchain, a record of all transactions updated and held by currency holders. Units of cryptocurrency are created through a process called mining, which involves using computer power to solve complicated mathematical problems that generate coins. Users can also buy the currencies from brokers, then store and spend them using cryptographic wallets.</p>
-            `,
+            title: t('crypto.faq.howDoesCryptoWork.title'),
+            body: t('crypto.faq.howDoesCryptoWork.body'),
         },
     ]
 
     return (
         <>
-            <SeoHead
-                title="Best Crypto Trading Platform in India | WINPROFX"
-                description="Explore the best crypto trading app and platform in India with WINPROFX. Enjoy free funded accounts, low spreads, and advanced tools to enhance your cryptocurrency trading experience."
-                keywords="Best Crypto Trading App in India, WINPROFX Crypto Trading Platform, Free Funded Accounts, Crypto Brokers in India, Cryptocurrency Trading India, Low Spreads Crypto Trading, User-Friendly Crypto Trading App"
-                canonicalPath="/crypto"
-            />
+            <SeoHead {...seo} canonicalPath="/crypto" />
             <div className="h-screen xl:h-235 2xl:h-300 pt-25 md:pt-0 4xl:min-h-screen pb-13 md:pb-12 xl:pb-25 flex flex-col w-full relative">
                 <svg className='absolute top-0 right-0 -z-10 pointer-events-none' width="1920" height="971" viewBox="0 0 1920 971" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.6" filter="url(#filter0_f_1_9152)">
@@ -79,8 +70,8 @@ export default function Crypto() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col items-start justify-start max-w-150 lg:max-w-110 xl:max-w-160">
-                        <MetaText title="Crypto trading" className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" />
-                        <h1 className='h1 max-w-75 mx-auto md:max-w-full'>Crypto Trading</h1>
+                        <MetaText title={t('crypto.banner.meta')} className="mb-4 md:mb-5 lg:mb-6 hidden! md:inline-block!" />
+                        <h1 className='h1 max-w-75 mx-auto md:max-w-full'>{t('crypto.banner.title')}</h1>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: y }}
@@ -88,9 +79,9 @@ export default function Crypto() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="flex flex-col gap-y-3 lg:max-w-120 xl:max-w-130 2xl:max-w-175 w-full">
-                        <p className='text-para2'>Cryptocurrencies are digital assets built on blockchain technology, offering decentralized and transparent financial transactions. Over the past decade, crypto markets have evolved into one of the fastest-growing trading opportunities globally.</p>
-                        <p className='text-para2'>With our platform, you can trade popular cryptocurrencies like Bitcoin, Ethereum, and more through CFDs—allowing you to speculate on price movements without owning the underlying asset.</p>
-                        <p className='text-para2'>Benefit from high liquidity, 24/7 market access, and advanced trading tools designed for both beginners and experienced traders.</p>
+                        <p className='text-para2'>{t('crypto.banner.description1')}</p>
+                        <p className='text-para2'>{t('crypto.banner.description2')}</p>
+                        <p className='text-para2'>{t('crypto.banner.description3')}</p>
                         <Button animation={false} className="mt-3 lg:mt-5" />
                     </motion.div>
                 </div>
@@ -101,10 +92,10 @@ export default function Crypto() {
                 <Container>
                     <div className="flex flex-col gap-y-6 lg:gap-y-8 max-w-6xl">
                         <Card
-                            meta="Crypto trading"
-                            title="Trade Popular Cryptocurrency Pairs"
+                            meta={t('crypto.card.meta')}
+                            title={t('crypto.card.title')}
                             des={<>
-                                <p>Track real-time price movements and explore opportunities across leading crypto assets.</p>
+                                <p>{t('crypto.card.description')}</p>
                             </>}
                             img={img}
                         />
@@ -114,10 +105,11 @@ export default function Crypto() {
             </div>
             <div className="common-padding pt-0">
                 <div className='max-w-215 mx-auto px-3'>
-                    <CommonTitle className='text-center' title="Learn About Cryptocurrency Trading" />
+                    <CommonTitle className='text-center' title={t('crypto.learn.title')} />
                     <Accordion items={item} activeItem={0} />
                 </div>
             </div>
+            <MarketPageTrustLinks />
         </>
     )
 }

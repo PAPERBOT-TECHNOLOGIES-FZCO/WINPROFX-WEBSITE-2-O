@@ -1,0 +1,191 @@
+{
+  "shared": {
+    "cta": {
+      "meta": "información clave",
+      "title": "Descubra los aprendizajes esenciales para el éxito estratégico.",
+      "description": "La práctica, el conocimiento y la gestión del riesgo son importantes para todos los operadores. Revise las advertencias de riesgo de WINPROFX y la información del Centro de confianza antes de operar."
+    },
+    "trustLinks": {
+      "title": "Información de trading y riesgo",
+      "accountTypes": "Tipos de cuenta",
+      "mt5Platform": "Plataforma de trading MT5",
+      "trustCenter": "Centro de confianza WINPROFX",
+      "riskWarning": "Advertencia de riesgo",
+      "clientFundSecurity": "Seguridad de fondos del cliente",
+      "learningCenter": "Centro de aprendizaje WINPROFX"
+    },
+    "faq": {
+      "discoverHowToTrade": {
+        "title": "DESCUBRA CÓMO OPERAR",
+        "body": "<p>Descargue nuestra aplicación educativa para aprender a operar con los distintos instrumentos financieros de WINPROFX Trader. Para empezar, hemos cubierto todos los aspectos del trading.</p><p>Resumen breve de noticias y opiniones recientes</p><p>Previsión de volatilidad basada en análisis técnico</p><p>Resumen breve de los principales pares de divisas según los fundamentales proporcionados</p><p>Por ejemplo, si decide operar GBP/USD (libra esterlina/dólar estadounidense) y cree que el valor de la GBP subirá frente al USD, abre una posición larga (compra). Si cree que la GBP caerá frente al USD, abre una posición corta (venta). Si su predicción es correcta, obtiene beneficios. Si su predicción es incorrecta, sufrirá pérdidas. Recuerde que las pérdidas pueden superar los depósitos.</p>"
+      }
+    }
+  },
+  "forex": {
+    "banner": {
+      "title": "Trading de Forex",
+      "description": "Opere 24/5 con activos en el mercado de divisas. Ofrecemos más de 50 pares de divisas mayores, menores y exóticos, con spreads competitivos, precios precisos, ejecución rápida y 0% de comisión."
+    },
+    "card": {
+      "meta": "Trading de Forex",
+      "title": "Mercados de Forex populares",
+      "description1": "Forex o el mercado de divisas es un mercado global donde se negocian monedas. Supera con creces al mercado de valores, con un volumen de trading de forex de hasta 5 billones de USD al día.",
+      "description2": "Como el mercado de forex no está centralizado, está abierto las 24 horas del día, desde el domingo por la noche hasta el viernes por la noche. Revise siempre las declaraciones de riesgo y la información de verificación oficial antes de operar."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de Forex"
+    },
+    "faq": {
+      "whatIsForex": {
+        "title": "¿QUÉ ES FOREX?",
+        "body": "<p>Forex significa FOREIGN EXCHANGE (mercado de divisas). En términos sencillos, desde cualquier lugar del mundo se puede operar con la moneda de cualquier país, metales, índices mundiales y criptomonedas estudiando la economía global y los gráficos técnicos.</p>"
+      },
+      "howToTradeForex": {
+        "title": "¿CÓMO OPERAR EN FOREX?",
+        "body": "<p>Primero, encuentre un bróker de Forex de confianza, como WINPROFX, abra una cuenta, deposite fondos, analice la tendencia del mercado, elija su instrumento de trading preferido y, por último, tome su posición para obtener beneficios.</p>"
+      }
+    }
+  },
+  "indices": {
+    "banner": {
+      "meta": "Trading de índices",
+      "title": "Trading de índices",
+      "description": "Los índices siguen el rendimiento de un grupo de empresas líderes, ofreciéndole exposición a economías enteras mediante una sola operación."
+    },
+    "card": {
+      "meta": "Trading de índices",
+      "title": "Mercados de índices populares",
+      "description1": "Los índices bursátiles miden el rendimiento de una cesta de acciones de un mercado o sector determinado.",
+      "description2": "Operar con CFD sobre índices le permite obtener una amplia exposición al mercado con una sola posición. Revise siempre las declaraciones de riesgo y la información de verificación oficial antes de operar."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de índices"
+    },
+    "faq": {
+      "howCalculated": {
+        "title": "¿CÓMO SE CALCULAN LOS ÍNDICES BURSÁTILES?",
+        "body": "<p>La mayoría de los índices bursátiles se calculan según la capitalización de mercado de sus empresas componentes. Este método otorga mayor peso a las empresas de mayor capitalización, lo que significa que su rendimiento afectará más al valor del índice que el de las empresas de menor capitalización.</p>"
+      },
+      "tradeWithLeverage": {
+        "title": "OPERAR CON APALANCAMIENTO",
+        "body": "<p>Al operar con apalancamiento, debe recordar que su beneficio o pérdida se calcula utilizando el tamaño total de la posición, no solo el margen inicial utilizado para abrirla. Esto significa que, si bien el apalancamiento puede amplificar las ganancias, también puede amplificar las pérdidas.</p>"
+      }
+    }
+  },
+  "crypto": {
+    "banner": {
+      "meta": "Trading de criptomonedas",
+      "title": "Trading de criptomonedas",
+      "description1": "Las criptomonedas son activos digitales basados en tecnología blockchain, que ofrecen transacciones financieras descentralizadas y transparentes. Durante la última década, los mercados de criptomonedas se han convertido en una de las oportunidades de trading de más rápido crecimiento a nivel mundial.",
+      "description2": "Con nuestra plataforma, puede operar criptomonedas populares como Bitcoin, Ethereum y más a través de CFD, lo que le permite especular sobre los movimientos de precios sin poseer el activo subyacente.",
+      "description3": "Benefíciese de una alta liquidez, acceso al mercado 24/7 y herramientas de trading avanzadas diseñadas tanto para principiantes como para operadores experimentados."
+    },
+    "card": {
+      "meta": "Trading de criptomonedas",
+      "title": "Opere con pares de criptomonedas populares",
+      "description": "Siga los movimientos de precios en tiempo real y explore oportunidades en los principales activos cripto."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de criptomonedas"
+    },
+    "faq": {
+      "whatIsCrypto": {
+        "title": "¿QUÉ ES UNA CRIPTOMONEDA?",
+        "body": "<p>Una criptomoneda es un sistema de pago digital que no depende de los bancos para verificar las transacciones. Es un sistema entre pares que permite a cualquier persona, en cualquier lugar, enviar y recibir pagos. En lugar de ser dinero físico que se transporta e intercambia en el mundo real, los pagos con criptomonedas existen únicamente como entradas digitales en una base de datos en línea que describe transacciones específicas. Cuando transfiere fondos en criptomonedas, las transacciones se registran en un libro mayor público. Las criptomonedas se almacenan en monederos digitales.</p>"
+      },
+      "howDoesCryptoWork": {
+        "title": "¿CÓMO FUNCIONAN LAS CRIPTOMONEDAS?",
+        "body": "<p>Las criptomonedas funcionan mediante un libro mayor público distribuido llamado blockchain, un registro de todas las transacciones actualizado y mantenido por los titulares de la moneda. Las unidades de criptomoneda se crean mediante un proceso llamado minería, que implica el uso de potencia informática para resolver problemas matemáticos complejos que generan monedas. Los usuarios también pueden comprar las monedas a través de brókers y luego almacenarlas y gastarlas mediante monederos criptográficos.</p>"
+      }
+    }
+  },
+  "metals": {
+    "banner": {
+      "meta": "Trading de metales",
+      "title": "Trading de metales",
+      "description1": "El trading al contado de metales ocupa un lugar especial en el corazón de todo operador. Los metales han atraído a operadores de todo el mundo desde la antigüedad y siguen haciéndolo hoy.",
+      "description2": "WINPROFX Trader ofrece los spreads más bajos en diversos metales según su interés y preferencia. Revise los tipos de cuenta y las advertencias de riesgo antes de operar con CFD sobre metales."
+    },
+    "card": {
+      "meta": "Trading de metales",
+      "title": "Mercados de metales populares",
+      "description": "Siga el rendimiento en tiempo real de los metales clave e identifique oportunidades de trading en los mercados mundiales de materias primas."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de metales"
+    },
+    "faq": {
+      "whyTradeMetals": {
+        "title": "POR QUÉ OPERAR METALES CON WINPROFX",
+        "body": "<p>WINPROFX cuenta con una sólida trayectoria de más de 16 años. Hemos ofrecido a nuestros operadores grandes oportunidades y una experiencia de trading inigualable. Esto nos posiciona como uno de los brókers líderes en el trading de metales. Así que, si busca operar con oro, hay muchas razones para elegir WINPROFX: Miles de operadores satisfechos</p><p>Soporte disponible las 24 horas Retiros y ejecución ultrarrápidos Análisis detallados para tomar decisiones informadas</p><p>Por ejemplo, si decide operar GBP/USD (libra esterlina/dólar estadounidense) y cree que el valor de la GBP subirá frente al USD, abre una posición larga (compra). Si cree que la GBP caerá frente al USD, abre una posición corta (venta). Si su predicción es correcta, obtiene beneficios. Si su predicción es incorrecta, sufrirá pérdidas. Recuerde que las pérdidas pueden superar los depósitos.</p>"
+      },
+      "stepUpTrading": {
+        "title": "LLEVE SU TRADING DE MATERIAS PRIMAS AL SIGUIENTE NIVEL",
+        "body": "<p>El oro es el metal más activamente negociado. Según la ley de oferta y demanda, su precio lo determina un mercado activo las 24 horas del día, los 7 días de la semana. Otros factores, como el valor del dólar estadounidense, la demanda industrial y la inflación, también influyen en su precio. Si desea operar con metales, comience por el buen camino con WINPROFX y avance con confianza para convertirse en un operador experimentado.</p>"
+      },
+      "howMetalTradingWorks": {
+        "title": "¿CÓMO FUNCIONA EL TRADING DE METALES?",
+        "body": "<p>Para optimizar los rendimientos, los operadores deben comprender claramente todos los factores que afectan al precio del oro y de otros metales. Curiosamente, los impulsores de precio de los metales preciosos son bastante diferentes en comparación con otros instrumentos.</p>"
+      }
+    }
+  },
+  "commodities": {
+    "banner": {
+      "meta": "Trading de materias primas",
+      "title": "Trading de materias primas",
+      "description1": "Aproveche la volatilidad del mercado y elija entre CFD sobre materias primas al contado y futuros. En WINPROFX, ofrecemos algunos de los instrumentos más populares del mercado de materias primas, incluidos oro, petróleo y café, para especulación y cobertura.",
+      "description2": "Opere por cada movimiento completo de tick con cero comisiones y sin tarifas ocultas. Revise los tipos de cuenta y las advertencias de riesgo antes de operar con CFD sobre materias primas."
+    },
+    "card": {
+      "meta": "Trading de materias primas",
+      "title": "Mercados de materias primas en vivo",
+      "description": "Monitoree la acción del precio en tiempo real y siga la volatilidad diaria en metales, energía y activos agrícolas de primer nivel."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de materias primas"
+    },
+    "faq": {
+      "whatAreCommodities": {
+        "title": "¿Qué son las materias primas?",
+        "body": "<p>Las materias primas son materias en bruto o productos agrícolas primarios que pueden comprarse y venderse en los mercados financieros. Normalmente se utilizan en la producción de otros bienes y servicios y se negocian en bolsas de materias primas de todo el mundo. Algunos ejemplos incluyen metales (oro, plata y platino), fuentes de energía (carbón, petróleo crudo y gas natural), productos agrícolas (soja, maíz y trigo) y ganado y productos animales (ganado vacuno, huevos y leche).</p>"
+      },
+      "howCommodityTradingWorks": {
+        "title": "¿Cómo funciona el trading de materias primas?",
+        "body": "<p>El trading de materias primas le permite especular sobre los movimientos de precios de materias en bruto a través de CFD sin poseer el activo físico. Los operadores analizan la oferta y la demanda, los patrones climáticos, los eventos geopolíticos y los datos económicos para abrir posiciones largas o cortas en instrumentos como oro, petróleo y productos agrícolas.</p>"
+      },
+      "howMuchToStart": {
+        "title": "¿Cuánto dinero necesito para empezar a operar con materias primas?",
+        "body": "<p>La cantidad necesaria depende de su tipo de cuenta, el apalancamiento y los instrumentos que opere. WINPROFX ofrece múltiples opciones de cuenta con distintos requisitos de depósito mínimo. Comience con una cantidad que pueda permitirse perder y revise nuestros tipos de cuenta y advertencias de riesgo antes de operar.</p>"
+      }
+    }
+  },
+  "oil": {
+    "banner": {
+      "meta": "Trading de petróleo",
+      "title": "Trading de petróleo",
+      "description": "Cúbrase contra la volatilidad de precios y aproveche las tendencias del mercado global. Acceda a datos en tiempo real, gráficos avanzados y liquidez profunda en nuestra plataforma de trading de primer nivel para navegar por el sector energético con confianza."
+    },
+    "card": {
+      "meta": "Trading de petróleo",
+      "title": "Opere con datos de mercado en vivo",
+      "description": "Siga los movimientos de precios en tiempo real, las fluctuaciones diarias y las tendencias técnicas en activos energéticos premium."
+    },
+    "learn": {
+      "title": "Aprenda sobre el trading de petróleo"
+    },
+    "faq": {
+      "howToStart": {
+        "title": "¿Cómo empezar a operar con petróleo?",
+        "body": "<p>Antes de empezar a operar con petróleo, es esencial investigar y comprender el mercado. Debe conocer qué factores afectan los precios del petróleo y cómo pueden cambiar en el futuro. También debe entender los distintos tipos de petróleo que puede operar en el mercado y los productos que utilizan cada uno.</p>"
+      },
+      "bestStrategy": {
+        "title": "¿Cuál es la mejor estrategia para operar con petróleo crudo?",
+        "body": "<p>Las estrategias eficaces de petróleo crudo suelen combinar el análisis técnico con la conciencia de la oferta, la demanda y las noticias geopolíticas. Muchos operadores utilizan enfoques de seguimiento de tendencias, rupturas o trading en rango durante las sesiones de mayor volumen. Ninguna estrategia garantiza beneficios: utilice siempre la gestión del riesgo y revise las declaraciones de riesgo de WINPROFX.</p>"
+      },
+      "bestIndicator": {
+        "title": "¿Cuál es el mejor indicador para el petróleo crudo?",
+        "body": "<p>Las herramientas populares para el petróleo crudo incluyen medias móviles, RSI, MACD e indicadores basados en volumen, a menudo junto con listas de seguimiento de informes de inventarios y titulares de la OPEP. El mejor indicador depende de su marco temporal y estrategia: practique en demo y revise los recursos educativos antes de operar en vivo.</p>"
+      }
+    }
+  }
+}

@@ -8,52 +8,41 @@ import banner_bg from '@/assets/img/trade/metals-banner-bg.png'
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/metals.png'
 import SeoHead from '@/components/seo-head'
+import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
+import { useSeo } from '@/hooks/use-seo'
+import { useTranslation } from 'react-i18next'
 
 export default function Metals() {
+    const seo = useSeo('metals')
+    const { t } = useTranslation('markets')
+
     const item = [
         {
-            title: 'WHY TRADE METAL WITH WINPROFX',
-            body: `
-                <p>WINPROFX a rich track record spanning more than 16 years. We have delivered our traders great opportunities and unparalleled trading experience. This positions us as one of the leading brokers when it comes to metals trading. So, if you’re looking to trade in Gold, there are many reasons to choose WINPROFX: Thousands of happy and satisfied traders</p>                
-                <p>Round-the-clock support available
-                   Super-fast withdrawal and executionl
-                Rich analytics to make informed decisions</p>
-                <p>For example, if you choose to trade GBP/USD (British pound/US dollar) and you think the value of the GBP will rise against USD, you go long (buy). If you think GBP will fall against USD, you go short (sell). If your prediction is correct, you make a profit. If your prediction is incorrect, you would make a loss. Remember, losses can exceed deposits..</p>
-            `,
+            title: t('metals.faq.whyTradeMetals.title'),
+            body: t('metals.faq.whyTradeMetals.body'),
         },
         {
-            title: 'STEP UP YOUR COMMODITIES TRADING GAME',
-            body: `
-                <p>Gold is the most actively traded metal. Based on the law of supply and demand, its price is determined by the 24/7 market. Other factors like the value of the US dollar, industrial demand, as well as inflation also influence its price. If you’re looking to trade metals, get started on the right track with WINPROFX and stride confidently to become a seasoned trader. </p>
-                
-            `,
+            title: t('metals.faq.stepUpTrading.title'),
+            body: t('metals.faq.stepUpTrading.body'),
         },
         {
-            title: 'HOW DOES METAL TRADING WORK?',
-            body: `
-                <p>In order to optimize returns, the traders must have a clear understanding of all the factors that affect the price of gold and other metals. Interestingly, the price drivers of precious metals are quite different in comparison to other instruments. </p>
-                
-            `,
+            title: t('metals.faq.howMetalTradingWorks.title'),
+            body: t('metals.faq.howMetalTradingWorks.body'),
         },
     ]
 
     return (
         <>
-            <SeoHead
-                title="Best Metals Trading Platform in India | WINPROFX"
-                description="Explore the best metals trading app and platform in India with WINPROFX. Trade gold, silver, and more with free funded accounts, low spreads, and advanced tools."
-                keywords="Best Metals Trading App in India, WINPROFX Metals Trading Platform, Free Funded Accounts, Metals Brokers in India, Metals Trading India, Low Spreads Metals Trading, Gold and Silver Trading India, User-Friendly Metals Trading App"
-                canonicalPath="/trading/metals"
-            />
+            <SeoHead {...seo} canonicalPath="/trading/metals" />
             <CommonBanner
                 bg={banner_bg}
                 bgClass="bottom-0 md:left-1/2 md:-translate-x-1/2 w-full object-contain w-auto h-auto"
-                meta="Metals trading"
-                title="Metals Trading"
+                meta={t('metals.banner.meta')}
+                title={t('metals.banner.title')}
                 des={
                     <>
-                        Spot Metal Trading holds a special place in the heart of every trader. Metals have attracted traders all over the world since ancient times and continue to do so today.
-                        <span className='block mt-3'>WINPROFX Trader offers the lowest ever spreads in various metals based on your core interest and preference. Explore our Best Precious Metals Trading Platform for optimal trading experiences.</span>
+                        {t('metals.banner.description1')}
+                        <span className='block mt-3'>{t('metals.banner.description2')}</span>
                     </>
                 }
             />
@@ -61,10 +50,10 @@ export default function Metals() {
                 <Container>
                     <div className="flex flex-col gap-y-6 lg:gap-y-8 max-w-6xl">
                         <Card
-                            meta="Forex trading"
-                            title="Popular Indices Markets"
+                            meta={t('metals.card.meta')}
+                            title={t('metals.card.title')}
                             des={<>
-                                <p>Track real-time performance of key metals and identify trading opportunities across global commodity markets.</p>
+                                <p>{t('metals.card.description')}</p>
                             </>}
                             img={img}
                         />
@@ -74,10 +63,11 @@ export default function Metals() {
             </div>
             <div className="common-padding pt-0">
                 <div className='max-w-215 mx-auto px-3'>
-                    <CommonTitle className='text-center' title="Learn About Metals Trading" />
+                    <CommonTitle className='text-center' title={t('metals.learn.title')} />
                     <Accordion items={item} activeItem={0} />
                 </div>
             </div>
+            <MarketPageTrustLinks />
         </>
     )
 }

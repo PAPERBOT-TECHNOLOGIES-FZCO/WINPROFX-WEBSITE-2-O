@@ -2,11 +2,14 @@ import React from "react";
 import { Container } from "@/components/grid";
 import CommonTitle from "@/components/common-title";
 import Button from "@/components/button";
-import { number } from "framer-motion";
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next'
 
 export default function HowItWorks() {
+  const { t } = useTranslation('trading')
+  const pu = (key) => t(`promotionUi.howItWorks.${key}`)
+
   const steps = [
     {
       id: (
@@ -56,8 +59,8 @@ export default function HowItWorks() {
           </defs>
         </svg>
       ),
-      title: "Register",
-      desc: "Open a live account with WINPROFX. New clients can opt in from their very first deposit.",
+      title: pu('steps.register.title'),
+      desc: pu('steps.register.desc'),
       number: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -134,8 +137,8 @@ export default function HowItWorks() {
           </defs>
         </svg>
       ),
-      title: "Opt In",
-      desc: "Choose the Trade to Win program and select your target reward tier before you start trading.",
+      title: pu('steps.optIn.title'),
+      desc: pu('steps.optIn.desc'),
       number: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -212,8 +215,8 @@ export default function HowItWorks() {
           </defs>
         </svg>
       ),
-      title: "Trade",
-      desc: "Trade eligible instruments — hold each trade for at least 3 minutes for it to count as a qualifying lot.",
+      title: pu('steps.trade.title'),
+      desc: pu('steps.trade.desc'),
       number: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -290,8 +293,8 @@ export default function HowItWorks() {
           </defs>
         </svg>
       ),
-      title: "Win Your Prize",
-      desc: "Reach your target lot volume within 30 days and claim your exclusive reward.",
+      title: pu('steps.win.title'),
+      desc: pu('steps.win.desc'),
       number: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -330,10 +333,10 @@ export default function HowItWorks() {
           <div>
             <CommonTitle
               className="text-start max-w-125 mb-8"
-              subTitle="How It Works"
+              subTitle={pu('subTitle')}
               subTitleClass="rounded-[100px] border border-white/20 bg-white/[0.06] px-4 py-1 mb-4 inline-block"
-              title="Four Steps to Your Prize"
-              des="Getting started is simple. Complete these steps and you're on your way to winning exclusive Apple rewards."
+              title={pu('title')}
+              des={pu('des')}
             />
             <Button delay="0.4" />
           </div>
@@ -347,7 +350,7 @@ export default function HowItWorks() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: duration, delay: `0.${index * 2}` }}
                 viewport={{ once: once, amount: 0.2 }}
-                className="" key={step.id}>
+                className="" key={index}>
                 <div className="single-card relative overflow-hidden flex items-start gap-4 rounded-2xl p-6 border border-white/0 bg-[linear-gradient(180deg,rgba(255,255,255,0.04)_0%,rgba(255,255,255,0)_100%)]">
 
                   <div className="card-icon w-12.5 h-12.5 rounded-xl  flex items-center justify-center shrink-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.01)_0%,rgba(217,217,217,0.01)_100%)] shadow-[inset_0_4px_4px_0_rgba(0,217,255,0.25),-42px_103px_31px_0_rgba(0,217,255,0),-27px_66px_29px_0_rgba(0,217,255,0.01),-15px_37px_24px_0_rgba(0,217,255,0.03),-7px_17px_18px_0_rgba(0,217,255,0.04),-2px_4px_10px_0_rgba(0,217,255,0.05)]">

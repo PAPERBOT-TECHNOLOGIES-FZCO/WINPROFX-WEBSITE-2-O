@@ -1,0 +1,253 @@
+{
+  "analytics": {
+    "meta": "PHÂN TÍCH",
+    "h1": "Công cụ phân tích mạnh mẽ cho quyết định giao dịch thông minh hơn",
+    "faqTitle": "Câu hỏi thường gặp",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "Theo dõi sự kiện",
+        "title": "Theo dõi sự kiện kinh tế quan trọng với Economic Calendar",
+        "des": "Cập nhật các sự kiện kinh tế quan trọng và phát hành dữ liệu để nâng cao chiến lược giao dịch trên WINPROFX."
+      },
+      "marketNews": {
+        "meta": "Tin thị trường",
+        "title": "Tin thị trường thời gian thực từ WINPROFX",
+        "des": "Cập nhật tin thị trường và thông tin mới nhất từ đội FXStreet News theo thời gian thực. Sử dụng ứng dụng WINPROFX Trade hoặc WINPROFX Personal Area."
+      }
+    },
+    "smartSignals": {
+      "meta": "Tín hiệu Thông minh",
+      "title": "Tín hiệu Thông minh",
+      "des": "Nhận thông tin hữu ích từ Trading Central để hỗ trợ quyết định giao dịch."
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "Công cụ nào trên nền tảng cung cấp dự báo thị trường tốt nhất?",
+        "body": "Sử dụng Economic Calendar để theo dõi sự kiện kinh tế và phát hành dữ liệu quan trọng. Cập nhật tin thời gian thực qua FXStreet News và nhận thông tin từ Trading Central WebTV."
+      },
+      "tradingPatterns": {
+        "title": "Công cụ nào trên website tốt nhất để phân tích mẫu giao dịch?",
+        "body": "WINPROFX cung cấp kết hợp công cụ phân tích cơ bản và kỹ thuật giúp dự đoán biến động giá và phân tích mẫu giao dịch. Công cụ miễn phí và dễ truy cập."
+      },
+      "freeSignals": {
+        "title": "Where can I access free trading signals on the WINPROFX website?",
+        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+      }
+    },
+    "bannerMeta": "Analytics Tools",
+    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
+    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
+    "smartSignalsTitle": "Strategic Trading Signals",
+    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
+    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqKeys": [
+      "marketPredictions",
+      "tradingPatterns",
+      "freeSignals"
+    ]
+  },
+  "economicCalendar": {
+    "meta": "LỊCH KINH TẾ",
+    "h1": "Lịch Kinh tế",
+    "tableHeaders": {
+      "time": "Thời gian",
+      "symbol": "Ký hiệu",
+      "event": "Sự kiện",
+      "impact": "Tác động",
+      "actual": "Thực tế",
+      "forecast": "Dự báo",
+      "previous": "Trước đó"
+    },
+    "faqTitle": "Câu hỏi thường gặp",
+    "heroDescription": "Theo dõi các sự kiện kinh tế vĩ mô toàn cầu, chỉ báo biến động và dữ liệu tác động thị trường theo thời gian thực.",
+    "symbolsLabel": "Ký hiệu",
+    "sampleEvent": "Bảng lương phi nông nghiệp (NFP)",
+    "impactHigh": "Cao",
+    "sections": {
+      "understanding": {
+        "title": "Hiểu và Sử dụng Lịch Kinh tế Forex",
+        "p1": "Lịch Kinh tế Forex là công cụ vô giá cho trader, giúp theo dõi và phân tích các sự kiện thúc đẩy thị trường và dự báo biến động giá. Nó liệt kê các tin tức quốc gia và quốc tế quan trọng theo thứ tự thời gian.",
+        "p2": "Các sự kiện quan trọng như quyết định chính sách tiền tệ, chỉ số kinh tế, công bố GDP, số liệu Non-Farm Payrolls (NFP) và thay đổi lãi suất được bao gồm vì chúng có thể ảnh hưởng mạnh đến thị trường tài chính."
+      },
+      "whyUse": {
+        "title": "Tại sao bạn nên sử dụng Lịch Kinh tế Forex",
+        "p1": "Lịch Kinh tế Forex cần thiết để cập nhật tin tức, báo cáo và thông báo sắp tới. Các sự kiện này có thể ảnh hưởng đáng kể đến biến động của các cặp tiền forex, cổ phiếu và thị trường khác.",
+        "p2": "Bằng cách sử dụng lịch, trader có thể lập kế hoạch giao dịch hiệu quả hơn và nắm bắt các mẫu biểu đồ và chỉ báo có thể bị ảnh hưởng. Tham khảo lịch trước ngày giao dịch là thói quen khôn ngoan."
+      }
+    },
+    "faqSubtitle": "Tìm câu trả lời rõ ràng và ngắn gọn cho các câu hỏi phổ biến nhất về giao dịch, thiết lập tài khoản, nạp/rút tiền và tính năng nền tảng.",
+    "faqs": {
+      "whatIs": {
+        "title": "Lịch Kinh tế Forex là gì?",
+        "body": "<p>Lịch Kinh tế là công cụ liệt kê các sự kiện kinh tế quan trọng và phát hành dữ liệu theo thứ tự thời gian, có thể tác động đến thị trường tài chính.</p>"
+      },
+      "howToUse": {
+        "title": "Làm thế nào để sử dụng Lịch Kinh tế Forex cho giao dịch?",
+        "body": "<p>Trader sử dụng Lịch Kinh tế để cập nhật các sự kiện sắp tới có thể ảnh hưởng đến thị trường, giúp lập kế hoạch giao dịch hiệu quả hơn.</p>"
+      },
+      "eventTypes": {
+        "title": "Những loại sự kiện nào được liệt kê trên Lịch Kinh tế Forex?",
+        "body": "<p>Lịch Kinh tế bao gồm các sự kiện như quyết định chính sách tiền tệ, chỉ số kinh tế, công bố GDP, số liệu Non-Farm Payrolls (NFP) và thay đổi lãi suất.</p>"
+      },
+      "impact": {
+        "title": "Các sự kiện kinh tế Forex ảnh hưởng giao dịch như thế nào?",
+        "body": "<p>Các sự kiện kinh tế có thể gây biến động đáng kể trên thị trường tài chính, ảnh hưởng giá các cặp forex, cổ phiếu và công cụ khác.</p>"
+      },
+      "whereFind": {
+        "title": "Tôi có thể tìm Lịch Kinh tế Forex trên nền tảng WINPROFX ở đâu?",
+        "body": "<p>Lịch Kinh tế có thể truy cập trong Personal Area trên website WINPROFX hoặc qua ứng dụng WINPROFX Trade.</p>"
+      },
+      "notifications": {
+        "title": "Tôi có thể nhận thông báo cho các sự kiện kinh tế Forex sắp tới không?",
+        "body": "<p>Có, bạn có thể nhận thông báo cho các sự kiện kinh tế sắp tới trong tab \"Mailbox\" trên nền tảng giao dịch của bạn.</p>"
+      },
+      "importance": {
+        "title": "Tất cả sự kiện kinh tế Forex có quan trọng như nhau không?",
+        "body": "<p>Không, tác động của các sự kiện kinh tế khác nhau. Các sự kiện lớn như quyết định lãi suất và số liệu NFP thường có tác động cao hơn.</p>"
+      },
+      "updated": {
+        "title": "Lịch Kinh tế Forex được cập nhật bao lâu một lần?",
+        "body": "<p>Lịch Kinh tế được cập nhật theo thời gian thực để đảm bảo bạn có thông tin mới nhất về các sự kiện sắp tới.</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "MÁY TÍNH TIỀN TỆ",
+    "h1": "Máy tính Tiền tệ",
+    "faqTitle": "Câu hỏi thường gặp",
+    "faqs": {
+      "whatIs": {
+        "title": "Forex Currency Calculator là gì?",
+        "body": "Forex Currency Calculator là công cụ giúp trader tính pips, margin, Spread, commission và các chỉ số quan trọng khác cho vị thế giao dịch."
+      },
+      "howToUse": {
+        "title": "Cách sử dụng Forex Currency Calculator?",
+        "body": "Nhập chi tiết giao dịch như cặp tiền tệ, kích thước vị thế và Leverage để tính các chỉ số như pips, margin và Spread."
+      },
+      "metrics": {
+        "title": "Forex Currency Calculator tính được những chỉ số nào?",
+        "body": "Máy tính giúp xác định pips, margin, Spread, commission và các chỉ số giao dịch thiết yếu khác."
+      },
+      "free": {
+        "title": "Forex Currency Calculator có miễn phí không?",
+        "body": "Có, Forex Currency Calculator trên WINPROFX miễn phí cho mọi người dùng."
+      },
+      "whyUse": {
+        "title": "Tại sao nên dùng Forex Currency Calculator?",
+        "body": "Nó đơn giản hóa các phép tính phức tạp, giúp bạn đưa ra quyết định giao dich tốt hơn và quản lý vị thế hiệu quả."
+      },
+      "allPairs": {
+        "title": "Tôi có thể dùng Máy tính Tiền tệ Forex cho tất cả cặp tiền tệ không?",
+        "body": "Có, máy tính hỗ trợ tất cả các cặp tiền tệ chính và phụ."
+      },
+      "accountTypes": {
+        "title": "Máy tính Tiền tệ Forex có tính đến các loại tài khoản khác nhau không?",
+        "body": "Có, bạn có thể tùy chỉnh cài đặt máy tính để phù hợp với loại tài khoản và điều kiện giao dịch cụ thể của mình."
+      },
+      "accuracy": {
+        "title": "Máy tính Tiền tệ Forex chính xác đến mức nào?",
+        "body": "Máy tính cung cấp kết quả rất chính xác dựa trên dữ liệu đầu vào và điều kiện thị trường hiện tại."
+      },
+      "whereFind": {
+        "title": "Tôi có thể tìm Máy tính Tiền tệ Forex trên WINPROFX ở đâu?",
+        "body": "Bạn có thể truy cập Máy tính Tiền tệ Forex trong phần công cụ Personal Area trên trang web WINPROFX."
+      },
+      "riskManagement": {
+        "title": "Máy tính Tiền tệ Forex có giúp quản lý rủi ro không?",
+        "body": "Có, bằng cách tính các chỉ số quan trọng, nó giúp bạn hiểu và quản lý rủi ro liên quan đến giao dịch tốt hơn."
+      }
+    },
+    "bannerMeta": "Máy tính",
+    "bannerTitle": "Lập kế hoạch Giao dịch Chính xác",
+    "bannerDes": "Tính margin, giá trị pip và swap qua đêm theo thời gian thực trên các thị trường toàn cầu.",
+    "sectionTitle": "Máy tính Tiền tệ Forex",
+    "sectionDes": "Máy tính Tiền tệ Forex là công cụ hữu ích giúp trader nhanh chóng chuyển đổi một loại tiền tệ sang loại khác bằng tỷ giá real-time."
+  },
+  "currencyConverter": {
+    "meta": "CHUYỂN ĐỔI TIỀN TỆ",
+    "h1": "Chuyển đổi Tiền tệ",
+    "cardTitle": "Sử dụng WINPROFX Currency Converter",
+    "cardDes": "Công cụ chuyển đổi tiền tệ giúp bạn chuyển đổi nhanh và chính xác với tỷ giá thời gian thực. Công cụ thiết yếu khi nạp và rút tiền trên tài khoản giao dịch.",
+    "steps": {
+      "selectBase": "Từ sáu danh sách dropdown, chọn tiền tệ cơ sở.",
+      "selectTargets": "Chọn tối đa năm tiền tệ khác để chuyển đổi.",
+      "enterAmount": "Nhập số tiền muốn chuyển đổi từ tiền tệ cơ sở.",
+      "autoCalculate": "Công cụ sẽ tự động tính và hiển thị tỷ giá cho các tiền tệ đã chọn."
+    },
+    "faqTitle": "Câu hỏi thường gặp",
+    "faqs": {
+      "selectBase": {
+        "title": "Cách chọn tiền tệ cơ sở?",
+        "body": "Bạn có thể chọn tiền tệ cơ sở từ sáu danh sách dropdown. Đây là tiền tệ bạn chuyển đổi từ."
+      },
+      "selectTargets": {
+        "title": "Tôi có thể chuyển đổi bao nhiêu tiền tệ?",
+        "body": "Bạn có thể chọn tối đa năm tiền tệ khác để chuyển đổi cùng lúc."
+      },
+      "realTimeRates": {
+        "title": "Tỷ giá có theo thời gian thực không?",
+        "body": "Có, công cụ sử dụng tỷ giá thời gian thực để chuyển đổi chính xác."
+      },
+      "freeToUse": {
+        "title": "Công cụ chuyển đổi có miễn phí không?",
+        "body": "Có, WINPROFX Currency Converter miễn phí cho mọi người dùng."
+      },
+      "enterAmount": {
+        "title": "Làm thế nào để nhập số tiền cần chuyển đổi?",
+        "body": "Chỉ cần nhập số tiền bạn muốn chuyển đổi từ tiền tệ cơ sở vào ô được chỉ định. Bộ chuyển đổi sẽ tự động tính giá trị tương đương trong các loại tiền đã chọn."
+      },
+      "ratesUpdated": {
+        "title": "Tỷ giá hối đoái có được cập nhật real-time không?",
+        "body": "Có, tỷ giá được WINPROFX Currency Converter sử dụng được cập nhật real-time để đảm bảo độ chính xác."
+      },
+      "accountRequired": {
+        "title": "Tôi có thể dùng bộ chuyển đổi tiền tệ mà không cần tài khoản WINPROFX không?",
+        "body": "Không, bạn cần có tài khoản WINPROFX đã đăng ký để truy cập và sử dụng công cụ chuyển đổi tiền tệ."
+      },
+      "updateFrequency": {
+        "title": "Tỷ giá hối đoái được cập nhật bao lâu một lần?",
+        "body": "Tỷ giá được cập nhật liên tục theo thời gian thực để phản ánh điều kiện thị trường mới nhất."
+      }
+    },
+    "bannerMeta": "Bộ chuyển đổi",
+    "bannerDes": "Tính tỷ giá live và chuyển đổi tất cả cặp tiền tệ chính và ngoại lai dễ dàng với bộ chuyển đổi tiền tệ thân thiện của chúng tôi."
+  },
+  "whyWinprofx": {
+    "title": "Tại sao chọn WINPROFX?",
+    "description": "WINPROFX cung cấp công cụ giao dịch tiên tiến, cập nhật thị trường theo thời gian thực và nền tảng thân thiện giúp trader ra quyết định sáng suốt và tối ưu chiến lược."
+  },
+  "converterUi": {
+    "title": "Convert Your Currency",
+    "account": "Account",
+    "accountPlaceholder": "Enter your account",
+    "convertedAmount": "Converted Amount",
+    "convertedPlaceholder": "Converted amount",
+    "convertNow": "Convert Now"
+  },
+  "calculatorUi": {
+    "yourOrder": "Your Order",
+    "accountType": "Account Type",
+    "selectAccountType": "Select account type",
+    "standard": "Standard",
+    "lotSizePlaceholder": "Enter your lot size",
+    "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
+    "accountCurrency": "Account Currency",
+    "selectAccountCurrency": "Select account Currency",
+    "selectInstrument": "Select instrument",
+    "lot": "Lot",
+    "leverage": "Leverage",
+    "selectLeverage": "Select leverage",
+    "calculateNow": "Calculate Now",
+    "results": "Results",
+    "margin": "Margin",
+    "spreadCost": "Spread Cost",
+    "commission": "Commission",
+    "swapShot": "Swap Shot",
+    "swapLong": "Swap Long",
+    "pipValue": "Pip Value",
+    "pro": "Pro",
+    "ecn": "ECN",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+  }
+}

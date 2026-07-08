@@ -1,0 +1,641 @@
+{
+  "winPromotion": {
+    "meta": "WINPROFX 限定 · 2026年3月 - 5月",
+    "h1": "Trade to Win プログラム",
+    "des": "30日以内に指定の取引量を達成し、限定の Apple リワードを獲得しましょう。取引すればするほど、賞品も大きくなります。",
+    "secondButton": "利用規約を見る",
+    "rewardTiers": {
+      "subTitle": "リワードティア",
+      "title": "もっと取引して、もっと勝とう",
+      "des": "30日以内に目標ロット数を達成して賞品を獲得。6つのティア、6つのチャンス — 1ロットごとに目標に近づきます。"
+    }
+  },
+  "tradeToWin": {
+    "h1": "Trade to Win プログラム",
+    "meta": "WINPROFX 限定",
+    "bannerTitle": "もっと取引して、もっと勝とう",
+    "howItWorks": "仕組み",
+    "programConditions": "プログラム条件",
+    "importantTerms": "重要な規約",
+    "labels": {
+      "tier": "ティア",
+      "lots": "Lots",
+      "withinDays": "30日以内"
+    },
+    "rewardTiersTitleHtml": "もっと取引して、<span class=\"text-primary\">もっと勝とう</span>",
+    "howItWorksSection": {
+      "subTitle": "プロセス",
+      "titleHtml": "ご利用<span class=\"text-primary\">方法</span>",
+      "des": "始めるのは簡単です。次の4つのステップを完了すれば、限定の Apple リワード獲得への道が開けます。",
+      "steps": {
+        "registerOptIn": {
+          "title": "登録＆オプトイン",
+          "body": "WINPROFX に登録し、初回入金から Trade to Win プログラムにオプトインしてください。"
+        },
+        "chooseTier": {
+          "title": "ティアを選択",
+          "body": "目指すリワードティアを選択 — Power Bank から最新の iPhone まで。"
+        },
+        "trade30Days": {
+          "title": "30日以内に取引",
+          "body": "30日以内に目標取引量を達成してください。対象取引は最低3分間保有する必要があります。"
+        },
+        "claimPrize": {
+          "title": "賞品を受け取る",
+          "body": "取引量の目標を達成すると、リワードが確定し、お客様にお届けします。"
+        }
+      }
+    },
+    "programConditionsSection": {
+      "subTitle": "ルールと詳細",
+      "titleHtml": "プログラム<span class=\"text-primary\">条件</span>",
+      "items": {
+        "programPeriod": {
+          "label": "プログラム期間",
+          "value": "2025年3月1日 – 2026年5月31日"
+        },
+        "tradingTimeline": {
+          "label": "取引期間",
+          "value": "開始日から30日間"
+        },
+        "eligibleClients": {
+          "label": "対象クライアント",
+          "value": "リテールクライアントのみ（IBは対象外）"
+        },
+        "minimumHold": {
+          "label": "最低保有時間",
+          "value": "対象取引ごとに3分"
+        },
+        "excludedInstruments": {
+          "label": "対象外銘柄",
+          "value": "株式および暗号資産ペア"
+        },
+        "withdrawals": {
+          "label": "出金",
+          "value": "キャンペーン期間中は出金可能"
+        }
+      }
+    },
+    "importantTermsSection": {
+      "subTitle": "法的事項",
+      "titleHtml": "重要な<span class=\"text-primary\">規約</span>",
+      "des": "Trade to Win プログラムに参加する前に、これらの規約をよくお読みください。",
+      "items": {
+        "fairPlay": {
+          "title": "フェアプレイ",
+          "body": "レイテンシーアービトラージや操作的な手法を含む、市場の不正利用の兆候が見られた場合、即座に失格となります。"
+        },
+        "eligibility": {
+          "title": "参加資格の制限",
+          "body": "自己裁量の個人口座のみ参加できます。マネージド口座や IB 紹介口座は対象外です。"
+        },
+        "liability": {
+          "title": "免責事項",
+          "body": "WINPROFX は取引損失について一切の責任を負いません。本プログラムは参加者のリスクプロファイルや投資戦略を変更するものではありません。"
+        },
+        "dispute": {
+          "title": "紛争解決",
+          "body": "本規約で直接言及されていない問題は、管理側が公正かつ拘束力のある方法で解決します。"
+        }
+      }
+    }
+  },
+  "introducingBroker": {
+    "meta": "パートナープログラム",
+    "h1": "Introducing Broker プログラム",
+    "des": "最大収益、完全な透明性、毎日の自動支払いを実現する、業界をリードする Introducing Broker (IB) プログラムにご参加ください。",
+    "buttonText": "パートナーになる",
+    "advantages": {
+      "title": "限定パートナー特典",
+      "description": "Introducing Broker として WINPROFX と提携。手数料体系、サポートリソース、提携条件は承認済みパートナーに公開されています。",
+      "cards": {
+        "profitShare": "スプレッドから最大 <b>90%</b> の利益分配",
+        "awards": "信頼のブローカー、<b>40+</b> の業界賞受賞",
+        "evolving": "市場で日々進化",
+        "rewards": "毎日取引して <b>リワード</b> を獲得"
+      },
+      "stepsTitle": "当社の強み：",
+      "stepsSubtitle": "クライアントに選ばれる理由",
+      "steps": {
+        "withdrawal": "最速出金",
+        "noSwap": "スワップなし",
+        "noCommission": "手数料なし",
+        "lowSpread": "低スプレッド"
+      }
+    },
+    "benefits": {
+      "title": "WINPROFX の Introducing Broker になるメリット：",
+      "paragraph1": "WINPROFX の Introducing Broker になることで、数多くのメリットを手に入れましょう。充実した手数料体系、業界からの評価、継続的な市場進化、そしてトレーダーに毎日のリワードを提供する機会をお楽しみください。",
+      "paragraph2": "最高のブローカー取引プラットフォームで、取引パートナーシップの未来を共に形作りましょう。",
+      "cardTitle": "最大5レベルのマルチティア",
+      "cardDescription": "IB として、最大5段階の紹介トレーダーを持つことができます。"
+    },
+    "payoutForm": {
+      "title": "成長と成功への旅を始めよう",
+      "heading": "迅速な支払い決済",
+      "description": "ご連絡先をお送りください。折り返しご連絡いたします。",
+      "fullName": "氏名",
+      "fullNamePlaceholder": "氏名を入力してください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力してください",
+      "phone": "電話番号",
+      "phonePlaceholder": "電話番号を入力してください",
+      "message": "メッセージ",
+      "messagePlaceholder": "メッセージをこちらにご記入ください",
+      "sendOtp": "OTPを送信",
+      "sendingOtp": "送信中...",
+      "otpSent": "OTP送信済み ✓",
+      "agree": "このフォームを送信することで、当社チームからの連絡に同意したものとみなされます。",
+      "submit": "送信"
+    },
+    "calculator": {
+      "title": "How Much You Can Earn? Calculate your profit",
+      "clients": "Clients",
+      "rewards": "Rewards",
+      "perLot": "Per lot",
+      "ctaTitle": "Become a WINPROFX Partner & Start Earning Today",
+      "steps": {
+        "apply": "Apply to become an <span>Introducing Broker </span>",
+        "share": "Attract clients by sharing your <span>Referral Link</span>",
+        "earn": "Earn <span>commission</span> on every trade your clients make"
+      },
+      "description": "This advanced commission calculator operates on the basis of Introducing Brokers' client count and their trading volume in lots, providing an accurate reflection of earned commissions.",
+      "partnerDes": "Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.",
+      "stepKeys": [
+        "apply",
+        "share",
+        "earn"
+      ]
+    }
+  },
+  "platform": {
+    "meta": "プラットフォーム",
+    "h1": "取引プラットフォーム",
+    "bannerMeta": "プラットフォーム",
+    "bannerDes": "WINPROFX はグローバル事業拡大において大きな成功を収めています。WINPROFX は Forex および CFD 取引向けの MetaTrader 5 (MT5) プラットフォームへのアクセスを提供し、Android と iPhone の両方で利用可能。成功への一歩を踏み出しましょう。今すぐ MT5 をダウンロードして、無限の取引機会の世界へ。",
+    "cards": {
+      "mobile": {
+        "meta": "取引プラットフォーム",
+        "title": "モバイル版 MT5 をダウンロード",
+        "description": "WINPROFX は世界中での事業拡大において高い成功を収め続けており、MT5 は Android と iPhone で利用可能になりました。成功への一歩を踏み出しましょう。今すぐ MT5 をダウンロードして、無限の取引機会の世界へ。"
+      },
+      "desktop": {
+        "meta": "取引プラットフォーム",
+        "title": "デスクトップ版 MT5 をダウンロード",
+        "description": "デスクトップで MT5 のパワーを体験。高度なチャートツール、自動取引機能、リアルタイムの市場データにアクセス。WINPROFX は高度な機能と柔軟性を求めるプロフェッショナルトレーダー向けに、シームレスなウェブベースの取引プラットフォームを提供します。"
+      }
+    }
+  },
+  "accounts": {
+    "meta": "口座",
+    "h1": "取引口座",
+    "des": "今日のトレーダー向けに設計された、機能豊富で手数料無料の取引口座をご利用ください。今すぐ登録して、最も人気の口座のメリットをお楽しみください。",
+    "chooseAccount": {
+      "title": "口座を選択",
+      "recommended": "おすすめ",
+      "register": "登録",
+      "labels": {
+        "minimumDeposit": "最低入金額",
+        "spread": "スプレッド",
+        "commission": "手数料",
+        "maxLeverage": "最大レバレッジ",
+        "instruments": "取引銘柄"
+      },
+      "instruments": {
+        "forex": "Forex",
+        "metal": "貴金属",
+        "crypto": "暗号資産",
+        "energies": "エネルギー",
+        "indices": "指数"
+      },
+      "plans": {
+        "standard": {
+          "title": "Standard",
+          "description": "最も人気の口座。あらゆるタイプのトレーダーに最適。",
+          "minimumDeposit": "$50",
+          "spread": "From 0.2 pips",
+          "commission": "No Commission",
+          "leverage": "1:500"
+        },
+        "pro": {
+          "title": "Pro",
+          "description": "即時約定口座。手数料ゼロ＆低スプレッド。",
+          "minimumDeposit": "$3000",
+          "spread": "From 0.1 pips",
+          "commission": "No Commission",
+          "leverage": "1:500"
+        },
+        "ecn": {
+          "title": "ECN",
+          "description": "即時約定口座。手数料ゼロ＆低スプレッド",
+          "minimumDeposit": "$5000",
+          "spread": "From 0.0 pips",
+          "commission": "Up to $3.50 each side per lot",
+          "leverage": "1:500"
+        }
+      }
+    },
+    "featureComparison": {
+      "title": "Feature Comparison",
+      "standard": "STANDARD",
+      "pro": "PRO",
+      "ecn": "ECN",
+      "rows": {
+        "minimumDeposit": "Minimum Deposit",
+        "spread": "Spread",
+        "commission": "Commission",
+        "maximumLeverage": "Maximum Leverage",
+        "instruments": "Instruments",
+        "minimumLotSize": "Minimum lot size",
+        "maximumLotSize": "Maximum lot size",
+        "marginCall": "Margin call",
+        "stopOut": "Stop out",
+        "orderExecution": "Order execution",
+        "swapFree": "Swap-Free"
+      },
+      "values": {
+        "spreadStandard": "From 0.2 pips",
+        "spreadPro": "From 0.1 pips",
+        "spreadEcn": "From 0 pips",
+        "commissionEcn": "Up to $3.50 each side per lot",
+        "orderExecution": "Market",
+        "swapFree": "Available"
+      },
+      "instrumentKeys": [
+        "forex",
+        "metal",
+        "crypto",
+        "energies",
+        "indices"
+      ]
+    }
+  },
+  "aboutUs": {
+    "meta": "会社概要",
+    "h1": "WINPROFX について",
+    "values": {
+      "advancedTechnology": {
+        "title": "先進技術",
+        "des": "技術革新を追求し続け、超高速の約定とシームレスな取引体験を提供します。"
+      },
+      "clientCentric": {
+        "title": "クライアント第一",
+        "des": "お客様の成功が最優先です。トレーダーが成長するために必要なリソース、流動性、サポートを提供します。"
+      },
+      "integrity": {
+        "title": "揺るぎない誠実さ",
+        "des": "信頼が最も重要です。すべての取引において、徹底した透明性と厳格な倫理基準で運営しています。"
+      },
+      "globalNetwork": {
+        "title": "グローバルネットワーク",
+        "des": "集合的な洞察と個人のパフォーマンスが相互の成功を促進する、活気あるプロフェッショナルのエコシステムに参加しましょう。"
+      }
+    },
+    "bannerTitle": "Pioneering Excellence: Redefining Trading Standards at WINPROFX",
+    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.org before trading or depositing.",
+    "companyInfoTitle": "Company Information",
+    "legalName": "Legal Name:",
+    "legalNameValue": "WINPROFX Limited",
+    "tradingName": "Trading Name:",
+    "tradingNameValue": "WINPROFX",
+    "primaryWebsite": "Primary Website:",
+    "regulation": "Regulation:",
+    "regulationValue": "Financial Services Commission of the Republic of Mauritius (Investment Dealer license)",
+    "support": "Support:",
+    "standardTitle": "The WINPROFX Standard",
+    "standardDes": "A foundation built on transparency, innovation, and uncompromising execution.",
+    "featuredIn": "As Featured In",
+    "faqTitle": "Your Guide to Seamless Trading",
+    "faqDes": "Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WINPROFX is smooth and successful.",
+    "valueKeys": [
+      "advancedTechnology",
+      "clientCentric",
+      "integrity",
+      "globalNetwork"
+    ],
+    "faqs": {
+      "whatIsWinprofx": {
+        "title": "What is WINPROFX?",
+        "body": "<p>WINPROFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WINPROFX stands out for several reasons:</p><ul><li><span><span>Global Regulation: </span> WINPROFX publishes company registration, legal entity, and regulatory scope information on its official Trust Center.</span></li><li><span><span>MT5 Platform Access:</span> WINPROFX provides MetaTrader 5 for desktop and mobile trading with standard order types and charting tools.</span></li><li><span><span>Withdrawal Processing:</span> Withdrawal requests are handled according to WINPROFX published policies and verification requirements.</span></li><li><span><span>Tradable Instruments: </span> WINPROFX provides access to multiple forex and CFD market categories through MT5.</span></li><li><span><span>Spreads:</span> Spreads vary by instrument and market conditions. See account types for published spread information where available.</span></li></ul>"
+      },
+      "howToStart": {
+        "title": "How do I start trading with WINPROFX?",
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> or <a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
+      },
+      "instruments": {
+        "title": "Which Financial instruments can I trade with WINPROFX?",
+        "body": "<p>Common categories of financial instruments that traders can potentially access on WINPROFX: </p><ul><li><span><span>Forex (Foreign Exchange): </span>Currency pairs, such as EUR/USD, GBP/JPY, USD/JPY, etc.</span></li><li><span><span>Indices:</span>Benchmarks representing the performance of a group of stocks on a specific exchange such as S&P500, US30, etc.</span></li><li><span><span>Commodities:</span>Such as oil, agricultural products, etc.</span></li><li><span><span>Precious Metals:</span>Assets like gold, silver, platinum, palladium, etc.</span></li><li><span><span>Cryptocurrencies:</span>Digital currencies like Bitcoin, Ethereum, Litecoin, etc.</span></li></ul>"
+      },
+      "depositWithdraw": {
+        "title": "How can I deposit and withdraw funds on WINPROFX?",
+        "body": "<p>For clients convenience WINPROFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>"
+      },
+      "platforms": {
+        "title": "What trading platforms does WINPROFX support?",
+        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.org for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
+      },
+      "support": {
+        "title": "How can I contact WINPROFX customer support?",
+        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+      }
+    },
+    "faqKeys": [
+      "whatIsWinprofx",
+      "howToStart",
+      "instruments",
+      "depositWithdraw",
+      "platforms",
+      "support"
+    ]
+  },
+  "about": {
+    "meta": "公式情報",
+    "h1": "WINPROFX について",
+    "sections": {
+      "whatIsWinprofx": "WINPROFX とは？",
+      "servicesProvided": "提供サービス",
+      "officialDomains": "公式ドメイン",
+      "clientPartnerLogin": "クライアント・パートナーログイン",
+      "riskWarning": "リスク警告",
+      "contact": "お問い合わせ"
+    },
+    "whatIsBody": "WINPROFX は Forex および CFD 取引ブランドで、公式ドメインとポータルを通じて取引プラットフォームへのアクセス、クライアント口座サービス、パートナープログラムツール、取引関連のサポートサービスを提供しています。",
+    "services": {
+      "forexCfd": "Forex および CFD 取引アクセス",
+      "platformTools": "取引プラットフォーム情報とツール",
+      "clientPortal": "公式クライアントポータルによる口座管理",
+      "partnerProgram": "パートナーおよび Introducing Broker プログラムツール",
+      "support": "取引関連のカスタマーサポートサービス"
+    }
+  },
+  "contact": {
+    "meta": "カスタマーサポート",
+    "h1": "WINPROFX へのお問い合わせ",
+    "sections": {
+      "getInTouch": "お問い合わせ",
+      "contactChannels": "連絡先",
+      "businessHours": "営業時間",
+      "contactRiskLegal": "お問い合わせ・リスク・法的注意事項"
+    },
+    "labels": {
+      "supportEmail": "サポートメール",
+      "phone": "電話",
+      "whatsapp": "WhatsApp",
+      "officialWebsite": "公式ウェブサイト",
+      "clientPortal": "クライアントポータル",
+      "partnerPortal": "パートナーポータル"
+    },
+    "introP1": "WINPROFX provides customer support for account inquiries, trading platform assistance, deposits, withdrawals, and general questions. Our main official website is",
+    "introP2Start": "For account login and trading, use the",
+    "introP2ClientPortal": "client portal at my.winprofx.org",
+    "introP2Middle": ". Partners should use",
+    "introP2PartnerPortal": "partner.winprofx.org",
+    "customerSupport": "Customer Support:",
+    "customerSupportHours": "Available 24 hours a day, 7 days a week",
+    "officeHours": "Office Hours (UAE):",
+    "officeHoursValue": "Monday – Friday, 09:00 – 18:00 (GST)",
+    "riskLegalP1Start": "Before trading, please read our",
+    "riskWarningLink": "Risk Warning",
+    "riskLegalP1Middle": "and review our",
+    "legalDocumentsLink": "Legal Documents",
+    "riskLegalP1End": "Trading forex and CFDs involves significant risk and may not be suitable for all investors.",
+    "officialDomainsNote": "Always verify you are on an official WINPROFX domain before logging in or depositing. See",
+    "officialDomainsLink": "Official Domains",
+    "officialDomainsEnd": "for the complete list."
+  },
+  "blog": {
+    "meta": "ブログ",
+    "h1": "ブログ",
+    "pageMeta": "ブログ",
+    "pageTitle": "WINPROFX ブログ",
+    "categories": {
+      "all": "すべて",
+      "forex": "Forex",
+      "indices": "指数",
+      "crypto": "暗号資産",
+      "oil": "原油",
+      "metals": "貴金属",
+      "commodities": "コモディティ"
+    },
+    "posts": {
+      "overview": {
+        "title": "WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview",
+        "des": ""
+      },
+      "indices": {
+        "title": "Indices Trading with WINPROFX",
+        "des": "When it comes to trading indices in India, having the right platform can significantly impact your success."
+      },
+      "forex": {
+        "title": "Forex Trading with WINPROFX",
+        "des": "In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success."
+      },
+      "crypto": {
+        "title": "Crypto CFD Trading with WINPROFX",
+        "des": ""
+      },
+      "commodities": {
+        "title": "Commodities Trading with WINPROFX",
+        "des": ""
+      },
+      "metals": {
+        "title": "Gold and Metals Trading with WINPROFX",
+        "des": ""
+      }
+    },
+    "postKeys": [
+      "overview",
+      "indices",
+      "forex",
+      "crypto",
+      "commodities",
+      "metals",
+      "overview"
+    ],
+    "details": {
+      "meta": "Overview",
+      "title": "WINPROFX Forex and CFD Trading Overview",
+      "des": "WINPROFX provides access to forex and CFD markets through MetaTrader 5. This overview explains platform access, account services, and where to find official company and risk information before trading.",
+      "sections": {
+        "markets": {
+          "title": "What markets does WINPROFX offer?",
+          "des": "WINPROFX offers access to forex, indices, crypto CFDs, metals, commodities, and oil through the MT5 platform. Instrument availability may vary by account type and region."
+        },
+        "mt5": {
+          "title": "MT5 Platform Access",
+          "des": "Clients can access MetaTrader 5 on desktop and mobile. The platform includes charting tools, order types, and account management features. Demo accounts may be available for practice."
+        },
+        "verify": {
+          "title": "Verify WINPROFX Before Trading",
+          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org."
+        },
+        "risk": {
+          "title": "Risk Warning",
+          "des": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Losses can exceed deposits when using leverage. Read the full risk warning on the official WINPROFX website before trading."
+        }
+      },
+      "sectionKeys": [
+        "markets",
+        "mt5",
+        "verify",
+        "risk"
+      ]
+    }
+  },
+  "promotionUi": {
+    "howItWorks": {
+      "subTitle": "仕組み",
+      "title": "賞品獲得までの4ステップ",
+      "des": "始めるのは簡単です。これらのステップを完了すれば、限定の Apple リワード獲得への道が開けます。",
+      "steps": {
+        "register": {
+          "title": "登録",
+          "desc": "WINPROFX でライブ口座を開設。新規クライアントは初回入金からオプトインできます。"
+        },
+        "optIn": {
+          "title": "オプトイン",
+          "desc": "Trade to Win プログラムを選択し、取引開始前に目標リワードティアを選んでください。"
+        },
+        "trade": {
+          "title": "取引",
+          "desc": "対象銘柄を取引 — 対象ロットとしてカウントするには、各取引を最低3分間保有してください。"
+        },
+        "win": {
+          "title": "賞品を獲得",
+          "desc": "30日以内に目標ロット数を達成し、限定リワードを受け取りましょう。"
+        }
+      }
+    },
+    "programPeriod": {
+      "subTitle": "プログラム期間",
+      "title": "プログラムはいつ実施されますか？",
+      "items": {
+        "activeDates": {
+          "title": "実施期間",
+          "desc": "プログラムは2025年3月1日から2026年5月31日まで実施されます。この期間中いつでも参加できます。"
+        },
+        "tradingTimeline": {
+          "title": "取引期間",
+          "desc": "オプトイン後、開始日から30日以内に選択した目標取引量を達成し、リワードを受け取ることができます。"
+        },
+        "optInDeadline": {
+          "title": "オプトイン期限",
+          "desc": "新規クライアントは初回入金からオプトインできます。お待たずに — 1日1日が30日間のカウントに含まれます。"
+        }
+      }
+    },
+    "eligibility": {
+      "subTitle": "参加資格",
+      "title": "誰が参加できますか？",
+      "des": "Trade to Win プログラムに参加する前に、参加資格要件をご確認ください。",
+      "items": {
+        "whoCanJoin": {
+          "title": "参加対象",
+          "desc": "リテールクライアント限定。Introducing Broker (IB) は対象外で、本キャンペーンに参加できません。"
+        },
+        "singleEntry": {
+          "title": "単一参加",
+          "desc": "各参加者は同時に1つのプログラム活動のみ参加できます。オプトイン前にティアを慎重に選択してください。"
+        },
+        "withdrawals": {
+          "title": "出金可能",
+          "desc": "キャンペーン期間中の出金は許可されており、プログラムの失格にはなりません。"
+        },
+        "tradeDuration": {
+          "title": "取引保有期間",
+          "desc": "対象取引は最低3分間オープンにしておく必要があり、目標に向けた対象ロットとしてカウントされます。"
+        },
+        "excludedInstruments": {
+          "title": "対象外銘柄",
+          "desc": "株式および暗号資産ペアは本プロモーションの対象外です。その他のサポート対象銘柄はすべて対象となります。"
+        },
+        "accountType": {
+          "title": "口座タイプ",
+          "desc": "自己裁量の個人口座のみ参加できます。マネージド口座や IB 紹介口座は対象外です。"
+        }
+      }
+    },
+    "startTrading": {
+      "subTitle": "今すぐ始める",
+      "title": "WINPROFX で取引を始めよう！",
+      "des": "取引するロットごとに限定賞品に近づきます。今すぐライブ口座を開設し、Trade to Win プログラムにオプトインしましょう。",
+      "steps": {
+        "register": {
+          "title": "登録",
+          "desc": "ライブ口座を作成"
+        },
+        "fund": {
+          "title": "入金",
+          "desc": "初回入金を行う"
+        },
+        "trade": {
+          "title": "取引",
+          "desc": "目標ロット数を達成"
+        },
+        "claim": {
+          "title": "リワードを受け取る",
+          "desc": "限定賞品を受け取る"
+        }
+      },
+      "questionsPrefix": "ご質問はお電話で",
+      "questionsSuffix": "または"
+    },
+    "ptConditions": {
+      "subTitle": "重要な規約",
+      "title": "プログラム利用規約",
+      "des": "Trade to Win プログラムに参加する前に、これらの規約をよくお読みください。",
+      "items": {
+        "fairPlay": {
+          "title": "フェアプレイ",
+          "desc": "レイテンシーアービトラージや操作的な取引手法など、市場の不正利用の兆候が見られた場合、即座にプログラムから失格となります。"
+        },
+        "dispute": {
+          "title": "紛争解決",
+          "desc": "本規約で直接言及されていない問題は、管理側が公正かつ拘束力のある方法で処理します。管理側の決定が最終となります。"
+        },
+        "liability": {
+          "title": "免責事項",
+          "desc": "WINPROFX は発生した取引損失について一切の責任を負いません。本プログラムは参加者のリスクプロファイルや投資戦略を変更するものではありません。"
+        },
+        "general": {
+          "title": "一般規約",
+          "desc": "WINPROFX は本プログラムをいつでも変更または終了する権利を留保します。本プログラム固有の条件に加え、WINPROFX の既存のすべての利用規約が適用されます。"
+        }
+      },
+      "riskWarning": "Forex およびレバレッジ商品の取引には重大なリスクが伴い、すべての投資家に適しているわけではありません。取引により初期投資額を超える損失が発生する可能性があります。関連するリスクを十分に理解していることを確認してください。",
+      "readFullRiskDisclosure": "リスク開示の全文を読む →"
+    },
+    "rewardTiers": {
+      "volumeLabel": "Lots",
+      "items": {
+        "tier1": {
+          "prize": "Power Bank",
+          "desc": "どこで取引しても電源をキープ"
+        },
+        "tier2": {
+          "prize": "Apple Airpods",
+          "desc": "プロレベルのパフォーマンスを手のひらに"
+        },
+        "tier3": {
+          "prize": "Apple Watch",
+          "desc": "トップトレーダーへの究極の賞品"
+        },
+        "tier4": {
+          "prize": "iPAD",
+          "desc": "大画面でもっとスマートに取引"
+        },
+        "tier5": {
+          "prize": "iPAD Pro",
+          "desc": "プロレベルの大画面でもっとスマートに取引"
+        },
+        "tier6": {
+          "prize": "LATEST IPHONE",
+          "desc": "エリートトレーダーのための究極のデバイス"
+        }
+      },
+      "tradingVolumeLabel": "取引量",
+      "noteLabel": "注：",
+      "note": "オプトイン日から30日以内に目標取引量を達成してください。株式および暗号資産ペアは対象外です。"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "analytics": {
+    "meta": "অ্যানালিটিক্স",
+    "h1": "স্মার্ট ট্রেডিং সিদ্ধান্তের জন্য শক্তিশালী অ্যানালিটিক্স টুল",
+    "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+    "newsBlog": {
+      "eventTracker": {
+        "meta": "ইভেন্ট ট্র্যাকার",
+        "title": "Economic Calendar-এর সাথে গুরুত্বপূর্ণ অর্থনৈতিক ইভেন্ট ট্র্যাক করুন",
+        "des": "WINPROFX-এ আপনার ট্রেডিং কৌশল উন্নত করতে গুরুত্বপূর্ণ অর্থনৈতিক ইভেন্ট এবং ডেটা রিলিজ সম্পর্কে আপডেট থাকুন।"
+      },
+      "marketNews": {
+        "meta": "মার্কেট সংবাদ",
+        "title": "WINPROFX থেকে রিয়েল-টাইম মার্কেট সংবাদ",
+        "des": "FXStreet News দলের মার্কেট সংবাদ এবং সর্বশেষ আপডেট রিয়েল-টাইমে পান। WINPROFX Trade অ্যাপ বা WINPROFX Personal Area ব্যবহার করুন।"
+      }
+    },
+    "smartSignals": {
+      "meta": "স্মার্ট সিগন্যাল",
+      "title": "স্মার্ট সিগন্যাল",
+      "des": "আপনার ট্রেডিং সিদ্ধান্তের জন্য Trading Central থেকে actionable insights পান।"
+    },
+    "faqs": {
+      "marketPredictions": {
+        "title": "আমাদের প্ল্যাটফর্মে কোন টুলগুলো সেরা মার্কেট পূর্বাভাস দেয়?",
+        "body": "Economic Calendar ব্যবহার করে গুরুত্বপূর্ণ অর্থনৈতিক ইভেন্ট এবং ডেটা রিলিজ ট্র্যাক করুন। FXStreet News-এর মাধ্যমে রিয়েল-টাইম সংবাদ পান এবং Trading Central WebTV থেকে insights নিন।"
+      },
+      "tradingPatterns": {
+        "title": "আমাদের ওয়েবসাইটে ট্রেডিং প্যাটার্ন বিশ্লেষণের জন্য কোন টুলগুলো সেরা?",
+        "body": "WINPROFX মৌলিক এবং প্রযুক্তিগত বিশ্লেষণ টুলের সংমিশ্রণ প্রদান করে যা দামের গতিবিধি পূর্বাভাস এবং ট্রেডিং প্যাটার্ন বিশ্লেষণে সাহায্য করে। টুলগুলো বিনামূল্যে এবং সহজে অ্যাক্সেসযোগ্য।"
+      },
+      "freeSignals": {
+        "title": "Where can I access free trading signals on the WINPROFX website?",
+        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+      }
+    },
+    "bannerMeta": "Analytics Tools",
+    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
+    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
+    "smartSignalsTitle": "Strategic Trading Signals",
+    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
+    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqKeys": [
+      "marketPredictions",
+      "tradingPatterns",
+      "freeSignals"
+    ]
+  },
+  "economicCalendar": {
+    "meta": "অর্থনৈতিক ক্যালেন্ডার",
+    "h1": "অর্থনৈতিক ক্যালেন্ডার",
+    "tableHeaders": {
+      "time": "সময়",
+      "symbol": "প্রতীক",
+      "event": "ইভেন্ট",
+      "impact": "প্রভাব",
+      "actual": "প্রকৃত",
+      "forecast": "পূর্বাভাস",
+      "previous": "পূর্ববর্তী"
+    },
+    "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+    "heroDescription": "বিশ্বব্যাপী ম্যাক্রোইকোনমিক ইভেন্ট, অস্থিরতা সূচক এবং বাজার-চালিত ডেটা রিয়েল-টাইমে ট্র্যাক করুন।",
+    "symbolsLabel": "প্রতীক",
+    "sampleEvent": "নন-ফার্ম পেরোল (NFP)",
+    "impactHigh": "উচ্চ",
+    "sections": {
+      "understanding": {
+        "title": "Forex Economic Calendar বোঝা এবং ব্যবহার",
+        "p1": "Forex Economic Calendar ট্রেডারদের জন্য একটি অমূল্য সরঞ্জাম, যা বাজারের চলাচল ও মূল্য পরিবর্তনের পূর্বাভাসে সহায়তা করে। এটি গুরুত্বপূর্ণ জাতীয় ও আন্তর্জাতিক সংবাদ ইভেন্ট কালানুক্রমিকভাবে তালিকাভুক্ত করে।",
+        "p2": "মুদ্রানীতি সিদ্ধান্ত, অর্থনৈতিক সূচক, জিডিপি ঘোষণা, Non-Farm Payrolls (NFP) এবং সুদের হার পরিবর্তনের মতো মূল ইভেন্ট অন্তর্ভুক্ত, কারণ এগুলো আর্থিক বাজারকে ব্যাপকভাবে প্রভাবিত করতে পারে।"
+      },
+      "whyUse": {
+        "title": "কেন Forex Economic Calendar ব্যবহার করবেন",
+        "p1": "Forex Economic Calendar আসন্ন সংবাদ, রিপোর্ট ও ঘোষণার সাথে আপডেট থাকার জন্য অপরিহার্য। এই ইভেন্টগুলো forex মুদ্রা জোড়, স্টক ও অন্যান্য বাজারের অস্থিরতাকে উল্লেখযোগ্যভাবে প্রভাবিত করতে পারে।",
+        "p2": "ক্যালেন্ডার ব্যবহার করে ট্রেডাররা তাদের ট্রেড আরও কার্যকরভাবে পরিকল্পনা করতে পারেন এবং যে চার্ট প্যাটার্ন ও সূচক প্রভাবিত হতে পারে সে সম্পর্কে অবগত থাকতে পারেন। ট্রেডিং দিনের আগে ক্যালেন্ডার দেখা একটি বুদ্ধিমান অভ্যাস।"
+      }
+    },
+    "faqSubtitle": "ট্রেডিং, অ্যাকাউন্ট সেটআপ, ডিপোজিট, উইথড্রয়াল এবং প্ল্যাটফর্ম বৈশিষ্ট্য সম্পর্কে সবচেয়ে সাধারণ প্রশ্নগুলোর স্পষ্ট ও সংক্ষিপ্ত উত্তর পান।",
+    "faqs": {
+      "whatIs": {
+        "title": "Forex Economic Calendar কী?",
+        "body": "<p>Economic Calendar একটি সরঞ্জাম যা গুরুত্বপূর্ণ অর্থনৈতিক ইভেন্ট ও ডেটা রিলিজ কালানুক্রমিকভাবে তালিকাভুক্ত করে, যা আর্থিক বাজারকে প্রভাবিত করতে পারে।</p>"
+      },
+      "howToUse": {
+        "title": "ট্রেডিংয়ের জন্য Forex Economic Calendar কীভাবে ব্যবহার করব?",
+        "body": "<p>ট্রেডাররা Economic Calendar ব্যবহার করে আসন্ন ইভেন্ট সম্পর্কে অবগত থাকেন, যা বাজারের চলাচলকে প্রভাবিত করতে পারে, এবং তাদের ট্রেড আরও কার্যকরভাবে পরিকল্পনা করতে সাহায্য করে।</p>"
+      },
+      "eventTypes": {
+        "title": "Forex Economic Calendar-এ কী ধরনের ইভেন্ট তালিকাভুক্ত?",
+        "body": "<p>Economic Calendar-এ মুদ্রানীতি সিদ্ধান্ত, অর্থনৈতিক সূচক, জিডিপি ঘোষণা, Non-Farm Payrolls (NFP) এবং সুদের হার পরিবর্তনের মতো ইভেন্ট অন্তর্ভুক্ত।</p>"
+      },
+      "impact": {
+        "title": "Forex economic events ট্রেডিংকে কীভাবে প্রভাবিত করে?",
+        "body": "<p>অর্থনৈতিক ইভেন্ট আর্থিক বাজারে উল্লেখযোগ্য অস্থিরতা সৃষ্টি করতে পারে, forex জোড়, স্টক ও অন্যান্য ইনস্ট্রুমেন্টের মূল্যকে প্রভাবিত করে।</p>"
+      },
+      "whereFind": {
+        "title": "WINPROFX প্ল্যাটফর্মে Forex Economic Calendar কোথায় পাব?",
+        "body": "<p>Economic Calendar WINPROFX ওয়েবসাইটে আপনার Personal Area-তে বা WINPROFX Trade অ্যাপের মাধ্যমে অ্যাক্সেসযোগ্য।</p>"
+      },
+      "notifications": {
+        "title": "আসন্ন Forex economic events-এর জন্য কি নোটিফিকেশন পেতে পারি?",
+        "body": "<p>হ্যাঁ, আপনি আপনার ট্রেডিং প্ল্যাটফর্মে \"Mailbox\" ট্যাবের অধীনে আসন্ন economic events-এর জন্য নোটিফিকেশন পেতে পারেন।</p>"
+      },
+      "importance": {
+        "title": "সব Forex economic events কি ট্রেডিংয়ের জন্য সমান গুরুত্বপূর্ণ?",
+        "body": "<p>না, economic events-এর প্রভাব ভিন্ন। সুদের হার সিদ্ধান্ত ও NFP-এর মতো বড় ইভেন্ট সাধারণত অন্যগুলোর চেয়ে বেশি প্রভাব ফেলে।</p>"
+      },
+      "updated": {
+        "title": "Forex Economic Calendar কত ঘন ঘন আপডেট হয়?",
+        "body": "<p>Economic Calendar রিয়েল-টাইমে আপডেট করা হয় যাতে আপনি আসন্ন ইভেন্ট সম্পর্কে সবচেয়ে সাম্প্রতিক তথ্য পান।</p>"
+      }
+    }
+  },
+  "currencyCalculator": {
+    "meta": "কারেন্সি ক্যালকুলেটর",
+    "h1": "কারেন্সি ক্যালকুলেটর",
+    "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+    "faqs": {
+      "whatIs": {
+        "title": "Forex Currency Calculator কী?",
+        "body": "Forex Currency Calculator একটি টুল যা ট্রেডারদের তাদের ট্রেডিং পজিশনের জন্য pips, margin, Spread, commission এবং অন্যান্য গুরুত্বপূর্ণ মেট্রিক্স গণনা করতে সাহায্য করে।"
+      },
+      "howToUse": {
+        "title": "Forex Currency Calculator কীভাবে ব্যবহার করব?",
+        "body": "currency pair, position size এবং Leverage-এর মতো ট্রেড বিবরণ ইনপুট করুন এবং pips, margin এবং Spread-এর মতো বিভিন্ন মেট্রিক্স গণনা করুন।"
+      },
+      "metrics": {
+        "title": "Forex Currency Calculator কোন মেট্রিক্স গণনা করতে পারে?",
+        "body": "ক্যালকুলেটর pips, margin, Spread, commission এবং অন্যান্য প্রয়োজনীয় ট্রেডিং মেট্রিক্স নির্ধারণ করতে সাহায্য করে।"
+      },
+      "free": {
+        "title": "Forex Currency Calculator কি বিনামূল্যে?",
+        "body": "হ্যাঁ, WINPROFX-এ Forex Currency Calculator সব ব্যবহারকারীর জন্য বিনামূল্যে।"
+      },
+      "whyUse": {
+        "title": "Forex Currency Calculator কেন ব্যবহার করব?",
+        "body": "এটি জটিল গণনা সহজ করে, আপনাকে আরও ভালো ট্রেডিং সিদ্ধান্ত নিতে এবং পজিশন কার্যকরভাবে পরিচালনা করতে সাহায্য করে।"
+      },
+      "allPairs": {
+        "title": "আমি কি সব কারেন্সি পেয়ারের জন্য Forex কারেন্সি ক্যালকুলেটর ব্যবহার করতে পারি?",
+        "body": "হ্যাঁ, ক্যালকুলেটর সব প্রধান ও গৌণ কারেন্সি পেয়ার সমর্থন করে।"
+      },
+      "accountTypes": {
+        "title": "Forex কারেন্সি ক্যালকুলেটর কি বিভিন্ন অ্যাকাউন্ট টাইপ বিবেচনা করে?",
+        "body": "হ্যাঁ, আপনি আপনার নির্দিষ্ট অ্যাকাউন্ট টাইপ ও ট্রেডিং শর্তের সাথে মিলিয়ে ক্যালকুলেটর সেটিংস কাস্টমাইজ করতে পারেন।"
+      },
+      "accuracy": {
+        "title": "Forex কারেন্সি ক্যালকুলেটর কতটা নির্ভুল?",
+        "body": "ক্যালকুলেটর ইনপুট ডেটা ও বর্তমান বাজার অবস্থার ভিত্তিতে অত্যন্ত নির্ভুল ফলাফল প্রদান করে।"
+      },
+      "whereFind": {
+        "title": "WINPROFX-এ Forex কারেন্সি ক্যালকুলেটর কোথায় পাব?",
+        "body": "আপনি WINPROFX ওয়েবসাইটে আপনার Personal Area-এর টুলস বিভাগে Forex কারেন্সি ক্যালকুলেটর অ্যাক্সেস করতে পারেন।"
+      },
+      "riskManagement": {
+        "title": "Forex কারেন্সি ক্যালকুলেটর কি ঝুঁকি ব্যবস্থাপনায় সাহায্য করতে পারে?",
+        "body": "হ্যাঁ, মূল মেট্রিক্স গণনা করে এটি আপনার ট্রেডের সাথে জড়িত ঝুঁকি আরও ভালোভাবে বুঝতে ও পরিচালনা করতে সাহায্য করে।"
+      }
+    },
+    "bannerMeta": "ক্যালকুলেটর",
+    "bannerTitle": "নির্ভুল ট্রেড পরিকল্পনা",
+    "bannerDes": "বিশ্বব্যাপী বাজারে মার্জিন, পিপ মান এবং ওভারনাইট সোয়াপ রিয়েল-টাইমে গণনা করুন।",
+    "sectionTitle": "Forex কারেন্সি ক্যালকুলেটর",
+    "sectionDes": "Forex কারেন্সি ক্যালকুলেটর একটি দরকারী টুল যা ট্রেডারদের রিয়েল-টাইম এক্সচেঞ্জ রেট ব্যবহার করে এক মুদ্রা থেকে অন্য মুদ্রায় দ্রুত রূপান্তর করতে সাহায্য করে।"
+  },
+  "currencyConverter": {
+    "meta": "কারেন্সি কনভার্টার",
+    "h1": "কারেন্সি কনভার্টার",
+    "cardTitle": "WINPROFX Currency Converter ব্যবহার",
+    "cardDes": "আমাদের কারেন্সি কনভার্টার রিয়েল-টাইম হারে একটি মুদ্রাকে অন্যটিতে দ্রুত এবং সঠিকভাবে রূপান্তর করতে সাহায্য করে। ট্রেডিং অ্যাকাউন্টে জমা ও উত্তোলনের সময় এই টুল অপরিহার্য।",
+    "steps": {
+      "selectBase": "ছয়টি উপলব্ধ ড্রপডাউন তালিকা থেকে আপনার base currency নির্বাচন করুন।",
+      "selectTargets": "রূপান্তরের জন্য সর্বোচ্চ পাঁচটি অন্যান্য মুদ্রা বেছে নিন।",
+      "enterAmount": "base currency থেকে রূপান্তর করতে চাওয়া পরিমাণ লিখুন।",
+      "autoCalculate": "কারেন্সি কনভার্টার স্বয়ংক্রিয়ভাবে আপনার নির্বাচিত মুদ্রার জন্য বিনিময় হার গণনা এবং প্রদর্শন করবে।"
+    },
+    "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+    "faqs": {
+      "selectBase": {
+        "title": "base currency কীভাবে নির্বাচন করব?",
+        "body": "আপনি ছয়টি উপলব্ধ ড্রপডাউন তালিকা থেকে আপনার base currency নির্বাচন করতে পারেন। এটি সেই মুদ্রা যা থেকে আপনি রূপান্তর করছেন।"
+      },
+      "selectTargets": {
+        "title": "আমি কতগুলো মুদ্রায় রূপান্তর করতে পারি?",
+        "body": "আপনি একসাথে সর্বোচ্চ পাঁচটি অন্যান্য মুদ্রায় রূপান্তর করতে পারেন।"
+      },
+      "realTimeRates": {
+        "title": "বিনিময় হার কি রিয়েল-টাইম?",
+        "body": "হ্যাঁ, কারেন্সি কনভার্টার সঠিক রূপান্তরের জন্য রিয়েল-টাইম বিনিময় হার ব্যবহার করে।"
+      },
+      "freeToUse": {
+        "title": "কারেন্সি কনভার্টার কি বিনামূল্যে?",
+        "body": "হ্যাঁ, WINPROFX Currency Converter সব ব্যবহারকারীর জন্য বিনামূল্যে।"
+      },
+      "enterAmount": {
+        "title": "রূপান্তরের পরিমাণ কীভাবে লিখব?",
+        "body": "নির্ধারিত ক্ষেত্রে আপনার base currency থেকে রূপান্তর করতে চাওয়া পরিমাণ লিখুন। কনভার্টার স্বয়ংক্রিয়ভাবে নির্বাচিত মুদ্রায় সমতুল্য মান গণনা করবে।"
+      },
+      "ratesUpdated": {
+        "title": "এক্সচেঞ্জ রেট কি রিয়েল-টাইমে আপডেট হয়?",
+        "body": "হ্যাঁ, WINPROFX Currency Converter-এ ব্যবহৃত এক্সচেঞ্জ রেট নির্ভুলতা নিশ্চিত করতে রিয়েল-টাইমে আপডেট হয়।"
+      },
+      "accountRequired": {
+        "title": "WINPROFX অ্যাকাউন্ট ছাড়া কি কারেন্সি কনভার্টার ব্যবহার করতে পারি?",
+        "body": "না, কারেন্সি কনভার্টার টুল অ্যাক্সেস ও ব্যবহার করতে আপনার নিবন্ধিত WINPROFX অ্যাকাউন্ট থাকা প্রয়োজন।"
+      },
+      "updateFrequency": {
+        "title": "এক্সচেঞ্জ রেট কত ঘন ঘন আপডেট হয়?",
+        "body": "সর্বশেষ বাজার অবস্থা প্রতিফলিত করতে এক্সচেঞ্জ রেট রিয়েল-টাইমে ক্রমাগত আপডেট হয়।"
+      }
+    },
+    "bannerMeta": "কনভার্টার",
+    "bannerDes": "আমাদের ব্যবহারকারী-বান্ধব কারেন্সি কনভার্টার দিয়ে লাইভ এক্সচেঞ্জ রেট গণনা করুন এবং সব প্রধান ও এক্সোটিক কারেন্সি পেয়ার সহজেই রূপান্তর করুন।"
+  },
+  "whyWinprofx": {
+    "title": "কেন WINPROFX?",
+    "description": "WINPROFX উন্নত ট্রেডিং টুল, রিয়েল-টাইম মার্কেট আপডেট এবং ব্যবহারবান্ধব প্ল্যাটফর্ম প্রদান করে যাতে ট্রেডাররা সচেতন সিদ্ধান্ত নিতে এবং তাদের কৌশল অপ্টিমাইজ করতে পারে।"
+  },
+  "converterUi": {
+    "title": "Convert Your Currency",
+    "account": "Account",
+    "accountPlaceholder": "Enter your account",
+    "convertedAmount": "Converted Amount",
+    "convertedPlaceholder": "Converted amount",
+    "convertNow": "Convert Now"
+  },
+  "calculatorUi": {
+    "yourOrder": "Your Order",
+    "accountType": "Account Type",
+    "selectAccountType": "Select account type",
+    "standard": "Standard",
+    "lotSizePlaceholder": "Enter your lot size",
+    "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
+    "accountCurrency": "Account Currency",
+    "selectAccountCurrency": "Select account Currency",
+    "selectInstrument": "Select instrument",
+    "lot": "Lot",
+    "leverage": "Leverage",
+    "selectLeverage": "Select leverage",
+    "calculateNow": "Calculate Now",
+    "results": "Results",
+    "margin": "Margin",
+    "spreadCost": "Spread Cost",
+    "commission": "Commission",
+    "swapShot": "Swap Shot",
+    "swapLong": "Swap Long",
+    "pipValue": "Pip Value",
+    "pro": "Pro",
+    "ecn": "ECN",
+    "disclaimerLabel": "Disclaimer:",
+    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+  }
+}
