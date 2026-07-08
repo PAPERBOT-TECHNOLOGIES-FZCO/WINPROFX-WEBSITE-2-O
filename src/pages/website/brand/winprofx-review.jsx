@@ -1,13 +1,13 @@
+import IdentitySection from '@/components/company-identity/identity-section'
+import SeoHead from '@/components/seo-head'
+import TrustPageLayout from '@/components/trust/trust-page-layout'
+import { useSeo } from '@/hooks/use-seo'
+import { RISK_WARNING_SHORT } from '@/lib/company-registration'
+import { BRAND_DESCRIPTION } from '@/lib/schema-org'
+import { TRUST_CENTER_PATH, TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import SeoHead from '@/components/seo-head'
-import { useSeo } from '@/hooks/use-seo'
-import TrustPageLayout from '@/components/trust/trust-page-layout'
-import IdentitySection from '@/components/company-identity/identity-section'
-import { BRAND_DESCRIPTION } from '@/lib/schema-org'
-import { RISK_WARNING_SHORT } from '@/lib/company-registration'
-import { TRUST_LAST_REVIEWED_ISO, TRUST_CENTER_PATH } from '@/lib/trust-pages'
 
 export default function WinprofxReview() {
   const { t } = useTranslation('brand')
@@ -67,7 +67,7 @@ export default function WinprofxReview() {
           {' · '}
           <Link to="/company-profile/" className="text-primary underline">Company Profile</Link>
           {' · '}
-          <Link to="/regulatory-information/" className="text-primary underline">Regulatory Information</Link>
+          <Link to="/regulatory-information/" className="text-primary underline">Information</Link>
         </IdentitySection>
 
         <IdentitySection title={t('pages.winprofxReview.sections.withdrawalsAndComplaints')}>

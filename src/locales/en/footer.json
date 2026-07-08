@@ -11,7 +11,7 @@
     "restrictedRegions": "Restricted Regions"
   },
   "officialWebsite": {
-    "title": "WINPROFX Official Website",
+    "title": "WINPROFX",
     "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
   },
   "domains": {
@@ -44,6 +44,6 @@
     "legalDocuments": "Legal Documents",
     "riskDisclosure": "Risk Disclosure"
   },
-  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
+  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, UAE, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
   "copyright": "© {{year}} All Rights Reserved By WINPROFX"
 }

@@ -71,7 +71,7 @@ export const IDENTITY_PAGE_SCHEMA = {
   '/aml-policy': { pageName: 'AML Policy', breadcrumb: 'AML Policy' },
   '/company-registration': { pageName: 'Company Registration', breadcrumb: 'Company Registration', trustParent: true },
   '/legal-entity-information': { pageName: 'Legal Entity Information', breadcrumb: 'Legal Entity Information', trustParent: true },
-  '/regulatory-information': { pageName: 'Regulatory Information', breadcrumb: 'Regulatory Information', trustParent: true },
+  '/regulatory-information': { pageName: 'Information', breadcrumb: 'Information', trustParent: true },
   '/dubai-professional-license': { pageName: 'Dubai Professional License', breadcrumb: 'Dubai Professional License', trustParent: true },
   '/uae-representative-office': { pageName: 'UAE Representative Office', breadcrumb: 'UAE Representative Office', trustParent: true },
   '/withdrawal-transparency': { pageName: 'Withdrawal Transparency', breadcrumb: 'Withdrawal Transparency', trustParent: true },

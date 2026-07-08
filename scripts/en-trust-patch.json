@@ -45,7 +45,7 @@
           "brandOverview2": "The purpose of this page is to provide users, partners, and search engines with clear official information about the WINPROFX brand, its official domains, support channels, services, and risk-related notices.",
           "brandOverview3": "Users should rely on the official domains and portals listed on this website when accessing WINPROFX services, verifying identity, or contacting support.",
           "legalEntityIntro": "{{brandName}} is associated with {{legalEntityName}}, an International Business Company incorporated in {{jurisdiction}}. The company's incorporation documents include a {{documentTypes}}.",
-          "legalEntityRegulatory": "For regulatory and license-related information, visit the <regulatoryLink>Regulatory Information</regulatoryLink> page.",
+          "legalEntityRegulatory": "For regulatory and license-related information, visit the <regulatoryLink>Information</regulatoryLink> page.",
           "uaeOfficeIntro": "{{brandName}} operates a UAE representative office under the business name {{dubaiBusinessName}}, registered under Dubai Professional License No. {{dubaiLicenseNumber}} with license activity listed as {{dubaiLicenseActivity}}.",
           "trustIntro": "{{brandName}} publishes trust and transparency information to help clients verify official domains, understand withdrawal processes, submit complaints, and access support escalation routes.",
           "domainsGuidanceIntro": "{{brandName}} uses official domains and portals to provide website information, client account access, partner services, and support communication. Users should verify that they are visiting an official WINPROFX domain before registering, logging in, making payments, or sharing account-related information.",
@@ -189,7 +189,7 @@
           "entityStructureIntro": "{{legalEntityName}} is the parent legal entity incorporated in {{jurisdiction}}. The Dubai branch operates as a representative office under a Dubai Professional License. The structure is summarized below.",
           "verifyBeforeAct": "Users should verify WINPROFX identity using the <verifyLink>Verify WINPROFX</verifyLink> checklist before registering, logging in, or sharing personal information.",
           "legalDocsIntro": "Certified incorporation documents and other legal documents are available through the <legalDocsLink>Legal Documents</legalDocsLink> section.",
-          "regulatoryVisit": "For regulatory and license-related information, visit the <regulatoryLink>Regulatory Information</regulatoryLink> page."
+          "regulatoryVisit": "For regulatory and license-related information, visit the <regulatoryLink>Information</regulatoryLink> page."
         }
       },
       "dubaiProfessionalLicense": {
@@ -323,7 +323,7 @@
               "description": "Legal entity, registered agent, registered office, Dubai branch, and official domains."
             },
             "regulatory": {
-              "name": "Regulatory Information",
+              "name": "Information",
               "description": "Company incorporation, Dubai license, and financial services license clarification."
             },
             "uaeOffice": {
@@ -477,7 +477,7 @@
           "withdrawalVerification": "Withdrawals may require confirmation of account identity, payment method ownership, and compliance status before processing. See <withdrawalLink>Withdrawal Transparency</withdrawalLink> for the withdrawal review process and escalation options.",
           "preDepositChecklist": {
             "domain": "Confirm the website URL matches an official WINPROFX domain listed on Official Domains",
-            "verifyPages": "Verify the legal entity and license information on Company Registration and Regulatory Information pages",
+            "verifyPages": "Verify the legal entity and license information on Company Registration and Information pages",
             "readDocs": "Read the Risk Warning and applicable legal documents before opening an account",
             "clientPortal": "Use only the official client portal at https://my.winprofx.org/ for account access",
             "noThirdParty": "Never send funds to unverified addresses or third-party accounts",
@@ -553,7 +553,7 @@
     }
   },
   "company": {
-    "incorporationClarification": "The incorporation document confirms the legal formation of Winprofx Ltd. as an International Business Company in Saint Lucia. Company incorporation is different from a financial services license, forex broker license, CFD broker license, or regulatory authorization. Any regulatory or financial services license information, if applicable, should be verified separately through the Regulatory Information page and official regulator references.",
+    "incorporationClarification": "The incorporation document confirms the legal formation of Winprofx Ltd. as an International Business Company in Saint Lucia. Company incorporation is different from a financial services license, forex broker license, CFD broker license, or regulatory authorization. Any regulatory or financial services license information, if applicable, should be verified separately through the Information page and official regulator references.",
     "licenseScopeClarification": "The Saint Lucia incorporation document confirms the legal formation of Winprofx Ltd. The Dubai Professional License confirms the Dubai branch / representative office registration and activity as a Representative Office. These documents should not be confused with a financial services broker license, forex broker license, CFD broker license, or investment services authorization unless separate regulator-issued financial services license details are published and verified.",
     "dubaiScopeClarification": "This Dubai Professional License lists the activity as Representative Office. A representative office license is different from a financial services broker license. Any financial services, forex broker, or CFD broker regulatory authorization should be verified separately through official regulatory records.",
     "dubaiVerificationNote": "The Dubai license document states that it is a certified e-document issued without signature by the Department of Economy and Tourism and can be verified by scanning the QR code on the original document.",

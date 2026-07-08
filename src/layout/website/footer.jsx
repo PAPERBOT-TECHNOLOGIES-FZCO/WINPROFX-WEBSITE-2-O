@@ -1,15 +1,15 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
+import { Container } from '@/components/grid';
+import LocalizedLink from '@/components/localized-link';
 import Logo from '@/components/logo';
+import Social from '@/components/social';
+import { duration, once, y } from '@/utilities/animation';
 import { motion } from 'framer-motion';
-import Social from '@/components/social'
-import { Container } from '@/components/grid'
-import { duration, once, y } from '@/utilities/animation'
-import LocalizedLink from '@/components/localized-link'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-import { footerTrustLegalLinks } from '@/lib/company-registration'
-import bg from '@/assets/img/footer-bg.png'
-import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png'
+import bg from '@/assets/img/footer-bg.png';
+import { footerTrustLegalLinks } from '@/lib/company-registration';
+import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png';
 
 export default function Footer() {
   const { t } = useTranslation(['footer', 'common', 'company'])
@@ -24,7 +24,7 @@ export default function Footer() {
 
   const important_links = [
     { nameKey: 'links.companyProfile', path: '/company-profile/' },
-    { nameKey: 'links.officialDomains', path: '/official-domains/' },
+    // { nameKey: 'links.officialDomains', path: '/official-domains/' },
     { nameKey: 'links.riskWarning', path: '/risk-warning/' },
     { nameKey: 'links.contact', path: '/contact/' },
   ]
@@ -146,7 +146,7 @@ export default function Footer() {
               <p className="text-sm md:text-base leading-normal text-para">
                 {t('footer:officialWebsite.description')}
               </p>
-              <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
+              {/* <ul className="text-sm md:text-base leading-normal text-para flex flex-col gap-y-2">
                 {official_domains.map((item) => (
                   <li key={item.url}>
                     <span className="text-white">{t(`footer:${item.labelKey}`)}: </span>
@@ -166,7 +166,7 @@ export default function Footer() {
                     )}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
 
             <div className="flex flex-col gap-y-3">
@@ -199,7 +199,7 @@ export default function Footer() {
           <div className="flex flex-col gap-y-2 border-t border-white/10 pt-6">
             <strong className="text-base md:text-lg font-semibold leading-tight text-white">{t('footer:sections.riskWarning')}</strong>
             <p className="text-sm md:text-base leading-normal text-para">
-              {t('common:risk.short')}
+              {t('common:risk.full')}
             </p>
           </div>
 

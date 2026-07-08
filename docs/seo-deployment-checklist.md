@@ -47,7 +47,7 @@ Do not publish invented figures. Update only after ops/compliance verification:
 
 | Page | Data needed |
 |------|-------------|
-| Regulatory Information | Financial regulator name, license number, verify URL |
+| Information | Financial regulator name, license number, verify URL |
 | Withdrawal Transparency | SLA timelines, processing statistics |
 | Complaints | Acknowledgement/response timeframes |
 | Company Statistics | Client count, countries, uptime, ticket volumes |

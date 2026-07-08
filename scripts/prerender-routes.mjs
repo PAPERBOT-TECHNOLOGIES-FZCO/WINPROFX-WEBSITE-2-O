@@ -3,8 +3,8 @@
  * Built from locale-seo-readiness.mjs — only SEO-ready locale/page pairs are included.
  */
 import {
-  DEFAULT_LOCALE,
-  getSeoReadyPrerenderRoutes,
+    DEFAULT_LOCALE,
+    getSeoReadyPrerenderRoutes,
 } from './locale-seo-readiness.mjs'
 
 const NON_DEFAULT_LOCALE_CODES = ['hi', 'id', 'vi', 'bn', 'ms']
@@ -19,7 +19,7 @@ const TITLE_HINTS = {
   '/company-profile': { expectedTitle: 'Company Profile', expectedH1: 'Company Profile' },
   '/company-registration': { expectedTitle: 'Company Registration', expectedH1: 'Company Registration' },
   '/legal-entity-information': { expectedTitle: 'Legal Entity Information', expectedH1: 'Legal Entity Information' },
-  '/regulatory-information': { expectedTitle: 'Regulatory Information', expectedH1: 'Regulatory Information' },
+  '/regulatory-information': { expectedTitle: 'Information', expectedH1: 'Information' },
   '/dubai-professional-license': { expectedTitle: 'Dubai Professional License', expectedH1: 'Dubai Professional License' },
   '/uae-representative-office': { expectedTitle: 'UAE Representative Office', expectedH1: 'UAE Representative Office' },
   '/official-domains': { expectedTitle: 'Official WINPROFX Domains', expectedH1: 'Official WINPROFX Domains' },
