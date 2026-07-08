@@ -5,34 +5,9 @@
 [build.environment]
   PLAYWRIGHT_BROWSERS_PATH = "0"
 
-# Domain alias redirects: winprofx.com / winprofx.ae → winprofx.org (primary).
 # Uses full-URL patterns (Netlify domain-level redirect syntax).
 # Does not affect my.winprofx.org or partner.winprofx.org (separate sites).
 # Also mirrored in public/_redirects (processed first by Netlify).
-
-[[redirects]]
-  from = "https://winprofx.com/*"
-  to = "https://winprofx.org/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.winprofx.com/*"
-  to = "https://winprofx.org/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://winprofx.com/*"
-  to = "https://winprofx.org/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.winprofx.com/*"
-  to = "https://winprofx.org/:splat"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "https://winprofx.ae/*"
