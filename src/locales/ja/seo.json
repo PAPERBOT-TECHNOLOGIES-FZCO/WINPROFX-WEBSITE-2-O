@@ -2,13 +2,13 @@
   "home": {
     "title": "WINPROFX 公式サイト | Forex・CFD 取引サービス",
     "description": "WINPROFX は Forex および CFD 取引ブランドで、取引プラットフォームへのアクセス、クライアント口座サービス、パートナープログラムツール、取引関連サポートサービスを提供しています。",
-    "keywords": "WINPROFX, forex trading, CFD trading, MetaTrader 5, official WINPROFX website, company verification, trust center",
+    "keywords": "WINPROFX, Forex取引, CFD取引, MetaTrader 5, WINPROFX公式サイト, 会社確認, トラストセンター",
     "pageName": "WINPROFX 公式サイト"
   },
   "forex": {
     "title": "Forex 取引 | WINPROFX",
     "description": "WINPROFX で Forex 市場情報および取引関連サービスをご覧ください。プラットフォームアクセス、口座オプション、重要なリスク情報を含みます。",
-    "keywords": "Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WINPROFX Forex Services"
+    "keywords": "Forex取引プラットフォーム, Forex市場ソリューション, Forex取引サービス, Forex取引ツール, オンラインForex取引, Forex取引戦略, 初心者向けForex取引, 上級者向けForex取引, WINPROFX Forexサービス"
   },
   "indices": {
     "title": "指数取引 | WINPROFX",
@@ -31,7 +31,7 @@
     "description": "WINPROFX で原油および石油 CFD 取引をご覧ください。MT5 プラットフォームアクセス、口座オプション、重要なリスク開示を提供しています。"
   },
   "winPromotion": {
-    "title": "Win Promotion | WINPROFX",
+    "title": "Winプロモーション | WINPROFX",
     "description": "WINPROFX 限定の Win Promotion にご参加ください。取引量に応じて報酬が増える、アクティブトレーダー向けの段階型報酬プログラムです。"
   },
   "tradeToWin": {
@@ -127,7 +127,7 @@
     "description": "WINPROFX の規制および法的情報をご覧ください。Saint Lucia 設立、Dubai Professional License、ライセンス範囲の説明、リスク警告を含みます。"
   },
   "dubaiProfessionalLicense": {
-    "title": "Dubai Professional License | WINPROFX",
+    "title": "ドバイ Professional License | WINPROFX",
     "description": "WINPROFX LTD - DUBAI BRANCH - REP. OFFICE の Dubai Professional License 情報をご覧ください。ライセンス番号、事業内容、ステータス、発行日、有効期限、確認事項を含みます。"
   },
   "uaeRepresentativeOffice": {

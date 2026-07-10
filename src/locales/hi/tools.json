@@ -30,16 +30,16 @@
         "body": "WINPROFX मूलभूत और तकनीकी विश्लेषण टूल का संयोजन प्रदान करता है जो कीमत गतिविधि की भविष्यवाणी और ट्रेडिंग पैटर्न विश्लेषण में मदद करता है। टूल मुफ्त हैं और आसानी से उपलब्ध हैं।"
       },
       "freeSignals": {
-        "title": "Where can I access free trading signals on the WINPROFX website?",
-        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+        "title": "WINPROFX वेबसाइट पर मुफ़्त ट्रेडिंग सिग्नल कहाँ मिलेंगे?",
+        "body": "आप Personal Area और WINPROFX Trade ऐप में Trading Central से मुफ़्त ट्रेडिंग सिग्नल एक्सेस कर सकते हैं। ये सिग्नल विभिन्न विश्लेषणात्मक दृष्टिकोणों को शामिल करते हैं, अपेक्षित रुझानों पर insights देते हैं, और शुरुआती व अनुभवी दोनों ट्रेडर्स के लिए रणनीति और ट्रेड योजना बनाने में उपयोगी हैं।"
       }
     },
-    "bannerMeta": "Analytics Tools",
-    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
-    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
-    "smartSignalsTitle": "Strategic Trading Signals",
-    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
-    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "bannerMeta": "एनालिटिक्स टूल",
+    "bannerTitle": "स्मार्ट ट्रेडिंग निर्णयों के लिए शक्तिशाली एनालिटिक्स टूल",
+    "bannerDes": "आत्मविश्वास के साथ अपनी ट्रेड्स की योजना बनाने में मदद के लिए, हम आपको सर्वोत्तम मौलिक और तकनीकी एनालिटिक्स ट्रेडिंग टूल का एक्सेस देते हैं।",
+    "smartSignalsTitle": "रणनीतिक ट्रेडिंग सिग्नल",
+    "smartSignalsDes": "अपनी ट्रेड योजनाएँ और तकनीकें बनाने के लिए Trading Central के सिग्नल का सर्वोत्तम उपयोग करें। ये सिग्नल कई विश्लेषणात्मक तकनीकों को जोड़ते हैं और सभी अवधियों व बाज़ार स्थितियों में ट्रेडर्स के लिए उपयोगी टूल प्रदान करते हैं। आप इन्हें WINPROFX Trade ऐप या अपने WINPROFX Personal Area के माध्यम से आसानी से एक्सेस कर सकते हैं।",
+    "faqSubtitle": "ट्रेडिंग, खाता सेटअप, जमा, निकासी और प्लेटफ़ॉर्म सुविधाओं से जुड़े सबसे सामान्य प्रश्नों के स्पष्ट और संक्षिप्त उत्तर पाएँ।",
     "faqKeys": [
       "marketPredictions",
       "tradingPatterns",
@@ -217,37 +217,37 @@
     "description": "WINPROFX उन्नत ट्रेडिंग टूल, रियल-टाइम मार्केट अपडेट और user-friendly प्लेटफ़ॉर्म प्रदान करता है ताकि ट्रेडर्स सूचित निर्णय ले सकें और अपनी रणनीतियाँ अनुकूलित कर सकें।"
   },
   "converterUi": {
-    "title": "Convert Your Currency",
-    "account": "Account",
-    "accountPlaceholder": "Enter your account",
-    "convertedAmount": "Converted Amount",
-    "convertedPlaceholder": "Converted amount",
-    "convertNow": "Convert Now"
+    "title": "अपनी मुद्रा बदलें",
+    "account": "खाता",
+    "accountPlaceholder": "अपना खाता दर्ज करें",
+    "convertedAmount": "परिवर्तित राशि",
+    "convertedPlaceholder": "परिवर्तित राशि",
+    "convertNow": "अभी बदलें"
   },
   "calculatorUi": {
-    "yourOrder": "Your Order",
-    "accountType": "Account Type",
-    "selectAccountType": "Select account type",
+    "yourOrder": "आपका ऑर्डर",
+    "accountType": "खाता प्रकार",
+    "selectAccountType": "खाता प्रकार चुनें",
     "standard": "Standard",
-    "lotSizePlaceholder": "Enter your lot size",
+    "lotSizePlaceholder": "अपना लॉट साइज़ दर्ज करें",
     "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
-    "accountCurrency": "Account Currency",
-    "selectAccountCurrency": "Select account Currency",
-    "selectInstrument": "Select instrument",
-    "lot": "Lot",
-    "leverage": "Leverage",
-    "selectLeverage": "Select leverage",
-    "calculateNow": "Calculate Now",
-    "results": "Results",
-    "margin": "Margin",
-    "spreadCost": "Spread Cost",
-    "commission": "Commission",
-    "swapShot": "Swap Shot",
-    "swapLong": "Swap Long",
-    "pipValue": "Pip Value",
+    "accountCurrency": "खाता मुद्रा",
+    "selectAccountCurrency": "खाता मुद्रा चुनें",
+    "selectInstrument": "इंस्ट्रूमेंट चुनें",
+    "lot": "लॉट",
+    "leverage": "लीवरेज",
+    "selectLeverage": "लीवरेज चुनें",
+    "calculateNow": "अभी गणना करें",
+    "results": "परिणाम",
+    "margin": "मार्जिन",
+    "spreadCost": "स्प्रेड लागत",
+    "commission": "कमीशन",
+    "swapShot": "स्वैप शॉर्ट",
+    "swapLong": "स्वैप लॉन्ग",
+    "pipValue": "पिप वैल्यू",
     "pro": "Pro",
     "ecn": "ECN",
-    "disclaimerLabel": "Disclaimer:",
-    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+    "disclaimerLabel": "अस्वीकरण:",
+    "disclaimerBody": "ट्रेडिंग कैलकुलेटर केवल उदाहरण के उद्देश्यों के लिए प्रदान किया गया है। इस कैलकुलेटर द्वारा प्रस्तुत परिणाम शैक्षिक और अनुमान उद्देश्यों के लिए हैं, और आपको इन्हें पूर्ण मानकर या निवेश निर्णय लेने के लिए उन पर निर्भर नहीं रहना चाहिए। रियल-टाइम परिणाम केवल ऑर्डर निष्पादन के समय ही निर्धारित किए जा सकते हैं।"
   }
 }

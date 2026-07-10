@@ -161,22 +161,22 @@
   },
   "oil": {
     "banner": {
-      "meta": "Trading minyak",
-      "title": "Trading Minyak",
+      "meta": "Trading minyak mentah",
+      "title": "Trading Minyak Mentah",
       "description": "Lindung nilai terhadap volatilitas harga dan manfaatkan tren pasar global. Akses data real-time, charting canggih, dan likuiditas mendalam di platform trading utama kami untuk menavigasi sektor energi dengan percaya diri."
     },
     "card": {
-      "meta": "Trading minyak",
+      "meta": "Trading minyak mentah",
       "title": "Trading Data Pasar Langsung",
       "description": "Lacak pergerakan harga real-time, fluktuasi harian, dan tren teknikal di berbagai aset energi premium."
     },
     "learn": {
-      "title": "Pelajari Tentang Oil Trading"
+      "title": "Pelajari Tentang Trading Minyak Mentah"
     },
     "faq": {
       "howToStart": {
-        "title": "Bagaimana cara memulai trading minyak?",
-        "body": "<p>Sebelum Anda mulai trading minyak, penting untuk melakukan riset dan memahami pasar. Anda perlu mengetahui faktor apa yang memengaruhi harga minyak dan bagaimana faktor-faktor tersebut dapat berubah di masa depan. Juga, pahami berbagai jenis minyak yang dapat Anda trading di pasar dan produk yang menggunakan masing-masing jenis.</p>"
+        "title": "Bagaimana cara memulai trading minyak mentah?",
+        "body": "<p>Sebelum Anda mulai trading minyak mentah, penting untuk melakukan riset dan memahami pasar. Anda perlu mengetahui faktor apa yang memengaruhi harga minyak mentah dan bagaimana faktor-faktor tersebut dapat berubah di masa depan. Juga, pahami berbagai jenis minyak mentah yang dapat Anda trading di pasar dan produk yang menggunakan masing-masing jenis.</p>"
       },
       "bestStrategy": {
         "title": "Apa strategi terbaik untuk trading minyak mentah?",

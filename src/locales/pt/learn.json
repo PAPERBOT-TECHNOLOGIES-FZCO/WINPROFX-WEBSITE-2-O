@@ -1,8 +1,8 @@
 {
   "meta": {
     "lastUpdated": "2026-06-02",
-    "author": "WINPROFX Education Team",
-    "reviewer": "WINPROFX Compliance Team"
+    "author": "Equipe educacional da WINPROFX",
+    "reviewer": "Equipe de compliance da WINPROFX"
   },
   "index": {
     "h1": "Centro de Aprendizagem WINPROFX",
@@ -26,7 +26,7 @@
         },
         "howCurrencyPairsWork": {
           "title": "Como funcionam os pares de moedas",
-          "body": "Os pares de moedas mostram o valor de uma moeda em relação a outra (ex.: EUR/USD). A primeira moeda é a base; a segunda é a cotada. Os movimentos de preço refletem condições económicas, taxas de juro e sentimento do mercado."
+          "body": "Os pares de moedas mostram o valor de uma moeda em relação a outra (ex.: EUR/USD). A primeira moeda é a base; a segunda é a cotada. Os movimentos de preço refletem condições econômicas, taxas de juro e sentimento do mercado."
         },
         "forexAtWinprofx": {
           "title": "Forex na WINPROFX",
@@ -156,9 +156,9 @@
     "howToManageRiskInCfdTrading": {
       "slug": "how-to-manage-risk-in-cfd-trading",
       "path": "/learn/how-to-manage-risk-in-cfd-trading/",
-      "title": "Como gerir risco no trading de CFD | WINPROFX Learn",
+      "title": "Como gerenciar risco no trading de CFD | WINPROFX Learn",
       "description": "Guia educativo sobre conceitos de gestão de risco no trading de CFD, incluindo dimensionamento de posição, stop loss e consciência da alavancagem.",
-      "h1": "Como gerir risco no trading de CFD",
+      "h1": "Como gerenciar risco no trading de CFD",
       "breadcrumb": "Gestão de risco em CFD",
       "sections": {
         "positionSizing": {
@@ -205,7 +205,7 @@
       "slug": "how-to-check-if-a-forex-broker-is-legit",
       "path": "/learn/how-to-check-if-a-forex-broker-is-legit/",
       "title": "Como verificar se um corretor de Forex é legítimo | WINPROFX Learn",
-      "description": "Aprenda como verificar um corretor de forex utilizando domínios oficiais, registo da empresa, âmbito regulatório e divulgações de risco.",
+      "description": "Aprenda como verificar um corretor de forex utilizando domínios oficiais, registro da empresa, âmbito regulatório e divulgações de risco.",
       "h1": "Como verificar se um corretor de Forex é legítimo",
       "breadcrumb": "Verificar se um corretor é legítimo",
       "sections": {
@@ -214,12 +214,12 @@
           "body": "Confirme que o URL do site corresponde aos domínios oficiais publicados do corretor. Evite páginas de login acedidas através de links não solicitados ou mensagens nas redes sociais."
         },
         "reviewCompanyRegistration": {
-          "title": "Rever o registo da empresa",
-          "body": "Verifique se a entidade legal é divulgada com dados de incorporação e documentos descarregáveis quando disponíveis. O registo da empresa não é o mesmo que uma licença de serviços financeiros."
+          "title": "Revisar o registro da empresa",
+          "body": "Verifique se a entidade legal é divulgada com dados de incorporação e documentos para download quando disponíveis. O registro da empresa não é o mesmo que uma licença de serviços financeiros."
         },
         "understandRegulatoryScope": {
           "title": "Compreender o âmbito regulatório",
-          "body": "Determine que licenças ou registos existem e o que realmente autorizam. Uma licença de escritório representativo difere de uma licença de corretor financeiro."
+          "body": "Determine que licenças ou registros existem e o que realmente autorizam. Uma licença de escritório representativo difere de uma licença de corretor financeiro."
         }
       },
       "links": {
@@ -242,7 +242,7 @@
         },
         "financialServicesRegulation": {
           "title": "Regulação de serviços financeiros",
-          "body": "Reguladores de serviços financeiros (como FCA, ASIC, CySEC ou autoridades dos EAU) podem autorizar atividades específicas de corretor sob condições definidas. Verifique sempre através de registos oficiais do regulador."
+          "body": "Reguladores de serviços financeiros (como FCA, ASIC, CySEC ou autoridades dos EAU) podem autorizar atividades específicas de corretor sob condições definidas. Verifique sempre através de registros oficiais do regulador."
         },
         "dueDiligence": {
           "title": "Due diligence",

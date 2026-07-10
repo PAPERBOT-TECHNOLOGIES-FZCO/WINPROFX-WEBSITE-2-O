@@ -30,16 +30,16 @@
         "body": "WINPROFX menyediakan kombinasi alat analisis fundamental dan teknis untuk membantu Anda memprediksi pergerakan harga dan menganalisis pola trading. Alat gratis dan mudah diakses."
       },
       "freeSignals": {
-        "title": "Where can I access free trading signals on the WINPROFX website?",
-        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+        "title": "Di mana saya dapat mengakses sinyal trading gratis di situs WINPROFX?",
+        "body": "Anda dapat mengakses sinyal trading gratis dari Trading Central di Personal Area dan aplikasi WINPROFX Trade. Sinyal ini menggabungkan berbagai pendekatan analitis, memberikan wawasan tentang tren yang diharapkan, dan bermanfaat bagi trader pemula maupun berpengalaman untuk merencanakan strategi dan trade mereka."
       }
     },
-    "bannerMeta": "Analytics Tools",
-    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
-    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
-    "smartSignalsTitle": "Strategic Trading Signals",
-    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
-    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "bannerMeta": "Alat Analitik",
+    "bannerTitle": "Alat Analitik Andal untuk Keputusan Trading yang Lebih Cerdas",
+    "bannerDes": "Untuk membantu Anda merencanakan trade dengan percaya diri, kami memberikan akses ke alat analitik trading fundamental dan teknikal terbaik.",
+    "smartSignalsTitle": "Sinyal Trading Strategis",
+    "smartSignalsDes": "Manfaatkan sinyal Trading Central secara optimal untuk merumuskan rencana dan teknik trading Anda. Sinyal ini menggabungkan sejumlah teknik analitis, memberikan alat berguna bagi trader di semua periode dan kondisi pasar. Anda dapat dengan mudah mengaksesnya melalui aplikasi WINPROFX Trade atau WINPROFX Personal Area.",
+    "faqSubtitle": "Temukan jawaban jelas dan ringkas untuk pertanyaan paling umum tentang trading, pengaturan akun, deposit, penarikan, dan fitur platform.",
     "faqKeys": [
       "marketPredictions",
       "tradingPatterns",
@@ -217,37 +217,37 @@
     "description": "WINPROFX menawarkan alat trading canggih, pembaruan pasar real-time, dan platform yang mudah digunakan untuk membantu trader membuat keputusan tepat dan mengoptimalkan strategi trading."
   },
   "converterUi": {
-    "title": "Convert Your Currency",
-    "account": "Account",
-    "accountPlaceholder": "Enter your account",
-    "convertedAmount": "Converted Amount",
-    "convertedPlaceholder": "Converted amount",
-    "convertNow": "Convert Now"
+    "title": "Konversi Mata Uang Anda",
+    "account": "Akun",
+    "accountPlaceholder": "Masukkan akun Anda",
+    "convertedAmount": "Jumlah Hasil Konversi",
+    "convertedPlaceholder": "Jumlah hasil konversi",
+    "convertNow": "Konversi Sekarang"
   },
   "calculatorUi": {
-    "yourOrder": "Your Order",
-    "accountType": "Account Type",
-    "selectAccountType": "Select account type",
+    "yourOrder": "Order Anda",
+    "accountType": "Jenis Akun",
+    "selectAccountType": "Pilih jenis akun",
     "standard": "Standard",
-    "lotSizePlaceholder": "Enter your lot size",
-    "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
-    "accountCurrency": "Account Currency",
-    "selectAccountCurrency": "Select account Currency",
-    "selectInstrument": "Select instrument",
+    "lotSizePlaceholder": "Masukkan ukuran lot Anda",
+    "disclaimer": "Penafian: Kalkulator trading ini disediakan hanya untuk tujuan ilustrasi. Hasil bersifat perkiraan dan mungkin tidak mencerminkan kondisi trading aktual. Selalu verifikasi margin, nilai pip, dan biaya dengan spesifikasi akun Anda sebelum menempatkan trade.",
+    "accountCurrency": "Mata Uang Akun",
+    "selectAccountCurrency": "Pilih mata uang akun",
+    "selectInstrument": "Pilih instrumen",
     "lot": "Lot",
     "leverage": "Leverage",
-    "selectLeverage": "Select leverage",
-    "calculateNow": "Calculate Now",
-    "results": "Results",
+    "selectLeverage": "Pilih leverage",
+    "calculateNow": "Hitung Sekarang",
+    "results": "Hasil",
     "margin": "Margin",
-    "spreadCost": "Spread Cost",
-    "commission": "Commission",
-    "swapShot": "Swap Shot",
+    "spreadCost": "Biaya Spread",
+    "commission": "Komisi",
+    "swapShot": "Swap Short",
     "swapLong": "Swap Long",
-    "pipValue": "Pip Value",
+    "pipValue": "Nilai Pip",
     "pro": "Pro",
     "ecn": "ECN",
-    "disclaimerLabel": "Disclaimer:",
-    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+    "disclaimerLabel": "Penafian:",
+    "disclaimerBody": "Kalkulator trading ini disediakan hanya untuk tujuan ilustrasi. Hasil yang ditampilkan bersifat edukatif dan perkiraan, serta tidak boleh diandalkan sebagai informasi lengkap untuk keputusan investasi. Hasil real-time hanya dapat ditentukan pada saat eksekusi order."
   }
 }

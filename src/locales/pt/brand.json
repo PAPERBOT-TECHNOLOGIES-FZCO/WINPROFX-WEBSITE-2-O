@@ -4,10 +4,10 @@
       "path": "/is-winprofx-legit/",
       "h1": "A WINPROFX é legítima?",
       "breadcrumb": "A WINPROFX é legítima?",
-      "intro": "Esta página oficial explica como os clientes podem verificar as informações da empresa WINPROFX, os dados da entidade legal, o registo do escritório representativo em Dubai, os domínios oficiais e o âmbito regulatório. Não constitui aconselhamento de investimento.",
+      "intro": "Esta página oficial explica como os clientes podem verificar as informações da empresa WINPROFX, os dados da entidade legal, o registro do escritório representativo em Dubai, os domínios oficiais e o âmbito regulatório. Não constitui aconselhamento de investimento.",
       "sections": {
         "legalEntitySummary": "Resumo da entidade legal",
-        "companyRegistration": "Registo da empresa",
+        "companyRegistration": "Registro da empresa",
         "dubaiRepresentativeOffice": "Escritório representativo em Dubai",
         "regulatoryClarification": "Esclarecimento de informação regulatória",
         "officialDomainsVerification": "Verificação de domínios oficiais",
@@ -16,20 +16,20 @@
       },
       "faqs": {
         "registeredCompany": {
-          "question": "A WINPROFX é uma empresa registada?",
-          "answer": "{{legalEntityName}} está incorporada em {{jurisdiction}} como International Business Company (número de incorporação {{incorporationNumber}}). Os dados de registo da empresa são publicados no site oficial da WINPROFX."
+          "question": "A WINPROFX é uma empresa registrada?",
+          "answer": "{{legalEntityName}} está incorporada em {{jurisdiction}} como International Business Company (número de incorporação {{incorporationNumber}}). Os dados de registro da empresa são publicados no site oficial da WINPROFX."
         },
         "dubaiOffice": {
           "question": "A WINPROFX tem um escritório em Dubai?",
-          "answer": "A WINPROFX mantém um escritório representativo nos EAU registado sob uma Dubai Professional License ({{dubaiBusinessName}}). A atividade licenciada é {{dubaiLicenseActivity}}. Isto não é o mesmo que uma licença de regulador de serviços financeiros, salvo divulgação em separado."
+          "answer": "A WINPROFX mantém um escritório representativo nos EAU registrado sob uma Dubai Professional License ({{dubaiBusinessName}}). A atividade licenciada é {{dubaiLicenseActivity}}. Isto não é o mesmo que uma licença de regulador de serviços financeiros, salvo divulgação em separado."
         },
         "verifyOfficial": {
           "question": "Como posso verificar que a WINPROFX é oficial?",
-          "answer": "Verifique o domínio na página de Domínios Oficiais, reveja os documentos de registo da empresa e utilize a lista de verificação Verificar WINPROFX antes de iniciar sessão ou depositar."
+          "answer": "Verifique o domínio na página de Domínios Oficiais, reveja os documentos de registro da empresa e utilize a lista de verificação Verificar WINPROFX antes de iniciar sessão ou depositar."
         },
         "beforeDepositing": {
           "question": "O que devo verificar antes de depositar na WINPROFX?",
-          "answer": "Confirme que está num domínio oficial, reveja o Aviso de Risco, compreenda os processos de levantamento e reclamações, e verifique as informações de registo da empresa e o âmbito regulatório no Centro de Confiança."
+          "answer": "Confirme que está num domínio oficial, reveja o Aviso de Risco, compreenda os processos de saque e reclamações, e verifique as informações de registro da empresa e o âmbito regulatório no Centro de Confiança."
         }
       }
     },
@@ -44,37 +44,37 @@
         "marketsOffered": "Mercados oferecidos",
         "accountServices": "Serviços de conta",
         "trustAndLegal": "Informação de confiança e legal",
-        "withdrawalsAndComplaints": "Levantamentos e reclamações",
+        "withdrawalsAndComplaints": "Saques e reclamações",
         "whatToVerifyBeforeTrading": "O que verificar antes de negociar",
         "riskWarning": "Aviso de risco"
       }
     },
     "winprofxWithdrawalProcess": {
       "path": "/winprofx-withdrawal-process/",
-      "h1": "Processo de levantamento da WINPROFX",
-      "breadcrumb": "Processo de levantamento",
-      "intro": "Esta página explica o processo geral de levantamento da WINPROFX, as verificações necessárias, os motivos comuns de atraso e as opções de escalonamento. Os prazos de processamento variam e não são garantidos.",
+      "h1": "Processo de saque da WINPROFX",
+      "breadcrumb": "Processo de saque",
+      "intro": "Esta página explica o processo geral de saque da WINPROFX, as verificações necessárias, os motivos comuns de atraso e as opções de escalonamento. Os prazos de processamento variam e não são garantidos.",
       "sections": {
-        "overview": "Visão geral do processo de levantamento",
-        "stepByStep": "Fluxo de levantamento passo a passo",
+        "overview": "Visão geral do processo de saque",
+        "stepByStep": "Fluxo de saque passo a passo",
         "kycAml": "Verificações KYC e AML",
-        "commonDelays": "Motivos comuns de atraso no levantamento",
-        "howToAvoid": "Como evitar problemas com levantamentos",
+        "commonDelays": "Motivos comuns de atraso no saque",
+        "howToAvoid": "Como evitar problemas com saques",
         "escalation": "Escalonamento e suporte",
         "riskWarning": "Aviso de risco"
       },
       "faqs": {
         "howToRequest": {
-          "question": "Como solicito um levantamento da WINPROFX?",
-          "answer": "Envie um pedido de levantamento através do portal oficial do cliente em my.winprofx.org. Verifique sempre o URL antes de iniciar sessão."
+          "question": "Como solicito um saque da WINPROFX?",
+          "answer": "Envie um pedido de saque através do portal oficial do cliente em my.winprofx.org. Verifique sempre o URL antes de iniciar sessão."
         },
         "whyDelayed": {
-          "question": "Porque pode o meu levantamento da WINPROFX estar atrasado?",
+          "question": "Porque pode o meu saque da WINPROFX estar atrasado?",
           "answer": "Os motivos comuns incluem KYC incompleto, revisão AML, verificação do método de pagamento, dados bancários incorretos e o tempo de processamento de bancos ou prestadores de pagamento."
         },
         "escalate": {
-          "question": "Como escalo um problema com um levantamento?",
-          "answer": "Contacte support@winprofx.com com o seu ID de conta e a referência do levantamento, ou visite a página de Suporte e Escalonamento."
+          "question": "Como escalo um problema com um saque?",
+          "answer": "Contate support@winprofx.com com o seu ID de conta e a referência do saque, ou visite a página de Suporte e Escalonamento."
         }
       }
     },
@@ -82,9 +82,9 @@
       "path": "/winprofx-license-verification/",
       "h1": "Verificação de licença da WINPROFX",
       "breadcrumb": "Verificação de licença",
-      "intro": "Esta página explica o registo da empresa WINPROFX, a licença do escritório representativo em Dubai e o âmbito regulatório. A incorporação da empresa e uma Dubai Professional License não são o mesmo que uma licença de corretor de serviços financeiros.",
+      "intro": "Esta página explica o registro da empresa WINPROFX, a licença do escritório representativo em Dubai e o âmbito regulatório. A incorporação da empresa e uma Dubai Professional License não são o mesmo que uma licença de corretor de serviços financeiros.",
       "sections": {
-        "companyRegistration": "Registo da empresa",
+        "companyRegistration": "Registro da empresa",
         "dubaiProfessionalLicense": "Dubai Professional License",
         "regulatoryScope": "Esclarecimento do âmbito regulatório",
         "notFinancialServicesLicense": "O que não é o mesmo que uma licença de serviços financeiros",
@@ -107,11 +107,11 @@
       "faqs": {
         "howToSubmit": {
           "question": "Como apresento uma reclamação à WINPROFX?",
-          "answer": "Envie um email para support@winprofx.com com o assunto \"Complaint\" ou utilize a página de Contacto com os dados da sua conta."
+          "answer": "Envie um email para support@winprofx.com com o assunto \"Complaint\" ou utilize a página de Contato com os dados da sua conta."
         },
         "requiredInfo": {
           "question": "Que informação devo incluir numa reclamação?",
-          "answer": "Inclua o seu nome registado, email, ID de conta, referência de transação ou levantamento e uma descrição detalhada do problema."
+          "answer": "Inclua o seu nome registrado, email, ID de conta, referência de transação ou saque e uma descrição detalhada do problema."
         },
         "escalation": {
           "question": "Como são escalonadas as reclamações?",
@@ -139,10 +139,10 @@
         },
         "enteredCredentials": {
           "question": "O que devo fazer se introduzi credenciais num site suspeito?",
-          "answer": "Altere a sua palavra-passe imediatamente através do portal oficial do cliente, contacte support@winprofx.com e não envie fundos adicionais até verificar."
+          "answer": "Altere a sua senha imediatamente através do portal oficial do cliente, contate support@winprofx.com e não envie fundos adicionais até verificar."
         },
         "socialMediaContact": {
-          "question": "Os agentes de suporte da WINPROFX podem contactar-me nas redes sociais?",
+          "question": "Os agentes de suporte da WINPROFX podem contatar-me nas redes sociais?",
           "answer": "O suporte oficial é através de support@winprofx.com e dos canais do site oficial. Tenha cuidado com mensagens não solicitadas nas redes sociais que afirmem ser da WINPROFX."
         }
       }
@@ -151,22 +151,22 @@
       "path": "/winprofx-official-login/",
       "h1": "Login oficial da WINPROFX",
       "breadcrumb": "Login oficial",
-      "intro": "Utilize esta página para aceder às orientações de login oficial da WINPROFX. Verifique sempre o URL no seu navegador antes de introduzir credenciais.",
+      "intro": "Utilize esta página para acessar às orientações de login oficial da WINPROFX. Verifique sempre o URL no seu navegador antes de introduzir credenciais.",
       "sections": {
         "clientPortal": "Login no portal do cliente",
         "partnerPortal": "Login no portal de parceiros",
-        "passwordSecurity": "Segurança de palavra-passe e conta",
+        "passwordSecurity": "Segurança de senha e conta",
         "verifyBeforeLogin": "Verifique antes de iniciar sessão"
       }
     },
     "winprofxDepositWithdrawalMethods": {
       "path": "/winprofx-deposit-and-withdrawal-methods/",
-      "h1": "Métodos de depósito e levantamento da WINPROFX",
-      "breadcrumb": "Métodos de depósito e levantamento",
-      "intro": "Esta página fornece uma visão geral dos métodos de depósito e levantamento da WINPROFX, requisitos de verificação e notas de segurança. A disponibilidade de métodos específicos pode variar consoante a conta e a região.",
+      "h1": "Métodos de depósito e saque da WINPROFX",
+      "breadcrumb": "Métodos de depósito e saque",
+      "intro": "Esta página fornece uma visão geral dos métodos de depósito e saque da WINPROFX, requisitos de verificação e notas de segurança. A disponibilidade de métodos específicos pode variar consoante a conta e a região.",
       "sections": {
         "depositOverview": "Visão geral dos métodos de depósito",
-        "withdrawalOverview": "Visão geral dos métodos de levantamento",
+        "withdrawalOverview": "Visão geral dos métodos de saque",
         "kycAml": "Revisão KYC e AML",
         "processingDisclaimer": "Aviso sobre prazos de processamento",
         "securityNote": "Nota de segurança",
@@ -176,15 +176,15 @@
       "faqs": {
         "depositMethods": {
           "question": "Que métodos de depósito a WINPROFX suporta?",
-          "answer": "Os métodos de depósito disponíveis são publicados no portal do cliente e podem incluir transferência bancária, cartão e opções de pagamento eletrónico consoante a conta e a região."
+          "answer": "Os métodos de depósito disponíveis são publicados no portal do cliente e podem incluir transferência bancária, cartão e opções de pagamento eletrônico consoante a conta e a região."
         },
         "withdrawalTime": {
-          "question": "Os levantamentos da WINPROFX estão garantidos num prazo específico?",
+          "question": "Os saques da WINPROFX estão garantidos num prazo específico?",
           "answer": "Os prazos de processamento variam e não são garantidos. A verificação KYC, a revisão AML e o processamento do prestador de pagamento podem afetar os prazos."
         },
         "kycEffect": {
-          "question": "Porque pode o KYC afetar o meu depósito ou levantamento?",
-          "answer": "A verificação KYC e AML é obrigatória por conformidade. A verificação incompleta pode atrasar ou restringir depósitos e levantamentos até ser resolvida."
+          "question": "Porque pode o KYC afetar o meu depósito ou saque?",
+          "answer": "A verificação KYC e AML é obrigatória por conformidade. A verificação incompleta pode atrasar ou restringir depósitos e saques até ser resolvida."
         }
       }
     }

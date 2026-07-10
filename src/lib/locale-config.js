@@ -19,7 +19,7 @@ export const LOCALE_META = {
   zh: { code: 'zh', label: 'Chinese', nativeLabel: '中文', flag: '🇨🇳', dir: 'ltr' },
   ja: { code: 'ja', label: 'Japanese', nativeLabel: '日本語', flag: '🇯🇵', dir: 'ltr' },
   es: { code: 'es', label: 'Spanish', nativeLabel: 'Español', flag: '🇪🇸', dir: 'ltr' },
-  pt: { code: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: '🇵🇹', dir: 'ltr' },
+  pt: { code: 'pt', label: 'Portuguese', nativeLabel: 'Português', flag: '🇧🇷', dir: 'ltr' },
 }
 
 export function normalizeLocale(locale) {

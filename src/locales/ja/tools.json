@@ -16,8 +16,8 @@
       }
     },
     "smartSignals": {
-      "meta": "Smart Signals",
-      "title": "Smart Signals",
+      "meta": "スマートシグナル",
+      "title": "スマートシグナル",
       "des": "Trading Central から実用的なインサイトを取得し、取引判断をサポートします。"
     },
     "faqs": {
@@ -30,16 +30,16 @@
         "body": "WINPROFX はファンダメンタル分析とテクニカル分析ツールを組み合わせ、価格変動の予測と取引パターンの分析を支援します。ツールは無料で簡単にアクセスでき、自信を持って効果的に取引を計画できます。"
       },
       "freeSignals": {
-        "title": "Where can I access free trading signals on the WINPROFX website?",
-        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+        "title": "WINPROFX ウェブサイトで無料の取引シグナルはどこで利用できますか？",
+        "body": "Trading Central の無料取引シグナルは、パーソナルエリアおよび WINPROFX Trade アプリでご利用いただけます。これらのシグナルはさまざまな分析手法を取り入れ、想定されるトレンドに関するインサイトを提供し、初心者から経験豊富なトレーダーまで、戦略と取引の計画に役立ちます。"
       }
     },
-    "bannerMeta": "Analytics Tools",
-    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
-    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
-    "smartSignalsTitle": "Strategic Trading Signals",
-    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
-    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "bannerMeta": "分析ツール",
+    "bannerTitle": "より賢い取引判断のための強力な分析ツール",
+    "bannerDes": "自信を持って取引を計画できるよう、最高のファンダメンタルおよびテクニカル分析ツールへのアクセスを提供しています。",
+    "smartSignalsTitle": "戦略的取引シグナル",
+    "smartSignalsDes": "Trading Central のシグナルを最大限に活用し、取引計画と手法を策定しましょう。これらのシグナルは複数の分析手法を組み合わせ、あらゆる時間軸と市場状況でトレーダーに有用なツールを提供します。WINPROFX Trade アプリまたは WINPROFX パーソナルエリアから簡単にアクセスできます。",
+    "faqSubtitle": "取引、口座開設、入出金、プラットフォーム機能に関するよくある質問への明確で簡潔な回答をご覧ください。",
     "faqKeys": [
       "marketPredictions",
       "tradingPatterns",
@@ -51,7 +51,7 @@
     "h1": "経済カレンダー",
     "heroDescription": "世界のマクロ経済イベント、ボラティリティ指標、市場を動かすデータをリアルタイムで追跡。",
     "symbolsLabel": "シンボル",
-    "sampleEvent": "Non-Farm Payrolls (NFP)",
+    "sampleEvent": "非農業部門雇用者数（NFP）",
     "impactHigh": "高",
     "tableHeaders": {
       "time": "時間",
@@ -217,37 +217,37 @@
     "description": "WINPROFX は高度な取引ツール、リアルタイムのマーケット更新、使いやすいプラットフォームを提供し、トレーダーが情報に基づいた判断を下し、取引戦略を最適化できるよう支援します。"
   },
   "converterUi": {
-    "title": "Convert Your Currency",
-    "account": "Account",
-    "accountPlaceholder": "Enter your account",
-    "convertedAmount": "Converted Amount",
-    "convertedPlaceholder": "Converted amount",
-    "convertNow": "Convert Now"
+    "title": "通貨を換算",
+    "account": "口座",
+    "accountPlaceholder": "口座を入力",
+    "convertedAmount": "換算金額",
+    "convertedPlaceholder": "換算金額",
+    "convertNow": "今すぐ換算"
   },
   "calculatorUi": {
-    "yourOrder": "Your Order",
-    "accountType": "Account Type",
-    "selectAccountType": "Select account type",
+    "yourOrder": "ご注文内容",
+    "accountType": "口座タイプ",
+    "selectAccountType": "口座タイプを選択",
     "standard": "Standard",
-    "lotSizePlaceholder": "Enter your lot size",
+    "lotSizePlaceholder": "ロットサイズを入力",
     "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
-    "accountCurrency": "Account Currency",
-    "selectAccountCurrency": "Select account Currency",
-    "selectInstrument": "Select instrument",
-    "lot": "Lot",
-    "leverage": "Leverage",
-    "selectLeverage": "Select leverage",
-    "calculateNow": "Calculate Now",
-    "results": "Results",
-    "margin": "Margin",
-    "spreadCost": "Spread Cost",
-    "commission": "Commission",
-    "swapShot": "Swap Shot",
-    "swapLong": "Swap Long",
-    "pipValue": "Pip Value",
+    "accountCurrency": "口座通貨",
+    "selectAccountCurrency": "口座通貨を選択",
+    "selectInstrument": "銘柄を選択",
+    "lot": "ロット",
+    "leverage": "レバレッジ",
+    "selectLeverage": "レバレッジを選択",
+    "calculateNow": "今すぐ計算",
+    "results": "結果",
+    "margin": "証拠金",
+    "spreadCost": "スプレッドコスト",
+    "commission": "手数料",
+    "swapShot": "スワップショート",
+    "swapLong": "スワップロング",
+    "pipValue": "ピップ値",
     "pro": "Pro",
     "ecn": "ECN",
-    "disclaimerLabel": "Disclaimer:",
-    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+    "disclaimerLabel": "免責事項：",
+    "disclaimerBody": "取引計算機は説明目的のみで提供されています。本計算機の結果は教育および概算目的であり、完全なものとして、または投資判断のために依拠すべきではありません。リアルタイムの結果は注文約定時にのみ確定できます。"
   }
 }

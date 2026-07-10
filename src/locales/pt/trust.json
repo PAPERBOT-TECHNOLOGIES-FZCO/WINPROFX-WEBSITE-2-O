@@ -2,7 +2,7 @@
   "meta": {
     "lastReviewed": "2 de junho de 2026",
     "lastReviewedIso": "2026-06-02",
-    "reviewedBy": "Equipa de conformidade e operações da WINPROFX"
+    "reviewedBy": "Equipe de conformidade e operações da WINPROFX"
   },
   "trustCenter": {
     "h1": "Centro de Confiança WINPROFX",
@@ -38,7 +38,7 @@
         "riskWarning": "Aviso de risco",
         "restrictedCountries": "Países restritos e disponibilidade de serviços",
         "legalAndPolicyDocuments": "Documentos legais e de política",
-        "contactWinprofx": "Contactar WINPROFX",
+        "contactWinprofx": "Contatar WINPROFX",
         "frequentlyAskedQuestions": "Perguntas frequentes"
       },
       "content": {
@@ -94,7 +94,7 @@
           "useDomainsPage": "Use a página de domínios oficiais para confirmar sites e portais WINPROFX válidos."
         },
         "safetyLinks": "Saiba mais nas páginas <officialDomainsLink> Domínios Oficiais </officialDomainsLink>, <verifyLink> Verify WINPROFX </verifyLink> e <contactLink> Contact </contactLink>.",
-        "riskBody1": "A negociação de Forex e CFDs envolve riscos significativos e pode não ser adequada para todos os investidores. Os preços podem mudar rapidamente e os clientes podem perder parte ou todo o capital investido. Os utilizadores devem compreender os riscos envolvidos antes de negociar e só devem negociar com fundos que possam arriscar.",
+        "riskBody1": "A negociação de Forex e CFDs envolve riscos significativos e pode não ser adequada para todos os investidores. Os preços podem mudar rapidamente e os clientes podem perder parte ou todo o capital investido. Os usuários devem compreender os riscos envolvidos antes de negociar e só devem negociar com fundos que possam arriscar.",
         "riskBody2": "{{brandName}} não garante lucros comerciais, retornos ou resultados de investimento. As decisões de negociação são de responsabilidade do usuário individual.",
         "riskLinks": "Leia o <riskWarningLink> Aviso de risco </riskWarningLink> completo, <legalDocsLink> Documentos legais </legalDocsLink> e <termsLink> Termos e Condições </termsLink> antes de usar qualquer serviço.",
         "restrictedIntro": "{{brandName}} não pode fornecer serviços em determinados países ou jurisdições devido a restrições legais, regulatórias ou comerciais. Os usuários devem revisar a página Países Restritos antes de se registrar ou usar qualquer serviço.",

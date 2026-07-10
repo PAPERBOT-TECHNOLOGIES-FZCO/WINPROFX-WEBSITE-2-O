@@ -19,7 +19,7 @@
   },
   "brandName": "WINPROFX",
   "legalEntityName": "Winprofx Ltd.",
-  "companyType": "International Business Company",
+  "companyType": "国际商业公司",
   "jurisdiction": "Saint Lucia",
   "riskWarningShort": "Forex 和 CFD 交易涉及重大风险，可能不适合所有投资者。客户在交易前应充分了解相关风险。",
   "riskWarningFull": "Forex、CFD 及相关金融产品交易涉及重大风险，可能不适合所有投资者。您可能会损失部分或全部投资本金。过往表现不代表未来结果。客户在交易前应充分了解相关风险，并在必要时寻求独立建议。",
@@ -47,7 +47,7 @@
     "partnerPortal": "官方合作伙伴/IB 门户"
   },
   "schema": {
-    "brandDescription": "WINPROFX is a forex and CFD trading brand associated with Winprofx Ltd., an International Business Company incorporated in Saint Lucia.",
-    "customerSupport": "customer support"
+    "brandDescription": "WINPROFX 是与 Winprofx Ltd. 相关的 Forex 与 CFD 交易品牌，Winprofx Ltd. 是在圣卢西亚注册成立的国际商业公司。",
+    "customerSupport": "客户支持"
   }
 }

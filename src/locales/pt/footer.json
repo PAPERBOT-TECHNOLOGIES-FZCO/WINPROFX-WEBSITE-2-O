@@ -1,49 +1,49 @@
 {
-  "tagline": "One platform. Multiple markets. Endless trading opportunities with WINPROFX.",
+  "tagline": "Uma plataforma. Vários mercados. Oportunidades ilimitadas de trading com a WINPROFX.",
   "sections": {
-    "explore": "Explore",
+    "explore": "Explorar",
     "markets": "Mercados",
-    "contactInfo": "Informações de contacto",
-    "officialDomains": "Domínios Oficiais",
+    "contactInfo": "Informações de contato",
+    "officialDomains": "Domínios oficiais",
     "importantLinks": "Links importantes",
-    "trustLegal": "Confiança e Jurídico",
-    "riskWarning": "Advertência sobre os riscos",
-    "restrictedRegions": "Regiões Restritas"
+    "trustLegal": "Confiança e jurídico",
+    "riskWarning": "Aviso de risco",
+    "restrictedRegions": "Regiões restritas"
   },
   "officialWebsite": {
-    "title": "WINPROFX Official Website",
-    "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
+    "title": "Site oficial da WINPROFX",
+    "description": "A WINPROFX é uma marca de trading de forex e CFD que oferece acesso à plataforma de trading, serviços de conta de cliente, ferramentas do programa de parceiros e suporte relacionado ao trading por meio de seus sites e portais oficiais."
   },
   "domains": {
-    "officialWebsite": "Website oficial",
-    "officialAlternate": "Domínio Alternativo Oficial",
-    "officialUae": "Domínio oficial dos Emirados Árabes Unidos/Regional",
-    "clientPortal": "Portal de Clientes",
-    "partnerPortal": "Portal do Parceiro"
+    "officialWebsite": "Site oficial",
+    "officialAlternate": "Domínio alternativo oficial",
+    "officialUae": "Domínio oficial dos Emirados Árabes Unidos / regional",
+    "clientPortal": "Portal do cliente",
+    "partnerPortal": "Portal de parceiros"
   },
   "links": {
-    "home": "Casa",
+    "home": "Início",
     "platform": "Plataforma",
-    "aboutUs": "Sobre Nós",
+    "aboutUs": "Sobre nós",
     "about": "Sobre",
-    "companyProfile": "Perfil Empresarial",
-    "contact": "Contacto",
-    "officialDomains": "Domínios Oficiais",
+    "companyProfile": "Perfil da empresa",
+    "contact": "Contato",
+    "officialDomains": "Domínios oficiais",
     "forex": "Forex",
     "indices": "Índices",
-    "crypto": "Crypto",
+    "crypto": "Criptomoedas",
     "metals": "Metais",
-    "commodities": "Mercadorias",
-    "oil": "Óleo",
-    "riskWarning": "Advertência sobre os riscos",
+    "commodities": "Commodities",
+    "oil": "Petróleo",
+    "riskWarning": "Aviso de risco",
     "privacyPolicy": "Política de privacidade",
-    "termsConditions": "Termos e Condições",
-    "amlPolicy": "Política de AML (contra Branqueamento de Capitais)",
-    "depositWithdrawPolicy": "Política de Depósitos/Levantamentos",
-    "restrictedCountries": "Restrição a alguns países",
+    "termsConditions": "Termos e condições",
+    "amlPolicy": "Política AML",
+    "depositWithdrawPolicy": "Política de depósitos e saques",
+    "restrictedCountries": "Países restritos",
     "legalDocuments": "Documentos legais",
-    "riskDisclosure": "Divulgação de Risco"
+    "riskDisclosure": "Divulgação de riscos"
   },
-  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
-  "copyright": "© {{year}} All Rights Reserved By WINPROFX"
+  "restrictedRegionsText": "A WINPROFX Limited não presta serviços a cidadãos/residentes dos EUA, Cuba, Iraque, Myanmar, Índia, Coreia do Norte e Sudão. Os serviços da WINPROFX Limited não se destinam à distribuição nem ao uso por qualquer pessoa em país ou jurisdição em que essa distribuição ou uso seja contrário à legislação ou regulamentação local.",
+  "copyright": "© {{year}} Todos os direitos reservados pela WINPROFX"
 }

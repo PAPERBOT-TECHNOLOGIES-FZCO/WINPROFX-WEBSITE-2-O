@@ -133,7 +133,7 @@
     "banner": {
       "meta": "Giao dịch hàng hóa",
       "title": "Giao dịch Hàng hóa",
-      "description1": "Tận dụng biến động thị trường và lựa chọn từ CFDs trên hàng hóa giao ngay và hợp đồng tương lai. Tại WINPROFX, chúng tôi cung cấp một số công cụ phổ biến nhất trên thị trường hàng hóa bao gồm vàng, dầu và cà phê, để đầu cơ và phòng ngừa rủi ro.",
+      "description1": "Tận dụng biến động thị trường và lựa chọn từ CFDs trên hàng hóa giao ngay và hợp đồng tương lai. Tại WINPROFX, chúng tôi cung cấp một số công cụ phổ biến nhất trên thị trường hàng hóa bao gồm vàng, dầu thô và cà phê, để đầu cơ và phòng ngừa rủi ro.",
       "description2": "Giao dịch theo từng tick di chuyển với hoa hồng bằng không và không có phí ẩn. Xem lại loại tài khoản và cảnh báo rủi ro trước khi giao dịch CFDs hàng hóa."
     },
     "card": {
@@ -151,7 +151,7 @@
       },
       "howCommodityTradingWorks": {
         "title": "Giao dịch hàng hóa hoạt động như thế nào?",
-        "body": "<p>Giao dịch hàng hóa cho phép bạn đầu cơ vào biến động giá của nguyên liệu thô thông qua CFDs mà không cần sở hữu tài sản vật lý. Các nhà giao dịch phân tích cung cầu, mẫu thời tiết, sự kiện địa chính trị và dữ liệu kinh tế để mở vị thế mua hoặc bán trên các công cụ như vàng, dầu và sản phẩm nông nghiệp.</p>"
+        "body": "<p>Giao dịch hàng hóa cho phép bạn đầu cơ vào biến động giá của nguyên liệu thô thông qua CFDs mà không cần sở hữu tài sản vật lý. Các nhà giao dịch phân tích cung cầu, mẫu thời tiết, sự kiện địa chính trị và dữ liệu kinh tế để mở vị thế mua hoặc bán trên các công cụ như vàng, dầu thô và sản phẩm nông nghiệp.</p>"
       },
       "howMuchToStart": {
         "title": "Tôi cần bao nhiêu tiền để bắt đầu giao dịch hàng hóa?",
@@ -161,22 +161,22 @@
   },
   "oil": {
     "banner": {
-      "meta": "Giao dịch dầu",
-      "title": "Giao dịch Dầu",
+      "meta": "Giao dịch dầu thô",
+      "title": "Giao dịch dầu thô",
       "description": "Phòng ngừa rủi ro biến động giá và tận dụng xu hướng thị trường toàn cầu. Truy cập dữ liệu theo thời gian thực, biểu đồ tiên tiến và thanh khoản sâu trên nền tảng giao dịch hàng đầu của chúng tôi để điều hướng ngành năng lượng một cách tự tin."
     },
     "card": {
-      "meta": "Giao dịch dầu",
+      "meta": "Giao dịch dầu thô",
       "title": "Giao Dịch Dữ Liệu Thị Trường Trực Tiếp",
       "description": "Theo dõi biến động giá theo thời gian thực, biến động hàng ngày và xu hướng kỹ thuật trên các tài sản năng lượng cao cấp."
     },
     "learn": {
-      "title": "Tìm Hiểu Về Oil Trading"
+      "title": "Tìm hiểu về giao dịch dầu thô"
     },
     "faq": {
       "howToStart": {
-        "title": "Làm thế nào để bắt đầu giao dịch dầu?",
-        "body": "<p>Trước khi bạn bắt đầu giao dịch dầu, điều cần thiết là nghiên cứu và hiểu thị trường. Bạn cần biết những yếu tố nào ảnh hưởng đến giá dầu và cách những yếu tố đó có thể thay đổi trong tương lai. Ngoài ra, hãy hiểu các loại dầu khác nhau mà bạn có thể giao dịch trên thị trường và các sản phẩm sử dụng từng loại.</p>"
+        "title": "Làm thế nào để bắt đầu giao dịch dầu thô?",
+        "body": "<p>Trước khi bắt đầu giao dịch dầu thô, điều cần thiết là nghiên cứu và hiểu thị trường. Bạn cần biết những yếu tố nào ảnh hưởng đến giá dầu thô và cách những yếu tố đó có thể thay đổi trong tương lai. Ngoài ra, hãy hiểu các loại dầu thô khác nhau mà bạn có thể giao dịch trên thị trường và các sản phẩm sử dụng từng loại.</p>"
       },
       "bestStrategy": {
         "title": "Chiến lược tốt nhất cho giao dịch dầu thô là gì?",

@@ -35,21 +35,21 @@
     "googlePlay": "Google Play"
   },
   "errors": {
-    "title": "Page Not Found",
-    "seoTitle": "Page Not Found | WINPROFX",
-    "backHome": "Back to Home"
+    "title": "পৃষ্ঠা পাওয়া যায়নি",
+    "seoTitle": "পৃষ্ঠা পাওয়া যায়নি | WINPROFX",
+    "backHome": "হোমে ফিরে যান"
   },
   "download": {
-    "appStorePrefix": "Download on the",
-    "googlePlayPrefix": "GET IT ON",
-    "windowsPrefix": "Download for",
+    "appStorePrefix": "ডাউনলোড করুন",
+    "googlePlayPrefix": "পেতে পারেন",
+    "windowsPrefix": "ডাউনলোড করুন",
     "windowsLabel": "Windows",
-    "webTradingPrefix": "Open in",
+    "webTradingPrefix": "খুলুন",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Are You Ready to Start Trading",
-    "accountsDes": "Trade with an Award Winning broker!",
-    "openLiveAccount": "Open Live account"
+    "accountsTitle": "আপনি কি ট্রেডিং শুরু করতে প্রস্তুত",
+    "accountsDes": "পুরস্কারজয়ী ব্রোকারের সাথে ট্রেড করুন!",
+    "openLiveAccount": "লাইভ অ্যাকাউন্ট খুলুন"
   }
 }

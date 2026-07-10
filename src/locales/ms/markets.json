@@ -133,7 +133,7 @@
     "banner": {
       "meta": "Dagangan komoditi",
       "title": "Dagangan Komoditi",
-      "description1": "Manfaatkan volatiliti pasaran dan pilih daripada CFDs pada komoditi spot dan niaga hadapan. Di WINPROFX, kami menawarkan beberapa instrumen paling popular dalam pasaran komoditi termasuk emas, minyak, dan kopi, untuk spekulasi dan lindung nilai.",
+      "description1": "Manfaatkan volatiliti pasaran dan pilih daripada CFDs pada komoditi spot dan niaga hadapan. Di WINPROFX, kami menawarkan beberapa instrumen paling popular dalam pasaran komoditi termasuk emas, minyak mentah, dan kopi, untuk spekulasi dan lindung nilai.",
       "description2": "Berdagang setiap pergerakan tick penuh dengan komisen sifar dan tiada yuran tersembunyi. Semak jenis akaun dan amaran risiko sebelum berdagang CFDs komoditi."
     },
     "card": {
@@ -151,7 +151,7 @@
       },
       "howCommodityTradingWorks": {
         "title": "Bagaimana dagangan komoditi berfungsi?",
-        "body": "<p>Dagangan komoditi membolehkan anda berspekulasi pada pergerakan harga bahan mentah melalui CFDs tanpa memiliki aset fizikal. Pedagang menganalisis penawaran dan permintaan, corak cuaca, peristiwa geopolitik, dan data ekonomi untuk membuka kedudukan long atau short pada instrumen seperti emas, minyak, dan produk pertanian.</p>"
+        "body": "<p>Dagangan komoditi membolehkan anda berspekulasi pada pergerakan harga bahan mentah melalui CFDs tanpa memiliki aset fizikal. Pedagang menganalisis penawaran dan permintaan, corak cuaca, peristiwa geopolitik, dan data ekonomi untuk membuka kedudukan long atau short pada instrumen seperti emas, minyak mentah, dan produk pertanian.</p>"
       },
       "howMuchToStart": {
         "title": "Berapa banyak wang yang diperlukan untuk memulakan dagangan komoditi?",
@@ -161,22 +161,22 @@
   },
   "oil": {
     "banner": {
-      "meta": "Dagangan minyak",
-      "title": "Dagangan Minyak",
+      "meta": "Dagangan minyak mentah",
+      "title": "Dagangan Minyak Mentah",
       "description": "Lindung nilai terhadap volatiliti harga dan manfaatkan trend pasaran global. Akses data masa nyata, carta canggih, dan kecairan mendalam pada platform dagangan utama kami untuk menavigasi sektor tenaga dengan yakin."
     },
     "card": {
-      "meta": "Dagangan minyak",
+      "meta": "Dagangan minyak mentah",
       "title": "Berdagang Data Pasaran Langsung",
       "description": "Jejaki pergerakan harga masa nyata, turun naik harian, dan trend teknikal merentasi aset tenaga premium."
     },
     "learn": {
-      "title": "Ketahui Tentang Oil Trading"
+      "title": "Ketahui Tentang Dagangan Minyak Mentah"
     },
     "faq": {
       "howToStart": {
-        "title": "Bagaimana untuk memulakan dagangan minyak?",
-        "body": "<p>Sebelum anda mula berdagang minyak, adalah penting untuk melakukan kajian dan memahami pasaran. Anda perlu mengetahui faktor apa yang mempengaruhi harga minyak dan bagaimana faktor-faktor tersebut mungkin berubah pada masa hadapan. Juga, fahami pelbagai jenis minyak yang boleh anda dagangkan di pasaran dan produk yang menggunakan setiap satu.</p>"
+        "title": "Bagaimana untuk memulakan dagangan minyak mentah?",
+        "body": "<p>Sebelum anda mula berdagang minyak mentah, adalah penting untuk melakukan kajian dan memahami pasaran. Anda perlu mengetahui faktor apa yang mempengaruhi harga minyak mentah dan bagaimana faktor-faktor tersebut mungkin berubah pada masa hadapan. Juga, fahami pelbagai jenis minyak mentah yang boleh anda dagangkan di pasaran dan produk yang menggunakan setiap satu.</p>"
       },
       "bestStrategy": {
         "title": "Apakah strategi terbaik untuk dagangan minyak mentah?",

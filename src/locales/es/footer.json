@@ -1,30 +1,30 @@
 {
-  "tagline": "One platform. Multiple markets. Endless trading opportunities with WINPROFX.",
+  "tagline": "Una plataforma. Múltiples mercados. Oportunidades de trading ilimitadas con WINPROFX.",
   "sections": {
     "explore": "Explorar",
     "markets": "Mercados",
-    "contactInfo": "Informacion del Contacto",
+    "contactInfo": "Información de contacto",
     "officialDomains": "Dominios oficiales",
     "importantLinks": "Enlaces importantes",
-    "trustLegal": "Confianza y Legal",
-    "riskWarning": "Advertencia sobre riesgos",
+    "trustLegal": "Confianza y legal",
+    "riskWarning": "Advertencia de riesgo",
     "restrictedRegions": "Regiones restringidas"
   },
   "officialWebsite": {
-    "title": "WINPROFX Official Website",
-    "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
+    "title": "Sitio web oficial de WINPROFX",
+    "description": "WINPROFX es una marca de trading de forex y CFD que ofrece acceso a la plataforma de trading, servicios de cuenta de cliente, herramientas del programa de partners y soporte relacionado con el trading a través de sus sitios web y portales oficiales."
   },
   "domains": {
     "officialWebsite": "Sitio web oficial",
     "officialAlternate": "Dominio alternativo oficial",
-    "officialUae": "Dominio oficial de los EAU/regional",
-    "clientPortal": "Portal Cliente",
-    "partnerPortal": "Portal de socios"
+    "officialUae": "Dominio oficial de EAU / regional",
+    "clientPortal": "Portal de clientes",
+    "partnerPortal": "Portal de partners"
   },
   "links": {
     "home": "Inicio",
     "platform": "Plataforma",
-    "aboutUs": "¿Quiénes somos?",
+    "aboutUs": "Quiénes somos",
     "about": "Sobre nosotros",
     "companyProfile": "Perfil de la empresa",
     "contact": "Contacto",
@@ -34,16 +34,16 @@
     "crypto": "Criptomonedas",
     "metals": "Metales",
     "commodities": "Materias primas",
-    "oil": "Aceite",
-    "riskWarning": "Advertencia sobre riesgos",
+    "oil": "Petróleo",
+    "riskWarning": "Advertencia de riesgo",
     "privacyPolicy": "Política de privacidad",
     "termsConditions": "Términos y condiciones",
-    "amlPolicy": "Política contra el lavado de dinero",
+    "amlPolicy": "Política AML",
     "depositWithdrawPolicy": "Política de depósitos y retiros",
     "restrictedCountries": "Países restringidos",
     "legalDocuments": "Documentos legales",
-    "riskDisclosure": "Comunicación de Riesgos"
+    "riskDisclosure": "Divulgación de riesgos"
   },
-  "restrictedRegionsText": "WINPROFX Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, India, North Korea, Sudan. The services of WINPROFX Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.",
-  "copyright": "© {{year}} All Rights Reserved By WINPROFX"
+  "restrictedRegionsText": "WINPROFX Limited no presta servicios a ciudadanos/residentes de EE. UU., Cuba, Irak, Myanmar, India, Corea del Norte ni Sudán. Los servicios de WINPROFX Limited no están destinados a su distribución ni uso por ninguna persona en un país o jurisdicción donde dicha distribución o uso sea contrario a la legislación o normativa local.",
+  "copyright": "© {{year}} Todos los derechos reservados por WINPROFX"
 }

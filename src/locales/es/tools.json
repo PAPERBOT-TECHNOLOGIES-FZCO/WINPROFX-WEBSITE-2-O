@@ -47,174 +47,174 @@
     ]
   },
   "economicCalendar": {
-    "meta": "ECONOMIC CALENDAR",
+    "meta": "CALENDARIO ECONÓMICO",
     "h1": "Calendario Económico",
-    "heroDescription": "Track global macroeconomic events, volatility indicators, and market-moving data in real-time.",
-    "symbolsLabel": "Symbols",
-    "sampleEvent": "Non-Farm Payrolls (NFP)",
-    "impactHigh": "High",
+    "heroDescription": "Siga eventos macroeconómicos globales, indicadores de volatilidad y datos que mueven el mercado en tiempo real.",
+    "symbolsLabel": "Símbolos",
+    "sampleEvent": "Nóminas no agrícolas (NFP)",
+    "impactHigh": "Alto",
     "tableHeaders": {
-      "time": "Time",
-      "symbol": "Symbol",
-      "event": "Event",
-      "impact": "Impact",
-      "actual": "Actual",
-      "forecast": "Forecast",
-      "previous": "Previous"
+      "time": "Hora",
+      "symbol": "Símbolo",
+      "event": "Evento",
+      "impact": "Impacto",
+      "actual": "Realizado",
+      "forecast": "Previsión",
+      "previous": "Anterior"
     },
     "sections": {
       "understanding": {
-        "title": "Understanding and Utilizing the Forex Economic Calendar",
-        "p1": "A Forex Economic Calendar is an invaluable tool for traders, enabling them to monitor and analyze events that drive market movements and forecast price changes. It lists significant national and international news events in chronological order.",
-        "p2": "Key events such as monetary policy decisions, economic indicators, GDP announcements, Non-Farm Payrolls (NFP) figures, and interest rate changes are included, as they can heavily influence financial markets."
+        "title": "Comprender y aprovechar el calendario económico Forex",
+        "p1": "Un calendario económico Forex es una herramienta invaluable para los traders: les permite monitorear y analizar los eventos que impulsan los movimientos del mercado y anticipar cambios de precio. Enumera noticias nacionales e internacionales relevantes en orden cronológico.",
+        "p2": "Incluye eventos clave como decisiones de política monetaria, indicadores económicos, anuncios del PIB, cifras de nóminas no agrícolas (NFP) y cambios en las tasas de interés, ya que pueden influir de forma significativa en los mercados financieros."
       },
       "whyUse": {
-        "title": "Why You Should Use the Forex Economic Calendar",
-        "p1": "A Forex Economic Calendar is essential for keeping abreast of upcoming news, reports, and announcements. These events can significantly affect the volatility of forex currency pairs, stocks, and other markets.",
-        "p2": "By using the calendar, traders can plan their trades more effectively and stay informed about chart patterns and indicators that may be impacted. Referring to the calendar before the trading day is a prudent practice, as these events can trigger significant price movements when released."
+        "title": "Por qué debería usar el calendario económico Forex",
+        "p1": "Un calendario económico Forex es esencial para mantenerse al día de noticias, informes y anuncios próximos. Estos eventos pueden afectar de forma notable la volatilidad de los pares de divisas, las acciones y otros mercados.",
+        "p2": "Al usar el calendario, los traders pueden planificar mejor sus operaciones y estar informados sobre patrones de gráficos e indicadores que podrían verse afectados. Consultarlo antes de la sesión de trading es una práctica prudente, ya que estos eventos pueden provocar movimientos de precio importantes al publicarse."
       }
     },
-    "faqTitle": "Frequently asked questions",
-    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "faqTitle": "Preguntas frecuentes",
+    "faqSubtitle": "Encuentre respuestas claras y concisas a las preguntas más habituales sobre trading, apertura de cuenta, depósitos, retiros y funciones de la plataforma.",
     "faqs": {
       "whatIs": {
-        "title": "What is a Forex Economic Calendar?",
-        "body": "<p>The Economic Calendar is a tool that lists significant economic events and data releases in chronological order, which can impact financial markets.</p>"
+        "title": "¿Qué es un calendario económico Forex?",
+        "body": "<p>El calendario económico es una herramienta que enumera eventos económicos y publicaciones de datos relevantes en orden cronológico, y que pueden impactar los mercados financieros.</p>"
       },
       "howToUse": {
-        "title": "How can I use the Forex Economic Calendar for trading?",
-        "body": "<p>Traders use the Economic Calendar to stay informed about upcoming events that might influence market movements, helping them plan their trades more effectively.</p>"
+        "title": "¿Cómo puedo usar el calendario económico Forex para operar?",
+        "body": "<p>Los traders usan el calendario económico para mantenerse informados sobre eventos próximos que podrían influir en los movimientos del mercado, lo que les ayuda a planificar mejor sus operaciones.</p>"
       },
       "eventTypes": {
-        "title": "What types of events are listed on the Forex Economic Calendar?",
-        "body": "<p>The Economic Calendar includes events such as monetary policy decisions, economic indicators, GDP announcements, Non-Farm Payrolls (NFP) figures, and interest rate changes.</p>"
+        "title": "¿Qué tipos de eventos aparecen en el calendario económico Forex?",
+        "body": "<p>El calendario económico incluye eventos como decisiones de política monetaria, indicadores económicos, anuncios del PIB, cifras de nóminas no agrícolas (NFP) y cambios en las tasas de interés.</p>"
       },
       "impact": {
-        "title": "How do Forex economic events impact trading?",
-        "body": "<p>Economic events can cause significant volatility in financial markets, influencing the prices of forex pairs, stocks, and other instruments.</p>"
+        "title": "¿Cómo afectan los eventos económicos Forex al trading?",
+        "body": "<p>Los eventos económicos pueden generar una volatilidad significativa en los mercados financieros e influir en los precios de los pares Forex, las acciones y otros instrumentos.</p>"
       },
       "whereFind": {
-        "title": "Where can I find the Forex Economic Calendar on the WINPROFX platform?",
-        "body": "<p>The Economic Calendar is accessible in your Personal Area on the WINPROFX website or through the WINPROFX Trade app.</p>"
+        "title": "¿Dónde puedo encontrar el calendario económico Forex en la plataforma WINPROFX?",
+        "body": "<p>El calendario económico está disponible en su Área Personal del sitio web de WINPROFX o a través de la app WINPROFX Trade.</p>"
       },
       "notifications": {
-        "title": "Can I get notifications for upcoming Forex economic events?",
-        "body": "<p>Yes, you can receive notifications for upcoming economic events under the \"Mailbox\" tab on your trading platform.</p>"
+        "title": "¿Puedo recibir notificaciones de eventos económicos Forex próximos?",
+        "body": "<p>Sí, puede recibir notificaciones de eventos económicos próximos en la pestaña \"Mailbox\" de su plataforma de trading.</p>"
       },
       "importance": {
-        "title": "Are all Forex economic events equally important for trading?",
-        "body": "<p>No, the impact of economic events varies. Major events like interest rate decisions and NFP figures typically have a higher impact than others.</p>"
+        "title": "¿Todos los eventos económicos Forex son igual de importantes para operar?",
+        "body": "<p>No, el impacto de los eventos económicos varía. Eventos importantes como las decisiones de tasas de interés y las cifras NFP suelen tener un impacto mayor que otros.</p>"
       },
       "updated": {
-        "title": "How often is the Forex Economic Calendar updated?",
-        "body": "<p>The Economic Calendar is updated in real-time to ensure you have the most current information about upcoming events.</p>"
+        "title": "¿Con qué frecuencia se actualiza el calendario económico Forex?",
+        "body": "<p>El calendario económico se actualiza en tiempo real para que disponga de la información más reciente sobre los eventos próximos.</p>"
       }
     }
   },
   "currencyCalculator": {
-    "meta": "CURRENCY CALCULATOR",
+    "meta": "CALCULADORA DE DIVISAS",
     "h1": "Calculadora de divisas",
-    "bannerMeta": "Calculator",
-    "bannerTitle": "Precision Trade Planning",
-    "bannerDes": "Calculate margin, pip values, and overnight swaps in real-time across global markets.",
-    "sectionTitle": "Forex Currency Calculator",
-    "sectionDes": "Forex Currency Calculator is a useful tool that helps traders quickly convert one currency into another using real-time exchange rates.",
-    "faqTitle": "Frequently asked questions",
+    "bannerMeta": "Calculadora",
+    "bannerTitle": "Planificación precisa de operaciones",
+    "bannerDes": "Calcule margen, valor del pip y swaps overnight en tiempo real en los mercados globales.",
+    "sectionTitle": "Calculadora de divisas Forex",
+    "sectionDes": "La calculadora de divisas Forex es una herramienta útil que ayuda a los traders a convertir rápidamente una moneda en otra con tipos de cambio en tiempo real.",
+    "faqTitle": "Preguntas frecuentes",
     "faqs": {
       "whatIs": {
-        "title": "What is a Forex Currency Calculator?",
-        "body": "A Forex Currency Calculator is a tool that helps traders calculate pips, margin, spread, commission, and other important metrics for their trading positions."
+        "title": "¿Qué es una calculadora de divisas Forex?",
+        "body": "Una calculadora de divisas Forex es una herramienta que ayuda a los traders a calcular pips, margen, spread, comisión y otras métricas importantes de sus posiciones de trading."
       },
       "howToUse": {
-        "title": "How do I use a Forex Currency Calculator?",
-        "body": "Input your trade details, such as currency pair, position size, and leverage, to calculate various metrics like pips, margin, and spread."
+        "title": "¿Cómo uso una calculadora de divisas Forex?",
+        "body": "Introduzca los detalles de su operación, como el par de divisas, el tamaño de la posición y el apalancamiento, para calcular métricas como pips, margen y spread."
       },
       "metrics": {
-        "title": "What metrics can the Forex Currency Calculator help me calculate?",
-        "body": "The calculator helps you determine pips, margin, spread, commission, and other essential trading metrics."
+        "title": "¿Qué métricas puedo calcular con la calculadora de divisas Forex?",
+        "body": "La calculadora le ayuda a determinar pips, margen, spread, comisión y otras métricas esenciales de trading."
       },
       "free": {
-        "title": "Is a Forex Currency Calculator free to use?",
-        "body": "Yes, a Forex Currency Calculator on WINPROFX is free for all users."
+        "title": "¿La calculadora de divisas Forex es gratuita?",
+        "body": "Sí, la calculadora de divisas Forex en WINPROFX es gratuita para todos los usuarios."
       },
       "whyUse": {
-        "title": "Why should I use a Forex Currency Calculator?",
-        "body": "It simplifies complex calculations, helping you make more informed trading decisions and manage your positions effectively."
+        "title": "¿Por qué debería usar una calculadora de divisas Forex?",
+        "body": "Simplifica cálculos complejos, ayudándole a tomar decisiones de trading más informadas y a gestionar sus posiciones de forma eficaz."
       },
       "allPairs": {
-        "title": "Can I use the Forex Currency Calculator for all currency pairs?",
-        "body": "Yes, the calculator supports all major and minor currency pairs."
+        "title": "¿Puedo usar la calculadora de divisas Forex con todos los pares de divisas?",
+        "body": "Sí, la calculadora admite todos los pares de divisas mayores y menores."
       },
       "accountTypes": {
-        "title": "Does the Forex Currency Calculator account for different account types?",
-        "body": "Yes, you can customize the calculator settings to match your specific account type and trading conditions."
+        "title": "¿La calculadora de divisas Forex contempla distintos tipos de cuenta?",
+        "body": "Sí, puede personalizar la configuración de la calculadora para que coincida con su tipo de cuenta y condiciones de trading específicas."
       },
       "accuracy": {
-        "title": "How accurate is the Forex Currency Calculator?",
-        "body": "The calculator provides highly accurate results based on the input data and current market conditions."
+        "title": "¿Qué tan precisa es la calculadora de divisas Forex?",
+        "body": "La calculadora ofrece resultados de alta precisión según los datos introducidos y las condiciones actuales del mercado."
       },
       "whereFind": {
-        "title": "Where can I find the Forex Currency Calculator on WINPROFX?",
-        "body": "You can access the Forex Currency Calculator in the tools section of your Personal Area on the WINPROFX website."
+        "title": "¿Dónde puedo encontrar la calculadora de divisas Forex en WINPROFX?",
+        "body": "Puede acceder a la calculadora de divisas Forex en la sección de herramientas de su Área Personal en el sitio web de WINPROFX."
       },
       "riskManagement": {
-        "title": "Can the Forex Currency Calculator help with risk management?",
-        "body": "Yes, by calculating key metrics, it helps you better understand and manage the risks associated with your trades."
+        "title": "¿La calculadora de divisas Forex ayuda con la gestión del riesgo?",
+        "body": "Sí, al calcular métricas clave, le ayuda a comprender y gestionar mejor los riesgos asociados a sus operaciones."
       }
     }
   },
   "currencyConverter": {
-    "meta": "CURRENCY CONVERTER",
+    "meta": "CONVERSOR DE DIVISAS",
     "h1": "Conversor de moneda",
-    "bannerMeta": "Converter",
-    "bannerDes": "Calculate live exchange rates and convert all major and exotic currency pairs effortlessly with our user-friendly currency converter.",
-    "cardTitle": "Using the WINPROFX Currency Converter",
-    "cardDes": "Our currency converter assists you in swiftly and accurately converting one currency to another with real-time rates. This tool is essential when making deposits and withdrawals on your trading account.",
+    "bannerMeta": "Conversor",
+    "bannerDes": "Calcule tipos de cambio en vivo y convierta todos los pares de divisas mayores y exóticos con facilidad gracias a nuestro conversor intuitivo.",
+    "cardTitle": "Cómo usar el conversor de divisas WINPROFX",
+    "cardDes": "Nuestro conversor de divisas le ayuda a convertir de forma rápida y precisa una moneda a otra con tipos en tiempo real. Esta herramienta es esencial al realizar depósitos y retiros en su cuenta de trading.",
     "steps": {
-      "selectBase": "From the available six dropdown lists, select your base currency.",
-      "selectTargets": "Choose up to five other currencies to convert to.",
-      "enterAmount": "Enter the amount you want to convert from the base currency.",
-      "autoCalculate": "The currency converter will automatically calculate and display the exchange rates for your chosen currencies."
+      "selectBase": "En las seis listas desplegables disponibles, seleccione su divisa base.",
+      "selectTargets": "Elija hasta cinco divisas adicionales a las que convertir.",
+      "enterAmount": "Introduzca el importe que desea convertir desde la divisa base.",
+      "autoCalculate": "El conversor calculará y mostrará automáticamente los tipos de cambio de las divisas seleccionadas."
     },
-    "faqTitle": "Frequently asked questions",
+    "faqTitle": "Preguntas frecuentes",
     "faqs": {
       "selectBase": {
-        "title": "How do I select the base currency?",
-        "body": "You can select your base currency from the six available dropdown lists. This will be the currency you are converting from"
+        "title": "¿Cómo selecciono la divisa base?",
+        "body": "Puede seleccionar su divisa base en las seis listas desplegables disponibles. Esta será la moneda desde la que convierte."
       },
       "selectTargets": {
-        "title": "How many currencies can I convert to?",
-        "body": "You can choose up to five other currencies to convert to simultaneously."
+        "title": "¿A cuántas divisas puedo convertir?",
+        "body": "Puede elegir hasta cinco divisas adicionales para convertir de forma simultánea."
       },
       "realTimeRates": {
-        "title": "Are the exchange rates real-time?",
-        "body": "Yes, the currency converter uses real-time exchange rates to provide accurate conversions."
+        "title": "¿Los tipos de cambio son en tiempo real?",
+        "body": "Sí, el conversor de divisas utiliza tipos de cambio en tiempo real para ofrecer conversiones precisas."
       },
       "freeToUse": {
-        "title": "Is the currency converter free to use?",
-        "body": "Yes, the WINPROFX currency converter is free for all users."
+        "title": "¿El conversor de divisas es gratuito?",
+        "body": "Sí, el conversor de divisas WINPROFX es gratuito para todos los usuarios."
       },
       "enterAmount": {
-        "title": "How do I enter the amount to convert?",
-        "body": "Simply enter the amount you wish to convert from your base currency in the designated field. The converter will automatically calculate the equivalent values in the selected currencies."
+        "title": "¿Cómo introduzco el importe a convertir?",
+        "body": "Simplemente introduzca el importe que desea convertir desde su divisa base en el campo correspondiente. El conversor calculará automáticamente los valores equivalentes en las divisas seleccionadas."
       },
       "ratesUpdated": {
-        "title": "Are the exchange rates updated in real-time?",
-        "body": "Yes, the exchange rates used by the WINPROFX Currency Converter are updated in real-time to ensure accuracy."
+        "title": "¿Los tipos de cambio se actualizan en tiempo real?",
+        "body": "Sí, los tipos de cambio del conversor de divisas WINPROFX se actualizan en tiempo real para garantizar la precisión."
       },
       "accountRequired": {
-        "title": "Can I use the currency converter without a WINPROFX account?",
-        "body": "No, you need to have a registered WINPROFX account to access and use the currency converter tool."
+        "title": "¿Puedo usar el conversor de divisas sin una cuenta WINPROFX?",
+        "body": "No, necesita una cuenta WINPROFX registrada para acceder y usar la herramienta de conversión de divisas."
       },
       "updateFrequency": {
-        "title": "How often are the exchange rates updated?",
-        "body": "The exchange rates are updated continuously in real-time to reflect the most current market conditions."
+        "title": "¿Con qué frecuencia se actualizan los tipos de cambio?",
+        "body": "Los tipos de cambio se actualizan de forma continua en tiempo real para reflejar las condiciones más actuales del mercado."
       }
     }
   },
   "whyWinprofx": {
-    "title": "Why WINPROFX?",
-    "description": "WINPROFX offers advanced trading tools, real-time market updates, and a user-friendly platform to help traders make informed decisions and optimize their trading strategies."
+    "title": "¿Por qué WINPROFX?",
+    "description": "WINPROFX ofrece herramientas de trading avanzadas, actualizaciones de mercado en tiempo real y una plataforma intuitiva para ayudar a los traders a tomar decisiones informadas y optimizar sus estrategias de trading."
   },
   "converterUi": {
     "title": "Convierta su divisa",

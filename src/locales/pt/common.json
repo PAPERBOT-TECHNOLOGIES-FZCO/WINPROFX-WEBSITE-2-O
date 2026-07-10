@@ -1,34 +1,34 @@
 {
   "buttons": {
     "getStarted": "Começar",
-    "learnMore": "Saber mais",
+    "learnMore": "Saiba mais",
     "openAccount": "Abrir conta",
-    "startTrading": "Começar a negociar",
-    "downloadNow": "Descarregar agora",
+    "startTrading": "Começar a operar",
+    "downloadNow": "Baixar agora",
     "viewPage": "Ver página →",
     "viewAllArticles": "Ver todos os artigos →",
     "readFullRiskWarning": "Ler aviso de risco completo"
   },
   "labels": {
     "home": "Início",
-    "trustCenter": "Centro de confiança",
+    "trustCenter": "Central de confiança",
     "lastReviewed": "Última revisão:",
-    "reviewedBy": "Revisto por:",
+    "reviewedBy": "Revisado por:",
     "riskWarning": "Aviso de risco:",
     "lastUpdated": "Última atualização: {{date}}",
-    "authorReviewedBy": "Autor: {{author}} · Revisto por: {{reviewer}}",
+    "authorReviewedBy": "Autor: {{author}} · Revisado por: {{reviewer}}",
     "faqTitle": "Perguntas frequentes",
-    "relatedTrustPages": "Páginas de verificação relacionadas WINPROFX",
-    "relatedPages": "Páginas relacionadas WINPROFX",
+    "relatedTrustPages": "Páginas de verificação relacionadas da WINPROFX",
+    "relatedPages": "Páginas relacionadas da WINPROFX",
     "moreArticles": "Mais artigos",
     "whatsapp": "WhatsApp"
   },
   "disclaimer": {
-    "learnEducational": "Este artigo é apenas para fins educacionais e não constitui aconselhamento de investimento, aconselhamento financeiro ou uma recomendação para negociar."
+    "learnEducational": "Este artigo é apenas para fins educacionais e não constitui aconselhamento de investimento, aconselhamento financeiro ou recomendação para operar."
   },
   "risk": {
-    "short": "O trading de forex e CFD envolve risco significativo e pode não ser adequado para todos os investidores. Os clientes devem compreender os riscos antes de negociar.",
-    "full": "O trading de forex, CFD e produtos financeiros relacionados envolve risco significativo e pode não ser adequado para todos os investidores. Pode perder parte ou a totalidade do seu capital investido. O desempenho passado não garante resultados futuros. Os clientes devem compreender os riscos antes de negociar e procurar aconselhamento independente se necessário."
+    "short": "O trading de forex e CFD envolve risco significativo e pode não ser adequado para todos os investidores. Os clientes devem compreender os riscos antes de operar.",
+    "full": "O trading de forex, CFD e produtos financeiros relacionados envolve risco significativo e pode não ser adequado para todos os investidores. Você pode perder parte ou a totalidade do capital investido. O desempenho passado não garante resultados futuros. Os clientes devem compreender os riscos antes de operar e buscar aconselhamento independente, se necessário."
   },
   "store": {
     "appStore": "App Store",
@@ -40,16 +40,16 @@
     "backHome": "Voltar ao início"
   },
   "download": {
-    "appStorePrefix": "Descarregar na",
-    "googlePlayPrefix": "DISPONÍVEL NA",
-    "windowsPrefix": "Descarregar para",
+    "appStorePrefix": "Baixar na",
+    "googlePlayPrefix": "DISPONÍVEL NO",
+    "windowsPrefix": "Baixar para",
     "windowsLabel": "Windows",
     "webTradingPrefix": "Abrir em",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Está pronto para começar a negociar?",
-    "accountsDes": "Negocie com uma corretora premiada!",
+    "accountsTitle": "Pronto para começar a operar?",
+    "accountsDes": "Opere com uma corretora premiada!",
     "openLiveAccount": "Abrir conta real"
   }
 }

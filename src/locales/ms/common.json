@@ -35,21 +35,21 @@
     "googlePlay": "Google Play"
   },
   "errors": {
-    "title": "Page Not Found",
-    "seoTitle": "Page Not Found | WINPROFX",
-    "backHome": "Back to Home"
+    "title": "Halaman Tidak Ditemui",
+    "seoTitle": "Halaman Tidak Ditemui | WINPROFX",
+    "backHome": "Kembali ke Laman Utama"
   },
   "download": {
-    "appStorePrefix": "Download on the",
-    "googlePlayPrefix": "GET IT ON",
-    "windowsPrefix": "Download for",
+    "appStorePrefix": "Muat turun di",
+    "googlePlayPrefix": "DAPATKAN DI",
+    "windowsPrefix": "Muat turun untuk",
     "windowsLabel": "Windows",
-    "webTradingPrefix": "Open in",
+    "webTradingPrefix": "Buka di",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Are You Ready to Start Trading",
-    "accountsDes": "Trade with an Award Winning broker!",
-    "openLiveAccount": "Open Live account"
+    "accountsTitle": "Adakah Anda Bersedia untuk Mula Trading",
+    "accountsDes": "Trade dengan broker pemenang anugerah!",
+    "openLiveAccount": "Buka akaun Live"
   }
 }

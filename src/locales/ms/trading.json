@@ -149,18 +149,18 @@
       "submit": "Hantar"
     },
     "calculator": {
-      "title": "How Much You Can Earn? Calculate your profit",
-      "clients": "Clients",
-      "rewards": "Rewards",
-      "perLot": "Per lot",
-      "ctaTitle": "Become a WINPROFX Partner & Start Earning Today",
+      "title": "Berapa Banyak Anda Boleh Peroleh? Kira keuntungan anda",
+      "clients": "Pelanggan",
+      "rewards": "Ganjaran",
+      "perLot": "Setiap lot",
+      "ctaTitle": "Jadi Rakan Kongsi WINPROFX & Mula Menjana Pendapatan Hari Ini",
       "steps": {
-        "apply": "Apply to become an <span>Introducing Broker </span>",
-        "share": "Attract clients by sharing your <span>Referral Link</span>",
+        "apply": "Mohon untuk menjadi <span>Introducing Broker </span>",
+        "share": "Tarik pelanggan dengan berkongsi <span>Pautan Rujukan</span> anda",
         "earn": "Earn <span>commission</span> on every trade your clients make"
       },
-      "description": "This advanced commission calculator operates on the basis of Introducing Brokers' client count and their trading volume in lots, providing an accurate reflection of earned commissions.",
-      "partnerDes": "Embark on a lucrative journey by becoming a WINPROFX Partner and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together.",
+      "description": "Kalkulator komisen lanjutan ini beroperasi berdasarkan bilangan pelanggan Introducing Broker dan volum dagangan mereka dalam lot, memberikan gambaran tepat tentang komisen yang diperolehi.",
+      "partnerDes": "Mulakan perjalanan menguntungkan dengan menjadi Rakan Kongsi WINPROFX dan mulakan pendapatan anda hari ini. Sertai rangkaian dinamik kami, manfaatkan peluang yang memberi ganjaran, dan buka jalan ke kejayaan kewangan bersama.",
       "stepKeys": [
         "apply",
         "share",
@@ -236,30 +236,30 @@
       }
     },
     "featureComparison": {
-      "title": "Feature Comparison",
+      "title": "Perbandingan Ciri",
       "standard": "STANDARD",
       "pro": "PRO",
       "ecn": "ECN",
       "rows": {
-        "minimumDeposit": "Minimum Deposit",
+        "minimumDeposit": "Deposit Minimum",
         "spread": "Spread",
-        "commission": "Commission",
-        "maximumLeverage": "Maximum Leverage",
-        "instruments": "Instruments",
-        "minimumLotSize": "Minimum lot size",
-        "maximumLotSize": "Maximum lot size",
-        "marginCall": "Margin call",
+        "commission": "Komisen",
+        "maximumLeverage": "Leverage Maksimum",
+        "instruments": "Instrumen",
+        "minimumLotSize": "Saiz lot minimum",
+        "maximumLotSize": "Saiz lot maksimum",
+        "marginCall": "Panggilan margin",
         "stopOut": "Stop out",
-        "orderExecution": "Order execution",
-        "swapFree": "Swap-Free"
+        "orderExecution": "Pelaksanaan pesanan",
+        "swapFree": "Bebas Swap"
       },
       "values": {
-        "spreadStandard": "From 0.2 pips",
-        "spreadPro": "From 0.1 pips",
-        "spreadEcn": "From 0 pips",
-        "commissionEcn": "Up to $3.50 each side per lot",
-        "orderExecution": "Market",
-        "swapFree": "Available"
+        "spreadStandard": "Dari 0.2 pip",
+        "spreadPro": "Dari 0.1 pip",
+        "spreadEcn": "Dari 0 pip",
+        "commissionEcn": "Sehingga $3.50 setiap sisi setiap lot",
+        "orderExecution": "Pasaran",
+        "swapFree": "Tersedia"
       },
       "instrumentKeys": [
         "forex",
@@ -291,22 +291,22 @@
         "des": "Sertai ekosistem profesional di mana wawasan kolektif dan prestasi individu mendorong kejayaan bersama."
       }
     },
-    "bannerTitle": "Pioneering Excellence: Redefining Trading Standards at WINPROFX",
-    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.org before trading or depositing.",
-    "companyInfoTitle": "Company Information",
-    "legalName": "Legal Name:",
+    "bannerTitle": "Mempelopori Kecemerlangan: Mentakrif Semula Piawaian Trading di WINPROFX",
+    "bannerDes": "Selamat datang ke WINPROFX — jenama trading Forex dan CFD yang menawarkan akses platform MT5, pelbagai perkhidmatan akaun, dan sokongan pelanggan. Sahkan maklumat rasmi di winprofx.org sebelum trading atau mendeposit.",
+    "companyInfoTitle": "Maklumat Syarikat",
+    "legalName": "Nama Undang-undang:",
     "legalNameValue": "WINPROFX Limited",
-    "tradingName": "Trading Name:",
+    "tradingName": "Nama Dagangan:",
     "tradingNameValue": "WINPROFX",
-    "primaryWebsite": "Primary Website:",
-    "regulation": "Regulation:",
-    "regulationValue": "Financial Services Commission of the Republic of Mauritius (Investment Dealer license)",
-    "support": "Support:",
-    "standardTitle": "The WINPROFX Standard",
-    "standardDes": "A foundation built on transparency, innovation, and uncompromising execution.",
-    "featuredIn": "As Featured In",
-    "faqTitle": "Your Guide to Seamless Trading",
-    "faqDes": "Unlock the answers you need with our FAQs. From account setup to trading strategies, find quick solutions to common queries, ensuring your trading journey with WINPROFX is smooth and successful.",
+    "primaryWebsite": "Laman Web Utama:",
+    "regulation": "Peraturan:",
+    "regulationValue": "Financial Services Commission of the Republic of Mauritius (lesen Investment Dealer)",
+    "support": "Sokongan:",
+    "standardTitle": "Piawaian WINPROFX",
+    "standardDes": "Asas yang dibina atas ketelusan, inovasi, dan pelaksanaan tanpa kompromi.",
+    "featuredIn": "Ditampilkan Di",
+    "faqTitle": "Panduan Anda ke Trading yang Lancar",
+    "faqDes": "Dapatkan jawapan yang anda perlukan melalui Soalan Lazim kami. Dari persediaan akaun hingga strategi trading, temui penyelesaian pantas untuk pertanyaan biasa, memastikan perjalanan trading anda dengan WINPROFX lancar dan berjaya.",
     "valueKeys": [
       "advancedTechnology",
       "clientCentric",
@@ -315,28 +315,28 @@
     ],
     "faqs": {
       "whatIsWinprofx": {
-        "title": "What is WINPROFX?",
-        "body": "<p>WINPROFX maintains high standards in its services, recognizing the pivotal role of quality for both the company and its clients. The belief in the necessity of versatile thinking and a unified set of business principles underpins our commitment to providing diverse forex services.We aim to adapt to evolving market conditions and consistently meet the diverse needs of our clientele.WINPROFX stands out for several reasons:</p><ul><li><span><span>Global Regulation: </span> WINPROFX publishes company registration, legal entity, and regulatory scope information on its official Trust Center.</span></li><li><span><span>MT5 Platform Access:</span> WINPROFX provides MetaTrader 5 for desktop and mobile trading with standard order types and charting tools.</span></li><li><span><span>Withdrawal Processing:</span> Withdrawal requests are handled according to WINPROFX published policies and verification requirements.</span></li><li><span><span>Tradable Instruments: </span> WINPROFX provides access to multiple forex and CFD market categories through MT5.</span></li><li><span><span>Spreads:</span> Spreads vary by instrument and market conditions. See account types for published spread information where available.</span></li></ul>"
+        "title": "Apakah WINPROFX?",
+        "body": "<p>WINPROFX mengekalkan piawaian tinggi dalam perkhidmatannya, mengiktiraf peranan penting kualiti bagi syarikat dan pelanggannya. Keyakinan terhadap keperluan pemikiran serba boleh dan set prinsip perniagaan yang bersatu menyokong komitmen kami untuk menyediakan pelbagai perkhidmatan Forex. Kami bertujuan menyesuaikan diri dengan keadaan pasaran yang berkembang dan secara konsisten memenuhi keperluan pelbagai pelanggan kami. WINPROFX menonjol atas beberapa sebab:</p><ul><li><span><span>Peraturan Global: </span> WINPROFX menerbitkan maklumat pendaftaran syarikat, entiti undang-undang, dan skop kawal selia di Pusat Amanah rasminya.</span></li><li><span><span>Akses Platform MT5:</span> WINPROFX menyediakan MetaTrader 5 untuk trading desktop dan mudah alih dengan jenis pesanan standard dan alat carta.</span></li><li><span><span>Pemprosesan Pengeluaran:</span> Permintaan pengeluaran dikendalikan mengikut dasar dan keperluan pengesahan yang diterbitkan oleh WINPROFX.</span></li><li><span><span>Instrumen Boleh Didagangkan: </span> WINPROFX menyediakan akses kepada pelbagai kategori pasaran Forex dan CFD melalui MT5.</span></li><li><span><span>Spread:</span> Spread berbeza mengikut instrumen dan keadaan pasaran. Lihat jenis akaun untuk maklumat spread yang diterbitkan jika tersedia.</span></li></ul>"
       },
       "howToStart": {
-        "title": "How do I start trading with WINPROFX?",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> or <a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
+        "title": "Bagaimana saya mula trading dengan WINPROFX?",
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Cipta Akaun:</strong><p>Lawati laman web rasmi WINPROFX di <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> atau <a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">daftar di sini</a>.</p><p>Cari pilihan \"Daftar\" atau \"Buka Akaun\".</p><p>Berikan maklumat yang diperlukan, termasuk butiran peribadi dan maklumat hubungan.</p><p>Setuju dengan terma dan syarat.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Pengesahan (KYC):</strong><p>Lengkapkan proses pengesahan identiti yang diperlukan dengan menyerahkan dokumen pengenalan untuk mematuhi keperluan kawal selia.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Dana:</strong><p>Log masuk ke akaun baharu anda.</p><p>Pergi ke bahagian deposit atau pembiayaan.</p><p>Pilih kaedah pembayaran pilihan anda dan deposit dana ke akaun trading anda.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Pilih Platform Trading:</strong><p>Pilih daripada platform trading yang tersedia - MetaTrader 5 (MT5).</p><p>Muat turun dan pasang Platform Trading.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Log Masuk ke Platform Trading:</strong><p>Buka platform trading.</p><p>Masukkan kelayakan akaun anda untuk log masuk.</p><p>Jika anda menghadapi sebarang kesulitan, sokongan pelanggan WINPROFX boleh membantu anda. <a href=\"/contact\" class=\"text-white underline\">Hubungi kami</a></p></div>"
       },
       "instruments": {
-        "title": "Which Financial instruments can I trade with WINPROFX?",
-        "body": "<p>Common categories of financial instruments that traders can potentially access on WINPROFX: </p><ul><li><span><span>Forex (Foreign Exchange): </span>Currency pairs, such as EUR/USD, GBP/JPY, USD/JPY, etc.</span></li><li><span><span>Indices:</span>Benchmarks representing the performance of a group of stocks on a specific exchange such as S&P500, US30, etc.</span></li><li><span><span>Commodities:</span>Such as oil, agricultural products, etc.</span></li><li><span><span>Precious Metals:</span>Assets like gold, silver, platinum, palladium, etc.</span></li><li><span><span>Cryptocurrencies:</span>Digital currencies like Bitcoin, Ethereum, Litecoin, etc.</span></li></ul>"
+        "title": "Instrumen kewangan manakah yang boleh saya trade dengan WINPROFX?",
+        "body": "<p>Kategori biasa instrumen kewangan yang berpotensi diakses oleh pedagang di WINPROFX: </p><ul><li><span><span>Forex (Pertukaran Asing): </span>Pasangan mata wang, seperti EUR/USD, GBP/JPY, USD/JPY, dan lain-lain.</span></li><li><span><span>Indeks:</span>Penanda aras yang mewakili prestasi sekumpulan saham di bursa tertentu seperti S&P500, US30, dan lain-lain.</span></li><li><span><span>Komoditi:</span>Seperti minyak mentah, produk pertanian, dan lain-lain.</span></li><li><span><span>Logam Berharga:</span>Aset seperti emas, perak, platinum, palladium, dan lain-lain.</span></li><li><span><span>Mata Wang Kripto:</span>Mata wang digital seperti Bitcoin, Ethereum, Litecoin, dan lain-lain.</span></li></ul>"
       },
       "depositWithdraw": {
-        "title": "How can I deposit and withdraw funds on WINPROFX?",
-        "body": "<p>For clients convenience WINPROFX provides deposit and withdrawal options via our Banking and Crypto network partners. Feel free to connect with our Client Servicing team for further assistance.</p>"
+        "title": "Bagaimana saya boleh deposit dan mengeluarkan dana di WINPROFX?",
+        "body": "<p>Untuk kemudahan pelanggan, WINPROFX menyediakan pilihan deposit dan pengeluaran melalui rakan kongsi rangkaian Perbankan dan Kripto kami. Sila hubungi pasukan Khidmat Pelanggan kami untuk bantuan lanjut.</p>"
       },
       "platforms": {
-        "title": "What trading platforms does WINPROFX support?",
-        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.org for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
+        "title": "Platform trading manakah yang disokong oleh WINPROFX?",
+        "body": "<p>WINPROFX menyokong platform trading berikut:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Platform desktop dan mudah alih piawaian industri untuk trading Forex, indeks, kripto, logam, komoditi, dan minyak mentah.</span></li><li><span><span>Web Trading:</span>Trading berasaskan pelayar tersedia di trade.winprofx.org untuk akses pantas tanpa pemasangan.</span></li><li><span><span>Akaun Demo:</span>Berlatih trading dalam persekitaran tanpa risiko sebelum berdagang secara langsung.</span></li></ul><p>Ketahui lebih lanjut di <a href=\"/platform\" class=\"text-white underline\">halaman Platform</a> kami atau <a href=\"/contact\" class=\"text-white underline\">hubungi sokongan</a> untuk bantuan.</p>"
       },
       "support": {
-        "title": "How can I contact WINPROFX customer support?",
-        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+        "title": "Bagaimana saya boleh menghubungi sokongan pelanggan WINPROFX?",
+        "body": "<p>Sokongan pelanggan WINPROFX tersedia 24/7 melalui saluran berikut:</p><ul><li><span><span>Telefon:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>E-mel:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Sembang Langsung:</span> Tersedia di laman web ini melalui widget sembang</span></li></ul><p>Lawati <a href=\"/contact\" class=\"text-white underline\">halaman Hubungi</a> kami untuk butiran penuh. Laman web rasmi: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
       }
     },
     "faqKeys": [
@@ -385,23 +385,23 @@
       "clientPortal": "Portal Pelanggan",
       "partnerPortal": "Portal Rakan Kongsi"
     },
-    "introP1": "WINPROFX provides customer support for account inquiries, trading platform assistance, deposits, withdrawals, and general questions. Our main official website is",
-    "introP2Start": "For account login and trading, use the",
-    "introP2ClientPortal": "client portal at my.winprofx.org",
-    "introP2Middle": ". Partners should use",
+    "introP1": "WINPROFX menyediakan sokongan pelanggan untuk pertanyaan akaun, bantuan platform trading, deposit, pengeluaran, dan soalan am. Laman web rasmi utama kami ialah",
+    "introP2Start": "Untuk log masuk akaun dan trading, gunakan",
+    "introP2ClientPortal": "portal pelanggan di my.winprofx.org",
+    "introP2Middle": ". Rakan kongsi hendaklah menggunakan",
     "introP2PartnerPortal": "partner.winprofx.org",
-    "customerSupport": "Customer Support:",
-    "customerSupportHours": "Available 24 hours a day, 7 days a week",
-    "officeHours": "Office Hours (UAE):",
-    "officeHoursValue": "Monday – Friday, 09:00 – 18:00 (GST)",
-    "riskLegalP1Start": "Before trading, please read our",
-    "riskWarningLink": "Risk Warning",
-    "riskLegalP1Middle": "and review our",
-    "legalDocumentsLink": "Legal Documents",
-    "riskLegalP1End": "Trading forex and CFDs involves significant risk and may not be suitable for all investors.",
-    "officialDomainsNote": "Always verify you are on an official WINPROFX domain before logging in or depositing. See",
-    "officialDomainsLink": "Official Domains",
-    "officialDomainsEnd": "for the complete list."
+    "customerSupport": "Sokongan Pelanggan:",
+    "customerSupportHours": "Tersedia 24 jam sehari, 7 hari seminggu",
+    "officeHours": "Waktu Pejabat (UAE):",
+    "officeHoursValue": "Isnin – Jumaat, 09:00 – 18:00 (GST)",
+    "riskLegalP1Start": "Sebelum trading, sila baca",
+    "riskWarningLink": "Amaran Risiko",
+    "riskLegalP1Middle": "kami dan semak",
+    "legalDocumentsLink": "Dokumen Undang-undang",
+    "riskLegalP1End": "Trading Forex dan CFDs melibatkan risiko yang ketara dan mungkin tidak sesuai untuk semua pelabur.",
+    "officialDomainsNote": "Sentiasa sahkan anda berada di domain rasmi WINPROFX sebelum log masuk atau mendeposit. Lihat",
+    "officialDomainsLink": "Domain Rasmi",
+    "officialDomainsEnd": "untuk senarai lengkap."
   },
   "blog": {
     "meta": "ARTIKEL",
@@ -411,7 +411,7 @@
       "forex": "Forex",
       "indices": "Indeks",
       "crypto": "Kripto",
-      "oil": "Minyak",
+      "oil": "Minyak Mentah",
       "metals": "Logam",
       "commodities": "Komoditi"
     },
@@ -419,27 +419,27 @@
     "pageTitle": "Blog WINPROFX",
     "posts": {
       "overview": {
-        "title": "WINPROFX Forex, Indices, Crypto, Metals, Commodities and Oil Trading Overview",
+        "title": "Gambaran Keseluruhan Trading Forex, Indeks, Kripto, Logam, Komoditi dan Minyak Mentah WINPROFX",
         "des": ""
       },
       "indices": {
-        "title": "Indices Trading with WINPROFX",
-        "des": "When it comes to trading indices in India, having the right platform can significantly impact your success."
+        "title": "Trading Indeks dengan WINPROFX",
+        "des": "Apabila berdagang indeks, mempunyai platform yang tepat boleh memberi kesan ketara kepada kejayaan anda."
       },
       "forex": {
-        "title": "Forex Trading with WINPROFX",
-        "des": "In the fast-growing world of Forex trading in India, finding the right platform can make a huge difference in your trading success."
+        "title": "Trading Forex dengan WINPROFX",
+        "des": "Dalam dunia trading Forex yang berkembang pesat, mencari platform yang tepat boleh membuat perbezaan besar dalam kejayaan trading anda."
       },
       "crypto": {
-        "title": "Crypto CFD Trading with WINPROFX",
+        "title": "Trading CFD Kripto dengan WINPROFX",
         "des": ""
       },
       "commodities": {
-        "title": "Commodities Trading with WINPROFX",
+        "title": "Trading Komoditi dengan WINPROFX",
         "des": ""
       },
       "metals": {
-        "title": "Gold and Metals Trading with WINPROFX",
+        "title": "Trading Emas dan Logam dengan WINPROFX",
         "des": ""
       }
     },
@@ -453,25 +453,25 @@
       "overview"
     ],
     "details": {
-      "meta": "Overview",
-      "title": "WINPROFX Forex and CFD Trading Overview",
-      "des": "WINPROFX provides access to forex and CFD markets through MetaTrader 5. This overview explains platform access, account services, and where to find official company and risk information before trading.",
+      "meta": "Gambaran Keseluruhan",
+      "title": "Gambaran Keseluruhan Trading Forex dan CFD WINPROFX",
+      "des": "WINPROFX menyediakan akses kepada pasaran Forex dan CFD melalui MetaTrader 5. Gambaran keseluruhan ini menerangkan akses platform, perkhidmatan akaun, dan di mana untuk mencari maklumat rasmi syarikat serta risiko sebelum trading.",
       "sections": {
         "markets": {
-          "title": "What markets does WINPROFX offer?",
-          "des": "WINPROFX offers access to forex, indices, crypto CFDs, metals, commodities, and oil through the MT5 platform. Instrument availability may vary by account type and region."
+          "title": "Pasaran manakah yang ditawarkan oleh WINPROFX?",
+          "des": "WINPROFX menawarkan akses kepada Forex, indeks, CFD kripto, logam, komoditi, dan minyak mentah melalui platform MT5. Ketersediaan instrumen mungkin berbeza mengikut jenis akaun dan wilayah."
         },
         "mt5": {
-          "title": "MT5 Platform Access",
-          "des": "Clients can access MetaTrader 5 on desktop and mobile. The platform includes charting tools, order types, and account management features. Demo accounts may be available for practice."
+          "title": "Akses Platform MT5",
+          "des": "Pelanggan boleh mengakses MetaTrader 5 di desktop dan mudah alih. Platform ini merangkumi alat carta, jenis pesanan, dan ciri pengurusan akaun. Akaun demo mungkin tersedia untuk latihan."
         },
         "verify": {
-          "title": "Verify WINPROFX Before Trading",
-          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org."
+          "title": "Sahkan WINPROFX Sebelum Trading",
+          "des": "Sentiasa pastikan anda berada di domain rasmi WINPROFX sebelum log masuk atau mendeposit. Semak pendaftaran syarikat, skop kawal selia, dan amaran risiko di Pusat Amanah WINPROFX di winprofx.org."
         },
         "risk": {
-          "title": "Risk Warning",
-          "des": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Losses can exceed deposits when using leverage. Read the full risk warning on the official WINPROFX website before trading."
+          "title": "Amaran Risiko",
+          "des": "Trading Forex dan CFDs melibatkan risiko yang ketara dan mungkin tidak sesuai untuk semua pelabur. Kerugian boleh melebihi deposit apabila menggunakan leverage. Baca amaran risiko penuh di laman web rasmi WINPROFX sebelum trading."
         }
       },
       "sectionKeys": [

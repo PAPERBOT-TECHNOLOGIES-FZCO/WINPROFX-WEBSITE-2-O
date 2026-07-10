@@ -35,21 +35,21 @@
     "googlePlay": "Google Play"
   },
   "errors": {
-    "title": "Page Not Found",
-    "seoTitle": "Page Not Found | WINPROFX",
-    "backHome": "Back to Home"
+    "title": "ページが見つかりません",
+    "seoTitle": "ページが見つかりません | WINPROFX",
+    "backHome": "ホームに戻る"
   },
   "download": {
-    "appStorePrefix": "Download on the",
-    "googlePlayPrefix": "GET IT ON",
-    "windowsPrefix": "Download for",
+    "appStorePrefix": "ダウンロード：",
+    "googlePlayPrefix": "入手：",
+    "windowsPrefix": "ダウンロード：",
     "windowsLabel": "Windows",
-    "webTradingPrefix": "Open in",
+    "webTradingPrefix": "開く：",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Are You Ready to Start Trading",
-    "accountsDes": "Trade with an Award Winning broker!",
-    "openLiveAccount": "Open Live account"
+    "accountsTitle": "取引を始める準備はできましたか",
+    "accountsDes": "受賞歴のあるブローカーで取引しよう！",
+    "openLiveAccount": "ライブ口座を開設"
   }
 }

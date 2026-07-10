@@ -30,16 +30,16 @@
         "body": "WINPROFX cung cấp kết hợp công cụ phân tích cơ bản và kỹ thuật giúp dự đoán biến động giá và phân tích mẫu giao dịch. Công cụ miễn phí và dễ truy cập."
       },
       "freeSignals": {
-        "title": "Where can I access free trading signals on the WINPROFX website?",
-        "body": "You can access free trading signals from Trading Central in your Personal Area and the WINPROFX Trade app. These signals incorporate various analytical approaches, providing insights on expected trends, and are valuable for both beginners and experienced traders to plan their strategies and trades."
+        "title": "Tôi có thể truy cập tín hiệu giao dịch miễn phí ở đâu trên website WINPROFX?",
+        "body": "Bạn có thể truy cập tín hiệu giao dịch miễn phí từ Trading Central trong Khu vực Cá nhân và ứng dụng WINPROFX Trade. Các tín hiệu này kết hợp nhiều phương pháp phân tích, cung cấp thông tin về xu hướng dự kiến và hữu ích cho cả người mới lẫn trader giàu kinh nghiệm khi lập kế hoạch chiến lược và lệnh giao dịch."
       }
     },
-    "bannerMeta": "Analytics Tools",
-    "bannerTitle": "Powerful Analytics Tools for Smarter Trading Decisions",
-    "bannerDes": "To help you confidently plan your trades, we give you access to the best fundamental and technical analytics trading tools.",
-    "smartSignalsTitle": "Strategic Trading Signals",
-    "smartSignalsDes": "Make optimal use of Trading Central's signals to formulate your trade plans and techniques. These signals combine a number of analytical techniques, providing traders with a useful tool across all periods and market conditions. You may easily access them through the WINPROFX Trade app or your WINPROFX Personal Area.",
-    "faqSubtitle": "Find clear and concise answers to the most common questions about trading, account setup, deposits, withdrawals, and platform features.",
+    "bannerMeta": "Công cụ phân tích",
+    "bannerTitle": "Công cụ phân tích mạnh mẽ cho quyết định giao dịch thông minh hơn",
+    "bannerDes": "Để giúp bạn lập kế hoạch giao dịch tự tin hơn, chúng tôi cung cấp quyền truy cập vào các công cụ phân tích cơ bản và kỹ thuật tốt nhất.",
+    "smartSignalsTitle": "Tín hiệu giao dịch chiến lược",
+    "smartSignalsDes": "Tận dụng tối đa tín hiệu của Trading Central để xây dựng kế hoạch và kỹ thuật giao dịch. Các tín hiệu này kết hợp nhiều kỹ thuật phân tích, mang lại công cụ hữu ích cho mọi khung thời gian và điều kiện thị trường. Bạn có thể dễ dàng truy cập qua ứng dụng WINPROFX Trade hoặc Khu vực Cá nhân WINPROFX.",
+    "faqSubtitle": "Tìm câu trả lời rõ ràng, ngắn gọn cho các câu hỏi thường gặp về giao dịch, mở tài khoản, nạp/rút tiền và tính năng nền tảng.",
     "faqKeys": [
       "marketPredictions",
       "tradingPatterns",
@@ -217,37 +217,37 @@
     "description": "WINPROFX cung cấp công cụ giao dịch tiên tiến, cập nhật thị trường theo thời gian thực và nền tảng thân thiện giúp trader ra quyết định sáng suốt và tối ưu chiến lược."
   },
   "converterUi": {
-    "title": "Convert Your Currency",
-    "account": "Account",
-    "accountPlaceholder": "Enter your account",
-    "convertedAmount": "Converted Amount",
-    "convertedPlaceholder": "Converted amount",
-    "convertNow": "Convert Now"
+    "title": "Chuyển đổi tiền tệ",
+    "account": "Tài khoản",
+    "accountPlaceholder": "Nhập tài khoản của bạn",
+    "convertedAmount": "Số tiền đã chuyển đổi",
+    "convertedPlaceholder": "Số tiền đã chuyển đổi",
+    "convertNow": "Chuyển đổi ngay"
   },
   "calculatorUi": {
-    "yourOrder": "Your Order",
-    "accountType": "Account Type",
-    "selectAccountType": "Select account type",
+    "yourOrder": "Lệnh của bạn",
+    "accountType": "Loại tài khoản",
+    "selectAccountType": "Chọn loại tài khoản",
     "standard": "Standard",
-    "lotSizePlaceholder": "Enter your lot size",
+    "lotSizePlaceholder": "Nhập khối lượng lot",
     "disclaimer": "Disclaimer: The trading calculator is provided for illustrative purposes only. Results are estimates and may not reflect actual trading conditions. Always verify margin, pip values, and costs with your account specifications before placing trades.",
-    "accountCurrency": "Account Currency",
-    "selectAccountCurrency": "Select account Currency",
-    "selectInstrument": "Select instrument",
+    "accountCurrency": "Tiền tệ tài khoản",
+    "selectAccountCurrency": "Chọn tiền tệ tài khoản",
+    "selectInstrument": "Chọn công cụ",
     "lot": "Lot",
-    "leverage": "Leverage",
-    "selectLeverage": "Select leverage",
-    "calculateNow": "Calculate Now",
-    "results": "Results",
-    "margin": "Margin",
-    "spreadCost": "Spread Cost",
-    "commission": "Commission",
-    "swapShot": "Swap Shot",
+    "leverage": "Đòn bẩy",
+    "selectLeverage": "Chọn đòn bẩy",
+    "calculateNow": "Tính toán ngay",
+    "results": "Kết quả",
+    "margin": "Ký quỹ",
+    "spreadCost": "Chi phí spread",
+    "commission": "Hoa hồng",
+    "swapShot": "Swap Short",
     "swapLong": "Swap Long",
-    "pipValue": "Pip Value",
+    "pipValue": "Giá trị pip",
     "pro": "Pro",
     "ecn": "ECN",
-    "disclaimerLabel": "Disclaimer:",
-    "disclaimerBody": "The trading calculator is provided for illustrative purposes only. The results presented by this calculator are for educational and estimation purposes and you should not rely upon it as being complete and for making investment decisions. Real-time results can only be determined at the time of order execution."
+    "disclaimerLabel": "Tuyên bố miễn trừ:",
+    "disclaimerBody": "Máy tính giao dịch chỉ mang tính minh họa. Kết quả được cung cấp cho mục đích giáo dục và ước tính; bạn không nên dựa vào đó như thông tin đầy đủ để đưa ra quyết định đầu tư. Kết quả thực tế chỉ được xác định tại thời điểm khớp lệnh."
   }
 }

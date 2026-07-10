@@ -1,152 +1,152 @@
 {
   "winPromotion": {
-    "meta": "WINPROFX Exclusive · March - May 2026",
-    "h1": "Trade to Win Program",
-    "des": "Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. The more you trade, the greater the prize.",
-    "secondButton": "View T&C",
+    "meta": "Exclusivo WINPROFX · Marzo - Mayo 2026",
+    "h1": "Programa Trade to Win",
+    "des": "Alcanza volúmenes de trading específicos en 30 días y desbloquea recompensas exclusivas de Apple. Cuanto más operes, mayor será el premio.",
+    "secondButton": "Ver T&C",
     "rewardTiers": {
-      "subTitle": "Reward Tiers",
-      "title": "Trade More, Win More",
-      "des": "Hit your target lot volume within 30 days to claim your prize. Six tiers, six chances to win — every lot gets you closer."
+      "subTitle": "Niveles de recompensa",
+      "title": "Opera más, gana más",
+      "des": "Alcanza tu volumen objetivo de lotes en 30 días para reclamar tu premio. Seis niveles, seis oportunidades de ganar: cada lote te acerca más."
     }
   },
   "tradeToWin": {
-    "h1": "Trade to Win Program",
-    "meta": "WINPROFX Exclusive",
-    "bannerTitle": "Trade More, Win More",
-    "howItWorks": "How It Works",
-    "programConditions": "Program Conditions",
-    "importantTerms": "Important Terms",
+    "h1": "Programa Trade to Win",
+    "meta": "Exclusivo WINPROFX",
+    "bannerTitle": "Opera más, gana más",
+    "howItWorks": "Cómo funciona",
+    "programConditions": "Condiciones del programa",
+    "importantTerms": "Términos importantes",
     "labels": {
-      "tier": "TIER",
-      "lots": "Lots",
-      "withinDays": "within 30 days"
+      "tier": "NIVEL",
+      "lots": "Lotes",
+      "withinDays": "en 30 días"
     },
-    "rewardTiersTitleHtml": "Trade More, <span class=\"text-primary\">Win More</span>",
+    "rewardTiersTitleHtml": "Opera más, <span class=\"text-primary\">gana más</span>",
     "howItWorksSection": {
-      "subTitle": "Process",
-      "titleHtml": "How It <span class=\"text-primary\">Works</span>",
-      "des": "Getting started is simple. Complete these four steps and you're on your way to winning exclusive Apple rewards.",
+      "subTitle": "Proceso",
+      "titleHtml": "Cómo <span class=\"text-primary\">funciona</span>",
+      "des": "Empezar es sencillo. Completa estos cuatro pasos y estarás en camino de ganar recompensas exclusivas de Apple.",
       "steps": {
         "registerOptIn": {
-          "title": "Register & Opt In",
-          "body": "Sign up with WINPROFX and opt into the Trade to Win program from your first deposit."
+          "title": "Regístrate y participa",
+          "body": "Regístrate en WINPROFX e inscríbete en el programa Trade to Win desde tu primer depósito."
         },
         "chooseTier": {
-          "title": "Choose Your Tier",
-          "body": "Select the reward tier you're aiming for — from a Power Bank all the way to the latest iPhone."
+          "title": "Elige tu nivel",
+          "body": "Selecciona el nivel de recompensa al que aspiras: desde un power bank hasta el último iPhone."
         },
         "trade30Days": {
-          "title": "Trade Within 30 Days",
-          "body": "Hit your target trading volume within 30 days. Eligible trades must be held for at least 3 minutes."
+          "title": "Opera en 30 días",
+          "body": "Alcanza tu volumen de trading objetivo en 30 días. Las operaciones elegibles deben mantenerse abiertas al menos 3 minutos."
         },
         "claimPrize": {
-          "title": "Claim Your Prize",
-          "body": "Once you reach your volume goal, your reward is confirmed and dispatched to you."
+          "title": "Reclama tu premio",
+          "body": "Una vez que alcances tu meta de volumen, tu recompensa se confirma y se envía."
         }
       }
     },
     "programConditionsSection": {
-      "subTitle": "Rules & Details",
-      "titleHtml": "Program <span class=\"text-primary\">Conditions</span>",
+      "subTitle": "Reglas y detalles",
+      "titleHtml": "Condiciones del <span class=\"text-primary\">programa</span>",
       "items": {
         "programPeriod": {
-          "label": "Program Period",
-          "value": "March 1, 2025 – May 31, 2026"
+          "label": "Período del programa",
+          "value": "1 de marzo de 2025 – 31 de mayo de 2026"
         },
         "tradingTimeline": {
-          "label": "Trading Timeline",
-          "value": "30 days from your start date"
+          "label": "Plazo de trading",
+          "value": "30 días desde tu fecha de inicio"
         },
         "eligibleClients": {
-          "label": "Eligible Clients",
-          "value": "Retail clients only (IBs excluded)"
+          "label": "Clientes elegibles",
+          "value": "Solo clientes minoristas (IBs excluidos)"
         },
         "minimumHold": {
-          "label": "Minimum Hold Time",
-          "value": "3 minutes per qualifying trade"
+          "label": "Tiempo mínimo de retención",
+          "value": "3 minutos por operación válida"
         },
         "excludedInstruments": {
-          "label": "Excluded Instruments",
-          "value": "Stocks & crypto pairs"
+          "label": "Instrumentos excluidos",
+          "value": "Acciones y pares de cripto"
         },
         "withdrawals": {
-          "label": "Withdrawals",
-          "value": "Permitted throughout campaign"
+          "label": "Retiros",
+          "value": "Permitidos durante toda la campaña"
         }
       }
     },
     "importantTermsSection": {
       "subTitle": "Legal",
-      "titleHtml": "Important <span class=\"text-primary\">Terms</span>",
-      "des": "Please read these terms carefully before participating in the Trade to Win program.",
+      "titleHtml": "Términos <span class=\"text-primary\">importantes</span>",
+      "des": "Lee estos términos con atención antes de participar en el programa Trade to Win.",
       "items": {
         "fairPlay": {
-          "title": "Fair Play",
-          "body": "Any signs of market abuse — including latency arbitrage or manipulative techniques — will result in immediate disqualification."
+          "title": "Juego limpio",
+          "body": "Cualquier indicio de abuso de mercado —incluido el arbitraje de latencia o técnicas manipulativas— resultará en la descalificación inmediata."
         },
         "eligibility": {
-          "title": "Eligibility Limitations",
-          "body": "Only self-directed individual accounts can participate. Managed accounts or IB-referred accounts are not eligible."
+          "title": "Limitaciones de elegibilidad",
+          "body": "Solo pueden participar cuentas individuales autogestionadas. Las cuentas gestionadas o referidas por IB no son elegibles."
         },
         "liability": {
-          "title": "Liability Disclaimer",
-          "body": "WINPROFX is not responsible for any trading losses. This program does not alter participants' risk profiles or investment strategies."
+          "title": "Exención de responsabilidad",
+          "body": "WINPROFX no se responsabiliza de ninguna pérdida de trading. Este programa no modifica el perfil de riesgo ni las estrategias de inversión de los participantes."
         },
         "dispute": {
-          "title": "Dispute Resolution",
-          "body": "Any issues not directly addressed in these terms will be resolved by management in a fair and binding manner."
+          "title": "Resolución de disputas",
+          "body": "Cualquier asunto no contemplado directamente en estos términos será resuelto por la dirección de forma justa y vinculante."
         }
       }
     }
   },
   "introducingBroker": {
-    "meta": "PARTNER PROGRAM",
-    "h1": "Introducing Broker Program",
-    "des": "Join an industry-leading Introducing Broker (IB) program engineered for maximum yield, absolute transparency, and daily automated payouts.",
-    "buttonText": "Become a Partner",
+    "meta": "PROGRAMA DE SOCIOS",
+    "h1": "Programa de Introducing Broker",
+    "des": "Únete a un programa de Introducing Broker (IB) líder en la industria, diseñado para el máximo rendimiento, total transparencia y pagos diarios automatizados.",
+    "buttonText": "Hazte socio",
     "advantages": {
-      "title": "Exclusive Partner Advantages",
-      "description": "Partner with WINPROFX as an introducing broker. Commission structures, support resources, and partnership terms are published for approved partners.",
+      "title": "Ventajas exclusivas para socios",
+      "description": "Asóciate con WINPROFX como introducing broker. Las estructuras de comisión, los recursos de soporte y las condiciones de la asociación se publican para socios aprobados.",
       "cards": {
-        "profitShare": "Up to <b>90%</b> profit share from spreads",
-        "awards": "Reputable Broker With <b>40+</b> Industry awards",
-        "evolving": "Evolving everyday in the market",
-        "rewards": "Trade and Win <b>Rewards</b> Everyday"
+        "profitShare": "Hasta <b>90%</b> de participación en beneficios de los spreads",
+        "awards": "Bróker de prestigio con <b>40+</b> premios de la industria",
+        "evolving": "Evolucionando cada día en el mercado",
+        "rewards": "Opera y gana <b>recompensas</b> todos los días"
       },
-      "stepsTitle": "What Sets Us Apart:",
-      "stepsSubtitle": "Reasons for Client Preference",
+      "stepsTitle": "Lo que nos diferencia:",
+      "stepsSubtitle": "Motivos de preferencia de los clientes",
       "steps": {
-        "withdrawal": "Fastest Withdrawal",
+        "withdrawal": "Retiro más rápido",
         "noSwap": "No Swap",
         "noCommission": "No Commission",
         "lowSpread": "Low Spread"
       }
     },
     "benefits": {
-      "title": "Benefits Of Becoming Introducing Broker With WINPROFX:",
-      "paragraph1": "Unlock a world of advantages by becoming an Introducing Broker with WINPROFX. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards.",
-      "paragraph2": "Join us in reshaping the future of trading partnerships with the Best Broker Trading Platform.",
-      "cardTitle": "Multi-tier up to 5 Levels",
-      "cardDescription": "As an IB you could have up to 5 sub levels of referral traders."
+      "title": "Beneficios de ser Introducing Broker con WINPROFX:",
+      "paragraph1": "Desbloquea un mundo de ventajas al convertirte en Introducing Broker con WINPROFX. Disfruta de estructuras de comisión generosas, reconocimiento en la industria, evolución continua del mercado y la oportunidad de potenciar a los traders con recompensas diarias.",
+      "paragraph2": "Únete a nosotros para transformar el futuro de las alianzas de trading con la mejor plataforma de bróker.",
+      "cardTitle": "Multinivel de hasta 5 niveles",
+      "cardDescription": "Como IB puedes tener hasta 5 subniveles de traders referidos."
     },
     "payoutForm": {
-      "title": "Start Your Journey Towards Growth & Success",
+      "title": "Comienza tu camino hacia el crecimiento y el éxito",
       "heading": "Fast Payout Settlement",
-      "description": "Drop your details, we will get in touch with you soon.",
-      "fullName": "Full Name",
-      "fullNamePlaceholder": "Enter your full name",
+      "description": "Déjanos tus datos y nos pondremos en contacto contigo pronto.",
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
       "email": "Email",
-      "emailPlaceholder": "Enter your email",
-      "phone": "Phone Number",
-      "phonePlaceholder": "Enter your number",
-      "message": "Message",
-      "messagePlaceholder": "Write your message here",
-      "sendOtp": "SEND OTP",
-      "sendingOtp": "SENDING...",
-      "otpSent": "OTP SENT ✓",
-      "agree": "By submitting this form, you agree to be contacted by our team.",
-      "submit": "Submit"
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "phone": "Número de teléfono",
+      "phonePlaceholder": "Ingresa tu número",
+      "message": "Mensaje",
+      "messagePlaceholder": "Escribe tu mensaje aquí",
+      "sendOtp": "ENVIAR OTP",
+      "sendingOtp": "ENVIANDO...",
+      "otpSent": "OTP ENVIADO ✓",
+      "agree": "Al enviar este formulario, aceptas que nuestro equipo se ponga en contacto contigo.",
+      "submit": "Enviar"
     },
     "calculator": {
       "title": "¿Cuánto puede ganar? Calcule su beneficio",
@@ -169,37 +169,37 @@
     }
   },
   "platform": {
-    "meta": "PLATFORM",
-    "h1": "Trading Platform",
+    "meta": "PLATAFORMA",
+    "h1": "Plataforma de trading",
     "bannerMeta": "Plataforma",
-    "bannerDes": "WINPROFX has achieved significant success in global business expansion. WINPROFX provides MetaTrader 5 (MT5) platform access for forex and CFD trading, accessible on both Android and iPhone, bringing you one step closer to success. Take the plunge into a realm of endless trading opportunities by downloading MT5 now.",
+    "bannerDes": "WINPROFX ha logrado un éxito significativo en su expansión global. WINPROFX ofrece acceso a la plataforma MetaTrader 5 (MT5) para trading de forex y CFD, disponible en Android e iPhone, acercándote un paso más al éxito. Sumérgete en un mundo de oportunidades de trading ilimitadas descargando MT5 ahora.",
     "cards": {
       "mobile": {
-        "meta": "TRADING PLATFORM",
-        "title": "Download MT 5 For Mobile",
-        "description": "WINPROFX has remained highly successful to expand their business all over the world, and now MT 5 is available on Android and iPhone, and you are one step closer to success. Download MT 5 now and dive into the world of limitless trading opportunities."
+        "meta": "PLATAFORMA DE TRADING",
+        "title": "Descarga MT 5 para móvil",
+        "description": "WINPROFX ha tenido un gran éxito expandiendo su negocio por todo el mundo, y ahora MT 5 está disponible en Android e iPhone: estás un paso más cerca del éxito. Descarga MT 5 ahora y sumérgete en un mundo de oportunidades de trading ilimitadas."
       },
       "desktop": {
-        "meta": "TRADING PLATFORM",
-        "title": "DOWNLOAD MT5 FOR DESKTOP",
-        "description": "Experience the power of MT5 on your desktop. Access advanced charting tools, automated trading capabilities, and real-time market data. WINPROFX provides a seamless web-based trading platform for professional traders looking for advanced features and flexibility."
+        "meta": "PLATAFORMA DE TRADING",
+        "title": "DESCARGAR MT5 PARA ESCRITORIO",
+        "description": "Experimenta el poder de MT5 en tu escritorio. Accede a herramientas avanzadas de gráficos, trading automatizado y datos de mercado en tiempo real. WINPROFX ofrece una plataforma de trading web fluida para traders profesionales que buscan funciones avanzadas y flexibilidad."
       }
     }
   },
   "accounts": {
-    "meta": "ACCOUNTS",
-    "h1": "Trading Accounts",
-    "des": "Unlock feature-packed, commission-free trading accounts designed for today's traders. Sign up now and enjoy the benefits of our most popular account.",
+    "meta": "CUENTAS",
+    "h1": "Cuentas de trading",
+    "des": "Desbloquea cuentas de trading completas y sin comisión, diseñadas para los traders de hoy. Regístrate ahora y disfruta de los beneficios de nuestra cuenta más popular.",
     "chooseAccount": {
-      "title": "Choose Your Account",
-      "recommended": "RECOMMENDED",
+      "title": "Elige tu cuenta",
+      "recommended": "RECOMENDADA",
       "register": "Caja registradora",
       "labels": {
-        "minimumDeposit": "Minimum Deposit",
+        "minimumDeposit": "Depósito mínimo",
         "spread": "Spread",
-        "commission": "Commission",
-        "maxLeverage": "Maximum Leverage",
-        "instruments": "Instruments"
+        "commission": "Comisión",
+        "maxLeverage": "Apalancamiento máximo",
+        "instruments": "Instrumentos"
       },
       "instruments": {
         "forex": "Forex",
@@ -211,26 +211,26 @@
       "plans": {
         "standard": {
           "title": "Standard",
-          "description": "Our most popular account. Great for all types of traders.",
+          "description": "Nuestra cuenta más popular. Ideal para todo tipo de traders.",
           "minimumDeposit": "$50",
-          "spread": "From 0.2 pips",
+          "spread": "Desde 0.2 pips",
           "commission": "No Commission",
           "leverage": "1:500"
         },
         "pro": {
           "title": "Pro",
-          "description": "Our instant execution account, with zero commission & low spread.",
+          "description": "Nuestra cuenta de ejecución instantánea, con cero comisión y spread bajo.",
           "minimumDeposit": "$3000",
-          "spread": "From 0.1 pips",
+          "spread": "Desde 0.1 pips",
           "commission": "No Commission",
           "leverage": "1:500"
         },
         "ecn": {
           "title": "ECN",
-          "description": "Our instant execution account, with zero commission & low spread",
+          "description": "Nuestra cuenta de ejecución instantánea, con cero comisión y spread bajo",
           "minimumDeposit": "$5000",
-          "spread": "From 0.0 pips",
-          "commission": "Up to $3.50 each side per lot",
+          "spread": "Desde 0.0 pips",
+          "commission": "Hasta $3.50 por lado por lote",
           "leverage": "1:500"
         }
       }
@@ -248,7 +248,7 @@
         "instruments": "Instrumentos",
         "minimumLotSize": "Tamaño mínimo de lote",
         "maximumLotSize": "Tamaño máximo de lote",
-        "marginCall": "Margin call",
+        "marginCall": "Llamada de margen",
         "stopOut": "Stop out",
         "orderExecution": "Ejecución de órdenes",
         "swapFree": "Sin swap"
@@ -300,7 +300,7 @@
     "tradingNameValue": "WINPROFX",
     "primaryWebsite": "Sitio web principal:",
     "regulation": "Regulación:",
-    "regulationValue": "Financial Services Commission of the Republic of Mauritius (Investment Dealer license)",
+    "regulationValue": "Financial Services Commission of the Republic of Mauritius (licencia de Investment Dealer)",
     "support": "Soporte:",
     "standardTitle": "El estándar WINPROFX",
     "standardDes": "Una base construida sobre transparencia, innovación y ejecución sin concesiones.",
@@ -349,23 +349,23 @@
     ]
   },
   "about": {
-    "meta": "Official Information",
-    "h1": "About WINPROFX",
+    "meta": "Información oficial",
+    "h1": "Acerca de WINPROFX",
     "sections": {
-      "whatIsWinprofx": "What is WINPROFX?",
-      "servicesProvided": "Services Provided",
+      "whatIsWinprofx": "¿Qué es WINPROFX?",
+      "servicesProvided": "Servicios ofrecidos",
       "officialDomains": "Dominios oficiales",
-      "clientPartnerLogin": "Client and Partner Login",
+      "clientPartnerLogin": "Inicio de sesión de clientes y socios",
       "riskWarning": "Advertencia sobre riesgos",
       "contact": "Contacto"
     },
-    "whatIsBody": "WINPROFX is a forex and CFD trading brand offering access to trading platforms, client account services, partner program tools, and trading-related support services through its official domains and portals.",
+    "whatIsBody": "WINPROFX es una marca de trading de forex y CFD que ofrece acceso a plataformas de trading, servicios de cuentas de clientes, herramientas del programa de socios y servicios de soporte relacionados con el trading a través de sus dominios y portales oficiales.",
     "services": {
-      "forexCfd": "Forex and CFD trading access",
-      "platformTools": "Trading platform information and tools",
-      "clientPortal": "Client account management through the official client portal",
-      "partnerProgram": "Partner and introducing broker program tools",
-      "support": "Trading-related customer support services"
+      "forexCfd": "Acceso a trading de Forex y CFD",
+      "platformTools": "Información y herramientas de la plataforma de trading",
+      "clientPortal": "Gestión de cuentas de clientes a través del portal oficial",
+      "partnerProgram": "Herramientas del programa de socios e introducing broker",
+      "support": "Servicios de atención al cliente relacionados con el trading"
     }
   },
   "contact": {
@@ -484,158 +484,158 @@
   },
   "promotionUi": {
     "howItWorks": {
-      "subTitle": "How It Works",
-      "title": "Four Steps to Your Prize",
-      "des": "Getting started is simple. Complete these steps and you're on your way to winning exclusive Apple rewards.",
+      "subTitle": "Cómo funciona",
+      "title": "Cuatro pasos hacia tu premio",
+      "des": "Empezar es sencillo. Completa estos pasos y estarás en camino de ganar recompensas exclusivas de Apple.",
       "steps": {
         "register": {
           "title": "Caja registradora",
-          "desc": "Open a live account with WINPROFX. New clients can opt in from their very first deposit."
+          "desc": "Abre una cuenta real con WINPROFX. Los nuevos clientes pueden participar desde su primer depósito."
         },
         "optIn": {
-          "title": "Opt In",
-          "desc": "Choose the Trade to Win program and select your target reward tier before you start trading."
+          "title": "Participar",
+          "desc": "Elige el programa Trade to Win y selecciona tu nivel de recompensa objetivo antes de empezar a operar."
         },
         "trade": {
-          "title": "Trade",
-          "desc": "Trade eligible instruments — hold each trade for at least 3 minutes for it to count as a qualifying lot."
+          "title": "Opera",
+          "desc": "Opera instrumentos elegibles: mantén cada operación abierta al menos 3 minutos para que cuente como lote válido."
         },
         "win": {
-          "title": "Win Your Prize",
-          "desc": "Reach your target lot volume within 30 days and claim your exclusive reward."
+          "title": "Gana tu premio",
+          "desc": "Alcanza tu volumen objetivo de lotes en 30 días y reclama tu recompensa exclusiva."
         }
       }
     },
     "programPeriod": {
-      "subTitle": "Program Period",
-      "title": "When Does the Program Run?",
+      "subTitle": "Período del programa",
+      "title": "¿Cuándo se desarrolla el programa?",
       "items": {
         "activeDates": {
-          "title": "Active Dates",
-          "desc": "The program runs from March 1, 2025 through May 31, 2026. Join at any point during this window."
+          "title": "Fechas activas",
+          "desc": "El programa se desarrolla del 1 de marzo de 2025 al 31 de mayo de 2026. Únete en cualquier momento durante este período."
         },
         "tradingTimeline": {
-          "title": "Trading Timeline",
-          "desc": "Once you opt in, you have 30 days from your start date to reach your chosen target volume and claim your reward."
+          "title": "Plazo de trading",
+          "desc": "Una vez que te inscribas, tienes 30 días desde tu fecha de inicio para alcanzar el volumen objetivo elegido y reclamar tu recompensa."
         },
         "optInDeadline": {
-          "title": "Opt-In Deadline",
-          "desc": "New clients can opt in starting from their very first deposit. Don't wait — every day counts toward your 30-day window."
+          "title": "Fecha límite de inscripción",
+          "desc": "Los nuevos clientes pueden participar desde su primer depósito. No esperes: cada día cuenta para tu ventana de 30 días."
         }
       }
     },
     "eligibility": {
-      "subTitle": "Eligibility",
-      "title": "Who Can Participate?",
-      "des": "Review the eligibility requirements before joining the Trade to Win program.",
+      "subTitle": "Elegibilidad",
+      "title": "¿Quién puede participar?",
+      "des": "Revisa los requisitos de elegibilidad antes de unirte al programa Trade to Win.",
       "items": {
         "whoCanJoin": {
-          "title": "Who Can Join",
-          "desc": "Exclusively for retail clients. Introducing Brokers (IBs) are excluded and cannot participate in this campaign."
+          "title": "Quién puede unirse",
+          "desc": "Exclusivo para clientes minoristas. Los Introducing Brokers (IBs) están excluidos y no pueden participar en esta campaña."
         },
         "singleEntry": {
-          "title": "Single Entry",
-          "desc": "Each participant can only join one program activity at a time. Choose your tier wisely before opting in."
+          "title": "Participación única",
+          "desc": "Cada participante solo puede unirse a una actividad del programa a la vez. Elige tu nivel con cuidado antes de inscribirte."
         },
         "withdrawals": {
-          "title": "Withdrawals Allowed",
-          "desc": "Withdrawals are permitted throughout the campaign and will not disqualify you from the program."
+          "title": "Retiros permitidos",
+          "desc": "Los retiros están permitidos durante toda la campaña y no te descalificarán del programa."
         },
         "tradeDuration": {
-          "title": "Trade Duration",
-          "desc": "Eligible trades must be held open for at least 3min to count as a qualifying lot toward your target."
+          "title": "Duración de la operación",
+          "desc": "Las operaciones elegibles deben permanecer abiertas al menos 3 min para contar como lote válido hacia tu objetivo."
         },
         "excludedInstruments": {
-          "title": "Excluded Instruments",
-          "desc": "Stocks and cryptocurrency pairs are not eligible for this promotion. All other supported instruments qualify."
+          "title": "Instrumentos excluidos",
+          "desc": "Las acciones y los pares de criptomonedas no son elegibles para esta promoción. Todos los demás instrumentos compatibles sí califican."
         },
         "accountType": {
-          "title": "Account Type",
-          "desc": "Only self-directed individual accounts can participate. Managed accounts or accounts referred by IBs are not eligible."
+          "title": "Tipo de cuenta",
+          "desc": "Solo pueden participar cuentas individuales autogestionadas. Las cuentas gestionadas o referidas por IBs no son elegibles."
         }
       }
     },
     "startTrading": {
       "subTitle": "Comencemos",
-      "title": "Start Trading with WINPROFX!",
-      "des": "Every lot you trade brings you closer to an exclusive prize. Open your live account today and opt in to the Trade to Win program.",
+      "title": "¡Empieza a operar con WINPROFX!",
+      "des": "Cada lote que operas te acerca a un premio exclusivo. Abre tu cuenta real hoy e inscríbete en el programa Trade to Win.",
       "steps": {
         "register": {
           "title": "Caja registradora",
-          "desc": "Create your live account"
+          "desc": "Crea tu cuenta real"
         },
         "fund": {
-          "title": "Fund",
-          "desc": "Make your first deposit"
+          "title": "Fondear",
+          "desc": "Realiza tu primer depósito"
         },
         "trade": {
-          "title": "Trade",
-          "desc": "Hit your lot volume target"
+          "title": "Opera",
+          "desc": "Alcanza tu meta de volumen en lotes"
         },
         "claim": {
-          "title": "Claim Reward",
-          "desc": "Receive your exclusive prize"
+          "title": "Reclamar recompensa",
+          "desc": "Recibe tu premio exclusivo"
         }
       },
-      "questionsPrefix": "Questions? Call us at",
-      "questionsSuffix": "or visit"
+      "questionsPrefix": "¿Preguntas? Llámanos al",
+      "questionsSuffix": "o visita"
     },
     "ptConditions": {
-      "subTitle": "Important Terms",
-      "title": "Program Terms & Conditions",
-      "des": "Please read these terms carefully before participating in the Trade to Win program.",
+      "subTitle": "Términos importantes",
+      "title": "Términos y condiciones del programa",
+      "des": "Lee estos términos con atención antes de participar en el programa Trade to Win.",
       "items": {
         "fairPlay": {
-          "title": "Fair Play",
-          "desc": "Any signs of market abuse such as latency arbitrage or manipulative trading techniques will result in immediate disqualification from the program."
+          "title": "Juego limpio",
+          "desc": "Cualquier indicio de abuso de mercado, como arbitraje de latencia o técnicas de trading manipulativas, resultará en la descalificación inmediata del programa."
         },
         "dispute": {
-          "title": "Dispute Resolution",
-          "desc": "Any issues not directly addressed in these terms will be handled by management in a fair and binding manner. Management's decision is final."
+          "title": "Resolución de disputas",
+          "desc": "Cualquier asunto no contemplado directamente en estos términos será gestionado por la dirección de forma justa y vinculante. La decisión de la dirección es definitiva."
         },
         "liability": {
-          "title": "Liability Disclaimer",
-          "desc": "WINPROFX will not be held responsible for any trading losses incurred. This program does not alter participants' risk profiles or investment strategies."
+          "title": "Exención de responsabilidad",
+          "desc": "WINPROFX no se responsabilizará de ninguna pérdida de trading. Este programa no modifica el perfil de riesgo ni las estrategias de inversión de los participantes."
         },
         "general": {
-          "title": "General Terms",
-          "desc": "WINPROFX reserves the right to amend or terminate this program at any time. All existing terms and conditions of WINPROFX apply in addition to these program-specific conditions."
+          "title": "Términos generales",
+          "desc": "WINPROFX se reserva el derecho de modificar o cancelar este programa en cualquier momento. Todos los términos y condiciones existentes de WINPROFX se aplican además de estas condiciones específicas del programa."
         }
       },
-      "riskWarning": "Trading forex and leveraged products involves significant risk and is not suitable for all investors. Trading may result in losses exceeding your initial investment. Ensure you fully understand the risks involved.",
-      "readFullRiskDisclosure": "Read Full Risk Disclosure →"
+      "riskWarning": "El trading de forex y productos apalancados implica un riesgo significativo y no es adecuado para todos los inversores. El trading puede generar pérdidas superiores a tu inversión inicial. Asegúrate de comprender plenamente los riesgos involucrados.",
+      "readFullRiskDisclosure": "Leer la divulgación completa de riesgos →"
     },
     "rewardTiers": {
-      "volumeLabel": "Lots",
+      "volumeLabel": "Lotes",
       "items": {
         "tier1": {
           "prize": "Power Bank",
-          "desc": "Stay powered wherever you trade"
+          "desc": "Mantente con energía dondequiera que operes"
         },
         "tier2": {
           "prize": "Apple Airpods",
-          "desc": "Pro-level performance in your hands"
+          "desc": "Rendimiento de nivel profesional en tus manos"
         },
         "tier3": {
           "prize": "Apple Watch",
-          "desc": "The ultimate prize for top traders"
+          "desc": "El premio definitivo para los mejores traders"
         },
         "tier4": {
           "prize": "iPAD",
-          "desc": "Trade smarter on a bigger screen"
+          "desc": "Opera con más inteligencia en una pantalla más grande"
         },
         "tier5": {
           "prize": "iPAD Pro",
-          "desc": "Trade smarter on a pro-level bigger screen"
+          "desc": "Opera con más inteligencia en una pantalla profesional más grande"
         },
         "tier6": {
-          "prize": "LATEST IPHONE",
-          "desc": "The ultimate device for elite traders"
+          "prize": "ÚLTIMO IPHONE",
+          "desc": "El dispositivo definitivo para traders de élite"
         }
       },
-      "tradingVolumeLabel": "Trading Volume",
-      "noteLabel": "Note:",
-      "note": "Achieve your target volume within 30 days from opt-in date. Stocks & crypto pairs excluded."
+      "tradingVolumeLabel": "Volumen de trading",
+      "noteLabel": "Nota:",
+      "note": "Alcanza tu volumen objetivo en 30 días desde la fecha de inscripción. Acciones y pares de cripto excluidos."
     }
   }
 }

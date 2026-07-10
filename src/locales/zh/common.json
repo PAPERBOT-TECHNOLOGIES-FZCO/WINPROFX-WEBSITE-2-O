@@ -35,21 +35,21 @@
     "googlePlay": "Google Play"
   },
   "errors": {
-    "title": "Page Not Found",
-    "seoTitle": "Page Not Found | WINPROFX",
-    "backHome": "Back to Home"
+    "title": "页面未找到",
+    "seoTitle": "页面未找到 | WINPROFX",
+    "backHome": "返回首页"
   },
   "download": {
-    "appStorePrefix": "Download on the",
-    "googlePlayPrefix": "GET IT ON",
-    "windowsPrefix": "Download for",
+    "appStorePrefix": "下载于",
+    "googlePlayPrefix": "获取应用",
+    "windowsPrefix": "下载适用于",
     "windowsLabel": "Windows",
-    "webTradingPrefix": "Open in",
+    "webTradingPrefix": "打开于",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Are You Ready to Start Trading",
-    "accountsDes": "Trade with an Award Winning broker!",
-    "openLiveAccount": "Open Live account"
+    "accountsTitle": "准备好开始交易了吗",
+    "accountsDes": "与屡获殊荣的经纪商一起交易！",
+    "openLiveAccount": "开立真实账户"
   }
 }

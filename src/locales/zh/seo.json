@@ -2,13 +2,13 @@
   "home": {
     "title": "WINPROFX 官方网站 | Forex 与 CFD 交易服务",
     "description": "WINPROFX 是 Forex 与 CFD 交易品牌，提供交易平台接入、客户账户服务、合作伙伴计划工具及交易相关支持服务。",
-    "keywords": "WINPROFX, forex trading, CFD trading, MetaTrader 5, official WINPROFX website, company verification, trust center",
+    "keywords": "WINPROFX, Forex 交易, CFD 交易, MetaTrader 5, WINPROFX 官方网站, 公司验证, 信任中心",
     "pageName": "WINPROFX 官方网站"
   },
   "forex": {
     "title": "Forex 交易 | WINPROFX",
     "description": "在 WINPROFX 了解 Forex 市场信息及交易相关服务，包括平台接入、账户选项及重要风险说明。",
-    "keywords": "Forex Trading Platform, Forex Market Solutions, Forex Trading Services, Forex Trading Tools, Online Forex Trading, Forex Trading Strategies, Forex Trading for Beginners, Advanced Forex Trading, WINPROFX Forex Services"
+    "keywords": "Forex 交易平台, Forex 市场解决方案, Forex 交易服务, Forex 交易工具, 在线 Forex 交易, Forex 交易策略, Forex 新手交易, 高级 Forex 交易, WINPROFX Forex 服务"
   },
   "indices": {
     "title": "指数交易 | WINPROFX",
@@ -31,15 +31,15 @@
     "description": "在 WINPROFX 探索原油与石油 CFD 交易，提供 MT5 平台接入、账户选项及重要风险披露。"
   },
   "winPromotion": {
-    "title": "Win Promotion | WINPROFX",
+    "title": "Win 促销活动 | WINPROFX",
     "description": "加入 WINPROFX 专属 Win Promotion。交易越多，奖励越多——专为活跃交易者设计的分级奖励计划。"
   },
   "tradeToWin": {
-    "title": "Trade to Win | WINPROFX",
+    "title": "Trade to Win 计划 | WINPROFX",
     "description": "在 30 天内达成指定交易量，解锁专属 Apple 奖励。Power Bank、AirPods、Apple Watch、iPad 及 iPhone 等您来赢取。"
   },
   "introducingBroker": {
-    "title": "Introducing Broker | WINPROFX",
+    "title": "Introducing Broker 计划 | WINPROFX",
     "description": "了解 WINPROFX 合作伙伴计划、Introducing Broker 工具、合作伙伴门户接入及相关支持服务。"
   },
   "platform": {
@@ -127,7 +127,7 @@
     "description": "查看 WINPROFX 监管与法律信息，包括 Saint Lucia 注册、Dubai Professional License、许可范围说明及风险警告。"
   },
   "dubaiProfessionalLicense": {
-    "title": "Dubai Professional License | WINPROFX",
+    "title": "迪拜专业许可证 | WINPROFX",
     "description": "查看 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE 的 Dubai Professional License 信息，包括许可证编号、业务活动、状态、签发日期、到期日期及验证说明。"
   },
   "uaeRepresentativeOffice": {

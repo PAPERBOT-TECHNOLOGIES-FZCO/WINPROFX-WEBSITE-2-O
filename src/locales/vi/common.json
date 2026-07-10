@@ -35,21 +35,21 @@
     "googlePlay": "Google Play"
   },
   "errors": {
-    "title": "Page Not Found",
-    "seoTitle": "Page Not Found | WINPROFX",
-    "backHome": "Back to Home"
+    "title": "Không tìm thấy trang",
+    "seoTitle": "Không tìm thấy trang | WINPROFX",
+    "backHome": "Về trang chủ"
   },
   "download": {
-    "appStorePrefix": "Download on the",
-    "googlePlayPrefix": "GET IT ON",
-    "windowsPrefix": "Download for",
+    "appStorePrefix": "Tải trên",
+    "googlePlayPrefix": "TẢI VỀ TRÊN",
+    "windowsPrefix": "Tải về cho",
     "windowsLabel": "Windows",
-    "webTradingPrefix": "Open in",
+    "webTradingPrefix": "Mở trên",
     "webTradingLabel": "WebTrading"
   },
   "cta": {
-    "accountsTitle": "Are You Ready to Start Trading",
-    "accountsDes": "Trade with an Award Winning broker!",
-    "openLiveAccount": "Open Live account"
+    "accountsTitle": "Bạn đã sẵn sàng bắt đầu giao dịch?",
+    "accountsDes": "Giao dịch với nhà môi giới từng đoạt giải thưởng!",
+    "openLiveAccount": "Mở tài khoản Live"
   }
 }

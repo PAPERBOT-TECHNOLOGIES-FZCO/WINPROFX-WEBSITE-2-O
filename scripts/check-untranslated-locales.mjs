@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 const LOCALES_DIR = join(process.cwd(), 'src', 'locales')
 const SOURCE = 'en'
-const TARGET_LOCALES = ['hi', 'id', 'vi', 'bn', 'ms']
+const TARGET_LOCALES = ['hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja', 'es', 'pt']
 const MIN_LENGTH = 4
 const SKIP_KEY_SUFFIXES = ['.path', '.slug']
 const SKIP_KEY_PREFIXES = ['articleLinks.', 'meta.lastReviewed', 'meta.lastUpdated']

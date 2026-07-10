@@ -35,12 +35,12 @@
     "description": "Participe na promoção exclusiva Win da WINPROFX. Negocie mais e obtenha mais recompensas com o nosso programa por níveis para traders ativos."
   },
   "tradeToWin": {
-    "title": "Trade to Win | WINPROFX",
-    "description": "Alcance volumes de trading específicos em 30 dias e desbloqueie recompensas exclusivas Apple: Power Bank, AirPods, Apple Watch, iPad e iPhone."
+    "title": "Programa Trade to Win | WINPROFX",
+    "description": "Alcance volumes de trading específicos em 30 dias e desbloqueie recompensas exclusivas da Apple: Power Bank, AirPods, Apple Watch, iPad e iPhone."
   },
   "introducingBroker": {
-    "title": "Introducing Broker | WINPROFX",
-    "description": "Conheça o programa de parceiros WINPROFX, ferramentas para introducing brokers, acesso ao portal de parceiros e serviços de apoio relacionados."
+    "title": "Programa Introducing Broker | WINPROFX",
+    "description": "Conheça o programa de parceiros da WINPROFX, ferramentas para introducing brokers, acesso ao portal de parceiros e serviços de suporte relacionados."
   },
   "platform": {
     "title": "Plataforma de trading MT5 | WINPROFX",
@@ -64,11 +64,11 @@
   },
   "analytics": {
     "title": "Analítica | WINPROFX",
-    "description": "Otimize o seu trading com as ferramentas analíticas WINPROFX. Use notícias em tempo real, calendários económicos e sinais essenciais da Trading Central."
+    "description": "Otimize o seu trading com as ferramentas analíticas WINPROFX. Use notícias em tempo real, calendários econômicos e sinais essenciais da Trading Central."
   },
   "economicCalendar": {
-    "title": "Calendário económico | WINPROFX",
-    "description": "Mantenha-se atualizado com o calendário económico WINPROFX. Acompanhe eventos-chave como anúncios de PIB e alterações de taxas de juro para melhorar a sua estratégia."
+    "title": "Calendário econômico | WINPROFX",
+    "description": "Mantenha-se atualizado com o calendário econômico WINPROFX. Acompanhe eventos-chave como anúncios de PIB e alterações de taxas de juro para melhorar a sua estratégia."
   },
   "currencyCalculator": {
     "title": "Calculadora de moedas | WINPROFX",
@@ -88,11 +88,11 @@
   },
   "amlPolicy": {
     "title": "Política AML | WINPROFX",
-    "description": "Leia a política AML WINPROFX sobre prevenção de branqueamento de capitais, verificação, conformidade regulatória e informação relacionada."
+    "description": "Leia a política AML WINPROFX sobre prevenção de lavagem de dinheiro, verificação, conformidade regulatória e informação relacionada."
   },
   "depositWithdraw": {
-    "title": "Política de depósitos e levantamentos | WINPROFX",
-    "description": "Conheça a política de depósitos e levantamentos WINPROFX para transações seguras. Consulte procedimentos e condições para gerir os seus fundos com eficiência."
+    "title": "Política de depósitos e saques | WINPROFX",
+    "description": "Conheça a política de depósitos e saques WINPROFX para transações seguras. Consulte procedimentos e condições para gerenciar os seus fundos com eficiência."
   },
   "restrictedCountries": {
     "title": "Países restritos | WINPROFX",
@@ -104,23 +104,23 @@
   },
   "riskWarning": {
     "title": "Aviso de risco | WINPROFX",
-    "description": "Aviso de risco importante para utilizadores que negociam forex, CFD e produtos financeiros relacionados através dos sites e portais WINPROFX."
+    "description": "Aviso de risco importante para usuários que negociam forex, CFD e produtos financeiros relacionados através dos sites e portais WINPROFX."
   },
   "contact": {
-    "title": "Contacto WINPROFX",
-    "description": "Contacte a WINPROFX através de canais oficiais de apoio e verifique o site oficial, portal de clientes, portal de parceiros e domínios regionais."
+    "title": "Contato WINPROFX",
+    "description": "Contate a WINPROFX através de canais oficiais de suporte e verifique o site oficial, portal de clientes, portal de parceiros e domínios regionais."
   },
   "companyProfile": {
     "title": "Perfil da empresa | WINPROFX",
-    "description": "Consulte o perfil oficial WINPROFX, incluindo domínios oficiais, portal de clientes, portal de parceiros, serviços de trading, contacto e aviso de risco."
+    "description": "Consulte o perfil oficial WINPROFX, incluindo domínios oficiais, portal de clientes, portal de parceiros, serviços de trading, contato e aviso de risco."
   },
   "companyRegistration": {
-    "title": "Registo da empresa | WINPROFX",
-    "description": "Consulte a informação de registo WINPROFX, incluindo dados de constituição da Winprofx Ltd., domínios oficiais, documentos legais e aviso de risco."
+    "title": "Registro da empresa | WINPROFX",
+    "description": "Consulte a informação de registro WINPROFX, incluindo dados de constituição da Winprofx Ltd., domínios oficiais, documentos legais e aviso de risco."
   },
   "legalEntityInformation": {
     "title": "Informação da entidade legal | WINPROFX",
-    "description": "Conheça a informação da entidade legal WINPROFX, incluindo dados de constituição da Winprofx Ltd., agente registado, sede social e domínios oficiais."
+    "description": "Conheça a informação da entidade legal WINPROFX, incluindo dados de constituição da Winprofx Ltd., agente registrado, sede social e domínios oficiais."
   },
   "regulatoryInformation": {
     "title": "Informação regulatória | WINPROFX",
@@ -135,8 +135,8 @@
     "description": "Conheça o escritório representativo WINPROFX nos EAU, a licença profissional de Dubai, o domínio oficial nos EAU e informação de verificação."
   },
   "withdrawalTransparency": {
-    "title": "Transparência em levantamentos | WINPROFX",
-    "description": "Conheça o processamento de levantamentos WINPROFX, requisitos de revisão, prazos previstos, processo de escalamento e informação de verificação de conta."
+    "title": "Transparência em saques | WINPROFX",
+    "description": "Conheça o processamento de saques WINPROFX, requisitos de revisão, prazos previstos, processo de escalamento e informação de verificação de conta."
   },
   "complaintsAndDisputeResolution": {
     "title": "Reclamações e resolução de disputas | WINPROFX",
@@ -148,7 +148,7 @@
   },
   "supportAndEscalation": {
     "title": "Apoio e escalamento | WINPROFX",
-    "description": "Encontre informação oficial de apoio e escalamento WINPROFX para consultas sobre conta, levantamentos, KYC, depósitos e parceiros."
+    "description": "Encontre informação oficial de suporte e escalamento WINPROFX para consultas sobre conta, saques, KYC, depósitos e parceiros."
   },
   "companyStatistics": {
     "title": "Estatísticas da empresa | WINPROFX",
@@ -160,15 +160,15 @@
   },
   "legalDocuments": {
     "title": "Documentos legais | WINPROFX",
-    "description": "Aceda a documentos legais WINPROFX, incluindo informação de constituição, detalhes da licença de Dubai, aviso de risco, termos, privacidade e páginas de confiança."
+    "description": "Acesse documentos legais WINPROFX, incluindo informação de constituição, detalhes da licença de Dubai, aviso de risco, termos, privacidade e páginas de confiança."
   },
   "verifyWinprofx": {
     "title": "Verificar WINPROFX",
-    "description": "Verifique os sites e portais oficiais WINPROFX antes de iniciar sessão, registar-se, depositar fundos ou partilhar informação pessoal."
+    "description": "Verifique os sites e portais oficiais WINPROFX antes de iniciar sessão, registrar-se, depositar fundos ou partilhar informação pessoal."
   },
   "trustCenter": {
     "title": "Centro de confiança WINPROFX | Informação oficial, legal e de verificação",
-    "description": "Verifique a informação oficial WINPROFX, dados da entidade legal, escritório representativo em Dubai, domínios oficiais, transparência em levantamentos, reclamações e divulgações de risco."
+    "description": "Verifique a informação oficial WINPROFX, dados da entidade legal, escritório representativo em Dubai, domínios oficiais, transparência em saques, reclamações e divulgações de risco."
   },
   "isWinprofxLegit": {
     "title": "A WINPROFX é legítima? | Guia oficial de verificação WINPROFX",
@@ -176,15 +176,15 @@
   },
   "winprofxReview": {
     "title": "Análise WINPROFX | Visão geral oficial da corretora e informação de verificação",
-    "description": "Leia uma visão geral oficial da WINPROFX, incluindo serviços de trading, informação da entidade legal, domínios oficiais, levantamentos, reclamações e aviso de risco."
+    "description": "Leia uma visão geral oficial da WINPROFX, incluindo serviços de trading, informação da entidade legal, domínios oficiais, saques, reclamações e aviso de risco."
   },
   "winprofxWithdrawalProcess": {
-    "title": "Processo de levantamento WINPROFX | Guia oficial",
-    "description": "Conheça o processo oficial de levantamento WINPROFX, requisitos KYC, prazos de processamento e passos de escalamento."
+    "title": "Processo de saque WINPROFX | Guia oficial",
+    "description": "Conheça o processo oficial de saque WINPROFX, requisitos KYC, prazos de processamento e passos de escalamento."
   },
   "winprofxLicenseVerification": {
     "title": "Verificação de licença WINPROFX | Informação oficial",
-    "description": "Verifique o registo da empresa WINPROFX, a licença profissional de Dubai e a informação oficial sobre o âmbito regulatório."
+    "description": "Verifique o registro da empresa WINPROFX, a licença profissional de Dubai e a informação oficial sobre o âmbito regulatório."
   },
   "winprofxComplaints": {
     "title": "Reclamações WINPROFX | Processo oficial de reclamações",
@@ -195,12 +195,12 @@
     "description": "Aprenda a identificar sites falsos WINPROFX, verificar domínios oficiais e proteger as credenciais da sua conta."
   },
   "winprofxOfficialLogin": {
-    "title": "Início de sessão oficial WINPROFX | Verifique antes de aceder",
+    "title": "Início de sessão oficial WINPROFX | Verifique antes de acessar",
     "description": "Use apenas domínios e portais oficiais WINPROFX antes de iniciar sessão. Verifique os URLs e proteja as credenciais da sua conta."
   },
   "winprofxDepositWithdrawalMethods": {
-    "title": "Métodos de depósito e levantamento WINPROFX | Informação oficial",
-    "description": "Consulte os métodos oficiais de depósito e levantamento WINPROFX, requisitos KYC, notas de processamento e orientação de segurança."
+    "title": "Métodos de depósito e saque WINPROFX | Informação oficial",
+    "description": "Consulte os métodos oficiais de depósito e saque WINPROFX, requisitos KYC, notas de processamento e orientação de segurança."
   },
   "learnIndex": {
     "title": "Centro de aprendizagem WINPROFX | Formação em Forex e CFD",
