@@ -11,8 +11,13 @@
     "restrictedRegions": "Regiões restritas"
   },
   "officialWebsite": {
+<<<<<<< HEAD
     "title": "Site oficial da WINPROFX",
     "description": "A WINPROFX é uma marca de trading de forex e CFD que oferece acesso à plataforma de trading, serviços de conta de cliente, ferramentas do programa de parceiros e suporte relacionado ao trading por meio de seus sites e portais oficiais."
+=======
+    "title": "WINPROFX",
+    "description": "WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services through its official websites and portals."
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
   },
   "domains": {
     "officialWebsite": "Site oficial",

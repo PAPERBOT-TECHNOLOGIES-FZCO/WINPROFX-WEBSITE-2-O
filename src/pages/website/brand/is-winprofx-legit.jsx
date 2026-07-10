@@ -1,20 +1,20 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
+import IdentitySection from '@/components/company-identity/identity-section'
 import LocalizedLink from '@/components/localized-link'
 import SeoHead from '@/components/seo-head'
 import TrustPageLayout from '@/components/trust/trust-page-layout'
-import IdentitySection from '@/components/company-identity/identity-section'
 import { useSeo } from '@/hooks/use-seo'
 import {
-  INCORPORATION_CLARIFICATION,
-  LEGAL_ENTITY_NAME,
-  LICENSE_SCOPE_CLARIFICATION,
-  JURISDICTION,
-  INCORPORATION_NUMBER,
-  DUBAI_LICENSE_ACTIVITY,
-  DUBAI_BUSINESS_NAME,
+    DUBAI_BUSINESS_NAME,
+    DUBAI_LICENSE_ACTIVITY,
+    INCORPORATION_CLARIFICATION,
+    INCORPORATION_NUMBER,
+    JURISDICTION,
+    LEGAL_ENTITY_NAME,
+    LICENSE_SCOPE_CLARIFICATION,
 } from '@/lib/company-registration'
-import { getBrandPageFaqs, TRUST_LAST_REVIEWED_ISO, TRUST_CENTER_PATH } from '@/lib/trust-pages'
+import { getBrandPageFaqs, TRUST_CENTER_PATH, TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const PAGE_KEY = 'isWinprofxLegit'
 
@@ -75,7 +75,7 @@ export default function IsWinprofxLegit() {
 
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.regulatoryClarification`)}>
           <p className="mb-4">{LICENSE_SCOPE_CLARIFICATION}</p>
-          <LocalizedLink to="/regulatory-information/" className="text-primary underline">WINPROFX regulatory information →</LocalizedLink>
+          <LocalizedLink to="/regulatory-information/" className="text-primary underline">WINPROFX Information →</LocalizedLink>
         </IdentitySection>
 
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.officialDomainsVerification`)}>

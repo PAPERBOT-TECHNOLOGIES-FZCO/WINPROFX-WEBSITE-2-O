@@ -843,7 +843,11 @@
         "title": null,
         "des": [
           {
+<<<<<<< HEAD
             "name": "WINPROFX Winprofx Ltd. से संबद्ध है। ग्राहकों को वर्तमान कंपनी और अनुपालन विवरण के लिए नियामक जानकारी पृष्ठ की समीक्षा करनी चाहिए।"
+=======
+            "name": "WINPROFX is associated with Winprofx Ltd. Clients should review the Information page for current company and compliance details."
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
           }
         ]
       },

@@ -1,23 +1,23 @@
+import IdentitySection from '@/components/company-identity/identity-section'
+import LicenseClarification from '@/components/company-identity/license-clarification'
+import SeoHead from '@/components/seo-head'
+import TrustPageLayout from '@/components/trust/trust-page-layout'
+import { useSeo } from '@/hooks/use-seo'
+import {
+    DUBAI_LICENSE_ACTIVITY,
+    DUBAI_LICENSE_NUMBER,
+    FINANCIAL_LICENSE_PENDING,
+    INCORPORATION_NUMBER,
+    INCORPORATION_PDF_PATH,
+    INCORPORATION_PDF_TITLE,
+    JURISDICTION,
+    LEGAL_ENTITY_NAME,
+    LICENSE_SCOPE_CLARIFICATION,
+} from '@/lib/company-registration'
+import { TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import SeoHead from '@/components/seo-head'
-import { useSeo } from '@/hooks/use-seo'
-import TrustPageLayout from '@/components/trust/trust-page-layout'
-import IdentitySection from '@/components/company-identity/identity-section'
-import LicenseClarification from '@/components/company-identity/license-clarification'
-import {
-  LEGAL_ENTITY_NAME,
-  JURISDICTION,
-  INCORPORATION_NUMBER,
-  DUBAI_LICENSE_NUMBER,
-  DUBAI_LICENSE_ACTIVITY,
-  LICENSE_SCOPE_CLARIFICATION,
-  FINANCIAL_LICENSE_PENDING,
-  INCORPORATION_PDF_PATH,
-  INCORPORATION_PDF_TITLE,
-} from '@/lib/company-registration'
-import { getBrandPageFaqs, TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
 
 
 export default function WinprofxLicenseVerification() {
@@ -71,7 +71,7 @@ export default function WinprofxLicenseVerification() {
             <li>Marketing website content — not a substitute for regulator verification</li>
           </ul>
           <p className="mt-4 text-sm text-white/60">{FINANCIAL_LICENSE_PENDING}</p>
-          <Link to="/regulatory-information/" className="text-primary underline mt-3 inline-block">Regulatory Information →</Link>
+          <Link to="/regulatory-information/" className="text-primary underline mt-3 inline-block">Information →</Link>
         </IdentitySection>
 
         <IdentitySection title={t('pages.winprofxLicenseVerification.sections.verifyDocuments')}>
@@ -79,7 +79,7 @@ export default function WinprofxLicenseVerification() {
             <li>Confirm you are on winprofx.org or an official alternate domain</li>
             <li>Download incorporation documents from the Company Registration page</li>
             <li>Review Dubai license details on the Dubai Professional License page</li>
-            <li>Cross-check financial regulator information on the Regulatory Information page when published</li>
+            <li>Cross-check financial regulator information on the Information page when published</li>
             <li>Use the Verify WINPROFX checklist for domain and channel verification</li>
           </ol>
           <Link to="/verify-winprofx/" className="text-primary underline mt-3 inline-block">Verify WINPROFX →</Link>

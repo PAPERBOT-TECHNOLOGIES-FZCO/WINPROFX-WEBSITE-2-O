@@ -843,7 +843,11 @@
         "title": null,
         "des": [
           {
+<<<<<<< HEAD
             "name": "WINPROFX は Winprofx Ltd. と関連しています。お客様は、最新の会社およびコンプライアンス情報について、規制情報ページをご確認ください。"
+=======
+            "name": "WINPROFX is associated with Winprofx Ltd. Clients should review the Information page for current company and compliance details."
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
           }
         ]
       },

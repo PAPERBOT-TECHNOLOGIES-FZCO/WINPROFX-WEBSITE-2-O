@@ -60,7 +60,7 @@ export const DUBAI_SCOPE_CLARIFICATION =
   'This Dubai Professional License lists the activity as Representative Office. A representative office license is different from a financial services broker license. Any financial services, forex broker, or CFD broker regulatory authorization should be verified separately through official regulatory records.'
 
 export const INCORPORATION_CLARIFICATION =
-  'The incorporation document confirms the legal formation of Winprofx Ltd. as an International Business Company in Saint Lucia. Company incorporation is different from a financial services license, forex broker license, CFD broker license, or regulatory authorization. Any regulatory or financial services license information, if applicable, should be verified separately through the Regulatory Information page and official regulator references.'
+  'The incorporation document confirms the legal formation of Winprofx Ltd. as an International Business Company in Saint Lucia. Company incorporation is different from a financial services license, forex broker license, CFD broker license, or regulatory authorization. Any regulatory or financial services license information, if applicable, should be verified separately through the Information page and official regulator references.'
 
 export const FINANCIAL_LICENSE_CLARIFICATION =
   'The incorporation of Winprofx Ltd. confirms the legal formation of the company. It does not by itself constitute a financial services license, forex broker license, CFD broker license, or regulatory authorization. If financial regulatory license information is applicable, it must be verified through official regulator records and will be published on this page with regulator name, license number, license type, jurisdiction, permitted activities, and verification link.'
@@ -247,7 +247,7 @@ export const companyLicenseLinks = [
   { path: '/legal-entity-information/', label: 'Legal Entity Information' },
   { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
   { path: '/uae-representative-office/', label: 'UAE Representative Office' },
-  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/regulatory-information/', label: 'Information' },
   { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/legal-documents/', label: 'Legal Documents' },
@@ -393,7 +393,7 @@ export const verifyTrustPageLinks = [
   { path: '/legal-entity-information/', label: 'Legal Entity Information' },
   { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
   { path: '/uae-representative-office/', label: 'UAE Representative Office' },
-  { path: '/regulatory-information/', label: 'Regulatory Information' },
+  { path: '/regulatory-information/', label: 'Information' },
   { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
   { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
   { path: '/support-and-escalation/', label: 'Support and Escalation' },
@@ -420,8 +420,8 @@ export const footerTrustLegalLinks = [
   { path: '/company-profile/', label: 'Company Profile' },
   { path: '/company-registration/', label: 'Company Registration' },
   { path: '/legal-entity-information/', label: 'Legal Entity Information' },
-  { path: '/regulatory-information/', label: 'Regulatory Information' },
-  { path: '/official-domains/', label: 'Official Domains' },
+  { path: '/regulatory-information/', label: 'Information' },
+  // { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/risk-warning/', label: 'Risk Warning' },
   { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },

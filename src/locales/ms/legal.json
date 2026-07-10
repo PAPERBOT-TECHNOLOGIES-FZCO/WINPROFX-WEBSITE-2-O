@@ -843,7 +843,11 @@
         "title": null,
         "des": [
           {
+<<<<<<< HEAD
             "name": "WINPROFX dikaitkan dengan Winprofx Ltd. Pelanggan harus menyemak halaman Maklumat Kawal Selia untuk butiran syarikat dan pematuhan semasa."
+=======
+            "name": "WINPROFX is associated with Winprofx Ltd. Clients should review the Information page for current company and compliance details."
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
           }
         ]
       },

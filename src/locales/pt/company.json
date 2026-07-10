@@ -1,5 +1,6 @@
 {
   "footerTrustLegal": {
+<<<<<<< HEAD
     "trust-center": "Centro de confiança",
     "company-profile": "Perfil da empresa",
     "company-registration": "Registro da empresa",
@@ -16,11 +17,30 @@
     "dubai-professional-license": "Licença profissional de Dubai",
     "uae-representative-office": "Escritório representativo nos EAU",
     "legal-documents": "Documentos legais"
+=======
+    "trust-center": "Trust Center",
+    "company-profile": "Company Profile",
+    "company-registration": "Company Registration",
+    "legal-entity-information": "Legal Entity Information",
+    "regulatory-information": "Information",
+    "official-domains": "Official Domains",
+    "verify-winprofx": "Verify WINPROFX",
+    "risk-warning": "Risk Warning",
+    "withdrawal-transparency": "Withdrawal Transparency",
+    "complaints-and-dispute-resolution": "Complaints",
+    "client-fund-security": "Client Fund Security",
+    "support-and-escalation": "Support and Escalation",
+    "company-statistics": "Company Statistics",
+    "dubai-professional-license": "Dubai Professional License",
+    "uae-representative-office": "UAE Representative Office",
+    "legal-documents": "Legal Documents"
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
   },
   "brandName": "WINPROFX",
   "legalEntityName": "Winprofx Ltd.",
   "companyType": "Sociedade Comercial Internacional",
   "jurisdiction": "Saint Lucia",
+<<<<<<< HEAD
   "riskWarningShort": "Negociar forex e CFDs envolve risco significativo e pode não ser adequado para todos os investidores. Os clientes devem compreender os riscos antes de negociar.",
   "riskWarningFull": "Negociar forex, CFDs e produtos financeiros relacionados envolve risco significativo e pode não ser adequado para todos os investidores. Você pode perder parte ou a totalidade do capital investido. O desempenho passado não é indicativo de resultados futuros. Os clientes devem compreender os riscos antes de negociar e buscar aconselhamento independente, se necessário.",
   "incorporationClarification": "O documento de incorporação confirma a formação legal da Winprofx Ltd. como Sociedade Comercial Internacional em Saint Lucia. A incorporação de uma empresa é diferente de uma licença de serviços financeiros, licença de corretora de forex, licença de corretora de CFD ou autorização regulatória. Qualquer informação de licença regulatória ou de serviços financeiros, se aplicável, deve ser verificada separadamente por meio da página de Informação regulatória e das referências oficiais do regulador.",
@@ -35,6 +55,22 @@
   "publicReviewResponsePolicy": "Quando uma reclamação é publicada publicamente, a WINPROFX pode solicitar os detalhes do ticket ou o endereço de e-mail registrado por meio dos canais oficiais de suporte para que o caso possa ser revisado com segurança.",
   "incorporationPdfTitle": "Documentos de incorporação certificados",
   "documentTypes": "Certificado de Incorporação, Memorando de Associação e Artigos de Associação",
+=======
+  "riskWarningShort": "Trading forex and CFDs involves significant risk and may not be suitable for all investors. Clients should understand the risks before trading.",
+  "riskWarningFull": "Trading forex, CFDs, and related financial products involves significant risk and may not be suitable for all investors. You may lose some or all of your invested capital. Past performance is not indicative of future results. Clients should understand the risks before trading and seek independent advice if necessary.",
+  "incorporationClarification": "The incorporation document confirms the legal formation of Winprofx Ltd. as an International Business Company in Saint Lucia. Company incorporation is different from a financial services license, forex broker license, CFD broker license, or regulatory authorization. Any regulatory or financial services license information, if applicable, should be verified separately through the Information page and official regulator references.",
+  "licenseScopeClarification": "The Saint Lucia incorporation document confirms the legal formation of Winprofx Ltd. The Dubai Professional License confirms the Dubai branch / representative office registration and activity as a Representative Office. These documents should not be confused with a financial services broker license, forex broker license, CFD broker license, or investment services authorization unless separate regulator-issued financial services license details are published and verified.",
+  "dubaiScopeClarification": "This Dubai Professional License lists the activity as Representative Office. A representative office license is different from a financial services broker license. Any financial services, forex broker, or CFD broker regulatory authorization should be verified separately through official regulatory records.",
+  "dubaiVerificationNote": "The Dubai license document states that it is a certified e-document issued without signature by the Department of Economy and Tourism and can be verified by scanning the QR code on the original document.",
+  "financialLicenseClarification": "The incorporation of Winprofx Ltd. confirms the legal formation of the company. It does not by itself constitute a financial services license, forex broker license, CFD broker license, or regulatory authorization. If financial regulatory license information is applicable, it must be verified through official regulator records and will be published on this page with regulator name, license number, license type, jurisdiction, permitted activities, and verification link.",
+  "financialLicensePending": "Financial regulatory license details are pending compliance verification and will be updated only after verification through official regulator records.",
+  "statsPlaceholder": "To be updated after operations verification.",
+  "opsPlaceholder": "To be updated by operations/compliance team.",
+  "accountSpecificPrivacyNote": "For security and privacy reasons, WINPROFX cannot discuss account-specific details publicly on review platforms or social media.",
+  "publicReviewResponsePolicy": "When a complaint is posted publicly, WINPROFX may request ticket details or the registered email address through official support channels so the case can be reviewed securely.",
+  "incorporationPdfTitle": "Certified Incorporation Documents",
+  "documentTypes": "Certificate of Incorporation, Memorandum of Association, and Articles of Association",
+>>>>>>> 513e61962bfb23450b3714f62704107def7b8822
   "registeredAgent": "Fortgate Offshore Investment and Legal Services Ltd.",
   "registeredOffice": "Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia",
   "incorporationSubscriber": "Fortgate Offshore Investment and Legal Services Ltd.",
