@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { y, duration, once } from "@/utilities/animation";
 import payment1 from "@/assets/img/mt5/payment/1.png";
 import payment2 from "@/assets/img/mt5/payment/2.png";
@@ -20,6 +21,7 @@ import blur7 from "@/assets/img/mt5/payment/blur-7.png";
 import blur8 from "@/assets/img/mt5/payment/blur-8.png";
 
 export default function PaymentFlow() {
+  const { t } = useTranslation("homepage");
   const [radius, setRadius] = useState(396);
   const containerRef = useRef(null);
 
@@ -142,13 +144,11 @@ export default function PaymentFlow() {
           <motion.div className="absolute inset-0 flex flex-col items-center justify-center z-2">
             <div className="text-center px-6 max-w-2xl">
               <h3 className="text-lg lg:text-2xl xl:text-[38px]">
-                Effortless Fund Flow: Swift Deposits and Seamless Withdrawals
+                {t("news.paymentFlow.title")}
               </h3>
 
               <p className="mt-4 text-xs md:text-sm lg:text-base leading-normal">
-                Experience financial fluidity with our hassle-free deposit and
-                withdrawal processes, ensuring your transactions are both quick
-                and convenient.
+                {t("news.paymentFlow.description")}
               </p>
             </div>
           </motion.div>
