@@ -247,8 +247,8 @@ export const companyLicenseLinks = [
   { path: '/legal-entity-information/', label: 'Legal Entity Information' },
   { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
   { path: '/uae-representative-office/', label: 'UAE Representative Office' },
-  { path: '/regulatory-information/', label: 'Information' },
-  { path: '/official-domains/', label: 'Official Domains' },
+  // { path: '/regulatory-information/', label: 'Information' },
+  // { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/legal-documents/', label: 'Legal Documents' },
 ]
@@ -389,17 +389,17 @@ export const financialLicensePlaceholderRows = [
 ]
 
 export const verifyTrustPageLinks = [
-  { path: '/company-registration/', label: 'Company Registration' },
-  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
-  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
-  { path: '/regulatory-information/', label: 'Information' },
+  // { path: '/company-registration/', label: 'Company Registration' },
+  // { path: '/legal-entity-information/', label: 'Legal Entity Information' },
+  // { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  // { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  // { path: '/regulatory-information/', label: 'Information' },
   { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
   { path: '/complaints-and-dispute-resolution/', label: 'Complaints and Dispute Resolution' },
   { path: '/support-and-escalation/', label: 'Support and Escalation' },
   { path: '/client-fund-security/', label: 'Client Fund Security' },
   { path: '/risk-warning/', label: 'Risk Warning' },
-  { path: '/official-domains/', label: 'Official Domains' },
+  // { path: '/official-domains/', label: 'Official Domains' },
 ]
 
 export const companyStatisticsItems = [
@@ -416,13 +416,13 @@ export const companyStatisticsItems = [
 ]
 
 export const footerTrustLegalLinks = [
-  { path: '/trust-center/', label: 'Trust Center' },
+  // { path: '/trust-center/', label: 'Trust Center' },
   // { path: '/company-profile/', label: 'Company Profile' },
   // { path: '/company-registration/', label: 'Company Registration' },
   // { path: '/legal-entity-information/', label: 'Legal Entity Information' },
   // { path: '/regulatory-information/', label: 'Information' },
   // { path: '/official-domains/', label: 'Official Domains' },
-  { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
+  // { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/risk-warning/', label: 'Risk Warning' },
   { path: '/withdrawal-transparency/', label: 'Withdrawal Transparency' },
   { path: '/complaints-and-dispute-resolution/', label: 'Complaints' },

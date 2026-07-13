@@ -87,7 +87,7 @@ export default function ClientFundSecurity() {
                     <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
                   ),
                   officialDomainsLink: (
-                    <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary" />
+                    <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
                   ),
                 }}
               />

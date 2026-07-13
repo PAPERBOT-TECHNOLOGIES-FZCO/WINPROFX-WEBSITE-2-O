@@ -79,7 +79,7 @@ export default function WinprofxOfficialLogin() {
           <p className="mb-4">
             Confirm the domain matches an official WINPROFX portal before entering credentials.
           </p>
-          <Link to="/official-domains/" className="text-primary underline">Official Domains</Link>
+          <Link to="/verify-winprofx/" className="text-primary underline">Verify WINPROFX</Link>
           {' · '}
           <Link to="/verify-winprofx/" className="text-primary underline">Verify WINPROFX</Link>
           {' · '}

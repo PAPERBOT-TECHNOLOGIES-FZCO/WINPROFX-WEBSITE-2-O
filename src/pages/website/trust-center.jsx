@@ -67,7 +67,7 @@ export default function TrustCenter() {
             </LocalizedLink>
           </div>
 
-          <IdentitySection title={t('trustCenter.sections.companyLegal')}>
+          {/* <IdentitySection title={t('trustCenter.sections.companyLegal')}>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {trustPages
                 .filter((p) => p.category === 'company' || p.category === 'legal')
@@ -75,7 +75,7 @@ export default function TrustCenter() {
                   <TrustCenterCard key={page.path} {...page} />
                 ))}
             </div>
-          </IdentitySection>
+          </IdentitySection> */}
 
           <IdentitySection title={t('trustCenter.sections.verification')}>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

@@ -42,9 +42,9 @@ export default function Footer() {
         { nameKey: 'links.platform', path: '/platform/' },
         { nameKey: 'links.aboutUs', path: '/about-us/' },
         { nameKey: 'links.about', path: '/about/' },
-        { nameKey: 'links.companyProfile', path: '/company-profile/' },
+        // { nameKey: 'links.companyProfile', path: '/company-profile/' },
         { nameKey: 'links.contact', path: '/contact/' },
-        { nameKey: 'links.officialDomains', path: '/official-domains/' },
+        // { nameKey: 'links.officialDomains', path: '/official-domains/' },
       ],
     },
     {
@@ -67,7 +67,7 @@ export default function Footer() {
     { nameKey: 'links.depositWithdrawPolicy', path: '/deposit-withdraw/' },
     { nameKey: 'links.restrictedCountries', path: '/restricted-countries/' },
     { nameKey: 'links.riskWarning', path: '/risk-warning/' },
-    { nameKey: 'links.legalDocuments', path: '/legal-documents/' },
+    // { nameKey: 'links.legalDocuments', path: '/legal-documents/' },
     { nameKey: 'links.riskDisclosure', path: '/risk-disclosure/' },
   ]
 

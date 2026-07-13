@@ -63,7 +63,7 @@ export default function IsWinprofxLegit() {
           <LocalizedLink to="/company-registration/" className="text-primary underline">View company registration →</LocalizedLink>
         </IdentitySection>
 
-        <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiRepresentativeOffice`)}>
+        {/* <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiRepresentativeOffice`)}>
           <p className="mb-4">
             WINPROFX operates a UAE representative office under a Dubai Professional License. The licensed
             activity is {DUBAI_LICENSE_ACTIVITY} for {DUBAI_BUSINESS_NAME}.
@@ -71,11 +71,11 @@ export default function IsWinprofxLegit() {
           <LocalizedLink to="/uae-representative-office/" className="text-primary underline">UAE Representative Office</LocalizedLink>
           {' · '}
           <LocalizedLink to="/dubai-professional-license/" className="text-primary underline">Dubai Professional License</LocalizedLink>
-        </IdentitySection>
+        </IdentitySection> */}
 
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.regulatoryClarification`)}>
           <p className="mb-4">{LICENSE_SCOPE_CLARIFICATION}</p>
-          <LocalizedLink to="/regulatory-information/" className="text-primary underline">WINPROFX Information →</LocalizedLink>
+          <LocalizedLink to="/verify-winprofx/" className="text-primary underline">WINPROFX Verify →</LocalizedLink>
         </IdentitySection>
 
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.officialDomainsVerification`)}>
@@ -83,8 +83,8 @@ export default function IsWinprofxLegit() {
             Always verify you are on an official WINPROFX domain before logging in, depositing, or
             sharing documents. The main website is winprofx.org; client login is at my.winprofx.org.
           </p>
-          <LocalizedLink to="/official-domains/" className="text-primary underline">Official domains</LocalizedLink>
-          {' · '}
+          {/* <LocalizedLink to="/official-domains/" className="text-primary underline">Official domains</LocalizedLink>
+          {' · '} */}
           <LocalizedLink to="/verify-winprofx/" className="text-primary underline">Verify WINPROFX</LocalizedLink>
           {' · '}
           <LocalizedLink to="/winprofx-fake-website-warning/" className="text-primary underline">Fake website warning</LocalizedLink>

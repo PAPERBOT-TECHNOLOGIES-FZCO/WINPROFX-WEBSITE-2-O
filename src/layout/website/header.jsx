@@ -60,7 +60,7 @@ export default function Header() {
       to: '',
       children: [
         { btn_title: t('aboutWinprofx'), to: '/about-us' },
-        { btn_title: t('trustCenter'), to: '/trust-center' },
+        // { btn_title: t('trustCenter'), to: '/trust-center' },
         // { btn_title: t('companyProfile'), to: '/company-profile' },
       ],
     },

@@ -16,7 +16,7 @@ import {
 import { PRERENDER_ROUTES, stripLocalePrefixFromPath } from './prerender-routes.mjs'
 
 /** Locked for Priority 2 — fail build if English sitemap grows/shrinks unexpectedly. */
-export const EXPECTED_SITEMAP_COUNT = 53
+export const EXPECTED_SITEMAP_COUNT = 51
 
 const AUTH_ROUTE_PREFIXES = [
   '/login',
@@ -208,12 +208,12 @@ export function validatePrerenderedHtmlSamples(distDir) {
       allowedHreflang: ['en', 'x-default'],
       robotsMustInclude: 'index',
     },
-    {
-      path: '/trust-center',
-      canonical: 'https://winprofx.org/trust-center/',
-      allowedHreflang: ['en', 'x-default'],
-      robotsMustInclude: 'index',
-    },
+    // {
+    //   path: '/trust-center',
+    //   canonical: 'https://winprofx.org/trust-center/',
+    //   allowedHreflang: ['en', 'x-default'],
+    //   robotsMustInclude: 'index',
+    // },
     {
       path: '/learn/what-is-forex-trading',
       canonical: 'https://winprofx.org/learn/what-is-forex-trading/',

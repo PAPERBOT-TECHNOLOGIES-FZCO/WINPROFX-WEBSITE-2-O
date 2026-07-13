@@ -50,17 +50,17 @@ export default function VerifyWINPROFX() {
             <p>{t(`pages.${PAGE_KEY}.content.intro`)}</p>
           </IdentitySection>
 
-          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.userVerificationChecklist`)}>
+          {/* <IdentitySection title={t(`pages.${PAGE_KEY}.sections.userVerificationChecklist`)}>
             <ol className="list-decimal pl-5 flex flex-col gap-3 text-para">
               {checklist.map((step) => (
                 <li key={step}>{step}</li>
               ))}
             </ol>
-          </IdentitySection>
+          </IdentitySection> */}
 
-          <IdentitySection title={t(`pages.${PAGE_KEY}.sections.verificationSummary`)}>
+          {/* <IdentitySection title={t(`pages.${PAGE_KEY}.sections.verificationSummary`)}>
             <RegistrationTable rows={verifySummaryRows} />
-          </IdentitySection>
+          </IdentitySection> */}
 
           <IdentitySection title={t(`pages.${PAGE_KEY}.sections.verifyOfficialDomains`)}>
             <div className="overflow-x-auto -mx-1 px-1">
@@ -111,11 +111,11 @@ export default function VerifyWINPROFX() {
                   </li>
                 )
               })}
-              <li>
+              {/* <li>
                 <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary">
                   {t('pages.legalDocuments.label')}
                 </LocalizedLink>
-              </li>
+              </li> */}
             </ul>
           </IdentitySection>
 

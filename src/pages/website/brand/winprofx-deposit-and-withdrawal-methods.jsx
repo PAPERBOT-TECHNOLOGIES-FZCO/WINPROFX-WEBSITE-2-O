@@ -72,7 +72,7 @@ export default function WinprofxDepositWithdrawalMethods() {
           </p>
           <Link to="/client-fund-security/" className="text-primary underline">Client Fund Security</Link>
           {' · '}
-          <Link to="/official-domains/" className="text-primary underline">Official Domains</Link>
+          <Link to="/verify-winprofx/" className="text-primary underline">Verify WINPROFX</Link>
         </IdentitySection>
 
         <IdentitySection title={t('pages.winprofxDepositWithdrawalMethods.sections.commonIssues')}>

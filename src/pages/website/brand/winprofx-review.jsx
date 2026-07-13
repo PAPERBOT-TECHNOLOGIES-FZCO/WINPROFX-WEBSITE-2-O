@@ -67,7 +67,7 @@ export default function WinprofxReview() {
           {' · '}
           <Link to="/company-profile/" className="text-primary underline">Company Profile</Link>
           {' · '}
-          <Link to="/regulatory-information/" className="text-primary underline">Information</Link>
+          <Link to="/verify-winprofx/" className="text-primary underline">Verify WINPROFX</Link>
         </IdentitySection>
 
         <IdentitySection title={t('pages.winprofxReview.sections.withdrawalsAndComplaints')}>

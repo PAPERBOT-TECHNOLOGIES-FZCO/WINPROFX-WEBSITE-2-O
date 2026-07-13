@@ -48,7 +48,7 @@ export default function WinprofxFakeWebsiteWarning() {
               </li>
             ))}
           </ul>
-          <Link to="/official-domains/" className="text-primary underline mt-4 inline-block">Full official domains page →</Link>
+          <Link to="/verify-winprofx/" className="text-primary underline mt-4 inline-block">Verify WINPROFX →</Link>
         </IdentitySection>
 
         <IdentitySection title={t('pages.winprofxFakeWebsiteWarning.sections.warningSigns')}>

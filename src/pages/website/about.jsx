@@ -65,16 +65,16 @@ export default function About() {
                 — Official alternate / marketing domain
               </li>
               <li>
-                <a href="https://winprofx.ae/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
+                {/* <a href="https://winprofx.ae/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
                   winprofx.ae
                 </a>{' '}
-                — Official UAE/regional domain
+                — Official UAE/regional domain */}
               </li>
             </ul>
             <p className="mt-4">
               View the complete verified list on our{' '}
-              <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary">
-                Official Domains
+              <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary">
+                Verify WINPROFX
               </LocalizedLink>{' '}
               page.
             </p>
@@ -97,8 +97,8 @@ export default function About() {
             </ul>
             <p className="mt-4">
               Always verify the URL before entering your credentials. Only use domains listed on the{' '}
-              <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary">
-                Official Domains
+              <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary">
+                Verify WINPROFX
               </LocalizedLink>{' '}
               page.
             </p>

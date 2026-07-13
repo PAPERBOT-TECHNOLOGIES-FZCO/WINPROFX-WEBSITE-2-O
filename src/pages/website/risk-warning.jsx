@@ -69,14 +69,6 @@ export default function RiskWarning() {
             </p>
             <p className="mt-4">
               For regulatory and license information, see{' '}
-              <LocalizedLink to="/regulatory-information/" className="text-white underline hover:text-primary">
-                {tTrust('pages.regulatoryInformation.label')}
-              </LocalizedLink>
-              ,{' '}
-              <LocalizedLink to="/dubai-professional-license/" className="text-white underline hover:text-primary">
-                {tTrust('pages.dubaiProfessionalLicense.label')}
-              </LocalizedLink>
-              , and{' '}
               <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 {tTrust('pages.verifyWinprofx.label')}
               </LocalizedLink>

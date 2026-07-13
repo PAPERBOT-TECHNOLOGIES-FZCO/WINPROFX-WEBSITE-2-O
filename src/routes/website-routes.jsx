@@ -26,7 +26,7 @@ import RestrictedCountries from '@/pages/website/restricted-countries'
 import RiskDisclosure from '@/pages/website/risk-disclosure'
 import Contact from '@/pages/website/contact'
 // import CompanyProfile from '@/pages/website/company-profile'
-import OfficialDomains from '@/pages/website/official-domains'
+// import OfficialDomains from '@/pages/website/official-domains'
 import About from '@/pages/website/about'
 import RiskWarning from '@/pages/website/risk-warning'
 // import LegalDocuments from '@/pages/website/legal-documents'
@@ -41,7 +41,7 @@ import ComplaintsAndDisputeResolution from '@/pages/website/complaints-and-dispu
 import ClientFundSecurity from '@/pages/website/client-fund-security'
 import SupportAndEscalation from '@/pages/website/support-and-escalation'
 // import CompanyStatistics from '@/pages/website/company-statistics'
-import TrustCenter from '@/pages/website/trust-center'
+// import TrustCenter from '@/pages/website/trust-center'
 import IsWinprofxLegit from '@/pages/website/brand/is-winprofx-legit'
 import WinprofxReview from '@/pages/website/brand/winprofx-review'
 import WinprofxWithdrawalProcess from '@/pages/website/brand/winprofx-withdrawal-process'
@@ -103,10 +103,10 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/client-fund-security', Component: ClientFundSecurity },
   { path: '/support-and-escalation', Component: SupportAndEscalation },
   // { path: '/company-statistics', Component: CompanyStatistics },
-  { path: '/official-domains', Component: OfficialDomains },
+  // { path: '/official-domains', Component: OfficialDomains },
   // { path: '/legal-documents', Component: LegalDocuments },
   { path: '/verify-winprofx', Component: VerifyWINPROFX },
-  { path: '/trust-center', Component: TrustCenter },
+  // { path: '/trust-center', Component: TrustCenter },
   { path: '/is-winprofx-legit', Component: IsWinprofxLegit },
   { path: '/winprofx-review', Component: WinprofxReview },
   { path: '/winprofx-withdrawal-process', Component: WinprofxWithdrawalProcess },
