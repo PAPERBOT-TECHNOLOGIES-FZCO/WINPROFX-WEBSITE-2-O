@@ -25,22 +25,22 @@ import DepositWithdraw from '@/pages/website/deposit-withdraw'
 import RestrictedCountries from '@/pages/website/restricted-countries'
 import RiskDisclosure from '@/pages/website/risk-disclosure'
 import Contact from '@/pages/website/contact'
-import CompanyProfile from '@/pages/website/company-profile'
+// import CompanyProfile from '@/pages/website/company-profile'
 import OfficialDomains from '@/pages/website/official-domains'
 import About from '@/pages/website/about'
 import RiskWarning from '@/pages/website/risk-warning'
-import LegalDocuments from '@/pages/website/legal-documents'
+// import LegalDocuments from '@/pages/website/legal-documents'
 import VerifyWINPROFX from '@/pages/website/verify-winprofx'
-import CompanyRegistration from '@/pages/website/company-registration'
-import LegalEntityInformation from '@/pages/website/legal-entity-information'
-import RegulatoryInformation from '@/pages/website/regulatory-information'
-import DubaiProfessionalLicense from '@/pages/website/dubai-professional-license'
-import UaeRepresentativeOffice from '@/pages/website/uae-representative-office'
+// import CompanyRegistration from '@/pages/website/company-registration'
+// import LegalEntityInformation from '@/pages/website/legal-entity-information'
+// import RegulatoryInformation from '@/pages/website/regulatory-information'
+// import DubaiProfessionalLicense from '@/pages/website/dubai-professional-license'
+// import UaeRepresentativeOffice from '@/pages/website/uae-representative-office'
 import WithdrawalTransparency from '@/pages/website/withdrawal-transparency'
 import ComplaintsAndDisputeResolution from '@/pages/website/complaints-and-dispute-resolution'
 import ClientFundSecurity from '@/pages/website/client-fund-security'
 import SupportAndEscalation from '@/pages/website/support-and-escalation'
-import CompanyStatistics from '@/pages/website/company-statistics'
+// import CompanyStatistics from '@/pages/website/company-statistics'
 import TrustCenter from '@/pages/website/trust-center'
 import IsWinprofxLegit from '@/pages/website/brand/is-winprofx-legit'
 import WinprofxReview from '@/pages/website/brand/winprofx-review'
@@ -92,19 +92,19 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/risk-disclosure', Component: RiskDisclosure },
   { path: '/risk-warning', Component: RiskWarning },
   { path: '/contact', Component: Contact },
-  { path: '/company-profile', Component: CompanyProfile },
-  { path: '/company-registration', Component: CompanyRegistration },
-  { path: '/legal-entity-information', Component: LegalEntityInformation },
-  { path: '/regulatory-information', Component: RegulatoryInformation },
-  { path: '/dubai-professional-license', Component: DubaiProfessionalLicense },
-  { path: '/uae-representative-office', Component: UaeRepresentativeOffice },
+  // { path: '/company-profile', Component: CompanyProfile },
+  // { path: '/company-registration', Component: CompanyRegistration },
+  // { path: '/legal-entity-information', Component: LegalEntityInformation },
+  // { path: '/regulatory-information', Component: RegulatoryInformation },
+  // { path: '/dubai-professional-license', Component: DubaiProfessionalLicense },
+  // { path: '/uae-representative-office', Component: UaeRepresentativeOffice },
   { path: '/withdrawal-transparency', Component: WithdrawalTransparency },
   { path: '/complaints-and-dispute-resolution', Component: ComplaintsAndDisputeResolution },
   { path: '/client-fund-security', Component: ClientFundSecurity },
   { path: '/support-and-escalation', Component: SupportAndEscalation },
-  { path: '/company-statistics', Component: CompanyStatistics },
+  // { path: '/company-statistics', Component: CompanyStatistics },
   { path: '/official-domains', Component: OfficialDomains },
-  { path: '/legal-documents', Component: LegalDocuments },
+  // { path: '/legal-documents', Component: LegalDocuments },
   { path: '/verify-winprofx', Component: VerifyWINPROFX },
   { path: '/trust-center', Component: TrustCenter },
   { path: '/is-winprofx-legit', Component: IsWinprofxLegit },

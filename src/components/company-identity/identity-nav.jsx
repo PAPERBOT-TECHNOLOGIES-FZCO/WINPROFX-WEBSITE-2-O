@@ -40,14 +40,5 @@ function NavGroup({ title, links, pathname, t }) {
 }
 
 export default function IdentityNav() {
-  const { pathname } = useLocation()
-  const { t } = useTranslation('trust')
-
-  return (
-    <nav aria-label={t('identityNav.ariaLabel')} className="mt-8 md:mt-10 pt-6 border-t border-solid border-white/10">
-      <h2 className="text-lg font-semibold text-white mb-4">{t('identityNav.relatedPages')}</h2>
-      <NavGroup title={t('identityNav.companyLicense')} links={companyLicenseLinks} pathname={pathname} t={t} />
-      <NavGroup title={t('identityNav.trustSupport')} links={trustSupportLinks} pathname={pathname} t={t} />
-    </nav>
-  )
+  return null
 }

@@ -23,7 +23,7 @@ export default function Footer() {
   ]
 
   const important_links = [
-    { nameKey: 'links.companyProfile', path: '/company-profile/' },
+    // { nameKey: 'links.companyProfile', path: '/company-profile/' },
     // { nameKey: 'links.officialDomains', path: '/official-domains/' },
     { nameKey: 'links.riskWarning', path: '/risk-warning/' },
     { nameKey: 'links.contact', path: '/contact/' },

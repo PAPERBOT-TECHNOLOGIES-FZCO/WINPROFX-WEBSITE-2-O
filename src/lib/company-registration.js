@@ -417,10 +417,10 @@ export const companyStatisticsItems = [
 
 export const footerTrustLegalLinks = [
   { path: '/trust-center/', label: 'Trust Center' },
-  { path: '/company-profile/', label: 'Company Profile' },
-  { path: '/company-registration/', label: 'Company Registration' },
-  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
-  { path: '/regulatory-information/', label: 'Information' },
+  // { path: '/company-profile/', label: 'Company Profile' },
+  // { path: '/company-registration/', label: 'Company Registration' },
+  // { path: '/legal-entity-information/', label: 'Legal Entity Information' },
+  // { path: '/regulatory-information/', label: 'Information' },
   // { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
   { path: '/risk-warning/', label: 'Risk Warning' },
@@ -428,10 +428,10 @@ export const footerTrustLegalLinks = [
   { path: '/complaints-and-dispute-resolution/', label: 'Complaints' },
   { path: '/client-fund-security/', label: 'Client Fund Security' },
   { path: '/support-and-escalation/', label: 'Support and Escalation' },
-  { path: '/company-statistics/', label: 'Company Statistics' },
-  { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
-  { path: '/uae-representative-office/', label: 'UAE Representative Office' },
-  { path: '/legal-documents/', label: 'Legal Documents' },
+  // { path: '/company-statistics/', label: 'Company Statistics' },
+  // { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
+  // { path: '/uae-representative-office/', label: 'UAE Representative Office' },
+  // { path: '/legal-documents/', label: 'Legal Documents' },
 ]
 
 export const brandIntentPageLinks = [
