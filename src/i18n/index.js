@@ -21,31 +21,53 @@ function buildResources() {
 }
 
 /**
- * Custom detector registered into i18next-browser-languagedetector via
- * LanguageDetector.addDetector(). This is the correct API — do NOT register
- * it as a separate i18next plugin (type: 'languageDetector') because that
- * would conflict with LanguageDetector and be silently ignored.
+ * Determine the correct initial language before i18next initialises.
  *
- * Returns the domain-specific default locale when no user preference or URL
- * prefix is present, so i18next picks Spanish on winprofx.lat automatically.
- * Returning undefined tells LanguageDetector to continue to the next detector.
+ * Priority (mirrors the original detection order):
+ *   1. URL path locale prefix  (e.g. /es/forex → 'es')
+ *   2. Saved user preference   (localStorage 'i18nextLng')
+ *   3. Domain default          (winprofx.lat → 'es')
+ *   4. Application default     ('en')
+ *
+ * Evaluated once at module load. Safe when window / localStorage are absent
+ * (SSR, build, test).
  */
-const domainDetector = {
-  name: 'domain',
-  lookup() {
-    return getDefaultLocaleForHostname() ?? undefined
-  },
-  cacheUserLanguage() {
-    // Domain default is never cached — only explicit user choices are persisted.
-  },
-}
+function resolveInitialLanguage() {
+  try {
+    if (typeof window !== 'undefined') {
+      const segments = window.location.pathname.split('/').filter(Boolean)
+      const first = segments[0]
+      if (first && LOCALE_CODES.includes(first) && first !== DEFAULT_LOCALE) {
+        return first
+      }
+    }
+  } catch {
+    // ignore
+  }
 
-LanguageDetector.addDetector(domainDetector)
+  try {
+    if (typeof localStorage !== 'undefined') {
+      const stored = localStorage.getItem('i18nextLng')
+      if (stored) {
+        const base = stored.split('-')[0].toLowerCase()
+        if (LOCALE_CODES.includes(base)) return base
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  const domainDefault = getDefaultLocaleForHostname()
+  if (domainDefault) return domainDefault
+
+  return DEFAULT_LOCALE
+}
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    lng: resolveInitialLanguage(),
     resources: buildResources(),
     fallbackLng: DEFAULT_LOCALE,
     supportedLngs: LOCALE_CODES,
@@ -56,8 +78,9 @@ i18n
     cleanCode: true,
     nonExplicitSupportedLngs: true,
     detection: {
-      order: ['path', 'localStorage', 'domain'],
-      lookupFromPathIndex: 0,
+      // Detection is kept only for caching explicit user language changes.
+      // Initial language is already resolved above via resolveInitialLanguage().
+      order: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
       caches: ['localStorage'],
     },
