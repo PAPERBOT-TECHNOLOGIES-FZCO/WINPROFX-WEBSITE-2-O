@@ -114,7 +114,7 @@ async function waitForRoute(page, route) {
       return expectedTitle ? title.includes(expectedTitle) : title.length > 0
     },
     route.expectedTitle,
-    { timeout: 45000 },
+    { timeout: 60000 },
   )
 
   if (route.path !== '/' && !route.path.match(/^\/(hi|id|vi|bn|ms)\/?$/)) {
@@ -130,10 +130,10 @@ async function waitForRoute(page, route) {
         return h1 && h1.textContent.includes(expectedH1)
       },
       route.expectedH1,
-      { timeout: 45000 },
+      { timeout: 60000 },
     )
   } else {
-    await page.waitForSelector('h1', { timeout: 45000 })
+    await page.waitForSelector('h1', { timeout: 60000 })
   }
 
   await page.waitForFunction(
@@ -166,11 +166,28 @@ async function main() {
   const preview = await startPreview()
 
   try {
-    const browser = await chromium.launch({ headless: true })
+    const browser = await chromium.launch({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+      ],
+    })
 
     for (const route of PRERENDER_ROUTES) {
       process.stdout.write(`Prerendering ${route.path} [${route.locale}]...\n`)
       const page = await browser.newPage()
+
+      // Block external network requests during prerender so third-party
+      // scripts (analytics, fonts, widgets) never cause a CI timeout.
+      await page.route('**/*', (r) => {
+        const url = r.request().url()
+        if (url.startsWith(PREVIEW_URL)) return r.continue()
+        return r.abort()
+      })
+
       await waitForRoute(page, route)
       const html = await page.content()
       await page.close()
