@@ -1,5 +1,9 @@
 # Domain alias 301 redirects (keep in sync with netlify.toml).
 # Netlify processes this file before netlify.toml redirects.
+#
+# winprofx.lat is a SEPARATE Netlify site sharing this repo.
+# Do NOT add a redirect from winprofx.lat to winprofx.com or winprofx.org.
+# Language defaulting for .lat is handled at runtime in src/lib/domain-locale.js.
 
 https://winprofx.ae/* https://winprofx.org/:splat 301!
 https://www.winprofx.ae/* https://winprofx.org/:splat 301!
