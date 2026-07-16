@@ -21,13 +21,16 @@ function buildResources() {
 }
 
 /**
- * Custom i18next detector that returns the domain-specific default locale.
- * It runs after 'path' and 'localStorage' in the detection order, so an
- * explicit user preference or URL-prefix always wins.
- * Returning undefined/null tells i18next to continue to the next detector.
+ * Custom detector registered into i18next-browser-languagedetector via
+ * LanguageDetector.addDetector(). This is the correct API — do NOT register
+ * it as a separate i18next plugin (type: 'languageDetector') because that
+ * would conflict with LanguageDetector and be silently ignored.
+ *
+ * Returns the domain-specific default locale when no user preference or URL
+ * prefix is present, so i18next picks Spanish on winprofx.lat automatically.
+ * Returning undefined tells LanguageDetector to continue to the next detector.
  */
-const domainLocaleDetector = {
-  type: 'languageDetector',
+const domainDetector = {
   name: 'domain',
   lookup() {
     return getDefaultLocaleForHostname() ?? undefined
@@ -37,8 +40,9 @@ const domainLocaleDetector = {
   },
 }
 
+LanguageDetector.addDetector(domainDetector)
+
 i18n
-  .use(domainLocaleDetector)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
