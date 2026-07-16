@@ -6,6 +6,9 @@ import { LOCALE_META, LOCALE_CODES, getLocaleFromPathname, normalizeLocale } fro
 import { useLocalizedPath } from '@/hooks/use-localized-path'
 
 const STORAGE_KEY = 'i18nextLng'
+/** Written only when the user explicitly picks a language via the switcher.
+ *  Distinguishes a real user choice from auto-detected / fallback values. */
+const STORAGE_EXPLICIT_KEY = 'i18nextLngExplicit'
 
 function buildItems() {
   return LOCALE_CODES.map((code) => ({
@@ -53,6 +56,7 @@ export default function LanguageSelect({ className = 'flex' }) {
     setIsOpen(false)
     const nextPath = toLocaleSwitchPath(item.code)
     localStorage.setItem(STORAGE_KEY, item.code)
+    localStorage.setItem(STORAGE_EXPLICIT_KEY, '1')
     await i18n.changeLanguage(item.code)
     navigate(nextPath)
   }

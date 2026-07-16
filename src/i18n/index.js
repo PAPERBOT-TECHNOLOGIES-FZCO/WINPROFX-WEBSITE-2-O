@@ -20,15 +20,21 @@ function buildResources() {
 }
 
 const STORAGE_KEY = 'i18nextLng'
+/** Set only when the user explicitly picks a language via the switcher. */
+const STORAGE_EXPLICIT_KEY = 'i18nextLngExplicit'
 
 /**
  * Determine the correct initial language before i18next initialises.
  *
  * Priority:
- *   1. URL path locale prefix  (e.g. /es/forex → 'es')
- *   2. Saved user preference   (localStorage 'i18nextLng')
- *   3. Domain default          (winprofx.lat → 'es')
- *   4. Application default     ('en')
+ *   1. URL path locale prefix      (e.g. /es/forex → 'es')
+ *   2. Explicit user preference    (localStorage 'i18nextLng' + 'i18nextLngExplicit' flag)
+ *   3. Domain default              (winprofx.lat → 'es')
+ *   4. Application default         ('en')
+ *
+ * Step 2 requires the explicit flag so that auto-cached fallback values
+ * written by old i18next-browser-languagedetector setups (e.g. 'en' cached
+ * silently on .com/.org visits) do not override the domain default on .lat.
  *
  * Safe when window / localStorage are absent (build, test).
  */
@@ -47,10 +53,13 @@ function resolveInitialLanguage() {
 
   try {
     if (typeof localStorage !== 'undefined') {
-      const stored = localStorage.getItem(STORAGE_KEY)
-      if (stored) {
-        const base = stored.split('-')[0].toLowerCase()
-        if (LOCALE_CODES.includes(base)) return base
+      const isExplicit = localStorage.getItem(STORAGE_EXPLICIT_KEY) === '1'
+      if (isExplicit) {
+        const stored = localStorage.getItem(STORAGE_KEY)
+        if (stored) {
+          const base = stored.split('-')[0].toLowerCase()
+          if (LOCALE_CODES.includes(base)) return base
+        }
       }
     }
   } catch {
