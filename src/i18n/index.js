@@ -1,6 +1,5 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
 import { DEFAULT_LOCALE, I18N_NAMESPACES, LOCALE_CODES } from '@/lib/locale-config'
 import { getDefaultLocaleForHostname } from '@/lib/domain-locale'
 
@@ -20,17 +19,18 @@ function buildResources() {
   return resources
 }
 
+const STORAGE_KEY = 'i18nextLng'
+
 /**
  * Determine the correct initial language before i18next initialises.
  *
- * Priority (mirrors the original detection order):
+ * Priority:
  *   1. URL path locale prefix  (e.g. /es/forex → 'es')
  *   2. Saved user preference   (localStorage 'i18nextLng')
  *   3. Domain default          (winprofx.lat → 'es')
  *   4. Application default     ('en')
  *
- * Evaluated once at module load. Safe when window / localStorage are absent
- * (SSR, build, test).
+ * Safe when window / localStorage are absent (build, test).
  */
 function resolveInitialLanguage() {
   try {
@@ -47,7 +47,7 @@ function resolveInitialLanguage() {
 
   try {
     if (typeof localStorage !== 'undefined') {
-      const stored = localStorage.getItem('i18nextLng')
+      const stored = localStorage.getItem(STORAGE_KEY)
       if (stored) {
         const base = stored.split('-')[0].toLowerCase()
         if (LOCALE_CODES.includes(base)) return base
@@ -63,11 +63,12 @@ function resolveInitialLanguage() {
   return DEFAULT_LOCALE
 }
 
+const initialLanguage = resolveInitialLanguage()
+
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: resolveInitialLanguage(),
+    lng: initialLanguage,
     resources: buildResources(),
     fallbackLng: DEFAULT_LOCALE,
     supportedLngs: LOCALE_CODES,
@@ -77,13 +78,6 @@ i18n
     load: 'languageOnly',
     cleanCode: true,
     nonExplicitSupportedLngs: true,
-    detection: {
-      // Detection is kept only for caching explicit user language changes.
-      // Initial language is already resolved above via resolveInitialLanguage().
-      order: ['localStorage'],
-      lookupLocalStorage: 'i18nextLng',
-      caches: ['localStorage'],
-    },
     react: { useSuspense: false },
   })
 
