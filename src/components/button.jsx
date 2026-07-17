@@ -4,9 +4,10 @@ import { useTranslation } from "react-i18next";
 import bg from "@/assets/img/noise.png";
 import { y, duration, once } from "@/utilities/animation";
 import { motion } from "framer-motion";
+import { getPortalRegisterUrl } from "@/lib/domain-locale";
 
 export default function Button({
-  to = "https://my.winprofx.org/register",
+  to,
   text,
   className = "",
   animation = true,
@@ -16,6 +17,7 @@ export default function Button({
   variant = "default",
 }) {
   const { t } = useTranslation("common");
+  const resolvedTo = to ?? getPortalRegisterUrl();
   const resolvedText = text ?? t("buttons.openAccount");
   const isTransparent = variant === "outline";
   const backgroundStyle = isTransparent
@@ -24,10 +26,10 @@ export default function Button({
         backgroundImage: `linear-gradient(180deg, ${gradientStart} 0%, ${gradientEnd} 100%), ${gradientStart}`,
       };
 
-  const isExternal = to.startsWith("http");
+  const isExternal = resolvedTo.startsWith("http");
   const linkProps = isExternal
-    ? { href: to, target: "_blank", rel: "noopener noreferrer" }
-    : { to };
+    ? { href: resolvedTo, target: "_blank", rel: "noopener noreferrer" }
+    : { to: resolvedTo };
   const Tag = isExternal ? "a" : Link;
 
   return (

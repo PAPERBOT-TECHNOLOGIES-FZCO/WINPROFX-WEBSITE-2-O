@@ -49,3 +49,51 @@ export function getDefaultLocaleForHostname(hostname) {
 export function isLatinAmericaDomain(hostname) {
   return getDefaultLocaleForHostname(hostname) !== null
 }
+
+/**
+ * Domain-to-client-portal mapping.
+ * When the site is served from a .lat domain, login/register links point to
+ * my.winprofx.lat instead of the default my.winprofx.org portal.
+ */
+const DOMAIN_PORTAL_HOSTS = {
+  'winprofx.lat': 'my.winprofx.lat',
+  'www.winprofx.lat': 'my.winprofx.lat',
+}
+
+const DEFAULT_PORTAL_HOST = 'my.winprofx.org'
+
+/**
+ * Returns the correct client-portal base URL for the current (or given) hostname.
+ *
+ * @param {string} [hostname] - Defaults to window.location.hostname when available.
+ * @returns {string} e.g. "https://my.winprofx.lat"
+ */
+export function getPortalBaseUrl(hostname) {
+  const host =
+    hostname !== undefined
+      ? hostname
+      : typeof window !== 'undefined'
+        ? window.location.hostname
+        : null
+
+  const portalHost = (host && DOMAIN_PORTAL_HOSTS[host.toLowerCase()]) || DEFAULT_PORTAL_HOST
+  return `https://${portalHost}`
+}
+
+/**
+ * Returns the full login URL for the current domain.
+ * @param {string} [hostname]
+ * @returns {string}
+ */
+export function getPortalLoginUrl(hostname) {
+  return `${getPortalBaseUrl(hostname)}/login`
+}
+
+/**
+ * Returns the full register URL for the current domain.
+ * @param {string} [hostname]
+ * @returns {string}
+ */
+export function getPortalRegisterUrl(hostname) {
+  return `${getPortalBaseUrl(hostname)}/register`
+}

@@ -6,11 +6,15 @@ import { useSeo } from '@/hooks/use-seo'
 import TrustPageLayout from '@/components/trust/trust-page-layout'
 import IdentitySection from '@/components/company-identity/identity-section'
 import { getBrandPageFaqs, TRUST_LAST_REVIEWED_ISO } from '@/lib/trust-pages'
+import { getPortalLoginUrl, getPortalRegisterUrl, getPortalBaseUrl } from '@/lib/domain-locale'
 
 
 export default function WinprofxOfficialLogin() {
   const { t } = useTranslation('brand')
   const seo = useSeo('winprofxOfficialLogin')
+  const loginUrl = getPortalLoginUrl()
+  const registerUrl = getPortalRegisterUrl()
+  const portalHost = getPortalBaseUrl().replace('https://', '')
   return (
     <>
       <SeoHead
@@ -38,16 +42,16 @@ export default function WinprofxOfficialLogin() {
             The official WINPROFX client portal for account login, deposits, withdrawals, and KYC is:
           </p>
           <a
-            href="https://my.winprofx.org/login"
+            href={loginUrl}
             className="inline-block rounded-lg bg-primary px-6 py-3 text-black font-medium hover:opacity-90 transition-opacity"
             rel="noopener noreferrer"
           >
-            Client Portal Login — my.winprofx.org
+            Client Portal Login — {portalHost}
           </a>
           <p className="mt-4 text-sm text-white/60">
             New clients can register at{' '}
-            <a href="https://my.winprofx.org/register" className="text-primary underline" rel="noopener noreferrer">
-              my.winprofx.org/register
+            <a href={registerUrl} className="text-primary underline" rel="noopener noreferrer">
+              {portalHost}/register
             </a>
           </p>
         </IdentitySection>

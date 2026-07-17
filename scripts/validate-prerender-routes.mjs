@@ -4,16 +4,16 @@
  */
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { getAllSitemapRoutes } from './seo-routes.mjs'
 import {
-  DEFAULT_LOCALE,
-  LOCALE_CODES,
-  LOCALE_SEO_READY,
-  getHreflangLocales,
-  isLocalePageSeoReady,
-  normalizeSeoPagePath,
+    DEFAULT_LOCALE,
+    LOCALE_CODES,
+    LOCALE_SEO_READY,
+    getHreflangLocales,
+    isLocalePageSeoReady,
+    normalizeSeoPagePath,
 } from './locale-seo-readiness.mjs'
 import { PRERENDER_ROUTES, stripLocalePrefixFromPath } from './prerender-routes.mjs'
+import { getAllSitemapRoutes } from './seo-routes.mjs'
 
 /** Locked for Priority 2 — fail build if English sitemap grows/shrinks unexpectedly. */
 export const EXPECTED_SITEMAP_COUNT = 51
@@ -199,13 +199,13 @@ export function validatePrerenderedHtmlSamples(distDir) {
     {
       path: '/',
       canonical: 'https://winprofx.org/',
-      allowedHreflang: ['en', 'x-default'],
+      allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },
     {
       path: '/forex',
       canonical: 'https://winprofx.org/forex/',
-      allowedHreflang: ['en', 'x-default'],
+      allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },
     // {
@@ -217,7 +217,7 @@ export function validatePrerenderedHtmlSamples(distDir) {
     {
       path: '/learn/what-is-forex-trading',
       canonical: 'https://winprofx.org/learn/what-is-forex-trading/',
-      allowedHreflang: ['en', 'x-default'],
+      allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },
   ]

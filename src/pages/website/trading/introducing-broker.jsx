@@ -30,7 +30,6 @@ export default function IntroducingBroker() {
                 des={t('introducingBroker.des')}
                 desClass="max-w-135 mx-auto"
                 buttonText={t('introducingBroker.buttonText')}
-                buttonLink="https://my.winprofx.org/register"
             />
             <Advantages />
             <Benefits />

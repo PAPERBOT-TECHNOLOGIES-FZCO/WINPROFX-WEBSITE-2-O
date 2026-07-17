@@ -6,6 +6,7 @@ import MetaText from '@/components/meta-text';
 import { Container } from '@/components/grid'
 import Button from '@/components/button'
 import ButtonTwo from '@/components/buttonTwo'
+import { getPortalRegisterUrl } from '@/lib/domain-locale';
 
 export default function CommonBanner({
   className = "",
@@ -21,11 +22,12 @@ export default function CommonBanner({
   des = "",
   desClass = "max-w-150 mx-auto lg:max-w-200",
   buttonText,
-  buttonLink = "https://my.winprofx.org/register",
+  buttonLink,
   secondButtonText = "",
   secondButtonLink = "" }) {
   const { t } = useTranslation('common')
   const resolvedButtonText = buttonText ?? t('buttons.openAccount')
+  const resolvedButtonLink = buttonLink ?? getPortalRegisterUrl();
 
   return (
     <div
@@ -60,7 +62,7 @@ export default function CommonBanner({
           {des}
         </motion.p>
         <div className={`items-center justify-center gap-3 ${secondButtonText ? 'flex' : ''} mt-5 md:mt-6 lg:mt-8`}>
-          <Button delay="0.5" text={resolvedButtonText} to={buttonLink} />
+          <Button delay="0.5" text={resolvedButtonText} to={resolvedButtonLink} />
           {secondButtonText && (
             <ButtonTwo
               delay="0.6"

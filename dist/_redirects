@@ -1,7 +1,8 @@
 # Domain alias 301 redirects (keep in sync with netlify.toml).
 # Netlify processes this file before netlify.toml redirects.
+# Cloudflare Pages also reads this file for redirect rules.
 #
-# winprofx.lat is a SEPARATE Netlify site sharing this repo.
+# winprofx.lat is a SEPARATE site sharing this repo.
 # Do NOT add a redirect from winprofx.lat to winprofx.com or winprofx.org.
 # Language defaulting for .lat is handled at runtime in src/lib/domain-locale.js.
 
@@ -9,3 +10,7 @@ https://winprofx.ae/* https://winprofx.org/:splat 301!
 https://www.winprofx.ae/* https://winprofx.org/:splat 301!
 http://winprofx.ae/* https://winprofx.org/:splat 301!
 http://www.winprofx.ae/* https://winprofx.org/:splat 301!
+
+# SPA catch-all — serves index.html for all routes not matched by a static file.
+# Required for Cloudflare Pages (netlify.toml catch-all is ignored by Cloudflare).
+/* /index.html 200

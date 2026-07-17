@@ -7,7 +7,7 @@ import {
     getSeoReadyPrerenderRoutes,
 } from './locale-seo-readiness.mjs'
 
-const NON_DEFAULT_LOCALE_CODES = ['hi', 'id', 'vi', 'bn', 'ms']
+const NON_DEFAULT_LOCALE_CODES = ['hi', 'id', 'vi', 'bn', 'ms', 'es', 'pt', 'zh', 'ja']
 
 /** English path hints for prerender wait conditions (keyed by unprefixed path). */
 const TITLE_HINTS = {

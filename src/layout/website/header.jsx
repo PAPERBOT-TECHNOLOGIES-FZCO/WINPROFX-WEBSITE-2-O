@@ -5,9 +5,12 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Logo from '@/components/logo';
 import LanguageSelect from '@/components/langulage-select';
 import LocalizedLink from '@/components/localized-link';
+import { getPortalLoginUrl, getPortalRegisterUrl } from '@/lib/domain-locale';
 
 export default function Header() {
   const { t } = useTranslation('navigation');
+  const loginUrl = getPortalLoginUrl();
+  const registerUrl = getPortalRegisterUrl();
 
   const navLinks = [
     {
@@ -182,8 +185,8 @@ export default function Header() {
                 </a>
               </li>
               <li className="flex lg:hidden items-center gap-4 mt-4 border-t border-solid border-white/10 pt-4">
-                <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>{t('login')}</a>
-                <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>{t('register')}</a>
+                <a className='heading-btn grow min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href={loginUrl} target='_blank' rel='noopener noreferrer'>{t('login')}</a>
+                <a className='heading-btn grow active min-h-12 flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href={registerUrl} target='_blank' rel='noopener noreferrer'>{t('register')}</a>
               </li>
             </ul>
           </nav>
@@ -199,8 +202,8 @@ export default function Header() {
               {t('partnerPortal')}
             </a>
             <LanguageSelect className='flex lg:hidden xl:flex' />
-            <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/login' target='_blank' rel='noopener noreferrer'>{t('login')}</a>
-            <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href='https://my.winprofx.org/register' target='_blank' rel='noopener noreferrer'>{t('register')}</a>
+            <a className='heading-btn hidden min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href={loginUrl} target='_blank' rel='noopener noreferrer'>{t('login')}</a>
+            <a className='heading-btn hidden active min-h-10 md:flex items-center justify-center px-4 text-base text-white font-medium rounded-lg' href={registerUrl} target='_blank' rel='noopener noreferrer'>{t('register')}</a>
 
             <button className="heading-toggler lg:hidden!" onClick={() => setIsMenu(!isMenu)}>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6.5 md:size-8">

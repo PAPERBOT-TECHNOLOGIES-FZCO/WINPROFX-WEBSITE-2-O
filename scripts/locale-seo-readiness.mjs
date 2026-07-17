@@ -34,7 +34,7 @@ export const LOCALE_SEO_READY = {
   ms: false,
   zh: false,
   ja: false,
-  es: false,
+  es: true,
   pt: false,
 }
 

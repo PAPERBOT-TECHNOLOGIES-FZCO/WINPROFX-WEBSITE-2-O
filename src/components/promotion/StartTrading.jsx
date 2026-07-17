@@ -12,6 +12,7 @@ import { motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import ButtonTwo from "@/components/buttonTwo";
 import { useTranslation } from 'react-i18next'
+import { getPortalLoginUrl } from "@/lib/domain-locale";
 
 export default function StartTrading() {
   const { t } = useTranslation('trading')
@@ -55,8 +56,8 @@ export default function StartTrading() {
         </div>
         <div className="text-center">
             <div className="mb-4 lg:mb-6 mt-4 lg:mt-8 flex items-center justify-center gap-4">
-              <Button delay='0.5' to='https://my.winprofx.org/register' />             
-              <ButtonTwo text={tNav('login')} to="https://my.winprofx.org/login" />
+              <Button delay='0.5' />
+              <ButtonTwo text={tNav('login')} to={getPortalLoginUrl()} />
             </div>
             <p>{pu('questionsPrefix')} <Link href="tel:+97144471894">+971 4 447 1894</Link> {pu('questionsSuffix')} <Link href="https://winprofx.org">winprofx.org</Link></p>
         </div>
