@@ -52,6 +52,7 @@ export default function AboutUs() {
         desClass="max-w-135 mx-auto"
       />
 
+      {/* Company Information block — commented out
       <div className="common-padding pb-0">
         <Container>
           <div className="max-w-285 mx-auto bg-white/2 border border-solid border-white/8 rounded-2xl lg:rounded-[20px] p-4 md:p-6 lg:p-8">
@@ -74,6 +75,7 @@ export default function AboutUs() {
           </div>
         </Container>
       </div>
+      */}
 
       <div className="common-padding">
         <Container>
