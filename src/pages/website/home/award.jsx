@@ -41,7 +41,7 @@ export default function Award() {
               key={item.key}
               className="h-full p-px rounded-2xl card-glow"
             >
-              <div className="relative z-1 max-w-77 mx-auto h-full shadow-0 hover:shadow-2xl shadow-primary/20 cursor-pointer hover:-translate-y-1 flex flex-col p-4 md:p-5 lg:p-6 rounded-2xl overflow-hidden bg-[#202F3D] border border-solid border-white/8 backdrop-blur-2xl transition-all duration-300">
+              <div className="relative z-1 max-w-77 mx-auto h-full flex flex-col p-4 md:p-5 lg:p-6 rounded-2xl overflow-hidden bg-[#202F3D] border border-solid border-white/8 backdrop-blur-2xl">
                 <svg className="max-w-50 mx-auto absolute top-0 left-1/2 -translate-x-1/2 -z-10 pointer-events-none" width="198" height="177" viewBox="0 0 198 177" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0H198L168 177H30L0 0Z" fill="url(#paint0_linear_6137_102882)" />
                   <defs>

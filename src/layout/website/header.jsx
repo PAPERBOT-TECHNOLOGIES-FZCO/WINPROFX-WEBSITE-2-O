@@ -133,12 +133,21 @@ export default function Header() {
 
             <ul className="flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:items-center">
               {navLinks.map((link, index) => (
-                <li key={index} className='block relative z-1'>
+                <li key={index} className='block relative z-1'
+                  onMouseLeave={() => window.innerWidth > 991 && set_active_child(null)}
+                >
                   <LocalizedLink
                     className="inline-flex items-center justify-center lg:px-1.5 2xl:px-2.5 gap-2 text-base text-white leading-normal hover:text-primary transition-all duration-300 hover:-translate-y-0.5"
                     to={link.to}
-                    onClick={() => !link.children && window.innerWidth <= 991 && handleTouchStart(link.to)}
-                    onMouseEnter={() => set_active_child(index)}
+                    onClick={(e) => {
+                      if (link.children) {
+                        e.preventDefault();
+                        set_active_child(active_child === index ? null : index);
+                      } else {
+                        window.innerWidth <= 991 && handleTouchStart(link.to);
+                      }
+                    }}
+                    onMouseEnter={() => window.innerWidth > 991 && set_active_child(index)}
                   >
                     {link.btn_title}
                     {link.children &&

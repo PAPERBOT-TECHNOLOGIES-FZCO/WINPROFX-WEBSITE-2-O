@@ -41,7 +41,7 @@ export default function BenefitsTrading() {
                             className='h-full card-glow p-px rounded-2xl overflow-hidden'
                             style={{ animationDelay: `${idx * -1}s` }}
                         >
-                            <div className="rounded-2xl h-full p-4 md:p-5 lg:p-6 border border-solid border-white/12 bg-[#0A0D10] transition-all duration-300 shadow-0 hover:shadow-2xl shadow-primary/20 cursor-pointer hover:-translate-y-1">
+                            <div className="rounded-2xl h-full p-4 md:p-5 lg:p-6 border border-solid border-white/12 bg-[#0A0D10]">
                                 <MetaText title={t(`benefitsTrading.items.${item.key}.meta`)} className="rounded-md!" />
                                 <div className="my-5">
                                     <img src={item.img} className='max-w-58 mx-auto' alt={`WINPROFX ${t(`benefitsTrading.items.${item.key}.title`)}`} />

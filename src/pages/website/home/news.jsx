@@ -69,6 +69,7 @@ export default function News() {
     return (
         <div className='common-padding'>
             <Container>
+                {/* News & Insights title + image grid — commented out
                 <CommonTitle
                     className="max-w-150"
                     title={t('homepage:news.title')}
@@ -101,6 +102,7 @@ export default function News() {
                         </motion.div>
                     ))}
                 </div>
+                */}
 
                 <div className="my-7 md:my-10 lg:my-13 xl:my-16">
                     <PaymentFlow />
