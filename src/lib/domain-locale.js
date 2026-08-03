@@ -63,6 +63,16 @@ const DOMAIN_PORTAL_HOSTS = {
 const DEFAULT_PORTAL_HOST = 'my.winprofx.org'
 
 /**
+ * Domain-specific register URL overrides.
+ * When set, getPortalRegisterUrl() returns this exact URL instead of
+ * building one from the portal base host.
+ */
+const DOMAIN_REGISTER_OVERRIDES = {
+  'winprofx.lat': 'https://lat.winprofxpartner.com',
+  'www.winprofx.lat': 'https://lat.winprofxpartner.com',
+}
+
+/**
  * Returns the correct client-portal base URL for the current (or given) hostname.
  *
  * @param {string} [hostname] - Defaults to window.location.hostname when available.
@@ -91,9 +101,20 @@ export function getPortalLoginUrl(hostname) {
 
 /**
  * Returns the full register URL for the current domain.
+ * On winprofx.lat this points to the partner registration portal.
  * @param {string} [hostname]
  * @returns {string}
  */
 export function getPortalRegisterUrl(hostname) {
+  const host =
+    hostname !== undefined
+      ? hostname
+      : typeof window !== 'undefined'
+        ? window.location.hostname
+        : null
+
+  const override = host && DOMAIN_REGISTER_OVERRIDES[host.toLowerCase()]
+  if (override) return override
+
   return `${getPortalBaseUrl(hostname)}/register`
 }
