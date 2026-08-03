@@ -71,6 +71,16 @@ export default function Header() {
 
   const [active_child, set_active_child] = useState(null);
   const header_ref = useRef()
+  const closeTimerRef = useRef(null)
+
+  const openDropdown = (index) => {
+    if (closeTimerRef.current) clearTimeout(closeTimerRef.current)
+    set_active_child(index)
+  }
+
+  const scheduleClose = () => {
+    closeTimerRef.current = setTimeout(() => set_active_child(null), 150)
+  }
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -134,7 +144,8 @@ export default function Header() {
             <ul className="flex flex-col lg:flex-row gap-y-3 md:gap-y-4 lg:items-center">
               {navLinks.map((link, index) => (
                 <li key={index} className='block relative z-1'
-                  onMouseLeave={() => window.innerWidth > 991 && set_active_child(null)}
+                  onMouseEnter={() => window.innerWidth > 991 && openDropdown(index)}
+                  onMouseLeave={() => window.innerWidth > 991 && scheduleClose()}
                 >
                   <LocalizedLink
                     className="inline-flex items-center justify-center lg:px-1.5 2xl:px-2.5 gap-2 text-base text-white leading-normal hover:text-primary transition-all duration-300 hover:-translate-y-0.5"
@@ -147,7 +158,6 @@ export default function Header() {
                         window.innerWidth <= 991 && handleTouchStart(link.to);
                       }
                     }}
-                    onMouseEnter={() => window.innerWidth > 991 && set_active_child(index)}
                   >
                     {link.btn_title}
                     {link.children &&
@@ -161,6 +171,7 @@ export default function Header() {
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
+                        onMouseEnter={() => window.innerWidth > 991 && openDropdown(index)}
                         className="lg:absolute top-full left-0 min-w-full w-max lg:bg-[#05060A]/98 backdrop-blur-lg border lg:border-t-0 border-white/12 rounded-t-xl rounded-b-xl lg:rounded-t-none mt-2 lg:mt-6 py-2">
                         <ul className="flex flex-col gap-2 p-2">
                           {link.children?.map((child, childIndex) => (
