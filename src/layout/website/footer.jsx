@@ -4,7 +4,7 @@ import Logo from '@/components/logo';
 import Social from '@/components/social';
 import { duration, once, y } from '@/utilities/animation';
 import { motion } from 'framer-motion';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import bg from '@/assets/img/footer-bg.png';
@@ -13,6 +13,48 @@ import footer_bg_mobile from '../../assets/img/footer-mobile-bg.png';
 
 export default function Footer() {
   const { t } = useTranslation(['footer', 'common', 'company'])
+
+  // Load WikiLicense badge widget after the anchor is in the DOM
+  useEffect(() => {
+    const roots = Array.from(document.querySelectorAll('a[data-wl-code][data-wl-style]'))
+    if (!roots.length) return
+
+    const tasks = roots.map((root) => ({ style: root.getAttribute('data-wl-style') || '', root }))
+    const mountTasks = () => tasks.forEach((task) => window.WikiLicenseShare?.mount(task.style, task.root))
+
+    if (window.WikiLicenseShare && typeof window.WikiLicenseShare.mount === 'function') {
+      mountTasks()
+      return
+    }
+
+    window.__WikiLicenseShareQueue = Array.isArray(window.__WikiLicenseShareQueue)
+      ? window.__WikiLicenseShareQueue
+      : []
+    tasks.forEach((task) => {
+      if (!window.__WikiLicenseShareQueue.some((item) => item.root === task.root)) {
+        window.__WikiLicenseShareQueue.push(task)
+      }
+    })
+
+    if (window.__WikiLicenseShareLoading) return
+    window.__WikiLicenseShareLoading = true
+
+    const hosts = [
+      'bit-web-config.oss-accelerate.aliyuncs.com',
+      'fx-web-config.oss-accelerate.aliyuncs.com',
+      'resources1.interface003.com/openlicense/js',
+    ]
+    const load = (index) => {
+      if (index >= hosts.length) { window.__WikiLicenseShareLoading = false; return }
+      const script = document.createElement('script')
+      script.async = true
+      script.src = `https://${hosts[index]}/wikilicense.js`
+      script.onload = () => { window.__WikiLicenseShareLoading = false; mountTasks() }
+      script.onerror = () => { script.remove(); load(index + 1) }
+      document.head.appendChild(script)
+    }
+    load(0)
+  }, [])
 
   const official_domains = [
     { labelKey: 'domains.officialWebsite', url: 'https://winprofx.org/', internal: true },
@@ -220,8 +262,20 @@ export default function Footer() {
           ))}
         </motion.div>
 
-        <div className="py-4 md:py-6 flex items-center justify-center text-center border-t border-solid border-white/10 mt-4 md:mt-6">
-          <p>{t('footer:copyright', { year: new Date().getFullYear() })}</p>
+        <div className="py-4 md:py-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-solid border-white/10 mt-4 md:mt-6">
+          {/* WikiLicense / WikiFX verified badge */}
+          <div className="flex items-center gap-3">
+            <a
+              id="4e5847bf-2666-4140-af2e-3e0d46dc8db8"
+              href="https://www.wikilicence.com/en/brand/4624849802?wid=4e5847bf-2666-4140-af2e-3e0d46dc8db8"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-wl-code="4624849802"
+              data-wl-style="style1"
+              aria-label="WINPROFX WikiFX License verification"
+            />
+          </div>
+          <p className="text-center">{t('footer:copyright', { year: new Date().getFullYear() })}</p>
         </div>
       </Container>
     </div>
