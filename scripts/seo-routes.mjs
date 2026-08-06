@@ -3,7 +3,7 @@
  * Single source of truth for public indexable URLs.
  */
 
-export const SITEMAP_LASTMOD = '2026-06-02'
+export const SITEMAP_LASTMOD = '2026-08-05'
 
 export const SEO_ROUTES = {
   pages: [

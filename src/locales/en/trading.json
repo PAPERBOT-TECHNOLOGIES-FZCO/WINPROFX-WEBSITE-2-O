@@ -1,6 +1,6 @@
 {
   "winPromotion": {
-    "meta": "WINPROFX Exclusive · March - May 2026",
+    "meta": "WINPROFX Exclusive · March - December 2026",
     "h1": "Trade to Win Program",
     "des": "Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. The more you trade, the greater the prize.",
     "secondButton": "View T&C",
@@ -52,7 +52,7 @@
       "items": {
         "programPeriod": {
           "label": "Program Period",
-          "value": "March 1, 2025 – May 31, 2026"
+          "value": "March 1, 2025 – December 31, 2026"
         },
         "tradingTimeline": {
           "label": "Trading Timeline",
