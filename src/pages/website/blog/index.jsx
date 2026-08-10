@@ -14,6 +14,7 @@ import img_3 from '@/assets/img/blog/3.png'
 import img_4 from '@/assets/img/blog/4.png'
 import img_5 from '@/assets/img/blog/5.png'
 import img_6 from '@/assets/img/blog/6.png'
+import imgBestBroker from '@/assets/img/blog/best-forex-broker-2026-banner.png'
 import shape from '@/assets/img/blog/shape.png'
 
 
@@ -28,8 +29,9 @@ export default function Blog() {
     const [active_category, set_active_category] = useState(categorys[0]);
 
     const postKeys = t('blog.postKeys', { returnObjects: true, defaultValue: [] })
-    const postImages = [img_1, img_2, img_3, img_4, img_5, img_6, img_4]
+    const postImages = [imgBestBroker, img_1, img_2, img_3, img_4, img_5, img_6, img_4]
     const postCategories = [
+      ['forex'],
       ['forex', 'crypto', 'metals'],
       ['indices'],
       ['forex'],
@@ -41,10 +43,11 @@ export default function Blog() {
 
     const blogs_item = (Array.isArray(postKeys) ? postKeys : []).map((key, idx) => ({
       img: postImages[idx] ?? img_1,
-      date: '06 - 21 - 2026',
+      date: key === 'bestForexBroker2026' ? '08 - 10 - 2026' : '06 - 21 - 2026',
       title: t(`blog.posts.${key}.title`),
       des: t(`blog.posts.${key}.des`),
       category: postCategories[idx] ?? ['forex'],
+      url: t(`blog.posts.${key}.url`, { defaultValue: '' }),
     }))
 
     const filtered_blog = active_category.key === 'all' ? blogs_item : blogs_item.filter(blog => blog.category.some(cat => cat.toLowerCase() === active_category.key));
@@ -79,7 +82,7 @@ export default function Blog() {
                             viewport={{ once: once, amount: 0.2 }}
                             className="h-full"
                         >
-                            <Link to={`/blog/${idx + 1}`} className={`${blog_card_class} h-full`}>
+                            <Link to={item.url || `/blog/${idx + 1}`} className={`${blog_card_class} h-full`}>
                                 <BlogContent
                                     imageClass='aspect-[100/54] w-full'
                                     item={item} />
@@ -96,7 +99,7 @@ export default function Blog() {
                                 viewport={{ once: once, amount: 0.2 }}
                                 className=""
                             >
-                                <Link to={`/blog/${idx + 1}`} className={`${blog_card_class} md:flex-row! md:items-center md:gap-x-5 xl:gap-x-6`}>
+                                <Link to={item.url || `/blog/${idx + 1}`} className={`${blog_card_class} md:flex-row! md:items-center md:gap-x-5 xl:gap-x-6`}>
                                     <BlogContent
                                         className="p-3 mt-2 md:mt-0 md:p-0"
                                         imageClass='md:max-w-55 w-full aspect-[1/.67] md:aspect-[1/1] lg:aspect-[1/1.2] xl:aspect-[1/1] '
@@ -117,7 +120,7 @@ export default function Blog() {
                             viewport={{ once: once, amount: 0.2 }}
                             className=""
                         >
-                            <Link to={`/blog/${idx + 1}`} className={`${blog_card_class}`}>
+                            <Link to={item.url || `/blog/${idx + 1}`} className={`${blog_card_class}`}>
                                 <BlogContent item={item} />
                             </Link>
                         </motion.div>

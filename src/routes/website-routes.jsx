@@ -14,6 +14,7 @@ import Accounts from '@/pages/website/accounts'
 import AboutUs from '@/pages/website/about-us'
 import Blog from '@/pages/website/blog/index'
 import BlogDetails from '@/pages/website/blog/blog-details'
+import WinprofxBestForexBroker2026 from '@/pages/website/blog/winprofx-best-forex-broker-2026'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
 import CurrencyCalculator from '@/pages/website/currency-calculator'
@@ -80,6 +81,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/about', Component: About },
   { path: '/blog', Component: Blog },
   { path: '/blog/:id', Component: BlogDetails },
+  { path: '/winprofx-best-forex-broker-2026', Component: WinprofxBestForexBroker2026 },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/currency-calculator', Component: CurrencyCalculator },

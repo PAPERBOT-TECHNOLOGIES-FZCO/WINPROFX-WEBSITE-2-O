@@ -16,7 +16,7 @@ import { PRERENDER_ROUTES, stripLocalePrefixFromPath } from './prerender-routes.
 import { getAllSitemapRoutes } from './seo-routes.mjs'
 
 /** Locked for Priority 2 — fail build if English sitemap grows/shrinks unexpectedly. */
-export const EXPECTED_SITEMAP_COUNT = 51
+export const EXPECTED_SITEMAP_COUNT = 52
 
 const AUTH_ROUTE_PREFIXES = [
   '/login',
