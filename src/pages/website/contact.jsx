@@ -17,7 +17,6 @@ export default function Contact() {
   const contactMethods = [
     { labelKey: 'supportEmail', value: 'support@winprofx.com', href: 'mailto:support@winprofx.com', external: true },
     { labelKey: 'phone', value: '+971 4 447 1894', href: 'tel:+97144471894', external: true },
-    { labelKey: 'whatsapp', value: '+971 4 447 1894', href: 'https://wa.me/97144471894', external: true },
     { labelKey: 'officialWebsite', value: 'winprofx.org', href: 'https://winprofx.org/', external: true },
     { labelKey: 'clientPortal', value: 'my.winprofx.org', href: 'https://my.winprofx.org/', external: true },
     { labelKey: 'partnerPortal', value: 'partner.winprofx.org', href: 'https://partner.winprofx.org/', external: true },
