@@ -238,8 +238,8 @@ const competitionTabs = [
         prizes: [
             {
                 place: '1st Place',
-                label: 'Mahindra Thar Roxx',
-                image: 'https://images.moneycontrol.com/static-mcnews/2024/08/20240815164118_tharmainpic.jpg',
+                label: 'Mahindra Thar',
+                image: 'https://asset.carwyapar.com/Car%20Colors/Mahindra%20Thar/DEEP%20GREY.webp',
                 highlight: true,
             },
             {
