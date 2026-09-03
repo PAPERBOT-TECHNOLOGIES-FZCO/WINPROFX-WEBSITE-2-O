@@ -239,7 +239,7 @@ const competitionTabs = [
             {
                 place: '1st Place',
                 label: 'Mahindra Thar Roxx',
-                image: 'https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&w=800&h=500&dpr=1',
+                image: 'https://images.moneycontrol.com/static-mcnews/2024/08/20240815164118_tharmainpic.jpg',
                 highlight: true,
             },
             {
