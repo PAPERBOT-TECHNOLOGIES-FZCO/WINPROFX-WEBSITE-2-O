@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState, useCallback } from 'react'
 import Button from '@/components/button';
 import { y, duration, once } from '@/utilities/animation'
 import { motion, useInView } from 'framer-motion';
@@ -206,6 +206,289 @@ export default function Banner() {
                     </motion.div>
                 </div>
             </div>
+
+            {/* Trading Competition Section */}
+            <TradingCompetition />
         </>
+    )
+}
+
+const competitionTabs = [
+    {
+        id: '$100',
+        label: '$100',
+        prizes: [
+            {
+                place: '1st Place',
+                label: 'Continental GT 650 Bike',
+                image: 'https://mcn-images.bauersecure.com/wp-images/4683/enfield-continental-gt-01.jpg',
+                highlight: true,
+            },
+            {
+                place: '2nd – 10th Place',
+                label: 'Luxury Cruise Trip',
+                image: 'https://images.pexels.com/photos/813011/pexels-photo-813011.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: false,
+            },
+        ],
+    },
+    {
+        id: '$300',
+        label: '$300',
+        prizes: [
+            {
+                place: '1st Place',
+                label: 'Mahindra Thar Roxx',
+                image: 'https://images.pexels.com/photos/1035108/pexels-photo-1035108.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: true,
+            },
+            {
+                place: '2nd Place',
+                label: 'MacBook Air',
+                image: 'https://images.pexels.com/photos/16642872/pexels-photo-16642872/free-photo-of-macbook-air-on-table.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: false,
+            },
+            {
+                place: '3rd Place',
+                label: 'PlayStation 5',
+                image: 'https://m.media-amazon.com/images/I/51dfg52K-cL.jpg',
+                highlight: false,
+            },
+            {
+                place: '4th Place',
+                label: "Couple's Cruise Trip",
+                image: 'https://images.pexels.com/photos/813011/pexels-photo-813011.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: false,
+            },
+        ],
+    },
+    {
+        id: '$1000',
+        label: '$1,000',
+        prizes: [
+            {
+                place: '1st Place',
+                label: 'Mercedes-Benz',
+                image: 'https://images.pexels.com/photos/20578547/pexels-photo-20578547/free-photo-of-white-mercedes-benz-car-on-road.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: true,
+            },
+            {
+                place: '2nd Place',
+                label: 'Thailand Trip + Private Jet Experience',
+                image: 'https://images.pexels.com/photos/28197585/pexels-photo-28197585/free-photo-of-ancient-city-bangkok.jpeg?auto=compress&w=800&h=500&dpr=1',
+                highlight: false,
+            },
+            {
+                place: '3rd Place',
+                label: 'Private Jet Experience',
+                image: 'https://thumbs.dreamstime.com/b/private-jet-plane-blue-sky-day-38122252.jpg',
+                highlight: false,
+            },
+        ],
+    },
+]
+
+const tcItems = [
+    {
+        title: 'Eligible Deposit Amounts',
+        body: 'The 100% Tradable Bonus is applicable only to the designated deposit amounts of $100, $300, and $1,000, subject to the applicable campaign conditions.',
+    },
+    {
+        title: 'Principal Must Remain Active',
+        body: "The participant's deposited principal must remain in their trading account for as long as the bonus/reward remains active.",
+    },
+    {
+        title: 'Withdrawal of Profits',
+        body: "Eligible profits generated through trading may be withdrawn in accordance with the campaign's applicable withdrawal rules and conditions.",
+    },
+    {
+        title: 'Withdrawal of Principal',
+        body: 'If a participant withdraws their principal/deposited amount while the bonus is active, the 100% Tradable Bonus will be removed from the trading account.',
+    },
+    {
+        title: 'Deposits of Different Amounts',
+        body: 'If a participant deposits an amount other than one of the designated eligible amounts, only the applicable eligible portion of the deposit will qualify for the 100% Tradable Bonus. Example: If a participant deposits $700, then $300 will qualify for the applicable 100% Tradable Bonus, while the remaining $400 will be credited to the trading account without a bonus.',
+    },
+    {
+        title: 'Campaign Participation Period',
+        body: 'The campaign participation window will remain open for one (1) month.',
+    },
+    {
+        title: 'Bonus Offer Validity',
+        body: 'The 100% Tradable Bonus offer is valid only until Tuesday at noon. Participants must complete the qualifying requirements within the applicable offer period to receive the bonus.',
+    },
+    {
+        title: 'Bonus Eligibility',
+        body: 'Participation in the campaign or making a deposit does not automatically make the entire deposited amount eligible for a bonus. Bonus eligibility will be determined according to the designated deposit amounts and applicable campaign rules.',
+    },
+    {
+        title: 'Responsible Trading',
+        body: 'Participants are encouraged to trade responsibly and ensure that they fully understand the campaign conditions, bonus requirements, and withdrawal rules before participating.',
+    },
+    {
+        title: 'Acceptance of Terms',
+        body: 'By depositing funds and participating in the 100% Tradable Bonus campaign, the participant confirms that they have read, understood, and accepted these Terms & Conditions.',
+    },
+]
+
+function TradingCompetition() {
+    const [activeTab, setActiveTab] = useState('$100')
+    const [expandedTc, setExpandedTc] = useState(null)
+
+    const currentTab = competitionTabs.find(t => t.id === activeTab)
+
+    const toggleTc = useCallback((idx) => {
+        setExpandedTc(prev => (prev === idx ? null : idx))
+    }, [])
+
+    const placeColors = ['from-yellow-400/20 to-yellow-600/5 border-yellow-400/30', 'from-slate-300/15 to-slate-500/5 border-slate-300/20', 'from-amber-700/15 to-amber-900/5 border-amber-700/20', 'from-white/8 to-white/2 border-white/10']
+    const placeRingColors = ['ring-yellow-400/50 text-yellow-300', 'ring-slate-300/40 text-slate-300', 'ring-amber-600/40 text-amber-500', 'ring-white/20 text-white/60']
+    const trophyIcons = ['🏆', '🥈', '🥉', '🎖️']
+
+    return (
+        <section className="w-full px-4 md:px-6 py-14 md:py-20 lg:py-24">
+            <div className="max-w-437 w-full mx-auto flex flex-col gap-y-14 md:gap-y-20">
+
+                {/* Header */}
+                <motion.div
+                    initial={{ opacity: 0, y: y }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: duration, delay: 0.1 }}
+                    viewport={{ once: once, amount: 0.2 }}
+                    className="flex flex-col items-center text-center gap-y-4"
+                >
+                    <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs uppercase tracking-widest text-white/60 font-medium">
+                        <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                        Live Campaign
+                    </span>
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl font-black h1graident leading-tight">
+                        WINPROFX Trading<br />Competition
+                    </h2>
+                    <p className="text-para2 max-w-160 text-base md:text-lg">
+                        Deposit, trade, and win exclusive prizes. Three tiers, three prize pools — choose your level and compete for extraordinary rewards.
+                    </p>
+                </motion.div>
+
+                {/* Tabs */}
+                <motion.div
+                    initial={{ opacity: 0, y: y }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: duration, delay: 0.15 }}
+                    viewport={{ once: once, amount: 0.1 }}
+                    className="flex flex-col gap-y-10"
+                >
+                    {/* Tab buttons */}
+                    <div className="flex items-center justify-center">
+                        <div className="inline-flex items-center gap-1 p-1 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                            {competitionTabs.map(tab => (
+                                <button
+                                    key={tab.id}
+                                    onClick={() => setActiveTab(tab.id)}
+                                    className={`px-6 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 cursor-pointer ${
+                                        activeTab === tab.id
+                                            ? 'bg-white text-black shadow-lg shadow-white/10'
+                                            : 'text-white/50 hover:text-white/80'
+                                    }`}
+                                >
+                                    Deposit {tab.label}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Prize cards */}
+                    <div className={`grid gap-4 md:gap-6 ${currentTab.prizes.length === 2 ? 'grid-cols-1 md:grid-cols-2 max-w-200 mx-auto w-full' : currentTab.prizes.length === 3 ? 'grid-cols-1 md:grid-cols-3' : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'}`}>
+                        {currentTab.prizes.map((prize, idx) => (
+                            <motion.div
+                                key={`${activeTab}-${idx}`}
+                                initial={{ opacity: 0, y: 24 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.4, delay: idx * 0.08 }}
+                                className={`relative flex flex-col rounded-2xl overflow-hidden border bg-linear-to-b ${placeColors[idx] || placeColors[3]}`}
+                            >
+                                {/* Image */}
+                                <div className="relative w-full aspect-4/3 overflow-hidden">
+                                    <img
+                                        src={prize.image}
+                                        alt={prize.label}
+                                        className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                        onError={e => { e.currentTarget.style.display = 'none' }}
+                                    />
+                                    <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent" />
+                                    {/* Place badge */}
+                                    <div className={`absolute top-3 left-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-sm ring-1 text-xs font-bold ${placeRingColors[idx] || placeRingColors[3]}`}>
+                                        <span>{trophyIcons[idx]}</span>
+                                        <span>{prize.place}</span>
+                                    </div>
+                                </div>
+
+                                {/* Content */}
+                                <div className="flex flex-col gap-y-1.5 p-4 md:p-5">
+                                    <p className="text-white font-semibold text-base md:text-lg leading-snug">{prize.label}</p>
+                                    <p className={`text-xs font-medium ${placeRingColors[idx]?.split(' ')[1] || 'text-white/50'}`}>{prize.place}</p>
+                                </div>
+                            </motion.div>
+                        ))}
+                    </div>
+                </motion.div>
+
+                {/* Deposit CTA strip */}
+                <motion.div
+                    initial={{ opacity: 0, y: y }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: duration, delay: 0.1 }}
+                    viewport={{ once: once, amount: 0.2 }}
+                    className="flex flex-col sm:flex-row items-center justify-between gap-6 rounded-2xl border border-white/10 bg-white/4 backdrop-blur-sm px-6 py-6 md:px-10 md:py-8"
+                >
+                    <div className="flex flex-col gap-y-1 text-center sm:text-left">
+                        <span className="text-white font-bold text-lg md:text-xl">Ready to compete?</span>
+                        <span className="text-white/50 text-sm">Deposit now and start trading your way to the top.</span>
+                    </div>
+                    <Button animation={false} />
+                </motion.div>
+
+                {/* Terms & Conditions — hidden for now */}
+                {false && <motion.div
+                    initial={{ opacity: 0, y: y }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: duration, delay: 0.1 }}
+                    viewport={{ once: once, amount: 0.1 }}
+                    className="flex flex-col gap-y-6"
+                >
+                    <div className="flex flex-col gap-y-2">
+                        <h3 className="text-xl md:text-2xl font-bold text-white">Terms &amp; Conditions</h3>
+                        <p className="text-white/40 text-sm">By participating in the WINPROFX 100% Trading Competition, participants acknowledge and agree to the following:</p>
+                    </div>
+
+                    <div className="flex flex-col divide-y divide-white/8 rounded-2xl border border-white/10 overflow-hidden">
+                        {tcItems.map((item, idx) => (
+                            <div key={idx} className="bg-white/3 hover:bg-white/5 transition-colors duration-200">
+                                <button
+                                    onClick={() => toggleTc(idx)}
+                                    className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left cursor-pointer"
+                                >
+                                    <div className="flex items-center gap-3">
+                                        <span className="shrink-0 w-6 h-6 rounded-full bg-white/8 flex items-center justify-center text-xs text-white/50 font-semibold">{idx + 1}</span>
+                                        <span className="text-white text-sm md:text-base font-medium">{item.title}</span>
+                                    </div>
+                                    <svg
+                                        className={`shrink-0 w-4 h-4 text-white/40 transition-transform duration-300 ${expandedTc === idx ? 'rotate-180' : ''}`}
+                                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
+                                </button>
+                                {expandedTc === idx && (
+                                    <div className="px-5 pb-4 text-white/55 text-sm leading-relaxed border-t border-white/6 pt-3">
+                                        {item.body}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>}
+
+            </div>
+        </section>
     )
 }
