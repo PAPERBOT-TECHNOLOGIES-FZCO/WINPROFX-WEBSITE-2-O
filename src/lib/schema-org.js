@@ -61,9 +61,9 @@ export const OFFICIAL_SAME_AS = [
 ]
 
 export const SOCIAL_SAME_AS = [
-  'https://www.facebook.com/profile.php?id=61551525764394',
+  'https://www.facebook.com/Winprofx.inc',
   'https://www.linkedin.com/company/winprofx',
-  'https://www.instagram.com/winprofx/',
+  'https://www.instagram.com/winprofx.main/',
   'https://www.youtube.com/@winprofx',
 ]
 

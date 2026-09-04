@@ -51,7 +51,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: 'https://www.instagram.com/winprofx/'
+      url: 'https://www.instagram.com/winprofx.main/'
     },
     {
       name: 'facebook',
@@ -66,7 +66,7 @@ export default function Social({ className }) {
           </clipPath>
         </defs>
       </svg>,
-      url: 'https://www.facebook.com/profile.php?id=61551525764394'
+      url: 'https://www.facebook.com/Winprofx.inc'
     },
   ];
 
