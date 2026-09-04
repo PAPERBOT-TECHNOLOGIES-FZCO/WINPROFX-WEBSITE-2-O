@@ -268,7 +268,7 @@ const competitionTabs = [
         prizes: [
             {
                 place: '1st Place',
-                label: 'Mercedes-Benz',
+                label: 'Mercedes',
                 image: 'https://images.pexels.com/photos/20578547/pexels-photo-20578547/free-photo-of-white-mercedes-benz-car-on-road.jpeg?auto=compress&w=800&h=500&dpr=1',
                 highlight: true,
             },
