@@ -8,7 +8,6 @@ import { useTranslation } from 'react-i18next'
 import { y, duration, once } from '@/utilities/animation'
 import { motion } from 'framer-motion';
 import { useState, useMemo } from 'react';
-import Dropdown from '@/components/ui/dropdown';
 import WhyFx from '../../components/currency/why-fx';
 
 import banner_bg from '@/assets/img/economic-calender/bg.png';
@@ -51,7 +50,7 @@ export default function HolidayCalendar() {
     const [filterMarket, setFilterMarket] = useState('all')
 
     const marketOptions = useMemo(() => {
-        const cats = ['All Markets', 'FX', 'Metals', 'OIL / Energies', 'Indices', 'US Shares', 'EU Shares', 'Asia Shares', 'Crypto', 'Futures']
+        const cats = ['All Markets', 'Metals', 'OIL / Energies', 'Indices', 'US Shares', 'Futures']
         return [{ value: 'all', name: 'All Markets' }, ...cats.slice(1).map(c => ({ value: c, name: c }))]
     }, [])
 
@@ -106,14 +105,23 @@ export default function HolidayCalendar() {
                         {/* Filters */}
                         <div className="pb-4 md:pb-5 lg:pb-6 flex flex-col gap-y-3">
                             <div className="flex flex-wrap items-end gap-3">
-                                <Dropdown
-                                    className="w-full max-w-75"
-                                    label="Market"
-                                    labelClass="mb-1 text-sm"
-                                    items={marketOptions}
-                                    value={filterMarket}
-                                    onChange={v => setFilterMarket(v)}
-                                />
+                                <div className="flex flex-col gap-y-2 w-full max-w-75">
+                                    <label className="block font-normal uppercase text-white leading-normal text-sm">Market</label>
+                                    <div className="relative">
+                                        <select
+                                            value={filterMarket}
+                                            onChange={e => setFilterMarket(e.target.value)}
+                                            className="w-full px-4 pr-10 border border-solid border-white/24 rounded-full font-medium text-sm bg-[#05060A] text-white min-h-13 appearance-none cursor-pointer outline-none"
+                                        >
+                                            {marketOptions.map(opt => (
+                                                <option key={opt.value} value={opt.value}>{opt.name}</option>
+                                            ))}
+                                        </select>
+                                        <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-white/50">
+                                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1L6 6L11 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>
+                                        </span>
+                                    </div>
+                                </div>
                                 {filterMarket !== 'all' && (
                                     <button
                                         onClick={() => setFilterMarket('all')}
