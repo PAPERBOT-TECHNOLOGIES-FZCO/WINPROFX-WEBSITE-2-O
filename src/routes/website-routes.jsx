@@ -17,6 +17,7 @@ import BlogDetails from '@/pages/website/blog/blog-details'
 import WinprofxBestForexBroker2026 from '@/pages/website/blog/winprofx-best-forex-broker-2026'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
+import HolidayCalendar from '@/pages/website/holiday-calendar'
 import CurrencyCalculator from '@/pages/website/currency-calculator'
 import CurrencyConverter from '@/pages/website/currency-converter'
 import Policy from '@/pages/website/policy'
@@ -84,6 +85,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/winprofx-best-forex-broker-2026', Component: WinprofxBestForexBroker2026 },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
+  { path: '/holiday-calendar', Component: HolidayCalendar },
   { path: '/currency-calculator', Component: CurrencyCalculator },
   { path: '/currency-converter', Component: CurrencyConverter },
   { path: '/policy', Component: Policy },

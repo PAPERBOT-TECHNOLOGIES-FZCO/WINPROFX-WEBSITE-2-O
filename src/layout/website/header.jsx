@@ -41,6 +41,7 @@ export default function Header() {
         { btn_title: t('economicCalendar'), to: '/economic-calendar' },
         { btn_title: t('currencyCalculator'), to: '/currency-calculator' },
         { btn_title: t('currencyConverter'), to: '/currency-converter' },
+        { btn_title: t('holidayCalendar'), to: '/holiday-calendar' },
       ],
     },
     {

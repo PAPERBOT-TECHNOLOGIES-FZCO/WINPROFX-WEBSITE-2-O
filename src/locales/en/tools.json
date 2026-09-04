@@ -111,6 +111,61 @@
       }
     }
   },
+  "holidayCalendar": {
+    "meta": "HOLIDAY CALENDAR",
+    "h1": "Holiday Calendar",
+    "heroDescription": "Stay informed about global market holidays, early closures, and trading schedule changes so you never miss a beat.",
+    "legend": "Impact:",
+    "legendAllClosed": "All Markets Closed",
+    "legendClosed": "Market Closed",
+    "legendEarlyClose": "Early Close",
+    "tableHeaders": {
+      "date": "Date",
+      "market": "Market",
+      "event": "Event",
+      "impact": "Impact"
+    },
+    "sections": {
+      "understanding": {
+        "title": "Why Market Holidays Matter for Traders",
+        "p1": "Forex and financial markets follow the schedules of major global exchanges. On public holidays, liquidity drops significantly — spreads widen, order books thin out, and price moves can be erratic or misleading.",
+        "p2": "Knowing which markets are closed on any given day helps you avoid unnecessary risk, plan your positions in advance, and understand why certain pairs may behave differently around holiday periods."
+      },
+      "whyUse": {
+        "title": "How to Use the WINPROFX Holiday Calendar",
+        "p1": "Before entering a trade, check the Holiday Calendar to confirm that the relevant market is fully operational. If a key market (e.g., New York for USD pairs) is closed, you may want to reduce position sizes or wait for normal conditions.",
+        "p2": "The calendar is especially useful around Christmas, New Year, Easter, and major US holidays — periods when thin liquidity can cause unexpected gaps or spikes that stop-hunt overleveraged positions."
+      }
+    },
+    "faqTitle": "Frequently asked questions",
+    "faqSubtitle": "Find clear and concise answers to common questions about market holidays and how they affect your trading.",
+    "faqs": {
+      "whatIs": {
+        "title": "What is a Forex Market Holiday Calendar?",
+        "body": "<p>A Forex Market Holiday Calendar lists the days on which major financial markets are fully or partially closed. These dates affect liquidity, spread widths, and price volatility across all instruments.</p>"
+      },
+      "howAffects": {
+        "title": "How do market holidays affect trading?",
+        "body": "<p>On market holidays, trading volumes drop sharply, spreads widen, and price movements can be unpredictable. It is generally advisable to reduce position sizes or avoid opening new trades around these periods.</p>"
+      },
+      "allClosed": {
+        "title": "Are all markets closed on the same days?",
+        "body": "<p>No. Each country and exchange follows its own holiday schedule. For example, US markets close on Thanksgiving, while European markets remain open. The Forex market itself (being decentralized) technically operates 24/5, but liquidity is severely reduced when major centers are offline.</p>"
+      },
+      "earlyClose": {
+        "title": "What is an early close?",
+        "body": "<p>An early close means a market shuts before its normal session end time. For example, US equity markets often close at 1:00 PM ET on the day after Thanksgiving (Black Friday). Forex liquidity can thin noticeably during these windows.</p>"
+      },
+      "updated": {
+        "title": "How often is the Holiday Calendar updated?",
+        "body": "<p>The calendar is reviewed and updated annually as official holiday schedules are confirmed by exchanges and clearing houses. Check back at the start of each year for the latest dates.</p>"
+      },
+      "timezones": {
+        "title": "Which timezone do the holiday dates refer to?",
+        "body": "<p>Holiday dates are listed in the local timezone of the affected market (e.g., Eastern Time for US markets, GMT for UK markets). Always confirm the exact session hours on your platform, especially during daylight saving time transitions.</p>"
+      }
+    }
+  },
   "currencyCalculator": {
     "meta": "CURRENCY CALCULATOR",
     "h1": "Currency Calculator",

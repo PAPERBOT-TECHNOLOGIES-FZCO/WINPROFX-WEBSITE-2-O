@@ -70,6 +70,10 @@
     "title": "Economic Calendar | WINPROFX",
     "description": "Stay updated with WINPROFX's Economic Calendar. Track major market events like GDP announcements & interest rate changes to enhance your trading strategy."
   },
+  "holidayCalendar": {
+    "title": "Holiday Calendar | WINPROFX",
+    "description": "Plan your trading around global market holidays with WINPROFX's Holiday Calendar. Stay informed about exchange closures, early sessions, and low-liquidity periods."
+  },
   "currencyCalculator": {
     "title": "Currency Calculator | WINPROFX",
     "description": "Streamline your trading calculations with WINPROFX's currency calculator. Efficiently manage trades and understand costs like margin and pip values. Calculate now!"
