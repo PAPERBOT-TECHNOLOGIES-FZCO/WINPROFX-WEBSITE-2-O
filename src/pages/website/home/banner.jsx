@@ -184,29 +184,6 @@ export default function Banner() {
                 </div>
             </div>
 
-            {/* Live Trading Arena Leaderboard */}
-            <div className="w-full px-4 md:px-6 pb-10 md:pb-13 lg:pb-16">
-                <div className="max-w-437 w-full mx-auto">
-                    <motion.div
-                        initial={{ opacity: 0, y: y }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: duration, delay: 0.2 }}
-                        viewport={{ once: once, amount: 0.1 }}
-                        className="w-full rounded-2xl overflow-hidden border border-white/10 shadow-[0_0_60px_0_rgba(255,255,255,0.04)]"
-                        style={{ height: '700px' }}
-                    >
-                        <iframe
-                            src="https://leaderboard.winproconnect.com/"
-                            title="WINPROFX Live Trading Arena"
-                            className="w-full h-full"
-                            style={{ border: 'none', display: 'block' }}
-                            loading="lazy"
-                            allow="fullscreen"
-                        />
-                    </motion.div>
-                </div>
-            </div>
-
             {/* Trading Competition Section */}
             <TradingCompetition />
         </>
