@@ -15,6 +15,7 @@ import AboutUs from '@/pages/website/about-us'
 import Blog from '@/pages/website/blog/index'
 import BlogDetails from '@/pages/website/blog/blog-details'
 import WinprofxBestForexBroker2026 from '@/pages/website/blog/winprofx-best-forex-broker-2026'
+import MauritiusForexLicense from '@/pages/website/blog/mauritius-forex-license'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
 import HolidayCalendar from '@/pages/website/holiday-calendar'
@@ -83,6 +84,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/blog', Component: Blog },
   { path: '/blog/:id', Component: BlogDetails },
   { path: '/winprofx-best-forex-broker-2026', Component: WinprofxBestForexBroker2026 },
+  { path: '/mauritius-forex-license', Component: MauritiusForexLicense },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/holiday-calendar', Component: HolidayCalendar },
