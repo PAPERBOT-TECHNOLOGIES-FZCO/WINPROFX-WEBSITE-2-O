@@ -15,7 +15,7 @@ import img_4 from '@/assets/img/blog/4.png'
 import img_5 from '@/assets/img/blog/5.png'
 import img_6 from '@/assets/img/blog/6.png'
 import imgBestBroker from '@/assets/img/blog/best-forex-broker-2026-banner.png'
-import imgMauritiusLicense from '@/assets/img/blog/mauritius-forex-license-banner.jpg'
+import imgMauritiusLicense from '@/assets/img/blog/highhh.jpeg'
 import shape from '@/assets/img/blog/shape.png'
 
 

@@ -4,7 +4,7 @@ import SeoHead from '@/components/seo-head'
 import Button from '@/components/button'
 import DemoCta from '@/components/demo-cta'
 
-import bannerImg from '@/assets/img/blog/mauritius-forex-license-banner.jpg'
+import bannerImg from '@/assets/img/blog/highhh.jpeg'
 import shape from '@/assets/img/blog/shape.png'
 
 const META_TITLE = 'Mauritius Forex License: Guide for Traders & Brokers 2026'
