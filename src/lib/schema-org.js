@@ -343,6 +343,32 @@ export function buildArticleSchema({ headline, description, url, datePublished, 
   return schema
 }
 
+export function buildLocalBusinessSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FinancialService',
+    '@id': 'https://www.winprofx.com/#localbusiness',
+    name: 'WinproFX',
+    url: 'https://www.winprofx.com/',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.winprofx.com/assets/logo-DMyaJWmi.png',
+    },
+    image: 'https://www.winprofx.com/assets/logo-DMyaJWmi.png',
+    telephone: '+97144471894',
+    email: 'support@winprofx.com',
+    description:
+      'WINPROFX is a forex and CFD trading brand offering trading platform access, client account services, partner program tools, and trading-related support services.',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Sheikh Zayed Rd - Trade Center First',
+      addressLocality: 'Dubai',
+      addressRegion: 'Dubai',
+      addressCountry: 'AE',
+    },
+  }
+}
+
 export function buildBlogPostingSchema({ headline, description, url, datePublished, dateModified, image, locale = 'en' }) {
   const schema = {
     '@context': 'https://schema.org',

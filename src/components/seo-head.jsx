@@ -6,6 +6,7 @@ import {
   buildBreadcrumbSchema,
   buildCanonicalUrl,
   buildFaqPageSchema,
+  buildLocalBusinessSchema,
   buildOrganizationSchema,
   buildWebPageSchema,
   buildWebsiteSchema,
@@ -62,6 +63,8 @@ export default function SeoHead({
   })
 
   const faqPageSchema = faqItems?.length ? buildFaqPageSchema(faqItems) : null
+
+  const localBusinessSchema = schemaPath === '/' ? buildLocalBusinessSchema() : null
 
   const breadcrumbSchema =
     pageConfig?.breadcrumb != null
@@ -141,6 +144,9 @@ export default function SeoHead({
       <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
       <script type="application/ld+json">{JSON.stringify(websiteSchema)}</script>
       <script type="application/ld+json">{JSON.stringify(webPageSchema)}</script>
+      {localBusinessSchema && (
+        <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
+      )}
       {breadcrumbSchema && (
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       )}

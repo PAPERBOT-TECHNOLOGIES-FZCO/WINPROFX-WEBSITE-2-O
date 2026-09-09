@@ -15,6 +15,7 @@ import img_4 from '@/assets/img/blog/4.png'
 import img_5 from '@/assets/img/blog/5.png'
 import img_6 from '@/assets/img/blog/6.png'
 import imgBestBroker from '@/assets/img/blog/best-forex-broker-2026-banner.png'
+import imgForexExpo from '@/assets/img/blog/forex-expo-dubai-2026-banner.jpg'
 import shape from '@/assets/img/blog/shape.png'
 
 
@@ -29,8 +30,9 @@ export default function Blog() {
     const [active_category, set_active_category] = useState(categorys[0]);
 
     const postKeys = t('blog.postKeys', { returnObjects: true, defaultValue: [] })
-    const postImages = [imgBestBroker, img_1, img_2, img_3, img_4, img_5, img_6, img_4]
+    const postImages = [imgForexExpo, imgBestBroker, img_1, img_2, img_3, img_4, img_5, img_6]
     const postCategories = [
+      ['forex'],
       ['forex'],
       ['forex', 'crypto', 'metals'],
       ['indices'],
