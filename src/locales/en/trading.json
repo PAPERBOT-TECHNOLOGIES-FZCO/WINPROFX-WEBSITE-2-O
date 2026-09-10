@@ -453,9 +453,16 @@
         "des": "Meet WINPROFX at Forex Expo Dubai 2026 on 22–23 September. Discover its multi-asset trading solutions and connect with the team at Booth 155.",
         "url": "/winprofx-forex-expo-dubai-2026",
         "category": ["forex"]
+      },
+      "whyDubaiForexHub": {
+        "title": "Why Is Dubai Becoming a Global Forex & Fintech Hub?",
+        "des": "Discover why Dubai is becoming a global forex and fintech hub and what its financial growth means for modern traders and platforms like WINPROFX.",
+        "url": "/why-dubai-global-forex-fintech-hub",
+        "category": ["forex"]
       }
     },
     "postKeys": [
+      "whyDubaiForexHub",
       "forexExpoDubai2026",
       "bestForexBroker2026",
       "overview",

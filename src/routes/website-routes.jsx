@@ -16,6 +16,7 @@ import Blog from '@/pages/website/blog/index'
 import BlogDetails from '@/pages/website/blog/blog-details'
 import WinprofxBestForexBroker2026 from '@/pages/website/blog/winprofx-best-forex-broker-2026'
 import WinprofxForexExpoDubai2026 from '@/pages/website/blog/winprofx-forex-expo-dubai-2026'
+import WhyDubaiGlobalForexFintechHub from '@/pages/website/blog/why-dubai-global-forex-fintech-hub'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
 import HolidayCalendar from '@/pages/website/holiday-calendar'
@@ -85,6 +86,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/blog/:id', Component: BlogDetails },
   { path: '/winprofx-best-forex-broker-2026', Component: WinprofxBestForexBroker2026 },
   { path: '/winprofx-forex-expo-dubai-2026', Component: WinprofxForexExpoDubai2026 },
+  { path: '/why-dubai-global-forex-fintech-hub', Component: WhyDubaiGlobalForexFintechHub },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/holiday-calendar', Component: HolidayCalendar },
