@@ -140,7 +140,7 @@ export default function WinprofxForexExpoDubai2026() {
                   The global Forex market is bigger than ever, and Dubai is once again becoming a meeting point for the people shaping its future.
                 </p>
                 <p className="text-para leading-relaxed">
-                  The global FX market continues to see strong trading activity. According to CLS Group's July 2026 data, average daily FX trading volume reached approximately <strong className="text-white">$2.66 trillion</strong>, representing a <strong className="text-white">14.7% increase</strong> compared with July 2025. The rise was supported by higher activity across FX forwards, swaps and spot markets.
+                  The global FX market continues to see strong trading activity. According to <a href="https://www.cls-group.com/news/cls-fx-trading-activity-july-2026/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">CLS Group's July 2026 data</a>, average daily FX trading volume reached approximately <strong className="text-white">$2.66 trillion</strong>, representing a <strong className="text-white">14.7% increase</strong> compared with July 2025. The rise was supported by higher activity across FX forwards, swaps and spot markets.
                 </p>
                 <p className="text-para leading-relaxed">
                   Against this rapidly evolving backdrop, <strong className="text-white">WINPROFX is heading to Forex Expo Dubai 2026 as an Elite Sponsor</strong>, bringing its brand, trading solutions and industry vision to one of the region's biggest financial events.
@@ -224,7 +224,7 @@ export default function WinprofxForexExpoDubai2026() {
                   </div>
                 </div>
                 <p className="text-para leading-relaxed">
-                  As financial markets continue to evolve, traders are increasingly looking beyond traditional currency pairs. The growth of digital assets has also created greater interest in finding a reliable crypto trading platform alongside access to established markets.
+                  As financial markets continue to evolve, traders are increasingly looking beyond traditional currency pairs. The growth of digital assets has also created greater interest in finding a reliable <a href="https://winprofx.com/crypto/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">crypto trading platform</a> alongside access to established markets.
                 </p>
               </section>
 
@@ -256,7 +256,7 @@ export default function WinprofxForexExpoDubai2026() {
                   Modern market participants are not necessarily focused on a single asset class.
                 </p>
                 <p className="text-para leading-relaxed">
-                  Someone researching commodity trading for beginners, for example, may also want to understand forex, indices or precious metals. Meanwhile, experienced participants may be exploring diversified strategies across currencies, commodities and digital assets.
+                  Someone researching <a href="https://winprofx.com/trading/commodities" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">commodity trading for beginners</a>, for example, may also want to understand forex, indices or precious metals. Meanwhile, experienced participants may be exploring diversified strategies across currencies, commodities and digital assets.
                 </p>
                 <p className="text-para leading-relaxed">
                   This is where multi-asset platforms are becoming increasingly relevant. WINPROFX's market offering is designed around this broader approach, giving users access to several financial instruments through its trading environment.
@@ -291,7 +291,7 @@ export default function WinprofxForexExpoDubai2026() {
                   ))}
                 </div>
                 <p className="text-para leading-relaxed text-sm">
-                  Whether you're exploring trading technology, looking for a CFD broker in Dubai, interested in market trends or simply want to connect with professionals from across the financial industry, Forex Expo Dubai 2026 promises two days of conversations, ideas and opportunities.
+                  Whether you're exploring trading technology, looking for a <a href="https://winprofx.com/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">CFD broker in Dubai</a>, interested in market trends or simply want to connect with professionals from across the financial industry, Forex Expo Dubai 2026 promises two days of conversations, ideas and opportunities.
                 </p>
                 <p className="text-white font-bold text-xl">See you at Booth 155.</p>
               </section>

@@ -149,11 +149,15 @@ export default function WhyDubaiGlobalForexFintechHub() {
                   {[
                     { stat: '10,018', label: 'Active Registered Companies', sub: '30% YoY growth — H1 2026' },
                     { stat: '1,933', label: 'AI, FinTech & Innovation Firms', sub: '39% YoY growth' },
-                    { stat: '1,134', label: 'Regulated Financial-Services Firms', sub: 'Up 16% from H1 2025' },
+                    { stat: '1,134', label: 'Regulated Financial-Services Firms', sub: 'Up 16% from H1 2025', href: 'https://www.difc.com/whats-on/news/industry-leading-achievements-h1-2026' },
                   ].map((item) => (
                     <div key={item.stat} className="flex flex-col gap-1 p-5 rounded-2xl bg-white/4 border border-white/10 text-center">
                       <span className="text-3xl md:text-4xl font-bold text-white">{item.stat}</span>
-                      <span className="text-white text-sm font-semibold leading-snug">{item.label}</span>
+                      {item.href ? (
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="text-white text-sm font-semibold leading-snug underline underline-offset-4 hover:text-primary transition-colors">{item.label}</a>
+                      ) : (
+                        <span className="text-white text-sm font-semibold leading-snug">{item.label}</span>
+                      )}
                       <span className="text-white/40 text-xs">{item.sub}</span>
                     </div>
                   ))}
@@ -178,7 +182,7 @@ export default function WhyDubaiGlobalForexFintechHub() {
                   But location alone does not explain its financial growth. The combination of global connectivity, financial infrastructure, technology, capital and specialised talent has helped Dubai build an ecosystem capable of supporting international financial businesses.
                 </p>
                 <p className="text-para leading-relaxed">
-                  That broader environment reflects the direction in which forex trading is moving. Modern traders increasingly look for platforms that provide access to multiple markets, competitive trading conditions and technology that can support different trading approaches, making a forex broker with fast execution an important consideration.
+                  That broader environment reflects the direction in which forex trading is moving. Modern traders increasingly look for platforms that provide access to multiple markets, competitive trading conditions and technology that can support different trading approaches, making a <a href="https://winprofx.com/" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">forex broker with fast execution</a> an important consideration.
                 </p>
                 <p className="text-para leading-relaxed">
                   This is where the role of platforms such as WINPROFX becomes relevant.
@@ -254,7 +258,7 @@ export default function WhyDubaiGlobalForexFintechHub() {
                   Forex trading is experiencing the same transformation. Trading platforms, market data, execution systems and digital connectivity all influence how traders interact with financial markets.
                 </p>
                 <p className="text-para leading-relaxed">
-                  WINPROFX uses MetaTrader 5 (MT5) as part of its trading environment, giving traders access to a widely used platform for market analysis and trading. For someone researching a forex trading platform, this makes technology an important consideration alongside pricing and available instruments.
+                  WINPROFX uses MetaTrader 5 (MT5) as part of its trading environment, giving traders access to a widely used platform for market analysis and trading. For someone researching a <a href="https://winprofx.com/forex" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">forex trading platform</a>, this makes technology an important consideration alongside pricing and available instruments.
                 </p>
               </section>
 
@@ -281,7 +285,7 @@ export default function WhyDubaiGlobalForexFintechHub() {
                   WINPROFX offers multiple asset classes and account structures, but traders should always review the applicable terms and confirm that the services are available in their jurisdiction before opening an account.
                 </p>
                 <p className="text-para leading-relaxed text-sm italic">
-                  Similar Article to Read: <a href="/winprofx-best-forex-broker-2026" className="text-primary underline underline-offset-4">Why Are Traders Choosing WINPROFX as Top Forex Broker?</a>
+                  Similar Article to Read: <a href="https://winprofx.com/winprofx-best-forex-broker-2026" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4">Why Are Traders Choosing WINPROFX as Top Forex Broker?</a>
                 </p>
               </section>
 
@@ -294,7 +298,7 @@ export default function WhyDubaiGlobalForexFintechHub() {
                   Dubai's financial expansion is not happening in isolation. Its growing financial sector, expanding fintech ecosystem and rising position among global financial centres reflect a broader shift toward technology-driven and interconnected financial markets.
                 </p>
                 <p className="text-para leading-relaxed">
-                  For forex traders, this means the trading experience is becoming increasingly multi-dimensional. Access to currencies is still important, but so are technology, market variety, execution and flexibility, especially when choosing a Gold trading platform.
+                  For forex traders, this means the trading experience is becoming increasingly multi-dimensional. Access to currencies is still important, but so are technology, market variety, execution and flexibility, especially when choosing a <a href="https://winprofx.com/trading/metals" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4 hover:opacity-80 transition-opacity">Gold trading platform</a>.
                 </p>
                 <p className="text-para leading-relaxed">
                   WINPROFX's multi-asset approach reflects this changing environment, giving traders access to forex alongside markets including metals, indices, commodities, energies and crypto.
@@ -325,7 +329,9 @@ export default function WhyDubaiGlobalForexFintechHub() {
                 <div>
                   <p className="text-white/60 text-sm mb-3">Curious about what's coming?</p>
                   <a
-                    href="/winprofx-forex-expo-dubai-2026"
+                    href="https://winprofx.com/winprofx-forex-expo-dubai-2026"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-white font-semibold text-sm hover:opacity-90 transition-opacity"
                   >
                     Read Our Recently Released Article Now!
