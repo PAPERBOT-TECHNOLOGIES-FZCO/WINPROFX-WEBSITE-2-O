@@ -1,10 +1,40 @@
+User-agent: *
+Content-Signal: search=yes,ai-train=no,use=reference
+Allow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+# END Cloudflare Managed Content
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
 Allow: /
 
 User-agent: Googlebot
@@ -15,7 +45,6 @@ Allow: /
 
 User-agent: *
 Allow: /
-
 Disallow: /admin
 Disallow: /admin/
 Disallow: /dashboard
@@ -67,4 +96,4 @@ Disallow: /*?email=
 Disallow: /*?otp=
 Disallow: /*?code=
 
-Sitemap: https://winprofx.org/sitemap.xml
+Sitemap: https://winprofx.com/sitemap.xml
