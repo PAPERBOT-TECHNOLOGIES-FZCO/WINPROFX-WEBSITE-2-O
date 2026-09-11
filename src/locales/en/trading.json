@@ -459,9 +459,16 @@
         "des": "Discover why Dubai is becoming a global forex and fintech hub and what its financial growth means for modern traders and platforms like WINPROFX.",
         "url": "/why-dubai-global-forex-fintech-hub",
         "category": ["forex"]
+      },
+      "goldTrading2026": {
+        "title": "Gold Trading in 2026: Volatility, Trends & What's Ahead",
+        "des": "Discover how gold has performed in 2026, what is driving global gold prices, major volatility periods, and how WINPROFX makes gold trading more seamless.",
+        "url": "/gold-trading-in-2026",
+        "category": ["metals"]
       }
     },
     "postKeys": [
+      "goldTrading2026",
       "whyDubaiForexHub",
       "forexExpoDubai2026",
       "bestForexBroker2026",
