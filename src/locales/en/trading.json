@@ -465,9 +465,16 @@
         "des": "Discover how gold has performed in 2026, what is driving global gold prices, major volatility periods, and how WINPROFX makes gold trading more seamless.",
         "url": "/gold-trading-in-2026",
         "category": ["metals"]
+      },
+      "winprofxJourney4Years": {
+        "title": "From Vision to Global Markets: The WINPROFX Journey of 4+ Years",
+        "des": "Discover the WINPROFX journey of 4+ years — from early vision to a multi-asset trading environment offering forex, indices, crypto, metals, commodities and oil.",
+        "url": "/winprofx-journey-4-years",
+        "category": ["forex"]
       }
     },
     "postKeys": [
+      "winprofxJourney4Years",
       "goldTrading2026",
       "whyDubaiForexHub",
       "forexExpoDubai2026",
