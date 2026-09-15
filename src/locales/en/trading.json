@@ -471,9 +471,16 @@
         "des": "Discover the WINPROFX journey of 4+ years — from early vision to a multi-asset trading environment offering forex, indices, crypto, metals, commodities and oil.",
         "url": "/winprofx-journey-4-years",
         "category": ["forex"]
+      },
+      "oilMarketOutlook2026": {
+        "title": "Oil Market Outlook 2026: Is Oil Trading Still Worth It?",
+        "des": "Explore the oil market outlook for 2026, key price drivers, supply risks, demand trends and what traders should watch when trading oil CFDs.",
+        "url": "/oil-market-outlook-2026",
+        "category": ["commodities"]
       }
     },
     "postKeys": [
+      "oilMarketOutlook2026",
       "winprofxJourney4Years",
       "goldTrading2026",
       "whyDubaiForexHub",

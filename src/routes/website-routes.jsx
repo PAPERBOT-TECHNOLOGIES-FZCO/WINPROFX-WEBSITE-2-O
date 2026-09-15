@@ -19,6 +19,7 @@ import WinprofxForexExpoDubai2026 from '@/pages/website/blog/winprofx-forex-expo
 import WhyDubaiGlobalForexFintechHub from '@/pages/website/blog/why-dubai-global-forex-fintech-hub'
 import GoldTradingIn2026 from '@/pages/website/blog/gold-trading-in-2026'
 import WinprofxJourney4Years from '@/pages/website/blog/winprofx-journey-4-years'
+import OilMarketOutlook2026 from '@/pages/website/blog/oil-market-outlook-2026'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
 import HolidayCalendar from '@/pages/website/holiday-calendar'
@@ -91,6 +92,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/why-dubai-global-forex-fintech-hub', Component: WhyDubaiGlobalForexFintechHub },
   { path: '/gold-trading-in-2026', Component: GoldTradingIn2026 },
   { path: '/winprofx-journey-4-years', Component: WinprofxJourney4Years },
+  { path: '/oil-market-outlook-2026', Component: OilMarketOutlook2026 },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/holiday-calendar', Component: HolidayCalendar },

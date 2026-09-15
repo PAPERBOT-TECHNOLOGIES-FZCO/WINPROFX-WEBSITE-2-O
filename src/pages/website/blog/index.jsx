@@ -19,6 +19,7 @@ import imgForexExpo from '@/assets/img/blog/forex-expo-dubai-2026-banner.jpg'
 import imgWhyDubai from '@/assets/img/blog/why-dubai-forex-fintech-hub-banner.jpg'
 import imgGold2026 from '@/assets/img/blog/gold-trading-2026-banner.jpg'
 import imgJourney from '@/assets/img/blog/winprofx-journey-4-years-banner.jpg'
+import imgOil2026 from '@/assets/img/blog/oil-market-outlook-2026-banner.jpg'
 import shape from '@/assets/img/blog/shape.png'
 
 
@@ -33,7 +34,7 @@ export default function Blog() {
     const [active_category, set_active_category] = useState(categorys[0]);
 
     const postKeys = t('blog.postKeys', { returnObjects: true, defaultValue: [] })
-    const postImages = [imgJourney, imgGold2026, imgWhyDubai, imgForexExpo, imgBestBroker, img_1, img_2, img_3, img_4, img_5, img_6]
+    const postImages = [imgOil2026, imgJourney, imgGold2026, imgWhyDubai, imgForexExpo, imgBestBroker, img_1, img_2, img_3, img_4, img_5, img_6]
     const postCategories = [
       ['forex'],
       ['forex'],
