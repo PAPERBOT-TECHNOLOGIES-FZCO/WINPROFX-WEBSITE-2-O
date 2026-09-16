@@ -12,7 +12,7 @@ const NON_DEFAULT_LOCALE_CODES = ['hi', 'id', 'vi', 'bn', 'ms', 'es', 'pt', 'zh'
 /** English path hints for prerender wait conditions (keyed by unprefixed path). */
 const TITLE_HINTS = {
   '/': {
-    expectedTitle: 'WINPROFX Official Website',
+    expectedTitle: 'Trusted Forex Trading Platform',
     expectedH1: 'Your Path to Profitable Trading Start Here',
   },
   // '/trust-center': { expectedTitle: 'Trust Center', expectedH1: 'WINPROFX Trust Center' },
