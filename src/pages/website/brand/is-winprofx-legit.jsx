@@ -81,7 +81,7 @@ export default function IsWinprofxLegit() {
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.officialDomainsVerification`)}>
           <p className="mb-4">
             Always verify you are on an official WINPROFX domain before logging in, depositing, or
-            sharing documents. The main website is winprofx.org; client login is at my.winprofx.org.
+            sharing documents. The main website is winprofx.org; client login is at my.winprofx.com.
           </p>
           {/* <LocalizedLink to="/official-domains/" className="text-primary underline">Official domains</LocalizedLink>
           {' · '} */}

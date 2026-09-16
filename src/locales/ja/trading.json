@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "WINPROFX で取引を始めるには？",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">口座を作成：</strong><p>公式 WINPROFX ウェブサイト <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> にアクセスするか、<a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">こちらから登録</a>してください。</p><p>「登録」または「口座開設」オプションを探してください。</p><p>個人情報および連絡先を含む必要事項を入力してください。</p><p>利用規約に同意してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">本人確認（KYC）：</strong><p>規制要件に従い、本人確認書類を提出して必要な身元確認プロセスを完了してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">入金：</strong><p>新しく作成した口座にログインします。</p><p>入金または資金セクションに移動します。</p><p>希望の支払方法を選択し、取引口座に入金します。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームを選択：</strong><p>利用可能な取引プラットフォーム — MetaTrader 5（MT5）から選択します。</p><p>取引プラットフォームをダウンロードしてインストールします。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームにログイン：</strong><p>取引プラットフォームを開きます。</p><p>口座認証情報を入力してログインします。</p><p>問題が発生した場合は、WINPROFX のカスタマーサポートがサポートいたします。<a href=\"/contact\" class=\"text-white underline\">お問い合わせ</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">口座を作成：</strong><p>公式 WINPROFX ウェブサイト <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> にアクセスするか、<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">こちらから登録</a>してください。</p><p>「登録」または「口座開設」オプションを探してください。</p><p>個人情報および連絡先を含む必要事項を入力してください。</p><p>利用規約に同意してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">本人確認（KYC）：</strong><p>規制要件に従い、本人確認書類を提出して必要な身元確認プロセスを完了してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">入金：</strong><p>新しく作成した口座にログインします。</p><p>入金または資金セクションに移動します。</p><p>希望の支払方法を選択し、取引口座に入金します。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームを選択：</strong><p>利用可能な取引プラットフォーム — MetaTrader 5（MT5）から選択します。</p><p>取引プラットフォームをダウンロードしてインストールします。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームにログイン：</strong><p>取引プラットフォームを開きます。</p><p>口座認証情報を入力してログインします。</p><p>問題が発生した場合は、WINPROFX のカスタマーサポートがサポートいたします。<a href=\"/contact\" class=\"text-white underline\">お問い合わせ</a></p></div>"
       },
       "instruments": {
         "title": "WINPROFX で取引できる金融商品は？",
@@ -387,7 +387,7 @@
     },
     "introP1": "WINPROFX は、口座に関するお問い合わせ、取引プラットフォームのサポート、入出金、一般的なご質問に対応するカスタマーサポートを提供しています。主な公式ウェブサイトは",
     "introP2Start": "口座ログインおよび取引には、",
-    "introP2ClientPortal": "my.winprofx.org のクライアントポータル",
+    "introP2ClientPortal": "my.winprofx.com のクライアントポータル",
     "introP2Middle": "をご利用ください。パートナーの方は",
     "introP2PartnerPortal": "partner.winprofx.org",
     "customerSupport": "カスタマーサポート：",

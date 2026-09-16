@@ -73,7 +73,7 @@ export default function WinprofxFakeWebsiteWarning() {
 
         <IdentitySection title={t('pages.winprofxFakeWebsiteWarning.sections.safeLogin')}>
           <p className="mb-4">
-            Client login: <a href="https://my.winprofx.org/" className="text-primary underline" rel="noopener noreferrer">https://my.winprofx.org/</a>
+            Client login: <a href="https://my.winprofx.com/" className="text-primary underline" rel="noopener noreferrer">https://my.winprofx.com/</a>
             <br />
             Partner portal: <a href="https://partner.winprofx.org/" className="text-primary underline" rel="noopener noreferrer">https://partner.winprofx.org/</a>
           </p>

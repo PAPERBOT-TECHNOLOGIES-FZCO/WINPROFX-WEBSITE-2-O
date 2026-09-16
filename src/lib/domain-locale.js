@@ -53,14 +53,14 @@ export function isLatinAmericaDomain(hostname) {
 /**
  * Domain-to-client-portal mapping.
  * When the site is served from a .lat domain, login/register links point to
- * my.winprofx.lat instead of the default my.winprofx.org portal.
+ * my.winprofx.lat instead of the default my.winprofx.com portal.
  */
 const DOMAIN_PORTAL_HOSTS = {
   'winprofx.lat': 'my.winprofx.lat',
   'www.winprofx.lat': 'my.winprofx.lat',
 }
 
-const DEFAULT_PORTAL_HOST = 'my.winprofx.org'
+const DEFAULT_PORTAL_HOST = 'my.winprofx.com'
 
 /**
  * Domain-specific register URL overrides.

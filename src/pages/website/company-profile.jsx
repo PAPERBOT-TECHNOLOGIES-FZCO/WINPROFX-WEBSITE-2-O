@@ -44,7 +44,7 @@ const brandInfoValues = {
   mainWebsite: { value: 'https://winprofx.org/', href: 'https://winprofx.org/', external: false },
   alternateDomain: { value: 'https://winprofx.com/', href: 'https://winprofx.com/', external: true },
   uaeDomain: { value: 'https://winprofx.ae/', href: 'https://winprofx.ae/', external: true },
-  clientPortal: { value: 'https://my.winprofx.org/', href: 'https://my.winprofx.org/', external: true },
+  clientPortal: { value: 'https://my.winprofx.com/', href: 'https://my.winprofx.com/', external: true },
   partnerPortal: { value: 'https://partner.winprofx.org/', href: 'https://partner.winprofx.org/', external: true },
   supportEmail: { value: SUPPORT_EMAIL, href: `mailto:${SUPPORT_EMAIL}`, external: true },
   lastUpdated: { value: '2 June 2026' },
@@ -54,7 +54,7 @@ const domainGuidance = [
   { key: 'org', domain: 'winprofx.org', url: 'https://winprofx.org/', external: false },
   { key: 'com', domain: 'winprofx.com', url: 'https://winprofx.com/', external: true },
   { key: 'ae', domain: 'winprofx.ae', url: 'https://winprofx.ae/', external: true },
-  { key: 'my', domain: 'my.winprofx.org', url: 'https://my.winprofx.org/', external: true },
+  { key: 'my', domain: 'my.winprofx.com', url: 'https://my.winprofx.com/', external: true },
   { key: 'partner', domain: 'partner.winprofx.org', url: 'https://partner.winprofx.org/', external: true },
 ]
 

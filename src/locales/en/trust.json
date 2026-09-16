@@ -131,7 +131,7 @@
         },
         "clientPortal": {
           "question": "What is the WINPROFX client portal?",
-          "answer": "The official WINPROFX client portal is https://my.winprofx.org/. Users should verify the portal URL before logging in or entering account information."
+          "answer": "The official WINPROFX client portal is https://my.winprofx.com/. Users should verify the portal URL before logging in or entering account information."
         },
         "partnerPortal": {
           "question": "What is the WINPROFX partner portal?",
@@ -247,7 +247,7 @@
           "domain": "The exact website domain (winprofx.org, winprofx.com, or winprofx.ae)",
           "businessName": "The license business name matches {{dubaiBusinessName}}",
           "support": "Official support channels ({{supportEmail}} and the Contact page)",
-          "clientPortal": "Client portal URL: https://my.winprofx.org/",
+          "clientPortal": "Client portal URL: https://my.winprofx.com/",
           "partnerPortal": "Partner portal URL: https://partner.winprofx.org/"
         }
       }
@@ -317,8 +317,8 @@
           "legalEntity": "Verify the legal entity is Winprofx Ltd. (Saint Lucia incorporation)",
           "incorporation": "Check Saint Lucia incorporation number 2023-00197 on Company Registration",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name WINPROFX LTD - DUBAI BRANCH - REP. OFFICE (Representative Office activity)",
-          "domains": "Confirm the website URL matches an official WINPROFX domain (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, or partner.winprofx.org)",
-          "clientPortal": "Verify the client portal at https://my.winprofx.org/",
+          "domains": "Confirm the website URL matches an official WINPROFX domain (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com, or partner.winprofx.org)",
+          "clientPortal": "Verify the client portal at https://my.winprofx.com/",
           "partnerPortal": "Verify the partner portal at https://partner.winprofx.org/",
           "support": "Use official support email support@winprofx.com or the Contact page",
           "readDocs": "Read the Risk Warning and Legal Documents before trading or depositing"
@@ -530,12 +530,12 @@
           "domain": "Confirm the website URL matches an official WINPROFX domain listed on Official Domains",
           "verifyPages": "Verify the legal entity and license information on Company Registration and Information pages",
           "readDocs": "Read the Risk Warning and applicable legal documents before opening an account",
-          "clientPortal": "Use only the official client portal at https://my.winprofx.org/ for account access",
+          "clientPortal": "Use only the official client portal at https://my.winprofx.com/ for account access",
           "noThirdParty": "Never send funds to unverified addresses or third-party accounts",
           "contactSupport": "Contact support@winprofx.com if you are unsure about any payment instruction"
         },
         "preDepositLinks": "Use the <verifyLink>Verify WINPROFX</verifyLink> checklist and <officialDomainsLink>Official Domains</officialDomainsLink> page before registering or depositing.",
-        "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.winprofx.org/",
+        "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.winprofx.com/",
         "importantNote": "This page describes security and verification practices only. It does not constitute a claim of segregated client funds, deposit insurance, or regulatory capital protection unless separately disclosed in verified regulatory documentation.",
         "reportConcerns": "Report suspected fraud, phishing, or unauthorized access to {{supportEmail}} or via <supportLink>Support and Escalation</supportLink>."
       }
@@ -560,7 +560,7 @@
         "supportChannels": {
           "email": "Email: {{supportEmail}}",
           "contactPage": "{{contactLink}} on winprofx.org",
-          "clientPortal": "Client portal (registered clients): https://my.winprofx.org/"
+          "clientPortal": "Client portal (registered clients): https://my.winprofx.com/"
         },
         "ticketSteps": {
           "contact": "Contact support through email or the Contact page with a clear subject line",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "How do I request a withdrawal from WINPROFX?",
-        "answer": "Withdrawals are submitted through the official client portal at my.winprofx.org or through approved support channels. Always confirm you are on an official domain before logging in."
+        "answer": "Withdrawals are submitted through the official client portal at my.winprofx.com or through approved support channels. Always confirm you are on an official domain before logging in."
       },
       {
         "question": "Why might a WINPROFX withdrawal be delayed?",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "How do I verify an official WINPROFX website?",
-        "answer": "Compare the URL against the Official Domains page. The main website is winprofx.org. Client login is at my.winprofx.org and the partner portal at partner.winprofx.org."
+        "answer": "Compare the URL against the Official Domains page. The main website is winprofx.org. Client login is at my.winprofx.com and the partner portal at partner.winprofx.org."
       },
       {
         "question": "What should I do if I suspect a fake WINPROFX website?",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "What is the difference between winprofx.org and my.winprofx.org?",
-        "answer": "winprofx.org is the main official website for company and product information. my.winprofx.org is the client portal for account login, deposits, and withdrawals."
+        "question": "What is the difference between winprofx.org and my.winprofx.com?",
+        "answer": "winprofx.org is the main official website for company and product information. my.winprofx.com is the client portal for account login, deposits, and withdrawals."
       },
       {
         "question": "Are winprofx.com and winprofx.ae official?",

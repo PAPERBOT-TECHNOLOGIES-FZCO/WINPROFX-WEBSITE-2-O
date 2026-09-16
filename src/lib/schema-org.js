@@ -56,7 +56,7 @@ export const OFFICIAL_SAME_AS = [
   'https://winprofx.com/',
   'https://winprofx.ae/',
   'https://winprofx.lat/',
-  'https://my.winprofx.org/',
+  'https://my.winprofx.com/',
   'https://partner.winprofx.org/',
 ]
 
@@ -72,7 +72,7 @@ export const OFFICIAL_DOMAIN_ITEMS = [
   { position: 2, name: 'Official alternate / marketing domain', url: 'https://winprofx.com/' },
   { position: 3, name: 'Official UAE / regional domain', url: 'https://winprofx.ae/' },
   { position: 4, name: 'Official Latin America regional domain', url: 'https://winprofx.lat/' },
-  { position: 5, name: 'Official client portal', url: 'https://my.winprofx.org/' },
+  { position: 5, name: 'Official client portal', url: 'https://my.winprofx.com/' },
   { position: 6, name: 'Official partner / IB portal', url: 'https://partner.winprofx.org/' },
 ]
 
@@ -81,7 +81,7 @@ export const VERIFY_WINPROFX_DOMAIN_ITEMS = [
   { position: 2, name: 'WINPROFX official alternate / marketing domain', url: 'https://winprofx.com/' },
   { position: 3, name: 'WINPROFX official UAE / regional domain', url: 'https://winprofx.ae/' },
   { position: 4, name: 'WINPROFX official Latin America regional domain', url: 'https://winprofx.lat/' },
-  { position: 5, name: 'WINPROFX official client portal', url: 'https://my.winprofx.org/' },
+  { position: 5, name: 'WINPROFX official client portal', url: 'https://my.winprofx.com/' },
   { position: 6, name: 'WINPROFX official partner / IB portal', url: 'https://partner.winprofx.org/' },
 ]
 

@@ -317,7 +317,7 @@
           "legalEntity": "Memverifikasi badan hukumnya LEGALENTITAS (penggabungan YURISDIKSI)",
           "incorporation": "Periksa nomor pendirian YURISDIKSI 2023-00197 pada Daftar Perusahaan",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
-          "domains": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, atau partner.winprofx.org)",
+          "domains": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com, atau partner.winprofx.org)",
           "clientPortal": "Verify the client portal at https://my.0/",
           "partnerPortal": "Verify the partner portal at https://partner.0/",
           "support": "Gunakan email dukungan resmi support@winprofx.com atau halaman Kontak",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "Bagaimana cara meminta penarikan dari WINPROFX?",
-        "answer": "Penarikan diajukan melalui portal klien resmi di my.winprofx.org atau melalui saluran dukungan yang disetujui. Selalu pastikan Anda berada di domain resmi sebelum masuk."
+        "answer": "Penarikan diajukan melalui portal klien resmi di my.winprofx.com atau melalui saluran dukungan yang disetujui. Selalu pastikan Anda berada di domain resmi sebelum masuk."
       },
       {
         "question": "Mengapa penarikan WINPROFX mungkin tertunda?",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Bagaimana cara memverifikasi situs web resmi WINPROFX?",
-        "answer": "Bandingkan URL dengan halaman Domain Resmi. Situs web utama adalah winprofx.org. Login klien di my.winprofx.org dan portal mitra di partner.winprofx.org."
+        "answer": "Bandingkan URL dengan halaman Domain Resmi. Situs web utama adalah winprofx.org. Login klien di my.winprofx.com dan portal mitra di partner.winprofx.org."
       },
       {
         "question": "Apa yang harus saya lakukan jika mencurigai situs web WINPROFX palsu?",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "Apa perbedaan antara winprofx.org dan my.winprofx.org?",
-        "answer": "winprofx.org adalah situs web resmi utama untuk informasi perusahaan dan produk. my.winprofx.org adalah portal klien untuk login akun, deposit, dan penarikan."
+        "question": "Apa perbedaan antara winprofx.org dan my.winprofx.com?",
+        "answer": "winprofx.org adalah situs web resmi utama untuk informasi perusahaan dan produk. my.winprofx.com adalah portal klien untuk login akun, deposit, dan penarikan."
       },
       {
         "question": "Apakah winprofx.com dan winprofx.ae resmi?",

@@ -131,7 +131,7 @@
         },
         "clientPortal": {
           "question": "WINPROFX ক্লায়েন্ট পোর্টাল কী?",
-          "answer": "আধিকারিক WINPROFX ক্লায়েন্ট পোর্টাল হলো https://my.winprofx.org/। লগইন বা অ্যাকাউন্ট তথ্য প্রবেশের আগে ব্যবহারকারীদের পোর্টাল ইউআরএল যাচাই করা উচিত।"
+          "answer": "আধিকারিক WINPROFX ক্লায়েন্ট পোর্টাল হলো https://my.winprofx.com/। লগইন বা অ্যাকাউন্ট তথ্য প্রবেশের আগে ব্যবহারকারীদের পোর্টাল ইউআরএল যাচাই করা উচিত।"
         },
         "partnerPortal": {
           "question": "WINPROFX পার্টনার পোর্টাল কী?",
@@ -247,7 +247,7 @@
           "domain": "সঠিক ওয়েবসাইট ডোমেইন (winprofx.org, winprofx.com বা winprofx.ae)",
           "businessName": "লাইসেন্স ব্যবসায়িক নাম {{dubaiBusinessName}}-এর সাথে মিলছে কিনা",
           "support": "আধিকারিক সহায়তা চ্যানেল ({{supportEmail}} ও যোগাযোগ পাতা)",
-          "clientPortal": "ক্লায়েন্ট পোর্টাল ইউআরএল: https://my.winprofx.org/",
+          "clientPortal": "ক্লায়েন্ট পোর্টাল ইউআরএল: https://my.winprofx.com/",
           "partnerPortal": "পার্টনার পোর্টাল ইউআরএল: https://partner.winprofx.org/"
         }
       }
@@ -317,8 +317,8 @@
           "legalEntity": "আইনি সত্তাটি Winprofx Ltd. (Saint Lucia নিগমন) কিনা যাচাই করুন",
           "incorporation": "কোম্পানি নিবন্ধনে Saint Lucia নিগমন নম্বর 2023-00197 যাচাই করুন",
           "dubaiLicense": "দুবাই পেশাদার লাইসেন্স নং 1423678 এবং ব্যবসায়িক নাম WINPROFX LTD - DUBAI BRANCH - REP. OFFICE (প্রতিনিধি কার্যালয় কার্যক্রম) যাচাই করুন",
-          "domains": "ওয়েবসাইট ইউআরএল একটি আধিকারিক WINPROFX ডোমেইনের সাথে মিলছে কিনা নিশ্চিত করুন (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, বা partner.winprofx.org)",
-          "clientPortal": "https://my.winprofx.org/ এ ক্লায়েন্ট পোর্টাল যাচাই করুন",
+          "domains": "ওয়েবসাইট ইউআরএল একটি আধিকারিক WINPROFX ডোমেইনের সাথে মিলছে কিনা নিশ্চিত করুন (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com, বা partner.winprofx.org)",
+          "clientPortal": "https://my.winprofx.com/ এ ক্লায়েন্ট পোর্টাল যাচাই করুন",
           "partnerPortal": "https://partner.winprofx.org/ এ পার্টনার পোর্টাল যাচাই করুন",
           "support": "আধিকারিক সহায়তা ইমেইল support@winprofx.com বা যোগাযোগ পাতা ব্যবহার করুন",
           "readDocs": "ট্রেড বা জমার আগে ঝুঁকি সতর্কতা ও আইনি দলিলসমূহ পড়ুন"
@@ -530,7 +530,7 @@
           "domain": "নিশ্চিত করুন ওয়েবসাইট ইউআরএল আধিকারিক ডোমেইনে তালিকাভুক্ত একটি আধিকারিক WINPROFX ডোমেইনের সাথে মিলছে",
           "verifyPages": "কোম্পানি নিবন্ধন ও নিয়ন্ত্রক তথ্য পাতায় আইনি সত্তা ও লাইসেন্স তথ্য যাচাই করুন",
           "readDocs": "অ্যাকাউন্ট খোলার আগে ঝুঁকি সতর্কতা ও প্রযোজ্য আইনি দলিলসমূহ পড়ুন",
-          "clientPortal": "অ্যাকাউন্ট প্রবেশের জন্য শুধুমাত্র https://my.winprofx.org/ এ আধিকারিক ক্লায়েন্ট পোর্টাল ব্যবহার করুন",
+          "clientPortal": "অ্যাকাউন্ট প্রবেশের জন্য শুধুমাত্র https://my.winprofx.com/ এ আধিকারিক ক্লায়েন্ট পোর্টাল ব্যবহার করুন",
           "noThirdParty": "কখনো অযাচাইকৃত ঠিকানা বা তৃতীয় পক্ষের অ্যাকাউন্টে অর্থ পাঠাবেন না",
           "contactSupport": "কোনো পেমেন্ট নির্দেশনা সম্পর্কে নিশ্চিত না হলে support@winprofx.com-এ যোগাযোগ করুন"
         },
@@ -560,7 +560,7 @@
         "supportChannels": {
           "email": "ইমেইল: {{supportEmail}}",
           "contactPage": "{{contactLink}} winprofx.org-এ",
-          "clientPortal": "ক্লায়েন্ট পোর্টাল (নিবন্ধিত ক্লায়েন্ট): https://my.winprofx.org/"
+          "clientPortal": "ক্লায়েন্ট পোর্টাল (নিবন্ধিত ক্লায়েন্ট): https://my.winprofx.com/"
         },
         "ticketSteps": {
           "contact": "স্পষ্ট বিষয় লাইনসহ ইমেইল বা যোগাযোগ পাতার মাধ্যমে সহায়তায় যোগাযোগ করুন",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "WINPROFX থেকে উত্তোলন কীভাবে অনুরোধ করব?",
-        "answer": "উত্তোলন অফিসিয়াল ক্লায়েন্ট পোর্টাল my.winprofx.org-এ বা অনুমোদিত সহায়তা চ্যানেলের মাধ্যমে জমা দেওয়া হয়। লগইন করার আগে সবসময় নিশ্চিত করুন যে আপনি একটি অফিসিয়াল ডোমেইনে আছেন।"
+        "answer": "উত্তোলন অফিসিয়াল ক্লায়েন্ট পোর্টাল my.winprofx.com-এ বা অনুমোদিত সহায়তা চ্যানেলের মাধ্যমে জমা দেওয়া হয়। লগইন করার আগে সবসময় নিশ্চিত করুন যে আপনি একটি অফিসিয়াল ডোমেইনে আছেন।"
       },
       {
         "question": "WINPROFX উত্তোলনে বিলম্ব কেন হতে পারে?",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "অফিসিয়াল WINPROFX ওয়েবসাইট কীভাবে যাচাই করব?",
-        "answer": "URL অফিসিয়াল ডোমেইন পেজের সাথে তুলনা করুন। প্রধান ওয়েবসাইট winprofx.org। ক্লায়েন্ট লগইন my.winprofx.org-এ এবং পার্টনার পোর্টাল partner.winprofx.org-এ।"
+        "answer": "URL অফিসিয়াল ডোমেইন পেজের সাথে তুলনা করুন। প্রধান ওয়েবসাইট winprofx.org। ক্লায়েন্ট লগইন my.winprofx.com-এ এবং পার্টনার পোর্টাল partner.winprofx.org-এ।"
       },
       {
         "question": "জাল WINPROFX ওয়েবসাইটের সন্দেহ হলে কী করব?",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "winprofx.org এবং my.winprofx.org-এর মধ্যে পার্থক্য কী?",
-        "answer": "winprofx.org কোম্পানি ও পণ্য তথ্যের জন্য প্রধান অফিসিয়াল ওয়েবসাইট। my.winprofx.org অ্যাকাউন্ট লগইন, জমা ও উত্তোলনের জন্য ক্লায়েন্ট পোর্টাল।"
+        "question": "winprofx.org এবং my.winprofx.com-এর মধ্যে পার্থক্য কী?",
+        "answer": "winprofx.org কোম্পানি ও পণ্য তথ্যের জন্য প্রধান অফিসিয়াল ওয়েবসাইট। my.winprofx.com অ্যাকাউন্ট লগইন, জমা ও উত্তোলনের জন্য ক্লায়েন্ট পোর্টাল।"
       },
       {
         "question": "winprofx.com এবং winprofx.ae কি অফিসিয়াল?",

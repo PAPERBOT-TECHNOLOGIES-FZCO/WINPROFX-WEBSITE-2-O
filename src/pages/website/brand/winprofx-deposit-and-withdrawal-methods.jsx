@@ -36,7 +36,7 @@ export default function WinprofxDepositWithdrawalMethods() {
       >
         <IdentitySection title={t('pages.winprofxDepositWithdrawalMethods.sections.depositOverview')}>
           <p className="mb-4">
-            Deposits are processed through the official client portal at my.winprofx.org. Available methods
+            Deposits are processed through the official client portal at my.winprofx.com. Available methods
             may include bank transfer, card payment, and digital asset options where supported.
           </p>
           <Link to="/deposit-withdraw/" className="text-primary underline">Deposit and Withdrawal Policy</Link>

@@ -18,7 +18,7 @@ export default function Contact() {
     { labelKey: 'supportEmail', value: 'support@winprofx.com', href: 'mailto:support@winprofx.com', external: true },
     { labelKey: 'phone', value: '+971 4 447 1894', href: 'tel:+97144471894', external: true },
     { labelKey: 'officialWebsite', value: 'winprofx.org', href: 'https://winprofx.org/', external: true },
-    { labelKey: 'clientPortal', value: 'my.winprofx.org', href: 'https://my.winprofx.org/', external: true },
+    { labelKey: 'clientPortal', value: 'my.winprofx.com', href: 'https://my.winprofx.com/', external: true },
     { labelKey: 'partnerPortal', value: 'partner.winprofx.org', href: 'https://partner.winprofx.org/', external: true },
   ]
 
@@ -43,7 +43,7 @@ export default function Contact() {
             </p>
             <p>
               {t('contact.introP2Start')}{' '}
-              <a href="https://my.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+              <a href="https://my.winprofx.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
                 {t('contact.introP2ClientPortal')}
               </a>
               . {t('contact.introP2Middle')}{' '}

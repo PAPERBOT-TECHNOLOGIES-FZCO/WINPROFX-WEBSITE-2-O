@@ -131,7 +131,7 @@
         },
         "clientPortal": {
           "question": "O que é o portal do cliente WINPROFX?",
-          "answer": "O portal oficial do cliente WINPROFX é https://my.winprofx.org/. Os usuários devem verificar a URL do portal antes de fazer login ou inserir informações da conta."
+          "answer": "O portal oficial do cliente WINPROFX é https://my.winprofx.com/. Os usuários devem verificar a URL do portal antes de fazer login ou inserir informações da conta."
         },
         "partnerPortal": {
           "question": "O que é o portal de parceiros WINPROFX?",
@@ -247,7 +247,7 @@
           "domain": "O domínio exato do site (winprofx.org, winprofx.com ou winprofx.ae)",
           "businessName": "O nome comercial da licença corresponde a {{dubaiBusinessName}}",
           "support": "Canais de suporte oficiais ({{supportEmail}} e a página de contato)",
-          "clientPortal": "URL do portal do cliente: https://my.winprofx.org/",
+          "clientPortal": "URL do portal do cliente: https://my.winprofx.com/",
           "partnerPortal": "URL do portal do parceiro: https://partner.winprofx.org/"
         }
       }
@@ -318,7 +318,7 @@
           "incorporation": "Verifique o número de incorporação Saint Lucia 2023-00197 no registro da empresa",
           "dubaiLicense": "Verifique a licença profissional de Dubai nº 1423678 e o nome comercial WINPROFX LTD - DUBAI BRANCH - REP. OFFICE (atividade Escritório Representativo)",
           "domains": "Confirme se o URL do site corresponde a um domínio WINPROFX oficial (winprofx.org, winprofx.com, winprofx.ae, meu.winprofx.org ou parceiro.winprofx.org)",
-          "clientPortal": "Verifique o portal do cliente em https://my.winprofx.org/",
+          "clientPortal": "Verifique o portal do cliente em https://my.winprofx.com/",
           "partnerPortal": "Verifique o portal do parceiro em https://partner.winprofx.org/",
           "support": "Use o e-mail de suporte oficial support@winprofx.com ou a página de contato",
           "readDocs": "Leia o Aviso de Risco e os Documentos Legais antes de negociar ou depositar"
@@ -530,12 +530,12 @@
           "domain": "Confirme se o URL do site corresponde a um domínio WINPROFX oficial listado em Domínios Oficiais",
           "verifyPages": "Verifique a entidade legal e as informações de licença nas páginas de Registro da Empresa e Informações Regulatórias",
           "readDocs": "Leia o Aviso de Risco e os documentos legais aplicáveis ​​antes de abrir uma conta",
-          "clientPortal": "Use apenas o portal oficial do cliente em https://my.winprofx.org/ para acesso à conta",
+          "clientPortal": "Use apenas o portal oficial do cliente em https://my.winprofx.com/ para acesso à conta",
           "noThirdParty": "Nunca envie fundos para endereços não verificados ou contas de terceiros",
           "contactSupport": "Entre em contato com support@winprofx.com se não tiver certeza sobre qualquer instrução de pagamento"
         },
         "preDepositLinks": "Use a lista de verificação <verifyLink> Verifique WINPROFX </verifyLink> e a página <officialDomainsLink> Domínios Oficiais </officialDomainsLink> antes de registrar ou depositar.",
-        "portalSafety": "Os sites de phishing podem imitar marcas legítimas. Antes de inserir credenciais ou efetuar pagamentos, confirme se o URL corresponde a um domínio WINPROFX oficial. Portal oficial do cliente: https://my.winprofx.org/",
+        "portalSafety": "Os sites de phishing podem imitar marcas legítimas. Antes de inserir credenciais ou efetuar pagamentos, confirme se o URL corresponde a um domínio WINPROFX oficial. Portal oficial do cliente: https://my.winprofx.com/",
         "importantNote": "Esta página descreve apenas práticas de segurança e verificação. Não constitui uma reivindicação de fundos segregados de clientes, seguro de depósito ou proteção de capital regulatório, a menos que divulgado separadamente em documentação regulatória verificada.",
         "reportConcerns": "Relate suspeitas de fraude, phishing ou acesso não autorizado a {{supportEmail}} ou via <supportLink> Suporte e escalonamento </supportLink>."
       }
@@ -560,7 +560,7 @@
         "supportChannels": {
           "email": "E-mail: {{supportEmail}}",
           "contactPage": "{{contactLink}} em winprofx.org",
-          "clientPortal": "Portal do cliente (clientes cadastrados): https://my.winprofx.org/"
+          "clientPortal": "Portal do cliente (clientes cadastrados): https://my.winprofx.com/"
         },
         "ticketSteps": {
           "contact": "Entre em contato com o suporte por e-mail ou pela página de contato com um assunto claro",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "Como solicito um saque de WINPROFX?",
-        "answer": "As retiradas são enviadas através do portal oficial do cliente em my.winprofx.org ou através dos canais de suporte aprovados. Sempre confirme que você está em um domínio oficial antes de fazer login."
+        "answer": "As retiradas são enviadas através do portal oficial do cliente em my.winprofx.com ou através dos canais de suporte aprovados. Sempre confirme que você está em um domínio oficial antes de fazer login."
       },
       {
         "question": "Por que uma retirada de WINPROFX pode ser adiada?",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Como posso verificar um site oficial WINPROFX?",
-        "answer": "Compare o URL com a página de Domínios Oficiais. O site principal é winprofx.org. O login do cliente está em my.winprofx.org e o portal do parceiro em parceiro.winprofx.org."
+        "answer": "Compare o URL com a página de Domínios Oficiais. O site principal é winprofx.org. O login do cliente está em my.winprofx.com e o portal do parceiro em parceiro.winprofx.org."
       },
       {
         "question": "O que devo fazer se suspeitar de um site WINPROFX falso?",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "Qual é a diferença entre winprofx.org e my.winprofx.org?",
-        "answer": "winprofx.org é o principal site oficial para informações sobre empresas e produtos. my.winprofx.org é o portal do cliente para login de conta, depósitos e retiradas."
+        "question": "Qual é a diferença entre winprofx.org e my.winprofx.com?",
+        "answer": "winprofx.org é o principal site oficial para informações sobre empresas e produtos. my.winprofx.com é o portal do cliente para login de conta, depósitos e retiradas."
       },
       {
         "question": "winprofx.com e winprofx.ae são oficiais?",

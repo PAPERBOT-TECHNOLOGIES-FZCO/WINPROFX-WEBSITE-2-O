@@ -317,7 +317,7 @@
           "legalEntity": "Xác minh pháp nhân là HỢP PHÁP (công ty có thẩm quyền)",
           "incorporation": "Kiểm tra số công ty 2023-00197 trên Đăng ký công ty",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
-          "domains": "Xác nhận URL trang web khớp với miền WINPROFX chính thức (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org hoặc đối tác.winprofx.org)",
+          "domains": "Xác nhận URL trang web khớp với miền WINPROFX chính thức (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com hoặc đối tác.winprofx.org)",
           "clientPortal": "Verify the client portal at https://my.0/",
           "partnerPortal": "Verify the partner portal at https://partner.0/",
           "support": "Sử dụng email hỗ trợ chính thức support@winprofx.com hoặc trang Liên hệ",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "Làm thế nào để yêu cầu rút tiền từ WINPROFX?",
-        "answer": "Rút tiền được gửi qua cổng khách hàng chính thức tại my.winprofx.org hoặc qua các kênh hỗ trợ được phê duyệt. Luôn xác nhận bạn đang ở tên miền chính thức trước khi đăng nhập."
+        "answer": "Rút tiền được gửi qua cổng khách hàng chính thức tại my.winprofx.com hoặc qua các kênh hỗ trợ được phê duyệt. Luôn xác nhận bạn đang ở tên miền chính thức trước khi đăng nhập."
       },
       {
         "question": "Tại sao rút tiền WINPROFX có thể bị trì hoãn?",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Làm thế nào để xác minh trang web chính thức WINPROFX?",
-        "answer": "So sánh URL với trang Tên miền chính thức. Trang web chính là winprofx.org. Đăng nhập khách hàng tại my.winprofx.org và cổng đối tác tại partner.winprofx.org."
+        "answer": "So sánh URL với trang Tên miền chính thức. Trang web chính là winprofx.org. Đăng nhập khách hàng tại my.winprofx.com và cổng đối tác tại partner.winprofx.org."
       },
       {
         "question": "Tôi nên làm gì nếu nghi ngờ trang web WINPROFX giả mạo?",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "Sự khác biệt giữa winprofx.org và my.winprofx.org là gì?",
-        "answer": "winprofx.org là trang web chính thức chính cho thông tin công ty và sản phẩm. my.winprofx.org là cổng khách hàng để đăng nhập tài khoản, nạp và rút tiền."
+        "question": "Sự khác biệt giữa winprofx.org và my.winprofx.com là gì?",
+        "answer": "winprofx.org là trang web chính thức chính cho thông tin công ty và sản phẩm. my.winprofx.com là cổng khách hàng để đăng nhập tài khoản, nạp và rút tiền."
       },
       {
         "question": "winprofx.com và winprofx.ae có chính thức không?",

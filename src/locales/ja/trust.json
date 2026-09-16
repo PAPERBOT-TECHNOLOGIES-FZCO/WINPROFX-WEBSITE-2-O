@@ -131,7 +131,7 @@
         },
         "clientPortal": {
           "question": "WINPROFX クライアントポータルとは何ですか？",
-          "answer": "WINPROFX 公式クライアントポータルは https://my.winprofx.org/ です。ログインまたは口座情報入力前にポータル URL を確認してください。"
+          "answer": "WINPROFX 公式クライアントポータルは https://my.winprofx.com/ です。ログインまたは口座情報入力前にポータル URL を確認してください。"
         },
         "partnerPortal": {
           "question": "WINPROFX パートナーポータルとは何ですか？",
@@ -247,7 +247,7 @@
           "domain": "正確なウェブサイトドメイン（winprofx.org、winprofx.com、または winprofx.ae）",
           "businessName": "ライセンス商号が {{dubaiBusinessName}} と一致すること",
           "support": "公式サポートチャネル（{{supportEmail}} およびお問い合わせページ）",
-          "clientPortal": "クライアントポータル URL：https://my.winprofx.org/",
+          "clientPortal": "クライアントポータル URL：https://my.winprofx.com/",
           "partnerPortal": "パートナーポータル URL：https://partner.winprofx.org/"
         }
       }
@@ -317,8 +317,8 @@
           "legalEntity": "法人が Winprofx Ltd.（Saint Lucia 設立）であることを確認",
           "incorporation": "会社登録ページで Saint Lucia 設立番号 2023-00197 を確認",
           "dubaiLicense": "Dubai Professional License No. 1423678 および商号 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE（Representative Office 活動）を確認",
-          "domains": "ウェブサイト URL が WINPROFX 公式ドメイン（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.org、または partner.winprofx.org）と一致することを確認",
-          "clientPortal": "クライアントポータル https://my.winprofx.org/ を確認",
+          "domains": "ウェブサイト URL が WINPROFX 公式ドメイン（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.com、または partner.winprofx.org）と一致することを確認",
+          "clientPortal": "クライアントポータル https://my.winprofx.com/ を確認",
           "partnerPortal": "パートナーポータル https://partner.winprofx.org/ を確認",
           "support": "公式サポートメール support@winprofx.com またはお問い合わせページを使用",
           "readDocs": "取引または入金前にリスク警告および法務文書をお読みください"
@@ -530,12 +530,12 @@
           "domain": "ウェブサイト URL が公式ドメインページに掲載された WINPROFX 公式ドメインと一致することを確認",
           "verifyPages": "会社登録および規制情報ページで法人およびライセンス情報を確認",
           "readDocs": "口座開設前にリスク警告および適用法務文書をお読みください",
-          "clientPortal": "口座アクセスには公式クライアントポータル https://my.winprofx.org/ のみを使用",
+          "clientPortal": "口座アクセスには公式クライアントポータル https://my.winprofx.com/ のみを使用",
           "noThirdParty": "未確認のアドレスまたは第三者口座への送金は行わない",
           "contactSupport": "支払指示について不明な点がある場合は support@winprofx.com に連絡"
         },
         "preDepositLinks": "登録または入金前に、<verifyLink>WINPROFX を確認</verifyLink>チェックリストおよび<officialDomainsLink>公式ドメイン</officialDomainsLink>ページをご利用ください。",
-        "portalSafety": "フィッシングサイトは正規ブランドを模倣する場合があります。認証情報の入力または支払いの前に、URL が WINPROFX 公式ドメインと一致することを確認してください。公式クライアントポータル：https://my.winprofx.org/",
+        "portalSafety": "フィッシングサイトは正規ブランドを模倣する場合があります。認証情報の入力または支払いの前に、URL が WINPROFX 公式ドメインと一致することを確認してください。公式クライアントポータル：https://my.winprofx.com/",
         "importantNote": "本ページはセキュリティおよび検証慣行のみを記載しています。確認済み規制文書で別途開示されない限り、分別管理されたクライアント資金、預金保険、規制資本保護の表明を構成するものではありません。",
         "reportConcerns": "詐欺、フィッシング、不正アクセスの疑いは {{supportEmail}} または<supportLink>サポートとエスカレーション</supportLink>経由で報告してください。"
       }
@@ -560,7 +560,7 @@
         "supportChannels": {
           "email": "メール：{{supportEmail}}",
           "contactPage": "winprofx.org 上の {{contactLink}}",
-          "clientPortal": "クライアントポータル（登録クライアント）：https://my.winprofx.org/"
+          "clientPortal": "クライアントポータル（登録クライアント）：https://my.winprofx.com/"
         },
         "ticketSteps": {
           "contact": "明確な件名でメールまたはお問い合わせページからサポートに連絡",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "WINPROFX から出金をリクエストする方法は？",
-        "answer": "出金は my.winprofx.org の公式クライアントポータルまたは承認されたサポートチャネルを通じて提出されます。ログイン前に常に公式ドメイン上にいることを確認してください。"
+        "answer": "出金は my.winprofx.com の公式クライアントポータルまたは承認されたサポートチャネルを通じて提出されます。ログイン前に常に公式ドメイン上にいることを確認してください。"
       },
       {
         "question": "WINPROFX の出金が遅延する理由は？",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "WINPROFX 公式ウェブサイトの確認方法は？",
-        "answer": "URL を公式ドメインページと照合してください。主要ウェブサイトは winprofx.org です。クライアントログインは my.winprofx.org、パートナーポータルは partner.winprofx.org です。"
+        "answer": "URL を公式ドメインページと照合してください。主要ウェブサイトは winprofx.org です。クライアントログインは my.winprofx.com、パートナーポータルは partner.winprofx.org です。"
       },
       {
         "question": "偽の WINPROFX ウェブサイトを疑う場合はどうすればよいですか？",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "winprofx.org と my.winprofx.org の違いは何ですか？",
-        "answer": "winprofx.org は会社および商品情報向けの主要公式ウェブサイトです。my.winprofx.org は口座ログイン、入金、出金向けのクライアントポータルです。"
+        "question": "winprofx.org と my.winprofx.com の違いは何ですか？",
+        "answer": "winprofx.org は会社および商品情報向けの主要公式ウェブサイトです。my.winprofx.com は口座ログイン、入金、出金向けのクライアントポータルです。"
       },
       {
         "question": "winprofx.com と winprofx.ae は公式ですか？",

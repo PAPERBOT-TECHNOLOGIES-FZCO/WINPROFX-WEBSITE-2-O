@@ -46,7 +46,7 @@ export default function WinprofxWithdrawalProcess() {
 
         <IdentitySection title={t('pages.winprofxWithdrawalProcess.sections.stepByStep')}>
           <ol className="list-decimal pl-5 space-y-2 text-white/80">
-            <li>Log in to the official client portal at my.winprofx.org (verify the URL first)</li>
+            <li>Log in to the official client portal at my.winprofx.com (verify the URL first)</li>
             <li>Navigate to the withdrawal section and select your payment method</li>
             <li>Enter withdrawal amount and destination details</li>
             <li>Submit the request — it enters internal review</li>

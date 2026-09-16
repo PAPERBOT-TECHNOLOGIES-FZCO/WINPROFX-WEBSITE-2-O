@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "如何开始在 WINPROFX 交易？",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">创建账户：</strong><p>访问 WINPROFX 官方网站 <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> 或<a href=\"https://my.winprofx.org/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">在此注册</a>。</p><p>查找“注册”或“开立账户”选项。</p><p>提供所需信息，包括个人详情与联系方式。</p><p>同意条款与条件。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">身份验证（KYC）：</strong><p>提交身份证明文件，完成所需的身份验证流程，以符合监管要求。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">存入资金：</strong><p>登录您新创建的账户。</p><p>进入入金或资金管理专区。</p><p>选择您偏好的支付方式，将资金存入交易账户。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">选择交易平台：</strong><p>从可用交易平台中选择 — MetaTrader 5 (MT5)。</p><p>下载并安装交易平台。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">登录交易平台：</strong><p>打开交易平台。</p><p>输入您的账户凭证登录。</p><p>如遇任何困难，WINPROFX 客户支持可为您提供协助。<a href=\"/contact\" class=\"text-white underline\">联系我们</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">创建账户：</strong><p>访问 WINPROFX 官方网站 <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> 或<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">在此注册</a>。</p><p>查找“注册”或“开立账户”选项。</p><p>提供所需信息，包括个人详情与联系方式。</p><p>同意条款与条件。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">身份验证（KYC）：</strong><p>提交身份证明文件，完成所需的身份验证流程，以符合监管要求。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">存入资金：</strong><p>登录您新创建的账户。</p><p>进入入金或资金管理专区。</p><p>选择您偏好的支付方式，将资金存入交易账户。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">选择交易平台：</strong><p>从可用交易平台中选择 — MetaTrader 5 (MT5)。</p><p>下载并安装交易平台。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">登录交易平台：</strong><p>打开交易平台。</p><p>输入您的账户凭证登录。</p><p>如遇任何困难，WINPROFX 客户支持可为您提供协助。<a href=\"/contact\" class=\"text-white underline\">联系我们</a></p></div>"
       },
       "instruments": {
         "title": "我可以在 WINPROFX 交易哪些金融工具？",
@@ -387,7 +387,7 @@
     },
     "introP1": "WINPROFX 为账户咨询、交易平台协助、入金、出金及一般问题提供客户支持。我们的主要官方网站是",
     "introP2Start": "如需账户登录与交易，请使用",
-    "introP2ClientPortal": "客户门户 my.winprofx.org",
+    "introP2ClientPortal": "客户门户 my.winprofx.com",
     "introP2Middle": "。合作伙伴请使用",
     "introP2PartnerPortal": "partner.winprofx.org",
     "customerSupport": "客户支持：",

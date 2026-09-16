@@ -84,8 +84,8 @@ export default function About() {
             <ul className="flex flex-col gap-3">
               <li>
                 <strong className="text-white">Client login and registration:</strong>{' '}
-                <a href="https://my.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
-                  https://my.winprofx.org/
+                <a href="https://my.winprofx.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+                  https://my.winprofx.com/
                 </a>
               </li>
               <li>

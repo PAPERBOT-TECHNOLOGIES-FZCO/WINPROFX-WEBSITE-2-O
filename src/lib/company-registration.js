@@ -97,7 +97,7 @@ export const officialDomainsWithLabels = [
     external: true,
   },
   {
-    url: 'https://my.winprofx.org/',
+    url: 'https://my.winprofx.com/',
     label: 'Official client portal',
     external: true,
   },
@@ -199,8 +199,8 @@ export const registrationDetailsRows = [
   },
   {
     label: 'Client Portal',
-    value: 'https://my.winprofx.org/',
-    href: 'https://my.winprofx.org/',
+    value: 'https://my.winprofx.com/',
+    href: 'https://my.winprofx.com/',
     external: true,
   },
   {

@@ -60,7 +60,7 @@ export default function Footer() {
     { labelKey: 'domains.officialWebsite', url: 'https://winprofx.org/', internal: true },
     { labelKey: 'domains.officialAlternate', url: 'https://winprofx.com/' },
     { labelKey: 'domains.officialUae', url: 'https://winprofx.ae/' },
-    { labelKey: 'domains.clientPortal', url: 'https://my.winprofx.org/' },
+    { labelKey: 'domains.clientPortal', url: 'https://my.winprofx.com/' },
     { labelKey: 'domains.partnerPortal', url: 'https://partner.winprofx.org/' },
   ]
 

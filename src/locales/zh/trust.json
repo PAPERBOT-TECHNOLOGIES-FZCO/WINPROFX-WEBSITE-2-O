@@ -131,7 +131,7 @@
         },
         "clientPortal": {
           "question": "WINPROFX 客户门户是什么？",
-          "answer": "WINPROFX 官方客户门户为 https://my.winprofx.org/。用户在登录或输入账户信息前应验证门户 URL。"
+          "answer": "WINPROFX 官方客户门户为 https://my.winprofx.com/。用户在登录或输入账户信息前应验证门户 URL。"
         },
         "partnerPortal": {
           "question": "WINPROFX 合作伙伴门户是什么？",
@@ -247,7 +247,7 @@
           "domain": "确切的网站域名（winprofx.org、winprofx.com 或 winprofx.ae）",
           "businessName": "牌照商号与 {{dubaiBusinessName}} 一致",
           "support": "官方支持渠道（{{supportEmail}} 及联系页面）",
-          "clientPortal": "客户门户 URL：https://my.winprofx.org/",
+          "clientPortal": "客户门户 URL：https://my.winprofx.com/",
           "partnerPortal": "合作伙伴门户 URL：https://partner.winprofx.org/"
         }
       }
@@ -317,8 +317,8 @@
           "legalEntity": "验证法律实体为 Winprofx Ltd.（Saint Lucia 注册）",
           "incorporation": "在公司注册页面核对 Saint Lucia 注册编号 2023-00197",
           "dubaiLicense": "验证 Dubai Professional License No. 1423678 及商号 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE（Representative Office 活动）",
-          "domains": "确认网站 URL 与 WINPROFX 官方域名一致（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.org 或 partner.winprofx.org）",
-          "clientPortal": "验证客户门户 https://my.winprofx.org/",
+          "domains": "确认网站 URL 与 WINPROFX 官方域名一致（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.com 或 partner.winprofx.org）",
+          "clientPortal": "验证客户门户 https://my.winprofx.com/",
           "partnerPortal": "验证合作伙伴门户 https://partner.winprofx.org/",
           "support": "使用官方支持邮箱 support@winprofx.com 或联系页面",
           "readDocs": "交易或入金前请阅读风险警告及法律文件"
@@ -530,12 +530,12 @@
           "domain": "确认网站 URL 与官方域名页面上列出的 WINPROFX 官方域名一致",
           "verifyPages": "在公司注册及监管信息页面验证法律实体及牌照信息",
           "readDocs": "开户前请阅读风险警告及适用法律文件",
-          "clientPortal": "账户访问仅使用官方客户门户 https://my.winprofx.org/",
+          "clientPortal": "账户访问仅使用官方客户门户 https://my.winprofx.com/",
           "noThirdParty": "切勿向未验证地址或第三方账户发送资金",
           "contactSupport": "如对任何付款指示有疑问，请联系 support@winprofx.com"
         },
         "preDepositLinks": "注册或入金前请使用<verifyLink>验证 WINPROFX</verifyLink>清单及<officialDomainsLink>官方域名</officialDomainsLink>页面。",
-        "portalSafety": "钓鱼网站可能模仿合法品牌。在输入凭据或付款前，请确认 URL 与 WINPROFX 官方域名一致。官方客户门户：https://my.winprofx.org/",
+        "portalSafety": "钓鱼网站可能模仿合法品牌。在输入凭据或付款前，请确认 URL 与 WINPROFX 官方域名一致。官方客户门户：https://my.winprofx.com/",
         "importantNote": "本页面仅描述安全及验证实践。除非在经核实的监管文件中另行披露，本页面不构成客户资金隔离、存款保险或监管资本保护的声明。",
         "reportConcerns": "向 {{supportEmail}} 或通过<supportLink>支持与升级</supportLink>报告疑似欺诈、钓鱼或未经授权的访问。"
       }
@@ -560,7 +560,7 @@
         "supportChannels": {
           "email": "邮箱：{{supportEmail}}",
           "contactPage": "winprofx.org 上的 {{contactLink}}",
-          "clientPortal": "客户门户（注册客户）：https://my.winprofx.org/"
+          "clientPortal": "客户门户（注册客户）：https://my.winprofx.com/"
         },
         "ticketSteps": {
           "contact": "通过邮箱或联系页面联系支持，主题行清晰明确",
@@ -648,7 +648,7 @@
     "withdrawalTransparency": [
       {
         "question": "如何从 WINPROFX 申请出金？",
-        "answer": "出金通过 my.winprofx.org 官方客户门户或获批支持渠道提交。登录前请始终确认您位于官方域名。"
+        "answer": "出金通过 my.winprofx.com 官方客户门户或获批支持渠道提交。登录前请始终确认您位于官方域名。"
       },
       {
         "question": "WINPROFX 出金可能延迟的原因有哪些？",
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "如何验证 WINPROFX 官方网站？",
-        "answer": "将 URL 与官方域名页面对照。主要网站为 winprofx.org。客户登录在 my.winprofx.org，合作伙伴门户在 partner.winprofx.org。"
+        "answer": "将 URL 与官方域名页面对照。主要网站为 winprofx.org。客户登录在 my.winprofx.com，合作伙伴门户在 partner.winprofx.org。"
       },
       {
         "question": "如怀疑遇到假冒 WINPROFX 网站应怎么办？",
@@ -671,8 +671,8 @@
     ],
     "officialDomains": [
       {
-        "question": "winprofx.org 与 my.winprofx.org 有何区别？",
-        "answer": "winprofx.org 是公司与产品信息的主要官方网站。my.winprofx.org 是用于账户登录、入金及出金的客户门户。"
+        "question": "winprofx.org 与 my.winprofx.com 有何区别？",
+        "answer": "winprofx.org 是公司与产品信息的主要官方网站。my.winprofx.com 是用于账户登录、入金及出金的客户门户。"
       },
       {
         "question": "winprofx.com 和 winprofx.ae 是否官方？",
