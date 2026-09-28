@@ -13,7 +13,9 @@
     "i18n:untranslated": "node scripts/check-untranslated-locales.mjs",
     "i18n:translate": "node scripts/batch-translate-locales.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cms:export": "node scripts/export-blog-migration.mjs",
+    "cms:import": "node --env-file=.env.local --env-file=.env.migration.local scripts/import-blog-migration.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",

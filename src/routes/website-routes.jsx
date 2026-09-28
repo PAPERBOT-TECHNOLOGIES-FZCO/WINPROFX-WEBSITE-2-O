@@ -13,13 +13,7 @@ import Mt5Platform from '@/pages/website/mt5-platform'
 import Accounts from '@/pages/website/accounts'
 import AboutUs from '@/pages/website/about-us'
 import Blog from '@/pages/website/blog/index'
-import BlogDetails from '@/pages/website/blog/blog-details'
-import WinprofxBestForexBroker2026 from '@/pages/website/blog/winprofx-best-forex-broker-2026'
-import WinprofxForexExpoDubai2026 from '@/pages/website/blog/winprofx-forex-expo-dubai-2026'
-import WhyDubaiGlobalForexFintechHub from '@/pages/website/blog/why-dubai-global-forex-fintech-hub'
-import GoldTradingIn2026 from '@/pages/website/blog/gold-trading-in-2026'
-import WinprofxJourney4Years from '@/pages/website/blog/winprofx-journey-4-years'
-import OilMarketOutlook2026 from '@/pages/website/blog/oil-market-outlook-2026'
+import CmsBlogDetails from '@/pages/website/blog/cms-blog-details'
 import Analytics from '@/pages/website/analytics'
 import EconomicCalendar from '@/pages/website/economic-calendar'
 import HolidayCalendar from '@/pages/website/holiday-calendar'
@@ -86,13 +80,14 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/about-us', Component: AboutUs },
   { path: '/about', Component: About },
   { path: '/blog', Component: Blog },
-  { path: '/blog/:id', Component: BlogDetails },
-  { path: '/winprofx-best-forex-broker-2026', Component: WinprofxBestForexBroker2026 },
-  { path: '/winprofx-forex-expo-dubai-2026', Component: WinprofxForexExpoDubai2026 },
-  { path: '/why-dubai-global-forex-fintech-hub', Component: WhyDubaiGlobalForexFintechHub },
-  { path: '/gold-trading-in-2026', Component: GoldTradingIn2026 },
-  { path: '/winprofx-journey-4-years', Component: WinprofxJourney4Years },
-  { path: '/oil-market-outlook-2026', Component: OilMarketOutlook2026 },
+  { path: '/blog/:id', Component: CmsBlogDetails },
+  { path: '/winprofx-best-forex-broker-2026', Component: CmsBlogDetails },
+  { path: '/winprofx-forex-expo-dubai-2026', Component: CmsBlogDetails },
+  { path: '/why-dubai-global-forex-fintech-hub', Component: CmsBlogDetails },
+  { path: '/gold-trading-in-2026', Component: CmsBlogDetails },
+  { path: '/winprofx-journey-4-years', Component: CmsBlogDetails },
+  { path: '/oil-market-outlook-2026', Component: CmsBlogDetails },
+  { path: '/usdjpy-market-outlook-2026', Component: CmsBlogDetails },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/holiday-calendar', Component: HolidayCalendar },
@@ -151,15 +146,15 @@ export function toNestedRoutePath(absolutePath) {
 export function buildWebsiteRouteChildren(definitions = WEBSITE_ROUTE_DEFINITIONS) {
   return definitions.map(({ path, Component: PageComponent }) => {
     if (path === '/') {
-      return { index: true, element: <PageComponent /> }
+      return { index: true, element: React.createElement(PageComponent) }
     }
-    return { path: toNestedRoutePath(path), element: <PageComponent /> }
+    return { path: toNestedRoutePath(path), element: React.createElement(PageComponent) }
   })
 }
 
 export function buildWebsiteRouteEntries(definitions = WEBSITE_ROUTE_DEFINITIONS) {
   return definitions.map(({ path, Component: PageComponent }) => ({
     path,
-    element: <PageComponent />,
+    element: React.createElement(PageComponent),
   }))
 }

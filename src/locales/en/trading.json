@@ -477,9 +477,16 @@
         "des": "Explore the oil market outlook for 2026, key price drivers, supply risks, demand trends and what traders should watch when trading oil CFDs.",
         "url": "/oil-market-outlook-2026",
         "category": ["commodities"]
+      },
+      "usdJpyMarketOutlook2026": {
+        "title": "USD/JPY Market Outlook 2026: What Could Drive the Yen Next?",
+        "des": "Explore what is driving USD/JPY in 2026 — BOJ rate hikes, Fed policy, oil prices, intervention risk and global carry trades — and what traders should watch next.",
+        "url": "/usdjpy-market-outlook-2026",
+        "category": ["forex"]
       }
     },
     "postKeys": [
+      "usdJpyMarketOutlook2026",
       "oilMarketOutlook2026",
       "winprofxJourney4Years",
       "goldTrading2026",

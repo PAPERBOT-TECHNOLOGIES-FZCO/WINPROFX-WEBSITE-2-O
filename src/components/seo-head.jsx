@@ -30,8 +30,11 @@ export default function SeoHead({
   description,
   keywords,
   canonicalPath = '',
+  canonicalUrl,
   pageName,
   ogImage = OG_IMAGE,
+  ogTitle,
+  ogDescription,
   robots = 'index, follow',
   dateModified,
   faqItems,
@@ -40,7 +43,7 @@ export default function SeoHead({
 }) {
   const { i18n, t } = useTranslation(['company', 'seo'])
   const locale = normalizeReadinessLocale(i18n.language || DEFAULT_LOCALE)
-  const canonical = buildCanonicalUrl(localizedCanonicalPath(canonicalPath, locale))
+  const canonical = canonicalUrl || buildCanonicalUrl(localizedCanonicalPath(canonicalPath, locale))
   const effectiveRobots = resolveRobotsForLocale(locale, canonicalPath, robots)
   const schemaPath = normalizeRoutePath(canonicalPath)
   const pageConfig = getPageSchemaConfig(schemaPath)
@@ -128,15 +131,15 @@ export default function SeoHead({
 
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="WINPROFX" />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={ogTitle || title} />
       <meta property="og:url" content={canonical} />
       <meta property="og:image" content={ogImage} />
-      {description && <meta property="og:description" content={description} />}
+      {description && <meta property="og:description" content={ogDescription || description} />}
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@WINPROFX" />
-      <meta name="twitter:title" content={title} />
-      {description && <meta name="twitter:description" content={description} />}
+      <meta name="twitter:title" content={ogTitle || title} />
+      {description && <meta name="twitter:description" content={ogDescription || description} />}
       <meta name="twitter:image" content={ogImage} />
 
       <meta name="robots" content={effectiveRobots} />
