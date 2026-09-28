@@ -108,6 +108,23 @@ function startPreview() {
 async function waitForRoute(page, route) {
   await page.goto(`${PREVIEW_URL}${route.path}`, { waitUntil: 'domcontentloaded', timeout: 90000 })
 
+  // CMS-driven pages signal readiness with data-prerender-ready once fetch resolves
+  if (route.cmsPage) {
+    await page.waitForFunction(
+      () => !!document.querySelector('[data-prerender-ready]'),
+      undefined,
+      { timeout: 60000 },
+    )
+    await page.waitForSelector('h1', { timeout: 10000 })
+    await page.waitForFunction(
+      () => document.querySelector('link[rel="canonical"]')?.getAttribute('href'),
+      undefined,
+      { timeout: 10000 },
+    )
+    await new Promise((r) => setTimeout(r, 300))
+    return
+  }
+
   await page.waitForFunction(
     (expectedTitle) => {
       const title = document.title || ''

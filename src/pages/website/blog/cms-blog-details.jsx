@@ -226,13 +226,15 @@ export default function CmsBlogDetails() {
           )}
 
           {error && (
-            <div className="text-center py-20">
+            <div className="text-center py-20" data-prerender-ready="true">
+              <h1 className="sr-only">Article unavailable</h1>
               <p className="text-white/50 text-sm">Unable to load article. Please try again later.</p>
             </div>
           )}
 
           {!loading && !error && !article && (
-            <div className="text-center py-20">
+            <div className="text-center py-20" data-prerender-ready="true">
+              <h1 className="sr-only">Article not found</h1>
               <p className="text-white/50 text-sm">Article not found.</p>
             </div>
           )}
@@ -240,7 +242,7 @@ export default function CmsBlogDetails() {
           {!loading && article && (
             <>
               {/* Page header */}
-              <div className="max-w-260 mx-auto mb-8 md:mb-12 lg:mb-16 text-center">
+              <div className="max-w-260 mx-auto mb-8 md:mb-12 lg:mb-16 text-center" data-prerender-ready="true">
                 <span className="inline-block text-xs md:text-sm font-medium text-primary uppercase tracking-widest mb-3 md:mb-4">
                   {category} {datePublished && `· ${datePublished}`}
                 </span>

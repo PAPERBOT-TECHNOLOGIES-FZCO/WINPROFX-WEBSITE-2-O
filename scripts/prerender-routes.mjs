@@ -9,6 +9,20 @@ import {
 
 const NON_DEFAULT_LOCALE_CODES = ['hi', 'id', 'vi', 'bn', 'ms', 'es', 'pt', 'zh', 'ja']
 
+/**
+ * Paths that are rendered by CmsBlogDetails — content is fetched from Strapi at runtime.
+ * These routes use a data-prerender-ready sentinel instead of title/h1 wait conditions.
+ */
+const CMS_BLOG_PATHS = new Set([
+  '/winprofx-best-forex-broker-2026',
+  '/winprofx-forex-expo-dubai-2026',
+  '/why-dubai-global-forex-fintech-hub',
+  '/gold-trading-in-2026',
+  '/winprofx-journey-4-years',
+  '/oil-market-outlook-2026',
+  '/usdjpy-market-outlook-2026',
+])
+
 /** English path hints for prerender wait conditions (keyed by unprefixed path). */
 const TITLE_HINTS = {
   '/': {
@@ -51,8 +65,10 @@ export function buildPrerenderRoutes() {
   return getSeoReadyPrerenderRoutes()
     .map(({ path, locale }) => {
       const basePath = locale === DEFAULT_LOCALE ? path : stripLocalePrefixFromPath(path)
-      const hints =
-        locale === DEFAULT_LOCALE
+      const isCmsPage = CMS_BLOG_PATHS.has(basePath)
+      const hints = isCmsPage
+        ? { expectedTitle: null, expectedH1: null, cmsPage: true }
+        : locale === DEFAULT_LOCALE
           ? (TITLE_HINTS[basePath] ?? { expectedTitle: null, expectedH1: null })
           : { expectedTitle: null, expectedH1: null }
 
