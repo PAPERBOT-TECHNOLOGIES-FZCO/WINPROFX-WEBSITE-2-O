@@ -140,14 +140,23 @@ async function fetchArticleBySlug(slug) {
   return json.data?.[0] ?? null
 }
 
-// Derive slug from current pathname (strip leading slash)
+/** Locale codes that may prefix a path segment (e.g. /es/winprofx-best-forex-broker-2026). */
+const LOCALE_PREFIXES = new Set(['en', 'hi', 'id', 'vi', 'bn', 'ms', 'zh', 'ja', 'es', 'pt'])
+
+// Derive slug from current pathname (strip leading slash and optional locale prefix)
 function useArticleSlug() {
   const params = useParams()
   const location = useLocation()
   // /blog/:id  → params.id
-  // /winprofx-best-forex-broker-2026 → no params, use pathname
   if (params.id) return params.id
-  return location.pathname.replace(/^\//, '').replace(/\/$/, '')
+  // /winprofx-best-forex-broker-2026 or /es/winprofx-best-forex-broker-2026
+  // Strip leading slash, then strip a locale prefix segment if present
+  const stripped = location.pathname.replace(/^\//, '').replace(/\/$/, '')
+  const segments = stripped.split('/')
+  if (segments.length >= 2 && LOCALE_PREFIXES.has(segments[0])) {
+    return segments.slice(1).join('/')
+  }
+  return stripped
 }
 
 // ─── Component ────────────────────────────────────────────────────────────────

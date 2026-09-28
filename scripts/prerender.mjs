@@ -182,9 +182,12 @@ async function main() {
 
       // Block external network requests during prerender so third-party
       // scripts (analytics, fonts, widgets) never cause a CI timeout.
+      // Allow the Strapi CMS API so CmsBlogDetails can hydrate its content.
+      const CMS_ORIGIN = 'https://cms.winprofx.com'
       await page.route('**/*', (r) => {
         const url = r.request().url()
         if (url.startsWith(PREVIEW_URL)) return r.continue()
+        if (url.startsWith(CMS_ORIGIN)) return r.continue()
         return r.abort()
       })
 
