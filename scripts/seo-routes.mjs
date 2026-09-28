@@ -12,7 +12,8 @@ export const SEO_ROUTES = {
     { path: '/about/', priority: '0.7', changefreq: 'monthly' },
     { path: '/contact/', priority: '0.8', changefreq: 'monthly' },
     { path: '/blog/', priority: '0.7', changefreq: 'weekly' },
-    { path: '/winprofx-best-forex-broker-2026/', priority: '0.9', changefreq: 'monthly' },
+    // Individual blog post URLs are generated dynamically from Strapi CMS
+    // in generate-sitemap.mjs → sitemap-blog.xml. Do not add slugs here.
     { path: '/introducing-broker/', priority: '0.7', changefreq: 'monthly' },
     { path: '/analytics/', priority: '0.6', changefreq: 'monthly' },
     { path: '/economic-calendar/', priority: '0.6', changefreq: 'monthly' },

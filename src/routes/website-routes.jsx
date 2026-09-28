@@ -81,13 +81,9 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/about', Component: About },
   { path: '/blog', Component: Blog },
   { path: '/blog/:id', Component: CmsBlogDetails },
-  { path: '/winprofx-best-forex-broker-2026', Component: CmsBlogDetails },
-  { path: '/winprofx-forex-expo-dubai-2026', Component: CmsBlogDetails },
-  { path: '/why-dubai-global-forex-fintech-hub', Component: CmsBlogDetails },
-  { path: '/gold-trading-in-2026', Component: CmsBlogDetails },
-  { path: '/winprofx-journey-4-years', Component: CmsBlogDetails },
-  { path: '/oil-market-outlook-2026', Component: CmsBlogDetails },
-  { path: '/usdjpy-market-outlook-2026', Component: CmsBlogDetails },
+  // ↓ Wildcard: any unmatched path tries to load a CMS article by slug.
+  //   New blog posts added to Strapi are instantly live — no code change needed.
+  { path: '/:slug', Component: CmsBlogDetails },
   { path: '/analytics', Component: Analytics },
   { path: '/economic-calendar', Component: EconomicCalendar },
   { path: '/holiday-calendar', Component: HolidayCalendar },

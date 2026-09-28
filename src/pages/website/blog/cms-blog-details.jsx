@@ -149,7 +149,9 @@ function useArticleSlug() {
   const location = useLocation()
   // /blog/:id  → params.id
   if (params.id) return params.id
-  // /winprofx-best-forex-broker-2026 or /es/winprofx-best-forex-broker-2026
+  // /:slug wildcard route → params.slug
+  if (params.slug) return params.slug
+  // /es/winprofx-best-forex-broker-2026 or bare /winprofx-best-forex-broker-2026
   // Strip leading slash, then strip a locale prefix segment if present
   const stripped = location.pathname.replace(/^\//, '').replace(/\/$/, '')
   const segments = stripped.split('/')
@@ -189,21 +191,21 @@ export default function CmsBlogDetails() {
     : null
 
   const seo = article?.seo ?? {}
-  const title       = seo.metaTitle || article?.title || ''
+  const title       = seo.metaTitle || article?.title || 'WINPROFX Blog'
   const description = seo.metaDescription || article?.excerpt || ''
   const canonical   = seo.canonicalUrl ? new URL(seo.canonicalUrl).pathname : `/${slug}`
   const datePublished = article?.seo?.structuredData?.datePublished || article?.publishedAt?.slice(0, 10) || ''
   const category = article?.category || 'Forex'
 
+  // Always render SeoHead so the canonical link is present even in error/not-found states.
+  // This is also required for the prerender script to confirm the page is ready.
   return (
     <>
-      {article && (
-        <SeoHead
-          title={title}
-          description={description}
-          canonicalPath={canonical}
-        />
-      )}
+      <SeoHead
+        title={title}
+        description={description}
+        canonicalPath={canonical}
+      />
       {article?.seo?.structuredData && (
         <script
           type="application/ld+json"

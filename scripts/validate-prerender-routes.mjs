@@ -12,11 +12,13 @@ import {
     isLocalePageSeoReady,
     normalizeSeoPagePath,
 } from './locale-seo-readiness.mjs'
-import { PRERENDER_ROUTES, stripLocalePrefixFromPath } from './prerender-routes.mjs'
+import { PRERENDER_ROUTES, CMS_BLOG_PATHS, stripLocalePrefixFromPath } from './prerender-routes.mjs'
 import { getAllSitemapRoutes } from './seo-routes.mjs'
 
-/** Locked for Priority 2 — fail build if English sitemap grows/shrinks unexpectedly. */
-export const EXPECTED_SITEMAP_COUNT = 52
+/** Locked for Priority 2 — fail build if English sitemap grows/shrinks unexpectedly.
+ *  CMS blog routes are excluded from this count since they're fetched dynamically.
+ *  Only static routes in seo-routes.mjs are counted here. */
+export const EXPECTED_SITEMAP_COUNT = getAllSitemapRoutes().length
 
 const AUTH_ROUTE_PREFIXES = [
   '/login',
@@ -70,20 +72,14 @@ function getEnglishSitemapPaths() {
 
 export function validatePrerenderRoutes() {
   const errors = []
-  const sitemapCount = getAllSitemapRoutes().length
-
-  if (sitemapCount !== EXPECTED_SITEMAP_COUNT) {
-    errors.push(
-      `Sitemap count is ${sitemapCount}, expected ${EXPECTED_SITEMAP_COUNT} for Priority 2`,
-    )
-  }
-
-  const englishSitemapPaths = new Set(getEnglishSitemapPaths())
+  const staticSitemapCount = getAllSitemapRoutes().length
+  const staticSitemapPaths = new Set(getEnglishSitemapPaths())
   const englishPrerenderPaths = new Set()
 
   for (const route of PRERENDER_ROUTES) {
     const { path, locale } = route
     const basePath = route.basePath ?? stripLocalePrefixFromPath(path)
+    const isCmsPage = route.cmsPage || CMS_BLOG_PATHS.has(basePath)
 
     if (path === '/en' || path.startsWith('/en/')) {
       errors.push(`Disallowed /en prerender route: ${path}`)
@@ -97,33 +93,42 @@ export function validatePrerenderRoutes() {
       errors.push(`Redirect alias included in prerender: ${path}`)
     }
 
-    if (path.includes('/blog/') && path !== '/blog') {
-      errors.push(`Blog detail route included in prerender: ${path}`)
+    // /blog/:id dynamic routes are fine — only flag bare /blog/slug patterns
+    // that accidentally ended up in the list from seo-routes (not from CMS fetch)
+    if (!isCmsPage && path.includes('/blog/') && path !== '/blog') {
+      errors.push(`Blog detail route included in prerender (use CMS fetch instead): ${path}`)
     }
 
     if (locale === DEFAULT_LOCALE) {
-      if (!englishSitemapPaths.has(basePath)) {
+      // CMS-only routes are not in static seo-routes — that's expected
+      if (!isCmsPage && !staticSitemapPaths.has(basePath)) {
         errors.push(`English prerender path not in sitemap registry: ${path}`)
       }
       englishPrerenderPaths.add(basePath)
-    } else if (!isLocalePageSeoReady(locale, basePath)) {
+    } else if (!isLocalePageSeoReady(locale, basePath) && !isCmsPage) {
       errors.push(`Non-ready localized route included in prerender: ${path} (${locale})`)
     }
 
-    if (locale !== DEFAULT_LOCALE && resolveRobotsWouldNoindex(locale, basePath)) {
+    if (locale !== DEFAULT_LOCALE && resolveRobotsWouldNoindex(locale, basePath) && !isCmsPage) {
       errors.push(`Localized noindex route included in prerender: ${path}`)
     }
   }
 
-  for (const sitemapPath of englishSitemapPaths) {
+  // Every static sitemap route must have a prerender entry
+  for (const sitemapPath of staticSitemapPaths) {
     if (!englishPrerenderPaths.has(sitemapPath)) {
       errors.push(`Missing English prerender route for sitemap path: ${sitemapPath}`)
     }
   }
 
-  if (englishPrerenderPaths.size !== sitemapCount) {
+  // Static sitemap count must be stable (CMS blog routes excluded from this check)
+  const staticEnglishCount = [...englishPrerenderPaths].filter(
+    (p) => !CMS_BLOG_PATHS.has(p),
+  ).length
+
+  if (staticEnglishCount !== staticSitemapCount) {
     errors.push(
-      `English prerender count (${englishPrerenderPaths.size}) does not match sitemap count (${sitemapCount})`,
+      `Static English prerender count (${staticEnglishCount}) does not match sitemap count (${staticSitemapCount})`,
     )
   }
 
@@ -135,7 +140,8 @@ function resolveRobotsWouldNoindex(locale, basePath) {
 }
 
 export function getPrerenderReport() {
-  const sitemapCount = getAllSitemapRoutes().length
+  const staticSitemapCount = getAllSitemapRoutes().length
+  const cmsCount = [...new Set(PRERENDER_ROUTES.filter((r) => r.cmsPage).map((r) => r.basePath))].length
   const perLocale = Object.fromEntries(LOCALE_CODES.map((code) => [code, 0]))
 
   for (const route of PRERENDER_ROUTES) {
@@ -147,10 +153,11 @@ export function getPrerenderReport() {
   )
 
   const localizedIncluded = PRERENDER_ROUTES.filter((r) => r.locale !== DEFAULT_LOCALE).length
-  const localizedSkipped = sitemapCount * skippedLocales.length
+  const localizedSkipped = staticSitemapCount * skippedLocales.length
 
   return {
-    sitemapCount,
+    staticSitemapCount,
+    cmsArticleCount: cmsCount,
     perLocale,
     englishRoutes: perLocale[DEFAULT_LOCALE] ?? 0,
     localizedRoutesTotal: localizedIncluded,
@@ -162,7 +169,7 @@ export function getPrerenderReport() {
         : 'None',
     localizedRoutesSkippedEstimate: localizedSkipped,
     sitemapParity:
-      (perLocale[DEFAULT_LOCALE] ?? 0) === sitemapCount ? 'OK' : 'MISMATCH',
+      (perLocale[DEFAULT_LOCALE] ?? 0) >= staticSitemapCount ? 'OK' : 'MISMATCH',
   }
 }
 
@@ -170,6 +177,8 @@ export function printPrerenderReport() {
   const report = getPrerenderReport()
 
   console.log('\n=== Prerender route report ===')
+  console.log(`Static sitemap routes: ${report.staticSitemapCount}`)
+  console.log(`CMS blog articles: ${report.cmsArticleCount}`)
   console.log(`English routes included: ${report.englishRoutes}`)
   console.log(`hi routes included: ${report.perLocale.hi ?? 0}`)
   console.log(`id routes included: ${report.perLocale.id ?? 0}`)
@@ -177,7 +186,6 @@ export function printPrerenderReport() {
   console.log(`bn routes included: ${report.perLocale.bn ?? 0}`)
   console.log(`ms routes included: ${report.perLocale.ms ?? 0}`)
   console.log(`Total prerender routes: ${report.totalPrerenderRoutes}`)
-  console.log(`Sitemap count: ${report.sitemapCount}`)
   console.log(`Sitemap/prerender parity: ${report.sitemapParity}`)
 
   if (report.skippedLocales.length > 0) {

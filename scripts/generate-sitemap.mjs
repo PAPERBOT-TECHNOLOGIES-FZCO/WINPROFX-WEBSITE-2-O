@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { SEO_ROUTES, SITEMAP_LASTMOD } from './seo-routes.mjs'
+import { fetchCmsArticleMeta } from './cms-slugs.mjs'
 // Localized sitemap segments: use getSitemapReadyLocales() from ./locale-seo-readiness.mjs
 // when a locale passes QA. English segments below must remain unchanged until then.
 
@@ -51,6 +52,17 @@ for (const { file, key } of segments) {
   console.log('Wrote', file, `(${SEO_ROUTES[key].length} URLs)`)
 }
 
-const indexFiles = segments.map((s) => s.file)
+// Dynamic blog sitemap — fetched from Strapi CMS at build time
+const cmsArticles = await fetchCmsArticleMeta()
+const blogRoutes = cmsArticles.map((a) => ({
+  path: `/${a.slug}/`,
+  priority: '0.8',
+  changefreq: 'monthly',
+}))
+const blogSitemapFile = 'sitemap-blog.xml'
+fs.writeFileSync(path.join(publicDir, blogSitemapFile), buildUrlset(blogRoutes))
+console.log('Wrote', blogSitemapFile, `(${blogRoutes.length} URLs)`)
+
+const indexFiles = [...segments.map((s) => s.file), blogSitemapFile]
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), buildSitemapIndex(indexFiles))
 console.log('Wrote sitemap.xml index')
