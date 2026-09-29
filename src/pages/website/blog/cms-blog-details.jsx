@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useParams, useLocation } from 'react-router-dom'
 import { Container } from '@/components/grid'
 import SeoHead from '@/components/seo-head'
+import { buildCmsStructuredData, serializeStructuredData } from '@/lib/cms-structured-data'
+import { buildCanonicalUrl } from '@/lib/schema-org'
 import Button from '@/components/button'
 import DemoCta from '@/components/demo-cta'
 import shape from '@/assets/img/blog/shape.png'
@@ -193,9 +195,20 @@ export default function CmsBlogDetails() {
   const seo = article?.seo ?? {}
   const title       = seo.metaTitle || article?.title || 'WINPROFX Blog'
   const description = seo.metaDescription || article?.excerpt || ''
-  const canonical   = seo.canonicalUrl ? new URL(seo.canonicalUrl).pathname : `/${slug}`
+  const canonical = `/${slug}`
+  const canonicalUrl = seo.canonicalUrl || buildCanonicalUrl(canonical)
   const datePublished = article?.seo?.structuredData?.datePublished || article?.publishedAt?.slice(0, 10) || ''
   const category = article?.category || 'Forex'
+  const faqs = Array.isArray(article?.faqs)
+    ? article.faqs.filter((faq) => (
+        typeof faq?.question === 'string' && faq.question.trim() &&
+        Array.isArray(faq.answer) && faq.answer.length > 0
+      ))
+    : []
+
+  const structuredData = !loading && !error
+    ? buildCmsStructuredData(article, { canonicalUrl, imageUrl: coverUrl })
+    : []
 
   // Always render SeoHead so the canonical link is present even in error/not-found states.
   // This is also required for the prerender script to confirm the page is ready.
@@ -205,11 +218,12 @@ export default function CmsBlogDetails() {
         title={title}
         description={description}
         canonicalPath={canonical}
+        canonicalUrl={canonicalUrl}
       />
-      {article?.seo?.structuredData && (
+      {structuredData.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(article.seo.structuredData) }}
+          dangerouslySetInnerHTML={{ __html: serializeStructuredData(structuredData) }}
         />
       )}
 
@@ -273,6 +287,26 @@ export default function CmsBlogDetails() {
                 {/* Content */}
                 <div className="flex flex-col gap-y-10 md:gap-y-12 lg:gap-y-16 p-2 pt-0">
                   <RichText nodes={article.content} />
+
+                  {faqs.length > 0 && (
+                    <section aria-labelledby="article-faq-heading" className="flex flex-col gap-y-5">
+                      <h2 id="article-faq-heading" className="text-2xl md:text-3xl font-semibold text-white">
+                        Frequently asked questions
+                      </h2>
+                      <div className="flex flex-col gap-y-3">
+                        {faqs.map((faq, index) => (
+                          <details key={faq.id ?? index} className="rounded-2xl border border-white/16 bg-white/4 p-4 md:p-6">
+                            <summary className="cursor-pointer text-lg font-semibold text-white focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-4">
+                              {faq.question}
+                            </summary>
+                            <div className="mt-4">
+                              <RichText nodes={faq.answer} />
+                            </div>
+                          </details>
+                        ))}
+                      </div>
+                    </section>
+                  )}
 
                   <DemoCta />
                   <div className="flex justify-center">

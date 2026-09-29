@@ -94,23 +94,25 @@ export default function Banner() {
                 </div>
 
                 <div className="absolute bottom-0 pointer-events-none left-0 w-full h-5/12 md:h-[30%] -z-10 opacity-90" style={{ mask: 'linear-gradient(rgba(2, 2, 2, 0), rgb(2, 2, 2), rgb(2, 2, 2))', background: 'linear-gradient(180deg, rgba(2, 2, 2, 0.00) -5.64%, #020202 29.9%)' }}></div>
-                <div className="relative z-1 max-w-437 w-full mx-auto px-0 lg:px-6 mt-35 md:my-auto flex items-center flex-wrap justify-between gap-y-4">
+                <div className="relative z-1 max-w-437 w-full mx-auto px-4 md:px-0 lg:px-6 mt-35 md:my-auto md:flex md:items-center md:flex-wrap md:justify-between gap-y-4">
                     <motion.div
                         initial={{ opacity: 0, x: -y }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
-                        className="flex flex-col items-start justify-start max-w-183">
-                        <h1 className='text-[32px] leading-tight md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] md:leading-[110%] font-black h1graident'>{t('banner.title')}</h1>
+                        className="md:max-w-183">
+                        <h1 className='text-[32px] leading-tight md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] md:leading-[110%] font-black h1graident text-center md:text-left'>{t('banner.title')}</h1>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, x: y }}
-                        whileInView={{ opacity: 1, y: 0 }}
+                        whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
-                        className="flex flex-col gap-y-3 lg:max-w-120 w-full">
-                        <p className='text-para2'>{t('banner.description')}</p>
-                        <Button animation={false} className="mt-3 lg:mt-5" />
+                        className="mt-4 md:mt-0 lg:max-w-120">
+                        <p className='text-para2 text-center md:text-left'>{t('banner.description')}</p>
+                        <div className="mt-3 lg:mt-5 flex justify-center md:justify-start">
+                            <Button animation={false} />
+                        </div>
                     </motion.div>
                 </div>
 
