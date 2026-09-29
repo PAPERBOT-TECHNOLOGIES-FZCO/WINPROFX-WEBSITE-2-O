@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://winprofx.org'
+export const BASE_URL = 'https://winprofx.com'
 export const LOGO_URL = `${BASE_URL}/logo.png`
 export const ORG_ID = `${BASE_URL}/#organization`
 export const WEBSITE_ID = `${BASE_URL}/#website`
@@ -6,12 +6,12 @@ export const WEBSITE_ID = `${BASE_URL}/#website`
 /**
  * Primary canonical base URL for the current runtime environment.
  *
- * - On winprofx.org  → 'https://winprofx.org'  (no change)
- * - On winprofx.com  → 'https://winprofx.org'  (canonical always points to .org)
+ * - On winprofx.com  → 'https://winprofx.com'  (no change)
+ * - On winprofx.com  → 'https://winprofx.com'  (canonical always points to .org)
  * - On winprofx.lat  → 'https://winprofx.lat'  (lat pages are self-canonical)
- * - During build/SSR → 'https://winprofx.org'  (safe static fallback)
+ * - During build/SSR → 'https://winprofx.com'  (safe static fallback)
  *
- * winprofx.com intentionally keeps winprofx.org as the canonical domain because
+ * winprofx.com intentionally keeps winprofx.com as the canonical domain because
  * .org is the declared primary domain in existing SEO configuration. The .lat
  * domain is treated as a separate regional site and uses its own canonical.
  */
@@ -57,7 +57,7 @@ export const OFFICIAL_SAME_AS = [
   'https://winprofx.ae/',
   'https://winprofx.lat/',
   'https://my.winprofx.com/',
-  'https://partner.winprofx.org/',
+  'https://partner.winprofx.com/',
 ]
 
 export const SOCIAL_SAME_AS = [
@@ -68,21 +68,21 @@ export const SOCIAL_SAME_AS = [
 ]
 
 export const OFFICIAL_DOMAIN_ITEMS = [
-  { position: 1, name: 'Main official WINPROFX website', url: 'https://winprofx.org/' },
+  { position: 1, name: 'Main official WINPROFX website', url: 'https://winprofx.com/' },
   { position: 2, name: 'Official alternate / marketing domain', url: 'https://winprofx.com/' },
   { position: 3, name: 'Official UAE / regional domain', url: 'https://winprofx.ae/' },
   { position: 4, name: 'Official Latin America regional domain', url: 'https://winprofx.lat/' },
   { position: 5, name: 'Official client portal', url: 'https://my.winprofx.com/' },
-  { position: 6, name: 'Official partner / IB portal', url: 'https://partner.winprofx.org/' },
+  { position: 6, name: 'Official partner / IB portal', url: 'https://partner.winprofx.com/' },
 ]
 
 export const VERIFY_WINPROFX_DOMAIN_ITEMS = [
-  { position: 1, name: 'WINPROFX main official website', url: 'https://winprofx.org/' },
+  { position: 1, name: 'WINPROFX main official website', url: 'https://winprofx.com/' },
   { position: 2, name: 'WINPROFX official alternate / marketing domain', url: 'https://winprofx.com/' },
   { position: 3, name: 'WINPROFX official UAE / regional domain', url: 'https://winprofx.ae/' },
   { position: 4, name: 'WINPROFX official Latin America regional domain', url: 'https://winprofx.lat/' },
   { position: 5, name: 'WINPROFX official client portal', url: 'https://my.winprofx.com/' },
-  { position: 6, name: 'WINPROFX official partner / IB portal', url: 'https://partner.winprofx.org/' },
+  { position: 6, name: 'WINPROFX official partner / IB portal', url: 'https://partner.winprofx.com/' },
 ]
 
 /** Identity pages: breadcrumb label + WebPage name */

@@ -59,7 +59,7 @@ export default function StartTrading() {
               <Button delay='0.5' />
               <ButtonTwo text={tNav('login')} to={getPortalLoginUrl()} />
             </div>
-            <p>{pu('questionsPrefix')} <Link href="tel:+97144471894">+971 4 447 1894</Link> {pu('questionsSuffix')} <Link href="https://winprofx.org">winprofx.org</Link></p>
+            <p>{pu('questionsPrefix')} <Link href="tel:+97144471894">+971 4 447 1894</Link> {pu('questionsSuffix')} <Link href="https://winprofx.com">winprofx.com</Link></p>
         </div>
       </Container>
     </div>

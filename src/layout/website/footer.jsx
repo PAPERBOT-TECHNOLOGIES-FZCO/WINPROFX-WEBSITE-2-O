@@ -57,11 +57,11 @@ export default function Footer() {
   }, [])
 
   const official_domains = [
-    { labelKey: 'domains.officialWebsite', url: 'https://winprofx.org/', internal: true },
+    { labelKey: 'domains.officialWebsite', url: 'https://winprofx.com/', internal: true },
     { labelKey: 'domains.officialAlternate', url: 'https://winprofx.com/' },
     { labelKey: 'domains.officialUae', url: 'https://winprofx.ae/' },
     { labelKey: 'domains.clientPortal', url: 'https://my.winprofx.com/' },
-    { labelKey: 'domains.partnerPortal', url: 'https://partner.winprofx.org/' },
+    { labelKey: 'domains.partnerPortal', url: 'https://partner.winprofx.com/' },
   ]
 
   const important_links = [

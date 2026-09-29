@@ -62,7 +62,7 @@ export default function AboutUs() {
               <li><strong className="text-white">{t('aboutUs.tradingName')}</strong> {t('aboutUs.tradingNameValue')}</li>
               <li>
                 <strong className="text-white">{t('aboutUs.primaryWebsite')}</strong>{' '}
-                <a href="https://winprofx.org" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">winprofx.org</a>
+                <a href="https://winprofx.com" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">winprofx.com</a>
               </li>
               <li><strong className="text-white">{t('aboutUs.regulation')}</strong> {t('aboutUs.regulationValue')}</li>
               <li>

@@ -197,7 +197,7 @@ export default function Header() {
               </li>
               <li className='md:hidden'>
                 <a
-                  href='https://partner.winprofx.org'
+                  href='https://partner.winprofx.com'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='gradient-text-primary text-base font-medium'
@@ -215,7 +215,7 @@ export default function Header() {
           <div className="heading-actions flex items-center flex-wrap gap-2">
             <LocalizedLink to="/introducing-broker" className='gradient-text-primary text-base font-medium mr-6 hidden md:block lg:hidden xl:inline-block'>{t('introducingBroker')}</LocalizedLink>
             <a
-              href='https://partner.winprofx.org'
+              href='https://partner.winprofx.com'
               target='_blank'
               rel='noopener noreferrer'
               className='gradient-text-primary text-base font-medium mr-4 hidden lg:inline-block'

@@ -244,7 +244,7 @@
         },
         "verifyIntro": "Sebelum mendaftar, log masuk, mendepositkan dana atau berkongsi maklumat peribadi, pengguna harus mengesahkan:",
         "verifyItems": {
-          "domain": "Domain tapak web yang tepat (winprofx.org, winprofx.com atau winprofx.ae)",
+          "domain": "Domain tapak web yang tepat (winprofx.com, winprofx.com atau winprofx.ae)",
           "businessName": "Nama perniagaan lesen sepadan {{dubaiBusinessName}}",
           "support": "Saluran sokongan rasmi ( {{supportEmail}} dan halaman Kenalan)",
           "clientPortal": "Client portal URL: https://my.0/",
@@ -287,8 +287,8 @@
         "companyInformation": "Maklumat Syarikat"
       },
       "content": {
-        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
-        "canonicalAliases": "winprofx.com dan winprofx.ae ialah alias domain rasmi yang mungkin menyediakan kandungan tapak web yang sama. Mereka disenaraikan dalam data berstruktur WINPROFX sebagai sifat rasmi yang berkaitan, tetapi winprofx.org kekal sebagai sumber kanonik untuk pengindeksan dan pengesahan.",
+        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.com URLs.",
+        "canonicalAliases": "winprofx.com dan winprofx.ae ialah alias domain rasmi yang mungkin menyediakan kandungan tapak web yang sama. Mereka disenaraikan dalam data berstruktur WINPROFX sebagai sifat rasmi yang berkaitan, tetapi winprofx.com kekal sebagai sumber kanonik untuk pengindeksan dan pengesahan.",
         "entityContext": "{{brandName}} ialah jenama dagangan yang dikaitkan dengan {{legalEntityName}}, diperbadankan dalam {{jurisdiction}}. Domain serantau UAE winprofx.ae disambungkan ke pejabat perwakilan Dubai yang berdaftar sebagai {{dubaiBusinessName}} di bawah Lesen Profesional Dubai No. {{dubaiLicenseNumber}}.",
         "domainsIntro": "Domain rasmi berikut dikendalikan berkaitan dengan WINPROFX / Winprofx Ltd.:",
         "preLoginWarning": "Sebelum mendaftar, log masuk, mendepositkan dana atau berkongsi maklumat peribadi, sahkan bahawa URL tapak web betul-betul sepadan dengan salah satu domain rasmi yang disenaraikan di atas. Jika tapak web mendakwa mewakili WINPROFX tetapi tidak disenaraikan di sini, jangan teruskan sehingga disahkan dengan sokongan rasmi.",
@@ -317,7 +317,7 @@
           "legalEntity": "Sahkan entiti undang-undang adalah LEGALENTITI (pemerbadanan BIDANG KUASA)",
           "incorporation": "Semak Saint Lucia nombor pemerbadanan 2023-00197 pada Pendaftaran Syarikat",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
-          "domains": "Sahkan URL tapak web sepadan dengan domain WINPROFX rasmi (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com atau partner.winprofx.org)",
+          "domains": "Sahkan URL tapak web sepadan dengan domain WINPROFX rasmi (winprofx.com, winprofx.com, winprofx.ae, my.winprofx.com atau partner.winprofx.com)",
           "clientPortal": "Verify the client portal at https://my.0/",
           "partnerPortal": "Verify the partner portal at https://partner.0/",
           "support": "Gunakan e-mel sokongan rasmi support@winprofx.com atau halaman Kenalan",
@@ -559,7 +559,7 @@
         "intro": "{{brandName}} menyediakan saluran sokongan rasmi untuk pelanggan, rakan kongsi dan bakal pengguna. Halaman ini menerangkan cara menghubungi sokongan, maklumat yang perlu disertakan dan cara meningkatkan isu yang tidak dapat diselesaikan melalui saluran yang disahkan sahaja.",
         "supportChannels": {
           "email": "e-mel: {{supportEmail}}",
-          "contactPage": "{{contactLink}} pada winprofx.org",
+          "contactPage": "{{contactLink}} pada winprofx.com",
           "clientPortal": "Portal pelanggan (pelanggan berdaftar): https://my.winprofx.com/"
         },
         "ticketSteps": {
@@ -586,7 +586,7 @@
         "escalationDepositTitle": "Isu Deposit",
         "escalationDeposit": "Untuk kelewatan pengesahan deposit atau pertikaian pembayaran, hubungi sokongan dengan tarikh transaksi, jumlah, kaedah pembayaran dan sebarang rujukan daripada bank atau pembekal pembayaran anda. Lihat<depositWithdrawLink>Polisi Deposit & Pengeluaran</depositWithdrawLink>.",
         "escalationIbTitle": "Introducing Broker (IB) Rakan Kongsi",
-        "escalationIb": "Rakan kongsi IB harus menggunakan saluran portal rakan kongsi atau e-mel dengan ID rakan kongsi dan rujukan perniagaan. Portal rakan kongsi: https://partner.winprofx.org/",
+        "escalationIb": "Rakan kongsi IB harus menggunakan saluran portal rakan kongsi atau e-mel dengan ID rakan kongsi dan rujukan perniagaan. Portal rakan kongsi: https://partner.winprofx.com/",
         "securityReminder": "Lindungi bukti kelayakan akaun anda dan sahkan harta WINPROFX rasmi sebelum sebarang transaksi kewangan. Laporkan pancingan data atau penyamaran kepada {{supportEmail}}. Baca<clientFundLink>Keselamatan Dana Pelanggan</clientFundLink>untuk panduan tambahan.",
         "complaints": "Untuk aduan rasmi, lihat<complaintsLink>Aduan dan Penyelesaian Pertikaian</complaintsLink>."
       }
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Bagaimana saya mengesahkan laman web rasmi WINPROFX?",
-        "answer": "Bandingkan URL dengan halaman Domain Rasmi. Laman web utama ialah winprofx.org. Log masuk pelanggan di my.winprofx.com dan portal rakan kongsi di partner.winprofx.org."
+        "answer": "Bandingkan URL dengan halaman Domain Rasmi. Laman web utama ialah winprofx.com. Log masuk pelanggan di my.winprofx.com dan portal rakan kongsi di partner.winprofx.com."
       },
       {
         "question": "Apa yang perlu saya lakukan jika saya mengesyaki laman web WINPROFX palsu?",
@@ -671,12 +671,12 @@
     ],
     "officialDomains": [
       {
-        "question": "Apakah perbezaan antara winprofx.org dan my.winprofx.com?",
-        "answer": "winprofx.org ialah laman web rasmi utama untuk maklumat syarikat dan produk. my.winprofx.com ialah portal pelanggan untuk log masuk akaun, deposit, dan pengeluaran."
+        "question": "Apakah perbezaan antara winprofx.com dan my.winprofx.com?",
+        "answer": "winprofx.com ialah laman web rasmi utama untuk maklumat syarikat dan produk. my.winprofx.com ialah portal pelanggan untuk log masuk akaun, deposit, dan pengeluaran."
       },
       {
         "question": "Adakah winprofx.com dan winprofx.ae rasmi?",
-        "answer": "Ya. winprofx.com dan winprofx.ae ialah domain alternatif rasmi yang mengalihkan ke winprofx.org untuk maklumat yang konsisten."
+        "answer": "Ya. winprofx.com dan winprofx.ae ialah domain alternatif rasmi yang mengalihkan ke winprofx.com untuk maklumat yang konsisten."
       }
     ],
     "complaintsAndDisputeResolution": [

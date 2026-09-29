@@ -3,13 +3,13 @@
 # Cloudflare Pages also reads this file for redirect rules.
 #
 # winprofx.lat is a SEPARATE site sharing this repo.
-# Do NOT add a redirect from winprofx.lat to winprofx.com or winprofx.org.
+# Do NOT add a redirect from winprofx.lat to winprofx.com or winprofx.com.
 # Language defaulting for .lat is handled at runtime in src/lib/domain-locale.js.
 
-https://winprofx.ae/* https://winprofx.org/:splat 301!
-https://www.winprofx.ae/* https://winprofx.org/:splat 301!
-http://winprofx.ae/* https://winprofx.org/:splat 301!
-http://www.winprofx.ae/* https://winprofx.org/:splat 301!
+https://winprofx.ae/* https://winprofx.com/:splat 301!
+https://www.winprofx.ae/* https://winprofx.com/:splat 301!
+http://winprofx.ae/* https://winprofx.com/:splat 301!
+http://www.winprofx.ae/* https://winprofx.com/:splat 301!
 
 # SPA catch-all — serves index.html for all routes not matched by a static file.
 # Required for Cloudflare Pages (netlify.toml catch-all is ignored by Cloudflare).

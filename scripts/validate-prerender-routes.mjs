@@ -206,25 +206,25 @@ export function validatePrerenderedHtmlSamples(distDir) {
   const samples = [
     {
       path: '/',
-      canonical: 'https://winprofx.org/',
+      canonical: 'https://winprofx.com/',
       allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },
     {
       path: '/forex',
-      canonical: 'https://winprofx.org/forex/',
+      canonical: 'https://winprofx.com/forex/',
       allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },
     // {
     //   path: '/trust-center',
-    //   canonical: 'https://winprofx.org/trust-center/',
+    //   canonical: 'https://winprofx.com/trust-center/',
     //   allowedHreflang: ['en', 'x-default'],
     //   robotsMustInclude: 'index',
     // },
     {
       path: '/learn/what-is-forex-trading',
-      canonical: 'https://winprofx.org/learn/what-is-forex-trading/',
+      canonical: 'https://winprofx.com/learn/what-is-forex-trading/',
       allowedHreflang: ['en', 'es', 'x-default'],
       robotsMustInclude: 'index',
     },

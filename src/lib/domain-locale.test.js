@@ -7,9 +7,9 @@
  *  2. www.winprofx.lat, no saved preference    → Spanish ('es')
  *  3. winprofx.lat, English saved preference   → null (defers to localStorage)
  *  4. winprofx.com, no saved preference        → null (no mapping)
- *  5. winprofx.org, no saved preference        → null (no mapping)
+ *  5. winprofx.com, no saved preference        → null (no mapping)
  *  6. www.winprofx.com, no saved preference    → null (no mapping)
- *  7. www.winprofx.org, no saved preference    → null (no mapping)
+ *  7. www.winprofx.com, no saved preference    → null (no mapping)
  *  8. localhost (dev), no saved preference     → null (no mapping)
  *  9. unknown hostname                         → null (no mapping)
  * 10. window undefined (SSR/build/test env)    → null (no crash)
@@ -72,9 +72,9 @@ describe('getDefaultLocaleForHostname', () => {
     expect(getDefaultLocaleForHostname('winprofx.com')).toBeNull()
   })
 
-  // Scenario 5 — winprofx.org → null
-  it('returns null for winprofx.org', () => {
-    expect(getDefaultLocaleForHostname('winprofx.org')).toBeNull()
+  // Scenario 5 — winprofx.com → null
+  it('returns null for winprofx.com', () => {
+    expect(getDefaultLocaleForHostname('winprofx.com')).toBeNull()
   })
 
   // Scenario 6 — www.winprofx.com → null
@@ -82,9 +82,9 @@ describe('getDefaultLocaleForHostname', () => {
     expect(getDefaultLocaleForHostname('www.winprofx.com')).toBeNull()
   })
 
-  // Scenario 7 — www.winprofx.org → null
-  it('returns null for www.winprofx.org', () => {
-    expect(getDefaultLocaleForHostname('www.winprofx.org')).toBeNull()
+  // Scenario 7 — www.winprofx.com → null
+  it('returns null for www.winprofx.com', () => {
+    expect(getDefaultLocaleForHostname('www.winprofx.com')).toBeNull()
   })
 
   // Scenario 8 — localhost → null
@@ -127,8 +127,8 @@ describe('isLatinAmericaDomain', () => {
     expect(isLatinAmericaDomain('winprofx.com')).toBe(false)
   })
 
-  it('returns false for winprofx.org', () => {
-    expect(isLatinAmericaDomain('winprofx.org')).toBe(false)
+  it('returns false for winprofx.com', () => {
+    expect(isLatinAmericaDomain('winprofx.com')).toBe(false)
   })
 
   it('returns false for localhost', () => {

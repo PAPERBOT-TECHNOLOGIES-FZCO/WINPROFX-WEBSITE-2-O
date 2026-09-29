@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "आधिकारिक WINPROFX वेबसाइट कैसे सत्यापित करें?",
-        "answer": "URL की तुलना आधिकारिक डोमेन पेज से करें। मुख्य वेबसाइट winprofx.org है। क्लाइंट लॉगिन my.winprofx.com पर है और पार्टनर पोर्टल partner.winprofx.org पर है।"
+        "answer": "URL की तुलना आधिकारिक डोमेन पेज से करें। मुख्य वेबसाइट winprofx.com है। क्लाइंट लॉगिन my.winprofx.com पर है और पार्टनर पोर्टल partner.winprofx.com पर है।"
       },
       {
         "question": "यदि मुझे नकली WINPROFX वेबसाइट का संदेह हो तो क्या करें?",
@@ -671,12 +671,12 @@
     ],
     "officialDomains": [
       {
-        "question": "winprofx.org और my.winprofx.com में क्या अंतर है?",
-        "answer": "winprofx.org कंपनी और उत्पाद जानकारी के लिए मुख्य आधिकारिक वेबसाइट है। my.winprofx.com खाता लॉगिन, जमा और निकासी के लिए क्लाइंट पोर्टल है।"
+        "question": "winprofx.com और my.winprofx.com में क्या अंतर है?",
+        "answer": "winprofx.com कंपनी और उत्पाद जानकारी के लिए मुख्य आधिकारिक वेबसाइट है। my.winprofx.com खाता लॉगिन, जमा और निकासी के लिए क्लाइंट पोर्टल है।"
       },
       {
         "question": "क्या winprofx.com और winprofx.ae आधिकारिक हैं?",
-        "answer": "हाँ। winprofx.com और winprofx.ae आधिकारिक वैकल्पिक डोमेन हैं जो सुसंगत जानकारी के लिए winprofx.org पर रीडायरेक्ट करते हैं।"
+        "answer": "हाँ। winprofx.com और winprofx.ae आधिकारिक वैकल्पिक डोमेन हैं जो सुसंगत जानकारी के लिए winprofx.com पर रीडायरेक्ट करते हैं।"
       }
     ],
     "complaintsAndDisputeResolution": [

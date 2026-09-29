@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "追求卓越：在 WINPROFX 重新定义交易标准",
-    "bannerDes": "欢迎来到 WINPROFX —— 提供 MT5 平台接入、多种账户服务及客户支持的 Forex 与 CFD 交易品牌。交易或入金前，请在 winprofx.org 核实官方信息。",
+    "bannerDes": "欢迎来到 WINPROFX —— 提供 MT5 平台接入、多种账户服务及客户支持的 Forex 与 CFD 交易品牌。交易或入金前，请在 winprofx.com 核实官方信息。",
     "companyInfoTitle": "公司信息",
     "legalName": "法定名称：",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "如何开始在 WINPROFX 交易？",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">创建账户：</strong><p>访问 WINPROFX 官方网站 <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> 或<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">在此注册</a>。</p><p>查找“注册”或“开立账户”选项。</p><p>提供所需信息，包括个人详情与联系方式。</p><p>同意条款与条件。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">身份验证（KYC）：</strong><p>提交身份证明文件，完成所需的身份验证流程，以符合监管要求。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">存入资金：</strong><p>登录您新创建的账户。</p><p>进入入金或资金管理专区。</p><p>选择您偏好的支付方式，将资金存入交易账户。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">选择交易平台：</strong><p>从可用交易平台中选择 — MetaTrader 5 (MT5)。</p><p>下载并安装交易平台。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">登录交易平台：</strong><p>打开交易平台。</p><p>输入您的账户凭证登录。</p><p>如遇任何困难，WINPROFX 客户支持可为您提供协助。<a href=\"/contact\" class=\"text-white underline\">联系我们</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">创建账户：</strong><p>访问 WINPROFX 官方网站 <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> 或<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">在此注册</a>。</p><p>查找“注册”或“开立账户”选项。</p><p>提供所需信息，包括个人详情与联系方式。</p><p>同意条款与条件。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">身份验证（KYC）：</strong><p>提交身份证明文件，完成所需的身份验证流程，以符合监管要求。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">存入资金：</strong><p>登录您新创建的账户。</p><p>进入入金或资金管理专区。</p><p>选择您偏好的支付方式，将资金存入交易账户。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">选择交易平台：</strong><p>从可用交易平台中选择 — MetaTrader 5 (MT5)。</p><p>下载并安装交易平台。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">登录交易平台：</strong><p>打开交易平台。</p><p>输入您的账户凭证登录。</p><p>如遇任何困难，WINPROFX 客户支持可为您提供协助。<a href=\"/contact\" class=\"text-white underline\">联系我们</a></p></div>"
       },
       "instruments": {
         "title": "我可以在 WINPROFX 交易哪些金融工具？",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "WINPROFX 支持哪些交易平台？",
-        "body": "<p>WINPROFX 支持以下交易平台：</p><ul><li><span><span>MetaTrader 5 (MT5)：</span>行业标准的桌面端与移动端平台，适用于 Forex、指数、加密货币、贵金属、大宗商品及原油交易。</span></li><li><span><span>网页交易：</span>基于浏览器的交易，可在 trade.winprofx.org 快速访问，无需安装。</span></li><li><span><span>模拟账户：</span>在真实交易前，于无风险环境中练习交易。</span></li></ul><p>了解更多请访问我们的<a href=\"/platform\" class=\"text-white underline\">平台页面</a>，或<a href=\"/contact\" class=\"text-white underline\">联系支持</a>获取协助。</p>"
+        "body": "<p>WINPROFX 支持以下交易平台：</p><ul><li><span><span>MetaTrader 5 (MT5)：</span>行业标准的桌面端与移动端平台，适用于 Forex、指数、加密货币、贵金属、大宗商品及原油交易。</span></li><li><span><span>网页交易：</span>基于浏览器的交易，可在 trade.winprofx.com 快速访问，无需安装。</span></li><li><span><span>模拟账户：</span>在真实交易前，于无风险环境中练习交易。</span></li></ul><p>了解更多请访问我们的<a href=\"/platform\" class=\"text-white underline\">平台页面</a>，或<a href=\"/contact\" class=\"text-white underline\">联系支持</a>获取协助。</p>"
       },
       "support": {
         "title": "如何联系 WINPROFX 客户支持？",
-        "body": "<p>WINPROFX 客户支持全天候 24/7 通过以下渠道提供服务：</p><ul><li><span><span>电话：</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>电子邮箱：</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp：</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>在线客服：</span> 可通过本网站的聊天组件使用</span></li></ul><p>完整详情请访问我们的<a href=\"/contact\" class=\"text-white underline\">联系页面</a>。官方网站：<a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>。</p>"
+        "body": "<p>WINPROFX 客户支持全天候 24/7 通过以下渠道提供服务：</p><ul><li><span><span>电话：</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>电子邮箱：</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp：</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>在线客服：</span> 可通过本网站的聊天组件使用</span></li></ul><p>完整详情请访问我们的<a href=\"/contact\" class=\"text-white underline\">联系页面</a>。官方网站：<a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>。</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "如需账户登录与交易，请使用",
     "introP2ClientPortal": "客户门户 my.winprofx.com",
     "introP2Middle": "。合作伙伴请使用",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "客户支持：",
     "customerSupportHours": "全天候 24 小时、每周 7 天提供服务",
     "officeHours": "办公时间（阿联酋）：",
@@ -467,7 +467,7 @@
         },
         "verify": {
           "title": "交易前验证 WINPROFX",
-          "des": "登录或入金前，请务必确认您处于官方 WINPROFX 域名。请在 winprofx.org 的 WINPROFX 信任中心查阅公司注册、监管范围及风险警告。"
+          "des": "登录或入金前，请务必确认您处于官方 WINPROFX 域名。请在 winprofx.com 的 WINPROFX 信任中心查阅公司注册、监管范围及风险警告。"
         },
         "risk": {
           "title": "风险警告",

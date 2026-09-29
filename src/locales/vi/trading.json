@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "Tiên phong xuất sắc: Định hình lại tiêu chuẩn giao dịch tại WINPROFX",
-    "bannerDes": "Chào mừng đến với WINPROFX — thương hiệu giao dịch forex và CFD cung cấp quyền truy cập nền tảng MT5, nhiều dịch vụ tài khoản và hỗ trợ khách hàng. Hãy xác minh thông tin chính thức trên winprofx.org trước khi giao dịch hoặc nạp tiền.",
+    "bannerDes": "Chào mừng đến với WINPROFX — thương hiệu giao dịch forex và CFD cung cấp quyền truy cập nền tảng MT5, nhiều dịch vụ tài khoản và hỗ trợ khách hàng. Hãy xác minh thông tin chính thức trên winprofx.com trước khi giao dịch hoặc nạp tiền.",
     "companyInfoTitle": "Thông tin công ty",
     "legalName": "Tên pháp lý:",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "Làm thế nào để bắt đầu giao dịch với WINPROFX?",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Tạo tài khoản:</strong><p>Truy cập website chính thức của WINPROFX tại <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> hoặc <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">đăng ký tại đây</a>.</p><p>Tìm tùy chọn \"Đăng ký\" hoặc \"Mở tài khoản\".</p><p>Cung cấp thông tin bắt buộc, bao gồm thông tin cá nhân và liên hệ.</p><p>Đồng ý với điều khoản và điều kiện.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Xác minh (KYC):</strong><p>Hoàn tất quy trình xác minh danh tính bằng cách gửi giấy tờ tùy thân theo yêu cầu quy định.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Nạp tiền:</strong><p>Đăng nhập vào tài khoản vừa tạo.</p><p>Vào mục nạp tiền hoặc cấp vốn.</p><p>Chọn phương thức thanh toán ưa thích và nạp tiền vào tài khoản giao dịch.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Chọn nền tảng giao dịch:</strong><p>Chọn nền tảng giao dịch có sẵn — MetaTrader 5 (MT5).</p><p>Tải xuống và cài đặt nền tảng giao dịch.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Đăng nhập nền tảng giao dịch:</strong><p>Mở nền tảng giao dịch.</p><p>Nhập thông tin đăng nhập tài khoản để truy cập.</p><p>Nếu gặp khó khăn, bộ phận hỗ trợ khách hàng WINPROFX có thể hỗ trợ bạn. <a href=\"/contact\" class=\"text-white underline\">Liên hệ chúng tôi</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Tạo tài khoản:</strong><p>Truy cập website chính thức của WINPROFX tại <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> hoặc <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">đăng ký tại đây</a>.</p><p>Tìm tùy chọn \"Đăng ký\" hoặc \"Mở tài khoản\".</p><p>Cung cấp thông tin bắt buộc, bao gồm thông tin cá nhân và liên hệ.</p><p>Đồng ý với điều khoản và điều kiện.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Xác minh (KYC):</strong><p>Hoàn tất quy trình xác minh danh tính bằng cách gửi giấy tờ tùy thân theo yêu cầu quy định.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Nạp tiền:</strong><p>Đăng nhập vào tài khoản vừa tạo.</p><p>Vào mục nạp tiền hoặc cấp vốn.</p><p>Chọn phương thức thanh toán ưa thích và nạp tiền vào tài khoản giao dịch.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Chọn nền tảng giao dịch:</strong><p>Chọn nền tảng giao dịch có sẵn — MetaTrader 5 (MT5).</p><p>Tải xuống và cài đặt nền tảng giao dịch.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Đăng nhập nền tảng giao dịch:</strong><p>Mở nền tảng giao dịch.</p><p>Nhập thông tin đăng nhập tài khoản để truy cập.</p><p>Nếu gặp khó khăn, bộ phận hỗ trợ khách hàng WINPROFX có thể hỗ trợ bạn. <a href=\"/contact\" class=\"text-white underline\">Liên hệ chúng tôi</a></p></div>"
       },
       "instruments": {
         "title": "Tôi có thể giao dịch những công cụ tài chính nào với WINPROFX?",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "WINPROFX hỗ trợ những nền tảng giao dịch nào?",
-        "body": "<p>WINPROFX hỗ trợ các nền tảng giao dịch sau:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Nền tảng desktop và mobile chuẩn ngành cho giao dịch forex, chỉ số, crypto, kim loại, hàng hóa và dầu thô.</span></li><li><span><span>Web Trading:</span>Giao dịch trên trình duyệt tại trade.winprofx.org để truy cập nhanh mà không cần cài đặt.</span></li><li><span><span>Tài khoản Demo:</span>Luyện tập giao dịch trong môi trường không rủi ro trước khi giao dịch thực.</span></li></ul><p>Tìm hiểu thêm trên <a href=\"/platform\" class=\"text-white underline\">trang Nền tảng</a> hoặc <a href=\"/contact\" class=\"text-white underline\">liên hệ hỗ trợ</a>.</p>"
+        "body": "<p>WINPROFX hỗ trợ các nền tảng giao dịch sau:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Nền tảng desktop và mobile chuẩn ngành cho giao dịch forex, chỉ số, crypto, kim loại, hàng hóa và dầu thô.</span></li><li><span><span>Web Trading:</span>Giao dịch trên trình duyệt tại trade.winprofx.com để truy cập nhanh mà không cần cài đặt.</span></li><li><span><span>Tài khoản Demo:</span>Luyện tập giao dịch trong môi trường không rủi ro trước khi giao dịch thực.</span></li></ul><p>Tìm hiểu thêm trên <a href=\"/platform\" class=\"text-white underline\">trang Nền tảng</a> hoặc <a href=\"/contact\" class=\"text-white underline\">liên hệ hỗ trợ</a>.</p>"
       },
       "support": {
         "title": "Làm thế nào để liên hệ hỗ trợ khách hàng WINPROFX?",
-        "body": "<p>Hỗ trợ khách hàng WINPROFX sẵn sàng 24/7 qua các kênh sau:</p><ul><li><span><span>Điện thoại:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Chat trực tiếp:</span> Có sẵn trên website này qua widget chat</span></li></ul><p>Xem <a href=\"/contact\" class=\"text-white underline\">trang Liên hệ</a> để biết chi tiết đầy đủ. Website chính thức: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+        "body": "<p>Hỗ trợ khách hàng WINPROFX sẵn sàng 24/7 qua các kênh sau:</p><ul><li><span><span>Điện thoại:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Chat trực tiếp:</span> Có sẵn trên website này qua widget chat</span></li></ul><p>Xem <a href=\"/contact\" class=\"text-white underline\">trang Liên hệ</a> để biết chi tiết đầy đủ. Website chính thức: <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>.</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "Để đăng nhập tài khoản và giao dịch, hãy sử dụng",
     "introP2ClientPortal": "cổng khách hàng tại my.winprofx.com",
     "introP2Middle": ". Đối tác nên sử dụng",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "Hỗ trợ khách hàng:",
     "customerSupportHours": "Sẵn sàng 24 giờ mỗi ngày, 7 ngày mỗi tuần",
     "officeHours": "Giờ làm việc (UAE):",
@@ -467,7 +467,7 @@
         },
         "verify": {
           "title": "Xác minh WINPROFX trước khi giao dịch",
-          "des": "Luôn xác nhận bạn đang ở trên tên miền chính thức của WINPROFX trước khi đăng nhập hoặc nạp tiền. Xem lại đăng ký công ty, phạm vi quy định và cảnh báo rủi ro trên Trust Center WINPROFX tại winprofx.org."
+          "des": "Luôn xác nhận bạn đang ở trên tên miền chính thức của WINPROFX trước khi đăng nhập hoặc nạp tiền. Xem lại đăng ký công ty, phạm vi quy định và cảnh báo rủi ro trên Trust Center WINPROFX tại winprofx.com."
         },
         "risk": {
           "title": "Cảnh báo rủi ro",

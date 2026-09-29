@@ -64,7 +64,7 @@ export default function WinprofxFakeWebsiteWarning() {
         <IdentitySection title={t('pages.winprofxFakeWebsiteWarning.sections.howToVerify')}>
           <ol className="list-decimal pl-5 space-y-2 text-white/80">
             <li>Check the URL bar carefully — look for typos or extra characters</li>
-            <li>Compare against the Official Domains page on winprofx.org</li>
+            <li>Compare against the Official Domains page on winprofx.com</li>
             <li>Use the Verify WINPROFX checklist</li>
             <li>Access login only through links on official pages</li>
           </ol>
@@ -75,7 +75,7 @@ export default function WinprofxFakeWebsiteWarning() {
           <p className="mb-4">
             Client login: <a href="https://my.winprofx.com/" className="text-primary underline" rel="noopener noreferrer">https://my.winprofx.com/</a>
             <br />
-            Partner portal: <a href="https://partner.winprofx.org/" className="text-primary underline" rel="noopener noreferrer">https://partner.winprofx.org/</a>
+            Partner portal: <a href="https://partner.winprofx.com/" className="text-primary underline" rel="noopener noreferrer">https://partner.winprofx.com/</a>
           </p>
           <Link to="/winprofx-official-login/" className="text-primary underline">Official login guidance →</Link>
         </IdentitySection>

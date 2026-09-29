@@ -244,7 +244,7 @@
         },
         "verifyIntro": "Trước khi đăng ký, đăng nhập, gửi tiền hoặc chia sẻ thông tin cá nhân, người dùng nên xác minh:",
         "verifyItems": {
-          "domain": "Tên miền trang web chính xác (winprofx.org, winprofx.com hoặc winprofx.ae)",
+          "domain": "Tên miền trang web chính xác (winprofx.com, winprofx.com hoặc winprofx.ae)",
           "businessName": "Tên doanh nghiệp trong giấy phép trùng khớp {{dubaiBusinessName}}",
           "support": "Các kênh hỗ trợ chính thức ( {{supportEmail}} và trang Liên hệ)",
           "clientPortal": "Client portal URL: https://my.0/",
@@ -287,8 +287,8 @@
         "companyInformation": "Thông tin công ty"
       },
       "content": {
-        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
-        "canonicalAliases": "winprofx.com và winprofx.ae là các bí danh tên miền chính thức có thể phục vụ cùng một nội dung trang web. Chúng được liệt kê trong dữ liệu có cấu trúc WINPROFX dưới dạng thuộc tính chính thức có liên quan nhưng winprofx.org vẫn là nguồn chuẩn để lập chỉ mục và xác minh.",
+        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.com URLs.",
+        "canonicalAliases": "winprofx.com và winprofx.ae là các bí danh tên miền chính thức có thể phục vụ cùng một nội dung trang web. Chúng được liệt kê trong dữ liệu có cấu trúc WINPROFX dưới dạng thuộc tính chính thức có liên quan nhưng winprofx.com vẫn là nguồn chuẩn để lập chỉ mục và xác minh.",
         "entityContext": "{{brandName}} là thương hiệu thương mại gắn liền với {{legalEntityName}}, được kết hợp trong {{jurisdiction}}. Tên miền khu vực UAE winprofx.ae được kết nối với văn phòng đại diện Dubai được đăng ký là {{dubaiBusinessName}} theo Giấy phép Chuyên nghiệp Dubai số. {{dubaiLicenseNumber}}.",
         "domainsIntro": "Các miền chính thức sau đây được vận hành liên quan đến WINPROFX / PHÁP LÝ:",
         "preLoginWarning": "Trước khi đăng ký, đăng nhập, gửi tiền hoặc chia sẻ thông tin cá nhân, hãy xác minh rằng URL của trang web khớp chính xác với một trong các miền chính thức được liệt kê ở trên. Nếu một trang web tuyên bố đại diện cho WINPROFX nhưng không được liệt kê ở đây thì đừng tiếp tục cho đến khi được xác minh với bộ phận hỗ trợ chính thức.",
@@ -317,7 +317,7 @@
           "legalEntity": "Xác minh pháp nhân là HỢP PHÁP (công ty có thẩm quyền)",
           "incorporation": "Kiểm tra số công ty 2023-00197 trên Đăng ký công ty",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
-          "domains": "Xác nhận URL trang web khớp với miền WINPROFX chính thức (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com hoặc đối tác.winprofx.org)",
+          "domains": "Xác nhận URL trang web khớp với miền WINPROFX chính thức (winprofx.com, winprofx.com, winprofx.ae, my.winprofx.com hoặc đối tác.winprofx.com)",
           "clientPortal": "Verify the client portal at https://my.0/",
           "partnerPortal": "Verify the partner portal at https://partner.0/",
           "support": "Sử dụng email hỗ trợ chính thức support@winprofx.com hoặc trang Liên hệ",
@@ -559,7 +559,7 @@
         "intro": "{{brandName}} cung cấp các kênh hỗ trợ chính thức cho khách hàng, đối tác và người dùng tiềm năng. Trang này giải thích cách liên hệ với bộ phận hỗ trợ, những thông tin cần đưa vào và cách báo cáo các vấn đề chưa được giải quyết chỉ thông qua các kênh đã được xác minh.",
         "supportChannels": {
           "email": "E-mail: {{supportEmail}}",
-          "contactPage": "{{contactLink}} trên winprofx.org",
+          "contactPage": "{{contactLink}} trên winprofx.com",
           "clientPortal": "Client portal (registered clients): https://my.0/"
         },
         "ticketSteps": {
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Làm thế nào để xác minh trang web chính thức WINPROFX?",
-        "answer": "So sánh URL với trang Tên miền chính thức. Trang web chính là winprofx.org. Đăng nhập khách hàng tại my.winprofx.com và cổng đối tác tại partner.winprofx.org."
+        "answer": "So sánh URL với trang Tên miền chính thức. Trang web chính là winprofx.com. Đăng nhập khách hàng tại my.winprofx.com và cổng đối tác tại partner.winprofx.com."
       },
       {
         "question": "Tôi nên làm gì nếu nghi ngờ trang web WINPROFX giả mạo?",
@@ -671,12 +671,12 @@
     ],
     "officialDomains": [
       {
-        "question": "Sự khác biệt giữa winprofx.org và my.winprofx.com là gì?",
-        "answer": "winprofx.org là trang web chính thức chính cho thông tin công ty và sản phẩm. my.winprofx.com là cổng khách hàng để đăng nhập tài khoản, nạp và rút tiền."
+        "question": "Sự khác biệt giữa winprofx.com và my.winprofx.com là gì?",
+        "answer": "winprofx.com là trang web chính thức chính cho thông tin công ty và sản phẩm. my.winprofx.com là cổng khách hàng để đăng nhập tài khoản, nạp và rút tiền."
       },
       {
         "question": "winprofx.com và winprofx.ae có chính thức không?",
-        "answer": "Có. winprofx.com và winprofx.ae là tên miền thay thế chính thức chuyển hướng đến winprofx.org để có thông tin nhất quán."
+        "answer": "Có. winprofx.com và winprofx.ae là tên miền thay thế chính thức chuyển hướng đến winprofx.com để có thông tin nhất quán."
       }
     ],
     "complaintsAndDisputeResolution": [

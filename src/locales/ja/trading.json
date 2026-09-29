@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "卓越性を切り拓く：WINPROFX が取引基準を再定義",
-    "bannerDes": "WINPROFX へようこそ — MT5 プラットフォームアクセス、複数の口座サービス、クライアントサポートを提供する Forex および CFD 取引ブランドです。取引や入金の前に、winprofx.org で公式情報をご確認ください。",
+    "bannerDes": "WINPROFX へようこそ — MT5 プラットフォームアクセス、複数の口座サービス、クライアントサポートを提供する Forex および CFD 取引ブランドです。取引や入金の前に、winprofx.com で公式情報をご確認ください。",
     "companyInfoTitle": "会社情報",
     "legalName": "正式名称：",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "WINPROFX で取引を始めるには？",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">口座を作成：</strong><p>公式 WINPROFX ウェブサイト <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> にアクセスするか、<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">こちらから登録</a>してください。</p><p>「登録」または「口座開設」オプションを探してください。</p><p>個人情報および連絡先を含む必要事項を入力してください。</p><p>利用規約に同意してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">本人確認（KYC）：</strong><p>規制要件に従い、本人確認書類を提出して必要な身元確認プロセスを完了してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">入金：</strong><p>新しく作成した口座にログインします。</p><p>入金または資金セクションに移動します。</p><p>希望の支払方法を選択し、取引口座に入金します。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームを選択：</strong><p>利用可能な取引プラットフォーム — MetaTrader 5（MT5）から選択します。</p><p>取引プラットフォームをダウンロードしてインストールします。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームにログイン：</strong><p>取引プラットフォームを開きます。</p><p>口座認証情報を入力してログインします。</p><p>問題が発生した場合は、WINPROFX のカスタマーサポートがサポートいたします。<a href=\"/contact\" class=\"text-white underline\">お問い合わせ</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">口座を作成：</strong><p>公式 WINPROFX ウェブサイト <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> にアクセスするか、<a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">こちらから登録</a>してください。</p><p>「登録」または「口座開設」オプションを探してください。</p><p>個人情報および連絡先を含む必要事項を入力してください。</p><p>利用規約に同意してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">本人確認（KYC）：</strong><p>規制要件に従い、本人確認書類を提出して必要な身元確認プロセスを完了してください。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">入金：</strong><p>新しく作成した口座にログインします。</p><p>入金または資金セクションに移動します。</p><p>希望の支払方法を選択し、取引口座に入金します。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームを選択：</strong><p>利用可能な取引プラットフォーム — MetaTrader 5（MT5）から選択します。</p><p>取引プラットフォームをダウンロードしてインストールします。</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">取引プラットフォームにログイン：</strong><p>取引プラットフォームを開きます。</p><p>口座認証情報を入力してログインします。</p><p>問題が発生した場合は、WINPROFX のカスタマーサポートがサポートいたします。<a href=\"/contact\" class=\"text-white underline\">お問い合わせ</a></p></div>"
       },
       "instruments": {
         "title": "WINPROFX で取引できる金融商品は？",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "WINPROFX がサポートする取引プラットフォームは？",
-        "body": "<p>WINPROFX は以下の取引プラットフォームをサポートしています：</p><ul><li><span><span>MetaTrader 5（MT5）：</span>Forex、指数、暗号資産、金属、コモディティ、原油取引向けの業界標準デスクトップ・モバイルプラットフォーム。</span></li><li><span><span>Web Trading：</span>インストール不要で迅速にアクセスできる、trade.winprofx.org のブラウザベース取引。</span></li><li><span><span>デモ口座：</span>ライブ取引の前に、リスクのない環境で取引を練習できます。</span></li></ul><p>詳細は<a href=\"/platform\" class=\"text-white underline\">プラットフォームページ</a>をご覧いただくか、<a href=\"/contact\" class=\"text-white underline\">サポートにお問い合わせ</a>ください。</p>"
+        "body": "<p>WINPROFX は以下の取引プラットフォームをサポートしています：</p><ul><li><span><span>MetaTrader 5（MT5）：</span>Forex、指数、暗号資産、金属、コモディティ、原油取引向けの業界標準デスクトップ・モバイルプラットフォーム。</span></li><li><span><span>Web Trading：</span>インストール不要で迅速にアクセスできる、trade.winprofx.com のブラウザベース取引。</span></li><li><span><span>デモ口座：</span>ライブ取引の前に、リスクのない環境で取引を練習できます。</span></li></ul><p>詳細は<a href=\"/platform\" class=\"text-white underline\">プラットフォームページ</a>をご覧いただくか、<a href=\"/contact\" class=\"text-white underline\">サポートにお問い合わせ</a>ください。</p>"
       },
       "support": {
         "title": "WINPROFX カスタマーサポートへの連絡方法は？",
-        "body": "<p>WINPROFX カスタマーサポートは、以下のチャネルで 24時間365日ご利用いただけます：</p><ul><li><span><span>電話：</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>メール：</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp：</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>ライブチャット：</span>本ウェブサイトのチャットウィジェットからご利用いただけます</span></li></ul><p>詳細は<a href=\"/contact\" class=\"text-white underline\">お問い合わせページ</a>をご覧ください。公式ウェブサイト：<a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>。</p>"
+        "body": "<p>WINPROFX カスタマーサポートは、以下のチャネルで 24時間365日ご利用いただけます：</p><ul><li><span><span>電話：</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>メール：</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp：</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>ライブチャット：</span>本ウェブサイトのチャットウィジェットからご利用いただけます</span></li></ul><p>詳細は<a href=\"/contact\" class=\"text-white underline\">お問い合わせページ</a>をご覧ください。公式ウェブサイト：<a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>。</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "口座ログインおよび取引には、",
     "introP2ClientPortal": "my.winprofx.com のクライアントポータル",
     "introP2Middle": "をご利用ください。パートナーの方は",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "カスタマーサポート：",
     "customerSupportHours": "年中無休・24時間対応",
     "officeHours": "オフィス時間（UAE）：",
@@ -467,7 +467,7 @@
         },
         "verify": {
           "title": "取引前に WINPROFX を確認",
-          "des": "ログインまたは入金の前に、必ず公式 WINPROFX ドメイン上にいることを確認してください。会社登記、規制範囲、リスク警告は、winprofx.org の WINPROFX トラストセンターでご確認ください。"
+          "des": "ログインまたは入金の前に、必ず公式 WINPROFX ドメイン上にいることを確認してください。会社登記、規制範囲、リスク警告は、winprofx.com の WINPROFX トラストセンターでご確認ください。"
         },
         "risk": {
           "title": "リスク警告",

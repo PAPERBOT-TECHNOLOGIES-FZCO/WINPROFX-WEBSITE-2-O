@@ -76,7 +76,7 @@ export default function WinprofxLicenseVerification() {
 
         <IdentitySection title={t('pages.winprofxLicenseVerification.sections.verifyDocuments')}>
           <ol className="list-decimal pl-5 space-y-2 text-white/80">
-            <li>Confirm you are on winprofx.org or an official alternate domain</li>
+            <li>Confirm you are on winprofx.com or an official alternate domain</li>
             {/* <li>Download incorporation documents from the Company Registration page</li> */}
             {/* <li>Review Dubai license details on the Dubai Professional License page</li> */}
             {/* <li>Cross-check financial regulator information on the Information page when published</li> */}

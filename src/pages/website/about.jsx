@@ -32,8 +32,8 @@ export default function About() {
             <p>{t('about.whatIsBody')}</p>
             <p className="mt-4">
               The main official website is{' '}
-              <a href="https://winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
-                https://winprofx.org/
+              <a href="https://winprofx.com/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
+                https://winprofx.com/
               </a>
               .
             </p>
@@ -53,8 +53,8 @@ export default function About() {
             </p>
             <ul className="flex flex-col gap-2">
               <li>
-                <a href="https://winprofx.org/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
-                  winprofx.org
+                <a href="https://winprofx.com/" className="text-white underline hover:text-primary" rel="noopener noreferrer">
+                  winprofx.com
                 </a>{' '}
                 — Main official website
               </li>
@@ -90,8 +90,8 @@ export default function About() {
               </li>
               <li>
                 <strong className="text-white">Partner / IB login:</strong>{' '}
-                <a href="https://partner.winprofx.org/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
-                  https://partner.winprofx.org/
+                <a href="https://partner.winprofx.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+                  https://partner.winprofx.com/
                 </a>
               </li>
             </ul>

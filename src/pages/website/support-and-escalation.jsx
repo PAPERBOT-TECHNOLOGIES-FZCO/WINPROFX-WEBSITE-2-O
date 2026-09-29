@@ -48,7 +48,7 @@ export default function SupportAndEscalation() {
                 <LocalizedLink to="/contact/" className="text-white underline hover:text-primary">
                   {t('shared.contactPage')}
                 </LocalizedLink>{' '}
-                on winprofx.org
+                on winprofx.com
               </li>
               <li>{t(`pages.${PAGE_KEY}.content.supportChannels.clientPortal`)}</li>
             </ul>
@@ -127,12 +127,12 @@ export default function SupportAndEscalation() {
             <p>
               {t(`pages.${PAGE_KEY}.content.escalationIb`)}{' '}
               <a
-                href="https://partner.winprofx.org/"
+                href="https://partner.winprofx.com/"
                 className="text-white underline hover:text-primary"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                https://partner.winprofx.org/
+                https://partner.winprofx.com/
               </a>
             </p>
           </IdentitySection>

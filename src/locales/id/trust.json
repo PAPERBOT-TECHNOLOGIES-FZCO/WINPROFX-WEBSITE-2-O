@@ -244,7 +244,7 @@
         },
         "verifyIntro": "Sebelum mendaftar, masuk, menyetor dana, atau membagikan informasi pribadi, pengguna harus memverifikasi:",
         "verifyItems": {
-          "domain": "Domain situs web yang tepat (winprofx.org, winprofx.com, atau winprofx.ae)",
+          "domain": "Domain situs web yang tepat (winprofx.com, winprofx.com, atau winprofx.ae)",
           "businessName": "Nama bisnis lisensinya cocok {{dubaiBusinessName}}",
           "support": "Saluran dukungan resmi ( {{supportEmail}} dan halaman Kontak)",
           "clientPortal": "Client portal URL: https://my.0/",
@@ -287,8 +287,8 @@
         "companyInformation": "Informasi Perusahaan"
       },
       "content": {
-        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
-        "canonicalAliases": "winprofx.com dan winprofx.ae adalah alias domain resmi yang mungkin menyajikan konten situs web yang sama. Mereka tercantum dalam data terstruktur WINPROFX sebagai properti resmi terkait, namun winprofx.org tetap menjadi sumber kanonik untuk pengindeksan dan verifikasi.",
+        "canonicalPrimary": "https://1/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.com URLs.",
+        "canonicalAliases": "winprofx.com dan winprofx.ae adalah alias domain resmi yang mungkin menyajikan konten situs web yang sama. Mereka tercantum dalam data terstruktur WINPROFX sebagai properti resmi terkait, namun winprofx.com tetap menjadi sumber kanonik untuk pengindeksan dan verifikasi.",
         "entityContext": "{{brandName}} adalah merek dagang yang terkait dengannya {{legalEntityName}}, tergabung dalam {{jurisdiction}}. winprofx.ae domain regional UAE terhubung ke kantor perwakilan Dubai yang terdaftar sebagai {{dubaiBusinessName}} di bawah Lisensi Profesional Dubai No. {{dubaiLicenseNumber}}.",
         "domainsIntro": "Domain resmi berikut dioperasikan sehubungan dengan NAMA MEREK / LEGALENTITAS:",
         "preLoginWarning": "Sebelum mendaftar, masuk, menyetor dana, atau membagikan informasi pribadi, verifikasi bahwa URL situs web sama persis dengan salah satu domain resmi yang tercantum di atas. Jika situs web mengaku mewakili WINPROFX namun tidak tercantum di sini, jangan lanjutkan hingga diverifikasi dengan dukungan resmi.",
@@ -317,7 +317,7 @@
           "legalEntity": "Memverifikasi badan hukumnya LEGALENTITAS (penggabungan YURISDIKSI)",
           "incorporation": "Periksa nomor pendirian YURISDIKSI 2023-00197 pada Daftar Perusahaan",
           "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name DUBAIBIZNAME (Representative Office activity)",
-          "domains": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.com, atau partner.winprofx.org)",
+          "domains": "Konfirmasikan URL situs web cocok dengan domain WINPROFX resmi (winprofx.com, winprofx.com, winprofx.ae, my.winprofx.com, atau partner.winprofx.com)",
           "clientPortal": "Verify the client portal at https://my.0/",
           "partnerPortal": "Verify the partner portal at https://partner.0/",
           "support": "Gunakan email dukungan resmi support@winprofx.com atau halaman Kontak",
@@ -559,7 +559,7 @@
         "intro": "{{brandName}} menyediakan saluran dukungan resmi untuk klien, mitra, dan calon pengguna. Halaman ini menjelaskan cara menghubungi dukungan, informasi apa yang harus disertakan, dan cara mengeskalasi masalah yang belum terselesaikan hanya melalui saluran terverifikasi.",
         "supportChannels": {
           "email": "E-mail: {{supportEmail}}",
-          "contactPage": "{{contactLink}} di winprofx.org",
+          "contactPage": "{{contactLink}} di winprofx.com",
           "clientPortal": "Client portal (registered clients): https://my.0/"
         },
         "ticketSteps": {
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "Bagaimana cara memverifikasi situs web resmi WINPROFX?",
-        "answer": "Bandingkan URL dengan halaman Domain Resmi. Situs web utama adalah winprofx.org. Login klien di my.winprofx.com dan portal mitra di partner.winprofx.org."
+        "answer": "Bandingkan URL dengan halaman Domain Resmi. Situs web utama adalah winprofx.com. Login klien di my.winprofx.com dan portal mitra di partner.winprofx.com."
       },
       {
         "question": "Apa yang harus saya lakukan jika mencurigai situs web WINPROFX palsu?",
@@ -671,12 +671,12 @@
     ],
     "officialDomains": [
       {
-        "question": "Apa perbedaan antara winprofx.org dan my.winprofx.com?",
-        "answer": "winprofx.org adalah situs web resmi utama untuk informasi perusahaan dan produk. my.winprofx.com adalah portal klien untuk login akun, deposit, dan penarikan."
+        "question": "Apa perbedaan antara winprofx.com dan my.winprofx.com?",
+        "answer": "winprofx.com adalah situs web resmi utama untuk informasi perusahaan dan produk. my.winprofx.com adalah portal klien untuk login akun, deposit, dan penarikan."
       },
       {
         "question": "Apakah winprofx.com dan winprofx.ae resmi?",
-        "answer": "Ya. winprofx.com dan winprofx.ae adalah domain alternatif resmi yang mengarahkan ke winprofx.org untuk informasi yang konsisten."
+        "answer": "Ya. winprofx.com dan winprofx.ae adalah domain alternatif resmi yang mengarahkan ke winprofx.com untuk informasi yang konsisten."
       }
     ],
     "complaintsAndDisputeResolution": [

@@ -82,7 +82,7 @@ export const RISK_WARNING_FULL =
 
 export const officialDomainsWithLabels = [
   {
-    url: 'https://winprofx.org/',
+    url: 'https://winprofx.com/',
     label: 'Main official WINPROFX website',
     external: false,
   },
@@ -102,7 +102,7 @@ export const officialDomainsWithLabels = [
     external: true,
   },
   {
-    url: 'https://partner.winprofx.org/',
+    url: 'https://partner.winprofx.com/',
     label: 'Official partner / IB portal',
     external: true,
   },
@@ -181,8 +181,8 @@ export const registrationDetailsRows = [
   { label: 'Document Set', value: DOCUMENT_TYPES },
   {
     label: 'Official Website',
-    value: 'https://winprofx.org/',
-    href: 'https://winprofx.org/',
+    value: 'https://winprofx.com/',
+    href: 'https://winprofx.com/',
     external: false,
   },
   {
@@ -205,8 +205,8 @@ export const registrationDetailsRows = [
   },
   {
     label: 'Partner Portal',
-    value: 'https://partner.winprofx.org/',
-    href: 'https://partner.winprofx.org/',
+    value: 'https://partner.winprofx.com/',
+    href: 'https://partner.winprofx.com/',
     external: true,
   },
 ]

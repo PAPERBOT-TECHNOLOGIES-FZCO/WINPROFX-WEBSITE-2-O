@@ -126,15 +126,15 @@
           },
           "officialWebsite": {
             "question": "What is the official WINPROFX website?",
-            "answer": "The main official WINPROFX website is https://winprofx.org/. WINPROFX also uses official alternate and regional domains listed on its Official Domains page."
+            "answer": "The main official WINPROFX website is https://winprofx.com/. WINPROFX also uses official alternate and regional domains listed on its Official Domains page."
           },
           "clientPortal": {
             "question": "What is the WINPROFX client portal?",
-            "answer": "The official WINPROFX client portal is https://my.winprofx.org/. Users should verify the portal URL before logging in or entering account information."
+            "answer": "The official WINPROFX client portal is https://my.winprofx.com/. Users should verify the portal URL before logging in or entering account information."
           },
           "partnerPortal": {
             "question": "What is the WINPROFX partner portal?",
-            "answer": "The official WINPROFX partner portal is https://partner.winprofx.org/. It is used for partner and Introducing Broker-related access, where applicable."
+            "answer": "The official WINPROFX partner portal is https://partner.winprofx.com/. It is used for partner and Introducing Broker-related access, where applicable."
           },
           "contactSupport": {
             "question": "How can I contact WINPROFX support?",
@@ -227,11 +227,11 @@
           },
           "verifyIntro": "Before registering, logging in, depositing funds, or sharing personal information, users should verify:",
           "verifyItems": {
-            "domain": "The exact website domain (winprofx.org, winprofx.com, or winprofx.ae)",
+            "domain": "The exact website domain (winprofx.com, winprofx.com, or winprofx.ae)",
             "businessName": "The license business name matches {{dubaiBusinessName}}",
             "support": "Official support channels ({{supportEmail}} and the Contact page)",
-            "clientPortal": "Client portal URL: https://my.winprofx.org/",
-            "partnerPortal": "Partner portal URL: https://partner.winprofx.org/"
+            "clientPortal": "Client portal URL: https://my.winprofx.com/",
+            "partnerPortal": "Partner portal URL: https://partner.winprofx.com/"
           }
         }
       },
@@ -262,8 +262,8 @@
           "companyInformation": "Company Information"
         },
         "content": {
-          "canonicalPrimary": "https://winprofx.org/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.org URLs.",
-          "canonicalAliases": "winprofx.com and winprofx.ae are official domain aliases that may serve the same website content. They are listed in WINPROFX structured data as related official properties, but winprofx.org remains the canonical source for indexing and verification.",
+          "canonicalPrimary": "https://winprofx.com/ is the primary official WINPROFX website and the canonical domain for all public pages. Search engines, AI tools, and official communications should reference winprofx.com URLs.",
+          "canonicalAliases": "winprofx.com and winprofx.ae are official domain aliases that may serve the same website content. They are listed in WINPROFX structured data as related official properties, but winprofx.com remains the canonical source for indexing and verification.",
           "entityContext": "{{brandName}} is the trading brand associated with {{legalEntityName}}, incorporated in {{jurisdiction}}. The UAE regional domain winprofx.ae is connected to the Dubai representative office registered as {{dubaiBusinessName}} under Dubai Professional License No. {{dubaiLicenseNumber}}.",
           "domainsIntro": "The following official domains are operated in connection with WINPROFX / Winprofx Ltd.:",
           "preLoginWarning": "Before registering, logging in, depositing funds, or sharing personal information, verify that the website URL exactly matches one of the official domains listed above. If a website claims to represent WINPROFX but is not listed here, do not proceed until verified with official support.",
@@ -288,9 +288,9 @@
             "legalEntity": "Verify the legal entity is Winprofx Ltd. (Saint Lucia incorporation)",
             "incorporation": "Check Saint Lucia incorporation number 2023-00197 on Company Registration",
             "dubaiLicense": "Verify Dubai Professional License No. 1423678 and business name WINPROFX LTD - DUBAI BRANCH - REP. OFFICE (Representative Office activity)",
-            "domains": "Confirm the website URL matches an official WINPROFX domain (winprofx.org, winprofx.com, winprofx.ae, my.winprofx.org, or partner.winprofx.org)",
-            "clientPortal": "Verify the client portal at https://my.winprofx.org/",
-            "partnerPortal": "Verify the partner portal at https://partner.winprofx.org/",
+            "domains": "Confirm the website URL matches an official WINPROFX domain (winprofx.com, winprofx.com, winprofx.ae, my.winprofx.com, or partner.winprofx.com)",
+            "clientPortal": "Verify the client portal at https://my.winprofx.com/",
+            "partnerPortal": "Verify the partner portal at https://partner.winprofx.com/",
             "support": "Use official support email support@winprofx.com or the Contact page",
             "readDocs": "Read the Risk Warning and Legal Documents before trading or depositing"
           },
@@ -479,12 +479,12 @@
             "domain": "Confirm the website URL matches an official WINPROFX domain listed on Official Domains",
             "verifyPages": "Verify the legal entity and license information on Company Registration and Information pages",
             "readDocs": "Read the Risk Warning and applicable legal documents before opening an account",
-            "clientPortal": "Use only the official client portal at https://my.winprofx.org/ for account access",
+            "clientPortal": "Use only the official client portal at https://my.winprofx.com/ for account access",
             "noThirdParty": "Never send funds to unverified addresses or third-party accounts",
             "contactSupport": "Contact support@winprofx.com if you are unsure about any payment instruction"
           },
           "preDepositLinks": "Use the <verifyLink>Verify WINPROFX</verifyLink> checklist and <officialDomainsLink>Official Domains</officialDomainsLink> page before registering or depositing.",
-          "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.winprofx.org/",
+          "portalSafety": "Phishing websites may imitate legitimate brands. Before entering credentials or making payments, confirm the URL matches an official WINPROFX domain. Official client portal: https://my.winprofx.com/",
           "importantNote": "This page describes security and verification practices only. It does not constitute a claim of segregated client funds, deposit insurance, or regulatory capital protection unless separately disclosed in verified regulatory documentation.",
           "reportConcerns": "Report suspected fraud, phishing, or unauthorized access to {{supportEmail}} or via <supportLink>Support and Escalation</supportLink>."
         }
@@ -504,8 +504,8 @@
           "intro": "{{brandName}} provides official support channels for clients, partners, and prospective users. This page explains how to contact support, what information to include, and how to escalate unresolved issues through verified channels only.",
           "supportChannels": {
             "email": "Email: {{supportEmail}}",
-            "contactPage": "{{contactLink}} on winprofx.org",
-            "clientPortal": "Client portal (registered clients): https://my.winprofx.org/"
+            "contactPage": "{{contactLink}} on winprofx.com",
+            "clientPortal": "Client portal (registered clients): https://my.winprofx.com/"
           },
           "ticketSteps": {
             "contact": "Contact support through email or the Contact page with a clear subject line",
@@ -531,7 +531,7 @@
           "escalationDepositTitle": "Deposit Issues",
           "escalationDeposit": "For deposit confirmation delays or payment disputes, contact support with transaction date, amount, payment method, and any reference from your bank or payment provider. See the <depositWithdrawLink>Deposit & Withdrawal Policy</depositWithdrawLink>.",
           "escalationIbTitle": "Introducing Broker (IB) Partners",
-          "escalationIb": "IB partners should use partner portal channels or email with partner ID and business reference. Partner portal: https://partner.winprofx.org/",
+          "escalationIb": "IB partners should use partner portal channels or email with partner ID and business reference. Partner portal: https://partner.winprofx.com/",
           "securityReminder": "Protect your account credentials and verify official WINPROFX properties before any financial transaction. Report phishing or impersonation to {{supportEmail}}. Read <clientFundLink>Client Fund Security</clientFundLink> for additional guidance.",
           "complaints": "For formal complaints, see <complaintsLink>Complaints and Dispute Resolution</complaintsLink>."
         }

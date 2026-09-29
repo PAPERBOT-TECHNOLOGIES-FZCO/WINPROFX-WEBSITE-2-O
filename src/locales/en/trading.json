@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "Pioneering Excellence: Redefining Trading Standards at WINPROFX",
-    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.org before trading or depositing.",
+    "bannerDes": "Welcome to WINPROFX — a forex and CFD trading brand offering MT5 platform access, multiple account services, and client support. Verify official information on winprofx.com before trading or depositing.",
     "companyInfoTitle": "Company Information",
     "legalName": "Legal Name:",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "How do I start trading with WINPROFX?",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> or <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Create an Account:</strong><p>Visit the official WINPROFX website at <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> or <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">register here</a>.</p><p>Look for a \"Register\" or \"Open an Account\" option.</p><p>Provide the required information, including personal details and contact information.</p><p>Agree to the terms and conditions.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verification (KYC):</strong><p>Complete the required identity verification process by submitting identification documents to comply with regulatory requirements.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Funds:</strong><p>Log in to your newly created account.</p><p>Go to the deposit or funding section.</p><p>Choose your preferred payment method and deposit funds into your trading account.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Select a Trading Platform:</strong><p>Choose from the available trading platform - MetaTrader 5 (MT5).</p><p>Download and Install the Trading Platform.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Login to the Trading Platform:</strong><p>Open the trading platform.</p><p>Enter your account credentials to log in.</p><p>If you encounter any difficulties, WINPROFX's customer support should be able to assist you. <a href=\"/contact\" class=\"text-white underline\">Contact us</a></p></div>"
       },
       "instruments": {
         "title": "Which Financial instruments can I trade with WINPROFX?",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "What trading platforms does WINPROFX support?",
-        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.org for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
+        "body": "<p>WINPROFX supports the following trading platforms:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>The industry-standard desktop and mobile platform for forex, indices, crypto, metals, commodities, and oil trading.</span></li><li><span><span>Web Trading:</span>Browser-based trading available at trade.winprofx.com for quick access without installation.</span></li><li><span><span>Demo Accounts:</span>Practice trading in a risk-free environment before going live.</span></li></ul><p>Learn more on our <a href=\"/platform\" class=\"text-white underline\">Platform page</a> or <a href=\"/contact\" class=\"text-white underline\">contact support</a> for assistance.</p>"
       },
       "support": {
         "title": "How can I contact WINPROFX customer support?",
-        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+        "body": "<p>WINPROFX customer support is available 24/7 through the following channels:</p><ul><li><span><span>Phone:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Available on this website via the chat widget</span></li></ul><p>Visit our <a href=\"/contact\" class=\"text-white underline\">Contact page</a> for full details. Official website: <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>.</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "For account login and trading, use the",
     "introP2ClientPortal": "client portal at my.winprofx.com",
     "introP2Middle": ". Partners should use",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "Customer Support:",
     "customerSupportHours": "Available 24 hours a day, 7 days a week",
     "officeHours": "Office Hours (UAE):",
@@ -516,7 +516,7 @@
         },
         "verify": {
           "title": "Verify WINPROFX Before Trading",
-          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.org."
+          "des": "Always confirm you are on an official WINPROFX domain before logging in or depositing. Review company registration, regulatory scope, and risk warnings on the WINPROFX Trust Center at winprofx.com."
         },
         "risk": {
           "title": "Risk Warning",

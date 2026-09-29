@@ -4,27 +4,27 @@
 
 - [ ] Run `npm run build` successfully (sitemap generation + Vite build + prerender)
 - [ ] Verify new routes return 200 locally (`npm run preview`)
-- [ ] Confirm canonical tags point to `https://winprofx.org/`
+- [ ] Confirm canonical tags point to `https://winprofx.com/`
 - [ ] Confirm auth routes use `noindex, nofollow`
 
 ## Priority indexing URLs
 
 Submit these in Google Search Console after deployment:
 
-1. https://winprofx.org/
-2. https://winprofx.org/trust-center/
-3. https://winprofx.org/is-winprofx-legit/
-4. https://winprofx.org/winprofx-review/
-5. https://winprofx.org/winprofx-withdrawal-process/
-6. https://winprofx.org/winprofx-license-verification/
-7. https://winprofx.org/official-domains/
-8. https://winprofx.org/verify-winprofx/
-9. https://winprofx.org/regulatory-information/
-10. https://winprofx.org/company-registration/
+1. https://winprofx.com/
+2. https://winprofx.com/trust-center/
+3. https://winprofx.com/is-winprofx-legit/
+4. https://winprofx.com/winprofx-review/
+5. https://winprofx.com/winprofx-withdrawal-process/
+6. https://winprofx.com/winprofx-license-verification/
+7. https://winprofx.com/official-domains/
+8. https://winprofx.com/verify-winprofx/
+9. https://winprofx.com/regulatory-information/
+10. https://winprofx.com/company-registration/
 
 ## Search Console and Bing
 
-1. Submit `https://winprofx.org/sitemap.xml` in Google Search Console
+1. Submit `https://winprofx.com/sitemap.xml` in Google Search Console
 2. Submit the same sitemap in Bing Webmaster Tools
 3. Monitor indexing status weekly for the first month
 4. Monitor brand query CTR (WINPROFX, WINPROFX broker, is WINPROFX legit, etc.)
@@ -68,4 +68,4 @@ Do not publish invented figures. Update only after ops/compliance verification:
 - [ ] No AggregateRating or fake Review schema
 - [ ] Breadcrumb JSON-LD matches visible breadcrumbs on trust/learn pages
 - [ ] Internal links: Trust Center, Official Domains, Risk Warning on brand pages
-- [ ] Portal pages (`my.winprofx.org`, `partner.winprofx.org`) not in sitemap
+- [ ] Portal pages (`my.winprofx.com`, `partner.winprofx.com`) not in sitemap

@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "Merintis Keunggulan: Mendefinisikan Ulang Standar Trading di WINPROFX",
-    "bannerDes": "Selamat datang di WINPROFX — merek trading forex dan CFD yang menawarkan akses platform MT5, berbagai layanan akun, dan dukungan klien. Verifikasi informasi resmi di winprofx.org sebelum trading atau melakukan deposit.",
+    "bannerDes": "Selamat datang di WINPROFX — merek trading forex dan CFD yang menawarkan akses platform MT5, berbagai layanan akun, dan dukungan klien. Verifikasi informasi resmi di winprofx.com sebelum trading atau melakukan deposit.",
     "companyInfoTitle": "Informasi Perusahaan",
     "legalName": "Nama Legal:",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "Bagaimana cara mulai trading dengan WINPROFX?",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Buat Akun:</strong><p>Kunjungi situs resmi WINPROFX di <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> atau <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">daftar di sini</a>.</p><p>Cari opsi \"Daftar\" atau \"Buka Akun\".</p><p>Berikan informasi yang diperlukan, termasuk data pribadi dan kontak.</p><p>Setujui syarat dan ketentuan.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verifikasi (KYC):</strong><p>Selesaikan proses verifikasi identitas yang diperlukan dengan mengirimkan dokumen identitas untuk memenuhi persyaratan regulasi.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Dana:</strong><p>Masuk ke akun yang baru dibuat.</p><p>Buka bagian deposit atau pendanaan.</p><p>Pilih metode pembayaran pilihan Anda dan depositkan dana ke akun trading Anda.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Pilih Platform Trading:</strong><p>Pilih dari platform trading yang tersedia - MetaTrader 5 (MT5).</p><p>Unduh dan Instal Platform Trading.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Masuk ke Platform Trading:</strong><p>Buka platform trading.</p><p>Masukkan kredensial akun Anda untuk login.</p><p>Jika Anda mengalami kesulitan, dukungan pelanggan WINPROFX siap membantu. <a href=\"/contact\" class=\"text-white underline\">Hubungi kami</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Buat Akun:</strong><p>Kunjungi situs resmi WINPROFX di <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> atau <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">daftar di sini</a>.</p><p>Cari opsi \"Daftar\" atau \"Buka Akun\".</p><p>Berikan informasi yang diperlukan, termasuk data pribadi dan kontak.</p><p>Setujui syarat dan ketentuan.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Verifikasi (KYC):</strong><p>Selesaikan proses verifikasi identitas yang diperlukan dengan mengirimkan dokumen identitas untuk memenuhi persyaratan regulasi.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Deposit Dana:</strong><p>Masuk ke akun yang baru dibuat.</p><p>Buka bagian deposit atau pendanaan.</p><p>Pilih metode pembayaran pilihan Anda dan depositkan dana ke akun trading Anda.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Pilih Platform Trading:</strong><p>Pilih dari platform trading yang tersedia - MetaTrader 5 (MT5).</p><p>Unduh dan Instal Platform Trading.</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">Masuk ke Platform Trading:</strong><p>Buka platform trading.</p><p>Masukkan kredensial akun Anda untuk login.</p><p>Jika Anda mengalami kesulitan, dukungan pelanggan WINPROFX siap membantu. <a href=\"/contact\" class=\"text-white underline\">Hubungi kami</a></p></div>"
       },
       "instruments": {
         "title": "Instrumen keuangan apa saja yang dapat saya trading di WINPROFX?",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "Platform trading apa yang didukung WINPROFX?",
-        "body": "<p>WINPROFX mendukung platform trading berikut:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Platform desktop dan mobile standar industri untuk trading forex, indeks, kripto, logam, komoditas, dan minyak mentah.</span></li><li><span><span>Web Trading:</span>Trading berbasis browser tersedia di trade.winprofx.org untuk akses cepat tanpa instalasi.</span></li><li><span><span>Akun Demo:</span>Latihan trading di lingkungan bebas risiko sebelum trading live.</span></li></ul><p>Pelajari lebih lanjut di <a href=\"/platform\" class=\"text-white underline\">halaman Platform</a> atau <a href=\"/contact\" class=\"text-white underline\">hubungi dukungan</a> untuk bantuan.</p>"
+        "body": "<p>WINPROFX mendukung platform trading berikut:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Platform desktop dan mobile standar industri untuk trading forex, indeks, kripto, logam, komoditas, dan minyak mentah.</span></li><li><span><span>Web Trading:</span>Trading berbasis browser tersedia di trade.winprofx.com untuk akses cepat tanpa instalasi.</span></li><li><span><span>Akun Demo:</span>Latihan trading di lingkungan bebas risiko sebelum trading live.</span></li></ul><p>Pelajari lebih lanjut di <a href=\"/platform\" class=\"text-white underline\">halaman Platform</a> atau <a href=\"/contact\" class=\"text-white underline\">hubungi dukungan</a> untuk bantuan.</p>"
       },
       "support": {
         "title": "Bagaimana cara menghubungi dukungan pelanggan WINPROFX?",
-        "body": "<p>Dukungan pelanggan WINPROFX tersedia 24/7 melalui saluran berikut:</p><ul><li><span><span>Telepon:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Tersedia di situs ini melalui widget chat</span></li></ul><p>Kunjungi <a href=\"/contact\" class=\"text-white underline\">halaman Kontak</a> untuk detail lengkap. Situs resmi: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>.</p>"
+        "body": "<p>Dukungan pelanggan WINPROFX tersedia 24/7 melalui saluran berikut:</p><ul><li><span><span>Telepon:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>Email:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>Live Chat:</span> Tersedia di situs ini melalui widget chat</span></li></ul><p>Kunjungi <a href=\"/contact\" class=\"text-white underline\">halaman Kontak</a> untuk detail lengkap. Situs resmi: <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>.</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "Untuk login akun dan trading, gunakan",
     "introP2ClientPortal": "portal klien di my.winprofx.com",
     "introP2Middle": ". Mitra sebaiknya menggunakan",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "Dukungan Pelanggan:",
     "customerSupportHours": "Tersedia 24 jam sehari, 7 hari seminggu",
     "officeHours": "Jam Kantor (UAE):",
@@ -467,7 +467,7 @@
         },
         "verify": {
           "title": "Verifikasi WINPROFX Sebelum Trading",
-          "des": "Selalu pastikan Anda berada di domain resmi WINPROFX sebelum login atau melakukan deposit. Tinjau registrasi perusahaan, cakupan regulasi, dan peringatan risiko di Trust Center WINPROFX di winprofx.org."
+          "des": "Selalu pastikan Anda berada di domain resmi WINPROFX sebelum login atau melakukan deposit. Tinjau registrasi perusahaan, cakupan regulasi, dan peringatan risiko di Trust Center WINPROFX di winprofx.com."
         },
         "risk": {
           "title": "Peringatan Risiko",

@@ -8,7 +8,7 @@ import { fetchCmsArticleMeta } from './cms-slugs.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const publicDir = path.join(__dirname, '..', 'public')
-const BASE = 'https://winprofx.org'
+const BASE = 'https://winprofx.com'
 
 function buildUrlset(routes) {
   const urls = routes

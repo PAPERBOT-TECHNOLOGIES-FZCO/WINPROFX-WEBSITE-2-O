@@ -292,7 +292,7 @@
       }
     },
     "bannerTitle": "अग्रणी उत्कृष्टता: WINPROFX पर ट्रेडिंग मानकों को नया रूप देना",
-    "bannerDes": "WINPROFX में आपका स्वागत है — एक Forex और CFD ट्रेडिंग ब्रांड जो MT5 प्लेटफ़ॉर्म एक्सेस, कई खाता सेवाएँ और क्लाइंट सहायता प्रदान करता है। ट्रेडिंग या जमा करने से पहले winprofx.org पर आधिकारिक जानकारी सत्यापित करें।",
+    "bannerDes": "WINPROFX में आपका स्वागत है — एक Forex और CFD ट्रेडिंग ब्रांड जो MT5 प्लेटफ़ॉर्म एक्सेस, कई खाता सेवाएँ और क्लाइंट सहायता प्रदान करता है। ट्रेडिंग या जमा करने से पहले winprofx.com पर आधिकारिक जानकारी सत्यापित करें।",
     "companyInfoTitle": "कंपनी जानकारी",
     "legalName": "कानूनी नाम:",
     "legalNameValue": "WINPROFX Limited",
@@ -320,7 +320,7 @@
       },
       "howToStart": {
         "title": "मैं WINPROFX के साथ ट्रेडिंग कैसे शुरू करूँ?",
-        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">खाता बनाएँ:</strong><p>आधिकारिक WINPROFX वेबसाइट <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a> पर जाएँ या <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">यहाँ रजिस्टर करें</a>।</p><p>\"Register\" या \"Open an Account\" विकल्प खोजें।</p><p>व्यक्तिगत विवरण और संपर्क जानकारी सहित आवश्यक जानकारी प्रदान करें।</p><p>नियम और शर्तों से सहमत हों।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">सत्यापन (KYC):</strong><p>नियामक आवश्यकताओं का पालन करने के लिए पहचान दस्तावेज़ जमा करके आवश्यक पहचान सत्यापन प्रक्रिया पूरी करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">फंड जमा करें:</strong><p>अपने नए बनाए गए खाते में लॉग इन करें।</p><p>जमा या फंडिंग सेक्शन पर जाएँ।</p><p>अपनी पसंदीदा भुगतान विधि चुनें और अपने ट्रेडिंग खाते में फंड जमा करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">ट्रेडिंग प्लेटफ़ॉर्म चुनें:</strong><p>उपलब्ध ट्रेडिंग प्लेटफ़ॉर्म — MetaTrader 5 (MT5) — चुनें।</p><p>ट्रेडिंग प्लेटफ़ॉर्म डाउनलोड और इंस्टॉल करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">ट्रेडिंग प्लेटफ़ॉर्म में लॉगिन करें:</strong><p>ट्रेडिंग प्लेटफ़ॉर्म खोलें।</p><p>लॉग इन करने के लिए अपने खाता क्रेडेंशियल दर्ज करें।</p><p>यदि आपको कोई कठिनाई हो, तो WINPROFX की ग्राहक सहायता आपकी मदद कर सकती है। <a href=\"/contact\" class=\"text-white underline\">हमसे संपर्क करें</a></p></div>"
+        "body": "<div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">खाता बनाएँ:</strong><p>आधिकारिक WINPROFX वेबसाइट <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a> पर जाएँ या <a href=\"https://my.winprofx.com/register\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">यहाँ रजिस्टर करें</a>।</p><p>\"Register\" या \"Open an Account\" विकल्प खोजें।</p><p>व्यक्तिगत विवरण और संपर्क जानकारी सहित आवश्यक जानकारी प्रदान करें।</p><p>नियम और शर्तों से सहमत हों।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">सत्यापन (KYC):</strong><p>नियामक आवश्यकताओं का पालन करने के लिए पहचान दस्तावेज़ जमा करके आवश्यक पहचान सत्यापन प्रक्रिया पूरी करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">फंड जमा करें:</strong><p>अपने नए बनाए गए खाते में लॉग इन करें।</p><p>जमा या फंडिंग सेक्शन पर जाएँ।</p><p>अपनी पसंदीदा भुगतान विधि चुनें और अपने ट्रेडिंग खाते में फंड जमा करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">ट्रेडिंग प्लेटफ़ॉर्म चुनें:</strong><p>उपलब्ध ट्रेडिंग प्लेटफ़ॉर्म — MetaTrader 5 (MT5) — चुनें।</p><p>ट्रेडिंग प्लेटफ़ॉर्म डाउनलोड और इंस्टॉल करें।</p></div><div class=\"flex flex-col mb-4\"><strong class=\"text-white font-semibold mb-2 text-lg\">ट्रेडिंग प्लेटफ़ॉर्म में लॉगिन करें:</strong><p>ट्रेडिंग प्लेटफ़ॉर्म खोलें।</p><p>लॉग इन करने के लिए अपने खाता क्रेडेंशियल दर्ज करें।</p><p>यदि आपको कोई कठिनाई हो, तो WINPROFX की ग्राहक सहायता आपकी मदद कर सकती है। <a href=\"/contact\" class=\"text-white underline\">हमसे संपर्क करें</a></p></div>"
       },
       "instruments": {
         "title": "मैं WINPROFX के साथ कौन से वित्तीय इंस्ट्रूमेंट ट्रेड कर सकता/सकती हूँ?",
@@ -332,11 +332,11 @@
       },
       "platforms": {
         "title": "WINPROFX किन ट्रेडिंग प्लेटफ़ॉर्म का समर्थन करता है?",
-        "body": "<p>WINPROFX निम्नलिखित ट्रेडिंग प्लेटफ़ॉर्म का समर्थन करता है:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Forex, इंडेक्स, क्रिप्टो, धातु, कमोडिटी और कच्चे तेल की ट्रेडिंग के लिए उद्योग-मानक डेस्कटॉप और मोबाइल प्लेटफ़ॉर्म।</span></li><li><span><span>Web Trading:</span>बिना इंस्टॉलेशन के त्वरित एक्सेस के लिए trade.winprofx.org पर ब्राउज़र-आधारित ट्रेडिंग उपलब्ध।</span></li><li><span><span>डेमो खाते:</span>लाइव जाने से पहले जोखिम-मुक्त वातावरण में अभ्यास ट्रेडिंग।</span></li></ul><p>अधिक जानने के लिए हमारे <a href=\"/platform\" class=\"text-white underline\">प्लेटफ़ॉर्म पेज</a> पर जाएँ या सहायता के लिए <a href=\"/contact\" class=\"text-white underline\">सपोर्ट से संपर्क करें</a>।</p>"
+        "body": "<p>WINPROFX निम्नलिखित ट्रेडिंग प्लेटफ़ॉर्म का समर्थन करता है:</p><ul><li><span><span>MetaTrader 5 (MT5):</span>Forex, इंडेक्स, क्रिप्टो, धातु, कमोडिटी और कच्चे तेल की ट्रेडिंग के लिए उद्योग-मानक डेस्कटॉप और मोबाइल प्लेटफ़ॉर्म।</span></li><li><span><span>Web Trading:</span>बिना इंस्टॉलेशन के त्वरित एक्सेस के लिए trade.winprofx.com पर ब्राउज़र-आधारित ट्रेडिंग उपलब्ध।</span></li><li><span><span>डेमो खाते:</span>लाइव जाने से पहले जोखिम-मुक्त वातावरण में अभ्यास ट्रेडिंग।</span></li></ul><p>अधिक जानने के लिए हमारे <a href=\"/platform\" class=\"text-white underline\">प्लेटफ़ॉर्म पेज</a> पर जाएँ या सहायता के लिए <a href=\"/contact\" class=\"text-white underline\">सपोर्ट से संपर्क करें</a>।</p>"
       },
       "support": {
         "title": "मैं WINPROFX ग्राहक सहायता से कैसे संपर्क कर सकता/सकती हूँ?",
-        "body": "<p>WINPROFX ग्राहक सहायता निम्नलिखित चैनलों के माध्यम से 24/7 उपलब्ध है:</p><ul><li><span><span>फ़ोन:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>ईमेल:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>लाइव चैट:</span> इस वेबसाइट पर चैट विजेट के माध्यम से उपलब्ध</span></li></ul><p>पूर्ण विवरण के लिए हमारे <a href=\"/contact\" class=\"text-white underline\">संपर्क पेज</a> पर जाएँ। आधिकारिक वेबसाइट: <a href=\"https://winprofx.org\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.org</a>।</p>"
+        "body": "<p>WINPROFX ग्राहक सहायता निम्नलिखित चैनलों के माध्यम से 24/7 उपलब्ध है:</p><ul><li><span><span>फ़ोन:</span> <a href=\"tel:+97144471894\" class=\"text-white underline\">+971 4 447 1894</a></span></li><li><span><span>ईमेल:</span> <a href=\"mailto:support@winprofx.com\" class=\"text-white underline\">support@winprofx.com</a></span></li><li><span><span>WhatsApp:</span> <a href=\"https://wa.me/97144471894\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">+971 4 447 1894</a></span></li><li><span><span>लाइव चैट:</span> इस वेबसाइट पर चैट विजेट के माध्यम से उपलब्ध</span></li></ul><p>पूर्ण विवरण के लिए हमारे <a href=\"/contact\" class=\"text-white underline\">संपर्क पेज</a> पर जाएँ। आधिकारिक वेबसाइट: <a href=\"https://winprofx.com\" class=\"text-white underline\" target=\"_blank\" rel=\"noopener noreferrer\">winprofx.com</a>।</p>"
       }
     },
     "faqKeys": [
@@ -389,7 +389,7 @@
     "introP2Start": "खाता लॉगिन और ट्रेडिंग के लिए उपयोग करें",
     "introP2ClientPortal": "my.winprofx.com पर क्लाइंट पोर्टल",
     "introP2Middle": ". पार्टनर्स को उपयोग करना चाहिए",
-    "introP2PartnerPortal": "partner.winprofx.org",
+    "introP2PartnerPortal": "partner.winprofx.com",
     "customerSupport": "ग्राहक सहायता:",
     "customerSupportHours": "दिन में 24 घंटे, सप्ताह में 7 दिन उपलब्ध",
     "officeHours": "कार्यालय समय (UAE):",
@@ -467,7 +467,7 @@
         },
         "verify": {
           "title": "ट्रेडिंग से पहले WINPROFX सत्यापित करें",
-          "des": "लॉगिन या जमा करने से पहले हमेशा पुष्टि करें कि आप आधिकारिक WINPROFX डोमेन पर हैं। winprofx.org पर WINPROFX Trust Center में कंपनी पंजीकरण, नियामक दायरा और जोखिम चेतावनियों की समीक्षा करें।"
+          "des": "लॉगिन या जमा करने से पहले हमेशा पुष्टि करें कि आप आधिकारिक WINPROFX डोमेन पर हैं। winprofx.com पर WINPROFX Trust Center में कंपनी पंजीकरण, नियामक दायरा और जोखिम चेतावनियों की समीक्षा करें।"
         },
         "risk": {
           "title": "जोखिम चेतावनी",

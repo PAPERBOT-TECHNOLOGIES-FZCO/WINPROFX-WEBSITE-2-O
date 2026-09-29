@@ -127,7 +127,7 @@
         },
         "officialWebsite": {
           "question": "WINPROFX 官方网站是什么？",
-          "answer": "WINPROFX 主要官方网站为 https://winprofx.org/。WINPROFX 亦使用其官方域名页面上列出的官方备用及区域域名。"
+          "answer": "WINPROFX 主要官方网站为 https://winprofx.com/。WINPROFX 亦使用其官方域名页面上列出的官方备用及区域域名。"
         },
         "clientPortal": {
           "question": "WINPROFX 客户门户是什么？",
@@ -135,7 +135,7 @@
         },
         "partnerPortal": {
           "question": "WINPROFX 合作伙伴门户是什么？",
-          "answer": "WINPROFX 官方合作伙伴门户为 https://partner.winprofx.org/。该门户用于合作伙伴及 Introducing Broker 相关访问（如适用）。"
+          "answer": "WINPROFX 官方合作伙伴门户为 https://partner.winprofx.com/。该门户用于合作伙伴及 Introducing Broker 相关访问（如适用）。"
         },
         "contactSupport": {
           "question": "如何联系 WINPROFX 支持？",
@@ -244,11 +244,11 @@
         },
         "verifyIntro": "在注册、登录、入金或分享个人信息前，用户应验证：",
         "verifyItems": {
-          "domain": "确切的网站域名（winprofx.org、winprofx.com 或 winprofx.ae）",
+          "domain": "确切的网站域名（winprofx.com、winprofx.com 或 winprofx.ae）",
           "businessName": "牌照商号与 {{dubaiBusinessName}} 一致",
           "support": "官方支持渠道（{{supportEmail}} 及联系页面）",
           "clientPortal": "客户门户 URL：https://my.winprofx.com/",
-          "partnerPortal": "合作伙伴门户 URL：https://partner.winprofx.org/"
+          "partnerPortal": "合作伙伴门户 URL：https://partner.winprofx.com/"
         }
       }
     },
@@ -287,8 +287,8 @@
         "companyInformation": "公司信息"
       },
       "content": {
-        "canonicalPrimary": "https://winprofx.org/ 是 WINPROFX 主要官方网站及所有公开页面的规范域名。搜索引擎、AI 工具及官方沟通应引用 winprofx.org URL。",
-        "canonicalAliases": "winprofx.com 和 winprofx.ae 是可能提供相同网站内容的官方域名别名。它们在 WINPROFX 结构化数据中列为相关官方属性，但 winprofx.org 仍是索引与验证的规范来源。",
+        "canonicalPrimary": "https://winprofx.com/ 是 WINPROFX 主要官方网站及所有公开页面的规范域名。搜索引擎、AI 工具及官方沟通应引用 winprofx.com URL。",
+        "canonicalAliases": "winprofx.com 和 winprofx.ae 是可能提供相同网站内容的官方域名别名。它们在 WINPROFX 结构化数据中列为相关官方属性，但 winprofx.com 仍是索引与验证的规范来源。",
         "entityContext": "{{brandName}} 是与 {{legalEntityName}} 相关联的交易品牌，在 {{jurisdiction}} 注册。阿联酋区域域名 winprofx.ae 与以 {{dubaiBusinessName}} 名义注册、持有 Dubai Professional License No. {{dubaiLicenseNumber}} 的迪拜代表处相关联。",
         "domainsIntro": "以下官方域名与 WINPROFX / Winprofx Ltd. 相关运营：",
         "preLoginWarning": "在注册、登录、入金或分享个人信息前，请验证网站 URL 与上述官方域名完全一致。如有网站声称代表 WINPROFX 但未在此列出，请勿继续操作，直至经官方支持验证。",
@@ -317,9 +317,9 @@
           "legalEntity": "验证法律实体为 Winprofx Ltd.（Saint Lucia 注册）",
           "incorporation": "在公司注册页面核对 Saint Lucia 注册编号 2023-00197",
           "dubaiLicense": "验证 Dubai Professional License No. 1423678 及商号 WINPROFX LTD - DUBAI BRANCH - REP. OFFICE（Representative Office 活动）",
-          "domains": "确认网站 URL 与 WINPROFX 官方域名一致（winprofx.org、winprofx.com、winprofx.ae、my.winprofx.com 或 partner.winprofx.org）",
+          "domains": "确认网站 URL 与 WINPROFX 官方域名一致（winprofx.com、winprofx.com、winprofx.ae、my.winprofx.com 或 partner.winprofx.com）",
           "clientPortal": "验证客户门户 https://my.winprofx.com/",
-          "partnerPortal": "验证合作伙伴门户 https://partner.winprofx.org/",
+          "partnerPortal": "验证合作伙伴门户 https://partner.winprofx.com/",
           "support": "使用官方支持邮箱 support@winprofx.com 或联系页面",
           "readDocs": "交易或入金前请阅读风险警告及法律文件"
         },
@@ -559,7 +559,7 @@
         "intro": "{{brandName}} 为客户、合作伙伴及潜在用户提供官方支持渠道。本页面说明如何联系支持、应包含的信息，以及如何仅通过经核实渠道升级未解决的问题。",
         "supportChannels": {
           "email": "邮箱：{{supportEmail}}",
-          "contactPage": "winprofx.org 上的 {{contactLink}}",
+          "contactPage": "winprofx.com 上的 {{contactLink}}",
           "clientPortal": "客户门户（注册客户）：https://my.winprofx.com/"
         },
         "ticketSteps": {
@@ -586,7 +586,7 @@
         "escalationDepositTitle": "入金问题",
         "escalationDeposit": "入金确认延迟或付款争议，请联系支持并提供交易日期、金额、付款方式及银行或支付提供商的任何参考。请参阅<depositWithdrawLink>入金与出金政策</depositWithdrawLink>。",
         "escalationIbTitle": "Introducing Broker (IB) 合作伙伴",
-        "escalationIb": "IB 合作伙伴应使用合作伙伴门户渠道或邮件并提供合作伙伴 ID 及业务参考。合作伙伴门户：https://partner.winprofx.org/",
+        "escalationIb": "IB 合作伙伴应使用合作伙伴门户渠道或邮件并提供合作伙伴 ID 及业务参考。合作伙伴门户：https://partner.winprofx.com/",
         "securityReminder": "保护账户凭据，在任何金融交易前验证 WINPROFX 官方属性。向 {{supportEmail}} 报告钓鱼或冒名。更多指引请参阅<clientFundLink>客户资金安全</clientFundLink>。",
         "complaints": "正式投诉请参阅<complaintsLink>投诉与争议解决</complaintsLink>。"
       }
@@ -662,7 +662,7 @@
     "verifyWinprofx": [
       {
         "question": "如何验证 WINPROFX 官方网站？",
-        "answer": "将 URL 与官方域名页面对照。主要网站为 winprofx.org。客户登录在 my.winprofx.com，合作伙伴门户在 partner.winprofx.org。"
+        "answer": "将 URL 与官方域名页面对照。主要网站为 winprofx.com。客户登录在 my.winprofx.com，合作伙伴门户在 partner.winprofx.com。"
       },
       {
         "question": "如怀疑遇到假冒 WINPROFX 网站应怎么办？",
@@ -671,12 +671,12 @@
     ],
     "officialDomains": [
       {
-        "question": "winprofx.org 与 my.winprofx.com 有何区别？",
-        "answer": "winprofx.org 是公司与产品信息的主要官方网站。my.winprofx.com 是用于账户登录、入金及出金的客户门户。"
+        "question": "winprofx.com 与 my.winprofx.com 有何区别？",
+        "answer": "winprofx.com 是公司与产品信息的主要官方网站。my.winprofx.com 是用于账户登录、入金及出金的客户门户。"
       },
       {
         "question": "winprofx.com 和 winprofx.ae 是否官方？",
-        "answer": "是的。winprofx.com 和 winprofx.ae 是官方备用域名，重定向至 winprofx.org 以提供一致信息。"
+        "answer": "是的。winprofx.com 和 winprofx.ae 是官方备用域名，重定向至 winprofx.com 以提供一致信息。"
       }
     ],
     "complaintsAndDisputeResolution": [

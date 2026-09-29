@@ -1,18 +1,18 @@
 # INACTIVE — example blocks only. Do not paste into netlify.toml unless approved.
 # Uncomment in netlify.toml OR copy these blocks above the SPA catch-all rule.
-# winprofx.org remains the primary domain; these rules only run when the
+# winprofx.com remains the primary domain; these rules only run when the
 # request Host is .com or .ae (not .org, not my.*, not partner.*).
 
 # [[redirects]]
 #   from = "/*"
-#   to = "https://winprofx.org/:splat"
+#   to = "https://winprofx.com/:splat"
 #   status = 301
 #   force = true
 #   conditions = { Host = ["winprofx.com", "www.winprofx.com"] }
 
 # [[redirects]]
 #   from = "/*"
-#   to = "https://winprofx.org/:splat"
+#   to = "https://winprofx.com/:splat"
 #   status = 301
 #   force = true
 #   conditions = { Host = ["winprofx.ae", "www.winprofx.ae"] }

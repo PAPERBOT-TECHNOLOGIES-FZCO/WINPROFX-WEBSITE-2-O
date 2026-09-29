@@ -6,40 +6,40 @@
   PLAYWRIGHT_BROWSERS_PATH = "0"
 
 # Uses full-URL patterns (Netlify domain-level redirect syntax).
-# Does not affect my.winprofx.org or partner.winprofx.org (separate sites).
+# Does not affect my.winprofx.com or partner.winprofx.com (separate sites).
 # Also mirrored in public/_redirects (processed first by Netlify).
 #
 # Domain deployments sharing this repository:
 #   winprofx.com  — served as-is; English default
-#   winprofx.org  — served as-is; English default (primary)
+#   winprofx.com  — served as-is; English default (primary)
 #   winprofx.lat  — served as-is; Spanish default (runtime hostname detection)
 #
 # IMPORTANT: Do NOT add a redirect from winprofx.lat to winprofx.com or
-# winprofx.org. The .lat Netlify project is a separate site and must serve
+# winprofx.com. The .lat Netlify project is a separate site and must serve
 # the SPA independently. Language defaulting is handled at runtime in
 # src/lib/domain-locale.js, not via Netlify redirects.
 
 [[redirects]]
   from = "https://winprofx.ae/*"
-  to = "https://winprofx.org/:splat"
+  to = "https://winprofx.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://www.winprofx.ae/*"
-  to = "https://winprofx.org/:splat"
+  to = "https://winprofx.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "http://winprofx.ae/*"
-  to = "https://winprofx.org/:splat"
+  to = "https://winprofx.com/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "http://www.winprofx.ae/*"
-  to = "https://winprofx.org/:splat"
+  to = "https://winprofx.com/:splat"
   status = 301
   force = true
 

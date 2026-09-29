@@ -149,7 +149,7 @@ export default function PlatformCard({ id, meta = "", title = "", des = "", img,
                 animation={false}
                 to="https://download.terminal.free/cdn/mobile/mt5/ios?server=Winprofx-Live"
               />
-              <WebTradingBtn to="https://trade.winprofx.org/terminal" />
+              <WebTradingBtn to="https://trade.winprofx.com/terminal" />
             </>
           )}
         </div>
