@@ -14,7 +14,6 @@ import shape from '@/assets/img/blog/shape.png'
 
 export default function Blog() {
     const { t } = useTranslation('trading')
-    const { articles: cmsArticles, loading: cmsLoading, error: cmsError } = useCmsArticles()
     const seo = useSeo('blog')
   const categoryKeys = ['all', 'forex', 'indices', 'crypto', 'oil', 'metals', 'commodities']
   const categorys = categoryKeys.map((key) => ({
@@ -23,8 +22,12 @@ export default function Blog() {
   }))
     const [active_category, set_active_category] = useState(categorys[0]);
 
-    const blogs_item = cmsArticles
-    const filtered_blog = active_category.key === 'all' ? blogs_item : blogs_item.filter(blog => blog.category.includes(active_category.key))
+    const [page, setPage] = useState(1)
+    const { articles: filtered_blog, loading: cmsLoading, error: cmsError, pagination } = useCmsArticles({ page, category: active_category.key })
+    const changePage = (nextPage) => {
+        setPage(nextPage)
+        document.getElementById('blog-listing')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
     const blog_card_class = 'flex flex-col bg-white/3 border border-white/8 border-solid backdrop-blur-2xl p-2 rounded-2xl md:rounded-3xl transition-all duration-300 main-shadow hover:-translate-y-1'
 
     return (
@@ -41,9 +44,9 @@ export default function Blog() {
                     title={t('blog.pageTitle')}
                     className={"md:text-start! max-w-175"}
                 />
-                <div className="flex flex-wrap gap-y-2 gap-x-2 mb-4 md:mb-5 lg:mb-6">
+                <div id="blog-listing" className="scroll-mt-28 flex flex-wrap gap-y-2 gap-x-2 mb-4 md:mb-5 lg:mb-6">
                     {categorys.map((item, idx) => (
-                        <button onClick={() => set_active_category(item)} key={idx} className={`inline-flex items-center justify-center font-medium min-h-9 md:min-h-10.5 rounded-full px-4 md:px-5 lg:px-6 min-w-12 md:min-w-17 hover:bg-primary hover:text-black ${item.key === active_category.key ? 'bg-primary text-black' : 'bg-white/8 text-white'}`}>{item.name}</button>
+                        <button onClick={() => { set_active_category(item); setPage(1) }} key={idx} className={`inline-flex items-center justify-center font-medium min-h-9 md:min-h-10.5 rounded-full px-4 md:px-5 lg:px-6 min-w-12 md:min-w-17 hover:bg-primary hover:text-black ${item.key === active_category.key ? 'bg-primary text-black' : 'bg-white/8 text-white'}`}>{item.name}</button>
                     ))}
                 </div>
                 {cmsLoading && <p role="status" className="text-para text-sm mb-4">Loading latest articles…</p>}
@@ -103,6 +106,13 @@ export default function Blog() {
                         </Motion.div>
                     ))}
                 </div>
+                {!cmsLoading && !cmsError && pagination.pageCount > 1 && (
+                    <nav aria-label="Blog pagination" className="flex flex-wrap items-center justify-center gap-3 mt-8">
+                        <button type="button" disabled={page === 1} onClick={() => changePage(page - 1)} className="rounded-full px-5 py-3 bg-white/8 hover:bg-primary hover:text-black disabled:opacity-40 disabled:cursor-not-allowed">Previous</button>
+                        <span role="status" aria-live="polite" className="text-para text-sm">Page {page} of {pagination.pageCount}</span>
+                        <button type="button" disabled={page >= pagination.pageCount} onClick={() => changePage(page + 1)} className="rounded-full px-5 py-3 bg-white/8 hover:bg-primary hover:text-black disabled:opacity-40 disabled:cursor-not-allowed">Next</button>
+                    </nav>
+                )}
             </Container>
         </div>
     )

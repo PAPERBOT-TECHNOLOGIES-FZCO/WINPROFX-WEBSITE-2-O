@@ -135,7 +135,7 @@ function RichText({ nodes }) {
 // ─── API helper ───────────────────────────────────────────────────────────────
 async function fetchArticleBySlug(slug) {
   const headers = CMS_TOKEN ? { Authorization: `Bearer ${CMS_TOKEN}` } : {}
-  const url = `${CMS_URL}/api/articles?filters[slug][$eq]=${encodeURIComponent(slug)}&populate=*`
+  const url = `${CMS_URL}/api/articles?filters[site][key][$eq]=winprofx&status=published&filters[slug][$eq]=${encodeURIComponent(slug)}&populate=*`
   const res = await fetch(url, { headers })
   if (!res.ok) throw new Error(`CMS request failed: ${res.status}`)
   const json = await res.json()

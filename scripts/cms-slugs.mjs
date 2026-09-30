@@ -1,5 +1,5 @@
 /**
- * Fetch all published article slugs from Strapi CMS at build time.
+ * Fetch published WinproFX article slugs from Strapi CMS at build time.
  *
  * Called by:
  *   - scripts/generate-sitemap.mjs  → builds sitemap-blog.xml dynamically
@@ -23,7 +23,7 @@ export async function fetchCmsArticleMeta() {
     // Fetch slug + publishedAt only — no need for full content here
     const url =
       `${CMS_URL}/api/articles` +
-      `?fields[0]=slug&fields[1]=publishedAt` +
+      `?filters[site][key][$eq]=winprofx&status=published&fields[0]=slug&fields[1]=publishedAt` +
       `&pagination[pageSize]=200` +
       `&sort=publishedAt:desc`
 
