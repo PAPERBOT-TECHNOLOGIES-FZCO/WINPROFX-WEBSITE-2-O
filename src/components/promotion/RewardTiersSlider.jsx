@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import rewardImg2 from '@/assets/img/trade/reward-img2.png'
+const rewardImg2 = 'https://images.moneycontrol.com/static-mcnews/2026/06/20260602050725_iPhone-18-Pro-Max.png?impolicy=website&width=1280&height=720'
 import rewardImg3 from '@/assets/img/trade/reward-img3.png'
 import rewardImg4 from '@/assets/img/trade/reward-img4.png'
 import appleAirpods from '@/assets/img/trade/apple_airpods.jpg'
