@@ -15,8 +15,8 @@
     "description": "Explore indices CFD trading at WINPROFX with MT5 platform access, account options, and important risk disclosures."
   },
   "crypto": {
-    "title": "Crypto CFD Trading | WINPROFX",
-    "description": "Explore cryptocurrency CFD trading at WINPROFX with MT5 platform access, account options, and important risk disclosures."
+    "title": "Cryptocurrency Trading Platform | BTC/USD & ETH/USD | WINPROFX",
+    "description": "Trade cryptocurrencies with WINPROFX. Access BTC/USD and ETH/USD trading, plus Ethereum CFD trading through a powerful cryptocurrency trading platform."
   },
   "metals": {
     "title": "Global Gold Trading Online and Gold CFD Trading | WINPROFX",
@@ -39,12 +39,12 @@
     "description": "Achieve specific trading volumes within 30 days and unlock exclusive Apple rewards. Power Bank, AirPods, Apple Watch, iPad, and iPhone up for grabs."
   },
   "introducingBroker": {
-    "title": "Introducing Broker | WINPROFX",
-    "description": "Learn about the WINPROFX partner program, introducing broker tools, partner portal access, and related support services."
+    "title": "Introducing Broker Program | Forex IB Program | WINPROFX",
+    "description": "Join the WINPROFX Introducing Broker Program and grow your referral business with multi-tier rewards, partner support, commission opportunities and daily payouts."
   },
   "platform": {
-    "title": "MT5 Trading Platform | WINPROFX",
-    "description": "Learn about WINPROFX trading platform access, client tools, account services, and trading-related support features."
+    "title": "Global CFD Trading | Online Trading Platform | WINPROFX",
+    "description": "Explore the WINPROFX trading platform with powerful tools for forex, indices, commodities and crypto trading. Access global markets through a seamless online platform."
   },
   "accounts": {
     "title": "Trading Accounts | WINPROFX",
@@ -83,32 +83,32 @@
     "description": "Convert currencies quickly with WINPROFX's accurate, real-time currency converter. Effortlessly calculate exchange rates for all currencies. Click to use now!"
   },
   "policy": {
-    "title": "Privacy Policy | WINPROFX",
-    "description": "Read the WINPROFX Privacy Policy to understand how information is collected, used, protected, and managed across WINPROFX websites and portals."
+    "title": "Privacy Policy | Data Protection & Privacy | WINPROFX",
+    "description": "Read the WINPROFX Privacy Policy to learn how personal data is collected, processed, protected and retained, including your privacy rights and data choices."
   },
   "terms": {
     "title": "Terms & Conditions for Forex Trading | WINPROFX",
     "description": "Read WINPROFX Terms & Conditions covering forex trading accounts, client responsibilities, trading services, and the terms governing your relationship with us."
   },
   "amlPolicy": {
-    "title": "AML Policy | WINPROFX",
-    "description": "Read the WINPROFX AML Policy covering anti-money laundering, verification, compliance, and related policy information."
+    "title": "KYC & AML Policy | Anti-Money Laundering | WINPROFX",
+    "description": "Learn about WINPROFX KYC and AML policy, including identity verification, customer due diligence, transaction monitoring and measures to prevent financial crime."
   },
   "depositWithdraw": {
     "title": "Deposit & Withdrawal Policy | WINPROFX",
     "description": "Understand WINPROFX's Deposit & Withdrawal Policy for secure transactions. Learn our procedures and terms for managing your funds efficiently. Click to view details!"
   },
   "restrictedCountries": {
-    "title": "Restricted Countries | WINPROFX",
-    "description": "View the list of countries restricted from trading on WINPROFX due to regulatory and legal constraints. Click for full details!"
+    "title": "Restricted Countries & Trading Eligibility | WINPROFX",
+    "description": "Check the WINPROFX restricted countries list and learn which jurisdictions are not eligible for our trading services, accounts, or financial products."
   },
   "riskDisclosure": {
-    "title": "Risk Disclosure | WINPROFX",
-    "description": "Explore the risks of Forex trading with WINPROFX's detailed risk disclosure. Understand market volatility and learn key safety measures. Click to read more!"
+    "title": "Risk Disclosure for Forex & CFD Trading | WINPROFX",
+    "description": "Read the WINPROFX Risk Disclosure to understand forex and CFD trading risks, including leverage, margin, volatility, costs, currency and regulatory risks."
   },
   "riskWarning": {
-    "title": "Risk Warning | WINPROFX",
-    "description": "Important risk warning for users trading forex, CFDs, and related financial products through WINPROFX websites and portals."
+    "title": "Risk Warning for Forex & CFD Trading | WINPROFX",
+    "description": "Understand the risks of forex and CFD trading, including leverage, market volatility and potential losses. Read the WINPROFX Risk Warning before trading."
   },
   "contact": {
     "title": "Contact WINPROFX",
@@ -147,12 +147,12 @@
     "description": "Learn how WINPROFX handles client complaints, support escalations, dispute reviews, and account-related concerns."
   },
   "clientFundSecurity": {
-    "title": "Client Fund Security | WINPROFX",
-    "description": "Learn about WINPROFX client fund handling, payment verification, account security, and risk-related information."
+    "title": "Client Fund Security | Account & Payment Protection | WINPROFX",
+    "description": "Learn how WINPROFX protects client accounts and payment transactions through KYC, AML, payment verification, withdrawal checks and account security practices."
   },
   "supportAndEscalation": {
-    "title": "Support and Escalation | WINPROFX",
-    "description": "Find official WINPROFX support and escalation information for account, withdrawal, KYC, deposit, and partner-related queries."
+    "title": "WINPROFX Support & Escalation | Client Assistance & Complaints",
+    "description": "Contact WINPROFX Support for assistance with account queries, withdrawals, verification and other concerns. Learn how to submit and escalate client issues."
   },
   "companyStatistics": {
     "title": "Company Statistics | WINPROFX",

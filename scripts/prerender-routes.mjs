@@ -24,7 +24,7 @@ const TITLE_HINTS = {
   '/withdrawal-transparency': { expectedTitle: 'Withdrawal Transparency', expectedH1: 'Withdrawal Transparency' },
   '/complaints-and-dispute-resolution': { expectedTitle: 'Complaints', expectedH1: 'Complaints and Dispute Resolution' },
   '/client-fund-security': { expectedTitle: 'Client Fund Security', expectedH1: 'Client Fund Security' },
-  '/support-and-escalation': { expectedTitle: 'Support and Escalation', expectedH1: 'Support and Escalation' },
+  '/support-and-escalation': { expectedTitle: 'WINPROFX Support', expectedH1: 'Support and Escalation' },
   '/is-winprofx-legit': { expectedTitle: 'Is WINPROFX Legit', expectedH1: 'Is WINPROFX Legit' },
   '/winprofx-review': { expectedTitle: 'WINPROFX Review', expectedH1: 'WINPROFX Review' },
   '/winprofx-withdrawal-process': { expectedTitle: 'Withdrawal Process', expectedH1: 'WINPROFX Withdrawal Process' },
