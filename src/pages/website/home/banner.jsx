@@ -101,6 +101,12 @@ export default function Banner() {
                         transition={{ duration: duration, delay: 0.2 }}
                         viewport={{ once: once, amount: 0.2 }}
                         className="md:max-w-183">
+                        <div className="flex justify-center md:justify-start mb-3">
+                            <p className="text-sm text-white/60 font-normal">
+                                {t('banner.trustedBy').split('10+')[0]}
+                                <strong className="text-white font-semibold">10+ Million Traders</strong>
+                            </p>
+                        </div>
                         <h1 className='text-[32px] leading-tight md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] md:leading-[110%] font-black h1graident text-center md:text-left'>{t('banner.title')}</h1>
                     </motion.div>
                     <motion.div

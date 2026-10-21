@@ -1,8 +1,9 @@
 {
   "banner": {
     "title": "Your Path to Profitable Trading Start Here",
-    "description": "WINPROFX is a globally reputed broker offering tightest spreads, lightning fast withdrawals, 300+ tradable instruments with nanosecond execution on your finger tips.",
+    "description": "WINPROFX is a globally reputed online forex broker, offering the tightest spreads, lightning-fast withdrawals, 300+ tradable instruments with nanosecond execution at your fingertips.",
     "badge": "Invest With The Best Forex Broker 2026",
+    "trustedBy": "Trusted by Over 10+ Million Traders",
     "stats": {
       "evolving": {
         "title": "Evolving",
@@ -44,7 +45,7 @@
   },
   "benefitsTrading": {
     "title": "Benefits of Trading With Us",
-    "description": "Discover seamless trading with us, where transparency and advanced technology meet for your financial success.",
+    "description": "Trade smarter with the best forex trading platform, where transparency, technology, and opportunity come together.",
     "items": {
       "withdrawals": {
         "meta": "Crypto withdraw in",
@@ -75,31 +76,31 @@
   },
   "whatTrade": {
     "title": "What you can Trade?",
-    "description": "Discover seamless trading with us, where transparency and advanced technology meet for your financial success.",
+    "description": "Trade smarter with the best forex trading platform, where transparency, technology, and opportunity come together.",
     "items": {
       "crypto": {
         "title": "Crypto",
-        "description": "Cryptocurrencies also known as digital currencies are fast-growth investment instruments and"
+        "description": "Trade smarter on the best crypto trading platform, built for fast moves and flexible market access."
       },
       "metals": {
         "title": "Metals",
-        "description": "Spot metal trading holds a special place in the heart of every trader. metals have attracted traders all"
+        "description": "Explore precious metals trading with flexible access to gold, silver, and other global markets."
       },
       "commodities": {
         "title": "Commodities",
-        "description": "Investing in commodities can provide investors with diversification, a hedge against"
+        "description": "Make commodity trading online simple with flexible access to key global markets and opportunities."
       },
       "forex": {
         "title": "Forex",
-        "description": "Forex or the foreign exchange is a global market where the world's currencies trade. It vastly"
+        "description": "Trade global currency pairs with a powerful forex trading platform built for smooth market access."
       },
       "indices": {
         "title": "Indices",
-        "description": "Indices are a measurement of the price performance of a group of shares from an exchange."
+        "description": "Explore stock index CFD trading and follow major global markets with flexible trading opportunities."
       },
       "oil": {
         "title": "Oil",
-        "description": "Energy futures are contracts to buy or sell fossil fuels or related products at a set date and price."
+        "description": "Take on global energy markets with crude oil CFD trading designed for flexible market access."
       }
     },
     "imageAlt": "WINPROFX {{market}} trading"
