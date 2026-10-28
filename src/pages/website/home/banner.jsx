@@ -417,6 +417,11 @@ function TradingCompetition() {
                     </div>
                 </motion.div>
 
+                {/* T&C Note */}
+                <p className="text-white/40 text-xs text-center -mt-6">
+                    * Terms &amp; Conditions apply. Only the first-time deposit counts for the competition.
+                </p>
+
                 {/* Deposit CTA strip */}
                 <motion.div
                     initial={{ opacity: 0, y: y }}
