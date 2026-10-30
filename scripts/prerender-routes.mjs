@@ -21,7 +21,7 @@ const TITLE_HINTS = {
   },
   '/verify-winprofx': { expectedTitle: 'Verify WINPROFX', expectedH1: 'Verify WINPROFX' },
   '/risk-warning': { expectedTitle: 'Risk Warning', expectedH1: 'Risk Warning' },
-  '/withdrawal-transparency': { expectedTitle: 'Withdrawal Transparency', expectedH1: 'Withdrawal Transparency' },
+  '/withdrawal-transparency': { expectedTitle: 'Forex Broker with a Seamless Withdrawal', expectedH1: 'Withdrawal Transparency' },
   '/complaints-and-dispute-resolution': { expectedTitle: 'Complaints', expectedH1: 'Complaints and Dispute Resolution' },
   '/client-fund-security': { expectedTitle: 'Client Fund Security', expectedH1: 'Client Fund Security' },
   '/support-and-escalation': { expectedTitle: 'WINPROFX Support', expectedH1: 'Support and Escalation' },
