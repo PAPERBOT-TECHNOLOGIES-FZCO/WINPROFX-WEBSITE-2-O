@@ -243,14 +243,11 @@ export const verifyLegalEntityRows = [
 
 export const companyLicenseLinks = [
   { path: '/company-profile/', label: 'Company Profile' },
-  { path: '/company-registration/', label: 'Company Registration' },
-  { path: '/legal-entity-information/', label: 'Legal Entity Information' },
   { path: '/dubai-professional-license/', label: 'Dubai Professional License' },
   { path: '/uae-representative-office/', label: 'UAE Representative Office' },
   // { path: '/regulatory-information/', label: 'Information' },
   // { path: '/official-domains/', label: 'Official Domains' },
   { path: '/verify-winprofx/', label: 'Verify WINPROFX' },
-  { path: '/legal-documents/', label: 'Legal Documents' },
 ]
 
 export const trustSupportLinks = [

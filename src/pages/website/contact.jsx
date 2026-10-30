@@ -90,14 +90,14 @@ export default function Contact() {
                 {t('contact.riskWarningLink')}
               </Link>{' '}
               {t('contact.riskLegalP1Middle')}{' '}
-              <Link to="/legal-documents/" className="text-white underline hover:text-primary">
-                {t('contact.legalDocumentsLink')}
+              <Link to="/policy/" className="text-white underline hover:text-primary">
+                Privacy Policy
               </Link>
               . {t('contact.riskLegalP1End')}
             </p>
             <p className="mt-4">
               {t('contact.officialDomainsNote')}{' '}
-              <Link to="/official-domains/" className="text-white underline hover:text-primary">
+              <Link to="/verify-winprofx/" className="text-white underline hover:text-primary">
                 {t('contact.officialDomainsLink')}
               </Link>{' '}
               {t('contact.officialDomainsEnd')}

@@ -61,9 +61,9 @@ export default function RiskWarning() {
               <LocalizedLink to="/risk-disclosure/" className="text-white underline hover:text-primary">
                 {tTrust('pages.riskDisclosure.label')}
               </LocalizedLink>{' '}
-              page. For legal policies, visit{' '}
-              <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary">
-                {tTrust('pages.legalDocuments.label')}
+              page.               For legal policies, visit{' '}
+              <LocalizedLink to="/policy/" className="text-white underline hover:text-primary">
+                Privacy Policy
               </LocalizedLink>
               .
             </p>

@@ -51,7 +51,7 @@ export default function LearnIndex() {
           </div>
           <p className="mt-8 text-sm text-white/60">
             {t('index.trustCenterLink')}{' '}
-            <LocalizedLink to="/trust-center/" className="text-primary underline">{t('index.trustCenter')}</LocalizedLink>.
+            <LocalizedLink to="/verify-winprofx/" className="text-primary underline">{t('index.trustCenter')}</LocalizedLink>.
           </p>
         </Card>
       </Container>

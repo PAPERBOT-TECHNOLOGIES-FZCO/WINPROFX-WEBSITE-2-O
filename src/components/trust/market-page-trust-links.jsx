@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next'
 const trustLinkPaths = [
   { key: 'accountTypes', path: '/accounts/' },
   { key: 'mt5Platform', path: '/platform/' },
-  { key: 'trustCenter', path: '/trust-center/' },
   { key: 'riskWarning', path: '/risk-warning/' },
   { key: 'clientFundSecurity', path: '/client-fund-security/' },
   { key: 'learningCenter', path: '/learn/' },

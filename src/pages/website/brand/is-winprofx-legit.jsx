@@ -49,18 +49,16 @@ export default function IsWinprofxLegit() {
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.legalEntitySummary`)}>
           <p className="mb-4">{INCORPORATION_CLARIFICATION}</p>
           <p>
-            <LocalizedLink to="/legal-entity-information/" className="text-primary underline">Legal Entity Information</LocalizedLink>
-            {' · '}
-            <LocalizedLink to="/company-registration/" className="text-primary underline">Company Registration</LocalizedLink>
+            <LocalizedLink to="/company-profile/" className="text-primary underline">Company Profile</LocalizedLink>
           </p>
         </IdentitySection>
 
         <IdentitySection title={t(`pages.${PAGE_KEY}.sections.companyRegistration`)}>
           <p className="mb-4">
             {LEGAL_ENTITY_NAME} is incorporated in {JURISDICTION}. Certified incorporation documents
-            are available on the Company Registration page where published.
+            are available on the Company Profile page.
           </p>
-          <LocalizedLink to="/company-registration/" className="text-primary underline">View company registration →</LocalizedLink>
+          <LocalizedLink to="/company-profile/" className="text-primary underline">View company profile →</LocalizedLink>
         </IdentitySection>
 
         {/* <IdentitySection title={t(`pages.${PAGE_KEY}.sections.dubaiRepresentativeOffice`)}>

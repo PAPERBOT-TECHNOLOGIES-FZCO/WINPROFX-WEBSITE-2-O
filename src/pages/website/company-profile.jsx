@@ -73,7 +73,6 @@ const legalLinkPaths = [
   { key: 'privacy', path: '/policy' },
   { key: 'riskWarning', path: '/risk-warning' },
   { key: 'aml', path: '/aml-policy' },
-  { key: 'legalDocuments', path: '/legal-documents' },
   { key: 'restrictedCountries', path: '/restricted-countries' },
 ]
 
@@ -158,7 +157,7 @@ export default function CompanyProfile() {
               <RegistrationTable rows={legalEntitySummaryRows} />
             </div>
             <p className="mt-4">
-              <LocalizedLink to="/company-registration/" className="text-white underline hover:text-primary">
+              <LocalizedLink to="/company-profile/" className="text-white underline hover:text-primary">
                 {t('shared.viewCompanyRegistration')}
               </LocalizedLink>
             </p>
@@ -169,7 +168,7 @@ export default function CompanyProfile() {
                 ns="trust"
                 components={{
                   regulatoryLink: (
-                    <LocalizedLink to="/regulatory-information/" className="text-white underline hover:text-primary" />
+                    <LocalizedLink to="/company-profile/" className="text-white underline hover:text-primary" />
                   ),
                 }}
               />
@@ -272,7 +271,7 @@ export default function CompanyProfile() {
                 ns="trust"
                 components={{
                   officialDomainsLink: (
-                    <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary" />
+                    <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
                   ),
                 }}
               />
@@ -308,7 +307,7 @@ export default function CompanyProfile() {
                 ns="trust"
                 components={{
                   officialDomainsLink: (
-                    <LocalizedLink to="/official-domains/" className="text-white underline hover:text-primary" />
+                    <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
                   ),
                   verifyLink: (
                     <LocalizedLink to="/verify-winprofx/" className="text-white underline hover:text-primary" />
@@ -336,7 +335,7 @@ export default function CompanyProfile() {
                     <LocalizedLink to="/risk-warning/" className="text-white underline hover:text-primary" />
                   ),
                   legalDocsLink: (
-                    <LocalizedLink to="/legal-documents/" className="text-white underline hover:text-primary" />
+                    <LocalizedLink to="/policy/" className="text-white underline hover:text-primary" />
                   ),
                   termsLink: (
                     <LocalizedLink to="/terms/" className="text-white underline hover:text-primary" />
