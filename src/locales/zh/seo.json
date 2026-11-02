@@ -62,6 +62,10 @@
     "title": "博客 | 新闻与洞察 | WINPROFX",
     "description": "在 WINPROFX 获取最新金融资讯。我们的博客提供 Forex、加密货币、贵金属等领域的及时更新与专业分析。"
   },
+  "tradingview": {
+    "title": "TradingView Charting Partner | WINPROFX",
+    "description": "WinProfX has partnered with TradingView for its charting technology, offering clients advanced multi-asset charts and real-time market data."
+  },
   "analytics": {
     "title": "分析工具 | WINPROFX",
     "description": "使用 WINPROFX 分析工具优化您的交易。利用实时新闻、经济日历及 Trading Central 核心信号，立即提升您的交易策略！"

@@ -62,6 +62,10 @@
     "title": "Blog | Noticias e insights | WINPROFX",
     "description": "Manténgase informado con las últimas noticias financieras en WINPROFX. Nuestro blog ofrece actualizaciones oportunas y análisis experto sobre forex, cripto, metales y más."
   },
+  "tradingview": {
+    "title": "TradingView Charting Partner | WINPROFX",
+    "description": "WinProfX has partnered with TradingView for its charting technology, offering clients advanced multi-asset charts and real-time market data."
+  },
   "analytics": {
     "title": "Analítica | WINPROFX",
     "description": "Optimice su trading con las herramientas analíticas de WINPROFX. Use noticias en tiempo real, calendarios económicos y señales esenciales de Trading Central."

@@ -15,6 +15,7 @@ export const SEO_ROUTES = {
     // Individual blog post URLs are generated dynamically from Strapi CMS
     // in generate-sitemap.mjs → sitemap-blog.xml. Do not add slugs here.
     { path: '/introducing-broker/', priority: '0.7', changefreq: 'monthly' },
+    { path: '/tradingview/', priority: '0.6', changefreq: 'monthly' },
     { path: '/analytics/', priority: '0.6', changefreq: 'monthly' },
     { path: '/economic-calendar/', priority: '0.6', changefreq: 'monthly' },
     { path: '/currency-calculator/', priority: '0.6', changefreq: 'monthly' },
