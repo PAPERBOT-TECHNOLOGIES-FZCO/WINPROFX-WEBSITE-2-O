@@ -30,6 +30,7 @@ import Contact from '@/pages/website/contact'
 // import OfficialDomains from '@/pages/website/official-domains'
 import About from '@/pages/website/about'
 import RiskWarning from '@/pages/website/risk-warning'
+import TradingViewPartner from '@/pages/website/tradingview'
 // import LegalDocuments from '@/pages/website/legal-documents'
 import VerifyWINPROFX from '@/pages/website/verify-winprofx'
 // import CompanyRegistration from '@/pages/website/company-registration'
@@ -76,6 +77,7 @@ export const WEBSITE_ROUTE_DEFINITIONS = [
   { path: '/trading/trade-to-win', Component: TradeToWin },
   { path: '/introducing-broker', Component: IntroducingBroker },
   { path: '/platform', Component: Mt5Platform },
+  { path: '/tradingview', Component: TradingViewPartner },
   { path: '/accounts', Component: Accounts },
   { path: '/about-us', Component: AboutUs },
   { path: '/about', Component: About },

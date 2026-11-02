@@ -125,6 +125,7 @@ export const IDENTITY_PAGE_SCHEMA = {
   '/indices': { pageName: 'Indices Trading', breadcrumb: 'Indices Trading' },
   '/crypto': { pageName: 'Crypto CFD Trading', breadcrumb: 'Crypto CFD Trading' },
   '/platform': { pageName: 'MT5 Trading Platform', breadcrumb: 'MT5 Platform' },
+  '/tradingview': { pageName: 'WINPROFX and TradingView', breadcrumb: 'TradingView' },
   '/accounts': { pageName: 'Trading Accounts', breadcrumb: 'Account Types' },
   '/learn/what-is-forex-trading': { pageName: 'What Is Forex Trading', breadcrumb: 'What Is Forex Trading', learnParent: true },
   '/learn/what-is-cfd-trading': { pageName: 'What Is CFD Trading', breadcrumb: 'What Is CFD Trading', learnParent: true },
