@@ -127,12 +127,12 @@ export default function SupportAndEscalation() {
             <p>
               {t(`pages.${PAGE_KEY}.content.escalationIb`)}{' '}
               <a
-                href="https://partner.winprofx.com/"
+                href="https://my.winprofxpartner.com/"
                 className="text-white underline hover:text-primary"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                https://partner.winprofx.com/
+                https://my.winprofxpartner.com/
               </a>
             </p>
           </IdentitySection>

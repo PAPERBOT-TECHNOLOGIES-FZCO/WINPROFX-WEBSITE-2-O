@@ -19,7 +19,7 @@ export default function Contact() {
     { labelKey: 'phone', value: '+971 4 447 1894', href: 'tel:+97144471894', external: true },
     { labelKey: 'officialWebsite', value: 'winprofx.com', href: 'https://winprofx.com/', external: true },
     { labelKey: 'clientPortal', value: 'my.winprofx.com', href: 'https://my.winprofx.com/', external: true },
-    { labelKey: 'partnerPortal', value: 'partner.winprofx.com', href: 'https://partner.winprofx.com/', external: true },
+    { labelKey: 'partnerPortal', value: 'my.winprofxpartner.com', href: 'https://my.winprofxpartner.com/', external: true },
   ]
 
   return (
@@ -47,7 +47,7 @@ export default function Contact() {
                 {t('contact.introP2ClientPortal')}
               </a>
               . {t('contact.introP2Middle')}{' '}
-              <a href="https://partner.winprofx.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+              <a href="https://my.winprofxpartner.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
                 {t('contact.introP2PartnerPortal')}
               </a>
               .

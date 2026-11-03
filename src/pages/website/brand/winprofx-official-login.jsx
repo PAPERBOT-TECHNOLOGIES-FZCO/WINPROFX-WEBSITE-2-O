@@ -61,11 +61,11 @@ export default function WinprofxOfficialLogin() {
             Introducing brokers and partners access the official partner portal at:
           </p>
           <a
-            href="https://partner.winprofx.com/"
+            href="https://my.winprofxpartner.com/"
             className="inline-block rounded-lg border border-white/20 px-6 py-3 text-white hover:border-primary transition-colors"
             rel="noopener noreferrer"
           >
-            Partner Portal — partner.winprofx.com
+            Partner Portal — my.winprofxpartner.com
           </a>
         </IdentitySection>
 

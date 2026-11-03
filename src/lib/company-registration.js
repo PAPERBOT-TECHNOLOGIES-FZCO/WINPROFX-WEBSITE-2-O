@@ -102,7 +102,7 @@ export const officialDomainsWithLabels = [
     external: true,
   },
   {
-    url: 'https://partner.winprofx.com/',
+    url: 'https://my.winprofxpartner.com/',
     label: 'Official partner / IB portal',
     external: true,
   },
@@ -205,8 +205,8 @@ export const registrationDetailsRows = [
   },
   {
     label: 'Partner Portal',
-    value: 'https://partner.winprofx.com/',
-    href: 'https://partner.winprofx.com/',
+    value: 'https://my.winprofxpartner.com/',
+    href: 'https://my.winprofxpartner.com/',
     external: true,
   },
 ]

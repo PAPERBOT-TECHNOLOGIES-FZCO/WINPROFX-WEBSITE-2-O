@@ -90,8 +90,8 @@ export default function About() {
               </li>
               <li>
                 <strong className="text-white">Partner / IB login:</strong>{' '}
-                <a href="https://partner.winprofx.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
-                  https://partner.winprofx.com/
+                <a href="https://my.winprofxpartner.com/" className="text-white underline hover:text-primary" target="_blank" rel="noopener noreferrer">
+                  https://my.winprofxpartner.com/
                 </a>
               </li>
             </ul>

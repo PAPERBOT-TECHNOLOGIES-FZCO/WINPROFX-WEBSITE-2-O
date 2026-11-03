@@ -45,7 +45,7 @@ const brandInfoValues = {
   alternateDomain: { value: 'https://winprofx.com/', href: 'https://winprofx.com/', external: true },
   uaeDomain: { value: 'https://winprofx.ae/', href: 'https://winprofx.ae/', external: true },
   clientPortal: { value: 'https://my.winprofx.com/', href: 'https://my.winprofx.com/', external: true },
-  partnerPortal: { value: 'https://partner.winprofx.com/', href: 'https://partner.winprofx.com/', external: true },
+  partnerPortal: { value: 'https://my.winprofxpartner.com/', href: 'https://my.winprofxpartner.com/', external: true },
   supportEmail: { value: SUPPORT_EMAIL, href: `mailto:${SUPPORT_EMAIL}`, external: true },
   lastUpdated: { value: '2 June 2026' },
 }
@@ -55,7 +55,7 @@ const domainGuidance = [
   { key: 'com', domain: 'winprofx.com', url: 'https://winprofx.com/', external: true },
   { key: 'ae', domain: 'winprofx.ae', url: 'https://winprofx.ae/', external: true },
   { key: 'my', domain: 'my.winprofx.com', url: 'https://my.winprofx.com/', external: true },
-  { key: 'partner', domain: 'partner.winprofx.com', url: 'https://partner.winprofx.com/', external: true },
+  { key: 'partner', domain: 'my.winprofxpartner.com', url: 'https://my.winprofxpartner.com/', external: true },
 ]
 
 const serviceKeys = ['forexCfd', 'platform', 'clientAccount', 'partnerPortal', 'tools', 'support']

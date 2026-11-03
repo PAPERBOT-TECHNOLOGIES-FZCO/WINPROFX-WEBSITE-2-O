@@ -75,7 +75,7 @@ export default function WinprofxFakeWebsiteWarning() {
           <p className="mb-4">
             Client login: <a href="https://my.winprofx.com/" className="text-primary underline" rel="noopener noreferrer">https://my.winprofx.com/</a>
             <br />
-            Partner portal: <a href="https://partner.winprofx.com/" className="text-primary underline" rel="noopener noreferrer">https://partner.winprofx.com/</a>
+            Partner portal: <a href="https://my.winprofxpartner.com/" className="text-primary underline" rel="noopener noreferrer">https://my.winprofxpartner.com/</a>
           </p>
           <Link to="/winprofx-official-login/" className="text-primary underline">Official login guidance →</Link>
         </IdentitySection>
