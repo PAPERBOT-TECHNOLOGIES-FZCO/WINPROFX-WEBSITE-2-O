@@ -45,7 +45,10 @@ export const LOCALE_SEO_READY = {
  * Example staged rollout:
  * PAGE_LOCALE_SEO_READY['/forex'] = { hi: true }
  */
-export const PAGE_LOCALE_SEO_READY = {}
+export const PAGE_LOCALE_SEO_READY = {
+  // English only: the partner statement is kept verbatim from the TradingView email thread.
+  '/tradingview': { es: false },
+}
 
 const INDEXABLE_PATHS = new Set(getIndexablePagePaths())
 

@@ -82,6 +82,7 @@ export default function Footer() {
       links: [
         { nameKey: 'links.home', path: '/' },
         { nameKey: 'links.platform', path: '/platform/' },
+        { nameKey: 'links.tradingview', path: '/tradingview/' },
         { nameKey: 'links.aboutUs', path: '/about-us/' },
         { nameKey: 'links.about', path: '/about/' },
         // { nameKey: 'links.companyProfile', path: '/company-profile/' },
