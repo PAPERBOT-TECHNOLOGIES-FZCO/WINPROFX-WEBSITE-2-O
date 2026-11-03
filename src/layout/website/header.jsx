@@ -31,6 +31,7 @@ export default function Header() {
       children: [
         { btn_title: t('platform'), to: '/platform' },
         { btn_title: t('accounts'), to: '/accounts' },
+        { btn_title: t('tradingview'), to: '/tradingview' },
       ],
     },
     {
