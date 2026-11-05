@@ -116,3 +116,16 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# SECURITY (findings #103 / #113): the marketing site shipped no security
+# response headers. Deny cross-origin framing (clickjacking) and enforce HTTPS.
+# HSTS deliberately omits includeSubDomains: winprofx.com is an apex whose
+# subdomains (my./api./etc.) are separate deployments and must set their own HSTS.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000"
+    Content-Security-Policy = "frame-ancestors 'self'"
