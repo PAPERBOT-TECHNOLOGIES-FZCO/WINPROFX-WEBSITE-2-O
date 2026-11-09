@@ -150,5 +150,39 @@
     "title": "Embark on Mastery: Unleash Your Skills with the WINPROFX Demo Experience!",
     "description": "Embark on your trading journey with a complimentary 21-day MT5 demo account. Unveil the power of our award-winning Best Forex Trading Strategies Platform risk-free – register now and explore the art of precision trading.",
     "button": "Try MT5 Platform Demo"
+  },
+  "competition": {
+    "badge": "Live Campaign",
+    "title": "WINPROFX Trading Competition",
+    "description": "Deposit, trade, and win exclusive prizes. Three tiers, three prize pools — choose your level and compete for extraordinary rewards.",
+    "depositBtn": "Deposit {{amount}}",
+    "tcNote": "* Terms & Conditions apply. Only the first-time deposit counts for the competition.",
+    "cta": {
+      "title": "Ready to compete?",
+      "subtitle": "Deposit now and start trading your way to the top."
+    },
+    "tabs": {
+      "$100": {
+        "prizes": [
+          { "place": "1st Place", "label": "Continental GT 650 Bike" },
+          { "place": "2nd – 10th Place", "label": "Luxury Cruise Trip" }
+        ]
+      },
+      "$300": {
+        "prizes": [
+          { "place": "1st Place", "label": "Mahindra Thar" },
+          { "place": "2nd Place", "label": "MacBook Air" },
+          { "place": "3rd Place", "label": "PlayStation 5" },
+          { "place": "4th Place", "label": "Couple's Cruise Trip" }
+        ]
+      },
+      "$1000": {
+        "prizes": [
+          { "place": "1st Place", "label": "Mercedes" },
+          { "place": "2nd Place", "label": "Thailand Trip + Private Jet Experience" },
+          { "place": "3rd Place", "label": "Private Jet Experience" }
+        ]
+      }
+    }
   }
 }

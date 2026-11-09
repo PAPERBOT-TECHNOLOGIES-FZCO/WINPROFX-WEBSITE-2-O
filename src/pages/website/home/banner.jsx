@@ -319,8 +319,23 @@ const tcItems = [
 function TradingCompetition() {
     const [activeTab, setActiveTab] = useState('$100')
     const [expandedTc, setExpandedTc] = useState(null)
+    const { t, i18n } = useTranslation('homepage')
 
-    const currentTab = competitionTabs.find(t => t.id === activeTab)
+    // Build localised tabs from i18n, falling back to hardcoded images/ids
+    const localisedTabs = competitionTabs.map(tab => {
+        const tabKey = tab.id === '$1000' ? '$1000' : tab.id
+        const localPrizes = i18n.getResource(i18n.language, 'homepage', `competition.tabs.${tabKey}.prizes`)
+        return {
+            ...tab,
+            prizes: tab.prizes.map((prize, idx) => ({
+                ...prize,
+                place: localPrizes?.[idx]?.place ?? prize.place,
+                label: localPrizes?.[idx]?.label ?? prize.label,
+            })),
+        }
+    })
+
+    const currentTab = localisedTabs.find(tab => tab.id === activeTab)
 
     const toggleTc = useCallback((idx) => {
         setExpandedTc(prev => (prev === idx ? null : idx))
@@ -344,13 +359,13 @@ function TradingCompetition() {
                 >
                     <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/5 text-xs uppercase tracking-widest text-white/60 font-medium">
                         <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                        Live Campaign
+                        {t('competition.badge')}
                     </span>
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-black h1graident leading-tight">
-                        WINPROFX Trading<br />Competition
+                        {t('competition.title')}
                     </h2>
                     <p className="text-para2 max-w-160 text-base md:text-lg">
-                        Deposit, trade, and win exclusive prizes. Three tiers, three prize pools — choose your level and compete for extraordinary rewards.
+                        {t('competition.description')}
                     </p>
                 </motion.div>
 
@@ -375,7 +390,7 @@ function TradingCompetition() {
                                             : 'text-white/50 hover:text-white/80'
                                     }`}
                                 >
-                                    Deposit {tab.label}
+                                    {t('competition.depositBtn', { amount: tab.label })}
                                 </button>
                             ))}
                         </div>
@@ -419,7 +434,7 @@ function TradingCompetition() {
 
                 {/* T&C Note */}
                 <p className="text-white/40 text-xs text-center -mt-6">
-                    * Terms &amp; Conditions apply. Only the first-time deposit counts for the competition.
+                    {t('competition.tcNote')}
                 </p>
 
                 {/* Deposit CTA strip */}
@@ -431,8 +446,8 @@ function TradingCompetition() {
                     className="flex flex-col sm:flex-row items-center justify-between gap-6 rounded-2xl border border-white/10 bg-white/4 backdrop-blur-sm px-6 py-6 md:px-10 md:py-8"
                 >
                     <div className="flex flex-col gap-y-1 text-center sm:text-left">
-                        <span className="text-white font-bold text-lg md:text-xl">Ready to compete?</span>
-                        <span className="text-white/50 text-sm">Deposit now and start trading your way to the top.</span>
+                        <span className="text-white font-bold text-lg md:text-xl">{t('competition.cta.title')}</span>
+                        <span className="text-white/50 text-sm">{t('competition.cta.subtitle')}</span>
                     </div>
                     <Button animation={false} />
                 </motion.div>

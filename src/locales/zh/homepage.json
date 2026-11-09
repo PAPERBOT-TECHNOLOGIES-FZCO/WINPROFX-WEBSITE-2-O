@@ -3,6 +3,7 @@
     "title": "您的盈利交易之路，从这里开始",
     "description": "WINPROFX 是一家享誉全球的经纪商，提供极低点差、闪电般快速提款、300+ 可交易品种，以及指尖上的纳秒级执行速度。",
     "badge": "与 2026 年最佳 Forex 经纪商一起投资",
+    "trustedBy": "超过 1000 万交易者的信赖之选",
     "stats": {
       "evolving": {
         "title": "持续进化",
@@ -149,5 +150,39 @@
     "title": "开启精通之旅：释放您的技能，体验 WINPROFX 模拟账户！",
     "description": "开启您的交易之旅——免费 21 天 MT5 模拟账户。零风险体验我们屡获殊荣的最佳 Forex 交易策略平台——立即注册，探索精准交易之道。",
     "button": "试用 MT5 模拟平台"
+  },
+  "competition": {
+    "badge": "活动进行中",
+    "title": "WINPROFX 交易竞赛",
+    "description": "入金、交易，赢取专属大奖。三个级别，三个奖池——选择您的级别，角逐非凡奖励。",
+    "depositBtn": "入金 {{amount}}",
+    "tcNote": "* 条款与条件适用。仅首次入金计入竞赛资格。",
+    "cta": {
+      "title": "准备好参赛了吗？",
+      "subtitle": "立即入金，开始交易，冲击榜首。"
+    },
+    "tabs": {
+      "$100": {
+        "prizes": [
+          { "place": "第 1 名", "label": "Continental GT 650 摩托车" },
+          { "place": "第 2 – 10 名", "label": "豪华游轮之旅" }
+        ]
+      },
+      "$300": {
+        "prizes": [
+          { "place": "第 1 名", "label": "Mahindra Thar 越野车" },
+          { "place": "第 2 名", "label": "MacBook Air" },
+          { "place": "第 3 名", "label": "PlayStation 5" },
+          { "place": "第 4 名", "label": "情侣游轮之旅" }
+        ]
+      },
+      "$1000": {
+        "prizes": [
+          { "place": "第 1 名", "label": "奔驰轿车" },
+          { "place": "第 2 名", "label": "泰国之旅 + 私人飞机体验" },
+          { "place": "第 3 名", "label": "私人飞机体验" }
+        ]
+      }
+    }
   }
 }

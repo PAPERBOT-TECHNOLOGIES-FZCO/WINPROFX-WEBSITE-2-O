@@ -6,6 +6,7 @@ import Card from '@/components/trade/card';
 import Cta from '@/components/trade/cta';
 import CommonBanner from '@/components/common-banner';
 import img from '@/assets/img/trade/forex.png'
+import banner_bg from '@/assets/img/trade/forex-banner-bg.png'
 import SeoHead from '@/components/seo-head'
 import MarketPageTrustLinks from '@/components/trust/market-page-trust-links'
 import { useSeo } from '@/hooks/use-seo'
@@ -34,6 +35,8 @@ export default function Forex() {
         <>
             <SeoHead {...seo} canonicalPath="/forex" />
             <CommonBanner
+                bg={banner_bg}
+                bgClass="bottom-0 md:left-1/2 md:-translate-x-1/2 w-full object-contain w-auto h-auto"
                 title={t('forex.banner.title')}
                 des={t('forex.banner.description')}
             />

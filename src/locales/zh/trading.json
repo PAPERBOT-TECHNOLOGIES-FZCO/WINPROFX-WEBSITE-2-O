@@ -441,6 +441,48 @@
       "metals": {
         "title": "在 WINPROFX 进行黄金与贵金属交易",
         "des": ""
+      },
+      "bestForexBroker2026": {
+        "title": "Winprofx 2026 年评测：为何交易者将其列为顶级 Forex 经纪商",
+        "des": "荣获大奖的 STP 执行机制、MT5 平台、低最低入金要求及快速提款——用简明语言进行全面评测。",
+        "url": "/winprofx-best-forex-broker-2026",
+        "category": ["forex"]
+      },
+      "forexExpoDubai2026": {
+        "title": "WINPROFX 将作为精英赞助商亮相全球最大 Forex 博览会",
+        "des": "9 月 22-23 日，在迪拜 Forex 博览会 2026 与 WINPROFX 相遇。探索其多资产交易解决方案，并在 155 号展位与团队交流。",
+        "url": "/winprofx-forex-expo-dubai-2026",
+        "category": ["forex"]
+      },
+      "whyDubaiForexHub": {
+        "title": "为何迪拜正成为全球 Forex 与金融科技中心？",
+        "des": "了解迪拜为何成为全球 Forex 与金融科技中心，以及其金融增长对 WINPROFX 等现代交易者和平台意味着什么。",
+        "url": "/why-dubai-global-forex-fintech-hub",
+        "category": ["forex"]
+      },
+      "goldTrading2026": {
+        "title": "2026 年黄金交易：波动性、趋势与前景展望",
+        "des": "了解黄金在 2026 年的表现、推动全球金价的因素、主要波动时段，以及 WINPROFX 如何让黄金交易更顺畅。",
+        "url": "/gold-trading-in-2026",
+        "category": ["metals"]
+      },
+      "winprofxJourney4Years": {
+        "title": "从愿景到全球市场：WINPROFX 4 年以上的发展历程",
+        "des": "了解 WINPROFX 4 年以上的发展历程——从最初的愿景到提供 Forex、指数、加密货币、贵金属、大宗商品及原油的多资产交易环境。",
+        "url": "/winprofx-journey-4-years",
+        "category": ["forex"]
+      },
+      "oilMarketOutlook2026": {
+        "title": "2026 年原油市场展望：原油交易是否仍具价值？",
+        "des": "探讨 2026 年原油市场展望、关键价格驱动因素、供应风险、需求趋势，以及交易者在进行原油 CFD 交易时应关注的要点。",
+        "url": "/oil-market-outlook-2026",
+        "category": ["commodities"]
+      },
+      "usdJpyMarketOutlook2026": {
+        "title": "2026 年美元/日元市场展望：什么将推动日元走势？",
+        "des": "探讨 2026 年推动美元/日元的因素——日本央行加息、美联储政策、油价、干预风险及全球套利交易——以及交易者下一步应关注什么。",
+        "url": "/usdjpy-market-outlook-2026",
+        "category": ["forex"]
       }
     },
     "postKeys": [
