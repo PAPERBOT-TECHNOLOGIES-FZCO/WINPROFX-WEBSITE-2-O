@@ -24,7 +24,7 @@
   "forex": {
     "banner": {
       "title": "Forex 交易",
-      "description": "在外汇市场 24/5 交易各类资产。我们提供 50 多种主要、次要及 exotic 货币对，具备极具竞争力的 Spread、精准报价、快速执行及 0% 佣金。"
+      "description": "在外汇市场 24/5 交易各类资产。我们提供 50 多种主要、次要及 exotic 货币对，具备极具竞争力的点差、精准报价、快速执行及 0% 佣金。"
     },
     "card": {
       "meta": "Forex 交易",
@@ -104,7 +104,7 @@
       "meta": "金属交易",
       "title": "金属交易",
       "description1": "现货金属交易在每位交易者心中都占有特殊地位。自古以来，金属便吸引着全球交易者，这一趋势延续至今。",
-      "description2": "WINPROFX Trader 根据您的核心兴趣与偏好，提供各类金属的超低 Spread。交易金属 CFD 前，请查阅账户类型及风险警告。"
+      "description2": "WINPROFX Trader 根据您的核心兴趣与偏好，提供各类金属的超低点差。交易金属 CFD 前，请查阅账户类型及风险警告。"
     },
     "card": {
       "meta": "金属交易",

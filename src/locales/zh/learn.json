@@ -134,18 +134,18 @@
     "whatIsSpreadInTrading": {
       "slug": "what-is-spread-in-trading",
       "path": "/learn/what-is-spread-in-trading/",
-      "title": "交易中的 Spread 是什么？ | WINPROFX Learn",
-      "description": "了解买卖价差（Spread）、Spread 如何影响交易成本，以及不同品种的 Spread 为何存在差异。",
-      "h1": "交易中的 Spread 是什么？",
-      "breadcrumb": "交易中的 Spread",
+      "title": "交易中的点差是什么？ | WINPROFX Learn",
+      "description": "了解买卖价差（点差）、点差如何影响交易成本，以及不同品种的点差为何存在差异。",
+      "h1": "交易中的点差是什么？",
+      "breadcrumb": "交易中的点差",
       "sections": {
         "definition": {
           "title": "定义",
-          "body": "Spread 是某品种的买价（ask）与卖价（bid）之间的差额。在适用情况下，它是除佣金和隔夜利息之外的主要交易成本之一。"
+          "body": "点差是某品种的买价（ask）与卖价（bid）之间的差额。在适用情况下，它是除佣金和隔夜利息之外的主要交易成本之一。"
         },
         "variableSpreads": {
-          "title": "浮动 Spread",
-          "body": "在流动性较低、新闻事件或市场波动期间，Spread 可能扩大。公布的 Spread 示例仅供参考，实际成交时可能有所不同。"
+          "title": "浮动点差",
+          "body": "在流动性较低、新闻事件或市场波动期间，点差可能扩大。公布的点差示例仅供参考，实际成交时可能有所不同。"
         }
       },
       "links": {
