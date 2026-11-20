@@ -406,8 +406,9 @@
   "blog": {
     "meta": "BLOG",
     "h1": "Blog",
-    "pageMeta": "Blog",
-    "pageTitle": "WINPROFX Blog",
+    "pageMeta": "",
+    "pageTitle": "Market Insights",
+    "heroDescription": "Follow forex, indices, commodities, and global market trends with timely analysis and trading insights.",
     "categories": {
       "all": "All",
       "forex": "Forex",

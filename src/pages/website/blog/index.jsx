@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom';
 import { Container } from '@/components/grid'
-import PolicyTitle from '@/components/policy/policy-title'
 import { motion as Motion } from 'framer-motion';
 import { y, duration, once } from '@/utilities/animation'
 import SeoHead from '@/components/seo-head'
@@ -10,6 +9,7 @@ import { useSeo } from '@/hooks/use-seo'
 import useCmsArticles from '@/hooks/use-cms-articles'
 
 import shape from '@/assets/img/blog/shape.png'
+import blogHeroBanner from '@/assets/img/blog/blog-hero-banner.jpg'
 
 
 export default function Blog() {
@@ -38,12 +38,23 @@ export default function Blog() {
       />
             <img src={shape} className='absolute top-0 right-0 max-w-full -z-10 pointer-events-none blur-[140px]' alt="" />
             <Container>
-                <PolicyTitle
-                    as="h1"
-                    meta={t('blog.pageMeta')}
-                    title={t('blog.pageTitle')}
-                    className={"md:text-start! max-w-175"}
-                />
+                {/* Hero banner */}
+                <div className="relative w-full rounded-2xl md:rounded-3xl overflow-hidden mb-10 md:mb-14">
+                    <img
+                        src={blogHeroBanner}
+                        alt="Market Insights"
+                        className="w-full h-52 sm:h-72 md:h-88 lg:h-100 object-cover object-center"
+                    />
+                    <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/40 to-transparent" />
+                    <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-10 lg:px-14 gap-y-3 md:gap-y-4">
+                        <h1 className="text-3xl md:text-5xl lg:text-6xl font-black heading-gradient-2 leading-tight">
+                            {t('blog.pageTitle')}
+                        </h1>
+                        <p className="text-para2 text-sm md:text-base max-w-120">
+                            {t('blog.heroDescription')}
+                        </p>
+                    </div>
+                </div>
                 <div id="blog-listing" className="scroll-mt-28 flex flex-wrap gap-y-2 gap-x-2 mb-4 md:mb-5 lg:mb-6">
                     {categorys.map((item, idx) => (
                         <button onClick={() => { set_active_category(item); setPage(1) }} key={idx} className={`inline-flex items-center justify-center font-medium min-h-9 md:min-h-10.5 rounded-full px-4 md:px-5 lg:px-6 min-w-12 md:min-w-17 hover:bg-primary hover:text-black ${item.key === active_category.key ? 'bg-primary text-black' : 'bg-white/8 text-white'}`}>{item.name}</button>

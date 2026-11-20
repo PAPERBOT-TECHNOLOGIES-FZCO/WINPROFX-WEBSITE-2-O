@@ -406,8 +406,9 @@
   "blog": {
     "meta": "博客",
     "h1": "博客",
-    "pageMeta": "博客",
-    "pageTitle": "WINPROFX 博客",
+    "pageMeta": "",
+    "pageTitle": "市场洞察",
+    "heroDescription": "追踪 Forex、指数、大宗商品及全球市场动态，获取及时的分析与交易洞察。",
     "categories": {
       "all": "全部",
       "forex": "Forex",
